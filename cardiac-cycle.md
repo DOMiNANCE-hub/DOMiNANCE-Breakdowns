@@ -158,31 +158,31 @@ When heart rate increases, the cardiac cycle becomes shorter. **Diastole shorten
 ## Understanding Check
 
 **1. Left ventricular pressure exceeds left atrial pressure but remains below aortic pressure. Which valves are open, and what happens to ventricular volume?**
-<details><summary>Reveal answer</summary><p>Neither valve is open: the mitral valve has closed but the aortic valve remains closed. During <strong>isovolumetric contraction</strong>, pressure rises while volume stays at EDV.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Both the mitral and aortic valves are closed.</strong> Ventricular pressure has reversed the mitral gradient, closing that valve, but has not yet exceeded aortic pressure to open the aortic valve. The ventricle is in <strong>isovolumetric contraction</strong>: pressure increases while blood volume remains at approximately EDV.</p></details>
 
-**2. Why can the ventricle contract without immediately ejecting blood?**
-<details><summary>Reveal answer</summary><p>Contraction develops pressure. Until ventricular pressure exceeds aortic pressure, the aortic valve cannot open and blood cannot be ejected.</p></details>
+**2. During early ventricular ejection, ventricular volume decreases while ventricular pressure may still rise. How can both occur simultaneously?**
+<details><summary>Reveal explanation</summary><p><strong>Volume and pressure measure different things.</strong> Once left ventricular pressure exceeds aortic pressure, the aortic valve opens and blood leaves, so volume falls. Meanwhile, myocardial contraction may continue generating greater force early in ejection, allowing ventricular pressure to continue rising despite the decreasing blood volume. Ejection does not require pressure to be falling.</p></details>
 
-**3. What event changes isovolumetric contraction into ejection?**
-<details><summary>Reveal answer</summary><p>Ventricular pressure rises above outflow arterial pressure; the corresponding semilunar valve opens and blood begins leaving the ventricle.</p></details>
+**3. Ventricular repolarisation has begun, but the aortic valve remains open and blood is still being ejected. Is this physiologically possible? Explain.**
+<details><summary>Reveal explanation</summary><p><strong>Yes.</strong> Ventricular repolarisation (the T wave) occurs during late systole, but electrical recovery does not instantly end mechanical force or forward blood flow. The aortic valve can remain open while ventricular pressure and flow conditions still favour ejection. It closes when aortic pressure exceeds left ventricular pressure and the pressure gradient reverses.</p></details>
 
 **4. Why does the mitral valve remain closed just after the aortic valve closes?**
-<details><summary>Reveal answer</summary><p>Ventricular pressure is still greater than atrial pressure. During isovolumetric relaxation it falls until atrial pressure becomes greater and the mitral valve reopens.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Left ventricular pressure is still above left atrial pressure.</strong> The aortic valve closes when aortic pressure becomes greater than ventricular pressure. That event does not automatically open the mitral valve: ventricular pressure must fall further, below atrial pressure. While both are closed, the ventricle undergoes <em>isovolumetric relaxation</em>.</p></details>
 
 **5. The atrium is not contracting, yet its pressure rises during ventricular systole. Which wave explains this, and why?**
-<details><summary>Reveal answer</summary><p>The <strong>v wave</strong>: pulmonary venous blood continues to fill the left atrium while the mitral valve is closed.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>The v wave.</strong> Pulmonary venous blood continues entering the left atrium while the mitral valve is closed during ventricular systole. Blood accumulates, increasing atrial pressure without requiring atrial contraction. When the mitral valve reopens, the accumulated blood can flow into the ventricle.</p></details>
 
-**6. Ventricular pressure falls rapidly while volume remains fixed at its minimum value. Identify the phase.**
-<details><summary>Reveal answer</summary><p><strong>Isovolumetric relaxation.</strong> Both valves are closed, so volume stays at ESV even as pressure falls.</p></details>
+**6. Ventricular pressure falls rapidly while volume remains fixed at its minimum value. Identify the phase and valve positions.**
+<details><summary>Reveal explanation</summary><p><strong>Isovolumetric relaxation.</strong> The aortic valve has closed after ventricular pressure fell below aortic pressure; the mitral valve has not yet opened because ventricular pressure remains above atrial pressure. With both valves closed, ventricular pressure can decrease while volume stays at <strong>ESV</strong>.</p></details>
 
-**7. EDV is 140 mL and ESV is 60 mL. Calculate SV and EF.**
-<details><summary>Reveal answer</summary><p>SV = 140 − 60 = <strong>80 mL</strong>. EF = (80 ÷ 140) × 100 = <strong>57.1%</strong>.</p></details>
+**7. End-diastolic volume is 140 mL and end-systolic volume is 60 mL. Calculate stroke volume and ejection fraction.**
+<details><summary>Reveal explanation</summary><p><strong>SV = EDV − ESV = 140 − 60 = 80 mL.</strong> <strong>EF = (SV ÷ EDV) × 100 = (80 ÷ 140) × 100 ≈ 57.1%.</strong> Stroke volume is the actual volume ejected; ejection fraction expresses it as a percentage of the blood present at end-diastole.</p></details>
 
 **8. Why may right ventricular ejection begin before left ventricular ejection?**
-<details><summary>Reveal answer</summary><p>Right ventricular pressure can exceed the much lower pulmonary arterial diastolic pressure before left ventricular pressure exceeds aortic diastolic pressure.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>The right ventricle ejects against a much lower arterial pressure.</strong> Pulmonary arterial diastolic pressure is normally far below aortic diastolic pressure. Even with closely timed ventricular activation, right ventricular pressure may surpass the pulmonary arterial pressure threshold first, opening the pulmonary valve before the aortic valve.</p></details>
 
-**9. Why might extreme tachycardia reduce stroke volume?**
-<details><summary>Reveal answer</summary><p>Diastole becomes too short for adequate filling. EDV can fall, reducing the blood available for ejection.</p></details>
+**9. Why might extreme tachycardia reduce stroke volume even though ventricular contractions occur more frequently?**
+<details><summary>Reveal explanation</summary><p><strong>Diastole shortens disproportionately as heart rate rises.</strong> At very high rates, the ventricles may not have enough time to fill, reducing EDV and the blood available for each ejection. Therefore <strong>stroke volume may decrease</strong>; whether overall cardiac output increases or falls depends on the product CO = HR × SV.</p></details>
 
 ## Chapter Essentials
 
