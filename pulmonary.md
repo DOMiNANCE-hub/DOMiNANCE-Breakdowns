@@ -77,3 +77,11 @@ When an alveolar region is poorly oxygenated, nearby pulmonary arterioles constr
 **12. Why might lying flat worsen orthopnoea?**
 
 <details><summary>Show explanation</summary>Recumbency increases central and pulmonary blood volume, aggravating congestion in a failing left heart.</details>
+
+## Chapter Essentials
+
+1. Right and left outputs are equal over time.
+2. Low pulmonary resistance reflects recruitment and distension.
+3. Gravity changes regional perfusion and West-zone relationships.
+4. Low alveolar oxygen causes local pulmonary vasoconstriction.
+5. Diffuse hypoxia and high venous pressure can impair lung function.
