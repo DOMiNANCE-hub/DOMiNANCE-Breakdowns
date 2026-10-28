@@ -178,7 +178,7 @@ jobs:
                 await page.waitForTimeout(180);
                 if(!(await page.locator('h1').innerText()).includes('Complex concepts.'))throw Error('wordmark failed to return platform home');
                 await page.goto('http://127.0.0.1:8000/#/physiology/cvs/heart-sounds',{waitUntil:'load'});
-                if(!(await page.locator('h1').innerText()).includes('Heart Sounds'))throw Error('deep chapter route broken');
+                if(!(await page.locator('h1').first().innerText()).includes('Heart Sounds'))throw Error('deep chapter route broken');
                 console.log('PASS platform landing, CVS catalogue, deep-link and wordmark navigation');
               }
               console.log('PASS '+width+'px');
