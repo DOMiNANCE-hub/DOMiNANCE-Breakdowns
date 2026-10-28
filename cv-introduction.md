@@ -122,24 +122,29 @@ Electrical activation normally precedes contraction, allowing the atria and vent
 ## Understanding Check
 
 **1. Why must the right and left ventricles pump approximately equal volumes of blood per minute?**
-
-<details><summary>Reveal explanation</summary><p>The pulmonary and systemic circulations are connected in series. Blood pumped by the right ventricle passes through the lungs before reaching the left ventricle. If their outputs remained unequal, blood would progressively accumulate in one circulation rather than maintaining a stable distribution.</p></details>
+<details><summary>Reveal explanation</summary><p>The two circulations are arranged <strong>in series</strong>: blood ejected by the right ventricle passes through the lungs and then returns to the left ventricle. If one side persistently pumped more than the other, blood would accumulate in the circulation receiving the greater output, raising its pressures. Approximately equal long-term outputs therefore prevent progressive congestion.</p></details>
 
 **2. Why does the left ventricle have a thicker muscular wall than the right ventricle?**
+<details><summary>Reveal explanation</summary><p><strong>The left ventricle must generate higher pressure</strong> because systemic vascular resistance is much greater than pulmonary vascular resistance. More myocardial muscle permits greater pressure generation. Both ventricles normally pump approximately the same volume per minute; wall thickness differs primarily because of the pressure load, not because the left ventricle must pump more blood.</p></details>
 
-<details><summary>Reveal explanation</summary><p>The systemic circulation offers greater resistance to blood flow than the pulmonary circulation. Consequently, the left ventricle must generate higher pressure to maintain blood flow through the body, requiring a thicker muscular wall. The right ventricle pumps blood through the lower-resistance pulmonary circulation and therefore operates at much lower pressure.</p></details>
-
-**3. A blood vessel carries oxygenated blood towards the heart. Is it an artery or a vein? Explain.**
-
-<details><summary>Reveal explanation</summary><p>It is a vein. Blood vessels are classified by the direction in which they carry blood relative to the heart, not by oxygen content. Pulmonary veins, for example, carry oxygenated blood from the lungs towards the left atrium.</p></details>
+**3. A vessel carries oxygenated blood towards the heart. Is it an artery or a vein? Explain.**
+<details><summary>Reveal explanation</summary><p><strong>A vein.</strong> Arteries are defined by carrying blood away from the heart; veins carry blood towards it, regardless of oxygen content. Pulmonary veins are the relevant example: they return oxygenated blood from the lungs to the left atrium.</p></details>
 
 **4. Does ventricular contraction always mean blood is being ejected?**
+<details><summary>Reveal explanation</summary><p><strong>No.</strong> Early ventricular contraction raises intraventricular pressure while both the AV and semilunar valves are closed. This is <em>isovolumetric contraction</em>. Ejection starts only when ventricular pressure exceeds the pressure in the pulmonary artery or aorta and opens the corresponding outflow valve.</p></details>
 
-<details><summary>Reveal explanation</summary><p>No. At the beginning of ventricular systole, the ventricles first develop pressure while their outflow valves remain closed. Blood is ejected only when ventricular pressure exceeds the pressure in the corresponding outflow artery. This initial period is called <em>isovolumetric contraction</em> and will be discussed in the Cardiac Cycle chapter.</p></details>
+**5. During atrial systole, are the ventricles also contracting? Explain the timing.**
+<details><summary>Reveal explanation</summary><p><strong>Normally, no.</strong> Atrial systole occurs near the end of ventricular diastole. The AV nodal conduction delay helps ensure atrial contraction contributes its final portion of ventricular filling before ventricular systole starts. Most filling has already occurred passively.</p></details>
 
-**5. During atrial systole, are the ventricles also in systole?**
+## Chapter Essentials
 
-<details><summary>Reveal explanation</summary><p>Normally, no. Atrial systole occurs near the end of ventricular diastole, allowing atrial contraction to contribute to ventricular filling before ventricular systole begins.</p></details>
+1. **Systemic and pulmonary circulations operate in series:** long-term right and left ventricular outputs must be approximately equal.
+2. **Arteries and veins:** defined by direction of blood movement relative to the heart, not oxygenation.
+3. **Left versus right ventricle:** similar flow, different pressure loads; the left ventricle has a thicker muscular wall.
+4. **Systole and diastole:** contraction and relaxation are coordinated but differ between atria and ventricles.
+5. **Atrial systole:** normally completes ventricular filling near the end of ventricular diastole.
+6. **Electrical activation precedes mechanical contraction:** the conducting system coordinates timing, while myocardium supplies force.
+
 
 ---
 
