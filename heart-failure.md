@@ -80,3 +80,11 @@ Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic 
 **12. How do forward and backward failure interact?**
 
 <details><summary>Show explanation</summary>The same ventricular dysfunction may decrease delivered flow and increase upstream filling pressures.</details>
+
+## Chapter Essentials
+
+1. Heart failure may present with high filling pressure despite normal resting output.
+2. Forward failure impairs effective delivery; backward failure raises upstream venous pressure.
+3. Left failure causes pulmonary congestion; right failure causes systemic congestion.
+4. RAAS and sympathetic responses may turn maladaptive.
+5. Preserved EF does not exclude high-pressure impaired filling.
