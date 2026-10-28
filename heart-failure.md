@@ -25,3 +25,7 @@ These are explanatory perspectives, **not four mutually exclusive diseases**. Le
 Reduced forward output activates **sympathetic nerves, RAAS and ADH**. Initially increased HR, contractility and volume may preserve perfusion, but excessive vasoconstriction raises afterload and retained water/sodium worsen congestion. Frank–Starling can help compensate early, but a failing ventricular function curve gives diminishing benefit as filling pressure rises. Heart failure can occur with reduced ejection fraction or **preserved ejection fraction when filling/relaxation is abnormal**.
 
 **Practice:** Why might a patient with left-sided heart failure become breathless when lying flat? Recumbency redistributes blood centrally, raising pulmonary venous pressure when the left ventricle cannot accommodate/eject adequately.
+
+## Extra clinical connection
+
+Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic pressure, encouraging lung interstitial fluid accumulation. In right ventricular failure, systemic venous congestion contributes to increased JVP, peripheral oedema and hepatic congestion. Elevated filling pressures may occur even when measured ejection fraction is preserved.
