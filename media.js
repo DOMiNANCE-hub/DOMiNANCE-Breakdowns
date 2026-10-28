@@ -13,7 +13,29 @@
     if (!stage) return;
     const action = play.dataset.mediaAction;
 
-    if (action === 'play-video') {
+    if (action === 'play-audio') {
+      const url = panel.dataset.audioSrc;
+      if (!/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/(?:transcoded\/)?[a-z0-9/_.-]+\.(?:ogg|mp3)(?:\?download=)?$/i.test(url || '')) return;
+      stage.replaceChildren();
+      const audio = document.createElement('audio');
+      audio.controls = true;
+      audio.preload = 'none';
+      audio.src = url;
+      audio.setAttribute('aria-label', panel.dataset.mediaTitle || 'Heart-sound recording');
+      stage.appendChild(audio);
+      panel.classList.add('is-playing');
+      play.textContent = 'Close recording';
+      play.dataset.mediaAction = 'stop-audio';
+      play.setAttribute('aria-expanded', 'true');
+      audio.play().catch(() => {});
+    } else if (action === 'stop-audio') {
+      stage.querySelector('audio')?.pause();
+      stage.replaceChildren();
+      panel.classList.remove('is-playing');
+      play.textContent = 'Listen';
+      play.dataset.mediaAction = 'play-audio';
+      play.setAttribute('aria-expanded', 'false');
+    } else if (action === 'play-video') {
       const id = panel.dataset.youtubeId;
       if (!/^[\w-]{11}$/.test(id || '')) return;
       stage.replaceChildren();
