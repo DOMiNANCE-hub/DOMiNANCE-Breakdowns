@@ -207,3 +207,28 @@
 /* Optional heart sounds: native controls, no layout shift until requested. */
 .article-text .audio-resource .media-stage:not(:empty){background:transparent;display:block;padding:0}
 .article-text .audio-resource audio{width:min(100%,420px);height:46px;display:block}
+
+
+/* Heart sounds — compact timing and respiration comparisons for mobile readers. */
+.article-text .heart-sound-line{display:grid;grid-template-columns:88px minmax(0,1fr) 88px minmax(0,1fr);gap:5px;margin:12px 0 15px}
+.article-text .heart-sound-line>span{background:var(--sheet2);border:1px solid var(--line);border-radius:10px;padding:9px 8px;display:flex;flex-direction:column;gap:3px;min-width:0;text-align:center}
+.article-text .heart-sound-line strong{color:var(--navy2);font:800 13px/1.3 'Plus Jakarta Sans',sans-serif}
+.article-text .heart-sound-line small{color:var(--muted);font-size:10.5px;line-height:1.35}
+.article-text .heart-sound-line .timeline-phase{background:var(--sheet)}
+.article-text .sound-split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 16px}
+.article-text .sound-split>div{display:flex;align-items:center;flex-wrap:wrap;gap:5px 12px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px;padding:9px 12px;min-width:0}
+.article-text .sound-split strong{font-size:12.5px;color:var(--navy2)}
+.article-text .sound-split span{font-size:15px;font-weight:800;letter-spacing:.02em;white-space:nowrap;color:var(--navy)}
+.article-text .sound-split span b{font-weight:800;color:var(--blue)}
+.article-text .sound-split small{flex-basis:100%;font-size:11px;color:var(--muted);line-height:1.4}
+.article-text .teaching-illustration-portrait img{max-height:370px;width:auto;max-width:100%;object-fit:contain}
+@media(max-width:600px){
+ .article-text .heart-sound-line{grid-template-columns:70px minmax(0,1fr) 70px minmax(0,1fr);gap:4px}
+ .article-text .heart-sound-line>span{padding:8px 4px}
+ .article-text .heart-sound-line strong{font-size:11.5px}
+ .article-text .heart-sound-line small{font-size:10px}
+ .article-text .sound-split>div{padding:8px}
+ .article-text .sound-split span{font-size:13px}
+ .article-text .teaching-illustration-portrait img{max-height:310px}
+}
+@media(max-width:340px){.article-text .heart-sound-line{grid-template-columns:repeat(2,minmax(0,1fr))}.article-text .sound-split{grid-template-columns:1fr}}
