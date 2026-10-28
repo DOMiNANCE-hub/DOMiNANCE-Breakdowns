@@ -299,3 +299,24 @@
 .article-text .bp-drop-strip b{color:var(--blue);font-size:14px}
 @media(max-width:660px){.article-text .bp-windkessel-figure svg{max-height:155px}.article-text .bp-height-rules{gap:6px}.article-text .bp-height-rules>div{padding:9px}.article-text .bp-height-rules strong{font-size:11.5px}.article-text .bp-height-rules span{font-size:12.5px}.article-text .bp-height-rules small{font-size:10px}}
 @media(max-width:340px){.article-text .bp-height-rules{grid-template-columns:1fr}}
+
+
+/* Chapters 11–15: compact mobile-first pressure waves, fluid balance and lymph flows. */
+.article-text .pulse-mechanism,.article-text .vr-flow,.article-text .micro-path,.article-text .edema-balance,.article-text .lymph-flow{
+display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px;padding:9px 11px;margin:11px 0 15px}
+.article-text .pulse-mechanism span,.article-text .vr-flow span,.article-text .micro-path span,.article-text .edema-balance span,.article-text .lymph-flow span{font-size:11.5px;font-weight:750;line-height:1.5}
+.article-text .edema-balance span{display:flex;flex-direction:column;gap:2px}.article-text .edema-balance strong{font-size:11.5px}
+.article-text .edema-balance small{color:var(--muted);font-size:10.5px;font-weight:400}
+.article-text .pulse-mechanism b,.article-text .vr-flow b,.article-text .micro-path b,.article-text .edema-balance b,.article-text .lymph-flow b{color:var(--blue);font-size:13px}
+.article-text .jvp-figure,.article-text .vr-pump-figure,.article-text .micro-force-figure,.article-text .lymph-entry-figure{padding:10px 12px;margin:12px 0 16px}
+.article-text .jvp-figure svg{max-height:240px}
+.article-text .vr-pump-figure svg,.article-text .micro-force-figure svg,.article-text .lymph-entry-figure svg{max-height:190px}
+.article-text .jvp-figure figcaption,.article-text .vr-pump-figure figcaption,.article-text .micro-force-figure figcaption,.article-text .lymph-entry-figure figcaption{font-size:12.5px}
+.article-text .jvp-figure p,.article-text .vr-pump-figure p,.article-text .micro-force-figure p,.article-text .lymph-entry-figure p{font-size:11.5px;line-height:1.55}
+@media(max-width:660px){
+.article-text .pulse-mechanism,.article-text .vr-flow,.article-text .micro-path,.article-text .edema-balance,.article-text .lymph-flow{gap:4px 6px;padding:8px 9px}
+.article-text .pulse-mechanism span,.article-text .vr-flow span,.article-text .micro-path span,.article-text .edema-balance span,.article-text .lymph-flow span{font-size:10.8px}
+.article-text .jvp-figure svg{max-height:190px}
+.article-text .vr-pump-figure svg,.article-text .micro-force-figure svg,.article-text .lymph-entry-figure svg{max-height:155px}
+}
+@media(max-width:350px){.article-text .edema-balance span{flex-basis:auto}.article-text .jvp-figure,.article-text .vr-pump-figure,.article-text .micro-force-figure,.article-text .lymph-entry-figure{padding:8px}}
