@@ -79,3 +79,11 @@ Following a meal, intestinal metabolic activity increases **splanchnic flow** (p
 **12. Why do arterial anastomoses not guarantee gut survival after a major blockage?**
 
 <details><summary>Show explanation</summary>Collateral capacity may be insufficient for the affected territory's oxygen requirements.</details>
+
+## Chapter Essentials
+
+1. Portal flow passes through hepatic sinusoids before returning to IVC.
+2. Hepatic zone 3 is relatively vulnerable to low oxygen delivery.
+3. Digestion increases regional mucosal perfusion.
+4. Splanchnic veins are an important blood reservoir.
+5. Portal and hepatic venous pressures affect ascites production.
