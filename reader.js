@@ -38,7 +38,7 @@ function showSection(index){
  activeSection=Math.max(0,Math.min(index,sections.length-1));
  sections.forEach((s,i)=>s.nodes.forEach(n=>{n.hidden=mode!=='continuous'&&i!==activeSection}));
  const tracker=main.querySelector('#reader-position');
- if(tracker)tracker.textContent=`Section ${activeSection+1} of ${sections.length}`;
+ if(tracker)tracker.textContent=`${mode==='presentation'?'Card':'Section'} ${activeSection+1} of ${sections.length}`;
  const previous=main.querySelector('#reader-prev'),next=main.querySelector('#reader-next');
  if(previous)previous.disabled=activeSection===0;
  if(next)next.disabled=activeSection===sections.length-1;
@@ -59,6 +59,7 @@ function selectMode(newMode){
 function go(index){
  showSection(index);
  article.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+ article.querySelector('#reader-position')?.setAttribute('tabindex','-1');
 }
 function mount(){
  if(rendering)return;
