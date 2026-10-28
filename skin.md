@@ -14,9 +14,7 @@ Histamine contributes importantly to these responses; their timing and expressio
 ## Shock and temperature
 In haemorrhagic shock, intense skin vasoconstriction often produces cool, pale extremities. In warm environments, competing requirements for heat loss and blood-pressure maintenance influence vascular tone; skin circulation is regulated for **thermoregulation**, not simply nutrient demand.
 
-**Check:** What makes a wheal different from the red flare around a skin scratch?
-
-
+**Wheal versus flare:** a wheal is a raised area of oedema from microvascular permeability; a flare is spreading erythema from local vasodilation involving sensory axon reflexes.
 
 ## Distinguish blood-flow functions
 Skin circulation is unusual because its flow can greatly exceed local nutrient needs when the body must **lose heat**. Sympathetic-mediated cutaneous constriction conserves heat in cold conditions, whereas vasodilator mechanisms and opening of thermoregulatory arteriovenous anastomoses help increase heat loss in warmth. During haemorrhagic shock, strong skin vasoconstriction can contribute to pallor and coolness.
