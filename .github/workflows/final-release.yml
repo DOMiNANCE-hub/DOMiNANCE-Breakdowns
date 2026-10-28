@@ -106,7 +106,7 @@ jobs:
                 await page.locator('button[data-reader-mode="presentation"]').click();
               if(await page.locator('html').getAttribute('data-reader-mode')!=='presentation')throw Error('presentation state missing');
               await page.locator('#reader-next').click();
-              if(!(await page.locator('#reader-position').innerText()).includes('Section '))throw Error('card progress missing');
+              if(!(await page.locator('#reader-position').innerText()).includes('Card '))throw Error('card progress missing');
               await page.locator('button[data-reader-mode="continuous"]').click();
               await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-muscle');
               await page.waitForTimeout(200);
