@@ -22,6 +22,7 @@
     'isovolumetric': ['Isovolumetric phase', 'A period when ventricular pressure changes while volume is essentially constant because both inlet and outlet valves are closed.'],
     'ejection-fraction': ['Ejection fraction (EF)', 'Stroke volume divided by end-diastolic volume, expressed as a percentage: EF = SV / EDV × 100%.'],
     'wiggers': ['Wiggers diagram', 'A time-aligned plot linking ECG, cardiac chamber and arterial pressures, ventricular volume, valve events and heart sounds.'],
+    'bruit': ['Bruit', 'An abnormal vascular sound heard over a blood vessel, caused by flow-induced vibrations, often associated with disturbed blood flow.'],
     'chronotropy': ['Chronotropy', 'Effect on heart rate. Positive chronotropy means a faster heart rate.']
   });
   window.DOM_GLOSSARY = terms;
