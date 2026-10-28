@@ -245,3 +245,18 @@
 .article-text .ecg-calibration-mini p{font-size:12px;line-height:1.55;margin:3px 0}
 @media(max-width:660px){.article-text .ecg-concept-line{padding:8px 9px}.article-text .ecg-concept-line span{font-size:11px}.article-text .ecg-figure-small img{max-height:235px}.article-text .ecg-figure-signal img{max-height:285px}}
 @media(max-width:360px){.article-text .ecg-calibration-mini{grid-template-columns:64px minmax(0,1fr);gap:8px;padding:8px}.article-text .ecg-paper-sample{width:64px;height:64px}.article-text .ecg-calibration-mini p{font-size:11.5px}}
+
+/* Chapter 07: compact cardiac-output learning components */
+.article-text .co-impact-strip,.article-text .co-compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:11px 0 14px}
+.article-text .co-impact-strip>span,.article-text .co-compare-grid>div{border:1px solid var(--line);border-radius:10px;background:var(--sheet2);padding:10px 11px;min-width:0;display:flex;flex-direction:column;gap:3px}
+.article-text .co-impact-strip strong,.article-text .co-compare-grid strong{font-size:12.5px;line-height:1.4}
+.article-text .co-impact-strip small,.article-text .co-compare-grid small{font-size:11px;line-height:1.45;color:var(--muted)}
+.article-text .co-compare-grid span{color:var(--blue);font-size:13px;font-weight:800}
+.article-text .co-cause-flow{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px;border:1px solid var(--line);background:var(--sheet2);padding:9px 11px;border-radius:10px;margin:11px 0 14px}
+.article-text .co-cause-flow span{font-size:12px;line-height:1.5;font-weight:750}
+.article-text .co-cause-flow b{font-size:13px;color:var(--blue)}
+.article-text .cardiac-output-figure{margin:13px 0 16px;padding:11px 12px}
+.article-text .cardiac-output-figure svg{max-height:290px}
+.article-text .cardiac-output-figure p{font-size:12px;line-height:1.55;margin-top:7px}
+@media(max-width:680px){.article-text .co-impact-strip{gap:5px}.article-text .co-impact-strip>span{padding:7px}.article-text .co-impact-strip strong{font-size:11.5px}.article-text .co-impact-strip small{font-size:10px}.article-text .co-compare-grid{grid-template-columns:1fr;gap:6px}.article-text .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}.article-text .co-compare-grid small{grid-column:1/-1}.article-text .cardiac-output-figure svg{max-height:235px}}
+@media(max-width:350px){.article-text .co-impact-strip{grid-template-columns:1fr}.article-text .co-impact-strip>span{display:block}.article-text .co-impact-strip small{display:inline;margin-left:7px}.article-text .co-cause-flow span{font-size:11px}}
