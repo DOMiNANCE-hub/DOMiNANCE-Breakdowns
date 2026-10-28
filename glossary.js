@@ -25,6 +25,8 @@
     'bruit': ['Bruit', 'An abnormal vascular sound heard over a blood vessel, caused by flow-induced vibrations, often associated with disturbed blood flow.'],
     'ecg': ['Electrocardiogram (ECG)', 'A time-based recording of electrical potential differences produced by cardiac activation and recovery, detected on the skin.'],
     'ecg-vector': ['Cardiac electrical vector', 'The combined direction and magnitude of the heart’s electrical activity at an instant; each ECG lead records its projection along that lead’s axis.'],
+    'preload': ['Preload', 'Ventricular fibre stretch or passive myocardial wall load at end diastole, before contraction. EDV and filling pressure are clinical approximations.'],
+    'afterload': ['Afterload', 'The load opposing ventricular ejection, related to arterial pressure, arterial impedance and ventricular wall stress; not identical to peripheral resistance.'],
     'chronotropy': ['Chronotropy', 'Effect on heart rate. Positive chronotropy means a faster heart rate.']
   });
   window.DOM_GLOSSARY = terms;
