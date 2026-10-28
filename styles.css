@@ -260,3 +260,15 @@
 .article-text .cardiac-output-figure p{font-size:12px;line-height:1.55;margin-top:7px}
 @media(max-width:680px){.article-text .co-impact-strip{gap:5px}.article-text .co-impact-strip>span{padding:7px}.article-text .co-impact-strip strong{font-size:11.5px}.article-text .co-impact-strip small{font-size:10px}.article-text .co-compare-grid{grid-template-columns:1fr;gap:6px}.article-text .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}.article-text .co-compare-grid small{grid-column:1/-1}.article-text .cardiac-output-figure svg{max-height:235px}}
 @media(max-width:350px){.article-text .co-impact-strip{grid-template-columns:1fr}.article-text .co-impact-strip>span{display:block}.article-text .co-impact-strip small{display:inline;margin-left:7px}.article-text .co-cause-flow span{font-size:11px}}
+
+
+/* Chapter 08: compact Fick and ventricular stroke-work visuals. */
+.article-text .fick-process{display:flex;align-items:center;flex-wrap:wrap;gap:5px 7px;padding:9px 11px;margin:11px 0 14px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px}
+.article-text .fick-process span{min-width:0;display:flex;flex-direction:column;gap:3px}
+.article-text .fick-process strong{font-size:12px;line-height:1.4}
+.article-text .fick-process small{font-size:10.5px;line-height:1.4;color:var(--muted)}
+.article-text .fick-process b{font-size:15px;color:var(--blue)}
+.article-text .work-pv-figure{margin:13px 0 17px;padding:12px 13px}
+.article-text .work-pv-figure svg{max-height:270px}
+.article-text .work-pv-figure p{font-size:12px;line-height:1.55;margin-top:7px}
+@media(max-width:680px){.article-text .fick-process{gap:5px;padding:8px 10px}.article-text .fick-process strong{font-size:11.5px}.article-text .fick-process small{font-size:10px}.article-text .work-pv-figure{padding:10px}.article-text .work-pv-figure svg{max-height:225px}}
