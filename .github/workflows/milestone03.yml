@@ -1,0 +1,80 @@
+name: Milestone 03 build and mobile smoke test
+on:
+  push:
+    branches: [draft/chapter-16-local-regulation]
+  workflow_dispatch:
+concurrency:
+  group: milestone03-branch
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'mistune==3.2.0'
+      - name: Build canonical content
+        run: python build.py
+      - name: Verify content checks and navigation
+        run: |
+          python - <<'PY'
+          import json,re,pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'content.js').read_text().removeprefix('window.DOMINANCE_TOPICS = ').removesuffix(';\n'))
+          assert len(data)==27
+          for t in data[15:20]:
+              assert t['html'].count('<details>')==12,t['slug']
+              assert t['html'].count('</details>')==12,t['slug']
+              assert 'Chapter Essentials' in t['html'],t['slug']
+              for s in t['sections']:
+                  assert 'id="'+s['id']+'"' in t['html'],(t['slug'],s['id'])
+          print('PASS five new chapters; 60 answer panels and anchors')
+          PY
+      - name: JavaScript syntax checks
+        run: |
+          node --check app.js
+          node --check content.js
+          node --check media.js
+          node --check glossary.js
+          node --check figures.js
+      - name: Install browser test runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Responsive browser smoke tests
+        run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          node - <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            for(const width of [320,360,390,768,1280]){
+              const page=await browser.newPage({viewport:{width,height:800}});
+              const errors=[];page.on('pageerror',e=>errors.push(e.message));
+              await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
+              await page.waitForTimeout(500);
+              const size=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,viewport:innerWidth}));
+              if(size.scroll>size.viewport+2)throw Error('horizontal overflow at '+width+': '+JSON.stringify(size));
+              if(errors.length)throw Error('page errors at '+width+': '+errors.join('; '));
+              const catalog=await page.evaluate(()=>window.DOMINANCE_TOPICS?.length);
+              if(catalog!==27)throw Error('catalog absent at '+width);
+              console.log('PASS '+width+'px');
+              await page.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Commit generated canonical bundle
+        run: |
+          if ! git diff --quiet -- content.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content.js
+            git commit -m "Regenerate canonical content.js with build.py"
+            git pull --rebase origin draft/chapter-16-local-regulation
+            git push origin HEAD:draft/chapter-16-local-regulation
+          fi

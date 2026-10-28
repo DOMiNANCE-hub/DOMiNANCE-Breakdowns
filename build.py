@@ -5,7 +5,7 @@ from pathlib import Path
 import mistune
 
 ROOT=Path(__file__).resolve().parent
-with (ROOT/'docs/CVS_TOPIC_MAP.csv').open(encoding='utf-8') as f: rows=list(csv.DictReader(f))
+with (ROOT/'CVS_TOPIC_MAP.csv').open(encoding='utf-8') as f: rows=list(csv.DictReader(f))
 md=mistune.create_markdown(escape=False, plugins=['table','strikethrough'])
 
 def slug(s):
@@ -22,7 +22,7 @@ def make_sections(html):
 
 topics=[]
 for row in rows:
-    fp=ROOT/'content/topics'/f'{row["slug"]}.md'
+    fp=ROOT/f'{row["slug"]}.md'
     text=fp.read_text(encoding='utf-8')
     html=md(text)
     html,sections=make_sections(html)
