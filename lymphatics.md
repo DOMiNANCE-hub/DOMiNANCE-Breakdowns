@@ -112,3 +112,58 @@ Three broad consequences follow:
 - **Nutrient transport:** Damaged intestinal lacteals can impair delivery of long-chain dietary lipids via chylomicrons.
 
 The lecturer briefly describes lymphatics as helping bodily fluid balance and intestinal absorption. The more precise mechanism is **return of interstitial fluid and transport of fat-rich chylomicrons**, rather than lymphatic vessels directly performing the kidney's renal water reabsorption.
+
+
+## Understanding Check
+
+**1. Why can a person develop oedema even if their blood vessels are structurally intact?**
+<details><summary>Reveal explanation</summary><p>Some fluid is normally filtered from capillaries into tissue. If the lymphatic drainage pathway is obstructed or damaged, the fluid and escaped proteins cannot return adequately to venous blood. They accumulate as <strong>oedema</strong> even when the blood-vessel walls are not newly damaged.</p></details>
+
+**2. How do initial lymphatic capillaries admit interstitial fluid without simply leaking it back out?**
+<details><summary>Reveal explanation</summary><p>Initial lymphatics have overlapping endothelial flaps that can open when interstitial pressure favours entry. Their specialised arrangement helps restrict reverse leakage when internal pressure rises. Collecting lymphatics then have additional valves favouring one-way flow.</p></details>
+
+**3. Why can lymph move upwards from the legs without a dedicated central lymph pump?**
+<details><summary>Reveal explanation</summary><p>One-way valves combine with <strong>intrinsic lymphatic smooth-muscle contractions</strong> and external skeletal-muscle and respiratory movements. Each compression episode helps drive lymph onward while valves limit backflow. A separate lymphatic heart is unnecessary.</p></details>
+
+**4. Name the usual territories drained by the thoracic duct and right lymphatic duct.**
+<details><summary>Reveal explanation</summary><p>The <strong>thoracic duct</strong> drains most of the body, including the lower limbs, abdomen and left upper regions. The <strong>right lymphatic duct</strong> commonly drains the right upper quadrant: right head/neck, upper limb and thorax. Both usually empty near their corresponding internal jugular–subclavian venous angles.</p></details>
+
+**5. Why are lymph nodes important even though they do not serve as the main lymphatic pumps?**
+<details><summary>Reveal explanation</summary><p>Lymph nodes expose material transported in lymph to immune cells and help organise immune surveillance. Fluid movement mainly comes from pressure gradients, intrinsic lymphatic contractions and external pumps rather than active pumping by the nodes themselves.</p></details>
+
+**6. How are most long-chain dietary lipids delivered to systemic blood after absorption?**
+<details><summary>Reveal explanation</summary><p>Enterocytes absorb digestion products, resynthesise triglycerides and package many long-chain lipids into <strong>chylomicrons</strong>. These enter villous <strong>lacteals</strong>, travel through intestinal lymphatic vessels and the thoracic duct, and ultimately enter systemic venous blood.</p></details>
+
+**7. Must all absorbed fatty acids pass through the lymphatic lacteals?**
+<details><summary>Reveal explanation</summary><p><strong>No.</strong> Many short- and medium-chain fatty acids can enter the portal circulation directly. The lymphatic chylomicron route is especially important for long-chain dietary lipids and other fat-soluble materials packaged into these particles.</p></details>
+
+**8. How is chyle different from ordinary tissue lymph?**
+<details><summary>Reveal explanation</summary><p><strong>Chyle</strong> is intestinal lymph enriched in dietary lipid-rich chylomicrons after a meal. Lymph from other tissues varies in composition but usually does not contain the same high concentration of absorbed intestinal chylomicrons.</p></details>
+
+**9. How can filarial infection cause the severe chronic swelling associated with elephantiasis?**
+<details><summary>Reveal explanation</summary><p>Filarial infection and the associated inflammatory response can damage or obstruct lymphatic pathways. Protein-rich interstitial fluid accumulates and prolonged inflammation stimulates tissue remodelling and fibrosis. Severe chronic disease may produce thickened, enlarged limbs and skin changes.</p></details>
+
+**10. Why might an arm swell after axillary lymph-node dissection?**
+<details><summary>Reveal explanation</summary><p>Dissection can remove or damage lymphatic channels draining that arm. Normal tissue filtration continues but clearance becomes inadequate, causing regional lymphoedema. The swelling is due primarily to <strong>impaired lymph drainage</strong>, not necessarily reduced cardiac output.</p></details>
+
+**11. Why is it incorrect to say that all lymphoedema is non-pitting?**
+<details><summary>Reveal explanation</summary><p>Early lymphoedema may consist largely of mobile interstitial fluid, leaving an indentation after pressure. With chronic disease, inflammation and fibrosis make the tissue firmer and often non-pitting. The lecturer's non-pitting description mainly fits advanced stages.</p></details>
+
+**12. What is the important modern correction to the classical claim that only 15% of filtered capillary fluid is removed by lymphatics?**
+<details><summary>Reveal explanation</summary><p>The revised Starling principle recognises the endothelial glycocalyx and persistent modest net filtration in many capillary beds at steady state. <strong>Lymphatic drainage is the principal continuous return route for much of that filtered fluid</strong>; the lecturer's 85%/15% calculation is historical illustrative teaching, not a universal proportion.</p></details>
+
+## Chapter Essentials
+
+1. **Lymphatics:** Return interstitial fluid and proteins to venous circulation; also transport immune cells/material.
+2. **Initial capillaries:** Blind-ended and thin-walled, with specialised endothelial flaps admitting tissue fluid.
+3. **Collecting vessels:** Valves and contractile smooth-muscle segments favour one-way lymph flow.
+4. **External pumps:** Skeletal-muscle movement and respiration assist lymph propulsion.
+5. **Thoracic duct:** Usually drains most of the body into the left venous angle.
+6. **Right lymphatic duct:** Usually drains the right upper quadrant into the right venous angle.
+7. **Lymph nodes:** Sites of filtration and immune surveillance, not the main lymph-propelling pumps.
+8. **Lacteals:** Intestinal lymphatics receiving chylomicrons formed from long-chain dietary lipids.
+9. **Chyle:** Lipid-enriched intestinal lymph.
+10. **Steady-state fluid balance:** Lymphatics continually return filtered fluid and proteins; excess filtration or reduced drainage causes oedema.
+11. **Lymphoedema causes:** Filarial injury, lymphatic surgery, malignancy and developmental disorders.
+12. **Pitting:** Early lymphoedema may pit; chronic fibrotic lymphoedema may become non-pitting.
+13. **Transport consequences:** Lymph dysfunction affects tissue fluid balance, immune surveillance and intestinal dietary-lipid transport.
