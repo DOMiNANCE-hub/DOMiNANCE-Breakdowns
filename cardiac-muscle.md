@@ -175,6 +175,29 @@ Moderate increases in heart rate are accommodated by adjustments such as greater
 **7. Why can extreme tachycardia lower cardiac output despite a faster heart rate?**
 <details><summary>Reveal explanation</summary><p>Cardiac output equals <strong>heart rate × stroke volume (CO = HR × SV)</strong>. Extreme tachycardia shortens diastole substantially, leaving less time for ventricular filling. This can lower end-diastolic volume and stroke volume. If stroke volume decreases proportionally more than heart rate increases, cardiac output falls despite the faster rhythm.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. What would failure of desmosomes most directly threaten during repeated contractions?**
+
+<details><summary>Reveal explanation</summary><p>Desmosomes help cells resist mechanical separation under repeated force. Damage can compromise tissue integrity even where gap-junction ionic conduction is initially intact.</p></details>
+
+**Supplementary 2. Why does ventricular phase 2 prolong refractoriness?**
+
+<details><summary>Reveal explanation</summary><p>L-type calcium entry balanced by potassium efflux sustains membrane depolarization, delaying recovery of sufficient fast sodium-channel availability for another propagated action potential.</p></details>
+
+**Supplementary 3. What happens to force if extracellular calcium entry is substantially reduced?**
+
+<details><summary>Reveal explanation</summary><p>Reduced L-type calcium trigger entry diminishes RyR2-mediated sarcoplasmic reticulum calcium release and therefore reduces cytosolic calcium activation of troponin and cross-bridge formation.</p></details>
+
+**Supplementary 4. What distinguishes positive inotropy from positive lusitropy?**
+
+<details><summary>Reveal explanation</summary><p>Positive inotropy increases developed contractile force at comparable loading conditions; positive lusitropy accelerates myocardial relaxation and calcium removal. Sympathetic beta-1 signalling can promote both.</p></details>
+
+**Supplementary 5. Why is impaired calcium removal particularly detrimental during rapid heart rates?**
+
+<details><summary>Reveal explanation</summary><p>Shortened diastole leaves less time for cytosolic calcium decline. Incomplete relaxation can increase diastolic ventricular pressure, reduce filling and compromise subsequent stroke volume.</p></details>
+
 ## Chapter Essentials
 
 1. **Intercalated discs:** Fascia adherens and desmosomes provide mechanical coupling; gap junctions enable electrical communication.
