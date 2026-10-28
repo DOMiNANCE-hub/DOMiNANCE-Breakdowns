@@ -183,6 +183,17 @@ The common mechanism is **flow-induced vibration**, but its timing depends on th
 **10. A continuous murmur is heard in a patient with a patent ductus arteriosus. Why does the abnormal flow persist across both parts of the cardiac cycle?**
 <details><summary>Reveal explanation</summary><p>A patent ductus joins the aorta to the pulmonary artery. Because aortic pressure is typically greater than pulmonary arterial pressure during both systole and diastole, blood may continue to cross the connection throughout the cycle. Thus the sound can be <strong>continuous</strong>, unlike a murmur confined to one phase.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. How would increased aortic pressure tend to affect the timing of aortic valve opening?**
+
+<details><summary>Reveal explanation</summary><p>The left ventricle must generate pressure above the elevated aortic pressure before the valve opens, potentially prolonging isovolumetric contraction if contractile performance is unchanged.</p></details>
+
+**Supplementary 2. Why can a patient with a stiff ventricle produce S4 but not a normal atrial fibrillation rhythm?**
+
+<details><summary>Reveal explanation</summary><p>S4 depends on effective atrial contraction forcing blood into a poorly compliant ventricle. Atrial fibrillation lacks coordinated atrial systole, so the usual atrial S4 mechanism is absent.</p></details>
+
 ## Chapter Essentials
 
 1. **S1:** Mostly due to mitral and tricuspid closure at the start of ventricular systole.
