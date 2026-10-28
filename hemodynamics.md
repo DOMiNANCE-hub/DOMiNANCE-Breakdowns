@@ -80,7 +80,7 @@ The key relationship is **R ∝ 1/r⁴**. When radius decreases, resistance incr
 
 <div class="hemo-radius-impact" role="group" aria-label="Effect of radius on ideal vessel resistance"><div><strong>Radius halved</strong><span>Resistance ×16</span><small>At unchanged ΔP: flow falls to 1/16</small></div><div><strong>Radius doubled</strong><span>Resistance ÷16</span><small>At unchanged ΔP: flow increases sixteenfold</small></div></div>
 
-**Worked mechanism:** If the radius changes from r to r/2, the new resistance is \(2^4=16\) times larger, *provided length and viscosity remain unchanged*. With a fixed pressure difference, Q = ΔP/R means flow falls to one-sixteenth.
+**Worked mechanism:** If the radius changes from r to r/2, the new resistance is **2⁴ = 16** times larger, *provided length and viscosity remain unchanged*. With a fixed pressure difference, Q = ΔP/R means flow falls to one-sixteenth.
 
 These relationships are **mathematical aids**, not exact universal predictions: blood is non-Newtonian, vessels are compliant rather than rigid, and vascular tone and pressures change in living people.
 
@@ -109,3 +109,84 @@ With vessels in series, pressure drops add. With many open pathways in parallel,
 This explains an apparent puzzle: each capillary has a tiny radius, but there are very many capillaries **in parallel**. Arterioles, with their active muscular control of diameter, account for a large part of the important pressure drop and resistance regulation.
 
 **Physiological application:** Constricting arterioles reduces flow into a tissue at the same perfusion pressure. Dilation lowers local resistance and can increase flow.
+
+
+## 9. How can blood flow be measured?
+
+The lecturer lists three techniques on slide 62. Their underlying physical signals differ:
+
+| Method | What it measures or detects | How it relates to flow |
+|---|---|---|
+| **Electromagnetic flowmeter** | Voltage induced by conducting blood in a magnetic field | Used to estimate blood movement through the field |
+| **Doppler ultrasound flowmeter** | Frequency shift from moving blood cells | Estimates velocity along the ultrasound beam |
+| **Plethysmography** | Changes in tissue or limb volume | Can estimate blood inflow with appropriate experimental conditions |
+
+**Key distinction:** Doppler primarily estimates **velocity**, not volume flow on its own. To estimate total flow, an estimate of the vessel's area and the velocity profile is also required.
+
+The lecture mentions a historical **arm-to-tongue circulation time around 15 seconds**. This is an illustrative transit-time estimate, not a fixed physiological constant for every person.
+
+## 10. Why can veins hold more blood than arteries?
+
+**Vascular compliance** describes how much volume a vessel can accommodate for a given pressure change.
+
+<div class="equation-block"><span class="equation-label">Compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math></div>
+
+Large veins are more compliant than arteries. Their volume can rise considerably before venous pressure rises by the same amount. This is why veins are called **capacitance vessels**, whereas arterioles are commonly described as **resistance vessels**.
+
+The lecturer gives an approximate distribution of blood volume on slide 75, with a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
+
+**Why does venoconstriction help cardiac output?** When the venous system becomes less distensible, stored blood can be redirected towards the heart. This can increase venous return, end-diastolic volume and stroke volume through the Frank–Starling mechanism.
+
+## Understanding Check
+
+**1. Why does blood keep moving through the arteries during ventricular diastole?**
+<details><summary>Reveal explanation</summary><p>Large elastic arteries stretch during ventricular systole and store pressure energy. Their recoil during diastole sustains arterial pressure and the pressure gradient towards smaller vessels, so blood can keep moving between ventricular ejections.</p></details>
+
+**2. An organ has an upstream-to-downstream pressure difference of 80 mmHg and a resistance of 20 mmHg·min/L. What is its flow?**
+<details><summary>Reveal explanation</summary><p><strong>Q = ΔP/R = 80/20 = 4 L/min.</strong> The pressure difference must be measured across the pathway; pressure at one end by itself does not establish the flow rate. The numbers are for arithmetic practice, not a named organ.</p></details>
+
+**3. Why is mean capillary blood velocity low despite each capillary having a narrow lumen?**
+<details><summary>Reveal explanation</summary><p>The capillary system has an enormous number of vessels in <strong>parallel</strong>. Their <strong>combined</strong> cross-sectional area is much greater than that of the aorta. Because v = Q/A, the same overall volume flow moving through a much larger combined area has a lower average velocity.</p></details>
+
+**4. Why does ideal laminar flow have a greater velocity in the centre than beside the wall?**
+<details><summary>Reveal explanation</summary><p>Fluid in immediate contact with the vessel wall moves slowly because of viscous boundary effects. Adjacent layers drag on one another, forming a velocity gradient. Flow towards the centre is less constrained and therefore faster. Real blood can depart from the ideal profile because it contains cells.</p></details>
+
+**5. A vessel's radius falls to half its original value at unchanged ΔP, viscosity and length. Predict resistance and flow.**
+<details><summary>Reveal explanation</summary><p>Hagen–Poiseuille gives <strong>R ∝ 1/r⁴</strong>. Halving the radius therefore increases the predicted resistance by <strong>16 times</strong>. With unchanged perfusion pressure and Q = ΔP/R, volume flow decreases to <strong>1/16</strong> of its previous value, under ideal-tube assumptions.</p></details>
+
+**6. A stenosis produces a very high velocity at its narrowest point. Must total blood flow through the artery have increased?**
+<details><summary>Reveal explanation</summary><p><strong>No.</strong> Local velocity is volume flow divided by local area, so speed can rise as the cross-sectional area narrows even if volume flow remains the same or decreases. The narrowing may also raise resistance and reduce total flow, depending on the pressure gradient.</p></details>
+
+**7. Why may anaemia produce a systolic flow murmur even with normal valves?**
+<details><summary>Reveal explanation</summary><p>Anaemia often reduces blood viscosity and increases cardiac output to compensate for reduced oxygen-carrying capacity. Higher flow velocity and reduced viscosity can increase the tendency towards disturbed flow, producing audible vibrations without a structurally abnormal valve.</p></details>
+
+**8. Distinguish vascular resistance R from the Reynolds number Re.**
+<details><summary>Reveal explanation</summary><p><strong>Resistance R</strong> relates the pressure difference across a pathway to the resulting volume flow. <strong>Reynolds number Re</strong> is dimensionless and compares effects of density, velocity, diameter and viscosity to assess the tendency towards turbulent flow. The two quantities are not equivalent.</p></details>
+
+**9. Why are arterioles the main adjustable resistance vessels instead of capillaries?**
+<details><summary>Reveal explanation</summary><p>Arterioles have smooth muscle capable of rapidly changing their radius and therefore flow resistance. Although individual capillaries are narrow, many operate in parallel and their overall equivalent resistance is reduced. Changing arteriolar tone strongly influences organ perfusion and systemic resistance.</p></details>
+
+**10. What does Doppler ultrasound directly estimate, and what else would be needed to estimate volume flow?**
+<details><summary>Reveal explanation</summary><p>Doppler detects frequency shifts from moving blood cells and estimates a component of <strong>velocity</strong>. Volume flow also depends on the cross-sectional area and the velocity profile across the vessel, so estimating Q requires more information than a single Doppler velocity reading.</p></details>
+
+**11. Why do veins store more additional blood than arteries for a similar rise in pressure?**
+<details><summary>Reveal explanation</summary><p>Veins have a greater <strong>compliance (C = ΔV/ΔP)</strong>. They accommodate a larger volume increase for a given pressure rise, acting as blood reservoirs. Arterioles instead use their muscular walls to regulate resistance.</p></details>
+
+**12. Polycythaemia and anaemia may both increase cardiac workload. How do their mechanisms differ?**
+<details><summary>Reveal explanation</summary><p>In <strong>polycythaemia</strong>, greater haematocrit usually increases viscosity and can raise flow resistance. In <strong>anaemia</strong>, reduced oxygen-carrying capacity often demands greater cardiac output to deliver enough oxygen, producing increased volume flow and workload even when viscosity is lower.</p></details>
+
+## Chapter Essentials
+
+1. **Flow:** Q = ΔP/R; a pressure *difference*, not isolated vessel pressure, drives net flow.
+2. **Diastolic arterial flow:** Elastic recoil helps maintain forward flow between ventricular ejections.
+3. **Vessel functions:** Elastic arteries, resistance arterioles, exchange capillaries and capacitance veins have distinct roles.
+4. **Velocity versus flow:** Q = vA; the total cross-sectional area of parallel capillaries is enormous.
+5. **Laminar flow:** Fastest near the centre and slowest by the wall in the ideal model.
+6. **Reynolds number:** Re = ρvD/η, a dimensionless measure of turbulence tendency, not vascular resistance.
+7. **Hagen–Poiseuille:** Q = πΔPr⁴/(8ηL) for ideal-tube flow; R = 8ηL/(πr⁴).
+8. **Radius effect:** Halving radius increases ideal resistance sixteenfold at unchanged other factors.
+9. **Arteriolar control:** Small changes in muscular-vessel radius substantially regulate blood flow.
+10. **Viscosity:** Depends on haematocrit, plasma components and red-cell properties; blood is not an ideal fluid.
+11. **Measurement:** Electromagnetic, Doppler and plethysmographic techniques detect different flow-related signals.
+12. **Compliance:** C = ΔV/ΔP; veins accommodate large volume changes at comparatively low pressure.
+13. **Small-vessel and lymphatic physiology:** Introduced here, developed in subsequent chapters.
