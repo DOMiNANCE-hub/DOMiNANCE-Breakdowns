@@ -16,7 +16,7 @@ In haemorrhagic shock, intense skin vasoconstriction often produces cool, pale e
 
 **Check:** What makes a wheal different from the red flare around a skin scratch?
 
-<details><summary>Answer</summary>A wheal is local oedema from increased permeability, whereas the flare is wider redness from arteriolar vasodilatation involving a sensory axon reflex.</details>
+
 
 ## Distinguish blood-flow functions
 Skin circulation is unusual because its flow can greatly exceed local nutrient needs when the body must **lose heat**. Sympathetic-mediated cutaneous constriction conserves heat in cold conditions, whereas vasodilator mechanisms and opening of thermoregulatory arteriovenous anastomoses help increase heat loss in warmth. During haemorrhagic shock, strong skin vasoconstriction can contribute to pallor and coolness.
@@ -25,3 +25,54 @@ Skin circulation is unusual because its flow can greatly exceed local nutrient n
 A firm, blunt stroke produces a **red line** at the site (local capillary/arteriolar dilation), a surrounding **flare** (wider arteriolar dilation partly due to local sensory-nerve **axon reflex**) and a raised **wheal** (local oedema as permeability rises). Histamine contributes to the reaction. The lecturer separately describes a brief **white line response** with gentler stroking, traditionally attributed to local constrictor response; distinguish it from the red line/flare/wheal response.
 
 **Practice:** Which component of the triple response is chiefly an oedematous swelling? The **wheal**; the flare is spreading redness.
+
+
+## Comprehensive Understanding Checks
+
+**01. What makes skin perfusion different from most tissue perfusion?**
+
+<details><summary>Show explanation</summary>Skin blood flow varies greatly for heat regulation, beyond local nutritional demand.</details>
+
+**02. Where are specialized cutaneous arteriovenous shunts especially important?**
+
+<details><summary>Show explanation</summary>In glabrous acral skin such as the fingers.</details>
+
+**03. Why does cold generally reduce skin blood flow?**
+
+<details><summary>Show explanation</summary>Sympathetic vasoconstriction limits heat loss at the body surface.</details>
+
+**04. Why does skin often become pale and cool in haemorrhage?**
+
+<details><summary>Show explanation</summary>Compensatory sympathetic constriction redistributes flow toward central organs.</details>
+
+**05. What is the white reaction after gentle skin stroking?**
+
+<details><summary>Show explanation</summary>A transient pale line from reduced local superficial vessel filling.</details>
+
+**06. Name the Lewis triple response components.**
+
+<details><summary>Show explanation</summary>Red line, flare and wheal.</details>
+
+**07. What produces the red line?**
+
+<details><summary>Show explanation</summary>Local dilation increases perfusion at the directly stimulated site.</details>
+
+**08. Why does flare extend beyond the initial stroke?**
+
+<details><summary>Show explanation</summary>Sensory axon branches release vasodilator mediators into adjacent tissue.</details>
+
+**09. Does an axon reflex require a brainstem integration centre?**
+
+<details><summary>Show explanation</summary>No; local peripheral sensory branches can mediate the response.</details>
+
+**10. How does a wheal differ from flare?**
+
+<details><summary>Show explanation</summary>The wheal is raised tissue oedema due to permeability; flare is spreading redness.</details>
+
+**11. Why can early septic shock present with warm skin?**
+
+<details><summary>Show explanation</summary>Distributive vasodilation can increase superficial blood flow.</details>
+
+**12. Why is skin temperature alone insufficient to diagnose shock?**
+
+<details><summary>Show explanation</summary>Ambient temperature and many other conditions affect it independently of systemic perfusion.</details>
