@@ -3,6 +3,9 @@ on:
   push:
     branches: [draft/chapter-16-local-regulation]
   workflow_dispatch:
+concurrency:
+  group: milestone03-branch
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -72,5 +75,6 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add content.js
             git commit -m "Regenerate canonical content.js with build.py"
-            git push
+            git pull --rebase origin draft/chapter-16-local-regulation
+            git push origin HEAD:draft/chapter-16-local-regulation
           fi
