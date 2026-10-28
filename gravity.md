@@ -34,6 +34,10 @@ Higher dependent venous and capillary hydrostatic pressures favour filtration in
 
 Under positive **+Gz** (head-to-foot acceleration), blood shifts toward legs and brain perfusion may fall, causing grey-out, blackout or loss of consciousness. Anti-G manoeuvres and suits reduce dependent pooling. Under **−Gz**, blood shifts toward the head, contributing to congestion and visual disturbances. Effects depend on direction, intensity and duration. Supine positioning reduces the head-heart hydrostatic gradient during a simple fainting episode, but persistent or unexplained loss of consciousness needs medical assessment.
 
+## Lecturer-specific additions
+
+The lecturer also describes partial cerebral flow protection because both head-level arterial and venous pressures fall on standing; a decrease in cerebral venous or intracranial pressure and local cerebral vasodilation can partially defend perfusion, but these mechanisms fail in severe hypotension. Autonomic neuropathy, sympatholytic drugs and perioperative autonomic impairment can cause orthostatic hypotension.
+
 ## Understanding Checks
 
 **01. Why is ankle venous pressure higher than heart-level venous pressure when standing?**
