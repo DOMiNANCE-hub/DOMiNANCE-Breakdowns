@@ -14,7 +14,7 @@ Portal hypertension can increase hydrostatic pressure in abdominal microvessels 
 
 **Check:** Why can severe shock injure the gut even while blood pressure is defended?
 
-<details><summary>Answer</summary>Sympathetic redistribution reduces splanchnic perfusion to favour vital organs. Prolonged local hypoperfusion can cause mucosal ischaemia despite partly preserved systemic pressure.</details>
+
 
 ## Two inflows and the hepatic microvascular route
 Arteries from the **coeliac trunk, superior mesenteric and inferior mesenteric arteries** supply abdominal organs; portal venous blood collects nutrients and metabolites from the gut/spleen before delivering them to the liver. The liver receives blood through **portal vein and hepatic artery** branches, which mix in sinusoids and drain to **central veins → hepatic veins → IVC**. The **portal triad** contains a portal venule, hepatic arteriole and bile ductule. Bile generally travels in a direction opposing sinusoidal blood drainage.
@@ -28,3 +28,62 @@ Following a meal, intestinal metabolic activity increases **splanchnic flow** (p
 **Ascites** is fluid accumulated within the peritoneal cavity. Portal hypertension increases sinusoidal hydrostatic pressure and hepatic lymph formation; when lymphatic drainage is exceeded, fluid can accumulate in the abdomen. In cirrhosis, sodium/water retention and lowered serum albumin often contribute. The composition and protein concentration of ascitic fluid vary with the underlying cause; high-protein fluid is **not universal** in all ascites.
 
 **Practice:** Why is zone 3 particularly sensitive to low oxygen supply? It lies downstream in the sinusoidal pathway and receives blood with less remaining oxygen.
+
+
+## Comprehensive Understanding Checks
+
+**01. Name the three main unpaired abdominal visceral arteries.**
+
+<details><summary>Show explanation</summary>Coeliac trunk, superior mesenteric artery and inferior mesenteric artery.</details>
+
+**02. Where does most intestinal venous blood travel before reaching the IVC?**
+
+<details><summary>Show explanation</summary>Through portal vein and hepatic sinusoids, then central and hepatic veins.</details>
+
+**03. Why is hepatic zone 3 susceptible to hypoxic injury?**
+
+<details><summary>Show explanation</summary>It lies near venous outflow and receives relatively less oxygen than periportal zone 1.</details>
+
+**04. What structures lie near a portal triad?**
+
+<details><summary>Show explanation</summary>Small portal venous, hepatic arterial and bile duct branches.</details>
+
+**05. Why does gut blood flow increase after eating?**
+
+<details><summary>Show explanation</summary>Digestive and absorptive demand promotes local metabolic vasodilation and postprandial hyperaemia.</details>
+
+**06. How can abdominal veins contribute to blood pressure compensation?**
+
+<details><summary>Show explanation</summary>Sympathetic venoconstriction mobilizes venous reservoir blood centrally.</details>
+
+**07. Why can shock damage intestinal mucosa despite sympathetic compensation?**
+
+<details><summary>Show explanation</summary>Regional arteriolar constriction restricts oxygen delivery to vulnerable gut tissue.</details>
+
+**08. What is the space of Disse?**
+
+<details><summary>Show explanation</summary>A perisinusoidal exchange space between hepatocytes and sinusoidal endothelium.</details>
+
+**09. Why does portal hypertension promote ascites?**
+
+<details><summary>Show explanation</summary>It increases filtration into hepatic interstitium and lymph production, which can overwhelm drainage.</details>
+
+**10. Is all ascitic fluid rich in protein?**
+
+<details><summary>Show explanation</summary>No; protein concentration depends on disease mechanisms and is not uniform.</details>
+
+**11. How can right-heart failure aggravate ascites?**
+
+<details><summary>Show explanation</summary>Hepatic venous congestion raises sinusoidal hydrostatic pressure and filtration.</details>
+
+**12. Why do arterial anastomoses not guarantee gut survival after a major blockage?**
+
+<details><summary>Show explanation</summary>Collateral capacity may be insufficient for the affected territory's oxygen requirements.</details>
+
+## Chapter Essentials
+
+1. Portal flow passes through hepatic sinusoids before returning to IVC.
+2. Hepatic zone 3 is relatively vulnerable to low oxygen delivery.
+3. Digestion increases regional mucosal perfusion.
+4. Splanchnic veins are an important blood reservoir.
+5. Portal and hepatic venous pressures affect ascites production.

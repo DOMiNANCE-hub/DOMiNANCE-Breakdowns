@@ -14,7 +14,7 @@ In **systolic dysfunction**, ventricular ejection is impaired and EF may be redu
 
 **Check:** Why can a patient with heart failure be oedematous even while kidneys behave as though the body lacks volume?
 
-<details><summary>Answer</summary>Kidneys may sense reduced effective arterial perfusion and retain sodium/water, despite excess total extracellular fluid and high venous filling pressures. This worsens congestion.</details>
+
 
 ## Forward flow and backward congestion
 **Forward failure** emphasises insufficient effective cardiac output: fatigue, reduced exercise capacity, renal hypoperfusion and in severe cases reduced cerebral perfusion. **Backward failure** emphasises increased filling pressures and venous congestion: left-sided dysfunction often raises pulmonary venous pressure, causing dyspnoea, orthopnoea and pulmonary oedema; right-sided dysfunction often raises systemic venous pressure, causing raised JVP, dependent oedema, hepatic congestion and ascites.
@@ -25,3 +25,66 @@ These are explanatory perspectives, **not four mutually exclusive diseases**. Le
 Reduced forward output activates **sympathetic nerves, RAAS and ADH**. Initially increased HR, contractility and volume may preserve perfusion, but excessive vasoconstriction raises afterload and retained water/sodium worsen congestion. Frank–Starling can help compensate early, but a failing ventricular function curve gives diminishing benefit as filling pressure rises. Heart failure can occur with reduced ejection fraction or **preserved ejection fraction when filling/relaxation is abnormal**.
 
 **Practice:** Why might a patient with left-sided heart failure become breathless when lying flat? Recumbency redistributes blood centrally, raising pulmonary venous pressure when the left ventricle cannot accommodate/eject adequately.
+
+## Extra clinical connection
+
+Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic pressure, encouraging lung interstitial fluid accumulation. In right ventricular failure, systemic venous congestion contributes to increased JVP, peripheral oedema and hepatic congestion. Elevated filling pressures may occur even when measured ejection fraction is preserved.
+
+
+## Comprehensive Understanding Checks
+
+**01. Why can ejection fraction remain normal in heart failure?**
+
+<details><summary>Show explanation</summary>A stiff ventricle may eject a normal fraction of a low end-diastolic volume while requiring high filling pressures.</details>
+
+**02. Why is pulmonary oedema associated with left-sided failure?**
+
+<details><summary>Show explanation</summary>Elevated left atrial and pulmonary venous pressures increase microvascular filtration beyond removal capacity.</details>
+
+**03. Why does right-heart failure elevate JVP?**
+
+<details><summary>Show explanation</summary>Systemic venous blood meets elevated right atrial pressure and venous congestion develops.</details>
+
+**04. Why can forward failure cause oliguria?**
+
+<details><summary>Show explanation</summary>Reduced effective kidney perfusion can lower GFR and stimulate salt and water retention.</details>
+
+**05. Why does RAAS activation initially help but ultimately worsen congestion?**
+
+<details><summary>Show explanation</summary>It supports pressure and volume initially, but persistent fluid retention raises venous pressures and afterload.</details>
+
+**06. What distinguishes orthopnoea from exertional dyspnoea?**
+
+<details><summary>Show explanation</summary>Recumbency redistributes blood centrally and can aggravate pulmonary congestion even without exertion.</details>
+
+**07. Why can tachycardia reduce filling in heart failure?**
+
+<details><summary>Show explanation</summary>Shortened diastole reduces filling time, especially when ventricular relaxation is already impaired.</details>
+
+**08. How does right-sided forward failure limit left ventricular filling?**
+
+<details><summary>Show explanation</summary>Less blood is delivered through pulmonary vessels to the left atrium.</details>
+
+**09. Why can total-body fluid excess coexist with effective arterial underfilling?**
+
+<details><summary>Show explanation</summary>Reduced cardiac performance makes the arterial circulation underfilled relative to tissue needs despite venous congestion.</details>
+
+**10. What produces ascites in right backward failure?**
+
+<details><summary>Show explanation</summary>Elevated systemic and hepatic venous pressures increase filtration and may overwhelm lymphatic clearance.</details>
+
+**11. Why does increased afterload burden a failing ventricle?**
+
+<details><summary>Show explanation</summary>It must generate more wall stress to eject blood, potentially decreasing stroke volume.</details>
+
+**12. How do forward and backward failure interact?**
+
+<details><summary>Show explanation</summary>The same ventricular dysfunction may decrease delivered flow and increase upstream filling pressures.</details>
+
+## Chapter Essentials
+
+1. Heart failure may present with high filling pressure despite normal resting output.
+2. Forward failure impairs effective delivery; backward failure raises upstream venous pressure.
+3. Left failure causes pulmonary congestion; right failure causes systemic congestion.
+4. RAAS and sympathetic responses may turn maladaptive.
+5. Preserved EF does not exclude high-pressure impaired filling.

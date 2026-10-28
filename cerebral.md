@@ -18,7 +18,7 @@ Specialised brain capillary **endothelial tight junctions**, transporters and ne
 
 **Check:** Why can rising ICP cause brain ischaemia even when measured arterial BP appears normal?
 
-<details><summary>Answer</summary>CPP is approximately MAP minus ICP. A rise in ICP reduces the pressure gradient driving cerebral blood flow despite unchanged systemic MAP.</details>
+
 
 ## Identify the arterial supplies and vulnerability
 The **anterior, middle and posterior cerebral arteries** supply different territories. The two internal carotids and vertebrobasilar system connect variably in the **Circle of Willis**, potentially supporting collateral supply; the middle cerebral artery is a large terminal branch but **not itself part of the arterial circle**. The actual territories and clinical consequences of occlusion vary; the lecturer includes **ischaemic** (thrombotic/embolic) and **haemorrhagic** stroke as broad categories.
@@ -34,3 +34,66 @@ CSF protects via **buoyancy and cushioning** and supports interstitial solute cl
 The **BBB** depends on continuous nonfenestrated endothelial cells with tight junctions, specialised transporters and associated cells. Glucose uses **GLUT1**, and lipid-soluble gases diffuse comparatively readily. The BBB is **not** the same as the blood–CSF barrier at the choroid plexus.
 
 **Practice:** A brain tumour increases cranial volume beyond compensatory shifts. ICP rises, CPP can fall, and brain perfusion may worsen even if peripheral BP is unchanged.
+
+## CSF and brain perfusion note
+
+The subdural space is normally a potential space. CSF circulates within the ventricles and subarachnoid space.
+
+
+## Comprehensive Understanding Checks
+
+**01. Which arteries supply the major cerebral inflow?**
+
+<details><summary>Show explanation</summary>Internal carotid and vertebrobasilar systems, variably interconnected by the Circle of Willis.</details>
+
+**02. Why can a Circle of Willis fail to prevent an ischaemic stroke?**
+
+<details><summary>Show explanation</summary>Collateral channels vary in size and may not provide enough flow after an occlusion.</details>
+
+**03. What is the approximate cerebral perfusion pressure equation?**
+
+<details><summary>Show explanation</summary>CPP is approximately MAP minus ICP when intracranial pressure represents the relevant downstream pressure.</details>
+
+**04. Why does raised arterial carbon dioxide increase cerebral blood flow?**
+
+<details><summary>Show explanation</summary>CO2-related extracellular acidification promotes cerebral arteriolar dilation.</details>
+
+**05. What space normally holds CSF around the brain?**
+
+<details><summary>Show explanation</summary>The subarachnoid space; the subdural space is normally only potential.</details>
+
+**06. How does CSF pass from the lateral to third ventricle?**
+
+<details><summary>Show explanation</summary>Through the interventricular foramina of Monro.</details>
+
+**07. How does CSF exit the fourth ventricle?**
+
+<details><summary>Show explanation</summary>Through median Magendie and lateral Luschka apertures toward the subarachnoid space.</details>
+
+**08. What is the Monro–Kellie principle?**
+
+<details><summary>Show explanation</summary>Brain, blood and CSF share a constrained intracranial volume; exhausted compensation makes ICP rise steeply.</details>
+
+**09. Why can hydrocephalus impair cerebral perfusion?**
+
+<details><summary>Show explanation</summary>Accumulating CSF increases ICP and can reduce cerebral perfusion pressure.</details>
+
+**10. What structure chiefly limits paracellular exchange across the BBB?**
+
+<details><summary>Show explanation</summary>Tight junctions between specialized cerebral microvascular endothelial cells.</details>
+
+**11. How does blood glucose enter the brain?**
+
+<details><summary>Show explanation</summary>Through transport proteins such as GLUT1 rather than free unrestricted diffusion.</details>
+
+**12. Which metabolic alternative becomes more useful to the brain in prolonged fasting?**
+
+<details><summary>Show explanation</summary>Ketone bodies contribute energy during sustained fasting.</details>
+
+## Chapter Essentials
+
+1. Carotid and vertebrobasilar inflows provide brain perfusion.
+2. CPP depends on MAP and ICP or downstream venous pressure.
+3. CO2 strongly influences cerebral arteriolar tone.
+4. CSF occupies ventricles and subarachnoid space, not normally the subdural space.
+5. GLUT1 transport and endothelial tight junctions are essential BBB principles.

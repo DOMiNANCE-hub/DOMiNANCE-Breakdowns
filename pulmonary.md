@@ -14,7 +14,7 @@ Normally low pulmonary capillary hydrostatic pressure and efficient lymphatic dr
 
 **Check:** Why is hypoxic vasoconstriction useful locally in the lungs but harmful when it affects the entire lung?
 
-<details><summary>Answer</summary>Locally it diverts blood to better-ventilated regions. Widespread hypoxia constricts many pulmonary vessels, increasing resistance and pulmonary arterial pressure.</details>
+
 
 ## Pulmonary vs systemic circuits
 Both receive nearly the same cardiac output, yet normal pulmonary arterial pressures are much lower because pulmonary vascular resistance is low. The lung has dual circulations: **pulmonary vessels** for gas exchange and **bronchial arteries** (from the systemic aortic circulation) nourishing supporting tissues. Part of bronchial venous drainage enters pulmonary veins, contributing to normal physiological venous admixture.
@@ -26,3 +26,62 @@ In an upright lung, blood flow tends to be greater toward dependent (basal) regi
 When an alveolar region is poorly oxygenated, nearby pulmonary arterioles constrict (**hypoxic pulmonary vasoconstriction**) to redirect blood toward better-ventilated alveoli. This is the opposite of the typical **systemic local hypoxic dilation** that boosts oxygen delivery to active tissues. Diffuse sustained alveolar hypoxia can raise pulmonary vascular resistance and eventually cause pulmonary hypertension/right-ventricular strain.
 
 **Practice:** Why is high-altitude hypoxia capable of raising pulmonary pressure? Global alveolar hypoxia stimulates widespread pulmonary arteriolar constriction instead of merely diverting flow within one small region.
+
+
+## Comprehensive Understanding Checks
+
+**01. How does right ventricular minute output compare with left ventricular output?**
+
+<details><summary>Show explanation</summary>They are approximately equal over time because pulmonary and systemic circuits are in series.</details>
+
+**02. Why can pulmonary flow increase without a large pressure rise?**
+
+<details><summary>Show explanation</summary>Pulmonary vessels recruit and distend, lowering effective resistance.</details>
+
+**03. What does the bronchial arterial circulation supply?**
+
+<details><summary>Show explanation</summary>Conducting airways and supporting lung tissues receive systemic arterial perfusion.</details>
+
+**04. Why does gravity change regional pulmonary flow?**
+
+<details><summary>Show explanation</summary>It changes local vascular hydrostatic pressures and vessel recruitment across lung height.</details>
+
+**05. What characterizes West zone 1?**
+
+<details><summary>Show explanation</summary>Alveolar pressure exceeds arterial pressure, potentially collapsing vessels and preventing flow.</details>
+
+**06. What characterizes West zone 2?**
+
+<details><summary>Show explanation</summary>Arterial pressure exceeds alveolar pressure, which exceeds venous pressure, producing waterfall behavior.</details>
+
+**07. What characterizes West zone 3?**
+
+<details><summary>Show explanation</summary>Both pulmonary arterial and venous pressures exceed alveolar pressure, favouring continuous flow.</details>
+
+**08. Why does low alveolar oxygen constrict pulmonary arterioles?**
+
+<details><summary>Show explanation</summary>It redirects blood from poorly ventilated units to better ventilated regions.</details>
+
+**09. Why can widespread hypoxia cause pulmonary hypertension?**
+
+<details><summary>Show explanation</summary>Widespread vasoconstriction increases overall pulmonary vascular resistance.</details>
+
+**10. How is pulmonary oedema limited under ordinary conditions?**
+
+<details><summary>Show explanation</summary>Low capillary hydrostatic pressure, intact barriers, epithelial clearance and lymphatic drainage protect alveoli.</details>
+
+**11. Why can left-heart failure cause pulmonary oedema?**
+
+<details><summary>Show explanation</summary>High pulmonary venous pressure increases filtration and may exceed fluid clearance.</details>
+
+**12. Why might lying flat worsen orthopnoea?**
+
+<details><summary>Show explanation</summary>Recumbency increases central and pulmonary blood volume, aggravating congestion in a failing left heart.</details>
+
+## Chapter Essentials
+
+1. Right and left outputs are equal over time.
+2. Low pulmonary resistance reflects recruitment and distension.
+3. Gravity changes regional perfusion and West-zone relationships.
+4. Low alveolar oxygen causes local pulmonary vasoconstriction.
+5. Diffuse hypoxia and high venous pressure can impair lung function.
