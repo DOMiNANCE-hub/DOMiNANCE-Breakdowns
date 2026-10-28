@@ -49,3 +49,11 @@ Do not silently treat passed structural checks as proof of lecturer coverage, ef
 - Added `.github/workflows/milestone03.yml` to run the canonical build, structural checks, JS syntax checks, and Chromium responsive smoke checks at 320/360/390/768/1280 pixels.
 - GitHub Actions returned zero workflow runs when checked, so those checks are not reported as passed.
 - The generated content.js was last synchronized **before** these final additions, and therefore is not yet a canonical fresh build. Publication and merge remain gated until the workflow executes successfully or an equivalent verified local build is run.
+
+## Verified release gate — 28 October 2026
+
+- Source-correction commits are present for all five chapters following comparison against the two KNUST lecturer PDFs.
+- GitHub Actions run **40705986939** completed successfully (Python canonical build, 27 topic entries, 12 answers and section anchors for each Chapter 16–20, JavaScript syntax, and Chromium responsive viewport smoke tests at 320, 360, 390, 768 and 1280 px).
+- The workflow's generated canonical `content.js` was committed to the branch in commit `90095ce6f09a5a0555bb728b43ca45ae246635ef`.
+- **Limits:** Chromium viewport testing is not physical-device testing, and these smoke checks do not establish every interactive feature, user learning outcome, or live Vercel production status. No claim of those additional tests is made.
+- **Decision:** Accept Milestone 03 for merged source-content release after review; keep physical-device and deployment verification as separate production follow-ups.
