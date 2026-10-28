@@ -138,3 +138,68 @@
 .article-text .media-resource .media-credit a{color:var(--blue)}
 @media(max-width:680px){.article-text .teaching-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.article-text .teaching-compare{grid-template-columns:1fr}.article-text .media-resource{padding:16px 15px}.article-text .media-resource .media-outlink{display:block;margin:12px 0 0}}
 @media(max-width:380px){.article-text .teaching-flow{grid-template-columns:1fr}}
+
+
+/* DOMiNANCE compact teaching standard: readable density, no oversized decorative gaps. */
+.article-text{min-width:0;overflow-wrap:break-word}
+.article-text h2{margin:25px 0 10px;padding-top:5px}
+.article-text h3{margin:16px 0 8px;line-height:1.4}
+.article-text p{margin-bottom:11px}
+.article-text ul,.article-text ol{margin-bottom:14px}
+.article-text li{margin-bottom:5px}
+.article-text table{margin:12px 0 17px;font-size:12.75px;line-height:1.45}
+.article-text td,.article-text th{padding:8px 10px}
+.article-text details{margin:8px 0 11px;padding:11px 14px}
+.article-text details p{margin:9px 0 1px}
+.article-text .teaching-illustration{margin:13px 0 17px;padding:10px 11px 9px}
+.article-text .teaching-illustration img{max-height:440px}
+.article-text .teaching-illustration figcaption{margin-top:8px}
+.article-text #chapter-essentials + ol{padding:13px 15px 13px 34px}
+.article-text #chapter-essentials + ol li{margin-bottom:6px}
+.article-text .media-resource{margin:12px 0;padding:13px 16px}
+.article-text .media-resource h3{margin-bottom:5px}
+.article-text .media-resource p{margin-bottom:8px}
+.article-text .media-play{min-height:42px}
+.article-text .pressure-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:13px 0}
+.article-text .pressure-rules>div{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px;row-gap:2px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 12px;min-width:0}
+.article-text .pressure-rules strong{font-size:13px;flex:0 0 auto}
+.article-text .pressure-rules span{font-size:15px;font-weight:800;color:var(--navy);white-space:nowrap}
+.article-text .pressure-rules small{font-size:11.5px;color:var(--muted);flex-basis:100%}
+.article-text .transition-line{margin:10px 0 16px;padding:8px 12px;border-left:3px solid var(--blue);background:var(--sheet2);border-radius:0 9px 9px 0;font-size:13.5px;line-height:1.55}
+.article-text .transition-line strong{color:var(--navy)}
+.article-text .mechanism-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:9px 0 11px}
+.article-text .mechanism-strip span{font-size:12px;line-height:1.4;padding:7px 8px;border-radius:8px;border:1px solid var(--line);background:var(--sheet2);text-align:center}
+.article-text .mechanism-strip strong{font-size:12px}
+.article-text .equation-block{display:flex;align-items:center;gap:9px 16px;flex-wrap:wrap;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 13px;margin:10px 0 13px;min-width:0}
+.article-text .equation-label{font:750 12px/1.4 'Plus Jakarta Sans',sans-serif;color:var(--muted)}
+.article-text .equation-block math{font-size:18px;display:inline-block;max-width:100%;overflow-wrap:normal;white-space:nowrap;color:var(--navy2)}
+.article-text .equation-example{font-size:12.5px;color:var(--text)}
+.article-text .equation-example strong{color:var(--navy)}
+@media(max-width:660px){
+ .article-text{font-size:14.5px;line-height:1.69}
+ .article-text h2{margin:22px 0 9px;font-size:18px}
+ .article-text h3{font-size:15px}
+ .article-text p{margin-bottom:10px}
+ .article-sheet{padding:18px 15px}
+ .article-summary{margin-bottom:15px;padding-bottom:13px}
+ .mobile-sections{margin:10px 0 14px}
+ .article-text table{font-size:12px;max-width:100%;margin:11px 0 15px}
+ .article-text td,.article-text th{padding:7px 8px}
+ .article-text .teaching-illustration{padding:7px;margin:11px 0 14px}
+ .article-text .teaching-illustration img{max-height:340px}
+ .article-text .media-resource{padding:11px 12px;margin:12px 0}
+ .article-text .pressure-rules{gap:7px}
+ .article-text .pressure-rules>div{padding:8px 9px}
+ .article-text .pressure-rules strong{font-size:12px}
+ .article-text .pressure-rules span{font-size:13.5px}
+ .article-text .mechanism-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .article-text .equation-block{gap:6px 12px;padding:9px 11px}
+ .article-text .equation-block math{font-size:16.5px}
+ .article-text .transition-line{margin:9px 0 13px;padding:7px 10px;font-size:12.7px}
+ .article-text #chapter-essentials + ol{padding:12px 10px 12px 30px}
+}
+@media(max-width:400px){
+ .article-text .pressure-rules{grid-template-columns:1fr}
+ .article-sheet{padding:16px 12px}
+ .article-text table{font-size:11.5px}
+}
