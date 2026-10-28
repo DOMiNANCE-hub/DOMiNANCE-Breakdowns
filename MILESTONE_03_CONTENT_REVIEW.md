@@ -41,3 +41,11 @@ The series has 27 topic entries and 224 expandable check explanations in the syn
 **PUBLISHED/PRODUCTION-VERIFIED MILESTONE: NOT YET ACHIEVED.**
 
 Do not silently treat passed structural checks as proof of lecturer coverage, effective learning outcomes or deployed mobile usability.
+
+## Finalization attempt — 28 October 2026
+
+- Retrieved and reviewed the original regulation and homeostasis PDFs, including relevant local control, systemic control, reflexes, gravity and shock slides.
+- Committed lecture-specific additions to each of the five source Markdown files.
+- Added `.github/workflows/milestone03.yml` to run the canonical build, structural checks, JS syntax checks, and Chromium responsive smoke checks at 320/360/390/768/1280 pixels.
+- GitHub Actions returned zero workflow runs when checked, so those checks are not reported as passed.
+- The generated content.js was last synchronized **before** these final additions, and therefore is not yet a canonical fresh build. Publication and merge remain gated until the workflow executes successfully or an equivalent verified local build is run.
