@@ -12,9 +12,7 @@ Reduced effective arterial perfusion activates sympathetic output, **RAAS** and 
 ## Systolic and diastolic problems
 In **systolic dysfunction**, ventricular ejection is impaired and EF may be reduced. In **diastolic dysfunction**, filling is impaired or requires higher pressure because relaxation/compliance are abnormal; EF may be preserved. Both can cause pulmonary congestion.
 
-**Check:** Why can a patient with heart failure be oedematous even while kidneys behave as though the body lacks volume?
-
-
+**Why oedema can coexist with renal sodium retention:** reduced effective arterial perfusion activates RAAS and ADH despite total-body fluid excess. This raises venous pressures and worsens congestion.
 
 ## Forward flow and backward congestion
 **Forward failure** emphasises insufficient effective cardiac output: fatigue, reduced exercise capacity, renal hypoperfusion and in severe cases reduced cerebral perfusion. **Backward failure** emphasises increased filling pressures and venous congestion: left-sided dysfunction often raises pulmonary venous pressure, causing dyspnoea, orthopnoea and pulmonary oedema; right-sided dysfunction often raises systemic venous pressure, causing raised JVP, dependent oedema, hepatic congestion and ascites.
