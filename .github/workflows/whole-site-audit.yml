@@ -97,6 +97,6 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add content.js
             git commit -m "Regenerate canonical content.js with build.py"
-            git pull --rebase origin final/ch21-27-regional-cvs
-            git push origin HEAD:final/ch21-27-regional-cvs
+            git pull --rebase origin audit/full-cvs-release-2026-10-28
+            git push origin HEAD:audit/full-cvs-release-2026-10-28
           fi
