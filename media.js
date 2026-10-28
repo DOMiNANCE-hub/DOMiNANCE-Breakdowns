@@ -20,7 +20,17 @@
       const audio = document.createElement('audio');
       audio.controls = true;
       audio.preload = 'none';
-      audio.src = url;
+      const mp3 = panel.dataset.audioMp3;
+      if (mp3 && /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/transcoded\/[a-z0-9/_.-]+\.mp3$/i.test(mp3)) {
+        const mpeg = document.createElement('source');
+        mpeg.src = mp3;
+        mpeg.type = 'audio/mpeg';
+        audio.appendChild(mpeg);
+      }
+      const ogg = document.createElement('source');
+      ogg.src = url;
+      ogg.type = 'audio/ogg';
+      audio.appendChild(ogg);
       audio.setAttribute('aria-label', panel.dataset.mediaTitle || 'Heart-sound recording');
       stage.appendChild(audio);
       panel.classList.add('is-playing');
