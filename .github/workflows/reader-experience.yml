@@ -88,9 +88,9 @@ jobs:
               if(width===390){
                 await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-cycle',{waitUntil:'load'});
                 await page.waitForTimeout(200);
-                const continuous=page.locator('[data-reader-mode="continuous"]');
+                const continuous=page.locator('button[data-reader-mode="continuous"]');
                 if(await continuous.getAttribute('aria-pressed')!=='true')throw Error('continuous is not default');
-                await page.locator('[data-reader-mode="section"]').click();
+                await page.locator('button[data-reader-mode="section"]').click();
                 const hidden=await page.locator('.article-text > [hidden]').count();
                 if(hidden<2)throw Error('section mode did not focus one section');
                 await page.locator('#reader-next').click();
@@ -99,8 +99,8 @@ jobs:
                 if(await page.locator('html').getAttribute('data-reader-scale')!=='120')throw Error('font scale failed');
                 await page.reload();
                 await page.waitForTimeout(180);
-                if(await page.locator('[data-reader-mode="section"]').getAttribute('aria-pressed')!=='true')throw Error('reading mode did not persist');
-                await page.locator('[data-reader-mode="continuous"]').click();
+                if(await page.locator('button[data-reader-mode="section"]').getAttribute('aria-pressed')!=='true')throw Error('reading mode did not persist');
+                await page.locator('button[data-reader-mode="continuous"]').click();
                 if(await page.locator('.article-text > [hidden]').count())throw Error('continuous mode did not restore all content');
                 console.log('PASS reading modes, chapter navigation and saved preferences');
               }
