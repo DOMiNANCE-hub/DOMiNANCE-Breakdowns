@@ -76,3 +76,11 @@ In the **left ventricle**, intramyocardial vessels are compressed during systole
 **12. How does infarction differ from reversible angina?**
 
 <details><summary>Show explanation</summary>Infarction entails myocardial cell injury and necrosis from sustained severe ischaemia.</details>
+
+## Chapter Essentials
+
+1. Coronary arteries arise from the aortic sinuses.
+2. Left coronary flow is mainly diastolic.
+3. Myocardial oxygen extraction is already high at rest.
+4. Increased work drives metabolic vasodilation.
+5. Fixed stenosis may exhaust flow reserve before reducing resting flow.
