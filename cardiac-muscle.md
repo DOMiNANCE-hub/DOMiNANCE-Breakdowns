@@ -63,6 +63,8 @@ During phase 2, Ca²⁺ entering the cell tends to maintain depolarisation while
 
 **Important distinction:** This is a ventricular *contractile-cell* action potential. Sinoatrial nodal pacemaker cells have no stable resting membrane potential, and their phase 0 upstroke relies primarily on Ca²⁺ entry rather than fast Na⁺ entry. Their behaviour belongs in the Cardiac Conduction and Automaticity chapter.
 
+<div class="media-resource video-resource" data-youtube-id="v7Q9BrNfIpQ" data-media-title="Cardiac Action Potential — Alila Medical Media"><span class="media-eyebrow">OPTIONAL NARRATED VIDEO</span><h3>Cardiac Action Potential — Alila Medical Media</h3><p>Revisit the ventricular action potential: identify the fast Na⁺ upstroke, Ca²⁺-dependent plateau and prolonged refractory period. The chapter text above remains the complete explanation.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=v7Q9BrNfIpQ" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© Alila Medical Media. Official YouTube embed; not downloaded or rehosted.</p></div>
+
 ## 4. Excitation–contraction coupling: from electrical signal to force
 
 An action potential must initiate changes inside the cardiomyocyte that activate the contractile proteins **(actin and myosin)**. This is **<span data-term="ecc">excitation–contraction coupling (ECC)</span>**, and its essential link is **Ca²⁺**.
