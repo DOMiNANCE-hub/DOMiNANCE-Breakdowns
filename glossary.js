@@ -17,6 +17,7 @@
     'dromotropy': ['Dromotropy', 'An effect on cardiac conduction speed, particularly through the atrioventricular node.'],
     'diastasis': ['Diastasis', 'Slower ventricular filling after the early rapid-filling phase, as the atrioventricular pressure difference narrows.'],
     'atrial-kick': ['Atrial kick', 'The additional blood delivered to a ventricle by atrial contraction near the end of ventricular diastole.'],
+    'esv': ['End-systolic volume (ESV)', 'Blood remaining inside a ventricle at the end of ejection.'],
     'edv': ['End-diastolic volume (EDV)', 'Amount of blood in one ventricle after filling and just before ventricular systole.'],
     'isovolumetric': ['Isovolumetric phase', 'A period when ventricular pressure changes while volume is essentially constant because both inlet and outlet valves are closed.'],
     'ejection-fraction': ['Ejection fraction (EF)', 'Stroke volume divided by end-diastolic volume, expressed as a percentage: EF = SV / EDV × 100%.'],
