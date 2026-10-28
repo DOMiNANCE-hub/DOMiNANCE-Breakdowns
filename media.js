@@ -32,7 +32,28 @@
       ogg.type = 'audio/ogg';
       audio.appendChild(ogg);
       audio.setAttribute('aria-label', panel.dataset.mediaTitle || 'Heart-sound recording');
+      audio.volume = 1;
+      audio.playbackRate = 1;
+      audio.addEventListener('error', () => {
+        const status = panel.querySelector('.audio-status') || document.createElement('p');
+        status.className = 'audio-status';
+        status.setAttribute('role','status');
+        status.textContent = 'The recording could not load. Use the alternative playback link above, or check your internet connection.';
+        if (!status.parentNode) stage.appendChild(status);
+      });
       stage.appendChild(audio);
+      const speed = document.createElement('label');
+      speed.className = 'audio-speed-control';
+      speed.textContent = 'Playback speed ';
+      const select = document.createElement('select');
+      select.setAttribute('aria-label','Heart recording speed');
+      [['0.85','Slower'],['1','Normal'],['1.15','Faster']].forEach(([value,label])=>{
+        const opt=document.createElement('option');opt.value=value;opt.textContent=label;select.appendChild(opt);
+      });
+      select.value='1';
+      select.addEventListener('change',()=>{audio.playbackRate=Number(select.value)});
+      speed.appendChild(select);
+      stage.appendChild(speed);
       panel.classList.add('is-playing');
       play.textContent = 'Close recording';
       play.dataset.mediaAction = 'stop-audio';
@@ -42,7 +63,7 @@
       stage.querySelector('audio')?.pause();
       stage.replaceChildren();
       panel.classList.remove('is-playing');
-      play.textContent = 'Listen';
+      play.textContent = 'Listen to clearer recording';
       play.dataset.mediaAction = 'play-audio';
       play.setAttribute('aria-expanded', 'false');
     } else if (action === 'play-video') {
