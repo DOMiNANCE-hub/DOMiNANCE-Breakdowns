@@ -130,7 +130,7 @@ A small **U wave** may follow the T wave. The lecture calls it the final remnant
 
 ### QT interval — Ventricular activation through recovery
 
-The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
+The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. The lecturer gives an illustrative range of **0.2–0.4 seconds**, noting that QT varies with heart rate. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
 
 **Supplementary: heart-rate correction.** Bazett's formula is a commonly taught approximation, although it is less reliable at unusually low or high heart rates.
 
