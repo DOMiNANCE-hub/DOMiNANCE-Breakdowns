@@ -62,6 +62,24 @@ jobs:
               if(errors.length)throw Error('page errors at '+width+': '+errors.join('; '));
               const catalog=await page.evaluate(()=>window.DOMINANCE_TOPICS?.length);
               if(catalog!==27)throw Error('catalog absent at '+width);
+              if(width===390){
+                for(const slug of ['cv-introduction','cardiac-cycle','blood-pressure','cerebral','fetal']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  await page.waitForTimeout(130);
+                  if(await page.locator('.article-text').count()!==1)throw Error('topic route failed: '+slug);
+                  const buttons=await page.locator('details').count();
+                  if(buttons<5)throw Error('missing reveal panels: '+slug);
+                  await page.locator('details summary').first().click();
+                  if(!(await page.locator('details').first().evaluate(e=>e.open)))throw Error('answer toggle failed: '+slug);
+                  if(await page.locator('#sections-select option').count()<2)throw Error('mobile section selector missing: '+slug);
+                  await page.locator('#mark-read').click();
+                }
+                const t=page.locator('#theme-toggle');
+                await t.click();
+                const theme=await page.locator('html').getAttribute('data-theme');
+                if(!theme)throw Error('theme toggle did not set theme');
+                console.log('PASS deep routes, expandable answers, chapter review and theme');
+              }
               console.log('PASS '+width+'px');
               await page.close();
             }
