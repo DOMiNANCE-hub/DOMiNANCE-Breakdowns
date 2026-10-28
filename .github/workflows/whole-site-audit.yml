@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Refresh branch to latest remote state
+        run: |
+          git fetch origin audit/full-cvs-release-2026-10-28
+          git reset --hard origin/audit/full-cvs-release-2026-10-28
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
