@@ -49,7 +49,7 @@
 This is a **content and repository-integrity milestone**, not a declaration that all product or DOMiNANCE learning-experience goals are fully achieved.
 
 ## Next content milestone
-Chapters 11–15: Arterial and jugular venous pulse; Veins and Venous Return; Microcirculation and Capillary Exchange; Lymphatic System; remaining topics according to the repository's `content.js` roadmap.
+Chapters 11–15: Arterial Pulse and Jugular Venous Pulse; Veins and Venous Return; Microcirculation and Capillary Exchange; Formation of Oedema; Lymphatic Circulation, according to the repository's `content.js` roadmap.
 
 ## Release gate to complete
 Use an authorised deployment/browser environment to verify page layout, horizontal overflow, font readability, equation rendering, on-demand media, glossary popups, accordion operation and navigation. Record observed failures and revise before treating the mobile production release as verified.
