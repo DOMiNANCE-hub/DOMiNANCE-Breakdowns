@@ -1,0 +1,28 @@
+order,group,slug,title,source_primary,source_pages,coverage_type,priority
+1,Heart,cv-introduction,Introduction to Circulation,CIRCULATION 1(4).pdf,1-6,lecturer,core
+2,Heart,cardiac-muscle,Cardiac Muscle Physiology,CIRCULATION 1(4).pdf,4 and 18-20; added foundations,supplemented,core
+3,Heart,cardiac-conduction,Cardiac Conduction and Automaticity,CIRCULATION 1(4).pdf,7-10,lecturer supplemented,core
+4,Heart,cardiac-cycle,The Cardiac Cycle,CIRCULATION 1(4).pdf,11-21,lecturer,core
+5,Heart,heart-sounds,Heart Sounds and Murmurs,CIRCULATION 1(4).pdf,18-19 and 27-34,lecturer,core
+6,Heart,ecg,Electrocardiography and Basic Rhythms,Lecture 7 ECG 2.pdf,1-14; extra diagrams Circulation 3 35-38,lecturer supplemented,core
+7,Vessels,cardiac-output,Cardiac Output and Frank-Starling Law,CIRCULATION 1(4).pdf,35-51,lecturer,core
+8,Vessels,co-measurement,Cardiac Output Measurement and Work,CIRCULATION 1(4).pdf,52-54,lecturer supplemented,core
+9,Vessels,hemodynamics,Blood Flow and Hemodynamics,CIRCULATION 1(4).pdf,55-74,lecturer,core
+10,Vessels,blood-pressure,Arterial Blood Pressure,CIRCULATION 1(4).pdf,76-83,lecturer,core
+11,Vessels,pulses,Arterial Pulse and Jugular Venous Pulse,CIRCULATION 1(4).pdf,22-26,lecturer,core
+12,Vessels,venous-return,Veins and Venous Return,CIRCULATION 1(4).pdf,43-44 and 73-75 and 97-98,lecturer,core
+13,Vessels,microcirculation,Microcirculation and Capillary Exchange,CIRCULATION 1(4).pdf,57-60 and 84-89,lecturer supplemented,core
+14,Vessels,edema,Formation of Oedema,CIRCULATION 1(4).pdf,89-95,lecturer,core
+15,Vessels,lymphatics,Lymphatic Circulation,CIRCULATION 1(4).pdf,60 and 94-95; Regional Circulation 47-48,lecturer supplemented,core
+16,Control,local-regulation,Local Control of Blood Flow,CIRCULATION 2 REGULATION OF THE CVS(2).pdf,1-11,lecturer,core
+17,Control,neural-humoral,Neural and Hormonal Regulation,CIRCULATION 2 REGULATION OF THE CVS(2).pdf,12-30,lecturer,core
+18,Control,reflexes,Cardiovascular Reflexes and Cushing Response,CIRCULATION 2 REGULATION OF THE CVS(2).pdf,18-36,lecturer,core
+19,Control,gravity,Gravity and Orthostatic Homeostasis,CIRCULATION 3 Homeostasis in CVS.pdf,2-11; duplicate Lecture 5 pp2-11,lecturer,core
+20,Control,shock,Circulatory Shock,CIRCULATION 3 Homeostasis in CVS.pdf,12-30; duplicate Lecture 5 pp12-30,lecturer,core
+21,Control,heart-failure,Heart Failure Physiology,CIRCULATION 3 Homeostasis in CVS.pdf,31-33; duplicate Lecture 5 pp31-33,lecturer,core
+22,Regional,cerebral,Cerebral Circulation and CSF,Lecture 6 Regional Circulation Proper.pdf,2-25; extra diagrams Circulation 3 39-41,lecturer,core
+23,Regional,coronary,Coronary Circulation,Lecture 6 Regional Circulation Proper.pdf,26-29; extra diagrams Circulation 3 42-43,lecturer,core
+24,Regional,pulmonary,Pulmonary Circulation,Lecture 6 Regional Circulation Proper.pdf,30-32,lecturer,core
+25,Regional,splanchnic,Splanchnic and Hepatic Circulation,Lecture 6 Regional Circulation Proper.pdf,33-37,lecturer,core
+26,Regional,skin,Cutaneous Circulation,Lecture 6 Regional Circulation Proper.pdf,38-41,lecturer,core
+27,Regional,fetal,Fetal Circulation and Birth Transitions,Lecture 6 Regional Circulation Proper.pdf,42-45,lecturer supplemented,core
