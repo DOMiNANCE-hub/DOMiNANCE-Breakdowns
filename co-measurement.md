@@ -181,6 +181,13 @@ This explains the connection between exertion, increased myocardial work and ang
 **11. Does a greater external stroke work always imply the same proportional increase in myocardial oxygen consumption?**
 <details><summary>Reveal explanation</summary><p><strong>No.</strong> External work is only part of total myocardial energetic demand. Intracellular Ca²⁺ cycling, cross-bridge activation, basal metabolism, wall stress and contractile state also consume energy. The relation between external work and oxygen consumption therefore depends on cardiac conditions.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. How would an erroneously small arterial–venous oxygen-content difference affect a calculated Fick cardiac output at fixed oxygen consumption?**
+
+<details><summary>Reveal explanation</summary><p>CO equals oxygen consumption divided by the arterial–mixed venous content difference. Underestimating the denominator overestimates calculated output, so accurate content measurement is essential.</p></details>
+
 ## Chapter Essentials
 
 1. **Fick's principle:** Whole-body oxygen consumption equals blood flow × arterial–mixed venous oxygen-content difference.
