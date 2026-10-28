@@ -50,6 +50,7 @@
       if (!/^[\w-]{11}$/.test(id || '')) return;
       stage.replaceChildren();
       const iframe = document.createElement('iframe');
+      iframe.setAttribute('aria-label','Embedded educational video player');
       iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?rel=0';
       iframe.title = panel.dataset.mediaTitle || 'Optional educational video';
       iframe.loading = 'lazy';
@@ -71,10 +72,17 @@
       const url = panel.dataset.animationSrc;
       if (!/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/[a-z0-9/_.-]+\.gif$/i.test(url || '')) return;
       stage.replaceChildren();
+      if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
+        stage.textContent='Animation is paused because reduced motion is enabled on this device. You may turn off reduced motion in device settings to view this GIF.';
+        stage.setAttribute('role','status');
+        return;
+      }
+      stage.removeAttribute('role');
       const img = document.createElement('img');
       img.src = url;
       img.alt = panel.dataset.mediaAlt || 'Animated cardiac physiology teaching diagram';
       img.decoding = 'async';
+      img.loading = 'lazy';
       stage.appendChild(img);
       panel.classList.add('is-playing');
       play.textContent = 'Stop animation';
@@ -82,6 +90,7 @@
       play.setAttribute('aria-expanded', 'true');
     } else if (action === 'stop-animation') {
       stage.replaceChildren();
+      stage.removeAttribute('role');
       panel.classList.remove('is-playing');
       play.textContent = 'Play animation';
       play.dataset.mediaAction = 'play-animation';

@@ -50,6 +50,7 @@ function selectMode(newMode){
  mode=newMode;save('dom-reader-mode',mode);setClasses();
  main.querySelectorAll('[data-reader-mode]').forEach(button=>{const chosen=button.dataset.readerMode===mode;button.setAttribute('aria-pressed',String(chosen));});
  const nav=main.querySelector('#reader-section-nav');
+ if(article) article.setAttribute('aria-label',mode==='presentation'?'Focused presentation reading':'Chapter reading');
  if(nav)nav.hidden=mode==='continuous';
  if(mode==='continuous'){
    sections.forEach(s=>s.nodes.forEach(n=>{n.hidden=false}));
@@ -86,6 +87,11 @@ function mount(){
  lineWidth.addEventListener('change',()=>{width=lineWidth.value;save('dom-reader-width',width);setClasses()});
  nav.querySelector('#reader-prev').addEventListener('click',()=>go(activeSection-1));
  nav.querySelector('#reader-next').addEventListener('click',()=>go(activeSection+1));
+ article.addEventListener('keydown',event=>{
+   if(mode!=='presentation'||event.altKey||event.ctrlKey||event.metaKey||/^(INPUT|TEXTAREA|SELECT|BUTTON|A)$/.test(event.target.tagName))return;
+   if(event.key==='ArrowRight'||event.key==='PageDown'){event.preventDefault();if(activeSection<sections.length-1)go(activeSection+1)}
+   if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();if(activeSection>0)go(activeSection-1)}
+ });
  main.querySelector('#sections-select')?.addEventListener('change',event=>{
    if(mode==='continuous')return;
    const index=sections.findIndex(s=>s.heading?.id===event.target.value);
