@@ -76,3 +76,11 @@ A firm, blunt stroke produces a **red line** at the site (local capillary/arteri
 **12. Why is skin temperature alone insufficient to diagnose shock?**
 
 <details><summary>Show explanation</summary>Ambient temperature and many other conditions affect it independently of systemic perfusion.</details>
+
+## Chapter Essentials
+
+1. Cutaneous perfusion has a strong thermoregulatory role.
+2. Sympathetic constriction reduces skin flow in cold and bleeding.
+3. Lewis triple response comprises red line, flare and wheal.
+4. Flare involves a peripheral sensory axon reflex.
+5. Wheal reflects increased capillary permeability and oedema.
