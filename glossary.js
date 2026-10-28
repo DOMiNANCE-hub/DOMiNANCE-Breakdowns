@@ -10,6 +10,11 @@
     'phospholamban': ['Phospholamban', 'SR regulatory protein that inhibits SERCA2a. Phosphorylation reduces this inhibition and speeds Ca²⁺ reuptake.'],
     'inotropy': ['Inotropy', 'Myocardial contractile strength. Positive inotropy means greater contractility under comparable loading conditions.'],
     'lusitropy': ['Lusitropy', 'Rate of myocardial relaxation. Positive lusitropy means faster relaxation.'],
+    'automaticity': ['Automaticity', 'The ability of specialised cardiac cells to initiate action potentials spontaneously without an external nerve impulse.'],
+    'pacemaker-potential': ['Pacemaker potential', 'Gradual spontaneous diastolic depolarisation (phase 4) that brings pacemaker cells towards threshold.'],
+    'funny-current': ['Funny current (I_f)', 'Net inward pacemaker current carried by HCN channels that open at negative membrane potentials and help drive phase 4 depolarisation.'],
+    'overdrive-suppression': ['Overdrive suppression', 'Reduced subsidiary pacemaker automaticity after sustained faster pacing, which can delay the onset of an escape rhythm.'],
+    'dromotropy': ['Dromotropy', 'An effect on cardiac conduction speed, particularly through the atrioventricular node.'],
     'chronotropy': ['Chronotropy', 'Effect on heart rate. Positive chronotropy means a faster heart rate.']
   });
   window.DOM_GLOSSARY = terms;
