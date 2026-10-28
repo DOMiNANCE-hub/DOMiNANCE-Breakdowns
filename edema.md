@@ -123,3 +123,58 @@ Clinical signs alone should not be used to determine a diagnosis without conside
 These are **mechanistic associations**, not exclusive diagnoses. For example, more than one oedema mechanism can coexist in heart or kidney disease.
 
 **Central takeaway:** The visible swelling is the outcome. The important question is **which fluid-balance mechanism failed?**
+
+
+## Understanding Check
+
+**1. Why doesn't a healthy person normally develop continually increasing tissue swelling?**
+<details><summary>Reveal explanation</summary><p>Microvascular filtration supplies some interstitial fluid, but lymphatic vessels return the excess fluid and escaped proteins to the venous circulation. Normally drainage matches ongoing net filtration sufficiently to prevent progressive interstitial accumulation.</p></details>
+
+**2. A patient has venous obstruction in one leg. Which Starling force is most likely increased?**
+<details><summary>Reveal explanation</summary><p><strong>Capillary hydrostatic pressure (Pc).</strong> Obstruction increases pressure upstream in venules and capillaries, pushing more fluid into tissue. Swelling develops when the increase in filtration exceeds local lymphatic capacity.</p></details>
+
+**3. Why might prolonged motionless standing produce ankle oedema?**
+<details><summary>Reveal explanation</summary><p>Gravity raises venous pressure in dependent legs. This elevates capillary hydrostatic pressure and filtration. Lack of calf-muscle pumping also reduces venous emptying, favouring interstitial fluid accumulation at the ankles.</p></details>
+
+**4. Why can advanced liver disease cause oedema through a different mechanism from venous obstruction?**
+<details><summary>Reveal explanation</summary><p>Severe liver disease may reduce albumin synthesis, lowering <strong>plasma oncotic pressure</strong>. Fluid is then less strongly retained within capillaries. Venous obstruction, by contrast, chiefly increases hydrostatic pressure; either may cause excess filtration and oedema.</p></details>
+
+**5. How can nephrotic protein loss produce swelling despite apparently normal arterial pressure?**
+<details><summary>Reveal explanation</summary><p>Heavy urinary protein loss can reduce circulating albumin, decreasing plasma colloid osmotic pressure. This favours greater net fluid escape from microvessels; additional renal sodium and water retention may worsen the swelling.</p></details>
+
+**6. A patient develops red, warm swelling around an inflamed area. What barrier mechanism can produce this?**
+<details><summary>Reveal explanation</summary><p>Inflammatory mediators such as histamine and bradykinin can increase endothelial permeability. More water and some proteins enter local tissues, raising filtration and changing the effective oncotic conditions. This is <strong>increased permeability</strong>, not merely pressure loading.</p></details>
+
+**7. What does the capillary filtration coefficient Kf represent?**
+<details><summary>Reveal explanation</summary><p><strong>Kf</strong> represents the combined effect of exchange surface area and hydraulic permeability of the microvascular barrier. A larger Kf permits more volume movement for a given effective pressure difference, potentially increasing filtration and swelling.</p></details>
+
+**8. Why is the classic statement that 85% of filtered fluid is always reabsorbed into venous capillaries misleading?**
+<details><summary>Reveal explanation</summary><p>The revised Starling principle accounts for the endothelial glycocalyx and local protein gradients. In many continuous capillary beds, low net filtration persists at steady state instead of large sustained venous-end reabsorption. <strong>Lymphatic return</strong> is central to fluid balance. The percentage is a historical illustrative model, not universal physiology.</p></details>
+
+**9. Why might early lymphoedema be pitting while longstanding lymphoedema is often non-pitting?**
+<details><summary>Reveal explanation</summary><p>Early obstruction produces relatively mobile accumulated tissue fluid that may be displaced by finger pressure. Chronic lymphatic failure can cause tissue inflammation, fibrosis and skin thickening, making the swollen tissue firmer and less readily indented.</p></details>
+
+**10. Compare oedema caused by heart failure with oedema caused by lymph-node removal.**
+<details><summary>Reveal explanation</summary><p>Heart failure may elevate systemic or pulmonary venous pressure, increasing capillary hydrostatic filtration. Lymph-node removal can damage lymphatic return pathways, reducing clearance even if filtration initially remains near normal. Both ultimately produce excess interstitial fluid through different primary mechanisms.</p></details>
+
+**11. Why can left-sided cardiac failure interfere with breathing by producing oedema?**
+<details><summary>Reveal explanation</summary><p>Impaired left-heart forward function may elevate pulmonary venous and capillary pressures, raising fluid filtration into the lung interstitium and potentially alveoli. This increases diffusion distance and disrupts gas exchange, contributing to breathlessness.</p></details>
+
+**12. Why is renal sodium/water retention able to worsen oedema in more than one disease?**
+<details><summary>Reveal explanation</summary><p>Retention expands extracellular fluid volume and can increase vascular filling and capillary hydrostatic pressure. If plasma oncotic pressure is low, venous pressure is high or lymph drainage is impaired, the additional retained fluid can further exceed tissue-fluid clearance capacity.</p></details>
+
+## Chapter Essentials
+
+1. **Oedema:** Abnormal excess interstitial fluid caused by filtration exceeding clearance or reduced lymph drainage.
+2. **Traditional Starling model:** Jv = Kf[(Pc − Pi) − σ(πc − πi)].
+3. **Pc:** Capillary hydrostatic pressure favours outward fluid movement.
+4. **Plasma πc:** Mainly albumin-derived oncotic pressure opposes outward filtration.
+5. **Kf:** Hydraulic permeability × filtering surface; inflammatory changes can raise fluid leakage.
+6. **Raised venous pressure:** From obstruction, heart failure or standing increases capillary filtration.
+7. **Reduced plasma albumin:** May follow liver disease, kidney protein loss or malnutrition.
+8. **Inflammation:** Histamine, bradykinin and other mediators can increase endothelial permeability.
+9. **Lymphatic dysfunction:** Impaired fluid/protein return causes local or regional swelling.
+10. **Revised Starling model:** Glycocalyx-mediated gradients and lymphatic return revise universal venous-end reabsorption assumptions.
+11. **Pitting:** Early fluid-rich swelling can pit; advanced lymphoedema may become non-pitting with fibrosis.
+12. **Distribution:** Dependent, pulmonary, generalised and post-surgical patterns suggest different mechanisms.
+13. **Excess salt/water:** Can amplify swelling through expanded ECF and increased microvascular pressures.
