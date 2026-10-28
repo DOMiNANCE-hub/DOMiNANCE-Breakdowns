@@ -9,15 +9,15 @@ Because fetal pulmonary vascular resistance is high, right-heart flow partly byp
 
 Two **umbilical arteries** carry fetal blood to the placenta. Oxygen-rich and oxygen-poor streams mix, so fetal saturation varies between vessels and chambers.
 
+<figure class="learning-figure"><figcaption>Figure. Three fetal vascular shortcuts</figcaption><svg viewBox="0 0 660 171" role="img" aria-label="Ductus venosus bypasses liver sinusoids, foramen ovale connects right atrium with left atrium, and ductus arteriosus connects pulmonary trunk with descending aorta"><g text-anchor="middle" fill="#24354d"><rect x="7" y="25" width="200" height="121" rx="12" fill="#ecf3ff" stroke="#6f97c8"/><rect x="229" y="25" width="200" height="121" rx="12" fill="#eaf5ee" stroke="#76a988"/><rect x="451" y="25" width="200" height="121" rx="12" fill="#fff1dc" stroke="#bb914f"/><g font-size="17" font-weight="bold"><text x="107" y="53">Ductus venosus</text><text x="329" y="53">Foramen ovale</text><text x="551" y="53">Ductus arteriosus</text></g><g font-size="13"><text x="107" y="84">Umbilical vein → IVC</text><text x="107" y="107">Partial liver bypass</text><text x="329" y="84">Right atrium → left</text><text x="329" y="107">atrium</text><text x="551" y="84">Pulmonary trunk →</text><text x="551" y="107">descending aorta</text></g></g></svg><p>Original route schematic; arrows show preferential fetal flow, not every stream or complete anatomical connection. Increased pulmonary flow after birth changes the pressure gradients that maintain these pathways.</p></figure>
+
 ## What changes after the first breaths?
 Lung expansion and increasing alveolar oxygen lower pulmonary vascular resistance, increasing pulmonary blood flow and left atrial return. Umbilical cord clamping removes placental low-resistance flow and increases systemic vascular resistance. Rising **left atrial pressure relative to right** functionally closes the foramen ovale; increased oxygen and reduced prostaglandin influence constrict the ductus arteriosus.
 
 ## Fetal haemoglobin
 **HbF** has higher oxygen affinity than adult HbA, in part because it binds **2,3-BPG** less strongly. This helps fetal blood acquire oxygen across the placenta. HbF declines after birth as adult haemoglobin replaces it over months.
 
-**Check:** Why does the first breath increase blood return from lungs to the left atrium?
-
-
+**Why first breaths increase left atrial return:** aeration and higher oxygen lower pulmonary vascular resistance, increasing pulmonary flow and pulmonary venous filling.
 
 ## Trace the preferentially oxygenated fetal stream
 The placenta oxygenates fetal blood. The **umbilical vein** brings comparatively oxygen-rich blood toward the liver; some flows through the **ductus venosus** to the IVC. Preferential streaming across the **foramen ovale** supplies left atrium → left ventricle → ascending aorta, supporting perfusion of the developing heart and brain. Much right ventricular output enters pulmonary trunk and passes through **ductus arteriosus** into descending aorta, bypassing the high-resistance unventilated lungs. **Umbilical arteries** return lower-oxygen blood to placenta.

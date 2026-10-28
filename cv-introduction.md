@@ -136,6 +136,37 @@ Electrical activation normally precedes contraction, allowing the atria and vent
 **5. During atrial systole, are the ventricles also contracting? Explain the timing.**
 <details><summary>Reveal explanation</summary><p><strong>Normally, no.</strong> Atrial systole occurs near the end of ventricular diastole. The AV nodal conduction delay helps ensure atrial contraction contributes its final portion of ventricular filling before ventricular systole starts. Most filling has already occurred passively.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. Why does pulmonary arterial blood contain less oxygen than pulmonary venous blood?**
+
+<details><summary>Reveal explanation</summary><p>Pulmonary arteries convey systemic venous blood from the right ventricle toward alveolar capillaries. Gas exchange loads oxygen into blood, which then returns through the pulmonary veins. Arterial versus venous classification describes flow direction relative to the heart, not oxygen saturation.</p></details>
+
+**Supplementary 2. Why is the myocardium dependent on coronary vessels even though chambers contain blood?**
+
+<details><summary>Reveal explanation</summary><p>Most myocardial cells are too far from chamber blood for diffusion to supply their high metabolic demand. Coronary arterial flow delivers oxygen and nutrients through the myocardial capillaries.</p></details>
+
+**Supplementary 3. Why does normal ventricular filling not require atrial contraction for its majority?**
+
+<details><summary>Reveal explanation</summary><p>During early diastole, ventricular pressure falls below atrial pressure, opening AV valves and permitting passive filling. Atrial systole contributes a smaller late increment under normal resting conditions.</p></details>
+
+**Supplementary 4. How would sustained inequality of ventricular output alter the pulmonary circulation?**
+
+<details><summary>Reveal explanation</summary><p>If the right ventricle persistently pumped more than the left, blood would accumulate in pulmonary vessels, increasing pressures and potentially causing congestion. The reverse inequality would drain pulmonary volume.</p></details>
+
+**Supplementary 5. Why do valves not need active contraction to open?**
+
+<details><summary>Reveal explanation</summary><p>Valve leaflets move passively in response to pressure gradients. An upstream-to-downstream pressure advantage opens a valve; reversed gradient closes it, with supporting apparatus limiting backflow.</p></details>
+
+**Supplementary 6. What is the clinical significance of having two circulations arranged in series?**
+
+<details><summary>Reveal explanation</summary><p>An obstruction in one circuit can reduce filling and output of the next. For example, impaired pulmonary flow can reduce left atrial return, while failing left heart can back up blood into pulmonary vessels.</p></details>
+
+**Supplementary 7. Why can the right ventricle pump a similar volume with less muscular wall thickness?**
+
+<details><summary>Reveal explanation</summary><p>Pulmonary vascular resistance and pressure are normally much lower than systemic values, so the right ventricle needs less pressure-generating myocardial mass to drive comparable minute flow.</p></details>
+
 ## Chapter Essentials
 
 1. **Systemic and pulmonary circulations operate in series:** long-term right and left ventricular outputs must be approximately equal.

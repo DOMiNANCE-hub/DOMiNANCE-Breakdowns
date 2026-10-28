@@ -6,15 +6,15 @@ The right ventricle delivers approximately the same minute output as the left ve
 ## Gravity and distribution
 In an upright person, gravity changes hydrostatic pressures across lung regions. Regional blood flow varies from apex to base as vascular pressures, alveolar pressure and recruitment/distension vary; this is often conceptualized with **West lung zones**.
 
+<figure class="learning-figure"><figcaption>Figure. Functional West zones of upright lung perfusion</figcaption><svg viewBox="0 0 640 176" role="img" aria-label="Three functional pressure regimes: zone one alveolar pressure exceeds arterial; zone two arterial exceeds alveolar exceeds venous; zone three arterial and venous exceed alveolar"><g text-anchor="middle" fill="#23384f"><rect x="8" y="22" width="195" height="125" rx="12" fill="#fff0e2" stroke="#d99c51"/><rect x="222" y="22" width="195" height="125" rx="12" fill="#edf2ff" stroke="#718dc9"/><rect x="436" y="22" width="195" height="125" rx="12" fill="#e5f4eb" stroke="#65a48d"/><g font-size="18" font-weight="bold"><text x="105" y="50">Zone 1</text><text x="319" y="50">Zone 2</text><text x="533" y="50">Zone 3</text></g><g font-size="17"><text x="105" y="83">PA &gt; Pa &gt; Pv</text><text x="319" y="83">Pa &gt; PA &gt; Pv</text><text x="533" y="83">Pa &gt; Pv &gt; PA</text></g><g font-size="13"><text x="105" y="113">Flow absent / minimal</text><text x="319" y="113">Waterfall flow</text><text x="533" y="113">Continuous flow</text></g></g></svg><p>Original conceptual comparison. PA = alveolar pressure, Pa = pulmonary arterial pressure, Pv = pulmonary venous pressure. Actual zones vary with posture and physiological conditions; zone 1 is ordinarily absent or minimal in healthy resting lungs.</p></figure>
+
 ## The unusual response to low oxygen
 Systemic resistance vessels commonly dilate in metabolically hypoxic tissue, but **small pulmonary arteries constrict in response to low alveolar PO₂**. This diverts blood toward better-ventilated alveoli and can improve ventilation–perfusion matching. Diffuse chronic alveolar hypoxia, however, can raise pulmonary vascular resistance and contribute to pulmonary hypertension.
 
 ## Oedema prevention
 Normally low pulmonary capillary hydrostatic pressure and efficient lymphatic drainage oppose fluid accumulation in alveoli. Raised left atrial/pulmonary venous pressure in left-heart failure increases filtration and may produce pulmonary oedema.
 
-**Check:** Why is hypoxic vasoconstriction useful locally in the lungs but harmful when it affects the entire lung?
-
-
+**Local versus widespread hypoxic pulmonary vasoconstriction:** local constriction redistributes blood to better ventilated alveoli; diffuse constriction increases overall pulmonary vascular resistance.
 
 ## Pulmonary vs systemic circuits
 Both receive nearly the same cardiac output, yet normal pulmonary arterial pressures are much lower because pulmonary vascular resistance is low. The lung has dual circulations: **pulmonary vessels** for gas exchange and **bronchial arteries** (from the systemic aortic circulation) nourishing supporting tissues. Part of bronchial venous drainage enters pulmonary veins, contributing to normal physiological venous admixture.

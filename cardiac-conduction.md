@@ -149,6 +149,29 @@ These disturbances affect effective pumping because both heart rate and the coor
 **7. If atrial impulses cannot reach the ventricles, must the ventricles stop immediately?**
 <details><summary>Reveal explanation</summary><p><strong>Not necessarily.</strong> In complete AV block, impulses from the atria do not conduct to the ventricles, but a subsidiary junctional or ventricular pacemaker may generate an <em>escape rhythm</em>. This maintains some ventricular contractions independently of the atria; it is often slower and may reduce cardiac output. An escape rhythm is a potential protective response, not a guarantee of adequate circulation.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. Why can complete AV block produce independent atrial and ventricular rhythms?**
+
+<details><summary>Reveal explanation</summary><p>Atrial impulses fail to reach the ventricular conduction system, while subsidiary junctional or ventricular pacemakers may continue depolarizing independently, producing AV dissociation.</p></details>
+
+**Supplementary 2. Why does damage to the His–Purkinje system impair synchronized ventricular contraction?**
+
+<details><summary>Reveal explanation</summary><p>The Purkinje network normally distributes activation rapidly across widely separated ventricular regions. Slower or blocked conduction produces delayed regional contraction and less efficient mechanical coordination.</p></details>
+
+**Supplementary 3. Why is the SA nodal action-potential upstroke slower than the ventricular upstroke?**
+
+<details><summary>Reveal explanation</summary><p>The SA nodal upstroke relies predominantly on L-type calcium channels with slower activation kinetics, whereas the ventricular working myocardium uses rapid voltage-gated sodium current.</p></details>
+
+**Supplementary 4. How does acetylcholine slow SA node discharge even though the node is automatic?**
+
+<details><summary>Reveal explanation</summary><p>M2 signalling reduces cAMP-dependent pacemaker currents and activates potassium conductance. The maximum diastolic potential becomes more negative and phase 4 depolarization proceeds more slowly.</p></details>
+
+**Supplementary 5. What does AV nodal delay protect during normal filling?**
+
+<details><summary>Reveal explanation</summary><p>It separates atrial electrical activation from ventricular systole, allowing late atrial contraction to add blood before AV valve closure; most filling remains passive.</p></details>
+
 ## Chapter Essentials
 
 1. **Normal pathway:** SA node → atrial myocardium → AV node → His bundle → bundle branches → Purkinje fibres → ventricular myocardium.

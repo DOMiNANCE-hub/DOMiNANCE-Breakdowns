@@ -6,15 +6,15 @@ The **right and left coronary arteries** originate from the aortic root and supp
 ## Why left coronary flow favours diastole
 During systole, high left-ventricular wall tension compresses intramyocardial coronary vessels, especially in the subendocardium. As ventricular pressure falls during **diastole**, coronary resistance decreases and perfusion increases. Therefore markedly shortened diastole in tachycardia may threaten myocardial oxygen supply even as oxygen demand rises.
 
+<figure class="learning-figure"><figcaption>Figure. Why left ventricular coronary perfusion favours diastole</figcaption><svg viewBox="0 0 620 160" role="img" aria-label="Systole compresses intramyocardial arteries and reduces left ventricular coronary perfusion, while diastole relieves compression and increases flow"><rect x="15" y="20" width="270" height="110" rx="14" fill="#fce9ec" stroke="#bf6777"/><rect x="335" y="20" width="270" height="110" rx="14" fill="#e8f3ff" stroke="#668dbf"/><g font-size="17" font-weight="bold" text-anchor="middle" fill="#24364d"><text x="150" y="50">Systole</text><text x="470" y="50">Diastole</text></g><g font-size="14" text-anchor="middle" fill="#24364d"><text x="150" y="76">Myocardial compression ↑</text><text x="150" y="101">Intramural flow limited</text><text x="470" y="76">Compression relieved</text><text x="470" y="101">LV coronary flow ↑</text></g><path d="M293 76h35m-9 -7 9 7 -9 7" stroke="#456d95" stroke-width="3" fill="none"/></svg><p>Original simplified schematic. This principle is especially important in the left ventricular subendocardium; right coronary flow and coronary flow timing are more variable.</p></figure>
+
 ## Strong metabolic regulation
 Myocardium already extracts a high fraction of delivered oxygen at rest. When its demand increases, oxygen supply is raised mainly by **increased coronary blood flow**. Local dilators include **adenosine, NO** and metabolites associated with increased activity. Direct sympathetic α vasoconstriction may occur, but metabolic vasodilatation usually dominates during increased cardiac work.
 
 ## Ischaemia, angina and infarction
 A narrowed coronary artery may provide adequate resting flow but insufficient reserve on exercise, producing **angina**. Sustained severe interruption of coronary perfusion can cause **myocardial infarction**, with irreversible myocyte injury. Coronary spasm, thrombosis and plaque complications alter flow.
 
-**Check:** Why might extreme tachycardia simultaneously increase myocardial oxygen demand and reduce supply?
-
-
+**Why extreme tachycardia can cause ischaemia:** myocardial oxygen demand increases while left ventricular diastolic coronary perfusion time decreases.
 
 ## Routes and drainage
 The **left coronary artery** typically divides into **left anterior descending (anterior interventricular)** and **circumflex** branches; the **right coronary artery** supplies right-sided branches and often the posterior descending artery, depending on coronary dominance. Dominance is defined by the origin of the **posterior descending artery**, not simply by which coronary artery looks bigger. Cardiac venous blood returns mainly through the **coronary sinus** to the right atrium, with some anterior and smallest cardiac veins draining separately.
