@@ -155,3 +155,59 @@ The lecturer's final diagram (slide 83) shows the biggest mean pressure fall acr
 **Why do pulses diminish in the microcirculation?** Pulsatile energy is progressively damped as blood passes through elastic vessels and resistance pathways. Capillary pressure and velocity also differ from aortic values.
 
 The fall in mean pressure is **not evenly distributed** across all segments. Arteriolar tone can therefore affect both the amount of blood reaching tissues and the systemic pressure upstream.
+
+
+## Understanding Check
+
+**1. Why does blood keep flowing through arteries during diastole, even though the aortic valve is closed?**
+<details><summary>Reveal explanation</summary><p>During ventricular systole, the aorta and large elastic arteries stretch and store energy. During diastole, their <strong>elastic recoil</strong> maintains an arterial-to-peripheral pressure gradient, permitting continuing forward flow. Pressure declines but does not immediately become zero when ejection stops.</p></details>
+
+**2. A student's BP is 120/70 mmHg. Calculate pulse pressure and approximate MAP.**
+<details><summary>Reveal explanation</summary><p><strong>PP = 120 − 70 = 50 mmHg.</strong> At an ordinary resting heart rate, <strong>MAP ≈ DBP + PP/3 = 70 + 50/3 ≈ 86.7 mmHg</strong>. MAP is the average over time, so this is an approximation rather than the simple midpoint of SBP and DBP.</p></details>
+
+**3. Why is the mean arterial pressure closer to diastolic than systolic pressure at usual resting heart rates?**
+<details><summary>Reveal explanation</summary><p>At typical resting rates, the cardiac cycle spends more time in diastole than at the highest systolic pressure. MAP is a <strong>time-weighted average</strong> across the waveform, so the longer diastolic interval gives the lower pressure more weight. The exact result varies with waveform and heart rate.</p></details>
+
+**4. A person's upper-arm cuff is positioned 20 cm below heart level. What approximate hydrostatic error would you expect?**
+<details><summary>Reveal explanation</summary><p>The hydrostatic component is about <strong>0.77–0.78 mmHg per centimetre</strong> for whole blood. At 20 cm below heart level, the observed pressure may be approximately <strong>15–16 mmHg higher</strong> because of that height difference. The arm should be supported at heart level for a comparable reading.</p></details>
+
+**5. Why can a very small BP cuff produce a falsely high blood pressure reading?**
+<details><summary>Reveal explanation</summary><p>A cuff too small for the upper-arm circumference does not transmit its indicated pressure uniformly or effectively enough to compress the artery. The observer may need to inflate to a <strong>higher recorded cuff pressure</strong> to occlude the vessel, so the displayed BP can be falsely elevated.</p></details>
+
+**6. A cuff is inflated above systolic pressure. Why are Korotkoff sounds initially absent?**
+<details><summary>Reveal explanation</summary><p>The cuff has compressed the brachial artery so that blood cannot pass beneath it. Without intermittent blood flow through the partly compressed segment, there is no local sound-generating vibration. The first tapping sounds emerge when cuff pressure falls just below the systolic peak.</p></details>
+
+**7. What physiological event causes the first audible Korotkoff sound during deflation?**
+<details><summary>Reveal explanation</summary><p>When cuff pressure falls just below the arterial <strong>systolic pressure</strong>, blood begins to pass through the partly compressed brachial artery during each pressure peak. The resulting disturbed flow and vessel vibration produce the first tapping sounds (Phase I), which estimate SBP.</p></details>
+
+**8. Why does the disappearance of Korotkoff sounds generally indicate diastolic pressure in adults?**
+<details><summary>Reveal explanation</summary><p>Once cuff pressure falls sufficiently below diastolic arterial pressure, the artery can remain open throughout the cycle rather than becoming intermittently compressed. The flow-related sounds disappear (Phase V), which is commonly used as the adult DBP endpoint.</p></details>
+
+**9. Why can't palpation alone determine both systolic and diastolic pressure?**
+<details><summary>Reveal explanation</summary><p>Palpation can detect when the distal pulse returns as cuff pressure falls, providing a useful estimate of <strong>systolic pressure</strong>. It does not identify the pattern or disappearance of Korotkoff sounds, so it cannot reliably determine <strong>diastolic pressure</strong> by this method.</p></details>
+
+**10. Why can a stiff aorta have a wider pulse pressure than a more compliant aorta at the same stroke volume?**
+<details><summary>Reveal explanation</summary><p>A compliant aorta expands more when the same blood volume enters it, limiting the pressure increase. A stiffer aorta expands less, so the same stroke volume can produce a larger systolic pressure rise and often a <strong>wider pulse pressure</strong>. Stroke volume and compliance both influence the result.</p></details>
+
+**11. A patient with severe blood loss develops tachycardia and vasoconstriction, yet tissue perfusion is poor. Why might BP be misleading?**
+<details><summary>Reveal explanation</summary><p>Haemorrhage lowers venous return, EDV and stroke volume. Reflex tachycardia and increased systemic vascular resistance can temporarily support mean arterial pressure, but <strong>CO = HR × SV</strong> may still be too low to meet tissue oxygen needs. A near-normal pressure does not ensure adequate blood flow.</p></details>
+
+**12. Why is the largest fall in systemic mean pressure often across arterioles rather than uniformly across all vessels?**
+<details><summary>Reveal explanation</summary><p>Arterioles have relatively narrow lumens and active smooth muscle that regulates resistance. They are a major resistance segment, so a substantial fraction of the perfusion-pressure difference is expended across them. This allows arteriolar tone to govern local flow and strongly influence upstream arterial pressure.</p></details>
+
+## Chapter Essentials
+
+1. **Arterial pressure:** SBP is the systolic peak and DBP the minimum pressure before the next ejection.
+2. **Windkessel effect:** Elastic artery expansion during systole and recoil in diastole maintain forward flow.
+3. **Mean pressure and resistance:** MAP − CVP ≈ CO × SVR; heart rate alone does not determine BP.
+4. **Pulse pressure:** PP = SBP − DBP; affected by stroke volume and arterial compliance.
+5. **Mean arterial pressure:** MAP ≈ DBP + ⅓PP at usual resting heart rates; it is a time average, not an arithmetic midpoint.
+6. **Gravity:** Hydrostatic pressure changes by approximately 0.77–0.78 mmHg for each centimetre of vertical displacement of whole blood.
+7. **Cuff at heart level:** Below heart → falsely high; above heart → falsely low hydrostatic contribution.
+8. **Korotkoff Phase I:** First tapping sound during cuff deflation estimates SBP.
+9. **Korotkoff Phase V:** Disappearance of sounds generally estimates adult DBP.
+10. **Palpation:** Can estimate systolic but not reliably diastolic pressure.
+11. **Cuff sizing:** Too small commonly reads falsely high; too large commonly reads falsely low.
+12. **Measurement quality:** Quiet rest, supported arm, bare upper arm, correct cuff and gradual deflation matter.
+13. **Pressure through vessels:** Largest mean pressure drop occurs across resistance arterioles; pulsations progressively dampen.
+14. **Clinical reasoning:** Maintained pressure does not guarantee normal cardiac output or tissue oxygen delivery.
