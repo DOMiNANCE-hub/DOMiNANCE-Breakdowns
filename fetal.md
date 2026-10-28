@@ -79,3 +79,11 @@ First breaths expand lungs and increase alveolar oxygen, sharply reducing **pulm
 **12. Why does fetal haemoglobin have high oxygen affinity?**
 
 <details><summary>Show explanation</summary>HbF binds 2,3-BPG less strongly than HbA, promoting placental oxygen transfer.</details>
+
+## Chapter Essentials
+
+1. Placenta is the fetal gas-exchange organ.
+2. Ductus venosus, foramen ovale and ductus arteriosus redirect fetal flow.
+3. First breaths lower pulmonary resistance.
+4. Cord clamping increases systemic resistance.
+5. HbF has higher oxygen affinity because of reduced 2,3-BPG binding.
