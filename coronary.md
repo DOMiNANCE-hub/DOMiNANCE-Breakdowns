@@ -12,9 +12,7 @@ Myocardium already extracts a high fraction of delivered oxygen at rest. When it
 ## Ischaemia, angina and infarction
 A narrowed coronary artery may provide adequate resting flow but insufficient reserve on exercise, producing **angina**. Sustained severe interruption of coronary perfusion can cause **myocardial infarction**, with irreversible myocyte injury. Coronary spasm, thrombosis and plaque complications alter flow.
 
-**Check:** Why might extreme tachycardia simultaneously increase myocardial oxygen demand and reduce supply?
-
-
+**Why extreme tachycardia can cause ischaemia:** myocardial oxygen demand increases while left ventricular diastolic coronary perfusion time decreases.
 
 ## Routes and drainage
 The **left coronary artery** typically divides into **left anterior descending (anterior interventricular)** and **circumflex** branches; the **right coronary artery** supplies right-sided branches and often the posterior descending artery, depending on coronary dominance. Dominance is defined by the origin of the **posterior descending artery**, not simply by which coronary artery looks bigger. Cardiac venous blood returns mainly through the **coronary sinus** to the right atrium, with some anterior and smallest cardiac veins draining separately.
