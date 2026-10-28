@@ -42,6 +42,10 @@ In **hypovolaemia**, filling pressure is often low; in **cardiogenic pump failur
 
 The immediate priorities in suspected shock are urgent assessment of airway, breathing and circulation and rapid treatment of the underlying cause in a clinical setting. **Bleeding requires haemorrhage control**, pump failure requires cause-directed management, obstructive causes need relief, and distributive causes need targeted treatment. This chapter teaches physiology, not a substitute for emergency clinical protocols.
 
+## Lecturer-specific additions
+
+The lecture includes concealed internal bleeding after femoral fracture, splenic rupture or ectopic pregnancy; burn-related plasma losses may initially produce haemoconcentration rather than the typical immediate whole-blood Hb concentration pattern. It also covers myoglobin-associated renal injury in trauma, low urine output and tubular injury, myocardial ischaemia, capillary stasis and eventual vascular hyporesponsiveness. Vasovagal, postural, micturition and carotid-sinus syncope have distinct triggers; ordinary orthostatic syncope does not require bradycardia.
+
 ## Understanding Checks
 
 **01. Can a patient be shocked with a near-normal MAP after major bleeding?**
