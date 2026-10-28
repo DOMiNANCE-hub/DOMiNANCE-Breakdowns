@@ -34,6 +34,10 @@ Receptors in the atria and pulmonary vessels monitor central filling. The lectur
 
 **Ordinary blood loss** tends to cause baroreflex **tachycardia** and vasoconstriction. **Increased ICP** may create a Cushing sequence of sympathetic **hypertension** followed by **baroreflex bradycardia**. **Increased atrial filling** can stimulate a Bainbridge tendency toward tachycardia. Different primary stimuli can therefore yield different HR directions; always identify the initiating stimulus before predicting output.
 
+## Lecturer-specific additions
+
+Additional lecture inputs include cortical and hypothalamic influences, pulmonary inflation afferents, hypoxia, hypercapnia and pain. Brief painful stimuli may increase sympathetic pressure responses, while emotional or sustained-pain triggers can evoke vasovagal hypotension. Increased atrial filling can also suppress ADH and stimulate natriuretic peptide signalling.
+
 ## Understanding Checks
 
 **01. Where are the two major high-pressure arterial baroreceptor sites?**
