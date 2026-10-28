@@ -171,9 +171,11 @@ jobs:
                 if(await page.locator('.platform-available').count()!==1)throw Error('CVS system card missing');
                 if(await page.locator('.platform-upcoming a').count())throw Error('unavailable systems linked');
                 await page.locator('.platform-available').click();
+                await page.waitForTimeout(180);
                 if(!(await page.locator('h1').innerText()).includes('Cardiovascular Physiology'))throw Error('CVS landing heading missing');
                 if(!(await page.locator('.hero-chip').innerText()).includes('6 lecture documents'))throw Error('CVS lecture count missing');
                 await page.locator('.brand').click();
+                await page.waitForTimeout(180);
                 if(!(await page.locator('h1').innerText()).includes('Complex concepts.'))throw Error('wordmark failed to return platform home');
                 await page.goto('http://127.0.0.1:8000/#/physiology/cvs/heart-sounds',{waitUntil:'load'});
                 if(!(await page.locator('h1').innerText()).includes('Heart Sounds'))throw Error('deep chapter route broken');
