@@ -366,3 +366,14 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .audio-speed-control select{font:inherit;color:var(--text);background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:8px;min-height:40px}
 .audio-status{color:var(--text);font-size:.9rem;line-height:1.5}
 .audio-resource audio{width:min(100%,540px);min-height:46px}
+
+/* Native, accessible in-page figure viewing; no external navigation on image taps. */
+.figure-zoom{display:block;max-width:100%;width:100%;padding:0;margin:0;cursor:zoom-in;background:transparent;border:0;border-radius:10px;line-height:0}
+.figure-zoom img{display:block;max-width:100%;height:auto;margin-inline:auto}
+.figure-zoom:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.figure-viewer{position:fixed;inset:0;margin:auto;border:1px solid var(--line);border-radius:16px;background:var(--sheet);color:var(--text);box-shadow:0 24px 90px rgba(0,0,0,.3);width:min(96vw,1200px);max-width:96vw;max-height:94dvh;padding:12px;overflow:auto}
+.figure-viewer::backdrop{background:rgba(9,19,37,.78)}
+.figure-viewer img{display:block;max-width:100%;max-height:calc(94dvh - 110px);height:auto;width:auto;object-fit:contain;margin:0 auto}
+.figure-viewer-close{display:block;position:sticky;top:0;margin-left:auto;margin-bottom:8px;background:var(--sheet2);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:9px 14px;font-weight:700;cursor:pointer;z-index:2}
+.figure-viewer-caption{font-size:.85rem;line-height:1.45;color:var(--muted);margin:8px 6px 2px}
+@media(max-width:500px){.figure-viewer{padding:8px}.figure-viewer img{max-height:calc(94dvh - 100px)}}
