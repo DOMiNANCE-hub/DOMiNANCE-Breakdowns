@@ -155,25 +155,25 @@ Moderate increases in heart rate are accommodated by adjustments such as greater
 ## Understanding Check
 
 **1. A cardiomyocyte contracts normally, but neighbouring cells fail to activate together. Which intercalated-disc component is most likely affected?**
-<details><summary>Reveal answer</summary><p><strong>Gap junctions.</strong> They allow ionic current to spread between neighbouring cardiomyocytes. Fascia adherens and desmosomes primarily maintain mechanical coupling.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Gap junctions.</strong> They form low-resistance pathways for ionic current to pass directly between neighbouring cardiomyocytes. If this electrical coupling is disrupted, an action potential may not spread reliably, so contractions lose coordination. <strong>Fascia adherens and desmosomes</strong> instead mainly maintain mechanical attachment and transmission of force.</p></details>
 
 **2. Which ion produces the rapid ventricular phase 0 upstroke, and how is this different from the phase 2 plateau?**
-<details><summary>Reveal answer</summary><p>Phase 0 reflects rapid <strong>Na⁺ influx</strong> through fast Na⁺ channels. During phase 2, inward <strong>Ca²⁺</strong> current through L-type channels partly balances outward <strong>K⁺</strong> current.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Phase 0:</strong> fast voltage-gated Na⁺ channels open, producing a large inward Na⁺ current and rapid depolarisation. <strong>Phase 2:</strong> a smaller, sustained inward Ca²⁺ current through L-type channels is roughly balanced by outward K⁺ current, maintaining the plateau. The plateau prolongs electrical activity and helps support Ca²⁺-dependent contraction.</p></details>
 
 **3. What happens if RyR2 channels fail to open despite normal Ca²⁺ entry through L-type channels?**
-<details><summary>Reveal answer</summary><p>Contraction becomes markedly weaker because the small trigger Ca²⁺ influx no longer produces the much larger Ca²⁺ release from the SR.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Contraction becomes much weaker.</strong> Ca²⁺ entering through L-type channels is primarily the trigger for opening ryanodine receptor type 2 (RyR2) channels on the sarcoplasmic reticulum. Without that amplified Ca²⁺ release, the cytosolic Ca²⁺ rise is too small to activate the normal number of actin–myosin interactions.</p></details>
 
 **4. Explain how impaired SERCA2a can delay relaxation and weaken later contractions.**
-<details><summary>Reveal answer</summary><p>Slower Ca²⁺ return to the SR leaves cytosolic Ca²⁺ elevated longer, delaying relaxation. It may also leave less Ca²⁺ stored in the SR for release during subsequent beats.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Relaxation is delayed</strong> because SERCA2a normally pumps cytosolic Ca²⁺ back into the sarcoplasmic reticulum (SR). If its activity falls, Ca²⁺ remains elevated in the cytosol longer, delaying detachment of Ca²⁺ from troponin. Reduced SR refilling can also leave less Ca²⁺ available for release on later beats, potentially reducing force.</p></details>
 
 **5. Why can skeletal muscle undergo tetanus while cardiac muscle normally cannot?**
-<details><summary>Reveal answer</summary><p>Skeletal muscle has a refractory period much shorter than its twitch, permitting summation. Cardiac refractoriness overlaps most of contraction, preventing normal fused tetanus.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Skeletal muscle can summate contractions</strong> because its refractory period ends well before a twitch finishes; repeated stimuli can then produce fused tetanus. Cardiac muscle has a prolonged action-potential plateau and refractory period that overlaps most of contraction, preventing a new propagated action potential soon enough for normal tetanic summation. This preserves time for relaxation and filling.</p></details>
 
 **6. How can sympathetic stimulation increase contractile strength and speed of relaxation at the same time?**
-<details><summary>Reveal answer</summary><p>β₁–cAMP–PKA signalling increases Ca²⁺ entry and release for contraction, while phospholamban phosphorylation enhances SERCA2a-mediated Ca²⁺ uptake during relaxation.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>β₁-receptor activation → cAMP → protein kinase A (PKA).</strong> PKA promotes L-type Ca²⁺ entry and larger SR Ca²⁺ release, producing a stronger contraction (<em>positive inotropy</em>). PKA also phosphorylates phospholamban, relieving its inhibition of SERCA2a so Ca²⁺ returns to the SR faster (<em>positive lusitropy</em>). The same signal therefore supports both stronger contraction and faster relaxation.</p></details>
 
 **7. Why can extreme tachycardia lower cardiac output despite a faster heart rate?**
-<details><summary>Reveal answer</summary><p>Marked shortening of diastole can reduce ventricular filling and stroke volume. If stroke volume falls sufficiently, the increase in heart rate may not maintain cardiac output.</p></details>
+<details><summary>Reveal explanation</summary><p>Cardiac output equals <strong>heart rate × stroke volume (CO = HR × SV)</strong>. Extreme tachycardia shortens diastole substantially, leaving less time for ventricular filling. This can lower end-diastolic volume and stroke volume. If stroke volume decreases proportionally more than heart rate increases, cardiac output falls despite the faster rhythm.</p></details>
 
 ## Chapter Essentials
 
