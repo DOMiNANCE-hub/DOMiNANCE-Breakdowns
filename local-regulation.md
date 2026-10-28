@@ -87,7 +87,11 @@ A fall in systemic pressure can trigger **baroreflex sympathetic vasoconstrictio
 
 **Clinical application:** If systemic shock drives perfusion pressure below the lower autoregulatory limit, local dilation cannot maintain normal cerebral or renal flow. This connects local autoregulation directly to shock and organ dysfunction.
 
-## 8. Understanding Checks
+## Additional lecturer-specific concepts
+
+The lecture lists rising temperature, low pH, increased carbon dioxide, potassium, lactate, cardiac ADP, bradykinin, substance P, histamine H2 signalling and ANP among local vasodilator-associated influences. Effects vary by tissue and receptor. It lists serotonin, cooling and angiotensin among constrictor influences. The two-curvature Laplace form P = T(1/R1 + 1/R2) is not mathematically equivalent to the slide's later expression P = T/(R1 + R2); that second expression must not be taught as a rearrangement.
+
+## Understanding Checks
 
 **01.** Perfusion pressure through a vascular bed doubles while its resistance remains unchanged. What happens to flow initially, and what local adjustment can defend its baseline?
 
@@ -137,7 +141,7 @@ A fall in systemic pressure can trigger **baroreflex sympathetic vasoconstrictio
 
 <details><summary>Show explanation</summary>No. Sympathetic vasoconstrictor influence and local metabolic vasodilation act together. In active muscle, local demand-related dilation can strongly attenuate sympathetic constriction, so that perfusion increases while flow in less active beds may be restricted.</details>
 
-## 9. Chapter Essentials
+## Chapter Essentials
 
 1. Tissue flow depends on pressure difference and vascular resistance: **Q = ΔP/R**.
 2. Arteriolar calibre is a major adjustable determinant of local resistance.
@@ -152,7 +156,7 @@ A fall in systemic pressure can trigger **baroreflex sympathetic vasoconstrictio
 11. Local and systemic controls may compete or cooperate in one vascular bed.
 12. Severe shock can push perfusion below the effective autoregulatory range.
 
-## 10. References and scope notes
+## References and scope notes
 
 - **Lecturer scope:** CIRCULATION 2 REGULATION OF THE CVS(2).pdf, pp. 1–11 (local regulation, myogenic/metabolic theories, Laplace and mediators). Slide numbering/source mapping should be rechecked against the exact uploaded lecture PDF before merging.
 - **Reference physiology:** Guyton and Hall, *Textbook of Medical Physiology*, chapters on local and humoral control of tissue blood flow; Boron and Boulpaep, *Medical Physiology*, vascular smooth-muscle and regional-flow control.
