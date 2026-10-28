@@ -129,25 +129,25 @@ These disturbances affect effective pumping because both heart rate and the coor
 ## Understanding Check
 
 **1. Why does the SA node dominate even though other conducting cells can generate impulses?**
-<details><summary>Reveal answer</summary><p>It generally fires first and repeatedly activates and resets slower pacemaker regions before they independently reach threshold.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>The SA node normally reaches threshold first.</strong> Its spontaneous phase 4 depolarisation generally produces a faster intrinsic rhythm than that of subsidiary pacemakers. Each SA-initiated impulse arrives before slower cells discharge independently and resets their electrical activity. This is why the SA node usually controls the rhythm, although other pacemakers can take over if it fails.</p></details>
 
 **2. Why does hyperpolarisation activate the funny current even though it helps depolarise the cell?**
-<details><summary>Reveal answer</summary><p>Hyperpolarisation opens HCN channels. At typical SA nodal membrane potentials the resulting current is net inward, adding positive charge and moving the membrane towards threshold.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>HCN channels are activated by sufficiently negative membrane potentials</strong>—hence the name <em>hyperpolarisation-activated</em>. At typical SA nodal voltages, the mixed Na⁺/K⁺ current passing through them is <strong>net inward</strong>, bringing positive charge into the cell. The membrane therefore gradually becomes less negative and moves towards threshold. Channel opening and the direction of the resulting current are different concepts.</p></details>
 
 **3. Why is the SA nodal phase 0 different from that of a ventricular contractile cell?**
-<details><summary>Reveal answer</summary><p>SA nodal phase 0 primarily uses L-type Ca²⁺ influx; working ventricular phase 0 primarily uses rapid Na⁺ influx through fast voltage-gated channels.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>SA nodal phase 0 is mainly mediated by L-type Ca²⁺ influx</strong>; working ventricular muscle has a rapid phase 0 dominated by fast voltage-gated Na⁺ influx. The cells express different functional channel patterns and resting membrane properties. Consequently, the SA nodal upstroke is slower than the ventricular contractile-cell upstroke.</p></details>
 
 **4. Why is AV nodal conduction slow but His–Purkinje conduction fast?**
-<details><summary>Reveal answer</summary><p>The AV delay allows atrial contraction to complete its contribution to ventricular filling before ventricular systole. Rapid His–Purkinje conduction then activates large regions of both ventricles within a short interval for effective pressure generation and ejection.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>The AV node provides timing:</strong> its slow conduction briefly separates atrial activation from ventricular activation, allowing atrial contraction to complete its contribution to filling. <strong>The His–Purkinje network provides coordinated distribution:</strong> it rapidly excites widely separated ventricular regions so pressure develops efficiently. Delayed chamber-to-chamber conduction and rapid conduction within the ventricles serve different purposes.</p></details>
 
 **5. How does sympathetic stimulation increase heart rate?**
-<details><summary>Reveal answer</summary><p>β₁ signalling increases cAMP-mediated pacemaker currents, generally steepening phase 4 depolarisation so the SA node reaches threshold sooner.</p></details>
+<details><summary>Reveal explanation</summary><p>Noradrenaline activates <strong>β₁-adrenergic receptors</strong> in pacemaker cells, increasing <strong>cAMP</strong>. This enhances depolarising pacemaker currents (including HCN-mediated I<sub>f</sub> and Ca²⁺ currents), so phase 4 generally rises towards threshold more rapidly. The SA node reaches threshold sooner, fires more often, and <strong>heart rate increases</strong>.</p></details>
 
 **6. Why can vagal stimulation slow an automatically firing SA node?**
-<details><summary>Reveal answer</summary><p>Automaticity does not fix the firing frequency. M₂ activation reduces depolarising pacemaker currents and increases K⁺ conductance, delaying threshold and slowing firing.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Automaticity means spontaneous discharge, not a fixed rate.</strong> Vagal acetylcholine acts on M₂ receptors, reducing cAMP-mediated depolarising currents and opening acetylcholine-sensitive K⁺ channels. The membrane can become more negative and phase 4 rises more slowly, so reaching threshold takes longer and the SA node fires less often.</p></details>
 
 **7. If atrial impulses cannot reach the ventricles, must the ventricles stop immediately?**
-<details><summary>Reveal answer</summary><p>No. A subsidiary junctional or ventricular pacemaker may generate an escape rhythm, although it is usually slower and may produce less efficient pumping.</p></details>
+<details><summary>Reveal explanation</summary><p><strong>Not necessarily.</strong> In complete AV block, impulses from the atria do not conduct to the ventricles, but a subsidiary junctional or ventricular pacemaker may generate an <em>escape rhythm</em>. This maintains some ventricular contractions independently of the atria; it is often slower and may reduce cardiac output. An escape rhythm is a potential protective response, not a guarantee of adequate circulation.</p></details>
 
 ## Chapter Essentials
 
