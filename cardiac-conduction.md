@@ -1,32 +1,161 @@
 # Cardiac Conduction and Automaticity
 
-## The normal pathway
-The **sinoatrial (SA) node**, near the superior vena cava–right atrial junction, usually sets the rhythm. Depolarization spreads through the atria, reaches the **atrioventricular (AV) node**, passes through the **bundle of His**, right and left bundle branches, then the **Purkinje network** to activate ventricular myocardium.
+**Lecture:** CIRCULATION 1(4).pdf, slides 7–10. **Supplementary foundations:** pacemaker action potentials, autonomic modulation and clinical consequences.
 
-The AV node delays conduction. This gives the atria time to contract before ventricular systole, assisting filling. Purkinje fibres conduct rapidly so the ventricles activate efficiently, usually from apex towards base.
+## 1. Why does the heart need a conducting system?
 
-## Why does the SA node fire on its own?
-SA nodal cells do not have a stable resting membrane potential. During **phase 4**, net inward depolarizing current includes the hyperpolarization-activated **funny current (I_f)**, contributions from Ca²⁺ currents, and changing K⁺ conductance. Reaching threshold opens predominantly **L-type Ca²⁺ channels** for phase 0; K⁺ efflux mediates repolarization.
+The heart has four chambers, but efficient pumping requires more than all four chambers contracting: **they must contract in the correct sequence**.
 
-Do **not** confuse this nodal Ca²⁺ upstroke with the fast Na⁺ upstroke of ventricular working muscle.
+The atria must be electrically activated before the ventricles so atrial contraction can complete the final portion of ventricular filling. The ventricles must then be activated in a coordinated manner to generate pressure for blood ejection.
 
-## Autonomic control
-Sympathetic noradrenaline acting at **β₁ receptors** steepens pacemaker depolarization and increases heart rate. Parasympathetic acetylcholine acting at **M₂ receptors** slows nodal firing and AV conduction, partly through GIRK K⁺ channels and reduced cAMP.
+The **specialised cardiac conducting system** generates and distributes electrical impulses through the myocardium. Unlike skeletal muscle, the heart does not need a new motor nerve impulse to initiate every beat. Specialised cardiac cells can spontaneously generate electrical impulses—**<span data-term="automaticity">automaticity</span>**.
 
-If the SA node fails, slower subsidiary pacemakers may take over. AV conduction disturbances may produce delayed conduction or dropped ventricular beats; interpreting them requires the ECG.
+## 2. The pathway of cardiac electrical conduction
 
-**Check:** Why does AV nodal delay improve cardiac performance?
+**SA node → atrial myocardium → AV node → bundle of His → right and left bundle branches → Purkinje fibres → ventricular myocardium.**
 
-<details><summary>Answer</summary>It allows atrial depolarization/contraction to occur before ventricular activation, improving ventricular filling rather than making both chambers contract together.</details>
+| Structure | Location or function |
+|---|---|
+| **Sinoatrial (SA) node** | Near the junction of the superior vena cava and right atrium; normally initiates each heartbeat. |
+| **Atrial conducting pathways** | Distribute excitation through both atria and towards the AV node. |
+| **Atrioventricular (AV) node** | Lower right atrial septal region, near the coronary sinus opening and septal tricuspid leaflet; slows conduction before ventricular activation. |
+| **Bundle of His** | Conducts impulses from the AV node into the interventricular septum. |
+| **Right and left bundle branches** | Carry excitation towards their respective ventricles. |
+| **Purkinje fibres** | Rapidly distribute excitation through the ventricular myocardium. |
 
-## Where the structures lie and why sequence matters
-The **SA node** is located in the right atrial wall near the superior vena cava opening; the **AV node** lies low in the interatrial septum near the coronary sinus and septal tricuspid leaflet. Impulses spread through atrial myocardium and preferential atrial conduction routes. The **Bachmann bundle** supports rapid conduction to the left atrium. Older teaching names the anterior, middle (Wenckebach) and posterior (Thorel) internodal tracts; treat these as traditional descriptions rather than three universally discrete insulated bundles.
+<figure class="teaching-illustration" id="cvs03-figure-01">
+<a href="https://upload.wikimedia.org/wikipedia/commons/f/ff/2018_Conduction_System_of_Heart.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/2018_Conduction_System_of_Heart.jpg" alt="Sectioned heart showing the SA node, atrial pathways including Bachmann's bundle, AV node, His bundle, bundle branches and Purkinje fibres." width="2021" height="1354"></a>
+<figcaption><strong>Figure 01. Specialised cardiac conducting system.</strong> Follow the impulse from the right atrial SA node into the His–Purkinje network. The three internodal pathways shown are traditional teaching descriptions, not necessarily three separately insulated bundles. <span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2018_Conduction_System_of_Heart.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></figcaption>
+</figure>
 
-From the AV node, impulses traverse the **bundle of His**, right and left bundle branches and rapidly conducting **Purkinje fibres**. The fibrous cardiac skeleton electrically separates most atrial from ventricular working myocardium; the AV conduction pathway is normally the connection. Slow AV nodal conduction creates a delay so atrial contraction occurs before ventricular systole. Rapid Purkinje propagation promotes coordinated ventricular activation from apical/endocardial regions toward the base.
+### What about the internodal pathways?
 
-## Automaticity and different pacemaker rates
-Many specialised conducting cells can depolarise spontaneously. The SA node normally dominates because it fires faster, suppressing slower subsidiary pacemakers (**overdrive suppression**). If SA impulses fail to reach the ventricles, a junctional or ventricular escape rhythm may provide a slower backup; this is not equivalent to healthy coordinated sinus rhythm.
+The lecture names three traditional internodal pathways: **anterior** (associated with Bachmann's bundle), **middle** (Wenckebach) and **posterior** (Thorel). These names help follow the lecturer's slides. However, the atria do not necessarily contain three separate, insulated conducting bundles corresponding exactly to these pathways; excitation also spreads through ordinary atrial myocardium. **Bachmann's bundle** is particularly important for spreading excitation from the right to the left atrium, allowing the atria to be activated close together in time.
 
-Sympathetic norepinephrine acting on **β₁ receptors** increases cAMP-dependent pacemaker currents and usually steepens phase 4, raising heart rate (**positive chronotropy**) and AV conduction (**positive dromotropy**). Vagal acetylcholine acting at **M₂ receptors** reduces cAMP and increases K⁺ conductance, slowing SA nodal discharge and AV nodal conduction.
+## 3. Why is the SA node the normal pacemaker?
 
-**Practice:** The purpose of AV nodal delay is not to strengthen the electrical impulse. It preserves timing: the atria empty before the ventricles contract.
+The SA node normally sets the rhythm because its cells spontaneously reach threshold faster than other potential pacemaker regions.
+
+An ordinary ventricular contractile cell has a relatively stable resting membrane potential and usually requires an incoming impulse for a new action potential. **SA nodal cells lack a stable resting membrane potential**: after repolarisation, the membrane gradually becomes less negative until it reaches threshold. This gradual rise is **<span data-term="pacemaker-potential">spontaneous diastolic depolarisation (the pacemaker potential)</span>**.
+
+### How does the SA nodal action potential occur?
+
+**Phase 4 — Spontaneous diastolic depolarisation:** After repolarisation, the negative SA nodal membrane potential activates **HCN (hyperpolarisation-activated cyclic nucleotide-gated) channels**. These carry the **<span data-term="funny-current">funny current (I_f)</span>**. Although hyperpolarisation *opens* the channels, the current they produce at typical SA nodal potentials is net inward, bringing positive charge into the cell and gradually moving membrane potential towards threshold. A reduction in outward K⁺ current and inward Ca²⁺ currents also contribute.
+
+**Phase 0 — Depolarisation:** On reaching threshold, mainly **L-type Ca²⁺ channels** open. This differs from working ventricular cardiomyocytes, whose rapid phase 0 depends primarily on fast Na⁺ channels.
+
+**Phase 3 — Repolarisation:** Ca²⁺ channels inactivate and outward K⁺ currents restore a negative membrane potential. The next pacemaker cycle can then begin.
+
+<figure class="teaching-illustration" id="cvs03-figure-02">
+<a href="https://www.mdpi.com/cells/cells-13-00004/article_deploy/html/images/cells-13-00004-g001.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://www.mdpi.com/cells/cells-13-00004/article_deploy/html/images/cells-13-00004-g001.png" alt="Side-by-side SA nodal pacemaker and ventricular cardiomyocyte action potentials: spontaneous phase 4 depolarisation and calcium upstroke in nodal cells contrasted with sodium upstroke and plateau in ventricular cells, above an ECG." width="1500" height="1125"></a>
+<figcaption><strong>Figure 02. Pacemaker versus ventricular action potentials.</strong> Compare the spontaneously rising phase 4 of the SA node with the stable resting potential, fast phase 0 and phase 2 plateau of the ventricular cardiomyocyte. The lower ECG trace is supplementary and will be explained later. <span class="figure-credit">Image: <a href="https://doi.org/10.3390/cells13010004" target="_blank" rel="noopener noreferrer">Jonker, Barnett, Boink &amp; Christoffels, <em>Cells</em> (2024), Figure 1</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></figcaption>
+</figure>
+
+## 4. If other conducting cells can fire spontaneously, why doesn't each set its own rhythm?
+
+The SA node is not the only region with automaticity. Other specialised conducting cells can also generate impulses, but their inherent rates are generally slower.
+
+The SA node normally reaches threshold **before** these slower pacemaker regions. When an impulse reaches them, it activates and resets their electrical activity, preventing them from independently determining the rhythm. **The SA node dominates because it normally fires faster, not because the other cells have lost automaticity.**
+
+A related mechanism is **<span data-term="overdrive-suppression">overdrive suppression</span>**, in which sustained faster activation suppresses subsidiary automaticity, sometimes delaying an escape rhythm after faster pacing stops. Resetting by incoming impulses and overdrive suppression are related but not identical.
+
+### What if the SA node fails?
+
+A slower subsidiary pacemaker may take over:
+
+| Pacemaker region | Typical rate |
+|---|---|
+| SA node | Normal adult resting sinus rate: 60–100 beats/min |
+| AV junction | Junctional escape rhythm: approximately 40–60 beats/min |
+| Ventricular pacemaker | Ventricular escape rhythm: approximately 20–40 beats/min |
+
+These ranges are guides, not fixed values. A subsidiary pacemaker can preserve ventricular activity if the normal pacemaker or its conduction fails, but slower rate and altered coordination may reduce pumping efficiency.
+
+## 5. Why does the AV node delay electrical conduction?
+
+The AV node conducts relatively slowly, partly because nodal action potential upstrokes are Ca²⁺-dependent and cell-to-cell conduction is less rapid than in the His–Purkinje system.
+
+Why is the delay useful? **The atria must complete their contraction before the ventricles contract.** After atrial activation, atrial contraction pushes the final portion of blood into the ventricles. The AV node briefly delays the impulse so this contribution to ventricular filling can occur before ventricular systole begins. Without an appropriate delay, excessive overlap of atrial and ventricular contractions could reduce the effectiveness of atrial contribution.
+
+Importantly, **most ventricular filling occurs passively** before atrial systole. Atrial contraction normally contributes the remaining portion; it does not provide most of the blood entering the ventricles.
+
+### Why doesn't the impulse simply spread from atria to ventricles?
+
+The cardiac fibrous skeleton electrically insulates most atrial myocardium from ventricular myocardium. Under normal conditions, impulses cross via the specialised AV conducting pathway, preserving the atrial-to-ventricular activation sequence.
+
+## 6. Why is ventricular conduction so rapid?
+
+After the AV node, the impulse enters the **His–Purkinje system**, where rapid Na⁺-dependent depolarisation and effective cell-to-cell coupling permit fast conduction. The Purkinje network distributes excitation widely through the ventricles so large regions of myocardium become activated within a short period. This lets the ventricles develop pressure and eject blood efficiently.
+
+Activation normally begins in regions of the interventricular septum, then spreads through the Purkinje network to the ventricular endocardium and through the working myocardium. The precise sequence is more complex than a single wave travelling upwards from the apex; its ECG implications are discussed later.
+
+### Why should conduction be slow in one region and fast in another?
+
+**The AV node conducts slowly**, briefly delaying ventricular activation so the atria can complete their contraction and deliver the final portion of blood into the ventricles.
+
+**The His–Purkinje network then conducts rapidly**, distributing excitation throughout both ventricles within a short time so that the ventricular myocardium generates pressure and ejects blood effectively.
+
+In short, **slow AV nodal conduction provides correct *timing between chambers*, while rapid His–Purkinje conduction provides coordinated *activation within the ventricles*.**
+
+## 7. How does the autonomic nervous system influence pacemaker activity?
+
+The SA node is automatic, but its firing rate is modifiable. The key relationship is simple: **the faster phase 4 reaches threshold, the sooner the next action potential occurs**.
+
+### Sympathetic stimulation
+
+Noradrenaline activates **β₁-adrenergic receptors**, increasing cAMP-mediated signalling in pacemaker cells. This enhances pacemaker currents and generally steepens phase 4 depolarisation. The SA node reaches threshold sooner and fires more frequently, increasing heart rate. Sympathetic stimulation also increases AV nodal conduction.
+
+### Parasympathetic stimulation
+
+Vagal acetylcholine activates **M₂ muscarinic receptors**, reducing cAMP-dependent inward currents and increasing K⁺ conductance through acetylcholine-sensitive K⁺ channels. This can make the membrane more negative and slow phase 4 depolarisation. Threshold is reached later, so heart rate falls. AV nodal conduction also slows.
+
+- **<span data-term="chronotropy">Chronotropy</span>:** Effect on heart rate.
+- **<span data-term="dromotropy">Dromotropy</span>:** Effect on conduction velocity, particularly AV nodal conduction.
+
+Sympathetic stimulation usually produces positive chronotropy and dromotropy; vagal stimulation produces negative chronotropy and dromotropy.
+
+## 8. Clinical significance of conduction disturbances
+
+Electrical dysfunction may occur because the normal pacemaker fails, an impulse is delayed or transmission is interrupted.
+
+**SA nodal dysfunction:** The normal pacemaker fires too slowly or pauses, potentially allowing a subsidiary pacemaker to take over.
+
+**AV conduction block:** Impulses may reach the ventricles more slowly, some may fail to conduct, or atrial-to-ventricular conduction may be completely interrupted. In complete AV block, atria and ventricles may operate under separate pacemakers, with a slower escape rhythm maintaining ventricular activity.
+
+These disturbances affect effective pumping because both heart rate and the coordination of contraction matter. Their ECG manifestations belong in the ECG chapter.
+
+## Understanding Check
+
+**1. Why does the SA node dominate even though other conducting cells can generate impulses?**
+<details><summary>Reveal answer</summary><p>It generally fires first and repeatedly activates and resets slower pacemaker regions before they independently reach threshold.</p></details>
+
+**2. Why does hyperpolarisation activate the funny current even though it helps depolarise the cell?**
+<details><summary>Reveal answer</summary><p>Hyperpolarisation opens HCN channels. At typical SA nodal membrane potentials the resulting current is net inward, adding positive charge and moving the membrane towards threshold.</p></details>
+
+**3. Why is the SA nodal phase 0 different from that of a ventricular contractile cell?**
+<details><summary>Reveal answer</summary><p>SA nodal phase 0 primarily uses L-type Ca²⁺ influx; working ventricular phase 0 primarily uses rapid Na⁺ influx through fast voltage-gated channels.</p></details>
+
+**4. Why is AV nodal conduction slow but His–Purkinje conduction fast?**
+<details><summary>Reveal answer</summary><p>The AV delay allows atrial contraction to complete its contribution to ventricular filling before ventricular systole. Rapid His–Purkinje conduction then activates large regions of both ventricles within a short interval for effective pressure generation and ejection.</p></details>
+
+**5. How does sympathetic stimulation increase heart rate?**
+<details><summary>Reveal answer</summary><p>β₁ signalling increases cAMP-mediated pacemaker currents, generally steepening phase 4 depolarisation so the SA node reaches threshold sooner.</p></details>
+
+**6. Why can vagal stimulation slow an automatically firing SA node?**
+<details><summary>Reveal answer</summary><p>Automaticity does not fix the firing frequency. M₂ activation reduces depolarising pacemaker currents and increases K⁺ conductance, delaying threshold and slowing firing.</p></details>
+
+**7. If atrial impulses cannot reach the ventricles, must the ventricles stop immediately?**
+<details><summary>Reveal answer</summary><p>No. A subsidiary junctional or ventricular pacemaker may generate an escape rhythm, although it is usually slower and may produce less efficient pumping.</p></details>
+
+## Chapter Essentials
+
+1. **Normal pathway:** SA node → atrial myocardium → AV node → His bundle → bundle branches → Purkinje fibres → ventricular myocardium.
+2. **SA node:** Normally sets heart rate by reaching threshold sooner than other pacemaker regions.
+3. **Automaticity:** Specialised cardiac cells generate impulses without requiring external nerve stimulation.
+4. **SA nodal action potential:** Phase 4 spontaneous depolarisation; phase 0 mainly Ca²⁺ influx; phase 3 K⁺-mediated repolarisation.
+5. **Funny current:** Hyperpolarisation activates HCN channels, producing a net inward current that contributes to the pacemaker potential.
+6. **AV delay:** Allows atrial contraction to complete its contribution to ventricular filling before ventricular systole.
+7. **His–Purkinje network:** Rapid impulse distribution allows coordinated ventricular activation.
+8. **Subsidiary pacemakers:** Can generate escape rhythms if normal pacemaker activity or conduction fails.
+9. **Autonomic effects:** Sympathetic β₁ stimulation accelerates SA firing and AV conduction; parasympathetic M₂ stimulation slows both.
+10. **Chronotropy versus dromotropy:** Chronotropy affects heart rate; dromotropy affects conduction velocity.
