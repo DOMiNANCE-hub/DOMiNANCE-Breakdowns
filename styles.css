@@ -282,3 +282,20 @@
 .article-text .hemo-flow-figure{padding:11px 12px;margin:11px 0 16px}
 .article-text .hemo-flow-figure svg{max-height:175px}.article-text .hemo-flow-figure p{font-size:11.5px;line-height:1.5}
 @media(max-width:660px){.article-text .hemo-radius-impact{gap:6px}.article-text .hemo-radius-impact>div{padding:9px}.article-text .hemo-radius-impact span{font-size:13px}.article-text .hemo-flow-figure svg{max-height:145px}}
+
+
+/* Chapter 10: compact Windkessel, hydrostatic-height and pressure-drop visuals. */
+.article-text .bp-windkessel-figure{padding:10px 11px;margin:11px 0 16px}
+.article-text .bp-windkessel-figure svg{max-height:190px}
+.article-text .bp-windkessel-figure p{font-size:11.5px;line-height:1.5}
+.article-text .bp-height-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 15px}
+.article-text .bp-height-rules>div{border:1px solid var(--line);background:var(--sheet2);border-radius:11px;padding:10px 11px;display:flex;flex-direction:column;gap:4px}
+.article-text .bp-height-rules strong{font-size:12px}
+.article-text .bp-height-rules span{font-size:15px;font-weight:800;color:var(--blue)}
+.article-text .bp-height-rules small{font-size:11px;line-height:1.4;color:var(--muted)}
+.article-text .bp-drop-strip{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;padding:10px 11px;margin:12px 0 16px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2)}
+.article-text .bp-drop-strip span{display:flex;flex-direction:column;gap:3px}
+.article-text .bp-drop-strip strong{font-size:12px}.article-text .bp-drop-strip small{font-size:10.5px;color:var(--muted)}
+.article-text .bp-drop-strip b{color:var(--blue);font-size:14px}
+@media(max-width:660px){.article-text .bp-windkessel-figure svg{max-height:155px}.article-text .bp-height-rules{gap:6px}.article-text .bp-height-rules>div{padding:9px}.article-text .bp-height-rules strong{font-size:11.5px}.article-text .bp-height-rules span{font-size:12.5px}.article-text .bp-height-rules small{font-size:10px}}
+@media(max-width:340px){.article-text .bp-height-rules{grid-template-columns:1fr}}
