@@ -12,9 +12,7 @@ Intestinal metabolic activity increases after feeding, promoting splanchnic bloo
 ## Ascites
 Portal hypertension can increase hydrostatic pressure in abdominal microvessels and hepatic sinusoids. Combined with renal sodium retention, lymph production and often low plasma albumin, this favours **ascites**, accumulation of fluid in the peritoneal cavity. The mechanism is multifactorial; increased protein concentration in all ascitic fluid should not be assumed.
 
-**Check:** Why can severe shock injure the gut even while blood pressure is defended?
-
-
+**Why shock can injure the gut:** sympathetic redistribution supports systemic pressure but can reduce mucosal oxygen delivery below demand.
 
 ## Two inflows and the hepatic microvascular route
 Arteries from the **coeliac trunk, superior mesenteric and inferior mesenteric arteries** supply abdominal organs; portal venous blood collects nutrients and metabolites from the gut/spleen before delivering them to the liver. The liver receives blood through **portal vein and hepatic artery** branches, which mix in sinusoids and drain to **central veins → hepatic veins → IVC**. The **portal triad** contains a portal venule, hepatic arteriole and bile ductule. Bile generally travels in a direction opposing sinusoidal blood drainage.
