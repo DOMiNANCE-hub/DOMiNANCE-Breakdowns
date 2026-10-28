@@ -15,6 +15,12 @@
     'funny-current': ['Funny current (I_f)', 'Net inward pacemaker current carried by HCN channels that open at negative membrane potentials and help drive phase 4 depolarisation.'],
     'overdrive-suppression': ['Overdrive suppression', 'Reduced subsidiary pacemaker automaticity after sustained faster pacing, which can delay the onset of an escape rhythm.'],
     'dromotropy': ['Dromotropy', 'An effect on cardiac conduction speed, particularly through the atrioventricular node.'],
+    'diastasis': ['Diastasis', 'Slower ventricular filling after the early rapid-filling phase, as the atrioventricular pressure difference narrows.'],
+    'atrial-kick': ['Atrial kick', 'The additional blood delivered to a ventricle by atrial contraction near the end of ventricular diastole.'],
+    'edv': ['End-diastolic volume (EDV)', 'Amount of blood in one ventricle after filling and just before ventricular systole.'],
+    'isovolumetric': ['Isovolumetric phase', 'A period when ventricular pressure changes while volume is essentially constant because both inlet and outlet valves are closed.'],
+    'ejection-fraction': ['Ejection fraction (EF)', 'Stroke volume divided by end-diastolic volume, expressed as a percentage: EF = SV / EDV × 100%.'],
+    'wiggers': ['Wiggers diagram', 'A time-aligned plot linking ECG, cardiac chamber and arterial pressures, ventricular volume, valve events and heart sounds.'],
     'chronotropy': ['Chronotropy', 'Effect on heart rate. Positive chronotropy means a faster heart rate.']
   });
   window.DOM_GLOSSARY = terms;
