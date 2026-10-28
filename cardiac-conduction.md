@@ -97,6 +97,8 @@ Activation normally begins in regions of the interventricular septum, then sprea
 
 In short, **slow AV nodal conduction provides correct *timing between chambers*, while rapid His–Purkinje conduction provides coordinated *activation within the ventricles*.**
 
+<div class="media-resource video-resource" data-youtube-id="ScZVGHDisa0" data-media-title="Cardiac Conduction and ECG — Alila Medical Media"><span class="media-eyebrow">OPTIONAL NARRATED VIDEO</span><h3>Cardiac Conduction and ECG — Alila Medical Media</h3><p>Trace SA node → AV node → His–Purkinje fibres, and notice why atrial activation precedes ventricular activation. ECG details are supplementary. The chapter text above remains the complete explanation.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=ScZVGHDisa0" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© Alila Medical Media. Official YouTube embed; not downloaded or rehosted.</p></div>
+
 ## 7. How does the autonomic nervous system influence pacemaker activity?
 
 The SA node is automatic, but its firing rate is modifiable. The key relationship is simple: **the faster phase 4 reaches threshold, the sooner the next action potential occurs**.
