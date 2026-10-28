@@ -34,6 +34,10 @@ Fast **neural** adjustments may appear within seconds; circulating catecholamine
 
 An individual on a β₁ blocker may have a reduced tachycardic response despite blood loss, while α-mediated vasoconstriction may still occur. An individual taking an α₁ blocker may develop postural symptoms because peripheral vasoconstriction is impaired. **Do not diagnose shock from blood pressure alone**; follow perfusion, mental state, urine output, capillary refill and the clinical context.
 
+## Lecturer-specific additions
+
+The lecture additionally names kinins (bradykinin), vasoactive intestinal polypeptide (VIP) and ANP as vasodilator influences. It describes specialised sympathetic cholinergic vasodilator pathways, although widespread human sympathetic vascular regulation is predominantly noradrenergic and constrictor. Cortical and hypothalamic signals, pain, lung inflation afferents, hypoxia and hypercapnia also modify medullary cardiovascular output.
+
 ## Understanding Checks
 
 **01. Sympathetic activity rises but pulse barely changes. How can MAP still rise?**
