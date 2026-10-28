@@ -34,3 +34,7 @@ CSF protects via **buoyancy and cushioning** and supports interstitial solute cl
 The **BBB** depends on continuous nonfenestrated endothelial cells with tight junctions, specialised transporters and associated cells. Glucose uses **GLUT1**, and lipid-soluble gases diffuse comparatively readily. The BBB is **not** the same as the blood–CSF barrier at the choroid plexus.
 
 **Practice:** A brain tumour increases cranial volume beyond compensatory shifts. ICP rises, CPP can fall, and brain perfusion may worsen even if peripheral BP is unchanged.
+
+## CSF and brain perfusion note
+
+The subdural space is normally a potential space. CSF circulates within the ventricles and subarachnoid space.
