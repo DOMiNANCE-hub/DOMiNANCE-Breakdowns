@@ -203,3 +203,7 @@
  .article-sheet{padding:16px 12px}
  .article-text table{font-size:11.5px}
 }
+
+/* Optional heart sounds: native controls, no layout shift until requested. */
+.article-text .audio-resource .media-stage:not(:empty){background:transparent;display:block;padding:0}
+.article-text .audio-resource audio{width:min(100%,420px);height:46px;display:block}
