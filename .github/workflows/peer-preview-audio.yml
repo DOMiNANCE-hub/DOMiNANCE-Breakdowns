@@ -1,0 +1,168 @@
+name: Peer-preview release and heart-sound audio QA
+on:
+  push:
+    branches: [release-peer-preview-audio-2026]
+  workflow_dispatch:
+concurrency:
+  group: release-peer-preview-audio-2026
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh branch to latest remote state
+        run: |
+          git fetch origin release-peer-preview-audio-2026
+          git reset --hard origin/release-peer-preview-audio-2026
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'mistune==3.2.0'
+      - name: Build canonical content
+        run: python build.py
+      - name: Verify content checks and navigation
+        run: |
+          python - <<'PY'
+          import json,re,pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'content.js').read_text().removeprefix('window.DOMINANCE_TOPICS = ').removesuffix(';\n'))
+          assert len(data)==27
+          for t in data:
+              assert t['html'].count('<details>')==12,t['slug']
+              assert t['html'].count('</details>')==t['html'].count('<details>'),t['slug']
+              assert 'Chapter Essentials' in t['html'],t['slug']
+              for s in t['sections']:
+                  assert 'id="'+s['id']+'"' in t['html'],(t['slug'],s['id'])
+          print('PASS all 27 chapters; 324 answers and section anchors')
+          PY
+      - name: JavaScript syntax checks
+        run: |
+          python audit_quality.py
+          node --check reader.js
+          node --check app.js
+          node --check content.js
+          node --check media.js
+          node --check glossary.js
+          node --check figures.js
+      - name: Install browser test runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Responsive browser smoke tests
+        run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          node - <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            for(const width of [320,360,390,768,1280]){
+              const page=await browser.newPage({viewport:{width,height:800}});
+              const errors=[];page.on('pageerror',e=>errors.push(e.message));
+              await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
+              await page.waitForTimeout(500);
+              const size=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,viewport:innerWidth}));
+              if(size.scroll>size.viewport+2)throw Error('horizontal overflow at '+width+': '+JSON.stringify(size));
+              if(errors.length)throw Error('page errors at '+width+': '+errors.join('; '));
+              const catalog=await page.evaluate(()=>window.DOMINANCE_TOPICS?.length);
+              if(catalog!==27)throw Error('catalog absent at '+width);
+              if(width===390){
+                for(const slug of ['cv-introduction','cardiac-cycle','blood-pressure','cerebral','fetal']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  await page.waitForTimeout(130);
+                  if(await page.locator('.article-text').count()!==1)throw Error('topic route failed: '+slug);
+                  const buttons=await page.locator('details').count();
+                  if(buttons<5)throw Error('missing reveal panels: '+slug);
+                  await page.locator('details summary').first().click();
+                  if(!(await page.locator('details').first().evaluate(e=>e.open)))throw Error('answer toggle failed: '+slug);
+                  if(await page.locator('#sections-select option').count()<2)throw Error('mobile section selector missing: '+slug);
+                  await page.locator('#mark-read').click();
+                }
+                const t=page.locator('#theme-toggle');
+                await t.click();
+                const theme=await page.locator('html').getAttribute('data-theme');
+                if(!theme)throw Error('theme toggle did not set theme');
+                console.log('PASS deep routes, expandable answers, chapter review and theme');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-cycle',{waitUntil:'load'});
+                await page.waitForTimeout(200);
+                const continuous=page.locator('button[data-reader-mode="continuous"]');
+                if(await continuous.getAttribute('aria-pressed')!=='true')throw Error('continuous is not default');
+                await page.locator('button[data-reader-mode="section"]').click();
+                const hidden=await page.locator('.article-text > [hidden]').count();
+                if(hidden<2)throw Error('section mode did not focus one section');
+                await page.locator('#reader-next').click();
+                if(!(await page.locator('#reader-position').innerText()).includes('2 of'))throw Error('section navigation failed');
+                await page.locator('#reader-size').selectOption('120');
+                if(await page.locator('html').getAttribute('data-reader-scale')!=='120')throw Error('font scale failed');
+                await page.reload();
+                await page.waitForTimeout(180);
+                if(await page.locator('button[data-reader-mode="section"]').getAttribute('aria-pressed')!=='true')throw Error('reading mode did not persist');
+                await page.locator('button[data-reader-mode="continuous"]').click();
+                if(await page.locator('.article-text > [hidden]').count())throw Error('continuous mode did not restore all content');
+                await page.locator('button[data-reader-mode="presentation"]').click();
+              if(await page.locator('html').getAttribute('data-reader-mode')!=='presentation')throw Error('presentation state missing');
+              await page.locator('#reader-next').click();
+              if(!(await page.locator('#reader-position').innerText()).includes('Card '))throw Error('card progress missing');
+              await page.locator('button[data-reader-mode="continuous"]').click();
+              await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-muscle');
+              await page.waitForTimeout(200);
+              const glossary=page.locator('.glossary-trigger').first();
+              if(await glossary.count()){
+                await glossary.click();
+                if(await glossary.getAttribute('aria-expanded')!=='true')throw Error('glossary not expanded');
+                if(await page.locator('#dom-glossary-popup').isHidden())throw Error('glossary popup not displayed');
+                await page.keyboard.press('Escape');
+                if(!(await page.locator('#dom-glossary-popup').isHidden()))throw Error('Escape did not dismiss glossary');
+              }
+              console.log('PASS reading modes, glossary, card focus, chapter navigation and saved preferences');
+              }
+              if(width===390){
+                for(const slug of ['cv-introduction','cardiac-muscle','ecg','shock','cerebral','fetal']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  await page.waitForTimeout(120);
+                  await page.locator('button[data-reader-mode="presentation"]').click();
+                  if(await page.locator('.article-text > [hidden]').count()<1)throw Error('card focus missing on '+slug);
+                  await page.locator('button[data-reader-mode="continuous"]').click();
+                  if(await page.locator('.article-text > [hidden]').count())throw Error('article not restored '+slug);
+                  const bad=await page.locator('.article-text img:not([alt])').count();
+                  if(bad)throw Error('missing alt '+slug);
+                }
+                console.log('PASS multi-chapter reader and media semantics');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/heart-sounds',{waitUntil:'load'});
+                await page.waitForTimeout(200);
+                const btn=page.locator('button[data-media-action="play-audio"]');
+                if(await btn.count()!==1)throw Error('missing heart-sound button');
+                await btn.click();
+                if(await page.locator('audio').count()!==1)throw Error('audio element missing');
+                const source=await page.locator('audio source[type="audio/ogg"]').getAttribute('src');
+                if(!source.includes('HROgg_Louder.ogg'))throw Error('not using amplified recording');
+                if(await page.locator('.audio-speed-control select').count()!==1)throw Error('speed control missing');
+                await page.locator('.audio-speed-control select').selectOption('0.85');
+                const rate=await page.locator('audio').evaluate(a=>a.playbackRate);
+                if(rate!==0.85)throw Error('playback speed not updated');
+                await page.locator('button[data-media-action="stop-audio"]').click();
+                if(await page.locator('audio').count())throw Error('closing audio did not remove player');
+                console.log('PASS responsive heart-sound playback controls');
+              }
+              console.log('PASS '+width+'px');
+              await page.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Commit generated canonical bundle
+        run: |
+          if ! git diff --quiet -- content.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content.js
+            git commit -m "Regenerate canonical content.js with build.py"
+            git pull --rebase origin release-peer-preview-audio-2026
+            git push origin HEAD:release-peer-preview-audio-2026
+          fi
