@@ -53,3 +53,13 @@
 **NO-GO for claiming fully production-audited DOMiNANCE Breakdowns at this checkpoint.** Main remains intact. The seven orphaned prompts are corrected in a separate branch, but a comprehensive pedagogical and deployment verification is still necessary.
 
 This document distinguishes findings directly measured in the repo from checks not yet executed; no unverifiable test is marked passed.
+
+## Remediation performed on the audit branch
+
+- **AUD-001:** Added 23 individually explained recall, mechanism and application checks across Chapters 1–5 and 8, raising every chapter to **12 expandable checks**, **324 total**, verified in a generated content.js build.
+- **AUD-002:** Replaced seven orphaned historical questions with full explanatory text; canonical generation no longer contains those unanswered prompts.
+- **AUD-003 (partial):** Added original, compact SVG diagrams to Cerebral/CSF, Coronary, Pulmonary and Fetal chapters; focused on actual routes and pressure mechanisms, with captions and accessible descriptions. Complete slide-by-slide pedagogy assessment and device usability remain to be certified.
+- **AUD-004 (partial):** Added Chromium automated route/navigation/answer expansion/mark-reviewed/theme checks at mobile width, plus responsive overflow testing at 320, 360, 390, 768 and 1280 px. Exact 12-answer assertions now apply to all chapters.
+- **AUD-005:** Identified Vercel project `dominance-breakdowns`, but deployment-listing request returned **HTTP 403** under the connected scope. Live deployed commit remains unverified.
+
+**Important:** The historical 301 figure above describes the initial main-branch snapshot before these fixes. The audit branch currently targets 324, subject to the final CI run. Do not substitute this report for actual run results or a physical-phone check.
