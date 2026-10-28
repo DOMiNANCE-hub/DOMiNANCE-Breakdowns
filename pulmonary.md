@@ -12,9 +12,7 @@ Systemic resistance vessels commonly dilate in metabolically hypoxic tissue, but
 ## Oedema prevention
 Normally low pulmonary capillary hydrostatic pressure and efficient lymphatic drainage oppose fluid accumulation in alveoli. Raised left atrial/pulmonary venous pressure in left-heart failure increases filtration and may produce pulmonary oedema.
 
-**Check:** Why is hypoxic vasoconstriction useful locally in the lungs but harmful when it affects the entire lung?
-
-
+**Local versus widespread hypoxic pulmonary vasoconstriction:** local constriction redistributes blood to better ventilated alveoli; diffuse constriction increases overall pulmonary vascular resistance.
 
 ## Pulmonary vs systemic circuits
 Both receive nearly the same cardiac output, yet normal pulmonary arterial pressures are much lower because pulmonary vascular resistance is low. The lung has dual circulations: **pulmonary vessels** for gas exchange and **bronchial arteries** (from the systemic aortic circulation) nourishing supporting tissues. Part of bronchial venous drainage enters pulmonary veins, contributing to normal physiological venous admixture.
