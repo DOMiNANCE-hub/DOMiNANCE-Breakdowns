@@ -184,6 +184,21 @@ When heart rate increases, the cardiac cycle becomes shorter. **Diastole shorten
 **9. Why might extreme tachycardia reduce stroke volume even though ventricular contractions occur more frequently?**
 <details><summary>Reveal explanation</summary><p><strong>Diastole shortens disproportionately as heart rate rises.</strong> At very high rates, the ventricles may not have enough time to fill, reducing EDV and the blood available for each ejection. Therefore <strong>stroke volume may decrease</strong>; whether overall cardiac output increases or falls depends on the product CO = HR × SV.</p></details>
 
+
+### Additional application and mechanism checks
+
+**Supplementary 1. Why is the dicrotic notch associated with aortic valve closure?**
+
+<details><summary>Reveal explanation</summary><p>As aortic flow decelerates and briefly reverses near end systole, aortic valve closure and elastic recoil create a small notch in the aortic pressure contour.</p></details>
+
+**Supplementary 2. During rapid passive filling, which pressure relationship opens the mitral valve?**
+
+<details><summary>Reveal explanation</summary><p>After isovolumetric relaxation, left ventricular pressure falls below left atrial pressure, opening the mitral valve so blood can move down the resulting pressure gradient.</p></details>
+
+**Supplementary 3. Why can ventricular systolic pressure initially rise with no change in volume?**
+
+<details><summary>Reveal explanation</summary><p>Both AV and semilunar valves are closed during early systole; increasing myocardial tension raises pressure while ventricular blood cannot yet exit.</p></details>
+
 ## Chapter Essentials
 
 1. **Pressure gradients drive valve movements:** the mitral valve depends on LA–LV pressure; the aortic valve depends on LV–aortic pressure.
