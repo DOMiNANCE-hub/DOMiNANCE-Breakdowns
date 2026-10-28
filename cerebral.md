@@ -16,9 +16,7 @@ CSF is produced mainly by **choroid plexus**, flows from lateral ventricles thro
 ## Blood–brain barrier (BBB)
 Specialised brain capillary **endothelial tight junctions**, transporters and neurovascular unit limit uncontrolled solute passage. Glucose enters through transporters (not simply free diffusion), while many polar compounds require specialised transport. BBB integrity is important for neuronal extracellular stability and drug access.
 
-**Check:** Why can rising ICP cause brain ischaemia even when measured arterial BP appears normal?
-
-
+**Why normal arm BP does not guarantee brain perfusion:** rising ICP reduces CPP even if MAP remains unchanged; CPP is approximately MAP minus the greater relevant downstream pressure.
 
 ## Identify the arterial supplies and vulnerability
 The **anterior, middle and posterior cerebral arteries** supply different territories. The two internal carotids and vertebrobasilar system connect variably in the **Circle of Willis**, potentially supporting collateral supply; the middle cerebral artery is a large terminal branch but **not itself part of the arterial circle**. The actual territories and clinical consequences of occlusion vary; the lecturer includes **ischaemic** (thrombotic/embolic) and **haemorrhagic** stroke as broad categories.
