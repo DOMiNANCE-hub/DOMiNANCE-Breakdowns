@@ -79,3 +79,57 @@ Gravity changes venous pressure depending on height relative to the heart. Thin-
 The lecturer contrasts these with **dural venous sinuses**, whose walls are held open by dural attachments. If an open sinus is exposed while the internal pressure is below atmospheric pressure, **air may enter the venous circulation**, potentially causing a venous air embolism.
 
 This is a specific clinical risk of exposed low-pressure noncollapsible veins, not evidence that blood normally flows backwards from the brain to the heart.
+
+
+## Understanding Check
+
+**1. Why must venous return equal cardiac output in steady state?**
+<details><summary>Reveal explanation</summary><p>The systemic and pulmonary circulations form a closed series circuit. Blood returning to the right heart must eventually be ejected through the pulmonary and systemic circuits. Persistent differences would cause progressive accumulation or depletion of blood in a compartment, so long-term <strong>VR = CO</strong>.</p></details>
+
+**2. Why can't a very strong heart maintain normal output during major haemorrhage?**
+<details><summary>Reveal explanation</summary><p>Haemorrhage reduces circulating volume and the pressure driving venous return. The ventricle receives less blood, so <strong>EDV and stroke volume fall</strong>. Increased intrinsic contractility cannot fully compensate for the absence of adequate filling.</p></details>
+
+**3. Explain the difference between venous compliance and arteriolar resistance.**
+<details><summary>Reveal explanation</summary><p><strong>Compliance</strong> is volume change per pressure change; veins can store large volumes at low pressure. <strong>Resistance</strong> determines the pressure drop required for a particular blood flow; arterioles change their radius to control organ perfusion. The two vascular properties serve different functions.</p></details>
+
+**4. Why can sympathetic venoconstriction increase venous return even if total blood volume has not changed?**
+<details><summary>Reveal explanation</summary><p>Venoconstriction reduces venous capacitance and mobilises blood stored in peripheral veins. This increases the stressed volume and may increase mean systemic filling pressure, strengthening the gradient towards the right atrium without adding new blood.</p></details>
+
+**5. What does the difference between mean systemic filling pressure and right atrial pressure represent?**
+<details><summary>Reveal explanation</summary><p>It represents a conceptual <strong>pressure gradient driving systemic venous return</strong>. Venous return is greater at the same resistance when that gradient increases. Mean systemic filling pressure is not simply the pressure measured in a peripheral vein during ongoing circulation.</p></details>
+
+**6. Why may a rise in right atrial pressure reduce venous return if upstream filling pressure remains fixed?**
+<details><summary>Reveal explanation</summary><p>The pressure difference moving blood towards the right atrium becomes smaller. From the simplified relation VR = (Pmsf − PRA)/RVR, a higher downstream right atrial pressure reduces the gradient. Severe rises may reflect right-heart pumping failure as well.</p></details>
+
+**7. Why does subtle calf contraction help someone who is standing still for a long time?**
+<details><summary>Reveal explanation</summary><p>Standing promotes gravitational pooling in leg veins, which can reduce venous return and EDV. Calf contractions compress the veins while one-way valves favour upward flow. This mobilises pooled blood towards the heart, improving preload and helping prevent faintness.</p></details>
+
+**8. How does inspiration ordinarily support right-heart filling?**
+<details><summary>Reveal explanation</summary><p>Spontaneous inspiration lowers intrathoracic pressure, while abdominal and thoracic pressure changes favour movement of blood towards the chest. This can increase systemic venous return to the right heart. Positive-pressure ventilation or unusual pressures may change the effect.</p></details>
+
+**9. Does an elevated CVP always mean the patient has excess circulating blood volume?**
+<details><summary>Reveal explanation</summary><p><strong>No.</strong> CVP measures pressure near the right atrium and also depends on ventricular function, intrathoracic pressure and venous tone. Right-heart dysfunction can elevate CVP through upstream congestion despite inadequate forward flow, so CVP is not simply a blood-volume gauge.</p></details>
+
+**10. Why can the left ventricular stroke volume change after, rather than exactly when, venous return to the right atrium increases?**
+<details><summary>Reveal explanation</summary><p>New venous return first enters the right atrium and ventricle, then passes through the pulmonary circulation before reaching the left heart. The right-heart filling response therefore precedes the corresponding change in left ventricular EDV and ejection.</p></details>
+
+**11. Why can a dural venous sinus admit air when opened above heart level?**
+<details><summary>Reveal explanation</summary><p>Pressure may become subatmospheric in veins above the heart. Ordinary thin-walled veins can collapse, but dural sinuses are held open by surrounding tissue. If such a sinus is cut while internal pressure is below atmospheric pressure, air may be drawn into it, causing a dangerous venous air embolism.</p></details>
+
+**12. Why might a person feel faint after suddenly standing, even with a normal heart?**
+<details><summary>Reveal explanation</summary><p>Gravity temporarily shifts blood into dependent veins. Reduced immediate venous return lowers preload, stroke volume and sometimes arterial pressure until autonomic reflexes and muscle pumping compensate. This is a filling and circulation problem, not proof that the heart muscle is intrinsically weak.</p></details>
+
+## Chapter Essentials
+
+1. **Venous return:** Blood reaching the right atrium per minute; it equals cardiac output at steady state.
+2. **Veins:** High-compliance capacitance reservoirs, unlike resistance-regulating arterioles.
+3. **Venous tone:** Sympathetic venoconstriction can mobilise stored blood and increase central filling.
+4. **Pressure gradient:** VR ≈ (Pmsf − PRA)/RVR in a simplified model.
+5. **Mean systemic filling pressure:** Conceptual upstream filling pressure, not an ordinary peripheral venous reading.
+6. **Skeletal-muscle pump:** Contracting leg muscles compress veins and valves limit backward flow.
+7. **Standing:** Gravity promotes venous pooling, reducing venous return and potentially stroke volume.
+8. **Respiratory pump:** Spontaneous inspiration usually helps right-heart venous return.
+9. **CVP:** Pressure close to the right atrium; influenced by right-heart function and intrathoracic pressure.
+10. **CVP is not blood volume:** High right atrial pressure can accompany poor forward cardiac output.
+11. **Dural venous sinuses:** Remain open despite subatmospheric pressure, creating an air-embolism risk if exposed.
+12. **Filling and output:** Strong contraction cannot fully compensate for insufficient ventricular filling.
