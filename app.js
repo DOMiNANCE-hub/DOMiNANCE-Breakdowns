@@ -114,10 +114,10 @@
     return byLecture.get(m) || null;
   };
 
-  function home() {
-    document.title = 'CVS Study Library | DOMiNANCE Breakdowns';
-    main.innerHTML = `<section class="hero"><div class="hero-content"><div class="eyebrow">DOMiNANCE · PHYSIOLOGY</div><h1>Cardiovascular System,<br>made understandable.</h1><p>Find your lecture document, see exactly what it covers, and open the relevant explanations.</p><span class="hero-chip">6 lecture PDFs · ${topics.length} breakdowns</span></div><div class="hero-visual"><div class="hero-orbit">${heroSvg}</div></div></section>
-      <div class="library-heading"><div><h2>Find your material</h2><p>Start with the slides your lecturer shared, or revise by individual topic.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture slides</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
+  function cvsHome() {
+    document.title = 'Cardiovascular Physiology | DOMiNANCE Breakdowns';
+    main.innerHTML = `<section class="hero"><div class="hero-content"><div class="eyebrow">DOMiNANCE BREAKDOWNS · PHYSIOLOGY</div><h1>Cardiovascular Physiology,<br>Made Understandable.</h1><p>Understand your lectures through clear explanations of what happens, why it happens, and how the underlying mechanisms work.</p><span class="hero-chip">6 lecture documents · ${topics.length} breakdowns</span></div><div class="hero-visual"><div class="hero-orbit">${heroSvg}</div></div></section>
+      <div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
       <label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
     const requestedView = new URLSearchParams((location.hash || '').split('?')[1] || '').get('view');
     let mode = requestedView === 'topics' ? 'topics' : (localStorage.getItem('dom-library-view') === 'topics' ? 'topics' : 'lectures');
@@ -181,11 +181,17 @@
     document.getElementById('sections-select')?.addEventListener('change', e => document.getElementById(e.target.value)?.scrollIntoView({behavior:'smooth'}));
   }
 
+  function platformHome() {
+    document.title = 'DOMiNANCE Breakdowns | Understand More';
+    main.innerHTML = `<section class="platform-hero"><span class="platform-kicker">DOMiNANCE BREAKDOWNS</span><h1>Complex concepts.<br><em>Clear explanations.</em></h1><p>Understand what happens, why it happens and how it works, one concept at a time.</p><a href="${baseUrl}" class="btn btn-primary">Explore Cardiovascular Physiology →</a></section><section class="platform-library" aria-labelledby="platform-heading"><div class="section-heading"><div><h2 id="platform-heading">Explore by subject</h2><p>Start with what's available. More systems and subjects will be added as their breakdowns are developed and checked.</p></div></div><h3 class="platform-subheading">Physiology</h3><div class="platform-grid"><a class="platform-system platform-available" href="${baseUrl}"><span class="platform-symbol" aria-hidden="true">♥</span><span class="platform-state">Available now</span><h4>Cardiovascular Physiology</h4><p>${topics.length} explanatory breakdowns organised around six lecture documents.</p><span class="platform-open">Open breakdowns →</span></a><div class="platform-system platform-upcoming"><span class="platform-symbol" aria-hidden="true">◌</span><span class="platform-state">Future expansion</span><h4>Respiratory Physiology</h4><p>Not yet available.</p></div><div class="platform-system platform-upcoming"><span class="platform-symbol" aria-hidden="true">≈</span><span class="platform-state">Future expansion</span><h4>Renal Physiology</h4><p>Not yet available.</p></div><div class="platform-system platform-upcoming"><span class="platform-symbol" aria-hidden="true">◎</span><span class="platform-state">Future expansion</span><h4>Neurophysiology</h4><p>Not yet available.</p></div></div><p class="platform-note">DOMiNANCE Breakdowns is designed to grow beyond Physiology, with future subjects introduced only when real learning materials are ready.</p></section>`;
+  }
+
   function navigate() {
     const path = (location.hash || '').replace(/^#\/?/, '').split('?')[0].split('/').filter(Boolean);
     if (path[2] === 'lecture' && byLecture.has(path[3])) lecturePage(byLecture.get(path[3]));
     else if (bySlug.has(path[2])) article(bySlug.get(path[2]));
-    else home();
+    else if (path[0] === 'physiology' && path[1] === 'cvs') cvsHome();
+    else platformHome();
     window.scrollTo({top:0, behavior:'instant'});
     updateProgress();
   }
