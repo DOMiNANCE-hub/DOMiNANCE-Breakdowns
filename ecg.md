@@ -57,7 +57,7 @@ These directions form **Einthoven's triangle** (lecturer slide 3). Their simulta
 For instance, if Lead I measures +0.5 mV and Lead III measures +0.3 mV at the same instant, Lead II should measure **+0.8 mV** (ignoring recording error).
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-einthoven">
-<a href="https://upload.wikimedia.org/wikipedia/commons/3/3a/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
 <figcaption><strong>Figure 01. Bipolar limb-lead directions.</strong> Relate the positive and negative recording directions to the three limb leads. <span class="figure-credit">Kychot · <a href="https://commons.wikimedia.org/wiki/File:ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption>
 </figure>
 
