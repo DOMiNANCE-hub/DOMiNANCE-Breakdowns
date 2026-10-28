@@ -84,3 +84,75 @@ During early ventricular diastole, the tricuspid valve opens as ventricular pres
 | Reflects **right atrial pressure** | Reflects transmitted systemic arterial pressure |
 
 This distinction matters because mistaking the carotid pulse for JVP can lead to an incorrect conclusion about right atrial pressure.
+
+
+## 6. How is JVP estimated at the bedside?
+
+The lecturer recommends reclining the patient at approximately **45°**, but the angle is **adjusted** to display the top of the venous column. If neck veins are very engorged, the patient may need to sit more upright; if the column is low, a flatter position may be necessary.
+
+The examiner observes the internal jugular venous pulsation (commonly on the right), identifies its highest sustained point and measures the **vertical height above the sternal angle**, keeping the ruler vertical. This is a clinical *estimate* of central venous/right atrial pressure, not a direct catheter measurement. Some conventional descriptions add an estimated distance from sternal angle to mid-right atrium; that anatomical offset varies.
+
+**Why does the column commonly fall during inspiration?** More negative intrathoracic pressure encourages systemic venous return into the thorax, usually lowering observable JVP. An unusual inspiratory rise can be clinically important but requires detailed evaluation.
+
+## 7. Which abnormal JVP waves are most important?
+
+The lecturer gives three clinical connections:
+
+- **Tricuspid incompetence/regurgitation:** Blood leaks from RV into RA during systole, potentially producing prominent **systolic v or fused c–v waves**. The lecture describes a “big c wave”; clinically a large **v/cv wave** better reflects systolic regurgitant filling.
+- **Heart block or AV dissociation:** Right atrial contraction may occur when the tricuspid valve is closed. Atrial pressure can rise abruptly, producing a **cannon a wave**.
+- **Right-sided heart failure/venous congestion:** Elevated right atrial pressure can make JVP abnormally high. Waveform and height should be interpreted together.
+
+**Why aren't prominent v and cannon a waves interchangeable?** A large v/cv wave reflects atrial filling or systolic regurgitation, whereas a cannon a wave reflects **active atrial contraction against a closed valve**. They are produced by different phases and pressure events.
+
+## Understanding Check
+
+**1. Why is a radial artery pulse not a packet of blood travelling from the aorta to the wrist?**
+<details><summary>Reveal explanation</summary><p>The left ventricle raises aortic pressure and generates a wave of arterial-wall distension. That pressure wave propagates along connected arteries much faster than the average blood cells themselves travel. What the examiner palpates is the <strong>pressure/distension wave</strong>.</p></details>
+
+**2. Why does arterial stiffening with age tend to increase pulse-wave velocity?**
+<details><summary>Reveal explanation</summary><p>Stiffer arteries deform less for a given pressure disturbance. A pressure wave therefore propagates more quickly through the blood–vessel system. This relates to <strong>wave transmission</strong>, not necessarily a rise in mean blood flow velocity.</p></details>
+
+**3. Name the five arterial-pulse characteristics explicitly listed in the lecture.**
+<details><summary>Reveal explanation</summary><p><strong>Rate, volume, strength, character and location.</strong> Rate is beats per minute; volume and strength describe palpable size; character describes the shape of the impulse; and location identifies the artery examined. Rhythm and symmetry are useful added clinical descriptors.</p></details>
+
+**4. Why can the neck show JVP waves even though venous blood normally returns towards the right atrium?**
+<details><summary>Reveal explanation</summary><p>The right atrium changes pressure during contraction, relaxation and filling. Those <strong>pressure changes propagate through the connected venous column</strong> towards the neck. The direction of a pressure signal is not the same as the net direction of blood flow.</p></details>
+
+**5. Which JVP wave is produced by right atrial contraction, and when does it occur?**
+<details><summary>Reveal explanation</summary><p>The <strong>a wave</strong> is produced when the right atrium contracts near the end of ventricular diastole. It raises right atrial pressure before ventricular systole. Do not confuse it with the v wave, which develops while the atrium fills.</p></details>
+
+**6. Why does the v wave occur while the tricuspid valve is closed?**
+<details><summary>Reveal explanation</summary><p>Venous blood continues to enter the right atrium during ventricular systole, but the closed tricuspid valve prevents normal passage into the ventricle. The atrium therefore fills and its pressure rises, producing the <strong>v wave</strong> without atrial contraction.</p></details>
+
+**7. What produces the x and y descents, respectively?**
+<details><summary>Reveal explanation</summary><p>The <strong>x descent</strong> is caused mainly by right atrial relaxation and downward tricuspid annular movement during ventricular systole. The <strong>y descent</strong> follows tricuspid opening, when accumulated right atrial blood flows into the right ventricle in early diastole.</p></details>
+
+**8. A visible neck pulsation is easily palpable and does not vary markedly with breathing or reclining angle. Is it more likely jugular or carotid?**
+<details><summary>Reveal explanation</summary><p>It is more consistent with the <strong>carotid arterial pulse</strong>, which is palpable and has a dominant systolic impulse. JVP is typically non-palpable, more complex and influenced by respiration and patient position.</p></details>
+
+**9. Why might JVP decrease on inspiration?**
+<details><summary>Reveal explanation</summary><p>Inspiration normally makes intrathoracic pressure more negative, facilitating systemic venous return into the thorax and right atrium. The venous pressure column observed in the neck therefore commonly falls. The response may be altered in specific cardiac diseases.</p></details>
+
+**10. In tricuspid regurgitation, why can the jugular v or c–v wave become unusually large?**
+<details><summary>Reveal explanation</summary><p>During ventricular systole, blood leaks backward through the incompetent tricuspid valve into the right atrium. This adds to ordinary venous filling and creates a larger <strong>systolic rise in right atrial pressure</strong>, appearing as a prominent v or fused c–v wave.</p></details>
+
+**11. How is a cannon a wave different from the large v wave of tricuspid regurgitation?**
+<details><summary>Reveal explanation</summary><p>A <strong>cannon a wave</strong> occurs when the right atrium contracts against a closed tricuspid valve, as can happen with AV dissociation. A large <strong>v/cv wave</strong> is predominantly associated with atrial filling and/or regurgitant flow during ventricular systole. They represent different mechanical causes.</p></details>
+
+**12. Why should the examiner change the reclining angle instead of insisting that every JVP be measured at 45°?**
+<details><summary>Reveal explanation</summary><p>The aim is to bring the top of the jugular venous column into view. A very high column may require the person to sit more upright; a low column may require a flatter position. Once visible, its <strong>vertical height relative to the sternal angle</strong> provides a clinical estimate of central venous pressure.</p></details>
+
+## Chapter Essentials
+
+1. **Arterial pulse:** A propagating pressure/distension wave created by ventricular ejection, not blood moving at wave speed.
+2. **Arterial stiffness:** Greater stiffness generally increases pulse-wave velocity.
+3. **Lecture characteristics:** Rate, volume, strength, character and location.
+4. **JVP:** Reflects transmitted right atrial pressure changes through the internal jugular venous column.
+5. **Three positive JVP waves:** a = atrial contraction; c = early ventricular systole; v = atrial filling while tricuspid closed.
+6. **Two descents:** x = atrial relaxation/downward tricuspid motion; y = atrial emptying following tricuspid opening.
+7. **Jugular versus carotid:** JVP is usually not palpable and changes with breathing and posture.
+8. **JVP assessment:** Observe the venous column and measure vertical height from the sternal angle; adjust patient angle to see it.
+9. **Tricuspid regurgitation:** May produce large systolic v/cv waves.
+10. **Cannon a wave:** Atrial contraction against a closed tricuspid valve, often with AV dissociation.
+11. **Heart failure:** High JVP can reflect elevated right atrial pressure and systemic venous congestion.
+12. **The wave names reflect mechanisms:** Understand what blood and valves are doing instead of simply memorising the letters.
