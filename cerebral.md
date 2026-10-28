@@ -89,3 +89,11 @@ The subdural space is normally a potential space. CSF circulates within the vent
 **12. Which metabolic alternative becomes more useful to the brain in prolonged fasting?**
 
 <details><summary>Show explanation</summary>Ketone bodies contribute energy during sustained fasting.</details>
+
+## Chapter Essentials
+
+1. Carotid and vertebrobasilar inflows provide brain perfusion.
+2. CPP depends on MAP and ICP or downstream venous pressure.
+3. CO2 strongly influences cerebral arteriolar tone.
+4. CSF occupies ventricles and subarachnoid space, not normally the subdural space.
+5. GLUT1 transport and endothelial tight junctions are essential BBB principles.
