@@ -320,3 +320,29 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .article-text .vr-pump-figure svg,.article-text .micro-force-figure svg,.article-text .lymph-entry-figure svg{max-height:155px}
 }
 @media(max-width:350px){.article-text .edema-balance span{flex-basis:auto}.article-text .jvp-figure,.article-text .vr-pump-figure,.article-text .micro-force-figure,.article-text .lymph-entry-figure{padding:8px}}
+
+/* Reading Experience v1: compact controls; continuous reading remains default. */
+.reader-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:9px 16px;padding:10px 12px;margin:14px 0 18px;border:1px solid var(--line);border-radius:12px;background:var(--sheet2)}
+.reader-modes{display:flex;gap:4px;flex-wrap:wrap}
+.reader-modes button{border:1px solid transparent;border-radius:9px;background:transparent;color:var(--text);padding:7px 11px;font-size:.85rem;font-weight:650}
+.reader-modes button[aria-pressed="true"]{color:#fff;background:var(--blue)}
+.reader-adjust{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.reader-adjust label{font-size:.77rem;color:var(--muted);font-weight:650}
+.reader-adjust select{font:inherit;font-size:.84rem;max-width:120px;border:1px solid var(--line);background:var(--sheet);color:var(--text);border-radius:8px;padding:5px}
+.reader-section-nav{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:13px 2px;border-top:1px solid var(--line)}
+.reader-section-nav button{border:1px solid var(--line);border-radius:10px;background:var(--sheet2);color:var(--text);padding:8px 12px;font-weight:650}
+.reader-section-nav button:disabled{opacity:.45;cursor:not-allowed}
+.reader-section-nav span{font-size:.85rem;color:var(--muted);text-align:center}
+.reader-section-nav[hidden],.article-text>[hidden]{display:none!important}
+[data-reader-scale="90"] .article-text{font-size:.9rem}
+[data-reader-scale="100"] .article-text{font-size:1rem}
+[data-reader-scale="110"] .article-text{font-size:1.1rem}
+[data-reader-scale="120"] .article-text{font-size:1.2rem}
+[data-reader-width="comfortable"] .article-text>p,[data-reader-width="comfortable"] .article-text>ul,[data-reader-width="comfortable"] .article-text>ol{max-width:72ch}
+[data-reader-width="wide"] .article-text>p,[data-reader-width="wide"] .article-text>ul,[data-reader-width="wide"] .article-text>ol{max-width:none}
+[data-reader-mode="presentation"] .article-text{min-height:170px}
+[data-reader-mode="presentation"] .article-text>h2{font-size:clamp(1.1rem,2.5vw,1.5rem)}
+[data-reader-mode="presentation"] .article-text>p{line-height:1.7}
+.reader-toolbar button,.reader-section-nav button,.reader-toolbar select{min-height:38px}
+@media(max-width:600px){.reader-toolbar{padding:9px;gap:10px}.reader-adjust{width:100%;justify-content:flex-start}.reader-modes{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.reader-modes button{padding:8px 3px;font-size:.78rem}.reader-section-nav button{padding:10px 8px}.reader-section-nav span{font-size:.75rem}}
+@media(prefers-reduced-motion:reduce){.reader-toolbar *,.reader-section-nav *{scroll-behavior:auto!important;transition:none!important}}

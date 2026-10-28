@@ -6,10 +6,10 @@
     'ecc': ['Excitation–contraction coupling (ECC)', 'The process by which an action potential raises intracellular Ca²⁺ and initiates contraction.'],
     'cicr': ['Calcium-induced calcium release (CICR)', 'Incoming Ca²⁺ activates RyR2 channels so the sarcoplasmic reticulum releases much more Ca²⁺.'],
     'serca': ['SERCA2a', 'ATP-driven pump that transfers Ca²⁺ from the cytosol into the sarcoplasmic reticulum, promoting relaxation.'],
-    'ncx': ['Na⁺–Ca²⁺ exchanger (NCX)', 'A membrane transporter that normally removes Ca²⁺ from the cardiomyocyte using the Na⁺ electrochemical gradient.'],
+    'ncx': ['Na⁺–Ca²⁺ exchanger (NCX)', 'A protein in the heart-cell membrane that usually moves calcium out of the cell by using the energy stored in the sodium gradient.'],
     'phospholamban': ['Phospholamban', 'SR regulatory protein that inhibits SERCA2a. Phosphorylation reduces this inhibition and speeds Ca²⁺ reuptake.'],
-    'inotropy': ['Inotropy', 'Myocardial contractile strength. Positive inotropy means greater contractility under comparable loading conditions.'],
-    'lusitropy': ['Lusitropy', 'Rate of myocardial relaxation. Positive lusitropy means faster relaxation.'],
+    'inotropy': ['Inotropy', 'How strongly heart muscle contracts at a given filling level. Positive inotropy means a stronger contraction without needing extra filling.'],
+    'lusitropy': ['Lusitropy', 'How quickly heart muscle relaxes after contracting. Faster relaxation helps the ventricles fill between beats.'],
     'automaticity': ['Automaticity', 'The ability of specialised cardiac cells to initiate action potentials spontaneously without an external nerve impulse.'],
     'pacemaker-potential': ['Pacemaker potential', 'Gradual spontaneous diastolic depolarisation (phase 4) that brings pacemaker cells towards threshold.'],
     'funny-current': ['Funny current (I_f)', 'Net inward pacemaker current carried by HCN channels that open at negative membrane potentials and help drive phase 4 depolarisation.'],
@@ -19,14 +19,14 @@
     'atrial-kick': ['Atrial kick', 'The additional blood delivered to a ventricle by atrial contraction near the end of ventricular diastole.'],
     'esv': ['End-systolic volume (ESV)', 'Blood remaining inside a ventricle at the end of ejection.'],
     'edv': ['End-diastolic volume (EDV)', 'Amount of blood in one ventricle after filling and just before ventricular systole.'],
-    'isovolumetric': ['Isovolumetric phase', 'A period when ventricular pressure changes while volume is essentially constant because both inlet and outlet valves are closed.'],
+    'isovolumetric': ['Isovolumetric phase', 'A phase when ventricular pressure changes but blood volume stays the same because both the inlet and outlet valves are closed.'],
     'ejection-fraction': ['Ejection fraction (EF)', 'Stroke volume divided by end-diastolic volume, expressed as a percentage: EF = SV / EDV × 100%.'],
     'wiggers': ['Wiggers diagram', 'A time-aligned plot linking ECG, cardiac chamber and arterial pressures, ventricular volume, valve events and heart sounds.'],
     'bruit': ['Bruit', 'An abnormal vascular sound heard over a blood vessel, caused by flow-induced vibrations, often associated with disturbed blood flow.'],
     'ecg': ['Electrocardiogram (ECG)', 'A time-based recording of electrical potential differences produced by cardiac activation and recovery, detected on the skin.'],
     'ecg-vector': ['Cardiac electrical vector', 'The combined direction and magnitude of the heart’s electrical activity at an instant; each ECG lead records its projection along that lead’s axis.'],
-    'preload': ['Preload', 'Ventricular fibre stretch or passive myocardial wall load at end diastole, before contraction. EDV and filling pressure are clinical approximations.'],
-    'afterload': ['Afterload', 'The load opposing ventricular ejection, related to arterial pressure, arterial impedance and ventricular wall stress; not identical to peripheral resistance.'],
+    'preload': ['Preload', 'How stretched the ventricular muscle is just before contraction. It depends mainly on ventricular filling; end-diastolic volume and pressure help estimate it.'],
+    'afterload': ['Afterload', 'The force or load the ventricle must overcome to eject blood. It depends on arterial pressure and ventricular wall stress, not just vascular resistance.'],
     'chronotropy': ['Chronotropy', 'Effect on heart rate. Positive chronotropy means a faster heart rate.']
   });
   window.DOM_GLOSSARY = terms;
@@ -38,6 +38,7 @@
   popup.id = 'dom-glossary-popup';
   popup.className = 'glossary-popup';
   popup.setAttribute('role', 'tooltip');
+  popup.setAttribute('aria-live','polite');
   popup.hidden = true;
   document.body.appendChild(popup);
   let active = null;
