@@ -1,7 +1,5 @@
 # Coronary Circulation
 
-**Primary lecture:** Regional Circulation Proper, pages 26–29. This breakdown explains coronary vessel routes, the timing of myocardial perfusion, oxygen supply–demand matching and the consequences of restricted flow.
-
 ## 1. Why does the heart need a separate blood supply?
 
 Blood inside the chambers does not adequately nourish the thick ventricular myocardium. **Right and left coronary arteries** arise from the **aortic sinuses**, just above the aortic valve, and supply oxygen and nutrients to cardiac muscle.
