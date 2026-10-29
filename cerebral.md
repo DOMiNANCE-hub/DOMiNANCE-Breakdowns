@@ -87,6 +87,10 @@ Both may raise ICP, but clinical patterns and causes differ. A lumbar puncture a
 
 ## 6. What makes the blood–brain barrier selective?
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Blood_brain_barrier.png" alt="Comparison of brain capillary endothelial barrier with the more permeable capillaries of other tissues"><figcaption><strong>Figure. What makes cerebral capillaries different?</strong> Compare endothelial barriers in brain tissue with capillaries elsewhere. The brain capillary endothelium and its tight junctions are essential components; supporting astrocytes and pericytes are part of the wider neurovascular unit. <span class="figure-credit">David Nascari and Alan Sved, <a href="https://commons.wikimedia.org/wiki/File:Blood_brain_barrier.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption></figure>
+
+
+
 Most cerebral capillaries have **continuous, nonfenestrated endothelial cells joined by tight junctions**. Together with basement membrane, pericytes, astrocytic endfeet and regulated transporters, they form a neurovascular unit that tightly controls exchange.
 
 | Substance | Main route across the BBB |
