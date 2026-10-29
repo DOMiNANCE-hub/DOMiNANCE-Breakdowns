@@ -12,6 +12,10 @@ The heart works continuously and consumes considerable oxygen. Its resting **oxy
 
 ## 2. Trace coronary inflow and venous drainage
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Blausen_0260_CoronaryVessels_Anterior.png" alt="Anatomical anterior view of the human heart showing the left and right ventricles and coronary arteries running over their surfaces"><figcaption><strong>Figure. Anterior heart and ventricular coronary vessels.</strong> Start by orienting the right ventricle and left ventricle. Locate the anterior interventricular groove and trace vessels across the ventricular surfaces. <span class="figure-credit">Blausen Medical Communications, <a href="https://commons.wikimedia.org/wiki/File:Blausen_0260_CoronaryVessels_Anterior.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></figcaption></figure>
+
+
+
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coronary_arteries.svg" alt="Medical illustration of the heart with labelled right coronary, left coronary, left anterior descending, circumflex and posterior descending coronary artery branches."><figcaption><strong>Figure. Coronary arteries in their anatomical locations.</strong> Identify the RCA, left main/LAD and circumflex courses; then find the posterior descending branch and connect its origin to coronary dominance. Read this anatomical image before the simplified route map. <span class="figure-credit">Patrick J. Lynch; derivative and labels by Fred the Oyster and Mikael Häggström, <a href="https://commons.wikimedia.org/wiki/File:Coronary_arteries.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption></figure>
 
 

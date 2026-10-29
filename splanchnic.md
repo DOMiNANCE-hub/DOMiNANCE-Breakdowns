@@ -9,6 +9,10 @@ The abdominal organs receive arterial blood mainly through the **coeliac trunk**
 
 ## Hepatic microcirculation
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_scheme1.jpg" alt="Illustration of hepatic lobule organization, central vein, portal triads and acinar zones with oxygen delivery gradients"><figcaption><strong>Figure. Hepatic lobule and acinar oxygen zonation.</strong> Compare periportal zone 1 with downstream zone 3 and relate oxygen availability to vulnerability during hypoperfusion. <span class="figure-credit">MarquardtM, <a href="https://commons.wikimedia.org/wiki/File:Liver_scheme1.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption></figure>
+
+
+
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_vascular_anatomy.svg" alt="Detailed labelled anatomical illustration of liver vessels, portal tract and hepatic lobule structures"><figcaption><strong>Figure. Liver vascular and lobular anatomy.</strong> Locate the hepatic arterial and portal venous inflow relative to sinusoids and venous drainage; zone 3 is the downstream low-oxygen region. <span class="figure-credit">Gwilz, <a href="https://commons.wikimedia.org/wiki/File:Liver_vascular_anatomy.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption></figure>
 
 
