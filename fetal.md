@@ -67,7 +67,7 @@ The foramen ovale becomes the **fossa ovalis** when anatomical fusion occurs; th
 
 **01. Which organ provides gas exchange before birth?**
 
-<details><summary>Show explanation</summary>The placenta rather than fetal alveoli.</details>
+<details><summary>Show explanation</summary>The placenta exchanges oxygen and carbon dioxide with maternal blood before birth. Fetal lungs are fluid-filled and have high vascular resistance, so only a smaller fraction of right ventricular output perfuses them.</details>
 
 **02. How many umbilical arteries and veins are usually present?**
 
@@ -75,43 +75,43 @@ The foramen ovale becomes the **fossa ovalis** when anatomical fusion occurs; th
 
 **03. Which fetal vessel bypasses part of hepatic sinusoidal blood flow?**
 
-<details><summary>Show explanation</summary>The ductus venosus.</details>
+<details><summary>Show explanation</summary>The ductus venosus carries part of umbilical venous flow toward the inferior vena cava, bypassing much of the hepatic sinusoidal circulation. Some umbilical blood still passes through the liver.</details>
 
 **04. Which fetal opening connects the atria?**
 
-<details><summary>Show explanation</summary>The foramen ovale directs much right atrial flow toward the left atrium.</details>
+<details><summary>Show explanation</summary>The foramen ovale is an opening between the fetal atria. Preferentially oxygenated blood entering the right atrium from the IVC can cross it into the left atrium, then reach the left ventricle and ascending aorta.</details>
 
 **05. What does the ductus arteriosus connect?**
 
-<details><summary>Show explanation</summary>Pulmonary trunk with descending aorta.</details>
+<details><summary>Show explanation</summary>The ductus arteriosus connects the pulmonary trunk to the descending aorta. Because fetal pulmonary resistance is high, much blood entering the pulmonary trunk flows through this channel rather than through the lungs.</details>
 
 **06. Why does fetal blood bypass much of the pulmonary circulation?**
 
-<details><summary>Show explanation</summary>Fluid-filled lungs have high pulmonary vascular resistance.</details>
+<details><summary>Show explanation</summary>Before birth, low alveolar oxygen and fluid-filled lungs maintain relatively high pulmonary vascular resistance. The foramen ovale and ductus arteriosus provide alternative routes, while the placenta handles gas exchange.</details>
 
 **07. What makes pulmonary vascular resistance fall after birth?**
 
-<details><summary>Show explanation</summary>Lung aeration and increased oxygen tension.</details>
+<details><summary>Show explanation</summary>The first breaths open and aerate alveoli and increase oxygen tension. This relaxes pulmonary arterioles, sharply reducing pulmonary vascular resistance and raising flow through the lung capillaries.</details>
 
 **08. Why does the foramen ovale close functionally?**
 
-<details><summary>Show explanation</summary>Left atrial pressure rises relative to right atrial pressure, apposing the flap.</details>
+<details><summary>Show explanation</summary>With the lungs open, pulmonary venous return to the left atrium increases. Left atrial pressure rises relative to right atrial pressure, pressing the foramen ovale flap against the septum for functional closure; anatomical fusion may occur much later.</details>
 
 **09. What promotes ductus arteriosus constriction?**
 
-<details><summary>Show explanation</summary>Increased oxygen and reduced prostaglandin influence.</details>
+<details><summary>Show explanation</summary>After birth, higher oxygen tension and reduced placental prostaglandin influence favor constriction of the ductus arteriosus. Functional constriction precedes anatomical remodelling into the ligamentum arteriosum.</details>
 
 **10. What is the postnatal remnant of ductus venosus?**
 
-<details><summary>Show explanation</summary>Ligamentum venosum.</details>
+<details><summary>Show explanation</summary>The ductus venosus closes as umbilical venous flow stops after birth, eventually becoming the ligamentum venosum. This is separate from the remnant of the umbilical vein.</details>
 
 **11. What is the postnatal remnant of ductus arteriosus?**
 
-<details><summary>Show explanation</summary>Ligamentum arteriosum.</details>
+<details><summary>Show explanation</summary>The ductus arteriosus functionally constricts as oxygen rises and prostaglandin influence falls, and later becomes the ligamentum arteriosum. Persistent patency can create abnormal aorta-to-pulmonary flow.</details>
 
 **12. Why does fetal haemoglobin have high oxygen affinity?**
 
-<details><summary>Show explanation</summary>HbF binds 2,3-BPG less strongly than HbA, promoting placental oxygen transfer.</details>
+<details><summary>Show explanation</summary>Fetal haemoglobin binds 2,3-BPG less strongly than adult HbA, giving it higher oxygen affinity at a given oxygen pressure. This helps fetal blood take up oxygen across the placenta; replacement by HbA occurs gradually after birth.</details>
 
 ## Chapter Essentials
 
