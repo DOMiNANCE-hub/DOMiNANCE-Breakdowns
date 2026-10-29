@@ -1,6 +1,10 @@
 # Fetal Circulation and the Transition at Birth
 
 ## Why fetal flow takes shortcuts
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/2916_Fetal_Circulatory_System-02.jpg" alt="Anatomical illustration tracing placenta, umbilical veins and arteries, fetal heart, ductus venosus, foramen ovale and ductus arteriosus"><figcaption><strong>Figure. Complete fetal circulation.</strong> Trace the entire fetal route and distinguish the shunts from ordinary vessel connections. <span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2916_Fetal_Circulatory_System-02.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></figcaption></figure>
+
+
 Before birth, gas exchange happens in the **placenta**, not the fluid-filled lungs. Oxygenated blood returns through the **umbilical vein**. Some passes through the liver, while a substantial fraction bypasses hepatic sinusoids through the **ductus venosus** to the inferior vena cava.
 
 Because fetal pulmonary vascular resistance is high, right-heart flow partly bypasses lungs by two pathways:
@@ -12,6 +16,10 @@ Two **umbilical arteries** carry fetal blood to the placenta. Oxygen-rich and ox
 <figure class="learning-figure"><figcaption>Figure. Three fetal vascular shortcuts</figcaption><svg viewBox="0 0 660 171" role="img" aria-label="Ductus venosus bypasses liver sinusoids, foramen ovale connects right atrium with left atrium, and ductus arteriosus connects pulmonary trunk with descending aorta"><g text-anchor="middle" fill="#24354d"><rect x="7" y="25" width="200" height="121" rx="12" fill="#ecf3ff" stroke="#6f97c8"/><rect x="229" y="25" width="200" height="121" rx="12" fill="#eaf5ee" stroke="#76a988"/><rect x="451" y="25" width="200" height="121" rx="12" fill="#fff1dc" stroke="#bb914f"/><g font-size="17" font-weight="bold"><text x="107" y="53">Ductus venosus</text><text x="329" y="53">Foramen ovale</text><text x="551" y="53">Ductus arteriosus</text></g><g font-size="13"><text x="107" y="84">Umbilical vein → IVC</text><text x="107" y="107">Partial liver bypass</text><text x="329" y="84">Right atrium → left</text><text x="329" y="107">atrium</text><text x="551" y="84">Pulmonary trunk →</text><text x="551" y="107">descending aorta</text></g></g></svg><p>Original route schematic; arrows show preferential fetal flow, not every stream or complete anatomical connection. Increased pulmonary flow after birth changes the pressure gradients that maintain these pathways.</p></figure>
 
 ## What changes after the first breaths?
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Neonatal_Heart_Circulation.png" alt="Medical illustration of neonatal heart circulation showing postnatal pulmonary blood flow and altered fetal shunt pathways"><figcaption><strong>Figure. Circulation after birth.</strong> Compare newborn circulation after lung expansion with the fetal shunts above. <span class="figure-credit">BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Neonatal_Heart_Circulation.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption></figure>
+
+
 Lung expansion and increasing alveolar oxygen lower pulmonary vascular resistance, increasing pulmonary blood flow and left atrial return. Umbilical cord clamping removes placental low-resistance flow and increases systemic vascular resistance. Rising **left atrial pressure relative to right** functionally closes the foramen ovale; increased oxygen and reduced prostaglandin influence constrict the ductus arteriosus.
 
 ## Fetal haemoglobin

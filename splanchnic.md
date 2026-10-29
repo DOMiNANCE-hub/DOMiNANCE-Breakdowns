@@ -1,9 +1,17 @@
 # Splanchnic and Hepatic Circulation
 
 ## An unusual route through two capillary networks
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portal_venous_system-en.svg" alt="Labelled anatomical illustration of portal venous return from abdominal digestive organs to the liver"><figcaption><strong>Figure. Portal venous system.</strong> Identify the digestive organs draining into the hepatic portal vein before tracing sinusoidal blood flow. <span class="figure-credit">Jmarchn, <a href="https://commons.wikimedia.org/wiki/File:Portal_venous_system-en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption></figure>
+
+
 The abdominal organs receive arterial blood mainly through the **coeliac trunk**, **superior mesenteric artery** and **inferior mesenteric artery**. Venous blood from much of the gut passes through the **portal vein** to liver sinusoids before draining through hepatic veins to the inferior vena cava. Thus, absorbed nutrients are delivered to the liver before much systemic distribution.
 
 ## Hepatic microcirculation
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_vascular_anatomy.svg" alt="Detailed labelled anatomical illustration of liver vessels, portal tract and hepatic lobule structures"><figcaption><strong>Figure. Liver vascular and lobular anatomy.</strong> Locate the hepatic arterial and portal venous inflow relative to sinusoids and venous drainage; zone 3 is the downstream low-oxygen region. <span class="figure-credit">Gwilz, <a href="https://commons.wikimedia.org/wiki/File:Liver_vascular_anatomy.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption></figure>
+
+
 Branches of portal vein and hepatic artery enter near portal tracts, blood mixes in liver **sinusoids**, and drains toward **central veins**. Zone 1 hepatocytes near inflow have greater oxygen availability, while **zone 3** hepatocytes near central veins are more vulnerable to hypoxic damage. Hepatocytes receive oxygen from both portal and arterial sources.
 
 ## Blood flow after meals and in shock

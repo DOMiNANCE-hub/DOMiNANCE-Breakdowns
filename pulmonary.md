@@ -1,6 +1,10 @@
 # Pulmonary Circulation
 
 ## One flow, different pressures
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/2119_Pulmonary_Circuit.jpg" alt="Anatomical illustration of the pulmonary circuit showing right ventricular outflow to pulmonary arteries, gas exchange in lungs and pulmonary venous return to the left atrium"><figcaption><strong>Figure. Pulmonary circuit anatomy.</strong> Follow blood through the lungs before studying their low pressure and resistance. <span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2119_Pulmonary_Circuit.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></figcaption></figure>
+
+
 The right ventricle delivers approximately the same minute output as the left ventricle, but the pulmonary circuit normally has **far lower vascular resistance and pressure**. Its thin vessels and capillaries permit gas exchange without excessive filtration. The **bronchial circulation** from systemic arteries supplies supporting lung tissues in addition to the low-pressure pulmonary circulation.
 
 ## Gravity and distribution
