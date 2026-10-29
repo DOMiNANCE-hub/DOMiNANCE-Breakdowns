@@ -16,6 +16,10 @@ In simple terms, **flow ≈ driving pressure ÷ resistance**. A reasonable CPP d
 
 ## 2. Where does cerebral arterial blood come from?
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Circle_of_Willis_en.svg" alt="Detailed inferior view of cerebral arterial anatomy showing vertebral and basilar arteries, internal carotids, anterior communicating arteries, posterior communicating arteries and branches of the Circle of Willis."><figcaption><strong>Figure. The real anatomical arrangement of the Circle of Willis.</strong> First locate the basilar artery and two internal carotid arteries; follow the communicating vessels that may provide collateral routes. The MCA leaves the internal carotid system but is not part of the arterial ring. <span class="figure-credit">Rhcastilhos, <a href="https://commons.wikimedia.org/wiki/File:Circle_of_Willis_en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain · unmodified.</span></figcaption></figure>
+
+
+
 Two **internal carotid arteries** supply much of the anterior circulation. Two **vertebral arteries** join to form the **basilar artery**, supplying the posterior circulation. These systems connect through the **Circle of Willis**, an arterial ring around the base of the brain that may offer alternative pathways when an upstream vessel narrows.
 
 The ring normally includes the paired anterior cerebral arteries near the anterior communicating artery, proximal internal carotid portions, posterior communicating arteries and proximal posterior cerebral arteries. **The middle cerebral artery (MCA) is a major internal carotid branch, but is not itself part of the ring.** Anatomical variations are common; the Circle of Willis cannot always compensate for an occlusion.
@@ -63,6 +67,8 @@ The adult cranial cavity contains mainly **brain tissue, blood and CSF**. Becaus
 An extreme increase in ICP threatens perfusion of the brainstem and can evoke a **Cushing response**: sympathetic hypertension to defend perfusion, with reflex bradycardia from arterial baroreceptors, sometimes accompanied by abnormal respiration. This is a **late, serious sign**, not the normal first response to every small ICP rise.
 
 ## 5. Meninges, ventricles and cerebrospinal fluid
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/CSF_circulation.png" alt="Illustration of the brain ventricles, subarachnoid cerebrospinal fluid spaces and CSF circulation."><figcaption><strong>Figure. Ventricular and subarachnoid CSF compartments.</strong> Locate the internal ventricles and surrounding subarachnoid space; connect them to the sequence of flow explained below. The illustration also depicts research-level CSF exchange pathways, which are more complex than a single one-way circuit. <span class="figure-credit"><a href="https://commons.wikimedia.org/wiki/File:CSF_circulation.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons source and contributors</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></figcaption></figure>
 
 From outside to inside, the coverings are **dura mater → arachnoid mater → subarachnoid space → pia mater**. The **subarachnoid space normally contains CSF and vessels**; the subdural space is only a *potential* space in normal anatomy.
 
