@@ -106,58 +106,65 @@ The brain relies heavily on glucose in normal fed conditions. During prolonged f
 
 ## Comprehensive Understanding Checks
 
-**01. Which arteries supply the major cerebral inflow?**
+**01. How can the internal carotid and vertebrobasilar systems compensate for one another, and why might compensation fail?**
 
-<details><summary>Show explanation</summary>Internal carotid and vertebrobasilar systems, variably interconnected by the Circle of Willis.</details>
+<details><summary>Show explanation</summary><p>The Circle of Willis links anterior and posterior arterial systems through communicating arteries, creating potential collateral routes when a major inflow vessel narrows. These channels vary in size and may be incomplete, so a sudden occlusion may still deprive brain tissue of oxygen. The MCA is a major branch but is not itself part of the ring.</p></details>
 
-**02. Why can a Circle of Willis fail to prevent an ischaemic stroke?**
+**02. A patient develops right face and arm weakness with aphasia. Which cerebral vascular territory is especially concerning, and why?**
 
-<details><summary>Show explanation</summary>Collateral channels vary in size and may not provide enough flow after an occlusion.</details>
+<details><summary>Show explanation</summary><p>A left middle cerebral artery territory lesion is a strong possibility, assuming left-hemisphere language dominance. The left motor cortex controls the right side of the body, while dominant-hemisphere lateral cortical regions often support language. This is a territorial clue, not a diagnosis without examination and imaging.</p></details>
 
-**03. What is the approximate cerebral perfusion pressure equation?**
+**03. MAP remains 90 mmHg while ICP rises from 10 to 35 mmHg. How does the approximate CPP change?**
 
-<details><summary>Show explanation</summary>CPP is approximately MAP minus ICP when intracranial pressure represents the relevant downstream pressure.</details>
+<details><summary>Show explanation</summary><p>Using CPP ≈ MAP − ICP, the initial CPP is 90 − 10 = 80 mmHg. With ICP at 35, CPP falls to 90 − 35 = 55 mmHg. Perfusion driving pressure therefore drops by 25 mmHg even though arm arterial pressure is unchanged. Actual blood flow also depends on cerebrovascular resistance.</p></details>
 
-**04. Why does raised arterial carbon dioxide increase cerebral blood flow?**
+**04. Why can hyperventilation reduce cerebral blood flow despite unchanged systemic arterial pressure?**
 
-<details><summary>Show explanation</summary>CO2-related extracellular acidification promotes cerebral arteriolar dilation.</details>
+<details><summary>Show explanation</summary><p>Hyperventilation lowers arterial CO₂. This reduces local CO₂-related acidification and tends to constrict cerebral resistance arterioles, increasing resistance and reducing cerebral blood flow. The response illustrates why systemic pressure alone cannot predict tissue perfusion.</p></details>
 
-**05. What space normally holds CSF around the brain?**
+**05. A growing intracranial haematoma initially produces little ICP change, then pressure rises rapidly. Explain the change.**
 
-<details><summary>Show explanation</summary>The subarachnoid space; the subdural space is normally only potential.</details>
+<details><summary>Show explanation</summary><p>The Monro–Kellie principle states that brain tissue, blood and CSF occupy a constrained cranial space. Early expansion can be buffered by displacement of CSF and venous blood. Once this compensation is exhausted, additional volume causes a steep rise in ICP, threatening CPP and cerebral perfusion.</p></details>
 
-**06. How does CSF pass from the lateral to third ventricle?**
+**06. Explain the mechanism of hypertension with bradycardia in a severe Cushing response.**
 
-<details><summary>Show explanation</summary>Through the interventricular foramina of Monro.</details>
+<details><summary>Show explanation</summary><p>Severely raised ICP threatens brainstem perfusion, provoking sympathetic vasoconstriction and systemic hypertension in an attempt to restore driving pressure. The resulting arterial pressure rise stimulates baroreceptors and can produce reflex bradycardia. It is a late warning sign, not an ordinary autoregulatory response.</p></details>
 
-**07. How does CSF exit the fourth ventricle?**
+**07. Trace CSF from its production site until it enters the subarachnoid space.**
 
-<details><summary>Show explanation</summary>Through median Magendie and lateral Luschka apertures toward the subarachnoid space.</details>
+<details><summary>Show explanation</summary><p>CSF produced mainly by ventricular choroid plexuses passes from the lateral ventricles through the foramina of Monro to the third ventricle, then through the cerebral aqueduct to the fourth ventricle. It exits through the median Magendie and lateral Luschka apertures into the subarachnoid space.</p></details>
 
-**08. What is the Monro–Kellie principle?**
+**08. How would aqueduct obstruction differ from impaired CSF absorption?**
 
-<details><summary>Show explanation</summary>Brain, blood and CSF share a constrained intracranial volume; exhausted compensation makes ICP rise steeply.</details>
+<details><summary>Show explanation</summary><p>A blocked cerebral aqueduct interrupts flow within the ventricular system and causes noncommunicating hydrocephalus, often dilating ventricles upstream of the obstruction. Reduced CSF absorption despite open ventricular routes is a common mechanism of communicating hydrocephalus. Both can increase intracranial pressure.</p></details>
 
-**09. Why can hydrocephalus impair cerebral perfusion?**
+**09. What distinguishes the normal subarachnoid space from the subdural space?**
 
-<details><summary>Show explanation</summary>Accumulating CSF increases ICP and can reduce cerebral perfusion pressure.</details>
+<details><summary>Show explanation</summary><p>The subarachnoid space between arachnoid and pia normally contains CSF and blood vessels. The subdural space between dura and arachnoid is normally a potential space, not an additional freely circulating CSF compartment. This matters when identifying meninges, bleeding sites and lumbar puncture anatomy.</p></details>
 
-**10. What structure chiefly limits paracellular exchange across the BBB?**
+**10. Why does the BBB allow glucose entry while restricting unrestricted passage of many polar substances?**
 
-<details><summary>Show explanation</summary>Tight junctions between specialized cerebral microvascular endothelial cells.</details>
+<details><summary>Show explanation</summary><p>Brain capillary endothelial tight junctions restrict paracellular passage. Glucose crosses mainly through selective carriers such as GLUT1 instead of freely leaking between cells. Controlled transport helps keep the chemical environment around neurons stable while supplying essential nutrients.</p></details>
 
-**11. How does blood glucose enter the brain?**
+**11. How is the blood–CSF barrier different from the blood–brain barrier?**
 
-<details><summary>Show explanation</summary>Through transport proteins such as GLUT1 rather than free unrestricted diffusion.</details>
+<details><summary>Show explanation</summary><p>At most brain capillaries, specialised endothelial tight junctions form the main blood–brain barrier. At the choroid plexus, the principal tight-junction barrier between blood and CSF is provided by choroid plexus epithelial cells. The two barriers have different anatomical locations and exchange functions.</p></details>
 
-**12. Which metabolic alternative becomes more useful to the brain in prolonged fasting?**
+**12. Why can ketone bodies support brain metabolism during prolonged fasting without making fatty acids the brain's usual direct fuel?**
 
-<details><summary>Show explanation</summary>Ketone bodies contribute energy during sustained fasting.</details>
+<details><summary>Show explanation</summary><p>During prolonged fasting, the liver makes water-soluble ketone bodies that can cross into the brain and be oxidised for energy, reducing but not eliminating its need for glucose. Long-chain fatty acids do not normally replace glucose as a freely available major brain fuel across the BBB.</p></details>
 
 ## Chapter Essentials
 
-1. Carotid and vertebrobasilar inflows provide brain perfusion.
-2. CPP depends on MAP and ICP or downstream venous pressure.
-3. CO2 strongly influences cerebral arteriolar tone.
-4. CSF occupies ventricles and subarachnoid space, not normally the subdural space.
-5. GLUT1 transport and endothelial tight junctions are essential BBB principles.
+1. Internal carotid and vertebrobasilar systems supply the brain; the Circle of Willis provides variable potential collateral pathways.
+2. The ACA, MCA and PCA supply characteristic but overlapping territories; the MCA is not part of the Circle of Willis itself.
+3. Cerebral flow depends on driving pressure and vascular resistance; autoregulation adjusts arteriolar tone to buffer changes in flow.
+4. CO₂ strongly modifies cerebral vascular resistance: hypercapnia tends to dilate and hypocapnia constricts.
+5. CPP is commonly approximated by MAP minus ICP, provided ICP represents the relevant downstream pressure.
+6. The Monro–Kellie principle explains why rising intracranial volume may eventually produce a steep ICP rise.
+7. A severe Cushing response involves sympathetic hypertension and secondary baroreflex bradycardia.
+8. CSF travels lateral ventricles → Monro → third ventricle → aqueduct → fourth ventricle → Magendie/Luschka → subarachnoid space.
+9. The subarachnoid space normally holds CSF; the subdural space is normally potential.
+10. The BBB depends chiefly on brain capillary endothelial tight junctions and selective transport; it differs from the choroid plexus blood–CSF barrier.
+11. Ischaemic and haemorrhagic strokes have different immediate mechanisms; neither is prevented reliably by the Circle of Willis.
+12. Normal systemic BP does not ensure normal cerebral tissue blood flow.
