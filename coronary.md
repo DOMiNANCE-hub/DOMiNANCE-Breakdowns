@@ -100,7 +100,7 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **05. What is a useful approximation of left coronary driving pressure?**
 
-<details><summary>Show explanation</summary>Aortic diastolic pressure minus left ventricular diastolic pressure.</details>
+<details><summary>Show explanation</summary>Aortic diastolic pressure minus left ventricular diastolic pressure is a useful approximation: higher aortic driving pressure supports perfusion, while elevated ventricular filling pressure reduces the pressure gradient. Actual flow also depends on vascular resistance and contraction.</details>
 
 **06. Why can tachycardia produce an oxygen supply-demand mismatch?**
 
@@ -112,11 +112,11 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **08. What is coronary active hyperaemia?**
 
-<details><summary>Show explanation</summary>A rise in coronary blood flow to match increased myocardial metabolic work.</details>
+<details><summary>Show explanation</summary>Active hyperaemia is the increase in flow when the heart works harder. Coronary resistance vessels dilate in response to metabolic and endothelial signals, supplying more oxygen when resting oxygen extraction is already high.</details>
 
 **09. How can adenosine affect coronary resistance?**
 
-<details><summary>Show explanation</summary>It acts as a local metabolic vasodilator and can lower microvascular resistance.</details>
+<details><summary>Show explanation</summary>Adenosine is one of several local vasodilator signals linked to increased metabolic activity. By helping relax coronary resistance vessels, it can increase blood supply; it is not the only mechanism controlling flow.</details>
 
 **10. Why does a fixed stenosis cause exertional angina before resting symptoms?**
 
@@ -124,11 +124,11 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **11. What is the usual indirect effect of cardiac beta-1 stimulation on coronary flow?**
 
-<details><summary>Show explanation</summary>Higher myocardial work increases metabolic vasodilator signals and typically raises flow.</details>
+<details><summary>Show explanation</summary>Cardiac β₁ stimulation raises heart rate and contraction strength, which raises oxygen demand. Local metabolic vasodilatation normally increases coronary blood flow in response, even though direct sympathetic α-mediated constriction can also occur.</details>
 
 **12. How does infarction differ from reversible angina?**
 
-<details><summary>Show explanation</summary>Infarction entails myocardial cell injury and necrosis from sustained severe ischaemia.</details>
+<details><summary>Show explanation</summary>Angina indicates myocardial ischaemia and can be reversible if oxygen delivery is restored. Infarction means prolonged severe ischaemia has caused cardiac muscle injury and cell death; pain alone cannot reliably distinguish them.</details>
 
 ## Chapter Essentials
 
