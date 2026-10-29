@@ -40,6 +40,28 @@ Following a meal, intestinal metabolic activity increases **splanchnic flow** (p
 **Practice:** Why is zone 3 particularly sensitive to low oxygen supply? It lies downstream in the sinusoidal pathway and receives blood with less remaining oxygen.
 
 
+## Follow the circulation from gut to liver
+
+### The portal route has a special purpose
+
+Blood arrives at the gastrointestinal organs through systemic arterial branches. After passing through intestinal capillaries, much venous drainage enters the **superior mesenteric and splenic veins**, which typically join to form the **portal vein**; the inferior mesenteric vein commonly drains into the splenic vein, though anatomy varies. The portal vein carries absorbed nutrients and gut-derived substances to the liver **before** they enter the wider systemic circulation.
+
+The liver has **two inflows**: portal venous blood supplies most of its flow, while hepatic arterial blood makes an important oxygen contribution. Both reach sinusoids, then pass toward central veins, hepatic veins and the inferior vena cava. Meanwhile, bile moves toward bile ductules in the portal tracts, generally **opposite** the direction of sinusoidal blood flow.
+
+### Why is zone 3 vulnerable?
+
+Think of a hepatic sinusoid as a pathway through which mixed portal and arterial blood passes. **Zone 1** hepatocytes lie closer to entry and receive relatively oxygen-rich blood first. By the time blood reaches **zone 3**, oxygen has been extracted along the way. A fall in overall delivery therefore threatens downstream zone 3 earlier. This does not mean zone 3 is always damaged, or that every liver injury follows the same pattern.
+
+### What changes after a meal and during haemorrhage?
+
+Digestion increases local metabolic activity, producing **postprandial hyperaemia**: intestinal resistance falls and blood flow rises to support absorption. The splanchnic veins are also highly compliant, so they hold substantial blood volume. During haemorrhage sympathetic activation narrows splanchnic vessels and mobilizes venous blood toward the central circulation. This helps maintain venous return and pressure, but **prolonged loss of gut perfusion** can impair mucosal integrity and cause injury.
+
+### Why does fluid accumulate as ascites?
+
+Follow the chain: increased resistance to portal flow (commonly in cirrhosis) raises **portal/sinusoidal hydrostatic pressure** and hepatic lymph formation. At the same time, altered effective arterial filling promotes kidney **sodium and water retention**. When filtration and lymph formation exceed removal, fluid accumulates in the peritoneal cavity. Lower albumin may contribute but is neither the only nor a necessary explanation. The protein content of ascites varies with its cause.
+
+**Understanding checkpoint:** Why might a patient with portal hypertension have ascites despite adequate drinking? *The problem is altered vascular pressures, lymph formation and renal fluid retention, not simply insufficient or excessive water intake.*
+
 ## Comprehensive Understanding Checks
 
 **01. Name the three main unpaired abdominal visceral arteries.**
