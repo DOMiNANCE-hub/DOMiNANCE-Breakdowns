@@ -38,6 +38,28 @@ First breaths expand lungs and increase alveolar oxygen, sharply reducing **pulm
 **Practice:** Why does pulmonary blood flow rise after birth even as systemic resistance increases? Lung expansion/oxygen directly reduce **pulmonary** resistance; placental separation independently raises **systemic** resistance.
 
 
+## Trace the entire fetal circuit rather than memorising three shunts
+
+### Why are the fetal lungs bypassed?
+
+The placenta performs gas exchange before birth. Because the lungs are fluid-filled and pulmonary resistance is high, only a smaller proportion of right ventricular output passes through pulmonary capillaries. Oxygen-rich placental blood returns through the **single umbilical vein**. Some perfuses liver sinusoids; much travels through the **ductus venosus** toward the inferior vena cava. Streamed IVC blood preferentially crosses the **foramen ovale** to the left atrium, then the left ventricle and ascending aorta, supporting the heart and brain.
+
+Blood from the superior vena cava predominantly enters the right ventricle and pulmonary trunk. Much then passes through the **ductus arteriosus** into the descending aorta, because pulmonary vascular resistance remains high. **Two umbilical arteries** return blood from the fetus toward the placenta. These routes involve mixing: *oxygen-rich* never means that fetal blood has adult systemic arterial oxygen saturation.
+
+### Follow the first breaths and clamping as two linked changes
+
+**First breaths:** alveoli expand and oxygen tension increases. Pulmonary arterioles dilate, pulmonary vascular resistance falls, lung blood flow rises, and more blood returns through pulmonary veins to the **left atrium**.
+
+**Cord clamping:** placental circulation, a low-resistance parallel pathway, is removed. Systemic vascular resistance generally rises, while umbilical venous return stops. Changes in atrial pressure help press the foramen ovale flap closed as **left atrial pressure becomes greater than right atrial pressure**.
+
+Higher arterial oxygen and declining placental prostaglandin influence promote **functional constriction of the ductus arteriosus**. Ductus venosus flow ceases after umbilical venous return stops and the vessel also closes. **Functional closure occurs before anatomical remodelling**; the exact timing varies by structure and infant.
+
+### Trace the fate of the fetal pathways
+
+The foramen ovale becomes the **fossa ovalis** when anatomical fusion occurs; the ductus arteriosus becomes the **ligamentum arteriosum**; and the ductus venosus becomes the **ligamentum venosum**. The umbilical vein becomes the **ligamentum teres hepatis**, while distal umbilical artery remnants become the **medial umbilical ligaments** (proximal portions remain patent as branches supplying the bladder).
+
+**Understanding checkpoint:** Why does blood flow through the lungs increase at birth while systemic resistance increases too? *These are separate changes: lung aeration lowers pulmonary resistance, and removal of the placental pathway raises systemic resistance.*
+
 ## Comprehensive Understanding Checks
 
 **01. Which organ provides gas exchange before birth?**

@@ -32,6 +32,34 @@ When an alveolar region is poorly oxygenated, nearby pulmonary arterioles constr
 **Practice:** Why is high-altitude hypoxia capable of raising pulmonary pressure? Global alveolar hypoxia stimulates widespread pulmonary arteriolar constriction instead of merely diverting flow within one small region.
 
 
+## Work through the pulmonary pressure and flow mechanisms
+
+### Why can the lungs handle full cardiac output at low pressure?
+
+The pulmonary and systemic circuits are arranged **in series**, so their flow rates are nearly equal over time. Yet the pulmonary circuit has a much lower resistance because its vessels are relatively short, compliant and arranged in an extensive parallel network. As cardiac output rises during exercise, previously underperfused capillaries **recruit** and already open vessels **distend**. Both effects limit the rise in pulmonary vascular resistance. A rise in flow therefore need not produce an equally large rise in pulmonary arterial pressure.
+
+### West zones: use the pressures, not just the names
+
+Compare **alveolar pressure (P_A)** with pulmonary arterial pressure (P_a) and venous pressure (P_v):
+
+- **Zone 1 (P_A > P_a > P_v):** alveolar pressure can compress capillaries so flow is absent or very low. It is usually absent in healthy resting lungs but can develop with low vascular pressure or high alveolar pressure.
+- **Zone 2 (P_a > P_A > P_v):** flow depends more on the arterial-to-alveolar pressure difference, sometimes called the *waterfall* relationship.
+- **Zone 3 (P_a > P_v > P_A):** vessels remain distended and flow depends predominantly on arterial-to-venous pressure difference.
+
+With gravity, vascular pressures usually increase toward the lung bases, which is one reason perfusion generally rises from apex to base in an upright person. **West zones are pressure relationships**, not fixed anatomical stripes.
+
+### Link perfusion to ventilation
+
+Air does not necessarily reach every alveolus in the same proportion as blood. The **ventilation–perfusion ratio (V/Q)** compares air delivery to blood delivery. Both ventilation and perfusion generally increase toward the dependent lung, but perfusion usually increases more steeply, making V/Q relatively higher toward the apex. An alveolus receiving too little ventilation relative to blood has low alveolar oxygen. Nearby pulmonary arterioles then constrict, diverting some flow toward better-ventilated alveoli.
+
+**Clinical reasoning:** If only one small region is hypoxic, redistribution can improve matching. If nearly every alveolus is hypoxic, there is nowhere well-ventilated to redirect flow; widespread constriction instead raises pulmonary resistance, loading the right ventricle.
+
+### Pulmonary oedema: where the fluid goes
+
+Left ventricular dysfunction can raise left atrial and pulmonary venous pressure. This increases pulmonary capillary hydrostatic pressure, encouraging excess filtration into lung interstitium. Once barrier and lymphatic clearance are overwhelmed, fluid may enter alveoli and impair gas exchange. This is different from the **normal** modest filtration controlled by the pulmonary capillary barrier.
+
+**Understanding checkpoint:** Why can exercise raise pulmonary flow without a proportionate pressure increase? *Recruitment and distension create more effective pathways for flow and lower resistance.*
+
 ## Comprehensive Understanding Checks
 
 **01. How does right ventricular minute output compare with left ventricular output?**
