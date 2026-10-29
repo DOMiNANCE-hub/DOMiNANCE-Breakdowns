@@ -1,7 +1,5 @@
 # Cerebral Circulation, CSF and the Blood–Brain Barrier
 
-**Lecture source:** Regional Circulation Proper, pages 2–25. This chapter explains the cerebral blood supply, control of blood flow, intracranial pressure, meninges, CSF circulation and barriers. It includes supplementary clinical reasoning.
-
 ## 1. Why is circulation to the brain different?
 
 Neurons need a near-continuous supply of **oxygen and glucose** because their energy stores are limited. Cerebral blood flow must therefore be maintained despite changes in posture, arterial pressure and local neuronal activity. Yet the brain sits inside a rigid skull: swelling or bleeding can raise intracranial pressure and interfere with blood supply.
