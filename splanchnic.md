@@ -66,19 +66,19 @@ Follow the chain: increased resistance to portal flow (commonly in cirrhosis) ra
 
 **01. Name the three main unpaired abdominal visceral arteries.**
 
-<details><summary>Show explanation</summary>Coeliac trunk, superior mesenteric artery and inferior mesenteric artery.</details>
+<details><summary>Show explanation</summary>The coeliac trunk, superior mesenteric artery and inferior mesenteric artery arise from the abdominal aorta and supply different portions of the digestive organs. Their venous drainage predominantly joins the portal system before reaching the liver.</details>
 
 **02. Where does most intestinal venous blood travel before reaching the IVC?**
 
-<details><summary>Show explanation</summary>Through portal vein and hepatic sinusoids, then central and hepatic veins.</details>
+<details><summary>Show explanation</summary>Most intestinal venous blood enters the hepatic portal vein, reaches liver sinusoids, then leaves through central veins and hepatic veins to the IVC. This arrangement lets the liver process nutrients and other absorbed substances first.</details>
 
 **03. Why is hepatic zone 3 susceptible to hypoxic injury?**
 
-<details><summary>Show explanation</summary>It lies near venous outflow and receives relatively less oxygen than periportal zone 1.</details>
+<details><summary>Show explanation</summary>Zone 3 lies downstream toward the central venous outflow. Blood has already supplied oxygen to upstream hepatocytes, so zone 3 has less oxygen reserve and is vulnerable when overall hepatic perfusion falls.</details>
 
 **04. What structures lie near a portal triad?**
 
-<details><summary>Show explanation</summary>Small portal venous, hepatic arterial and bile duct branches.</details>
+<details><summary>Show explanation</summary>A portal triad region contains branches of a portal venule, hepatic arteriole and bile ductule. Blood from the first two enters sinusoids toward central veins, while bile travels in the opposite general direction toward ductules.</details>
 
 **05. Why does gut blood flow increase after eating?**
 
@@ -86,15 +86,15 @@ Follow the chain: increased resistance to portal flow (commonly in cirrhosis) ra
 
 **06. How can abdominal veins contribute to blood pressure compensation?**
 
-<details><summary>Show explanation</summary>Sympathetic venoconstriction mobilizes venous reservoir blood centrally.</details>
+<details><summary>Show explanation</summary>The splanchnic venous bed stores a substantial volume of blood. Sympathetic venoconstriction reduces its capacity and shifts blood into central veins, supporting venous return during haemorrhage even while gut blood flow may decrease.</details>
 
 **07. Why can shock damage intestinal mucosa despite sympathetic compensation?**
 
-<details><summary>Show explanation</summary>Regional arteriolar constriction restricts oxygen delivery to vulnerable gut tissue.</details>
+<details><summary>Show explanation</summary>During major blood loss, the body narrows splanchnic vessels to defend central pressure and perfusion. If intestinal flow falls too far or too long, mucosal oxygen delivery cannot meet demand and tissue injury may follow.</details>
 
 **08. What is the space of Disse?**
 
-<details><summary>Show explanation</summary>A perisinusoidal exchange space between hepatocytes and sinusoidal endothelium.</details>
+<details><summary>Show explanation</summary>The space of Disse lies between hepatocytes and the fenestrated endothelium of liver sinusoids. It allows exchange between blood plasma and hepatocytes; it is distinct from the sinusoidal blood lumen itself.</details>
 
 **09. Why does portal hypertension promote ascites?**
 
@@ -102,15 +102,15 @@ Follow the chain: increased resistance to portal flow (commonly in cirrhosis) ra
 
 **10. Is all ascitic fluid rich in protein?**
 
-<details><summary>Show explanation</summary>No; protein concentration depends on disease mechanisms and is not uniform.</details>
+<details><summary>Show explanation</summary>No. Ascitic protein concentration differs by cause. Portal hypertension, hepatic lymph formation, renal sodium retention and plasma protein changes contribute differently across disorders, so protein-rich fluid is not universal.</details>
 
 **11. How can right-heart failure aggravate ascites?**
 
-<details><summary>Show explanation</summary>Hepatic venous congestion raises sinusoidal hydrostatic pressure and filtration.</details>
+<details><summary>Show explanation</summary>Right-heart failure can increase central and hepatic venous pressures. Back-pressure in hepatic sinusoids increases filtration and lymph formation; if removal is exceeded, abdominal fluid accumulation can worsen.</details>
 
 **12. Why do arterial anastomoses not guarantee gut survival after a major blockage?**
 
-<details><summary>Show explanation</summary>Collateral capacity may be insufficient for the affected territory's oxygen requirements.</details>
+<details><summary>Show explanation</summary>Anastomoses may offer alternate routes after an arterial blockage, but their diameter and pressure gradient may not deliver enough blood. The affected gut segment can therefore remain ischaemic despite some collateral pathways.</details>
 
 ## Chapter Essentials
 
