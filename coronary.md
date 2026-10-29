@@ -12,6 +12,10 @@ The heart works continuously and consumes considerable oxygen. Its resting **oxy
 
 ## 2. Trace coronary inflow and venous drainage
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coronary_arteries.svg" alt="Medical illustration of the heart with labelled right coronary, left coronary, left anterior descending, circumflex and posterior descending coronary artery branches."><figcaption><strong>Figure. Coronary arteries in their anatomical locations.</strong> Identify the RCA, left main/LAD and circumflex courses; then find the posterior descending branch and connect its origin to coronary dominance. Read this anatomical image before the simplified route map. <span class="figure-credit">Patrick J. Lynch; derivative and labels by Fred the Oyster and Mikael Häggström, <a href="https://commons.wikimedia.org/wiki/File:Coronary_arteries.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption></figure>
+
+
+
 The **left main coronary artery** usually divides into the **left anterior descending (LAD, or anterior interventricular artery)** and **left circumflex artery (LCx)**. The LAD supplies much of the anterior ventricular wall and interventricular septum; the LCx supplies much of the lateral left ventricular wall. The **right coronary artery (RCA)** commonly supplies the right heart and portions of the inferior heart, but patterns vary.
 
 **Coronary dominance** is defined by the artery that gives rise to the **posterior descending artery (PDA/posterior interventricular artery)**. In right-dominant circulation, the PDA arises from the RCA; in left dominance, it typically arises from the circumflex. This naming does **not** mean one whole side of the heart is supplied by only one artery.
@@ -60,6 +64,10 @@ Follow both sides of the balance:
 A fast heart rate is not automatically ischaemic: healthy coronary vessels can usually increase flow. The risk is higher with severe tachycardia, significant stenosis, low aortic diastolic pressure or elevated left ventricular filling pressure.
 
 ## 6. Coronary flow reserve, angina and myocardial infarction
+
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coronary_Artery_Disease.png" alt="Medical comparison of normal coronary artery flow and an artery narrowed by atherosclerotic plaque."><figcaption><strong>Figure. Normal coronary artery versus a narrowed vessel.</strong> Use the lumen comparison to understand how fixed stenosis increases resistance and may limit the rise in blood flow required during exercise. Not every coronary narrowing causes symptoms, and the figure is not a measurement of stenosis severity. <span class="figure-credit">BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption></figure>
+
+
 
 **Coronary flow reserve** describes the capacity to increase coronary blood flow above its resting level when resistance vessels dilate. With a significant coronary narrowing, vessels downstream may already be dilated to maintain resting flow, leaving less capacity to meet demand during exercise.
 
