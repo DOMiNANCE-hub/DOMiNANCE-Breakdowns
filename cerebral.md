@@ -68,6 +68,8 @@ An extreme increase in ICP threatens perfusion of the brainstem and can evoke a 
 
 ## 5. Meninges, ventricles and cerebrospinal fluid
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/CSF_circulation.png" alt="Illustration of the brain ventricles, subarachnoid cerebrospinal fluid spaces and CSF circulation."><figcaption><strong>Figure. Ventricular and subarachnoid CSF compartments.</strong> Locate the internal ventricles and surrounding subarachnoid space; connect them to the sequence of flow explained below. The illustration also depicts research-level CSF exchange pathways, which are more complex than a single one-way circuit. <span class="figure-credit"><a href="https://commons.wikimedia.org/wiki/File:CSF_circulation.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons source and contributors</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></figcaption></figure>
+
 From outside to inside, the coverings are **dura mater → arachnoid mater → subarachnoid space → pia mater**. The **subarachnoid space normally contains CSF and vessels**; the subdural space is only a *potential* space in normal anatomy.
 
 CSF is produced mainly by **choroid plexuses** in the ventricles. Adult total CSF volume is approximately **150 mL**, while production is several hundred millilitres per day, meaning the fluid is continually renewed.
