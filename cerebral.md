@@ -16,6 +16,10 @@ In simple terms, **flow ≈ driving pressure ÷ resistance**. A reasonable CPP d
 
 ## 2. Where does cerebral arterial blood come from?
 
+<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Circle_of_Willis_en.svg" alt="Detailed inferior view of cerebral arterial anatomy showing vertebral and basilar arteries, internal carotids, anterior communicating arteries, posterior communicating arteries and branches of the Circle of Willis."><figcaption><strong>Figure. The real anatomical arrangement of the Circle of Willis.</strong> First locate the basilar artery and two internal carotid arteries; follow the communicating vessels that may provide collateral routes. The MCA leaves the internal carotid system but is not part of the arterial ring. <span class="figure-credit">Rhcastilhos, <a href="https://commons.wikimedia.org/wiki/File:Circle_of_Willis_en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain · unmodified.</span></figcaption></figure>
+
+
+
 Two **internal carotid arteries** supply much of the anterior circulation. Two **vertebral arteries** join to form the **basilar artery**, supplying the posterior circulation. These systems connect through the **Circle of Willis**, an arterial ring around the base of the brain that may offer alternative pathways when an upstream vessel narrows.
 
 The ring normally includes the paired anterior cerebral arteries near the anterior communicating artery, proximal internal carotid portions, posterior communicating arteries and proximal posterior cerebral arteries. **The middle cerebral artery (MCA) is a major internal carotid branch, but is not itself part of the ring.** Anatomical variations are common; the Circle of Willis cannot always compensate for an occlusion.
