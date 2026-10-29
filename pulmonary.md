@@ -71,11 +71,11 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **02. Why can pulmonary flow increase without a large pressure rise?**
 
-<details><summary>Show explanation</summary>Pulmonary vessels recruit and distend, lowering effective resistance.</details>
+<details><summary>Show explanation</summary>As flow rises, previously less-perfused capillaries open (recruitment) and already open vessels widen (distension). These changes create more effective parallel pathways and limit the rise in pulmonary pressure needed to carry greater cardiac output.</details>
 
 **03. What does the bronchial arterial circulation supply?**
 
-<details><summary>Show explanation</summary>Conducting airways and supporting lung tissues receive systemic arterial perfusion.</details>
+<details><summary>Show explanation</summary>The bronchial arteries arise from systemic circulation and nourish airways and supporting tissues. Pulmonary arteries, in contrast, carry the major blood supply for alveolar gas exchange; a portion of bronchial venous blood reaches pulmonary veins.</details>
 
 **04. Why does gravity change regional pulmonary flow?**
 
@@ -95,11 +95,11 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **08. Why does low alveolar oxygen constrict pulmonary arterioles?**
 
-<details><summary>Show explanation</summary>It redirects blood from poorly ventilated units to better ventilated regions.</details>
+<details><summary>Show explanation</summary>Low oxygen in an alveolus triggers constriction of nearby small pulmonary arteries. Less blood then reaches the poorly ventilated region, helping match perfusion to the alveoli where oxygen transfer is more effective.</details>
 
 **09. Why can widespread hypoxia cause pulmonary hypertension?**
 
-<details><summary>Show explanation</summary>Widespread vasoconstriction increases overall pulmonary vascular resistance.</details>
+<details><summary>Show explanation</summary>If most alveoli are hypoxic, many pulmonary resistance vessels constrict at once. Rather than simply redistributing flow, this raises total pulmonary vascular resistance and pressure, increasing the workload on the right ventricle.</details>
 
 **10. How is pulmonary oedema limited under ordinary conditions?**
 
@@ -107,7 +107,7 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **11. Why can left-heart failure cause pulmonary oedema?**
 
-<details><summary>Show explanation</summary>High pulmonary venous pressure increases filtration and may exceed fluid clearance.</details>
+<details><summary>Show explanation</summary>Left-heart failure can raise left atrial and pulmonary venous pressure, increasing pulmonary capillary hydrostatic pressure. Excess filtration first accumulates in interstitial tissue; if clearance is overwhelmed it can enter alveoli and impair gas exchange.</details>
 
 **12. Why might lying flat worsen orthopnoea?**
 
