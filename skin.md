@@ -29,6 +29,31 @@ A firm, blunt stroke produces a **red line** at the site (local capillary/arteri
 **Practice:** Which component of the triple response is chiefly an oedematous swelling? The **wheal**; the flare is spreading redness.
 
 
+## Understand the skin's unusual circulation
+
+### Why isn't skin blood flow controlled only by oxygen demand?
+
+Skin has two jobs: nourish its tissues and control body heat. When cold, narrowing cutaneous vessels conserves heat and can make the hands pale. During heat exposure, greater skin flow moves warm blood toward the surface, allowing heat loss. Special **arteriovenous anastomoses** in regions such as fingers and palms can carry blood between arterial and venous pathways while bypassing some nutritional capillaries.
+
+Some cutaneous vessels are under sympathetic **noradrenergic vasoconstrictor** control; active vasodilator mechanisms also contribute to heat stress responses in humans. Therefore, simply saying *sympathetic stimulation always constricts every skin vessel* misses the physiological context.
+
+### Understand the three components of Lewis's response
+
+Imagine gently drawing a blunt object along the forearm, then applying a firmer stroke.
+
+1. A brief **white line** may appear after light stroking and is distinct from the triple response.
+2. A firmer stimulus produces a **red line** at the contact site due to local vasodilatation.
+3. A wider surrounding **flare** develops because sensory nerve endings activate nearby branches through an **axon reflex**, encouraging arteriolar dilatation beyond the stroke.
+4. A raised **wheal** forms where increased vascular permeability allows plasma fluid to move into surrounding tissue, producing local swelling.
+
+Histamine can contribute importantly to redness, flare and swelling. **Red line = local redness; flare = spreading redness; wheal = raised oedema**. These signs are related but not interchangeable.
+
+### Why is cool skin important in shock?
+
+During haemorrhage, the body prioritizes blood flow to organs such as the brain and heart. Sympathetic vasoconstriction reduces skin flow, which may produce cool, pale extremities **even before a large fall in measured arterial pressure**. Skin findings alone cannot diagnose the type or severity of shock.
+
+**Understanding checkpoint:** A patient has a raised mark after a skin stroke but no large surrounding red area. Which component is raised, and what caused it? *The wheal, from locally increased microvascular permeability and fluid entry into tissue.*
+
 ## Comprehensive Understanding Checks
 
 **01. What makes skin perfusion different from most tissue perfusion?**
