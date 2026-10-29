@@ -38,6 +38,9 @@ These are **general patterns, not rigid borders**. Collaterals and individual ar
 
 ## 3. How does the brain keep its blood flow stable?
 
+<figure class="learning-figure"><figcaption>Pressure autoregulation — conceptual blood-flow curve</figcaption><svg role="img" viewBox="0 0 620 235" aria-label="Cerebral blood flow rises at low pressure, changes relatively little across an autoregulated range, then rises again at high pressure; exact limits vary"><g stroke="#62758d" stroke-width="2" fill="none"><path d="M65 20v180h510"/></g><path d="M75 187Q125 178 170 100Q230 83 335 85Q415 87 455 79Q500 65 565 24" stroke="#2468c5" stroke-width="5" fill="none" stroke-linecap="round"/><g font-size="14" fill="#263d61"><text x="18" y="19">CBF</text><text x="360" y="222">Cerebral perfusion pressure →</text><text x="95" y="153">Low pressure</text><text x="230" y="67">Buffered flow</text><text x="462" y="116">High pressure</text></g><g stroke="#a7aeb8" stroke-dasharray="5 5"><path d="M190 45v152M448 45v152"/></g></svg><p>As driving pressure changes, cerebral arterioles adjust resistance to buffer cerebral blood flow. The apparent plateau is approximate, not perfectly flat; its boundaries vary and can shift with disease or chronic hypertension.</p></figure>
+
+
 ### Pressure autoregulation
 
 When perfusion pressure rises, cerebral resistance arterioles can **constrict**; when pressure falls, they can **dilate**. This buffers changes in blood flow over a range of perfusion pressures. Outside that range—or after severe brain injury—flow becomes more pressure-dependent. The exact limits vary with individuals and conditions; a single textbook pressure interval must not be treated as universal.
