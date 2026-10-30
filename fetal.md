@@ -71,7 +71,7 @@ The foramen ovale becomes the **fossa ovalis** when anatomical fusion occurs; th
 
 **02. How many umbilical arteries and veins are usually present?**
 
-<details><summary>Show explanation</summary>Two arteries return fetal blood to the placenta, and one vein brings oxygen-rich blood to fetus.</details>
+<details><summary>Show explanation</summary>The two umbilical arteries carry comparatively deoxygenated fetal blood from the internal iliac arterial circulation toward the placenta. The single umbilical vein carries oxygen-enriched placental blood back to the fetus. These names describe flow relative to the fetal heart, not oxygen content.</details>
 
 **03. Which fetal vessel bypasses part of hepatic sinusoidal blood flow?**
 

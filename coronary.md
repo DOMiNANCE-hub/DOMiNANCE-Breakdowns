@@ -96,7 +96,7 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **04. Why is the subendocardium vulnerable to ischaemia?**
 
-<details><summary>Show explanation</summary>Its intramural vessels experience high compressive pressure and a limited perfusion margin.</details>
+<details><summary>Show explanation</summary>The subendocardium lies closest to the high-pressure ventricular cavity. During systole the surrounding contracting muscle compresses its smaller vessels strongly, so it relies especially on diastolic perfusion and is vulnerable when perfusion pressure falls, demand rises or diastole shortens.</details>
 
 **05. What is a useful approximation of left coronary driving pressure?**
 
@@ -108,7 +108,7 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **07. Why must coronary flow increase during exercise?**
 
-<details><summary>Show explanation</summary>Resting myocardial oxygen extraction is already high, so increased delivery mostly needs increased flow.</details>
+<details><summary>Show explanation</summary>The working myocardium extracts a large proportion of oxygen from coronary blood even at rest. It therefore has relatively limited room to increase extraction during exercise, so additional oxygen demand must chiefly be met by coronary arteriolar dilation and increased blood flow.</details>
 
 **08. What is coronary active hyperaemia?**
 
@@ -120,7 +120,7 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **10. Why does a fixed stenosis cause exertional angina before resting symptoms?**
 
-<details><summary>Show explanation</summary>Distal dilation may maintain resting flow but leaves insufficient flow reserve for exercise.</details>
+<details><summary>Show explanation</summary>Downstream resistance vessels dilate to offset the pressure drop across a narrowed coronary artery. This may maintain near-normal flow at rest but uses up vasodilator reserve; when exercise raises myocardial oxygen demand, flow cannot increase adequately and ischaemia can appear.</details>
 
 **11. What is the usual indirect effect of cardiac beta-1 stimulation on coronary flow?**
 

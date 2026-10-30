@@ -105,7 +105,7 @@ During haemorrhage, the body prioritizes blood flow to organs such as the brain 
 
 **12. Why is skin temperature alone insufficient to diagnose shock?**
 
-<details><summary>Show explanation</summary>Ambient temperature and many other conditions affect it independently of systemic perfusion.</details>
+<details><summary>Show explanation</summary>Skin temperature depends on environmental temperature, local vasomotor tone, sweating and heat transfer, not only the amount of blood reaching vital organs. Cool skin can support a concern about reduced perfusion in context, but it cannot by itself diagnose shock.</details>
 
 ## Chapter Essentials
 

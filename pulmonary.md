@@ -67,7 +67,7 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **01. How does right ventricular minute output compare with left ventricular output?**
 
-<details><summary>Show explanation</summary>They are approximately equal over time because pulmonary and systemic circuits are in series.</details>
+<details><summary>Show explanation</summary>In a closed circulation at steady state, whatever volume the right ventricle sends through the lungs must eventually return to the left heart and enter systemic circulation. Therefore average right and left ventricular outputs are nearly the same, despite the large difference in pressures and resistance.</details>
 
 **02. Why can pulmonary flow increase without a large pressure rise?**
 
@@ -79,19 +79,19 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **04. Why does gravity change regional pulmonary flow?**
 
-<details><summary>Show explanation</summary>It changes local vascular hydrostatic pressures and vessel recruitment across lung height.</details>
+<details><summary>Show explanation</summary>Gravity increases intravascular hydrostatic pressure toward the dependent lung while alveolar gas pressure is comparatively similar across its height. This changes which vessels are open and their distension, generally producing more perfusion at the bases in an upright healthy person.</details>
 
 **05. What characterizes West zone 1?**
 
-<details><summary>Show explanation</summary>Alveolar pressure exceeds arterial pressure, potentially collapsing vessels and preventing flow.</details>
+<details><summary>Show explanation</summary>Zone 1 means alveolar pressure is higher than local arterial and venous pressures. Alveolar capillaries can then be compressed, so perfusion becomes very low or absent. It is generally absent in healthy resting lungs but can emerge with low blood pressure or positive-pressure ventilation.</details>
 
 **06. What characterizes West zone 2?**
 
-<details><summary>Show explanation</summary>Arterial pressure exceeds alveolar pressure, which exceeds venous pressure, producing waterfall behavior.</details>
+<details><summary>Show explanation</summary>In Zone 2, local pulmonary arterial pressure exceeds alveolar pressure, but alveolar pressure exceeds venous pressure. Flow is therefore influenced mainly by the arterial-to-alveolar pressure difference rather than the full arterial-to-venous gradient.</details>
 
 **07. What characterizes West zone 3?**
 
-<details><summary>Show explanation</summary>Both pulmonary arterial and venous pressures exceed alveolar pressure, favouring continuous flow.</details>
+<details><summary>Show explanation</summary>In Zone 3, both arterial and venous pressures exceed alveolar pressure, keeping capillaries relatively open. Flow is then governed predominantly by the arterial-to-venous pressure gradient and vessel resistance.</details>
 
 **08. Why does low alveolar oxygen constrict pulmonary arterioles?**
 
@@ -103,7 +103,7 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **10. How is pulmonary oedema limited under ordinary conditions?**
 
-<details><summary>Show explanation</summary>Low capillary hydrostatic pressure, intact barriers, epithelial clearance and lymphatic drainage protect alveoli.</details>
+<details><summary>Show explanation</summary>Normally, low pulmonary capillary hydrostatic pressure limits excess filtration. Endothelial and epithelial barriers limit leakage, while lymphatics remove filtered interstitial fluid and alveolar epithelium helps clear alveolar fluid. Oedema develops when these safeguards are overwhelmed or disrupted.</details>
 
 **11. Why can left-heart failure cause pulmonary oedema?**
 
