@@ -1,7 +1,5 @@
 # Formation of Oedema
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 89–95. **Supplementary clarification:** revised Starling physiology, endothelial glycocalyx, mechanisms and clinical interpretation of pitting versus non-pitting swelling.
-
 ## 1. What exactly is oedema?
 
 **Oedema** is the **abnormal accumulation of excess fluid in tissue interstitial spaces**. It is not simply the presence of fluid outside blood vessels: cells normally live surrounded by a regulated volume of interstitial fluid.
@@ -17,7 +15,7 @@ When filtration exceeds the removal capacity of lymphatic vessels, interstitial 
 
 ## 2. What physical forces govern filtration?
 
-The lecturer identifies **capillary hydrostatic pressure, interstitial hydrostatic pressure, plasma oncotic pressure, interstitial oncotic pressure, filtration coefficient, pre-/postcapillary resistance and capillary surface area**.
+The principal factors include **capillary hydrostatic pressure, interstitial hydrostatic pressure, plasma oncotic pressure, interstitial oncotic pressure, filtration coefficient, pre-/postcapillary resistance and capillary surface area**.
 
 A conventional form of the Starling equation summarises these:
 
@@ -37,7 +35,7 @@ A conventional form of the Starling equation summarises these:
 
 ### Important refinement: endothelial glycocalyx
 
-The lecturer's classic model assumes a simple balance between capillary and bulk interstitial proteins. Modern research shows the **endothelial glycocalyx** affects the relevant oncotic gradient immediately beneath the endothelial surface.
+The classic model assumes a simple balance between capillary and bulk interstitial proteins. Modern research shows the **endothelial glycocalyx** affects the relevant oncotic gradient immediately beneath the endothelial surface.
 
 In many tissues, steady-state filtration persists along much of the capillary bed; a large universal reabsorption at the venous end is **not** expected. Lymphatics provide the main ongoing return path for filtered fluid.
 
@@ -75,7 +73,7 @@ The lecturer explicitly lists **arteriolar dilation and venular constriction** a
 
 Plasma proteins help maintain **plasma oncotic pressure**. If albumin falls markedly, the oncotic pressure opposing capillary filtration decreases.
 
-The lecturer gives three important examples:
+Representative three important examples:
 
 - **Liver disease:** Reduced albumin synthesis in significant hepatic dysfunction.
 - **Kidney disease:** Excess urinary protein loss in conditions such as nephrotic syndrome.
@@ -99,7 +97,7 @@ Even when capillary pressure is fairly normal, some fluid and proteins continual
 
 If lymphatic channels are damaged or obstructed, drainage cannot match filtration. Protein-rich fluid accumulates and chronic inflammation and tissue remodelling can follow.
 
-The lecturer identifies **filarial infection (elephantiasis)** and **radical mastectomy** affecting lymph drainage as examples. Details are developed in Chapter 15.
+The principal factors include **filarial infection (elephantiasis)** and **radical mastectomy** affecting lymph drainage as examples. Details are developed in Chapter 15.
 
 ## 8. Why are pitting and non-pitting oedema different?
 
