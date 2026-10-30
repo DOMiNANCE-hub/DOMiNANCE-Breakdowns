@@ -67,7 +67,7 @@ For **120/70 mmHg**, pulse pressure is 50 mmHg, so **MAP ≈ 70 + 50/3 ≈ 86.7 
 
 ## 6. Why does measured BP depend on whether the arm is above or below the heart?
 
-The lecturer highlights the importance of **gravity** and heart-level reference.
+**Gravity** matters: pressure readings must be interpreted relative to heart level.
 
 Fluid pressure in a vertical column changes according to the height difference:
 
@@ -116,7 +116,7 @@ The artery can remain open throughout the cycle, so the sounds ultimately disapp
 
 ## 8. How should BP actually be measured accurately?
 
-The lecturer discusses **auscultation, palpation, direct arterial cannulation and manometry**. For a conventional manual cuff measurement:
+Blood pressure can be assessed through **auscultation, palpation, direct arterial cannulation and manometry**. For a conventional manual cuff measurement:
 
 1. Let the patient **rest quietly**, ideally for at least five minutes, with back supported and feet flat when seated; avoid talking during measurement.
 2. Use a **correctly sized cuff** on the bare upper arm, supported at **heart level**.
@@ -146,7 +146,7 @@ The original lecture explains the importance of larger cuff sizes for larger arm
 
 The mean pressure does not remain constant from the aorta to the venae cavae. Some pressure energy is lost as blood flows against resistance.
 
-The final diagram (slide 83) shows the biggest mean pressure fall across the **arterioles**, consistent with their key role as resistance vessels.
+The largest mean pressure fall in the systemic circulation usually occurs across the **arterioles**, consistent with their role as resistance vessels.
 
 <div class="bp-drop-strip" role="group" aria-label="Main locations of systemic pressure decrease"><span><strong>Aorta / arteries</strong><small>High pressure · strong pulses</small></span><b>→</b><span><strong>Arterioles</strong><small>Large pressure drop</small></span><b>→</b><span><strong>Capillaries / veins</strong><small>Lower pressure · damped pulses</small></span></div>
 

@@ -139,7 +139,7 @@ A fall in contractility, as in significant myocardial dysfunction, tends to prod
 | Reduced ventricular compliance | A stiff ventricle fills less readily for a given pressure |
 | Severe tachycardia | Shortened diastole limits filling time |
 
-The lecturer also mentions **myocardial infarction and infiltrative disease**, including endomyocardial fibrosis (EMF). These can impair relaxation, compliance and/or pumping; their effect on EDV is **not universally a simple decrease**. The precise direction depends on the disease and stage.
+**Myocardial infarction and infiltrative disease**, including endomyocardial fibrosis (EMF), also deserve consideration. These can impair relaxation, compliance and/or pumping; their effect on EDV is **not universally a simple decrease**. The precise direction depends on the disease and stage.
 
 ## 7. What changes contractility?
 
@@ -153,7 +153,7 @@ The lecture cites **caffeine and theophylline** (xanthines). By inhibiting phosp
 
 ### What about the vagus nerve?
 
-The lecturer lists vagal stimulation as negative inotropic. **Clarification:** vagal effects are strong for **heart rate** and AV nodal conduction, but the **direct parasympathetic effect on ventricular contractility is relatively small**. Any fall in cardiac output may occur largely through changes in HR and filling rather than a large direct weakening of ventricular myocardium.
+**Important distinction:** vagal effects are strong for **heart rate** and AV nodal conduction, but the **direct parasympathetic effect on ventricular contractility is relatively small**. Any fall in cardiac output may occur largely through changes in HR and filling rather than a large direct weakening of ventricular myocardium.
 
 ### What can depress inotropy?
 
