@@ -1,7 +1,5 @@
 # Cardiac Output and the Frank–Starling Law
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 35–51. **Supplementary clarification:** intrinsic sarcomere mechanisms, precise definitions of loading, interpretation of cardiac-function curves, and clinical examples.
-
 ## 1. What is cardiac output, and why does it matter?
 
 **Cardiac output (CO)** is the **volume of blood ejected by one ventricle per unit time**, usually expressed in **litres per minute (L/min)**. It tells us how much blood the heart delivers to a circulation—not how much blood is ejected in a single beat.
@@ -15,7 +13,7 @@ Two quantities determine cardiac output:
 
 **Why multiply?** Each beat sends out one stroke volume. If the ventricle pumps 70 mL each time and beats 75 times in one minute, the total volume ejected in that minute is 75 × 70 mL.
 
-The lecturer illustrates a resting output around **5.5 L/min**. This is a representative value, not a universal constant: cardiac output varies with body size, activity and physiological conditions.
+A representative resting cardiac output is approximately **5–5.5 L/min**. This is a representative value, not a universal constant: cardiac output varies with body size, activity and physiological conditions.
 
 ### Why should right and left cardiac outputs be approximately equal?
 
@@ -95,7 +93,7 @@ Lecture slide 39 includes a **dashed descending limb** at extreme stretch. That 
 
 ## 5. How do we read Frank–Starling curves?
 
-The lecturer's slides 39–41 show **ventricular performance** plotted against filling. The usual horizontal axis is EDV or a surrogate of preload; the vertical axis may be **stroke volume** or **cardiac output**, depending on the particular diagram.
+The slides 39–41 show **ventricular performance** plotted against filling. The usual horizontal axis is EDV or a surrogate of preload; the vertical axis may be **stroke volume** or **cardiac output**, depending on the particular diagram.
 
 <figure class="learning-figure cardiac-output-figure"><figcaption>Figure 01. Frank–Starling curves — preload versus pumping performance</figcaption><svg viewBox="0 0 640 295" role="img" aria-label="Schematic stroke-volume versus end-diastolic-volume graph showing increased, normal and reduced cardiac contractility curves."><line x1="85" y1="20" x2="85" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><line x1="85" y1="238" x2="600" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><path d="M99 229 C168 100 285 57 580 55" stroke="#2863dd" stroke-width="4.5" fill="none"/><path d="M99 232 C188 181 275 148 580 148" stroke="#16a085" stroke-width="4.5" fill="none"/><path d="M99 235 C205 222 320 208 580 207" stroke="#c39431" stroke-width="4.5" fill="none"/><g fill="currentColor" font-size="13"><text x="190" y="273">End-diastolic volume (preload) →</text><text x="22" y="130" transform="rotate(-90,22,130)">Stroke volume</text><text x="387" y="40">Greater contractility</text><text x="425" y="138">Reference</text><text x="432" y="196">Lower contractility</text></g></svg><p><strong>Read across one curve:</strong> changing EDV changes stroke volume by the Frank–Starling mechanism. <strong>Compare curves vertically:</strong> at the same EDV, greater intrinsic contractility gives greater SV (with afterload held constant). Original DOMiNANCE schematic; not patient-specific measurements.</p></figure>
 
@@ -111,7 +109,7 @@ Now imagine two beats with the **same EDV**, but sympathetic stimulation has inc
 
 A fall in contractility, as in significant myocardial dysfunction, tends to produce a **lower curve**. Higher afterload can also lower ventricular performance at a given EDV, so **a shifted curve is not proof of altered contractility unless afterload is accounted for**.
 
-### The lecturer's unusual terms: heterometric and homometric
+### The unusual terms: heterometric and homometric
 
 | Term | Meaning | Typical example |
 |---|---|---|
@@ -173,7 +171,7 @@ These examples show why no single determinant should be interpreted in isolation
 
 During **dynamic exercise**, several processes usually occur together: sympathetic stimulation increases HR and inotropy; the skeletal-muscle and respiratory pumps increase **venous return**; and arterioles supplying active muscle dilate. CO can therefore increase substantially by changes in **both** HR and SV.
 
-**Lecture clarification:** Slide 49 contains an ambiguous downward-arrow description of venous return during exercise. For ordinary dynamic exercise, the expected effect of muscle and respiratory pumping is generally **increased**, not decreased, venous return. The lecturer's diagrams on slides 50–51 also show increased venous return associated with the pumps.
+**Lecture clarification:** Slide 49 contains an ambiguous downward-arrow description of venous return during exercise. For ordinary dynamic exercise, the expected effect of muscle and respiratory pumping is generally **increased**, not decreased, venous return. The diagrams on slides 50–51 also show increased venous return associated with the pumps.
 
 The lecture additionally mentions conditions associated with increased CO or cardiac demands: **eating, high environmental temperature, pregnancy, anxiety/excitement, catecholamines and thyrotoxicosis**. These conditions differ in mechanisms and magnitude; they are not interchangeable.
 
