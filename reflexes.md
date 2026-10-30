@@ -44,11 +44,11 @@ Additional lecture inputs include cortical and hypothalamic influences, pulmonar
 
 **02. Which cranial nerve carries carotid sinus baroreceptor signals centrally?**
 
-<details><summary>Show explanation</summary>Hering's nerve joins the glossopharyngeal nerve (CN IX), transmitting the signal to the medullary NTS.</details>
+<details><summary>Show explanation</summary>The carotid sinus stretch receptors send impulses via the carotid sinus nerve (Hering's nerve), a branch of the glossopharyngeal nerve (CN IX), to the nucleus tractus solitarius in the medulla. Aortic arch receptors instead travel mainly through the vagus nerve.</details>
 
 **03. Which cranial nerve primarily carries aortic arch baroreceptor afferents?**
 
-<details><summary>Show explanation</summary>The vagus nerve (CN X) conveys aortic baroreceptor input to the medulla.</details>
+<details><summary>Show explanation</summary>Aortic arch baroreceptor afferents travel through the vagus nerve (CN X) to the medullary nucleus tractus solitarius. This sensory input allows the brainstem to alter sympathetic and parasympathetic output to the heart and blood vessels.</details>
 
 **04. A sudden rise in MAP activates the baroreflex. What happens to HR and resistance?**
 
@@ -76,15 +76,15 @@ Additional lecture inputs include cortical and hypothalamic influences, pulmonar
 
 **10. Why can the pulse slow while BP rises in the Cushing response?**
 
-<details><summary>Show explanation</summary>The secondary systemic hypertension stimulates arterial baroreceptors, contributing to reflex bradycardia.</details>
+<details><summary>Show explanation</summary>As intracranial pressure rises and cerebral perfusion falls, the brainstem can trigger intense sympathetic vasoconstriction, raising systemic arterial pressure. This elevated pressure stimulates arterial baroreceptors and can produce reflex slowing of heart rate. Bradycardia is therefore not a direct effect of raised intracranial pressure on the SA node in every case.</details>
 
 **11. What does CPP approximate when intracranial pressure exceeds venous outflow pressure?**
 
-<details><summary>Show explanation</summary>CPP ≈ MAP − ICP. Higher ICP at unchanged MAP decreases cerebral perfusion pressure.</details>
+<details><summary>Show explanation</summary>Cerebral perfusion pressure is approximated by mean arterial pressure minus intracranial pressure, provided ICP is the main downstream pressure. If ICP rises while MAP remains unchanged, the pressure available to drive cerebral blood flow falls. Actual flow also depends on cerebrovascular resistance and autoregulatory capacity.</details>
 
 **12. Is the Cushing triad a reliable early screening test for raised ICP?**
 
-<details><summary>Show explanation</summary>No. It is typically a late, ominous pattern and its absence does not rule out intracranial hypertension.</details>
+<details><summary>Show explanation</summary>No. Hypertension, bradycardia and abnormal respiration together form the classic Cushing triad, usually suggesting severe or late intracranial hypertension and brainstem compromise. Earlier raised ICP can occur without the complete triad, so its absence cannot exclude dangerous pathology.</details>
 
 ## Chapter Essentials
 
