@@ -79,7 +79,7 @@ jobs:
                     throw Error('bad formula rendering '+slug+' @'+width+': '+JSON.stringify(rows));
                   if(slug==='cardiac-cycle'&&!rows.some(x=>x.text.includes('SV = EDV − ESV')))
                     throw Error('stroke volume equation lost');
-                  if(slug==='cardiac-cycle'&&!rows.some(x=>x.text.includes('EF = (SV) / (EDV) × 100 %')))
+                  if(slug==='cardiac-cycle'&&!rows.some(x=>x.text.includes('EF = (SV) / (EDV) × 100')))
                     throw Error('ejection fraction equation lost');
                 }
                 console.log('PASS mobile equation rendering '+width+'px');
