@@ -26,7 +26,7 @@ Blood circulates through two connected pathways:
   <a href="https://upload.wikimedia.org/wikipedia/commons/f/f2/2101_Blood_Flow_Through_the_Heart.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full-size pulmonary and systemic circulation diagram">
     <img loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/2101_Blood_Flow_Through_the_Heart.jpg" alt="Diagram of systemic and pulmonary circulation, showing blood travelling between the right heart and lungs, then the left heart and body organs." />
   </a>
-  <figcaption><strong>Figure 01 — Pulmonary and systemic circulation.</strong> Follow the blood flow through the lungs and body tissues. Tap to enlarge. <span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2101_Blood_Flow_Through_the_Heart.jpg" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></figcaption>
+  <figcaption><strong>Figure 01 — Pulmonary and systemic circulation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2101_Blood_Flow_Through_the_Heart.jpg" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></details></figcaption>
 </figure>
 
 These two circuits are arranged **in series**, meaning blood passes through one circuit and then the other in a continuous pathway.
@@ -48,7 +48,7 @@ The **atria primarily receive blood and assist ventricular filling**, while the 
   <a href="https://upload.wikimedia.org/wikipedia/commons/1/12/Blausen_0457_Heart_SectionalAnatomy.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size labelled heart anatomy diagram">
     <img loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/1/12/Blausen_0457_Heart_SectionalAnatomy.png" alt="Sectional anatomy of the human heart showing four chambers, cardiac valves, great vessels, interventricular septum, and the thicker left ventricular wall." />
   </a>
-  <figcaption><strong>Figure 02 — Internal structure of the heart.</strong> Identify the chambers, valves, major vessels and differences in ventricular wall thickness. Tap to enlarge. <span class="figure-credit">Blausen Medical Communications, Inc., <a href="https://commons.wikimedia.org/wiki/File:Blausen_0457_Heart_SectionalAnatomy.png" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></figcaption>
+  <figcaption><strong>Figure 02 — Internal structure of the heart.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Blausen Medical Communications, Inc., <a href="https://commons.wikimedia.org/wiki/File:Blausen_0457_Heart_SectionalAnatomy.png" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></details></figcaption>
 </figure>
 
 ### How does blood flow through the heart?
