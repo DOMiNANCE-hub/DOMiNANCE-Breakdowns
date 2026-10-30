@@ -1,7 +1,5 @@
 # Arterial Pulse and Jugular Venous Pulse
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 22–26. **Supplementary teaching:** arterial pulse contour, careful bedside JVP assessment and interpretation of abnormal waves.
-
 ## 1. What is an arterial pulse?
 
 Each left ventricular ejection raises aortic pressure and stretches its elastic wall. This expansion generates a **pressure and distension wave** that travels along the arteries, including to the radial artery at the wrist.
@@ -10,11 +8,11 @@ Each left ventricular ejection raises aortic pressure and stretches its elastic 
 
 <div class="pulse-mechanism" role="group" aria-label="How an arterial pulse arises"><span>LV ejection</span><b>→</b><span>Aortic pressure ↑</span><b>→</b><span>Arterial wall expands</span><b>→</b><span>Pressure wave propagates</span></div>
 
-**Why does pulse-wave speed increase with age?** The lecturer notes that arteries become more rigid. In a stiffer artery, wall deformation is less for a given pressure disturbance, so the pressure wave generally propagates faster. This does **not** imply that blood velocity itself rises as the arterial wall stiffens.
+**Why does pulse-wave speed increase with age?** An important point is that arteries become more rigid. In a stiffer artery, wall deformation is less for a given pressure disturbance, so the pressure wave generally propagates faster. This does **not** imply that blood velocity itself rises as the arterial wall stiffens.
 
 ## 2. What do we assess when palpating a pulse?
 
-The lecturer lists **rate, volume, strength, character and location**. Rhythm, symmetry and timing are useful supplementary clinical descriptors.
+The main characteristics include **rate, volume, strength, character and location**. Rhythm, symmetry and timing are useful additional clinical descriptors.
 
 | Feature | What is assessed | Why it can be useful |
 |---|---|---|
@@ -41,7 +39,7 @@ The internal jugular vein is useful because of its relatively direct connection 
 
 ## 4. Why are the a, c and v waves separated by x and y descents?
 
-The lecturer describes **three positive waves: a, c and v**, and two descents, **x and y**.
+Classical descriptions include **three positive waves: a, c and v**, and two descents, **x and y**.
 
 <figure class="learning-figure jvp-figure"><figcaption>Figure 01. A normal jugular venous pulse — sequence and meaning</figcaption><svg viewBox="0 0 640 245" role="img" aria-label="Original schematic jugular venous pressure curve showing an a wave from atrial contraction, c wave during early ventricular systole, x descent from atrial relaxation, v wave during atrial filling, and y descent during tricuspid opening."><line x1="36" y1="203" x2="611" y2="203" stroke="currentColor" stroke-width="1.5" opacity=".5"/><line x1="36" y1="20" x2="36" y2="203" stroke="currentColor" stroke-width="1.5" opacity=".5"/><path d="M45 168 C75 166 93 88 120 76 C144 72 152 142 178 132 C195 129 199 104 214 111 C233 120 244 179 287 181 C340 185 355 101 407 91 C451 83 467 179 509 179 C543 181 558 167 595 166" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/><g fill="currentColor" font-size="15" font-weight="800"><text x="115" y="58">a</text><text x="207" y="97">c</text><text x="283" y="195">x</text><text x="405" y="75">v</text><text x="512" y="195">y</text></g><g fill="currentColor" font-size="12"><text x="42" y="18">Right atrial pressure ↑</text><text x="330" y="230">Time →</text></g></svg><p>Original teaching schematic (not a patient tracing). The <strong>a, c and v</strong> are pressure rises; <strong>x and y</strong> are falls. Timing and actual prominence vary between patients.</p></figure>
 
@@ -88,7 +86,7 @@ This distinction matters because mistaking the carotid pulse for JVP can lead to
 
 ## 6. How is JVP estimated at the bedside?
 
-The lecturer recommends reclining the patient at approximately **45°**, but the angle is **adjusted** to display the top of the venous column. If neck veins are very engorged, the patient may need to sit more upright; if the column is low, a flatter position may be necessary.
+Traditional teaching recommends reclining the patient at approximately **45°**, but the angle is **adjusted** to display the top of the venous column. If neck veins are very engorged, the patient may need to sit more upright; if the column is low, a flatter position may be necessary.
 
 The examiner observes the internal jugular venous pulsation (commonly on the right), identifies its highest sustained point and measures the **vertical height above the sternal angle**, keeping the ruler vertical. This is a clinical *estimate* of central venous/right atrial pressure, not a direct catheter measurement. Some conventional descriptions add an estimated distance from sternal angle to mid-right atrium; that anatomical offset varies.
 
@@ -96,7 +94,7 @@ The examiner observes the internal jugular venous pulsation (commonly on the rig
 
 ## 7. Which abnormal JVP waves are most important?
 
-The lecturer gives three clinical connections:
+Traditional teaching gives three clinical connections:
 
 - **Tricuspid incompetence/regurgitation:** Blood leaks from RV into RA during systole, potentially producing prominent **systolic v or fused c–v waves**. The lecture describes a “big c wave”; clinically a large **v/cv wave** better reflects systolic regurgitant filling.
 - **Heart block or AV dissociation:** Right atrial contraction may occur when the tricuspid valve is closed. Atrial pressure can rise abruptly, producing a **cannon a wave**.
