@@ -152,7 +152,7 @@ These disturbances affect effective pumping because both heart rate and the coor
 
 **Supplementary 1. Why can complete AV block produce independent atrial and ventricular rhythms?**
 
-<details><summary>Reveal explanation</summary><p>Atrial impulses fail to reach the ventricular conduction system, while subsidiary junctional or ventricular pacemakers may continue depolarizing independently, producing AV dissociation.</p></details>
+<details><summary>Reveal explanation</summary><p>In complete AV block, atrial depolarizations do not conduct to the ventricles. A slower junctional or ventricular escape focus may still fire, maintaining some ventricular beats; because its timing is independent of the SA node, P waves and QRS complexes have no fixed relationship. Escape rhythm rate and QRS width depend on where the focus arises.</p></details>
 
 **Supplementary 2. Why does damage to the His–Purkinje system impair synchronized ventricular contraction?**
 
@@ -160,7 +160,7 @@ These disturbances affect effective pumping because both heart rate and the coor
 
 **Supplementary 3. Why is the SA nodal action-potential upstroke slower than the ventricular upstroke?**
 
-<details><summary>Reveal explanation</summary><p>The SA nodal upstroke relies predominantly on L-type calcium channels with slower activation kinetics, whereas the ventricular working myocardium uses rapid voltage-gated sodium current.</p></details>
+<details><summary>Reveal explanation</summary><p>SA nodal cells have a relatively depolarized maximum diastolic potential, so fast sodium channels do not generate the upstroke as they do in working ventricular muscle. The nodal phase-0 upstroke is mainly through L-type calcium channels, which produce a slower rise and slower conduction.</p></details>
 
 **Supplementary 4. How does acetylcholine slow SA node discharge even though the node is automatic?**
 
@@ -168,7 +168,7 @@ These disturbances affect effective pumping because both heart rate and the coor
 
 **Supplementary 5. What does AV nodal delay protect during normal filling?**
 
-<details><summary>Reveal explanation</summary><p>It separates atrial electrical activation from ventricular systole, allowing late atrial contraction to add blood before AV valve closure; most filling remains passive.</p></details>
+<details><summary>Reveal explanation</summary><p>The AV node delays the electrical impulse before the ventricles activate. This gives the atria time to finish contracting and contribute the final part of ventricular filling before ventricular systole closes the AV valves. The delay does not imply that atrial contraction supplies most ventricular filling.</p></details>
 
 ## Chapter Essentials
 
