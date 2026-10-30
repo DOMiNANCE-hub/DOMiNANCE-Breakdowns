@@ -28,7 +28,7 @@ The **specialised cardiac conducting system** generates and distributes electric
 
 ### What about the internodal pathways?
 
-Traditional descriptions name three traditional internodal pathways: **anterior** (associated with Bachmann's bundle), **middle** (Wenckebach) and **posterior** (Thorel). These names help follow the lecturer's slides. However, the atria do not necessarily contain three separate, insulated conducting bundles corresponding exactly to these pathways; excitation also spreads through ordinary atrial myocardium. **Bachmann's bundle** is particularly important for spreading excitation from the right to the left atrium, allowing the atria to be activated close together in time.
+Traditional descriptions identify three internodal pathways: **anterior** (associated with Bachmann's bundle), **middle** (Wenckebach) and **posterior** (Thorel). These names help describe how impulses spread between SA and AV nodal regions. However, the atria do not necessarily contain three separate, insulated conducting bundles corresponding exactly to these pathways; excitation also spreads through ordinary atrial myocardium. **Bachmann's bundle** is particularly important for spreading excitation from the right to the left atrium, allowing the atria to be activated close together in time.
 
 ## 3. Why is the SA node the normal pacemaker?
 
