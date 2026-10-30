@@ -127,7 +127,7 @@ The best listening points on the chest are **not necessarily directly over the a
 
 <figure class="teaching-illustration teaching-illustration-portrait" id="cvs05-auscultation">
 <a href="https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Heart_sounds_auscultation_areas.svg" alt="Anterior chest surface showing colour-coded cardiac auscultation points: navy aortic, yellow pulmonary, red tricuspid, green mitral, light blue Erb's point." width="436" height="600"></a>
-<figcaption><strong>Figure 01. Cardiac auscultation areas.</strong> Navy = aortic; yellow = pulmonary; red = tricuspid; green = mitral; light blue = Erb's point (supplementary). <span class="figure-credit">Vinne2, after Ickle and Gray's Anatomy · <a href="https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></figcaption>
+<figcaption><strong>Figure 01. Cardiac auscultation areas.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Vinne2, after Ickle and Gray's Anatomy · <a href="https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></details></figcaption>
 </figure>
 
 A stethoscope's **diaphragm** transmits many higher-frequency sounds well (e.g. S1, S2 and many murmurs). Its **bell**, applied lightly, can help detect low-frequency S3, S4 and some diastolic murmurs. This is a supplementary clinical technique.
