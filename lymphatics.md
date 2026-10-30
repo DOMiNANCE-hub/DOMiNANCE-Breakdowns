@@ -1,7 +1,5 @@
 # Lymphatic Circulation
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 60 and 94–95, with diagrammatic support from Regional Circulation Proper, slides 47–48. **Supplementary clarification:** lymphatic vessel structure, intestinal chylomicron transport, and stages of lymphoedema.
-
 ## 1. Why do we need lymphatic vessels if we already have veins?
 
 Blood capillaries continuously exchange substances and filter some water into surrounding tissues. If every bit of fluid and escaped protein stayed there, tissues would swell progressively.
@@ -12,7 +10,7 @@ The **lymphatic system** collects excess **interstitial fluid, proteins and sele
 
 <div class="lymph-flow" role="group" aria-label="Lymphatic return route"><span>Capillary filtration</span><b>→</b><span>Interstitial fluid</span><b>→</b><span>Lymph capillaries</span><b>→</b><span>Lymph vessels and ducts</span><b>→</b><span>Venous blood</span></div>
 
-The lecturer stresses that lymphatic drainage handles fluid left after microvascular exchange. Under the **revised Starling principle**, lymphatic return is a major normal steady-state route for filtered fluid, not merely a back-up for a universal 85% venous-end reabsorption process.
+A key principle is that lymphatic drainage handles fluid left after microvascular exchange. Under the **revised Starling principle**, lymphatic return is a major normal steady-state route for filtered fluid, not merely a back-up for a universal 85% venous-end reabsorption process.
 
 ## 2. How does lymph enter a lymphatic capillary?
 
@@ -49,7 +47,7 @@ The lymphatic system has major collecting pathways:
 
 These are standard drainage territories; **normal anatomical variants** occur.
 
-The lecturer describes lymph entering the right and left subclavian venous regions. More precise anatomy places the usual openings at or near the **venous angles**.
+The mechanism involves lymph entering the right and left subclavian venous regions. More precise anatomy places the usual openings at or near the **venous angles**.
 
 ### What role do lymph nodes play?
 
@@ -88,7 +86,7 @@ The relationship is especially important when interpreting the lecture's classic
 
 ## 7. Why does lymphatic obstruction cause lymphoedema?
 
-The lecturer gives two examples:
+Representative two examples:
 
 - **Filarial worm infection:** Parasites and associated inflammation can damage lymphatic vessels, producing chronic swelling and sometimes elephantiasis.
 - **Radical mastectomy/axillary lymph-node surgery:** Removing or damaging lymphatic channels may impair drainage from the affected upper limb or chest wall.
@@ -111,7 +109,7 @@ Three broad consequences follow:
 - **Immune function:** Lymph transport through nodes and immune surveillance are disrupted.
 - **Nutrient transport:** Damaged intestinal lacteals can impair delivery of long-chain dietary lipids via chylomicrons.
 
-The lecturer briefly describes lymphatics as helping bodily fluid balance and intestinal absorption. The more precise mechanism is **return of interstitial fluid and transport of fat-rich chylomicrons**, rather than lymphatic vessels directly performing the kidney's renal water reabsorption.
+Key structures include lymphatics as helping bodily fluid balance and intestinal absorption. The more precise mechanism is **return of interstitial fluid and transport of fat-rich chylomicrons**, rather than lymphatic vessels directly performing the kidney's renal water reabsorption.
 
 
 ## Understanding Check
