@@ -40,7 +40,7 @@ Another important effect is partial cerebral flow protection because both head-l
 
 **01. Why is ankle venous pressure higher than heart-level venous pressure when standing?**
 
-<details><summary>Show explanation</summary>The vertical blood column adds hydrostatic pressure below the heart; the difference is approximately ρgh.</details>
+<details><summary>Show explanation</summary>When a person stands, gravity creates a hydrostatic pressure difference proportional to the vertical distance from heart level: ΔP = ρgh. Pressure increases in dependent vessels, promoting venous pooling, while pressure at head level is lower. This is a distribution of pressures, not a creation of extra blood volume.</details>
 
 **02. What is the first cardiac consequence of sudden dependent venous pooling?**
 
@@ -60,7 +60,7 @@ Another important effect is partial cerebral flow protection because both head-l
 
 **06. What is the standard three-minute definition of classical orthostatic hypotension?**
 
-<details><summary>Show explanation</summary>A sustained systolic fall of at least 20 mmHg or diastolic fall of at least 10 mmHg within three minutes of standing.</details>
+<details><summary>Show explanation</summary>Classical orthostatic hypotension is generally defined as a sustained fall in systolic pressure of at least 20 mmHg or diastolic pressure of at least 10 mmHg within 3 minutes of standing or head-up tilt. Symptoms may accompany the fall, but the definition is based on measured pressure.</details>
 
 **07. Why can a dehydrated person develop more severe orthostatic symptoms?**
 
@@ -72,7 +72,7 @@ Another important effect is partial cerebral flow protection because both head-l
 
 **09. Why can walking relieve dizziness felt during prolonged motionless standing?**
 
-<details><summary>Show explanation</summary>Walking activates the skeletal-muscle pump, improving venous return and supporting stroke volume.</details>
+<details><summary>Show explanation</summary>Contraction of leg muscles compresses deep veins. One-way venous valves favour movement of blood toward the heart rather than back toward the feet, reducing pooling and helping restore ventricular filling and stroke volume during standing or walking.</details>
 
 **10. Why does ankle oedema worsen after standing motionless for hours?**
 
