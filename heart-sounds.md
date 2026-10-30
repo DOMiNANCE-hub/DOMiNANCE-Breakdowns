@@ -186,11 +186,11 @@ The common mechanism is **flow-induced vibration**, but its timing depends on th
 
 **Supplementary 1. How would increased aortic pressure tend to affect the timing of aortic valve opening?**
 
-<details><summary>Reveal explanation</summary><p>The left ventricle must generate pressure above the elevated aortic pressure before the valve opens, potentially prolonging isovolumetric contraction if contractile performance is unchanged.</p></details>
+<details><summary>Reveal explanation</summary><p>Aortic valve opening occurs only when left ventricular pressure exceeds aortic pressure. If aortic diastolic pressure rises and the rate of ventricular pressure development stays similar, it takes longer to reach the opening threshold, so isovolumetric contraction may lengthen. Changes in contractility can modify this response.</p></details>
 
 **Supplementary 2. Why can a patient with a stiff ventricle produce S4 but not a normal atrial fibrillation rhythm?**
 
-<details><summary>Reveal explanation</summary><p>S4 depends on effective atrial contraction forcing blood into a poorly compliant ventricle. Atrial fibrillation lacks coordinated atrial systole, so the usual atrial S4 mechanism is absent.</p></details>
+<details><summary>Reveal explanation</summary><p>An S4 is generated during late diastole when atrial contraction pushes blood into a relatively stiff ventricle. Atrial fibrillation eliminates organised atrial contraction, so the usual mechanism of S4 is absent even when the ventricle remains stiff. An S3, by contrast, occurs during early rapid filling.</p></details>
 
 ## Chapter Essentials
 

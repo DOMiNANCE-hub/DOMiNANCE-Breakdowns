@@ -187,15 +187,15 @@ When heart rate increases, the cardiac cycle becomes shorter. **Diastole shorten
 
 **Supplementary 1. Why is the dicrotic notch associated with aortic valve closure?**
 
-<details><summary>Reveal explanation</summary><p>As aortic flow decelerates and briefly reverses near end systole, aortic valve closure and elastic recoil create a small notch in the aortic pressure contour.</p></details>
+<details><summary>Reveal explanation</summary><p>Late in ejection, left ventricular pressure falls below aortic pressure and the pressure gradient briefly reverses. A tiny backward movement of blood closes the aortic valve; the associated pressure transient and arterial recoil produce the dicrotic notch. It marks valve closure, not a second ventricular contraction.</p></details>
 
 **Supplementary 2. During rapid passive filling, which pressure relationship opens the mitral valve?**
 
-<details><summary>Reveal explanation</summary><p>After isovolumetric relaxation, left ventricular pressure falls below left atrial pressure, opening the mitral valve so blood can move down the resulting pressure gradient.</p></details>
+<details><summary>Reveal explanation</summary><p>The mitral valve opens once relaxing left ventricular pressure drops below left atrial pressure. Blood then moves from atrium into ventricle down that pressure gradient. The valve is passive: it does not open because the atrium is actively contracting.</p></details>
 
 **Supplementary 3. Why can ventricular systolic pressure initially rise with no change in volume?**
 
-<details><summary>Reveal explanation</summary><p>Both AV and semilunar valves are closed during early systole; increasing myocardial tension raises pressure while ventricular blood cannot yet exit.</p></details>
+<details><summary>Reveal explanation</summary><p>During isovolumetric contraction, both the AV and semilunar valves are closed. Developing myocardial force raises pressure but blood has no exit, so ventricular volume remains at end-diastolic volume until ventricular pressure exceeds outflow arterial pressure.</p></details>
 
 ## Chapter Essentials
 
