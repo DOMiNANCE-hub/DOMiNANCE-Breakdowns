@@ -1,7 +1,5 @@
 # The Cardiac Cycle
 
-**Lecture:** CIRCULATION 1(4).pdf, slides 11–21. **Supplementary clarification:** pressure-gradient reasoning, Wiggers interpretation and standard ejection-phase terminology.
-
 ## 1. What actually drives the cardiac cycle?
 
 The **cardiac cycle** is one complete sequence of ventricular filling, contraction, ejection and relaxation. To understand it, follow what happens to **pressure**, the **valves** and the **amount of blood in the ventricle**.
@@ -30,7 +28,7 @@ At first, filling is **rapid**: blood moves down the atrial-to-ventricular press
 
 Most filling normally occurs **passively** before atrial contraction. Near the end of diastole, atrial systole pushes an additional volume into the ventricle—the **<span data-term="atrial-kick">atrial kick</span>**. It matters especially when a ventricle is stiff or relaxes poorly.
 
-The lecturer illustrates approximately **70% passive filling and 30% atrial contribution**. These are teaching estimates, not constant percentages: atrial contraction often contributes roughly **10–30%** at rest, depending on age, rate and ventricular properties.
+A common teaching estimate is **70% passive filling and 30% atrial contribution**. These are teaching estimates, not constant percentages: atrial contraction often contributes roughly **10–30%** at rest, depending on age, rate and ventricular properties.
 
 The **P wave** is atrial depolarisation; atrial contraction follows and produces the **a wave** in the atrial pressure tracing. After filling ends, the ventricle contains its **<span data-term="edv">end-diastolic volume (EDV)</span>**—approximately 130 mL in the lecturer's example.
 
