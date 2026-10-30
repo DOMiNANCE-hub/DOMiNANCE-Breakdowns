@@ -131,7 +131,7 @@ The lecture mentions a historical **arm-to-tongue circulation time around 15 sec
 
 Large veins are more compliant than arteries. Their volume can rise considerably before venous pressure rises by the same amount. This is why veins are called **capacitance vessels**, whereas arterioles are commonly described as **resistance vessels**.
 
-Representative an approximate distribution of blood volume on slide 75, with a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
+An approximate resting blood-volume distribution places a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
 
 **Why does venoconstriction help cardiac output?** When the venous system becomes less distensible, stored blood can be redirected towards the heart. This can increase venous return, end-diastolic volume and stroke volume through the Frank–Starling mechanism.
 
