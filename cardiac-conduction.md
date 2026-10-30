@@ -1,7 +1,5 @@
 # Cardiac Conduction and Automaticity
 
-**Lecture:** CIRCULATION 1(4).pdf, slides 7–10. **Supplementary foundations:** pacemaker action potentials, autonomic modulation and clinical consequences.
-
 ## 1. Why does the heart need a conducting system?
 
 The heart has four chambers, but efficient pumping requires more than all four chambers contracting: **they must contract in the correct sequence**.
@@ -30,7 +28,7 @@ The **specialised cardiac conducting system** generates and distributes electric
 
 ### What about the internodal pathways?
 
-The lecture names three traditional internodal pathways: **anterior** (associated with Bachmann's bundle), **middle** (Wenckebach) and **posterior** (Thorel). These names help follow the lecturer's slides. However, the atria do not necessarily contain three separate, insulated conducting bundles corresponding exactly to these pathways; excitation also spreads through ordinary atrial myocardium. **Bachmann's bundle** is particularly important for spreading excitation from the right to the left atrium, allowing the atria to be activated close together in time.
+Traditional descriptions name three traditional internodal pathways: **anterior** (associated with Bachmann's bundle), **middle** (Wenckebach) and **posterior** (Thorel). These names help follow the lecturer's slides. However, the atria do not necessarily contain three separate, insulated conducting bundles corresponding exactly to these pathways; excitation also spreads through ordinary atrial myocardium. **Bachmann's bundle** is particularly important for spreading excitation from the right to the left atrium, allowing the atria to be activated close together in time.
 
 ## 3. Why is the SA node the normal pacemaker?
 
