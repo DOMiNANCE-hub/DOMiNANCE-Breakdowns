@@ -26,7 +26,7 @@ At first, filling is **rapid**: blood moves down the atrial-to-ventricular press
 
 ### Stage 2 — Why contract the atria if filling is already occurring?
 
-Most filling normally occurs **passively** before atrial contraction. Near the end of diastole, atrial systole pushes an additional volume into the ventricle—the **<span data-term="atrial-kick">atrial kick</span>**. It matters especially when a ventricle is stiff or relaxes poorly.
+While the **ventricles are relaxed (ventricular diastole)**, blood already flows passively from atria to ventricles. **Near the end of ventricular diastole**, the atria contract and push in the final portion of blood—the **<span data-term="atrial-kick">atrial kick</span>**. It matters especially when a ventricle is stiff or relaxes poorly.
 
 A common teaching estimate is **70% passive filling and 30% atrial contribution**. These are teaching estimates, not constant percentages: atrial contraction often contributes roughly **10–30%** at rest, depending on age, rate and ventricular properties.
 
@@ -62,7 +62,7 @@ The lecturer describes ejection as initially slow then rapid; the conventional p
 
 As the ventricle begins to relax, its pressure falls. Blood may still be flowing forward late in ejection, but eventually **aortic pressure exceeds ventricular pressure**. The pressure gradient reverses and the **aortic valve closes**, contributing to **S2** (the second heart sound).
 
-The lecturer calls the brief period of falling ventricular pressure before semilunar valve closure **protodiastole**. It precedes the following isovolumetric relaxation phase.
+The lecturer calls the brief late-ejection period when ventricular pressure starts to fall **protodiastole**. The aortic valve may still be open and some forward ejection may continue; **isovolumetric relaxation begins only after the aortic valve closes**, when both valves are shut.
 
 <div class="transition-line"><strong>What happens next?</strong> The aortic valve has closed, but the mitral valve is not yet open.</div>
 
@@ -109,7 +109,7 @@ The **<span data-term="ejection-fraction">ejection fraction (EF)</span>** is the
 
 <div class="equation-block"><span class="equation-label">Ejection fraction</span><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>EF</mi><mo>=</mo><mfrac><mi>SV</mi><mi>EDV</mi></mfrac><mo>×</mo><mn>100</mn><mo>%</mo></math><span class="equation-example">Example: (80 ÷ 130) × 100 = <strong>61.5%</strong></span></div>
 
-The lecturer uses EDV ≈130 mL, SV ≈70–90 mL and EF ≈65% as illustrative values. **EF is not the fraction of all blood in the body ejected per beat**—it is the fraction of end-diastolic blood within that ventricle.
+The lecturer uses EDV ≈130 mL, SV ≈70–90 mL and EF ≈65% as illustrative values. **EF is not the fraction of all blood in the body ejected per beat**—it is the fraction of end-diastolic blood within that ventricle. **EF is a percentage, not a volume:** a small, poorly filled ventricle may eject a normal percentage yet still deliver a low stroke volume. Always consider EDV and SV alongside EF.
 
 ## 5. Reading the Wiggers diagram without memorising the curves
 
@@ -193,9 +193,9 @@ When heart rate increases, the cardiac cycle becomes shorter. **Diastole shorten
 
 <details><summary>Reveal explanation</summary><p>The mitral valve opens once relaxing left ventricular pressure drops below left atrial pressure. Blood then moves from atrium into ventricle down that pressure gradient. The valve is passive: it does not open because the atrium is actively contracting.</p></details>
 
-**Supplementary 3. Why can ventricular systolic pressure initially rise with no change in volume?**
+**Supplementary 3. If aortic diastolic pressure rises while ventricular contraction develops pressure at the same rate, what happens before ejection begins?**
 
-<details><summary>Reveal explanation</summary><p>During isovolumetric contraction, both the AV and semilunar valves are closed. Developing myocardial force raises pressure but blood has no exit, so ventricular volume remains at end-diastolic volume until ventricular pressure exceeds outflow arterial pressure.</p></details>
+<details><summary>Reveal explanation</summary><p>The left ventricle must now reach a higher pressure before the aortic valve opens. If pressure rises at the same rate, **isovolumetric contraction lasts longer** and ejection starts later. The effect can differ if contractility or other loading conditions also change.</p></details>
 
 ## Chapter Essentials
 
