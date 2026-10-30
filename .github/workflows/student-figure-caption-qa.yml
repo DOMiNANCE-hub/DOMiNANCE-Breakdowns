@@ -31,8 +31,8 @@ jobs:
           data=json.loads((root/'content.js').read_text().removeprefix('window.DOMINANCE_TOPICS = ').removesuffix(';\n'))
           assert len(data)==27
           for t in data:
-              assert t['html'].count('<details>')-t['html'].count('class="figure-attribution"')==12,t['slug']
-              assert t['html'].count('</details>')==t['html'].count('<details>'),t['slug']
+              assert t['html'].count('<details>')==12,t['slug']
+              assert t['html'].count('</details>')==len(re.findall(r'<details\b',t['html'])),t['slug']
               assert 'Chapter Essentials' in t['html'],t['slug']
               for s in t['sections']:
                   assert 'id="'+s['id']+'"' in t['html'],(t['slug'],s['id'])
