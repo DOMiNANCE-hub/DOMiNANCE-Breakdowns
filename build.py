@@ -44,13 +44,13 @@ def readable_math(html):
             root=ET.fromstring(m.group(0))
             equation=render(root)
             # Add word spacing only around operators, then preserve inline mathematical grouping.
-            equation=re.sub(r'\\s+',' ',equation).strip()
-            equation=re.sub(r'\\s*([=≈×+−<>])\\s*',r' \\1 ',equation)
-            equation=re.sub(r'\\s+',' ',equation).strip()
+            equation=re.sub(r'\s+',' ',equation).strip()
+            equation=re.sub(r'\s*([=≈×+−<>])\s*',r' \1 ',equation)
+            equation=re.sub(r'\s+',' ',equation).strip()
             return '<span class="equation-formula" role="math" aria-label="'+html_module.escape(equation,quote=True)+'">'+html_module.escape(equation)+'</span>'
         except ET.ParseError:
             raise ValueError('Invalid MathML in chapter content: '+m.group(0)[:150])
-    return re.sub(r'<math\\b[^>]*>[\\s\\S]*?</math>',replace,html)
+    return re.sub(r'<math\b[^>]*>[\s\S]*?</math>',replace,html)
 
 topics=[]
 for row in rows:
