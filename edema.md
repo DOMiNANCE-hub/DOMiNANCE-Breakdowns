@@ -73,7 +73,7 @@ The lecturer explicitly lists **arteriolar dilation and venular constriction** a
 
 Plasma proteins help maintain **plasma oncotic pressure**. If albumin falls markedly, the oncotic pressure opposing capillary filtration decreases.
 
-Representative three important examples:
+Three important examples:
 
 - **Liver disease:** Reduced albumin synthesis in significant hepatic dysfunction.
 - **Kidney disease:** Excess urinary protein loss in conditions such as nephrotic syndrome.
