@@ -33,11 +33,11 @@ Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic 
 
 **01. Why can ejection fraction remain normal in heart failure?**
 
-<details><summary>Show explanation</summary>A stiff ventricle may eject a normal fraction of a low end-diastolic volume while requiring high filling pressures.</details>
+<details><summary>Show explanation</summary>A stiff ventricle resists filling, so pressure rises sharply even when its end-diastolic volume is normal or reduced. It may still eject a normal percentage of that volume (preserved EF) while total stroke volume or exercise capacity is inadequate. EF alone does not establish whether filling is normal.</details>
 
 **02. Why is pulmonary oedema associated with left-sided failure?**
 
-<details><summary>Show explanation</summary>Elevated left atrial and pulmonary venous pressures increase microvascular filtration beyond removal capacity.</details>
+<details><summary>Show explanation</summary>When left ventricular filling pressure rises, pressure backs up into the left atrium and pulmonary veins. The resulting rise in pulmonary capillary hydrostatic pressure pushes more fluid into lung tissue; once lymphatic clearance is overwhelmed, interstitial and then alveolar oedema may develop.</details>
 
 **03. Why does right-heart failure elevate JVP?**
 
@@ -45,7 +45,7 @@ Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic 
 
 **04. Why can forward failure cause oliguria?**
 
-<details><summary>Show explanation</summary>Reduced effective kidney perfusion can lower GFR and stimulate salt and water retention.</details>
+<details><summary>Show explanation</summary>Reduced effective arterial blood delivery activates sympathetic and renin–angiotensin–aldosterone pathways and promotes antidiuretic hormone release. The kidneys then retain sodium and water, which may temporarily support circulation but worsen congestion. GFR may also decrease.</details>
 
 **05. Why does RAAS activation initially help but ultimately worsen congestion?**
 
@@ -61,7 +61,7 @@ Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic 
 
 **08. How does right-sided forward failure limit left ventricular filling?**
 
-<details><summary>Show explanation</summary>Less blood is delivered through pulmonary vessels to the left atrium.</details>
+<details><summary>Show explanation</summary>Right ventricular failure can reduce blood reaching pulmonary capillaries and subsequently the left atrium. This reduces left ventricular preload and may lower systemic cardiac output, even though systemic venous pressure is high.</details>
 
 **09. Why can total-body fluid excess coexist with effective arterial underfilling?**
 
@@ -69,7 +69,7 @@ Raised left atrial pressure elevates pulmonary venous and capillary hydrostatic 
 
 **10. What produces ascites in right backward failure?**
 
-<details><summary>Show explanation</summary>Elevated systemic and hepatic venous pressures increase filtration and may overwhelm lymphatic clearance.</details>
+<details><summary>Show explanation</summary>High right atrial pressure is transmitted back into systemic and hepatic veins. Higher capillary and sinusoidal hydrostatic pressures increase filtration and hepatic lymph formation; when removal cannot keep up, peripheral oedema or ascites develops.</details>
 
 **11. Why does increased afterload burden a failing ventricle?**
 
