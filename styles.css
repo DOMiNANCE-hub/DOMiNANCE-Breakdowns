@@ -403,3 +403,19 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 @media(max-width:900px){.platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:500px){.platform-hero{margin-top:15px;padding:24px 19px;border-radius:17px}.platform-grid{gap:10px}.platform-system{padding:15px 11px}.platform-system h4{font-size:.9rem}.platform-system p{font-size:.79rem}}
 @media(prefers-reduced-motion:reduce){.platform-available{transition:none}}
+
+/* CVS equations: readable, contained and touch-scrollable on narrow phones. */
+.article-text .equation-block{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:5px;max-width:100%;min-width:0;overflow:hidden}
+.article-text .equation-label{display:block;white-space:normal;overflow-wrap:anywhere}
+.article-text .equation-block math{display:block;max-width:100%;min-width:0;width:max-content;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;font-size:clamp(14px,2.6vw,18px);line-height:1.4;padding:3px 0 6px;scrollbar-width:thin;white-space:nowrap}
+.article-text .equation-block .equation-example{display:block;max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:normal;line-height:1.55}
+.article-text .equation-block .equation-example strong{overflow-wrap:anywhere}
+.article-text .equation-block :is(mfrac,mrow,msup,msub){max-width:none}
+.article-text :not(pre)>code{white-space:normal;overflow-wrap:anywhere}
+@media(max-width:660px){
+ .article-text .equation-block{padding:9px 10px;margin:9px 0 12px;gap:5px;border-radius:11px}
+ .article-text .equation-block math{font-size:15px;max-width:100%;margin:0;overscroll-behavior-x:contain}
+ .article-text .equation-label{font-size:11.5px}
+ .article-text .equation-example{font-size:12px;line-height:1.5}
+}
+@media(max-width:360px){.article-text .equation-block math{font-size:14px}.article-text .equation-block{padding:8px}}
