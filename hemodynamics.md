@@ -54,19 +54,19 @@ In ideal **laminar flow**, fluid travels in organised layers. The layer touching
 
 **Turbulent or disturbed flow** has changing local velocity directions, often generating audible sounds such as bruits or murmurs. It is made more likely by high velocity, sudden changes in vessel geometry and lower blood viscosity.
 
-The lecture introduces the **Reynolds number (Re)** to describe this tendency:
+The **Reynolds number (Re)** helps describe the tendency for flow disturbances to become turbulent:
 
 <div class="equation-block"><span class="equation-label">Reynolds number</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Re</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>v</mi><mi>D</mi></mrow><mi>η</mi></mfrac></math><span class="equation-example">ρ = density; v = velocity; D = diameter; η = dynamic viscosity.</span></div>
 
 Higher Reynolds number means a **greater likelihood** of turbulent flow, not a guarantee. The vessel's curvature, pulsatility, branching and stenoses also matter.
 
-**Two different symbols:** **R** denotes vascular resistance in the flow law; **Re** denotes *Reynolds number*, which is dimensionless. The lecturer uses similar abbreviated labels for both, but they are not interchangeable.
+**Two different symbols:** **R** denotes vascular resistance in the flow law; **Re** denotes *Reynolds number*, which is dimensionless. Despite their similar symbols, they are not interchangeable.
 
 **Anaemia:** Lower viscosity and a compensatory increase in flow can promote a systolic flow murmur without structural valve disease. **Local narrowing:** Velocity may accelerate through a stenosis, creating disturbed downstream flow and a vascular bruit.
 
 ## 6. Why is vessel radius such a powerful determinant of flow?
 
-The lecturer derives the **Hagen–Poiseuille formula** for ideal steady laminar flow through a straight, rigid circular tube:
+The **Hagen–Poiseuille equation** describes ideal steady laminar flow through a long, straight, rigid circular tube:
 
 <div class="equation-block"><span class="equation-label">Hagen–Poiseuille equation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>Δ</mi><mi>P</mi><msup><mi>r</mi><mn>4</mn></msup></mrow><mrow><mn>8</mn><mi>η</mi><mi>L</mi></mrow></mfrac></math><span class="equation-example">r = vessel radius; L = vessel length; η = viscosity.</span></div>
 
@@ -90,7 +90,7 @@ These relationships are **mathematical aids**, not exact universal predictions: 
 
 **Viscosity** describes internal resistance to flow. Blood viscosity depends on **haematocrit, plasma proteins, temperature, and red-cell deformation or aggregation**.
 
-The lecturer highlights:
+The most important implications are:
 
 - **Polycythaemia:** More red cells generally increase viscosity, raising viscous resistance and cardiac work.
 - **Anaemia:** Viscosity is often lower, but reduced oxygen-carrying capacity can increase cardiac-output demand and produce a flow murmur.
