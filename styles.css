@@ -419,3 +419,17 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
  .article-text .equation-example{font-size:12px;line-height:1.5}
 }
 @media(max-width:360px){.article-text .equation-block math{font-size:14px}.article-text .equation-block{padding:8px}}
+
+/* Stable formula rendering: ordinary accessible text, no fragile MathML glyph stacks. */
+.article-text .equation-block .equation-formula{
+ display:block;max-width:100%;min-width:0;
+ font:750 clamp(15px,3vw,19px)/1.55 'Plus Jakarta Sans',system-ui,sans-serif;
+ color:var(--navy2);white-space:normal;overflow-wrap:normal;word-break:normal;
+ font-variant-numeric:lining-nums tabular-nums;letter-spacing:0;
+}
+@media(max-width:660px){
+ .article-text .equation-block .equation-formula{
+  font-size:16px;line-height:1.55;overflow-wrap:anywhere;
+ }
+}
+@media(max-width:350px){.article-text .equation-block .equation-formula{font-size:15px}}
