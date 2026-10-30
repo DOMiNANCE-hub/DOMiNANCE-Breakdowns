@@ -433,3 +433,23 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
  }
 }
 @media(max-width:350px){.article-text .equation-block .equation-formula{font-size:15px}}
+
+/* Student-friendly figure captions: title first; attribution remains one tap away. */
+.article-text figure figcaption .figure-attribution,
+.article-text .teaching-illustration figcaption .figure-attribution{
+ display:inline-block;vertical-align:baseline;margin:0 0 0 8px;padding:0;
+ background:none;border:0;border-radius:0;font-size:11px;line-height:1.5;
+}
+.article-text figure figcaption .figure-attribution summary{
+ display:inline;cursor:pointer;font-size:11px;font-weight:600;
+ color:var(--muted);text-decoration:underline;text-decoration-style:dotted;
+ text-underline-offset:3px;outline-offset:3px;
+}
+.article-text figure figcaption .figure-attribution .figure-credit{
+ display:block;margin-top:5px;font-size:11px;font-weight:400;
+ color:var(--muted);line-height:1.5;overflow-wrap:anywhere;
+}
+.article-text figure figcaption .figure-attribution[open]{
+ display:block;margin:5px 0 0;
+}
+.article-text figure figcaption .figure-attribution a{color:var(--blue);text-decoration:underline}
