@@ -2,7 +2,7 @@
 
 ## 1. Why do we need a circulatory system?
 
-Every cell in the body requires oxygen and nutrients to function. At the same time, cells produce metabolic waste products, including carbon dioxide, which must be removed.
+Every living cell needs substances such as oxygen and glucose to release energy and carry out its functions. Cells also produce waste products, including carbon dioxide, that must be removed. Most cells are too far from the lungs or digestive tract to obtain these substances quickly enough by diffusion alone. Blood transports them over long distances, while exchange with nearby cells takes place mainly across the thin walls of capillaries.
 
 The **circulatory system** makes this continuous transport possible.
 
@@ -29,9 +29,9 @@ Blood circulates through two connected pathways:
   <figcaption><strong>Figure 01 — Pulmonary and systemic circulation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2101_Blood_Flow_Through_the_Heart.jpg" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></details></figcaption>
 </figure>
 
-These two circuits are arranged **in series**, meaning blood passes through one circuit and then the other in a continuous pathway.
+These two circuits are arranged **in series**: blood leaving the right ventricle passes through the lungs before reaching the left ventricle, and blood leaving the left ventricle passes through the body before returning to the right ventricle. Think of them as two pumps along the same continuous route, rather than two separate supplies of blood.
 
-Consequently, under stable conditions, the right and left ventricles must pump approximately equal volumes of blood per minute. Otherwise, blood would progressively accumulate in one circulation.
+Consequently, under stable conditions, the right and left ventricles must pump approximately equal volumes of blood per minute. Imagine the right ventricle consistently pumping 6 litres per minute into the lungs while the left pumps only 5 litres per minute out of them. Blood would accumulate in the pulmonary circulation, raising its blood volume and pressure. This mismatch cannot continue indefinitely; the outputs must balance over time.
 
 ## 3. The heart and its four chambers
 
@@ -57,7 +57,7 @@ Follow the pathway:
 
 **Body tissues → Venae cavae → Right atrium → Tricuspid valve → Right ventricle → Pulmonary valve → Pulmonary trunk and arteries → Lungs → Pulmonary veins → Left atrium → Mitral valve → Left ventricle → Aortic valve → Aorta → Body tissues.**
 
-The cardiac valves help maintain one-way blood flow by preventing blood from flowing backwards.
+The cardiac valves help maintain one-way blood flow. They do not actively pull themselves open: a favourable pressure difference pushes their leaflets open, while a reversed pressure difference closes them and limits backward flow.
 
 Notice that the pulmonary arteries carry relatively deoxygenated blood, while the pulmonary veins carry oxygenated blood.
 
@@ -115,7 +115,7 @@ Two important components make this possible:
 - **Cardiac muscle (myocardium):** Produces the force required for contraction and blood ejection.
 - **Specialised cardiac conducting system:** Generates and distributes electrical impulses that coordinate the heartbeat.
 
-Electrical activation normally precedes contraction, allowing the atria and ventricles to pump in an organised sequence.
+Electrical activation normally precedes contraction, allowing the atria and ventricles to pump in an organised sequence. The impulse usually starts in the sinoatrial (SA) node, spreads across the atria and slows briefly at the atrioventricular (AV) node before reaching the ventricles. This short delay helps the atria finish their contribution to ventricular filling before the ventricles contract. If the timing becomes disorganised, pumping may become less efficient even if the muscle can still contract.
 
 *The cellular mechanisms of contraction and the electrical conducting pathways will be covered in the Cardiac Muscle Physiology and Cardiac Conduction chapters.*
 
@@ -151,9 +151,9 @@ Electrical activation normally precedes contraction, allowing the atria and vent
 
 <details><summary>Reveal explanation</summary><p>During early diastole, ventricular pressure falls below atrial pressure, opening AV valves and permitting passive filling. Atrial systole contributes a smaller late increment under normal resting conditions.</p></details>
 
-**Supplementary 4. How would sustained inequality of ventricular output alter the pulmonary circulation?**
+**Supplementary 4. Why might a patient with severe left ventricular failure develop breathlessness from fluid in the lungs?**
 
-<details><summary>Reveal explanation</summary><p>If the right ventricle persistently pumped more than the left, blood would accumulate in pulmonary vessels, increasing pressures and potentially causing congestion. The reverse inequality would drain pulmonary volume.</p></details>
+<details><summary>Reveal explanation</summary><p>When the left ventricle cannot move blood forward effectively, pressure may rise behind it in the left atrium and pulmonary veins. Higher pulmonary capillary pressure promotes fluid movement into lung tissue and sometimes alveoli, making gas exchange harder and causing breathlessness.</p></details>
 
 **Supplementary 5. Why do valves not need active contraction to open?**
 
@@ -163,9 +163,9 @@ Electrical activation normally precedes contraction, allowing the atria and vent
 
 <details><summary>Reveal explanation</summary><p>An obstruction in one circuit can reduce filling and output of the next. For example, impaired pulmonary flow can reduce left atrial return, while failing left heart can back up blood into pulmonary vessels.</p></details>
 
-**Supplementary 7. Why can the right ventricle pump a similar volume with less muscular wall thickness?**
+**Supplementary 7. What would happen to the pressure needed to maintain flow if arterioles narrowed while other factors stayed constant?**
 
-<details><summary>Reveal explanation</summary><p>Pulmonary vascular resistance and pressure are normally much lower than systemic values, so the right ventricle needs less pressure-generating myocardial mass to drive comparable minute flow.</p></details>
+<details><summary>Reveal explanation</summary><p>Narrowing arterioles increases resistance to flow. To maintain the same blood flow through the narrowed vessels, a greater pressure difference is needed. This helps explain why sustained high systemic resistance increases the workload of the left ventricle.</p></details>
 
 ## Chapter Essentials
 
