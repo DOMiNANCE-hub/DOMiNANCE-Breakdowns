@@ -52,11 +52,11 @@ The lecture includes concealed internal bleeding after femoral fracture, splenic
 
 **02. Write the equation connecting oxygen delivery to cardiac output.**
 
-<details><summary>Show explanation</summary>DO₂ = CO × CaO₂. Lower output can reduce oxygen delivery even before measured Hb concentration changes.</details>
+<details><summary>Show explanation</summary>Systemic oxygen delivery equals cardiac output multiplied by arterial oxygen content: DO₂ = CO × CaO₂. During haemorrhage, cardiac output may fall immediately from reduced venous return, even while haemoglobin concentration initially remains near its starting value. Normal early Hb does not imply normal oxygen delivery.</details>
 
 **03. Why does severe tachycardia sometimes worsen haemorrhagic shock?**
 
-<details><summary>Show explanation</summary>It shortens diastole and may reduce ventricular filling, further lowering stroke volume when preload is already limited.</details>
+<details><summary>Show explanation</summary>A compensatory faster heartbeat initially supports output, but extreme tachycardia shortens diastole, the period for ventricular filling. If blood volume and venous return are already low, each beat may start with less blood, decreasing stroke volume enough to offset the increased rate.</details>
 
 **04. Why is vasoconstriction initially adaptive in haemorrhage?**
 
@@ -76,11 +76,11 @@ The lecture includes concealed internal bleeding after femoral fracture, splenic
 
 **08. Why may Hb and haematocrit be nearly unchanged immediately after acute whole-blood loss?**
 
-<details><summary>Show explanation</summary>Red cells and plasma are removed together, so their relative proportion and Hb concentration may initially be preserved.</details>
+<details><summary>Show explanation</summary>Immediately after an acute whole-blood haemorrhage, both red cells and plasma are lost, so the concentration of haemoglobin and haematocrit may initially change little despite a substantial reduction in total circulating red-cell mass. Later interstitial fluid shifts or intravenous fluids dilute the remaining blood.</details>
 
 **09. Why does measured Hb often fall later after bleeding?**
 
-<details><summary>Show explanation</summary>Interstitial fluid recruitment and administered fluids expand plasma relative to remaining red cells, causing dilution.</details>
+<details><summary>Show explanation</summary>Over time, fluid moves from the interstitium into the vascular space, and administered crystalloid may add further plasma volume. Because the lost red cells have not yet been replaced, haemoglobin concentration and haematocrit commonly fall after this haemodilution.</details>
 
 **10. Why can lactate rise in shock, and why is it not fully specific?**
 
