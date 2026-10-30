@@ -29,13 +29,13 @@ Later, ventricular force and pressure decline. When aortic and pulmonary arteria
 
 The important pressure logic is: **S1 follows reversal of the atrial-to-ventricular pressure gradient; S2 follows reversal of the ventricular-to-arterial pressure gradient.** Closure generates audible vibrations; a valve does not make a sound simply because it is open.
 
-Representative illustrative durations of approximately **0.15 s for S1** and **0.12 s for S2**. Sound duration and intensity can vary.
+Illustrative sound durations are approximately **0.15 s for S1** and **0.12 s for S2**, but duration and intensity vary.
 
 ## 3. Why does S2 sometimes split with inspiration?
 
 S2 has two components: **A2** (aortic valve closure) and **P2** (pulmonary valve closure). Usually **A2 precedes P2** by a short interval.
 
-During inspiration, more negative intrathoracic pressure promotes **systemic venous return to the right heart**. Right ventricular filling rises, and right ventricular ejection may last slightly longer. This delays **P2 relative to A2**, making the two components more clearly separated. Respiratory changes in pulmonary venous return and left ventricular timing can contribute as well.
+During inspiration, more negative intrathoracic pressure promotes **systemic venous return to the right heart**. Right ventricular filling rises, and right ventricular ejection may last slightly longer. Because the right ventricle takes slightly longer to finish ejecting, **P2 occurs later relative to A2**. The gap between the two closing sounds widens, so a single-sounding S2 may become audibly split. Respiratory changes in pulmonary venous return and left ventricular timing can contribute as well.
 
 <div class="sound-split" role="group" aria-label="Aortic and pulmonary valve closure timing"><div><strong>Expiration</strong><span>A2 <b>·</b> P2</span><small>Short separation; may sound single</small></div><div><strong>Inspiration</strong><span>A2 <b>····</b> P2</span><small>Longer separation: physiological splitting</small></div></div>
 
@@ -82,7 +82,7 @@ Examples of conditions that change the flow include:
 - **Regurgitation (incompetence):** A valve fails to close properly and allows blood to leak *backward*.
 - **High-flow states:** For example, anaemia can increase flow or reduce blood viscosity enough to produce a murmur despite structurally normal valves.
 
-To predict when a murmur occurs, first identify **the direction of abnormal flow** and **whether that flow happens during ventricular systole or diastole**.
+To predict murmur timing, ask three questions: **(1)** Is the ventricle contracting (systole) or filling (diastole)? **(2)** Should the affected valve normally be open or closed then? **(3)** Is blood being forced through a narrowed opening or leaking backward through a valve that should be shut? The answers explain the timing without memorising four disconnected lists.
 
 ## 7. Predict a murmur's timing without memorising a list
 
@@ -188,9 +188,9 @@ The common mechanism is **flow-induced vibration**, but its timing depends on th
 
 <details><summary>Reveal explanation</summary><p>Aortic valve opening occurs only when left ventricular pressure exceeds aortic pressure. If aortic diastolic pressure rises and the rate of ventricular pressure development stays similar, it takes longer to reach the opening threshold, so isovolumetric contraction may lengthen. Changes in contractility can modify this response.</p></details>
 
-**Supplementary 2. Why can a patient with a stiff ventricle produce S4 but not a normal atrial fibrillation rhythm?**
+**Supplementary 2. Why can't a loud A2 alone tell you how severe aortic valve disease is?**
 
-<details><summary>Reveal explanation</summary><p>An S4 is generated during late diastole when atrial contraction pushes blood into a relatively stiff ventricle. Atrial fibrillation eliminates organised atrial contraction, so the usual mechanism of S4 is absent even when the ventricle remains stiff. An S3, by contrast, occurs during early rapid filling.</p></details>
+<details><summary>Reveal explanation</summary><p>A2 intensity depends on the pressure difference, how freely the valve moves and how vibrations reach the chest wall. Higher aortic pressure may accentuate A2, but a severely immobile valve may produce a soft sound. **Loudness alone does not measure lesion severity**; other findings and investigations are needed.</p></details>
 
 ## Chapter Essentials
 
