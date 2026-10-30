@@ -8,6 +8,9 @@
 The right ventricle delivers approximately the same minute output as the left ventricle, but the pulmonary circuit normally has **far lower vascular resistance and pressure**. Its thin vessels and capillaries permit gas exchange without excessive filtration. The **bronchial circulation** from systemic arteries supplies supporting lung tissues in addition to the low-pressure pulmonary circulation.
 
 ## Gravity and distribution
+
+<figure class="learning-figure"><figcaption>How upright lung perfusion changes from apex to base</figcaption><svg viewBox="0 0 630 240" role="img" aria-label="Upright lung outline with apex less perfused than base and conceptual zone 2 and zone 3 relationships, with zone 1 being a possible not normal resting zone"><path d="M205 25C135 35 85 96 91 168C95 202 151 212 230 214V68Z" fill="#e1f2fb" stroke="#5e93ad" stroke-width="3"/><path d="M256 68V214C336 212 392 202 396 168C403 96 352 35 281 25Z" fill="#e1f2fb" stroke="#5e93ad" stroke-width="3"/><g stroke="#7d9cae" stroke-width="2" stroke-dasharray="6 5"><path d="M83 100h320M83 159h320"/></g><g fill="#273d5c" font-size="14"><text x="423" y="65">Apex: less perfusion</text><text x="423" y="119">Zone 2 pattern</text><text x="423" y="179">Zone 3 pattern</text><text x="423" y="216">Base: greater perfusion</text></g><g fill="#28679e"><path d="M120 50v116m-7 -12 7 12 7 -12"/></g></svg><p>Illustrative upright distribution: blood flow generally increases toward dependent bases. Zone 1 (alveolar pressure exceeding arterial pressure) may develop at the apex in low-pressure or positive-pressure ventilation states, but is generally absent in healthy resting lungs. Zone positions shift with conditions.</p></figure>
+
 In an upright person, gravity changes hydrostatic pressures across lung regions. Regional blood flow varies from apex to base as vascular pressures, alveolar pressure and recruitment/distension vary; this is often conceptualized with **West lung zones**.
 
 <figure class="learning-figure"><figcaption>Figure. Functional West zones of upright lung perfusion</figcaption><svg viewBox="0 0 640 176" role="img" aria-label="Three functional pressure regimes: zone one alveolar pressure exceeds arterial; zone two arterial exceeds alveolar exceeds venous; zone three arterial and venous exceed alveolar"><g text-anchor="middle" fill="#23384f"><rect x="8" y="22" width="195" height="125" rx="12" fill="#fff0e2" stroke="#d99c51"/><rect x="222" y="22" width="195" height="125" rx="12" fill="#edf2ff" stroke="#718dc9"/><rect x="436" y="22" width="195" height="125" rx="12" fill="#e5f4eb" stroke="#65a48d"/><g font-size="18" font-weight="bold"><text x="105" y="50">Zone 1</text><text x="319" y="50">Zone 2</text><text x="533" y="50">Zone 3</text></g><g font-size="17"><text x="105" y="83">PA &gt; Pa &gt; Pv</text><text x="319" y="83">Pa &gt; PA &gt; Pv</text><text x="533" y="83">Pa &gt; Pv &gt; PA</text></g><g font-size="13"><text x="105" y="113">Flow absent / minimal</text><text x="319" y="113">Waterfall flow</text><text x="533" y="113">Continuous flow</text></g></g></svg><p>Original conceptual comparison. PA = alveolar pressure, Pa = pulmonary arterial pressure, Pv = pulmonary venous pressure. Actual zones vary with posture and physiological conditions; zone 1 is ordinarily absent or minimal in healthy resting lungs.</p></figure>
@@ -68,11 +71,11 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **02. Why can pulmonary flow increase without a large pressure rise?**
 
-<details><summary>Show explanation</summary>Pulmonary vessels recruit and distend, lowering effective resistance.</details>
+<details><summary>Show explanation</summary>As flow rises, previously less-perfused capillaries open (recruitment) and already open vessels widen (distension). These changes create more effective parallel pathways and limit the rise in pulmonary pressure needed to carry greater cardiac output.</details>
 
 **03. What does the bronchial arterial circulation supply?**
 
-<details><summary>Show explanation</summary>Conducting airways and supporting lung tissues receive systemic arterial perfusion.</details>
+<details><summary>Show explanation</summary>The bronchial arteries arise from systemic circulation and nourish airways and supporting tissues. Pulmonary arteries, in contrast, carry the major blood supply for alveolar gas exchange; a portion of bronchial venous blood reaches pulmonary veins.</details>
 
 **04. Why does gravity change regional pulmonary flow?**
 
@@ -92,11 +95,11 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **08. Why does low alveolar oxygen constrict pulmonary arterioles?**
 
-<details><summary>Show explanation</summary>It redirects blood from poorly ventilated units to better ventilated regions.</details>
+<details><summary>Show explanation</summary>Low oxygen in an alveolus triggers constriction of nearby small pulmonary arteries. Less blood then reaches the poorly ventilated region, helping match perfusion to the alveoli where oxygen transfer is more effective.</details>
 
 **09. Why can widespread hypoxia cause pulmonary hypertension?**
 
-<details><summary>Show explanation</summary>Widespread vasoconstriction increases overall pulmonary vascular resistance.</details>
+<details><summary>Show explanation</summary>If most alveoli are hypoxic, many pulmonary resistance vessels constrict at once. Rather than simply redistributing flow, this raises total pulmonary vascular resistance and pressure, increasing the workload on the right ventricle.</details>
 
 **10. How is pulmonary oedema limited under ordinary conditions?**
 
@@ -104,7 +107,7 @@ Left ventricular dysfunction can raise left atrial and pulmonary venous pressure
 
 **11. Why can left-heart failure cause pulmonary oedema?**
 
-<details><summary>Show explanation</summary>High pulmonary venous pressure increases filtration and may exceed fluid clearance.</details>
+<details><summary>Show explanation</summary>Left-heart failure can raise left atrial and pulmonary venous pressure, increasing pulmonary capillary hydrostatic pressure. Excess filtration first accumulates in interstitial tissue; if clearance is overwhelmed it can enter alveoli and impair gas exchange.</details>
 
 **12. Why might lying flat worsen orthopnoea?**
 

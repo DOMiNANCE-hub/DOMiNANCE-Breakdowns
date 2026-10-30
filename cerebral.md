@@ -1,7 +1,5 @@
 # Cerebral Circulation, CSF and the Blood–Brain Barrier
 
-**Lecture source:** Regional Circulation Proper, pages 2–25. This chapter explains the cerebral blood supply, control of blood flow, intracranial pressure, meninges, CSF circulation and barriers. It includes supplementary clinical reasoning.
-
 ## 1. Why is circulation to the brain different?
 
 Neurons need a near-continuous supply of **oxygen and glucose** because their energy stores are limited. Cerebral blood flow must therefore be maintained despite changes in posture, arterial pressure and local neuronal activity. Yet the brain sits inside a rigid skull: swelling or bleeding can raise intracranial pressure and interfere with blood supply.
@@ -37,6 +35,9 @@ These are **general patterns, not rigid borders**. Collaterals and individual ar
 **Reason through an occlusion:** A left MCA blockage might damage the lateral motor cortex, affecting the right face and arm. If the language-dominant hemisphere is left-sided, speech or language deficits may accompany weakness. The symptoms depend on the tissue actually deprived of blood.
 
 ## 3. How does the brain keep its blood flow stable?
+
+<figure class="learning-figure"><figcaption>Pressure autoregulation — conceptual blood-flow curve</figcaption><svg role="img" viewBox="0 0 620 235" aria-label="Cerebral blood flow rises at low pressure, changes relatively little across an autoregulated range, then rises again at high pressure; exact limits vary"><g stroke="#62758d" stroke-width="2" fill="none"><path d="M65 20v180h510"/></g><path d="M75 187Q125 178 170 100Q230 83 335 85Q415 87 455 79Q500 65 565 24" stroke="#2468c5" stroke-width="5" fill="none" stroke-linecap="round"/><g font-size="14" fill="#263d61"><text x="18" y="19">CBF</text><text x="360" y="222">Cerebral perfusion pressure →</text><text x="95" y="153">Low pressure</text><text x="230" y="67">Buffered flow</text><text x="462" y="116">High pressure</text></g><g stroke="#a7aeb8" stroke-dasharray="5 5"><path d="M190 45v152M448 45v152"/></g></svg><p>As driving pressure changes, cerebral arterioles adjust resistance to buffer cerebral blood flow. The apparent plateau is approximate, not perfectly flat; its boundaries vary and can shift with disease or chronic hypertension.</p></figure>
+
 
 ### Pressure autoregulation
 

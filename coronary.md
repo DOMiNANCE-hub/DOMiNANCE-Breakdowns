@@ -1,7 +1,5 @@
 # Coronary Circulation
 
-**Primary lecture:** Regional Circulation Proper, pages 26–29. This breakdown explains coronary vessel routes, the timing of myocardial perfusion, oxygen supply–demand matching and the consequences of restricted flow.
-
 ## 1. Why does the heart need a separate blood supply?
 
 Blood inside the chambers does not adequately nourish the thick ventricular myocardium. **Right and left coronary arteries** arise from the **aortic sinuses**, just above the aortic valve, and supply oxygen and nutrients to cardiac muscle.
@@ -29,6 +27,9 @@ The **left main coronary artery** usually divides into the **left anterior desce
 Most venous drainage passes through **cardiac veins → coronary sinus → right atrium**. Some anterior cardiac veins and smallest cardiac veins drain directly into heart chambers.
 
 ## 3. Why is left ventricular coronary perfusion greatest during diastole?
+
+<figure class="learning-figure"><figcaption>Left coronary blood flow through one cardiac cycle — qualitative waveform</figcaption><svg viewBox="0 0 650 235" role="img" aria-label="Illustrative left coronary flow falls during early systolic contraction, remains relatively low in systole and rises sharply in early diastole before gradually declining"><g fill="none" stroke="#667b93" stroke-width="2"><path d="M62 24v172h560"/></g><rect x="88" y="28" width="240" height="164" fill="#fff0e6"/><rect x="328" y="28" width="275" height="164" fill="#e9f5ff"/><path d="M88 88C112 93 117 159 150 162S255 133 328 143C347 145 351 32 380 39C432 38 472 75 509 94S571 109 603 121" stroke="#1d72c8" stroke-width="5" fill="none"/><g fill="#293d58" font-size="14"><text x="140" y="47">Systole</text><text x="427" y="47">Diastole</text><text x="13" y="19">Flow</text><text x="257" y="220">Time →</text><text x="72" y="211">S1</text><text x="315" y="211">S2</text></g></svg><p>Conceptual shape, not measured patient data: left-ventricular compression restricts flow during systole; relaxation allows a marked early-diastolic increase. Right coronary flow may be less strongly diastolic.</p></figure>
+
 
 A vessel's flow depends on **driving pressure and resistance**. During **left ventricular systole**, strong myocardial contraction compresses vessels inside the muscular wall, especially near the endocardium. This limits forward flow and can transiently reverse flow in some intramural vessels.
 
@@ -99,7 +100,7 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **05. What is a useful approximation of left coronary driving pressure?**
 
-<details><summary>Show explanation</summary>Aortic diastolic pressure minus left ventricular diastolic pressure.</details>
+<details><summary>Show explanation</summary>Aortic diastolic pressure minus left ventricular diastolic pressure is a useful approximation: higher aortic driving pressure supports perfusion, while elevated ventricular filling pressure reduces the pressure gradient. Actual flow also depends on vascular resistance and contraction.</details>
 
 **06. Why can tachycardia produce an oxygen supply-demand mismatch?**
 
@@ -111,11 +112,11 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **08. What is coronary active hyperaemia?**
 
-<details><summary>Show explanation</summary>A rise in coronary blood flow to match increased myocardial metabolic work.</details>
+<details><summary>Show explanation</summary>Active hyperaemia is the increase in flow when the heart works harder. Coronary resistance vessels dilate in response to metabolic and endothelial signals, supplying more oxygen when resting oxygen extraction is already high.</details>
 
 **09. How can adenosine affect coronary resistance?**
 
-<details><summary>Show explanation</summary>It acts as a local metabolic vasodilator and can lower microvascular resistance.</details>
+<details><summary>Show explanation</summary>Adenosine is one of several local vasodilator signals linked to increased metabolic activity. By helping relax coronary resistance vessels, it can increase blood supply; it is not the only mechanism controlling flow.</details>
 
 **10. Why does a fixed stenosis cause exertional angina before resting symptoms?**
 
@@ -123,11 +124,11 @@ A fast heart rate is not automatically ischaemic: healthy coronary vessels can u
 
 **11. What is the usual indirect effect of cardiac beta-1 stimulation on coronary flow?**
 
-<details><summary>Show explanation</summary>Higher myocardial work increases metabolic vasodilator signals and typically raises flow.</details>
+<details><summary>Show explanation</summary>Cardiac β₁ stimulation raises heart rate and contraction strength, which raises oxygen demand. Local metabolic vasodilatation normally increases coronary blood flow in response, even though direct sympathetic α-mediated constriction can also occur.</details>
 
 **12. How does infarction differ from reversible angina?**
 
-<details><summary>Show explanation</summary>Infarction entails myocardial cell injury and necrosis from sustained severe ischaemia.</details>
+<details><summary>Show explanation</summary>Angina indicates myocardial ischaemia and can be reversible if oxygen delivery is restored. Infarction means prolonged severe ischaemia has caused cardiac muscle injury and cell death; pain alone cannot reliably distinguish them.</details>
 
 ## Chapter Essentials
 
