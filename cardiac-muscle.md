@@ -1,7 +1,5 @@
 # Cardiac Muscle Physiology
 
-**Lecture:** CIRCULATION 1(4).pdf — slides 4, 18 and 20. **Essential supplementary physiology:** cellular structure, action potentials, calcium handling and sympathetic effects.
-
 ## 1. What makes cardiac muscle different?
 
 The heart must contract repeatedly throughout life, generating enough force to circulate blood while allowing sufficient time for its chambers to refill between beats. Its cells must respond to electrical stimulation, communicate with neighbouring cells and relax effectively after each contraction.

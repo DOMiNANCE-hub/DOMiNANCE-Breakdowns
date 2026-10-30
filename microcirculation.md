@@ -1,7 +1,5 @@
 # Microcirculation and Capillary Exchange
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 57–60 and 84–89. **Supplementary clarification:** capillary structural types and the revised glycocalyx-based Starling principle.
-
 ## 1. Why is the microcirculation necessary?
 
 The heart delivers blood to organs, but **cells do not receive oxygen directly from the aorta**. Oxygen and nutrients must cross the tiny exchange vessels close to each tissue cell.
@@ -12,7 +10,7 @@ The **microcirculation** includes small arterioles, metarterioles or transitiona
 
 **Why are capillaries suitable?** Their thin walls and the very large combined capillary surface area bring flowing blood close to cells. Blood moves relatively slowly because the total cross-sectional area of parallel capillaries is large.
 
-The lecturer notes that capillaries contain only a **small fraction of total blood volume, around 5% in its example**, despite their importance for tissue exchange.
+An important point is that capillaries contain only a **small fraction of total blood volume, around 5% in a representative estimate**, despite their importance for tissue exchange.
 
 ## 2. What is a capillary wall made of?
 
@@ -28,7 +26,7 @@ A typical capillary is lined by **one layer of endothelial cells** supported by 
 | **Fenestrated** | Endothelial pores/fenestrae | Intestinal villi, endocrine organs, renal glomeruli | Rapid exchange of water and small solutes |
 | **Discontinuous / sinusoidal** | Wider gaps and discontinuities | Liver, spleen, bone marrow | Exchange of larger materials, specialised by tissue |
 
-**A note on the lecturer's units:** Slide 58 prints measurements for gaps/fenestrations in **“mm”**. These openings are microscopic, often measured in **nanometres**, not millimetres. Treat the printed units as erroneous, while keeping the structural distinction the slide intended.
+**A note on units:** Capillary gaps and fenestrations are microscopic. These openings are microscopic, often measured in **nanometres**, not millimetres. Treat the printed units as erroneous, while keeping the structural distinction the slide intended.
 
 **Why do fenestrations help?** A porous endothelium provides lower resistance to selected water-soluble materials crossing the vessel. But renal filtration still depends on additional specialised layers, including the glomerular basement membrane and podocyte filtration slits; pores alone do not determine the whole barrier.
 
@@ -53,11 +51,11 @@ The short diffusion distance and extensive capillary surface area enable exchang
 
 Tissues require more delivery when they become active. Local metabolic changes can dilate resistance vessels and increase the number of well-perfused microvascular pathways.
 
-The lecturer describes **metarterioles and precapillary sphincters**. Such structures are useful classical teaching concepts but vary across vascular beds; not every capillary has an identical anatomical sphincter.
+Classical descriptions include **metarterioles and precapillary sphincters**. Such structures are useful classical teaching concepts but vary across vascular beds; not every capillary has an identical anatomical sphincter.
 
 **Applied example:** During exercise, active skeletal muscle produces metabolites that promote local dilation. More blood is delivered into exchange networks where oxygen demand is high.
 
-The lecturer notes that capillary pressure may be estimated from the external force required to occlude a capillary. It is a **method-dependent estimate**, not a direct measure of all capillary pressures everywhere.
+An important point is that capillary pressure may be estimated from the external force required to occlude a capillary. It is a **method-dependent estimate**, not a direct measure of all capillary pressures everywhere.
 
 ## 5. Why does fluid leave capillaries even when protein stays in blood?
 
@@ -81,7 +79,7 @@ The classic balance uses four named quantities:
 
 ## 6. Classic Starling model versus revised understanding
 
-The lecturer's slides 85–88 teach hydrostatic and oncotic gradients and give an example of **24 litres filtered per day, 85% reabsorbed into capillaries and 15% returned by lymph**. This is the **classic textbook model** and explains the intended arithmetic.
+The slides 85–88 teach hydrostatic and oncotic gradients and give an example of **24 litres filtered per day, 85% reabsorbed into capillaries and 15% returned by lymph**. This is the **classic textbook model** and explains the intended arithmetic.
 
 **Modern physiological clarification:** The **endothelial glycocalyx** is a protein-rich surface layer that affects effective filtration and protein gradients immediately beneath it. In many continuous capillary beds, a low level of **net filtration persists during steady state**, including towards the venous end. Much of the filtered fluid is returned through **lymphatics**, rather than assuming a universal large sustained venous-end reabsorption.
 

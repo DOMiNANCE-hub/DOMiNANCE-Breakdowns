@@ -1,7 +1,5 @@
 # Electrocardiography and Basic Rhythms
 
-**Primary lecture:** Lecture 7 ECG 2.pdf, slides 1–14. **Supplementary foundations:** vector reasoning, accurate lead positions, basic rhythm assessment and AV block recognition.
-
 ## 1. What does an ECG actually record?
 
 Every heartbeat is preceded by cardiac **electrical activation**. As myocardial cells depolarise and repolarise, electrical potential differences are produced and conducted through body tissues. Electrodes on the skin detect these differences. The **<span data-term="ecg">electrocardiogram (ECG, or EKG)</span>** is a recording of this electrical activity over time.
@@ -50,7 +48,7 @@ The **right-leg (RL)** electrode mainly helps suppress electrical interference; 
 | **II** | Right arm (RA) | Left leg (LL) |
 | **III** | Left arm (LA) | Left leg (LL) |
 
-These directions form **Einthoven's triangle** (lecturer slide 3). Their simultaneous voltages obey **Einthoven's law**:
+These directions form **Einthoven's triangle**. Their simultaneous voltages obey **Einthoven's law**:
 
 <div class="equation-block"><span class="equation-label">Einthoven's law</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mi>II</mi></msub><mo>=</mo><msub><mi>V</mi><mi>I</mi></msub><mo>+</mo><msub><mi>V</mi><mi>III</mi></msub></math></div>
 
@@ -63,7 +61,7 @@ For instance, if Lead I measures +0.5 mV and Lead III measures +0.3 mV at the sa
 
 ### The augmented limb leads
 
-**aVR** views towards the right arm, **aVL** towards the left arm and **aVF** towards the left leg/foot (lecturer slide 4). Each uses one positive limb electrode and a reference derived from the other limb electrodes. The normal mean ventricular depolarisation vector usually moves away from aVR, so its QRS complex is commonly predominantly negative.
+**aVR** views towards the right arm, **aVL** towards the left arm and **aVF** towards the left leg/foot. Each uses one positive limb electrode and a reference derived from the other limb electrodes. The normal mean ventricular depolarisation vector usually moves away from aVR, so its QRS complex is commonly predominantly negative.
 
 ### The six chest leads
 
@@ -98,7 +96,7 @@ The ECG tracing is made up of **waves**, **segments** and **intervals**. These w
 
 ### P wave — Atrial depolarisation
 
-The SA node initiates an impulse, which spreads through atrial myocardium. The **P wave represents atrial myocardial depolarisation**, not merely the firing of the tiny SA node. Atrial contraction follows. The lecturer gives an illustrative normal P-wave duration of **0.08–0.10 seconds**.
+The SA node initiates an impulse, which spreads through atrial myocardium. The **P wave represents atrial myocardial depolarisation**, not merely the firing of the tiny SA node. Atrial contraction follows. Representative an illustrative normal P-wave duration of **0.08–0.10 seconds**.
 
 ### PR interval — Time from atrial to ventricular depolarisation
 
@@ -130,7 +128,7 @@ A small **U wave** may follow the T wave. The lecture calls it the final remnant
 
 ### QT interval — Ventricular activation through recovery
 
-The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. The lecturer gives an illustrative range of **0.2–0.4 seconds**, noting that QT varies with heart rate. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
+The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. Representative an illustrative range of **0.2–0.4 seconds**, noting that QT varies with heart rate. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
 
 **Supplementary: heart-rate correction.** Bazett's formula is a commonly taught approximation, although it is less reliable at unusually low or high heart rates.
 

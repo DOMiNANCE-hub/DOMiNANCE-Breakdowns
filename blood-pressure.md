@@ -1,7 +1,5 @@
 # Arterial Blood Pressure
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 76–83. **Supplementary clarification:** pressure–flow relationships, posture-related hydrostatic calculations, measurement technique and cuff-related errors.
-
 ## 1. What exactly is arterial blood pressure?
 
 **Arterial blood pressure** is the lateral pressure exerted by circulating blood against the arterial walls. It changes throughout each heartbeat because the left ventricle ejects blood intermittently.
@@ -21,7 +19,7 @@ A reading such as **120/70 mmHg** means systolic pressure is 120 mmHg and diasto
 
 At first glance, this seems puzzling. During diastole the aortic valve is closed, so no new blood is being ejected into the aorta. Yet blood still moves through the systemic arteries.
 
-The explanation is the **Windkessel effect** (the lecturer's term):
+This is the **Windkessel effect**:
 
 1. In **systole**, the ventricle ejects blood into the aorta. Elastic arterial walls **stretch** and temporarily store part of the pressure energy.
 2. In **diastole**, those walls **recoil**, releasing stored energy as blood continues flowing downstream, even with the aortic valve closed.
@@ -59,7 +57,7 @@ Pulse pressure is influenced by **stroke volume and arterial compliance**, among
 
 **Mean arterial pressure (MAP)** is the **average arterial pressure over an entire cardiac cycle**. At usual resting heart rates, the heart typically spends more time in diastole than systole. The mean pressure therefore lies closer to the diastolic value than to the arithmetic midpoint.
 
-The lecturer's approximation is:
+The approximation is:
 
 <div class="equation-block"><span class="equation-label">Approximate mean arterial pressure</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MAP</mi><mo>≈</mo><mi>DBP</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>SBP</mi><mo>−</mo><mi>DBP</mi><mo>)</mo></math><span class="equation-example">At ordinary resting heart rates: MAP ≈ DBP + ⅓ pulse pressure.</span></div>
 
@@ -148,7 +146,7 @@ The original lecture explains the importance of larger cuff sizes for larger arm
 
 The mean pressure does not remain constant from the aorta to the venae cavae. Some pressure energy is lost as blood flows against resistance.
 
-The lecturer's final diagram (slide 83) shows the biggest mean pressure fall across the **arterioles**, consistent with their key role as resistance vessels.
+The final diagram (slide 83) shows the biggest mean pressure fall across the **arterioles**, consistent with their key role as resistance vessels.
 
 <div class="bp-drop-strip" role="group" aria-label="Main locations of systemic pressure decrease"><span><strong>Aorta / arteries</strong><small>High pressure · strong pulses</small></span><b>→</b><span><strong>Arterioles</strong><small>Large pressure drop</small></span><b>→</b><span><strong>Capillaries / veins</strong><small>Lower pressure · damped pulses</small></span></div>
 

@@ -1,14 +1,12 @@
 # Neural and Hormonal Regulation
 
-**Primary lecture:** CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 12–30. **Supplementary clarification:** mechanism-level physiology and clinical distinctions are labelled where they extend beyond introductory lecture diagrams.
-
 ## 1. Why does the whole body need cardiovascular regulation?
 
 Local control adapts individual organs; central regulation coordinates the circulation to defend arterial pressure and distribute flow when demand or volume changes. **MAP − right atrial pressure ≈ CO × SVR**, and **CO = HR × SV**. These are interconnected: changing venous tone can alter preload and stroke volume, while arteriolar tone changes afterload. A higher heart rate is therefore not proof of a higher output.
 
 ## 2. The medullary control network
 
-The cardiovascular centres are functional networks, not a single on/off switch. Sensory information reaches the **nucleus tractus solitarius (NTS)**. The **rostral ventrolateral medulla (RVLM)** provides a major tonic sympathoexcitatory output; the **caudal ventrolateral medulla (CVLM)** contributes inhibitory relay activity. Cardiac vagal output involves nucleus ambiguus and dorsal motor nucleus of vagus. The lecturer's *pressor* and *depressor* regions describe the net effects of stimulating these networks. Increased sympathetic vasomotor firing narrows many arterioles; reducing its tonic activity permits dilation.
+The cardiovascular centres are functional networks, not a single on/off switch. Sensory information reaches the **nucleus tractus solitarius (NTS)**. The **rostral ventrolateral medulla (RVLM)** provides a major tonic sympathoexcitatory output; the **caudal ventrolateral medulla (CVLM)** contributes inhibitory relay activity. Cardiac vagal output involves nucleus ambiguus and dorsal motor nucleus of vagus. The *pressor* and *depressor* regions describe the net effects of stimulating these networks. Increased sympathetic vasomotor firing narrows many arterioles; reducing its tonic activity permits dilation.
 
 ## 3. Sympathetic effects on the heart, arterioles and veins
 
@@ -34,7 +32,7 @@ Fast **neural** adjustments may appear within seconds; circulating catecholamine
 
 An individual on a β₁ blocker may have a reduced tachycardic response despite blood loss, while α-mediated vasoconstriction may still occur. An individual taking an α₁ blocker may develop postural symptoms because peripheral vasoconstriction is impaired. **Do not diagnose shock from blood pressure alone**; follow perfusion, mental state, urine output, capillary refill and the clinical context.
 
-## Lecturer-specific additions
+## Further physiological insights
 
 The lecture additionally names kinins (bradykinin), vasoactive intestinal polypeptide (VIP) and ANP as vasodilator influences. It describes specialised sympathetic cholinergic vasodilator pathways, although widespread human sympathetic vascular regulation is predominantly noradrenergic and constrictor. Cortical and hypothalamic signals, pain, lung inflation afferents, hypoxia and hypercapnia also modify medullary cardiovascular output.
 
@@ -103,4 +101,3 @@ The lecture additionally names kinins (bradykinin), vasoactive intestinal polype
 
 - Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 12–30 (verify specific slide alignment against the original lecture deck before release).
 - Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
-- Clinical thresholds and mechanistic clarifications are supplementary and should not be mistaken for verbatim lecture claims.

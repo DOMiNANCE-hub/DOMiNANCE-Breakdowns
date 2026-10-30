@@ -1,12 +1,10 @@
 # Blood Flow and Hemodynamics
 
-**Lecture:** CIRCULATION 1(4).pdf, slides 55–75. **Supplementary clarifications:** realistic blood rheology, network resistance, and correct microscopic dimensions.
-
 ## 1. What propels blood around the circulation?
 
 The heart supplies the energy that establishes a pressure gradient. Blood moves through **arteries → arterioles → capillaries → venules → veins → heart**.
 
-The lecturer also names **elastic recoil** of large arteries, the **skeletal-muscle pump** compressing veins and the **respiratory pump** using changing intrathoracic pressures. These assist blood flow at different points; they do not replace the heart as its main pressure source.
+Additional mechanisms include **elastic recoil** of large arteries, the **skeletal-muscle pump** compressing veins and the **respiratory pump** using changing intrathoracic pressures. These assist blood flow at different points; they do not replace the heart as its main pressure source.
 
 **Why does flow continue during ventricular diastole?** Large elastic arteries stretch during systole, storing energy; their recoil helps sustain pressure and forward flow between ejections. One-way valves in many veins help prevent backward flow during muscle compression.
 
@@ -33,7 +31,7 @@ The **effective perfusion pressure** is the difference between upstream and down
 
 **Why are veins called capacitance vessels?** Their high compliance lets them accommodate substantial extra blood with a comparatively modest rise in pressure. Noradrenergic venoconstriction can shift blood from venous reservoirs towards the heart.
 
-The lecturer briefly describes capillary sphincters, endothelial gaps and fenestrations. **Careful correction:** microscopic gaps and fenestrations are not *millimetres* wide as the slide's unit suggests. Not every capillary has its own sphincter; local control varies with tissue. These details receive fuller treatment in the microcirculation chapter.
+Key structures include capillary sphincters, endothelial gaps and fenestrations. **Careful correction:** microscopic gaps and fenestrations are not *millimetres* wide as the slide's unit suggests. Not every capillary has its own sphincter; local control varies with tissue. These details receive fuller treatment in the microcirculation chapter.
 
 **Lymphatic overview:** Lymph vessels collect excess interstitial fluid and proteins, have valves and often traverse lymph nodes before large lymphatic ducts return fluid near the subclavian–internal jugular venous junctions. Detailed lymphatic physiology follows in its dedicated chapter.
 
@@ -133,7 +131,7 @@ The lecture mentions a historical **arm-to-tongue circulation time around 15 sec
 
 Large veins are more compliant than arteries. Their volume can rise considerably before venous pressure rises by the same amount. This is why veins are called **capacitance vessels**, whereas arterioles are commonly described as **resistance vessels**.
 
-The lecturer gives an approximate distribution of blood volume on slide 75, with a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
+An approximate resting blood-volume distribution places a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
 
 **Why does venoconstriction help cardiac output?** When the venous system becomes less distensible, stored blood can be redirected towards the heart. This can increase venous return, end-diastolic volume and stroke volume through the Frank–Starling mechanism.
 

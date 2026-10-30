@@ -1,7 +1,5 @@
 # Local Control of Blood Flow
 
-**Primary lecture:** CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 1–11. **Supplementary clarification:** tissue-specific mediators, the distinction between autoregulation and hyperaemia, endothelial signalling and mathematically consistent Laplace relationships.
-
 ## 1. Why does a tissue need local control?
 
 The heart generates flow, but every organ must receive a supply matched to its moment-to-moment needs. During exercise, contracting muscles require more oxygen and nutrient delivery; meanwhile the brain needs fairly stable perfusion despite ordinary blood-pressure fluctuations. **Local blood-flow control** means a vascular bed adjusts the calibre of its own resistance vessels, especially small arteries and arterioles.
@@ -71,7 +69,7 @@ The **endothelium** is more than a passive lining. It senses shear stress and ch
 
 ## 6. Laplace's principle: pressure, radius, tension and stress
 
-The lecturer introduces Laplace's law near myogenic regulation. We must specify **which geometry** and **which quantity** a formula describes.
+One useful relationship is Laplace's law near myogenic regulation. It is important to specify **which geometry** and **which quantity** a formula describes.
 
 For an ideal **thin-walled cylindrical vessel**, circumferential *wall tension per unit axial length* is approximately **T = Ptm × r**, where Ptm is transmural pressure and r is internal radius. For average circumferential **wall stress**, **σθ ≈ Ptm × r / h**, with wall thickness h. For an ideal thin-walled *spherical* membrane, **T = Ptm × r / 2**. These idealizations are not interchangeable.
 
@@ -87,7 +85,7 @@ A fall in systemic pressure can trigger **baroreflex sympathetic vasoconstrictio
 
 **Clinical application:** If systemic shock drives perfusion pressure below the lower autoregulatory limit, local dilation cannot maintain normal cerebral or renal flow. This connects local autoregulation directly to shock and organ dysfunction.
 
-## Additional lecturer-specific concepts
+## More connections worth understanding
 
 The lecture lists rising temperature, low pH, increased carbon dioxide, potassium, lactate, cardiac ADP, bradykinin, substance P, histamine H2 signalling and ANP among local vasodilator-associated influences. Effects vary by tissue and receptor. It lists serotonin, cooling and angiotensin among constrictor influences. The two-curvature Laplace form P = T(1/R1 + 1/R2) is not mathematically equivalent to the slide's later expression P = T/(R1 + R2); that second expression must not be taught as a rearrangement.
 

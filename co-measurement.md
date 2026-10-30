@@ -1,7 +1,5 @@
 # Measuring Cardiac Output and the Work of the Heart
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 52–54. **Supplementary explanations:** sampling for Fick cardiac output, indicator/thermodilution methods and pressure–volume work diagrams. The lecturer's three slides introduce the principles rather than fully describing all measurement methods.
-
 ## 1. Why measure cardiac output instead of calculating it from heart rate alone?
 
 From Chapter 07, **cardiac output (CO) = heart rate × stroke volume**. If we know both factors, we can calculate output. But in clinical situations, **stroke volume often cannot be measured simply by counting a pulse**.

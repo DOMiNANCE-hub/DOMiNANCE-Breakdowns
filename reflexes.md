@@ -1,7 +1,5 @@
 # Cardiovascular Reflexes and the Cushing Response
 
-**Primary lecture:** CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 18–36. **Supplementary clarification:** mechanism-level physiology and clinical distinctions are labelled where they extend beyond introductory lecture diagrams.
-
 ## 1. What makes a cardiovascular reflex?
 
 A reflex involves a **stimulus**, receptor, afferent nerve, integration centre, autonomic efferent pathway and target response. Reflexes use negative feedback to stabilise arterial pressure or support filling. Understanding the direction of each link avoids memorising isolated arrows.
@@ -24,7 +22,7 @@ Peripheral chemoreceptors in **carotid and aortic bodies** sense decreased arter
 
 ## 6. Low-pressure receptors and the Bainbridge response
 
-Receptors in the atria and pulmonary vessels monitor central filling. The lecturer distinguishes **type A atrial receptor discharge around atrial contraction** and **type B discharge around filling**. Stretch at the atrial–venous junction can promote a **Bainbridge reflex** increase in heart rate, helping manage increased venous return. The outcome depends on concurrent baroreflex input; atrial filling does not invariably produce tachycardia. Atrial stretch can also promote ANP release and alter volume-related hormonal responses.
+Receptors in the atria and pulmonary vessels monitor central filling. Physiology distinguishes **type A atrial receptor discharge around atrial contraction** and **type B discharge around filling**. Stretch at the atrial–venous junction can promote a **Bainbridge reflex** increase in heart rate, helping manage increased venous return. The outcome depends on concurrent baroreflex input; atrial filling does not invariably produce tachycardia. Atrial stretch can also promote ANP release and alter volume-related hormonal responses.
 
 ## 7. Cushing response: threatened cerebral perfusion
 
@@ -34,7 +32,7 @@ Receptors in the atria and pulmonary vessels monitor central filling. The lectur
 
 **Ordinary blood loss** tends to cause baroreflex **tachycardia** and vasoconstriction. **Increased ICP** may create a Cushing sequence of sympathetic **hypertension** followed by **baroreflex bradycardia**. **Increased atrial filling** can stimulate a Bainbridge tendency toward tachycardia. Different primary stimuli can therefore yield different HR directions; always identify the initiating stimulus before predicting output.
 
-## Lecturer-specific additions
+## Further physiological insights
 
 Additional lecture inputs include cortical and hypothalamic influences, pulmonary inflation afferents, hypoxia, hypercapnia and pain. Brief painful stimuli may increase sympathetic pressure responses, while emotional or sustained-pain triggers can evoke vasovagal hypotension. Increased atrial filling can also suppress ADH and stimulate natriuretic peptide signalling.
 
@@ -103,4 +101,3 @@ Additional lecture inputs include cortical and hypothalamic influences, pulmonar
 
 - Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 18–36 (verify specific slide alignment against the original lecture deck before release).
 - Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
-- Clinical thresholds and mechanistic clarifications are supplementary and should not be mistaken for verbatim lecture claims.
