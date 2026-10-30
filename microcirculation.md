@@ -10,7 +10,7 @@ The **microcirculation** includes small arterioles, metarterioles or transitiona
 
 **Why are capillaries suitable?** Their thin walls and the very large combined capillary surface area bring flowing blood close to cells. Blood moves relatively slowly because the total cross-sectional area of parallel capillaries is large.
 
-An important point is that capillaries contain only a **small fraction of total blood volume, around 5% in its example**, despite their importance for tissue exchange.
+An important point is that capillaries contain only a **small fraction of total blood volume, around 5% in a representative estimate**, despite their importance for tissue exchange.
 
 ## 2. What is a capillary wall made of?
 
