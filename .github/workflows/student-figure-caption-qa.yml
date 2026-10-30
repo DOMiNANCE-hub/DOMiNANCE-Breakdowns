@@ -1,0 +1,251 @@
+name: Student figure credits QA
+on:
+  push:
+    branches: [student-figure-caption-cleanup]
+  workflow_dispatch:
+concurrency:
+  group: student-figure-caption-cleanup
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh branch to latest remote state
+        run: |
+          git fetch origin student-figure-caption-cleanup
+          git reset --hard origin/student-figure-caption-cleanup
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'mistune==3.2.0'
+      - name: Build canonical content
+        run: python build.py
+      - name: Verify content checks and navigation
+        run: |
+          python - <<'PY'
+          import json,re,pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'content.js').read_text().removeprefix('window.DOMINANCE_TOPICS = ').removesuffix(';\n'))
+          assert len(data)==27
+          for t in data:
+              assert t['html'].count('<details>')==12,t['slug']
+              assert t['html'].count('</details>')==t['html'].count('<details>'),t['slug']
+              assert 'Chapter Essentials' in t['html'],t['slug']
+              for s in t['sections']:
+                  assert 'id="'+s['id']+'"' in t['html'],(t['slug'],s['id'])
+          chapters={t['slug']:t['html'] for t in data}
+          for topic, expected in {
+            'hemodynamics':['Reynolds number','Hagen–Poiseuille','Pressure, flow and resistance'],
+            'blood-pressure':['Approximate mean arterial pressure','Pulse pressure','Hydrostatic pressure change'],
+            'cardiac-output':['Cardiac index','5.25 L/min'],
+            'venous-return':['Venous-return relation','Vascular compliance'],
+            'co-measurement':['V̇O₂','CₐO₂','CᵥO₂']
+          }.items():
+              for phrase in expected:
+                  assert phrase in chapters[topic],(topic,phrase)
+          for topic in ['hemodynamics','blood-pressure','cardiac-output']:
+              assert 'The lecturer' not in chapters[topic],topic
+          print('PASS academic equation labels and examples')
+          for slug in ['heart-failure','pulmonary','reflexes','shock','gravity','coronary','skin','fetal']:
+              assert chapters[slug].count('<details>') == 12,slug
+          print('PASS audited clinical mechanism chapters')
+          checked=0
+          for topic in data:
+              page=topic['html']
+              checked+=page.count('class="figure-attribution"')
+              assert page.count('class="figure-attribution"')==page.count('<summary>Image credit</summary>'),topic['slug']
+          assert checked>=26,checked
+          assert 'The three internodal pathways shown' not in chapters['cardiac-conduction']
+          assert 'not necessarily three separately insulated bundles' in chapters['cardiac-conduction'] or 'not separate insulated' in chapters['cardiac-conduction']
+          print('PASS 26 accessible figure credits and retained conduction teaching')
+          print('PASS all 27 chapters; 324 answers and section anchors')
+          PY
+      - name: JavaScript syntax checks
+        run: |
+          python audit_quality.py
+          node --check image-viewer.js
+          node --check reader.js
+          node --check app.js
+          node --check content.js
+          node --check media.js
+          node --check glossary.js
+          node --check figures.js
+      - name: Install browser test runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Responsive browser smoke tests
+        run: |
+          python -m http.server 8000 >/tmp/server.log 2>&1 &
+          node - <<'JS'
+          const {chromium}=require('playwright');
+          (async()=>{
+            const browser=await chromium.launch({headless:true});
+            for(const width of [320,360,390,768,1280]){
+              const page=await browser.newPage({viewport:{width,height:800}});
+              const errors=[];page.on('pageerror',e=>errors.push(e.message));
+              await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
+              await page.waitForTimeout(500);
+              const size=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,viewport:innerWidth}));
+              if(size.scroll>size.viewport+2)throw Error('horizontal overflow at '+width+': '+JSON.stringify(size));
+              if(errors.length)throw Error('page errors at '+width+': '+errors.join('; '));
+              if(width<=390){
+                for(const slug of ['cardiac-cycle','blood-pressure','cardiac-output','hemodynamics']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  const rows=await page.evaluate(()=>[...document.querySelectorAll('.equation-block')].map(el=>{
+                    const f=el.querySelector('.equation-formula');
+                    const box=el.getBoundingClientRect(),fr=f?.getBoundingClientRect();
+                    return {text:f?.textContent||'',width:box.width,formulaHeight:fr?.height||0,formulaWidth:fr?.width||0,boxRight:box.right,hasMath:!!el.querySelector('math')};
+                  }));
+                  if(!rows.length||rows.some(x=>!x.text||x.hasMath||x.boxRight>width+2||x.formulaHeight>100))
+                    throw Error('bad formula rendering '+slug+' @'+width+': '+JSON.stringify(rows));
+                  if(slug==='cardiac-cycle'&&!rows.some(x=>x.text.includes('SV = EDV − ESV')))
+                    throw Error('stroke volume equation lost');
+                  if(slug==='cardiac-cycle'&&!rows.some(x=>x.text.includes('EF = (SV) / (EDV) × 100')))
+                    throw Error('ejection fraction equation lost');
+                }
+                console.log('PASS mobile equation rendering '+width+'px');
+                await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
+              }
+              if(width===320){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/co-measurement',{waitUntil:'load'});
+                const fick=await page.locator('.equation-formula').allTextContents();
+                if(!fick.some(x=>x.includes('V̇O₂ = CO × (CₐO₂ − CᵥO₂)')))throw Error('Fick oxygen balance formula missing: '+fick.join(' | '));
+                if(!fick.some(x=>x.includes('CO = V̇O₂ / (CₐO₂ − CᵥO₂)')))throw Error('Fick output formula missing');
+                const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+                if(overflow>2)throw Error('Fick formula overflow at 320 px: '+overflow);
+                await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
+              }
+              const catalog=await page.evaluate(()=>window.DOMINANCE_TOPICS?.length);
+              if(catalog!==27)throw Error('catalog absent at '+width);
+              if(width===390){
+                for(const slug of ['cv-introduction','cardiac-cycle','blood-pressure','cerebral','fetal']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  await page.waitForTimeout(130);
+                  if(await page.locator('.article-text').count()!==1)throw Error('topic route failed: '+slug);
+                  const buttons=await page.locator('details').count();
+                  if(buttons<5)throw Error('missing reveal panels: '+slug);
+                  await page.locator('details summary').first().click();
+                  if(!(await page.locator('details').first().evaluate(e=>e.open)))throw Error('answer toggle failed: '+slug);
+                  if(await page.locator('#sections-select option').count()<2)throw Error('mobile section selector missing: '+slug);
+                  await page.locator('#mark-read').click();
+                }
+                const t=page.locator('#theme-toggle');
+                await t.click();
+                const theme=await page.locator('html').getAttribute('data-theme');
+                if(!theme)throw Error('theme toggle did not set theme');
+                console.log('PASS deep routes, expandable answers, chapter review and theme');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-cycle',{waitUntil:'load'});
+                await page.waitForTimeout(200);
+                const continuous=page.locator('button[data-reader-mode="continuous"]');
+                if(await continuous.getAttribute('aria-pressed')!=='true')throw Error('continuous is not default');
+                await page.locator('button[data-reader-mode="section"]').click();
+                const hidden=await page.locator('.article-text > [hidden]').count();
+                if(hidden<2)throw Error('section mode did not focus one section');
+                await page.locator('#reader-next').click();
+                if(!(await page.locator('#reader-position').innerText()).includes('2 of'))throw Error('section navigation failed');
+                await page.locator('#reader-size').selectOption('120');
+                if(await page.locator('html').getAttribute('data-reader-scale')!=='120')throw Error('font scale failed');
+                await page.reload();
+                await page.waitForTimeout(180);
+                if(await page.locator('button[data-reader-mode="section"]').getAttribute('aria-pressed')!=='true')throw Error('reading mode did not persist');
+                await page.locator('button[data-reader-mode="continuous"]').click();
+                if(await page.locator('.article-text > [hidden]').count())throw Error('continuous mode did not restore all content');
+                await page.locator('button[data-reader-mode="presentation"]').click();
+              if(await page.locator('html').getAttribute('data-reader-mode')!=='presentation')throw Error('presentation state missing');
+              await page.locator('#reader-next').click();
+              if(!(await page.locator('#reader-position').innerText()).includes('Card '))throw Error('card progress missing');
+              await page.locator('button[data-reader-mode="continuous"]').click();
+              await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-muscle');
+              await page.waitForTimeout(200);
+              const glossary=page.locator('.glossary-trigger').first();
+              if(await glossary.count()){
+                await glossary.click();
+                if(await glossary.getAttribute('aria-expanded')!=='true')throw Error('glossary not expanded');
+                if(await page.locator('#dom-glossary-popup').isHidden())throw Error('glossary popup not displayed');
+                await page.keyboard.press('Escape');
+                if(!(await page.locator('#dom-glossary-popup').isHidden()))throw Error('Escape did not dismiss glossary');
+              }
+              console.log('PASS reading modes, glossary, card focus, chapter navigation and saved preferences');
+              }
+              if(width===390){
+                for(const slug of ['cv-introduction','cardiac-muscle','ecg','shock','cerebral','fetal']){
+                  await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
+                  await page.waitForTimeout(120);
+                  await page.locator('button[data-reader-mode="presentation"]').click();
+                  if(await page.locator('.article-text > [hidden]').count()<1)throw Error('card focus missing on '+slug);
+                  await page.locator('button[data-reader-mode="continuous"]').click();
+                  if(await page.locator('.article-text > [hidden]').count())throw Error('article not restored '+slug);
+                  const bad=await page.locator('.article-text img:not([alt])').count();
+                  if(bad)throw Error('missing alt '+slug);
+                }
+                console.log('PASS multi-chapter reader and media semantics');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/heart-sounds',{waitUntil:'load'});
+                await page.waitForTimeout(200);
+                const btn=page.locator('button[data-media-action="play-audio"]');
+                if(await btn.count()!==1)throw Error('missing heart-sound button');
+                await btn.click();
+                if(await page.locator('audio').count()!==1)throw Error('audio element missing');
+                const source=await page.locator('audio source[type="audio/ogg"]').getAttribute('src');
+                if(!source.includes('HROgg_Louder.ogg'))throw Error('not using amplified recording');
+                if(await page.locator('.audio-speed-control select').count()!==1)throw Error('speed control missing');
+                await page.locator('.audio-speed-control select').selectOption('0.85');
+                const rate=await page.locator('audio').evaluate(a=>a.playbackRate);
+                if(rate!==0.85)throw Error('playback speed not updated');
+                await page.locator('button[data-media-action="stop-audio"]').click();
+                if(await page.locator('audio').count())throw Error('closing audio did not remove player');
+                console.log('PASS responsive heart-sound playback controls');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/cardiac-muscle',{waitUntil:'load'});
+                await page.waitForTimeout(150);
+                const button=page.locator('button.figure-zoom').first();
+                if(await button.count()===0)throw Error('missing image enlarge action');
+                await button.click();
+                if(!(await page.locator('dialog.figure-viewer').evaluate(x=>x.open)))throw Error('image viewer did not open');
+                if(!(await page.locator('dialog.figure-viewer img').getAttribute('src')))throw Error('image source missing');
+                await page.keyboard.press('Escape');
+                if(await page.locator('dialog.figure-viewer').evaluate(x=>x.open))throw Error('Escape did not close image');
+                if(await page.locator('.figure-credit a').count()===0)throw Error('attribution links lost');
+                console.log('PASS image viewer opens, closes and preserves credit links');
+              }
+              if(width===390){
+                await page.goto('http://127.0.0.1:8000/#/',{waitUntil:'load'});
+                await page.waitForTimeout(120);
+                if(!(await page.locator('h1').innerText()).includes('Complex concepts.'))throw Error('platform home heading missing');
+                if(await page.locator('.platform-available').count()!==1)throw Error('CVS system card missing');
+                if(await page.locator('.platform-upcoming a').count())throw Error('unavailable systems linked');
+                await page.locator('.platform-available').click();
+                await page.waitForTimeout(180);
+                if(!(await page.locator('h1').innerText()).includes('Cardiovascular Physiology'))throw Error('CVS landing heading missing');
+                if(!(await page.locator('.hero-chip').innerText()).includes('6 lecture documents'))throw Error('CVS lecture count missing');
+                await page.locator('.brand').click();
+                await page.waitForTimeout(180);
+                if(!(await page.locator('h1').innerText()).includes('Complex concepts.'))throw Error('wordmark failed to return platform home');
+                await page.goto('http://127.0.0.1:8000/#/physiology/cvs/heart-sounds',{waitUntil:'load'});
+                if(!(await page.locator('h1').first().innerText()).includes('Heart Sounds'))throw Error('deep chapter route broken');
+                console.log('PASS platform landing, CVS catalogue, deep-link and wordmark navigation');
+              }
+              console.log('PASS '+width+'px');
+              await page.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Commit generated canonical bundle
+        run: |
+          if ! git diff --quiet -- content.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content.js
+            git commit -m "Regenerate canonical content.js with build.py"
+            git pull --rebase origin student-figure-caption-cleanup
+            git push origin HEAD:student-figure-caption-cleanup
+          fi
