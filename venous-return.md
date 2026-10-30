@@ -18,7 +18,7 @@ The lecture contrasts a filling artery with a filling vein: the artery's pressur
 
 <div class="equation-block"><span class="equation-label">Vascular compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math><span class="equation-example">The higher C of veins permits greater volume storage for a given pressure rise.</span></div>
 
-A common illustrative distribution places roughly **half of circulating blood in the systemic venous compartment** in an illustrative resting distribution. These percentages are approximations and do not form an exact complete partition.
+A representative resting distribution places roughly **half of circulating blood in the systemic venous compartment**. These percentages are approximations and do not form an exact complete partition.
 
 ### Why does venoconstriction increase available central blood?
 
