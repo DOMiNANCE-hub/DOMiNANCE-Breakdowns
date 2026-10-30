@@ -1,7 +1,5 @@
 # Veins and Venous Return
 
-**Primary lecture:** CIRCULATION 1(4).pdf, slides 43–44, 73–75 and 97–98. **Supplementary mechanism:** pressure driving venous return, central venous pressure, and physiological effects of standing and respiration.
-
 ## 1. What is venous return, and why is it essential?
 
 **Venous return (VR)** is the **volume of blood returning to the right atrium per unit time**. In a closed circulation at steady state, venous return must equal **cardiac output (CO)**: the heart cannot pump more blood out indefinitely than the circulation brings back.
@@ -20,7 +18,7 @@ The lecture contrasts a filling artery with a filling vein: the artery's pressur
 
 <div class="equation-block"><span class="equation-label">Vascular compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math><span class="equation-example">The higher C of veins permits greater volume storage for a given pressure rise.</span></div>
 
-The lecturer's slide 75 places roughly **half of circulating blood in the systemic venous compartment** in an illustrative resting distribution. The listed percentages are approximations and do not form an exact complete partition.
+A common illustrative distribution places roughly **half of circulating blood in the systemic venous compartment** in an illustrative resting distribution. These percentages are approximations and do not form an exact complete partition.
 
 ### Why does venoconstriction increase available central blood?
 
@@ -32,7 +30,7 @@ Noradrenergic sympathetic stimulation contracts venous smooth muscle. Veins beco
 
 Venous blood normally returns towards the right atrium because its upstream filling pressure exceeds downstream right atrial pressure.
 
-A supplementary conceptual model expresses this relation as:
+One useful conceptual model expresses this relation as:
 
 <div class="equation-block"><span class="equation-label">Venous-return relation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>VR</mi><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>msf</mi></msub><mo>−</mo><msub><mi>P</mi><mi>RA</mi></msub></mrow><msub><mi>R</mi><mi>VR</mi></msub></mfrac></math><span class="equation-example">Pmsf = mean systemic filling pressure; PRA = right atrial pressure; RVR = resistance to venous return.</span></div>
 
@@ -68,7 +66,7 @@ The lecture also mentions arterial pulsation compressing adjacent veins, which c
 
 **Central venous pressure (CVP)** usually refers to pressure near the right atrium or great thoracic veins. It varies through the cardiac cycle and with respiration, reflecting right-sided filling pressures.
 
-The lecturer gives low pressures near the right atrium, including approximately **4.6 mmHg** in its example, but a single absolute value is **not a universal normal**. Actual readings depend on the reference level, respiratory phase, volume status, venous return and right ventricular function.
+Traditional teaching gives low pressures near the right atrium, including approximately **4.6 mmHg** in its example, but a single absolute value is **not a universal normal**. Actual readings depend on the reference level, respiratory phase, volume status, venous return and right ventricular function.
 
 **Why can CVP rise when cardiac output falls?** If the right ventricle cannot empty effectively, blood may accumulate upstream and right atrial pressure may increase even while forward flow decreases. CVP is therefore not a direct measurement of circulating blood volume or cardiac output.
 
@@ -76,7 +74,7 @@ The lecturer gives low pressures near the right atrium, including approximately 
 
 Gravity changes venous pressure depending on height relative to the heart. Thin-walled extracranial veins may partially collapse when the surrounding pressure exceeds the pressure inside.
 
-The lecturer contrasts these with **dural venous sinuses**, whose walls are held open by dural attachments. If an open sinus is exposed while the internal pressure is below atmospheric pressure, **air may enter the venous circulation**, potentially causing a venous air embolism.
+Traditional teaching contrasts these with **dural venous sinuses**, whose walls are held open by dural attachments. If an open sinus is exposed while the internal pressure is below atmospheric pressure, **air may enter the venous circulation**, potentially causing a venous air embolism.
 
 This is a specific clinical risk of exposed low-pressure noncollapsible veins, not evidence that blood normally flows backwards from the brain to the heart.
 
