@@ -111,7 +111,7 @@ This explains an apparent puzzle: each capillary has a tiny radius, but there ar
 
 ## 9. How can blood flow be measured?
 
-The lecturer lists three techniques on slide 62. Their underlying physical signals differ:
+Three techniques are commonly used to measure flow, but they detect different physical signals:
 
 | Method | What it measures or detects | How it relates to flow |
 |---|---|---|
