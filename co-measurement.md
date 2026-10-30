@@ -21,13 +21,13 @@ The tissue oxygen-consumption rate must equal the product of these quantities.
 
 <div class="fick-process" role="group" aria-label="Fick oxygen extraction concept"><span><strong>Arterial O₂ content</strong><small>O₂ carried into tissues</small></span><b>−</b><span><strong>Mixed venous O₂ content</strong><small>O₂ remaining after tissues</small></span><b>→</b><span><strong>O₂ extracted</strong><small>Amount removed from each unit of blood</small></span></div>
 
-<div class="equation-block"><span class="equation-label">Fick's oxygen principle</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mover><mi>V</mi><mo>˙</mo></mover><msub><mi>O</mi><mn>2</mn></msub></msub><mo>=</mo><mi>CO</mi><mo>×</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>a</mi><msub><mi>O</mi><mn>2</mn></msub></mrow></msub><mo>−</mo><msub><mi>C</mi><mrow><mi>v</mi><msub><mi>O</mi><mn>2</mn></msub></mrow></msub><mo>)</mo></math></div>
+<div class="equation-block"><span class="equation-label">Fick's oxygen principle</span><span class="equation-formula" role="math" aria-label="Oxygen consumption equals cardiac output times the arterial minus mixed venous oxygen content">V̇O₂ = CO × (CₐO₂ − CᵥO₂)</span></div>
 
 The relationship is easier to read in plain notation: **O₂ consumption/min = blood flow/min × (arterial O₂ content − mixed venous O₂ content)**.
 
 Solving for flow gives the equation used to measure cardiac output:
 
-<div class="equation-block"><span class="equation-label">Fick cardiac output</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mfrac><mrow><mover><mi>V</mi><mo>˙</mo></mover><msub><mi>O</mi><mn>2</mn></msub></mrow><mrow><msub><mi>C</mi><mrow><mi>a</mi><msub><mi>O</mi><mn>2</mn></msub></mrow></msub><mo>−</mo><msub><mi>C</mi><mrow><mi>v</mi><msub><mi>O</mi><mn>2</mn></msub></mrow></msub></mrow></mfrac></math></div>
+<div class="equation-block"><span class="equation-label">Fick cardiac output</span><span class="equation-formula" role="math" aria-label="Cardiac output equals oxygen consumption divided by arterial minus mixed venous oxygen content">CO = V̇O₂ / (CₐO₂ − CᵥO₂)</span></div>
 
 Here **V̇O₂** = systemic oxygen consumed per minute; **CaO₂** = arterial oxygen content per unit blood volume; and **CvO₂** = **mixed venous** oxygen content. Be careful: **oxygen content**, **oxygen saturation** and **partial pressure of oxygen** are different quantities.
 
@@ -100,7 +100,7 @@ In mechanics, work can be expressed as **force × distance**. Because pressure i
 
 The lecture gives a simplified relationship for one ventricular beat:
 
-<div class="equation-block"><span class="equation-label">Approximate external stroke work</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>SW</mi><mo>≈</mo><mi>SV</mi><mo>×</mo><mi>P</mi></math><span class="equation-example">For LV: P ≈ mean aortic pressure; for RV: P ≈ mean pulmonary arterial pressure.</span></div>
+<div class="equation-block"><span class="equation-label">Approximate external stroke work</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>SW</mi><mo>≈</mo><mi>SV</mi><mo>×</mo><mi>P</mi></math><span class="equation-example">P represents the relevant pressure generated against the outflow circulation, usually approximated from mean arterial pressure; external stroke work is more rigorously the ventricular pressure–volume loop area, so this product is only an estimate.</span></div>
 
 In ordinary teaching examples, **stroke volume × mean arterial pressure** provides a practical approximation. More accurately, **external stroke work is the area within the ventricular pressure–volume loop**, accounting for the pressure throughout filling and ejection. The simple product is not an exact substitute for every loop shape.
 

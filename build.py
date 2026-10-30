@@ -34,6 +34,10 @@ def readable_math(html):
             return render(kids[0])+'^'+render(kids[1])
         if name=='msub' and len(kids)>=2:
             return render(kids[0])+'_'+render(kids[1])
+        if name=='mover' and len(kids)>=2:
+            return render(kids[0])+render(kids[1])
+        if name=='msqrt':
+            return '√('+''.join(render(k) for k in kids)+')'
         if name in ('mspace','mphantom'):
             return ' '
         if not kids:
