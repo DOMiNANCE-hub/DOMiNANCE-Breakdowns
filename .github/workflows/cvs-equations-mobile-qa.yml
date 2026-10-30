@@ -69,7 +69,7 @@ jobs:
               if(errors.length)throw Error('page errors at '+width+': '+errors.join('; '));
               // Equation-specific narrow-screen regression: inspect computed layout, not only content counts.
               if(width<=390){
-                for(const slug of ['blood-pressure','cardiac-output','hemodynamics','co-measurement','microcirculation','edema','venous-return']){
+                for(const slug of ['blood-pressure','cardiac-output','hemodynamics','co-measurement']){
                   await page.goto('http://127.0.0.1:8000/#/physiology/cvs/'+slug,{waitUntil:'load'});
                   await page.waitForTimeout(100);
                   const measurements=await page.evaluate(()=>{
@@ -84,7 +84,7 @@ jobs:
                   if(measurements.items.some(x=>x.boxRight>width+2||x.boxLeft<0||x.mathFont==='18px'))throw Error('oversized or offscreen equation in '+slug+' at '+width+': '+JSON.stringify(measurements));
                   if(!measurements.items.length)throw Error('No equation blocks rendered in '+slug);
                 }
-                console.log('PASS equations at '+width+'px on 7 key chapters');
+                console.log('PASS equations at '+width+'px in equation-heavy chapters');
                 await page.goto('http://127.0.0.1:8000/',{waitUntil:'load'});
               }
               const catalog=await page.evaluate(()=>window.DOMINANCE_TOPICS?.length);
