@@ -59,7 +59,7 @@ jobs:
               assert page.count('class="figure-attribution"')==page.count('<summary>Image credit</summary>'),topic['slug']
           assert checked>=26,checked
           assert 'The three internodal pathways shown' not in chapters['cardiac-conduction']
-          assert 'not necessarily three separately insulated bundles' in chapters['cardiac-conduction'] or 'not separate insulated' in chapters['cardiac-conduction']
+          assert 'do not necessarily contain three separate, insulated conducting bundles' in chapters['cardiac-conduction']
           print('PASS 26 accessible figure credits and retained conduction teaching')
           print('PASS all 27 chapters; 324 answers and section anchors')
           PY
