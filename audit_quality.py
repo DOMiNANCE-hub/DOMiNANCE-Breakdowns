@@ -11,8 +11,8 @@ assert len(topics)==len(rows)
 errors=[]; warnings=[]; inventory=[]
 for row,topic in zip(rows,topics):
  slug=row['slug']; content=(ROOT/(slug+'.md')).read_text(encoding='utf-8'); html=topic['html']
- n=len(re.findall(r'<details>\s*<summary>Reveal explanation</summary>',html))
- answers=[re.sub(r'<[^>]+>',' ',x).strip() for x in re.findall(r'<details>\s*<summary>Reveal explanation</summary>(.*?)</details>',html,re.S)]
+ n=len(re.findall(r'<details(?![^>]*figure-attribution)[^>]*>',html))
+ answers=[re.sub(r'<[^>]+>',' ',x).strip() for x in re.findall(r'<details(?![^>]*figure-attribution)[^>]*>\s*<summary[^>]*>.*?</summary>(.*?)</details>',html,re.S)]
  if topic['slug']!=slug: errors.append(f'{slug}: bundle order mismatch')
  if n!=12 or len(answers)!=12: errors.append(f'{slug}: {n} answer panels, {len(answers)} parsed answers')
  if any(len(a.split())<8 for a in answers): warnings.append(f'{slug}: brief factual answers require human quality review')
