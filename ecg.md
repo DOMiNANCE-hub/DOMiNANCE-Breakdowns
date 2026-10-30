@@ -56,7 +56,7 @@ For instance, if Lead I measures +0.5 mV and Lead III measures +0.3 mV at the sa
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-einthoven">
 <a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
-<figcaption><strong>Figure 01. Bipolar limb-lead directions.</strong> Relate the positive and negative recording directions to the three limb leads. <span class="figure-credit">Kychot · <a href="https://commons.wikimedia.org/wiki/File:ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 01. Bipolar limb-lead directions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Kychot · <a href="https://commons.wikimedia.org/wiki/File:ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ### The augmented limb leads
@@ -78,7 +78,7 @@ For accurate placement, locate **V4 before V3**, then put V3 midway between V2 a
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-precordial">
 <a href="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" alt="Anterior torso and rib cage with six labelled ECG chest electrodes V1 to V6 in their correct anatomical positions." width="287" height="252"></a>
-<figcaption><strong>Figure 02. V1–V6 chest electrode positions.</strong> The diagram shows where electrodes go; the table adds intercostal-space landmarks. <span class="figure-credit">Jmarchn · <a href="https://commons.wikimedia.org/wiki/File:Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 02. V1–V6 chest electrode positions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Jmarchn · <a href="https://commons.wikimedia.org/wiki/File:Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ## 4. Waves, segments and intervals: what is the difference?
@@ -91,7 +91,7 @@ The ECG tracing is made up of **waves**, **segments** and **intervals**. These w
 
 <figure class="teaching-illustration ecg-figure-signal" id="ecg-normal-wave">
 <a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" alt="Labeled normal ECG with P wave, QRS complex, T wave, PR segment and interval, ST segment and QT interval." width="512" height="512"></a>
-<figcaption><strong>Figure 03. Normal ECG waves and intervals.</strong> Compare the <em>PR segment</em> (end of P to start of QRS) with the <em>PR interval</em> (start of P to start of QRS). Open to enlarge. <span class="figure-credit">Agateller (Anthony Atkielski), SVG conversion by atom · <a href="https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></figcaption>
+<figcaption><strong>Figure 03. Normal ECG waves and intervals.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Agateller (Anthony Atkielski), SVG conversion by atom · <a href="https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></details></figcaption>
 </figure>
 
 ### P wave — Atrial depolarisation

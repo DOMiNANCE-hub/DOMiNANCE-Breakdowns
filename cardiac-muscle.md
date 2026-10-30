@@ -33,7 +33,7 @@ Thus, cardiac muscle behaves as a **<span data-term="functional-syncytium">funct
 
 <figure class="teaching-illustration" id="cvs02-figure-01">
 <a href="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" alt="Branched cardiac muscle fibres and an enlarged intercalated disc showing desmosomes and gap junctions." width="1018" height="476"></a>
-<figcaption><strong>Figure 01. Cardiac muscle and intercalated discs.</strong> Desmosomes and gap junctions are labelled; fascia adherens are discussed in the text but not separately labelled. <span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer">OpenStax</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 01. Cardiac muscle and intercalated discs.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer">OpenStax</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ## 3. The cardiac muscle action potential
@@ -56,7 +56,7 @@ During phase 2, Ca²⁺ entering the cell tends to maintain depolarisation while
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
-<figcaption><strong>Figure 02. Electrical activity, refractoriness and contraction.</strong> Compare the long cardiac refractory period with the mechanical twitch; the graph does not separately number all five phases. <span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 02. Electrical activity, refractoriness and contraction.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 **Important distinction:** This is a ventricular *contractile-cell* action potential. Sinoatrial nodal pacemaker cells have no stable resting membrane potential, and their phase 0 upstroke relies primarily on Ca²⁺ entry rather than fast Na⁺ entry. Their behaviour belongs in the Cardiac Conduction and Automaticity chapter.
@@ -75,7 +75,7 @@ An action potential must initiate changes inside the cardiomyocyte that activate
 
 <figure class="teaching-illustration" id="cvs02-figure-03">
 <a href="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" alt="Diagram showing cardiac T-tubule L-type calcium channels, ryanodine receptor, sodium–calcium exchanger, sarcoplasmic reticulum, SERCA and phospholamban." width="756" height="567"></a>
-<figcaption><strong>Figure 03. Cardiac calcium cycling.</strong> L-type channels, RyR, NCX, SERCA and phospholamban are shown; troponin C and actin–myosin interactions are explained in the adjacent text. <span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer">PeaBrainC</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 03. Cardiac calcium cycling.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer">PeaBrainC</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ### Why is extracellular Ca²⁺ especially important in cardiac muscle?

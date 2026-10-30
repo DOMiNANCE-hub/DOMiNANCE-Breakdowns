@@ -117,7 +117,7 @@ A **<span data-term="wiggers">Wiggers diagram</span>** aligns the ECG, atrial pr
 
 <figure class="teaching-illustration" id="cvs04-wiggers">
 <a href="https://upload.wikimedia.org/wikipedia/commons/f/f4/Wiggers_Diagram.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Wiggers_Diagram.svg" alt="Wiggers diagram showing ECG, atrial, ventricular and aortic pressure traces, ventricular volume and heart sounds across the cardiac cycle." width="1098" height="841"></a>
-<figcaption><strong>Figure 01. The Wiggers diagram.</strong> First follow ventricular pressure, ventricular volume and valve transitions; then connect them to the ECG and heart sounds. Tap to enlarge. <span class="figure-credit">DanielChangMD (revised from DestinyQx); SVG redrawn by xavax · <a href="https://commons.wikimedia.org/wiki/File:Wiggers_Diagram.svg" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener noreferrer">CC BY-SA 2.5</a> · unmodified.</span></figcaption>
+<figcaption><strong>Figure 01. The Wiggers diagram.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">DanielChangMD (revised from DestinyQx); SVG redrawn by xavax · <a href="https://commons.wikimedia.org/wiki/File:Wiggers_Diagram.svg" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener noreferrer">CC BY-SA 2.5</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ### Read it in four passes
