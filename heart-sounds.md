@@ -1,7 +1,5 @@
 # Heart Sounds and Murmurs
 
-**Lecture:** CIRCULATION 1(4).pdf, slides 27–34, with related concepts from slides 18–19. **Supplementary explanation:** mechanisms of S3 and S4, auscultation landmarks, and applying valve physiology to murmur timing.
-
 ## 1. Why does the heart produce sounds?
 
 During the cardiac cycle, pressure changes make heart valves close, and blood accelerates or decelerates inside the heart. Sudden changes in blood motion set the valve apparatus, surrounding tissues and blood into **vibration**. Some of these vibrations travel through the chest wall and can be heard with a stethoscope.
@@ -31,7 +29,7 @@ Later, ventricular force and pressure decline. When aortic and pulmonary arteria
 
 The important pressure logic is: **S1 follows reversal of the atrial-to-ventricular pressure gradient; S2 follows reversal of the ventricular-to-arterial pressure gradient.** Closure generates audible vibrations; a valve does not make a sound simply because it is open.
 
-The lecturer gives illustrative durations of approximately **0.15 s for S1** and **0.12 s for S2**. Sound duration and intensity can vary.
+Representative illustrative durations of approximately **0.15 s for S1** and **0.12 s for S2**. Sound duration and intensity can vary.
 
 ## 3. Why does S2 sometimes split with inspiration?
 
