@@ -24,7 +24,7 @@ As activation spreads through the myocardium, we can represent its combined dire
 
 For example, much of normal ventricular depolarisation is directed inferiorly and towards the patient's left. Since Lead II views the heart in that general direction, its QRS complex is often predominantly upright.
 
-**Important:** These rules describe **depolarisation**. Repolarisation has a different electrical polarity: a repolarisation wave travelling towards a positive electrode tends to produce a negative deflection. The normal ventricular T wave can therefore be upright even though it represents repolarisation, because the spread and polarity of repolarisation differ from depolarisation.
+**Important:** The direction rule above describes **depolarisation**. For a wave of **repolarisation**, the electrical polarity is reversed: recovery spreading *towards* a lead's positive direction tends to give a negative deflection. In many normal ventricular regions, recovery spreads in a direction different from the main depolarisation wave. Those two reversals help explain why the T wave and main QRS deflection are often both upright in the same lead. An upright T wave does **not** mean a second depolarisation.
 
 An upward deflection is **not** a drawing of the heart moving upwards—it is the electrical signal's projection onto that lead.
 
@@ -96,7 +96,7 @@ The ECG tracing is made up of **waves**, **segments** and **intervals**. These w
 
 ### P wave — Atrial depolarisation
 
-The SA node initiates an impulse, which spreads through atrial myocardium. The **P wave represents atrial myocardial depolarisation**, not merely the firing of the tiny SA node. Atrial contraction follows. Representative an illustrative normal P-wave duration of **0.08–0.10 seconds**.
+The SA node initiates an impulse, which spreads through atrial myocardium. The **P wave represents atrial myocardial depolarisation**, not merely the firing of the tiny SA node. Atrial contraction follows. An illustrative normal P-wave duration is **0.08–0.10 seconds**.
 
 ### PR interval — Time from atrial to ventricular depolarisation
 
@@ -128,7 +128,7 @@ A small **U wave** may follow the T wave. The lecture calls it the final remnant
 
 ### QT interval — Ventricular activation through recovery
 
-The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. Representative an illustrative range of **0.2–0.4 seconds**, noting that QT varies with heart rate. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
+The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. The QT interval changes with heart rate: it generally shortens as heart rate rises and lengthens as heart rate falls. Therefore, **one fixed QT range is not reliable for every rate**; clinicians often interpret a heart-rate-corrected QT (QTc) alongside the tracing.
 
 **Supplementary: heart-rate correction.** Bazett's formula is a commonly taught approximation, although it is less reliable at unusually low or high heart rates.
 
@@ -178,7 +178,7 @@ If an R–R interval spans **22 small squares**:
 
 ### What changes if the rhythm is irregular?
 
-When R–R intervals vary, a single pair of R waves is insufficient to estimate the average. One simple method is to count ventricular complexes in a **6-second strip** and multiply by **10** (supplementary).
+When R–R intervals vary, one pair of R waves cannot represent the average rate. At **25 mm/s**, a six-second strip spans **30 large squares**. Count the QRS complexes across that strip and multiply by **10** for an approximate average ventricular rate (supplementary).
 
 *Example:* 8 QRS complexes in 6 seconds → approximate average **80 beats/min**.
 
@@ -238,8 +238,8 @@ A normal-looking ECG cannot guarantee effective cardiac output: **electrical act
 **10. An irregular ECG has eight QRS complexes in six seconds. Estimate its average ventricular rate.**
 <details><summary>Reveal explanation</summary><p><strong>Approximately 80 beats/min.</strong> Eight beats in six seconds correspond to 8 × (60 ÷ 6) = 80 beats/min. For an irregular rhythm, counting complexes over a longer interval is more representative than applying the 1500 rule to one R–R interval.</p></details>
 
-**11. Each P wave is followed by QRS, but the PR interval is 0.24 seconds. What pattern does this suggest?**
-<details><summary>Reveal explanation</summary><p><strong>First-degree AV block.</strong> PR is prolonged beyond 0.20 s, yet each atrial impulse still conducts to the ventricles. The finding indicates delayed AV transmission, not dropped beats or complete AV dissociation.</p></details>
+**11. Every P wave is followed by QRS with a constant PR interval of 0.24 seconds. Another tracing has occasional P waves with no following QRS. How do the conduction abnormalities differ?**
+<details><summary>Reveal explanation</summary><p><strong>The first tracing suggests first-degree AV block:</strong> PR is prolonged beyond 0.20 s, but every atrial impulse still conducts to the ventricles. <strong>The second suggests second-degree AV block:</strong> some atrial impulses fail to produce a ventricular complex. A long PR interval is delayed conduction, not proof of a dropped beat.</p></details>
 
 **12. Can a regular ECG tracing prove that the ventricles are pumping enough blood?**
 <details><summary>Reveal explanation</summary><p><strong>No.</strong> An ECG measures electrical activity. Electrical impulses may occur without effective myocardial contraction or sufficient stroke volume, so perfusion requires assessment of the pulse, blood pressure and clinical state.</p></details>
