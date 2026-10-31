@@ -39,7 +39,7 @@ During inspiration, more negative intrathoracic pressure promotes **systemic ven
 
 <div class="sound-split" role="group" aria-label="Aortic and pulmonary valve closure timing"><div><strong>Expiration</strong><span>A2 <b>·</b> P2</span><small>Short separation; may sound single</small></div><div><strong>Inspiration</strong><span>A2 <b>····</b> P2</span><small>Longer separation: physiological splitting</small></div></div>
 
-**The important point is widening of the A2–P2 interval during inspiration**, not that the two valves necessarily close at precisely the same time during expiration. More complex patterns of splitting are advanced clinical material beyond this lecturer's primary scope.
+**The important point is widening of the A2–P2 interval during inspiration**, not that the two valves necessarily close at precisely the same time during expiration. More complex splitting patterns are discussed in clinical cardiology.
 
 ## 4. What causes S3 and S4?
 
