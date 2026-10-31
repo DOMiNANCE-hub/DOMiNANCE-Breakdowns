@@ -12,17 +12,17 @@ This register distinguishes **source/markup checks** from **scientific visual ve
 | 3 | cvs03-figure-01 | Conducting system | Figure, alt and credit present | Pending anatomy and pathway verification; avoid implying insulated internodal tracts |
 | 3 | cvs03-figure-02 | Nodal versus ventricular action potentials | Figure, alt and credit present | Pending ionic phase and graph-label verification |
 | 4 | cvs04-wiggers | Wiggers diagram | Figure, alt and credit present | Pending valve timing, pressure, ECG and volume alignment |
-| 5 | cvs05-auscultation | Auscultation locations | **Removed** from source and generated website content due to apparent tricuspid left–right discrepancy | Replace only after patient-side orientation verified |
+| 5 | cvs05-auscultation | Five cardiac auscultation areas including Erb's point | OpenRN/LibreTexts CC BY 4.0 figure now referenced in chapter and generated website content, with attribution | Confirm source image renders, includes all five labelled sites, and has correct patient-side orientation |
 | 6 | ecg-einthoven | Einthoven triangle | Figure, alt and credit present | Pending limb lead polarity and orientation verification |
 | 6 | ecg-precordial | Precordial electrode placement | Figure, alt and credit present | Pending V1–V6 surface landmark verification |
 | 6 | ecg-normal-wave | ECG waves and intervals | Figure, alt and credit present | Pending wave/segment/interval label verification |
 
 ## Checks completed from chapter sources
 
-- All remaining nine figures have a source URL, descriptive alt text and attribution in their source markup.
+- All ten figures have a source URL, descriptive alt text and attribution in their source markup.
 - Each of Chapters 2–6 contains 12 explanation-reveal checks in its Markdown source.
 - No unclosed `<figure>` tags were found in these five chapter files.
-- The removed Chapter 5 figure was also removed from the generated `content.js` topic.
+- The disputed Chapter 5 figure was replaced with an openly licensed five-site diagram in both `heart-sounds.md` and `content.js`; browser rendering remains unverified.
 - These are **structural checks only**, not a claim that every figure is scientifically correct.
 
 ## Required release gates
