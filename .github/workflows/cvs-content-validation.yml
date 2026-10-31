@@ -1,0 +1,30 @@
+name: CVS content validation
+on:
+  push:
+    branches:
+      - main
+      - 'codex/**'
+  pull_request:
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install build dependency
+        run: python -m pip install 'mistune>=3,<4'
+      - name: Validate source chapters
+        run: python scripts/check_content.py
+      - name: Compile all topics
+        run: python build.py
+      - name: Verify compiled output
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s = Path("content.js").read_text(encoding="utf-8")
+          assert s.startswith("window.DOMINANCE_TOPICS = [")
+          assert s.count('"slug":') == 27, "Expected 27 compiled topics"
+          print("Compiled content contains 27 topics.")
+          PY
