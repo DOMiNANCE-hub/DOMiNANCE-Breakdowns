@@ -2,10 +2,10 @@
 
 A bright, premium, lightweight reading site with **27 slide-audited CVS topics**, responsive cards, topic switching, search, saved reviewed status, section navigation and light/dark mode.
 
-**This is a content-expanded educational beta, not a literal reproduction of the source PDFs.** The 277-slide mapping and corrections are documented in `docs/SLIDE_COVERAGE_REVIEW.md`; figure-by-figure equivalence and actual browser rendering still require pre-release visual verification. The Chapter 5 auscultation illustration was replaced in the Chapters 2–6 review branch with an original patient-oriented schematic, with the tricuspid site on the patient's lower left sternal border. Browser rendering still requires verification.
+**This is a content-expanded educational beta, not a literal reproduction of the source PDFs.** The 277-slide mapping and corrections are documented in `docs/SLIDE_COVERAGE_REVIEW.md`; figure-by-figure equivalence and actual browser rendering still require pre-release visual verification. The Chapter 5 auscultation illustration in the Chapters 2–6 review branch now uses an attributed OpenRN/LibreTexts five-site figure including Erb's point (CC BY 4.0). Its actual browser rendering and the remaining diagrams' visual accuracy still require verification.
 
 ## Launch
-Open `index.html` in a browser. No install or network required except optional Google Fonts, which fall back to system fonts. To test over HTTP: `python -m http.server 8000` and open `http://localhost:8000`.
+Open `index.html` in a browser. No install required. The site is static, but third-party diagrams and optional Google Fonts require network access; fonts fall back to system fonts. To test over HTTP: `python -m http.server 8000` and open `http://localhost:8000`.
 
 ## Edit a topic
 Edit `<slug>.md` in the repository root and run `python build.py` (Python package `mistune` used only at build time). This regenerates `content.js`. The website itself is static and has no runtime dependencies.
@@ -14,7 +14,7 @@ Edit `<slug>.md` in the repository root and run `python build.py` (Python packag
 Create a GitHub repo containing these files. Import it into Vercel as a static site with output directory root, no build command required (or use `python build.py` locally before pushing).
 
 ## Content coverage & accuracy
-- `docs/CVS_TOPIC_MAP.csv`: each topic's lecture file and slide page mapping.
+- `CVS_TOPIC_MAP.csv`: each topic's lecture file and slide page mapping.
 - `docs/ACADEMIC_QA.md`: important errors, ambiguities and corrections.
 - `docs/SLIDE_BY_SLIDE_AUDIT.csv`: 277 entries documenting slide titles, topic destinations and correction flags.
 - `docs/SLIDE_COVERAGE_REVIEW.md`: the slide-review summary with 48 high-impact interpretation/correction notes.
