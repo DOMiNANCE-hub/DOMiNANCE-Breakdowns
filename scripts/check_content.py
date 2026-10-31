@@ -24,7 +24,7 @@ for row in rows:
         errors.append(f"{slug}: unmatched figure tags")
     if s.count("<details") != s.count("</details>"):
         errors.append(f"{slug}: unmatched details tags")
-    for fig in re.findall(r"<figure\\b[\\s\\S]*?</figure>", s):
+    for fig in re.findall(r"<figure\b[\s\S]*?</figure>", s):
         for required in ('<img', 'alt="', '<figcaption>'):
             if required not in fig:
                 errors.append(f"{slug}: figure missing {required}")
