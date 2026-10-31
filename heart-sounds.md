@@ -127,8 +127,6 @@ The best listening points on the chest are **not necessarily directly over the a
 
 **Orientation check:** These are locations on the **patient's** chest, not the observer's. When facing a patient, the patient's left is on your right. The tricuspid area is at the **patient's lower left sternal border** (commonly around the fourth or fifth intercostal space). Do not confuse the valve's anatomical position with its best listening point.
 
-*The previous colour-coded illustration has been withdrawn because its tricuspid marker appeared on the patient's right, contradicting the correct landmark above. A verified replacement is required before reinstating it.*
-
 A stethoscope's **diaphragm** transmits many higher-frequency sounds well (e.g. S1, S2 and many murmurs). Its **bell**, applied lightly, can help detect low-frequency S3, S4 and some diastolic murmurs. This is a supplementary clinical technique.
 
 ## 9. Why can bruits or murmurs arise elsewhere?
