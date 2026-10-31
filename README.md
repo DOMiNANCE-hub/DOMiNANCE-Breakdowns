@@ -2,7 +2,7 @@
 
 A bright, premium, lightweight reading site with **27 slide-audited CVS topics**, responsive cards, topic switching, search, saved reviewed status, section navigation and light/dark mode.
 
-**This is a content-expanded educational beta, not a literal reproduction of the source PDFs.** The 277-slide mapping and corrections are documented in `docs/SLIDE_COVERAGE_REVIEW.md`; figure-by-figure equivalence and actual browser rendering still require pre-release visual verification. The Chapter 5 auscultation illustration was removed from the Chapters 2–6 review branch after a suspected left–right tricuspid marker error; it must not be restored without verifying its anatomical orientation.
+**This is a content-expanded educational beta, not a literal reproduction of the source PDFs.** The 277-slide mapping and corrections are documented in `docs/SLIDE_COVERAGE_REVIEW.md`; figure-by-figure equivalence and actual browser rendering still require pre-release visual verification. The Chapter 5 auscultation illustration was replaced in the Chapters 2–6 review branch with an original patient-oriented schematic, with the tricuspid site on the patient's lower left sternal border. Browser rendering still requires verification.
 
 ## Launch
 Open `index.html` in a browser. No install or network required except optional Google Fonts, which fall back to system fonts. To test over HTTP: `python -m http.server 8000` and open `http://localhost:8000`.
