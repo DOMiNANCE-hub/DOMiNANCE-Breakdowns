@@ -125,6 +125,8 @@ The best listening points on the chest are **not necessarily directly over the a
 | **Tricuspid** | Lower **left** sternal border |
 | **Mitral** | **Apex**, commonly fifth left intercostal space near midclavicular line |
 
+<figure class="teaching-illustration" id="cvs05-auscultation"><a href="assets/cardiac-auscultation-verified-schematic.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="assets/cardiac-auscultation-verified-schematic.svg" alt="Anterior chest showing aortic on patient right second intercostal space; pulmonary on patient left second; Erb's on left third; tricuspid on lower left sternal border; mitral at left fifth intercostal space." width="760" height="510"></a><figcaption><strong>Figure 01. Auscultation landmarks.</strong> Original DOMiNANCE schematic, not to scale.</figcaption></figure>
+
 **Orientation check:** These are locations on the **patient's** chest, not the observer's. When facing a patient, the patient's left is on your right. The tricuspid area is at the **patient's lower left sternal border** (commonly around the fourth or fifth intercostal space). Do not confuse the valve's anatomical position with its best listening point.
 
 A stethoscope's **diaphragm** transmits many higher-frequency sounds well (e.g. S1, S2 and many murmurs). Its **bell**, applied lightly, can help detect low-frequency S3, S4 and some diastolic murmurs. This is a supplementary clinical technique.
