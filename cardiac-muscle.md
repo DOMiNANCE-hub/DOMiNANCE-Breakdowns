@@ -52,7 +52,7 @@ Unlike the brief action potential of skeletal muscle, a ventricular action poten
 
 ### Why does the plateau occur?
 
-During phase 2, Ca²⁺ entering the cell tends to maintain depolarisation while K⁺ leaving the cell tends to repolarise it. Because these currents partly balance one another, membrane potential changes relatively slowly. The resulting plateau prolongs the action potential and refractory period, while the Ca²⁺ entering through L-type channels also helps trigger contraction.
+During phase 2, **Ca²⁺ enters** through L-type channels, tending to keep the cell depolarised, while **K⁺ leaves**, tending to restore its negative resting voltage. These opposing currents partly balance, so voltage falls slowly: this is the **plateau**. During much of this period, fast Na⁺ channels have not recovered sufficiently to support another normal action potential. The prolonged refractory period prevents the heart from being stimulated into a sustained, fused contraction. Incoming Ca²⁺ also triggers the larger Ca²⁺ release needed for contraction.
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
@@ -69,7 +69,7 @@ An action potential must initiate changes inside the cardiomyocyte that activate
 
 1. **The action potential reaches the T-tubules.** Electrical excitation spreads along the sarcolemma and into T-tubules, carrying depolarisation into the cell.
 2. **L-type Ca²⁺ channels open.** Depolarisation permits a small influx of extracellular Ca²⁺ through L-type channels.
-3. **Ca²⁺ triggers further release.** The incoming Ca²⁺ activates **RyR2 (Ryanodine Receptor Type 2)** channels on the sarcoplasmic reticulum (SR), releasing much more stored Ca²⁺. This is **<span data-term="cicr">CICR (Calcium-Induced Calcium Release)</span>**. Entering Ca²⁺ is the trigger; the SR supplies much of the Ca²⁺ that activates contraction.
+3. **Ca²⁺ triggers further release.** The incoming Ca²⁺ activates **RyR2 (Ryanodine Receptor Type 2)** channels on the sarcoplasmic reticulum (SR), releasing much more stored Ca²⁺. This is **<span data-term="cicr">CICR (Calcium-Induced Calcium Release)</span>**. The entering Ca²⁺ is a **small trigger** that opens SR release channels; the SR then supplies much of the **larger Ca²⁺ signal** needed for contraction. Without this amplification, normal force cannot develop.
 4. **Ca²⁺ binds troponin C.** Tropomyosin moves away from the myosin-binding sites on actin.
 5. **Actin–myosin cross-bridge cycling produces force.** Myosin interacts with actin using energy from ATP hydrolysis, shortening sarcomeres and generating contraction.
 
@@ -119,7 +119,7 @@ Noradrenaline and adrenaline stimulate **β₁-adrenergic receptors** on cardiom
 
 **Noradrenaline/adrenaline → β₁ receptor → Gs protein → adenylyl cyclase → increased cAMP (cyclic adenosine monophosphate) → activation of PKA (Protein Kinase A).**
 
-PKA phosphorylates proteins involved in Ca²⁺ handling, leading to two particularly important effects:
+PKA modifies proteins controlling both Ca²⁺ entry and removal. These actions work together: the cell can raise Ca²⁺ more strongly to contract, then lower it more quickly to relax before the next beat. Two effects follow:
 
 - **Stronger contraction:** Enhanced L-type Ca²⁺ channel activity increases trigger Ca²⁺ entry, promoting greater SR Ca²⁺ release and stronger actin–myosin interaction.
 - **Faster relaxation:** PKA phosphorylation of **<span data-term="phospholamban">phospholamban</span>** reduces its usual inhibition of SERCA2a, allowing Ca²⁺ to return to the SR more rapidly.

@@ -53,7 +53,7 @@ An ordinary ventricular contractile cell has a relatively stable resting membran
 
 The SA node is not the only region with automaticity. Other specialised conducting cells can also generate impulses, but their inherent rates are generally slower.
 
-The SA node normally reaches threshold **before** these slower pacemaker regions. When an impulse reaches them, it activates and resets their electrical activity, preventing them from independently determining the rhythm. **The SA node dominates because it normally fires faster, not because the other cells have lost automaticity.**
+Imagine two clocks that can each trigger a beat. The faster SA-node clock sends an impulse before the slower clock reaches its own firing point. That incoming impulse activates and **resets** the slower pacemaker, so it starts its countdown again. The slower region has not lost its ability to fire; it simply does not get the chance while the SA node reliably arrives first. **The SA node dominates because it normally fires faster, not because the other cells have lost automaticity.**
 
 A related mechanism is **<span data-term="overdrive-suppression">overdrive suppression</span>**, in which sustained faster activation suppresses subsidiary automaticity, sometimes delaying an escape rhythm after faster pacing stops. Resetting by incoming impulses and overdrive suppression are related but not identical.
 
@@ -99,7 +99,7 @@ In short, **slow AV nodal conduction provides correct *timing between chambers*,
 
 ## 7. How does the autonomic nervous system influence pacemaker activity?
 
-The SA node is automatic, but its firing rate is modifiable. The key relationship is simple: **the faster phase 4 reaches threshold, the sooner the next action potential occurs**.
+The SA node generates impulses without being told to beat by a nerve, but nerves can change **how soon** the next impulse occurs. Think of phase 4 as climbing towards a trigger point: a steeper climb reaches threshold sooner and produces a faster rate; a slower climb, or a more negative starting point, takes longer.
 
 ### Sympathetic stimulation
 
@@ -158,13 +158,13 @@ These disturbances affect effective pumping because both heart rate and the coor
 
 <details><summary>Reveal explanation</summary><p>The Purkinje network normally distributes activation rapidly across widely separated ventricular regions. Slower or blocked conduction produces delayed regional contraction and less efficient mechanical coordination.</p></details>
 
-**Supplementary 3. Why is the SA nodal action-potential upstroke slower than the ventricular upstroke?**
+**Supplementary 3. If conduction through one bundle branch slows, why might ventricular contraction become less coordinated?**
 
-<details><summary>Reveal explanation</summary><p>SA nodal cells have a relatively depolarized maximum diastolic potential, so fast sodium channels do not generate the upstroke as they do in working ventricular muscle. The nodal phase-0 upstroke is mainly through L-type calcium channels, which produce a slower rise and slower conduction.</p></details>
+<details><summary>Reveal explanation</summary><p>The two ventricles no longer receive activation through the rapid conducting network at the usual relative times. One region may be activated later through slower spread across working myocardium, causing different regions to contract less synchronously. The ECG may show a widened QRS complex.</p></details>
 
-**Supplementary 4. How does acetylcholine slow SA node discharge even though the node is automatic?**
+**Supplementary 4. Why might a person with complete AV block still have a pulse, yet feel dizzy?**
 
-<details><summary>Reveal explanation</summary><p>M2 signalling reduces cAMP-dependent pacemaker currents and activates potassium conductance. The maximum diastolic potential becomes more negative and phase 4 depolarization proceeds more slowly.</p></details>
+<details><summary>Reveal explanation</summary><p>A junctional or ventricular escape pacemaker may still trigger ventricular contractions, preserving a pulse. But the escape rhythm may be slow and atrial–ventricular coordination is lost, so cardiac output can fall and cerebral perfusion may become inadequate, causing dizziness. An escape rhythm is not guaranteed.</p></details>
 
 **Supplementary 5. What does AV nodal delay protect during normal filling?**
 
