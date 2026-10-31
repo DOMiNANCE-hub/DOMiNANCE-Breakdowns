@@ -106,7 +106,7 @@ In contrast, the **PR segment** runs from the **end** of P to the **start** of Q
 
 ### QRS complex — Ventricular depolarisation
 
-The **QRS complex** represents ventricular depolarisation. Ventricular muscle mass is much greater than atrial mass, so its summed signal is typically larger than the P wave. The lecturer quotes a QRS duration of approximately **0.06–0.10 seconds**; a duration **under 0.12 seconds** is a common broad normal clinical criterion.
+The **QRS complex** represents ventricular depolarisation. Ventricular muscle mass is much greater than atrial mass, so its summed signal is typically larger than the P wave. A QRS duration of approximately **0.06–0.10 seconds** is a useful teaching range; **under 0.12 seconds** is a common broad normal clinical criterion.
 
 **Q** is the first negative deflection before a positive R; **R** is a positive deflection; **S** is a negative deflection after an R. A particular lead need not show all three letters.
 
@@ -124,7 +124,7 @@ The **T wave** reflects the spread of ventricular repolarisation. Repolarisation
 
 ### U wave — Sometimes present, origin uncertain
 
-A small **U wave** may follow the T wave. The lecture calls it the final remnants of ventricular repolarisation; this is a traditional teaching description. **Its precise source is still debated**, so we should not present a specific proposed mechanism as settled fact.
+A small **U wave** may follow the T wave. Some introductory teaching describes it as the final remnants of ventricular repolarisation. **Its precise source is still debated**, so we should not present a specific proposed mechanism as settled fact.
 
 ### QT interval — Ventricular activation through recovery
 
@@ -148,7 +148,7 @@ This connects directly with Chapter 04's Wiggers diagram: **the ECG measures the
 
 ## 6. How do ECG paper squares represent time and voltage?
 
-The lecturer's standard settings are **25 mm/s** (paper speed) and **10 mm/mV** (voltage gain).
+Standard ECG recording settings are **25 mm/s** (paper speed) and **10 mm/mV** (voltage gain).
 
 <div class="ecg-calibration-mini" role="group" aria-label="ECG paper calibration"><div class="ecg-paper-sample" aria-hidden="true"></div><div><strong>At 25 mm/s</strong><p>1 small 1-mm horizontal square = <strong>0.04 s</strong><br>1 large 5-mm horizontal square = <strong>0.20 s</strong></p><p><strong>At 10 mm/mV:</strong> 1 small vertical square = <strong>0.1 mV</strong>; 1 large vertical square = <strong>0.5 mV</strong>.</p></div></div>
 
@@ -166,7 +166,7 @@ At 25 mm/s, the common shortcuts follow from 1500 small or 300 large squares pas
 
 <div class="equation-block"><span class="equation-label">25 mm/s · regular rhythm</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>HR</mi><mo>=</mo><mfrac><mn>1500</mn><msub><mi>N</mi><mtext>small squares</mtext></msub></mfrac></math><span class="equation-example">Or 300 ÷ number of large squares between consecutive R waves.</span></div>
 
-### Worked example: the lecturer's 22 small squares
+### Worked example: 22 small squares
 
 If an R–R interval spans **22 small squares**:
 
@@ -174,7 +174,7 @@ If an R–R interval spans **22 small squares**:
 
 **Heart rate = 60 ÷ 0.88 ≈ 68 beats/min**, equivalently 1500 ÷ 22 ≈ 68.
 
-**Important observation about slide 14:** Not all its R–R intervals appear equal. The calculation **1500 ÷ 22** gives the rate represented by *that particular interval*. It should not automatically be called the average rate for the whole irregular tracing.
+**Important clarification for the lecture tracing:** Not all the R–R intervals on slide 14 appear equal. The calculation **1500 ÷ 22** gives the rate represented by *that particular interval*. It should not automatically be called the average rate for the whole irregular tracing.
 
 ### What changes if the rhythm is irregular?
 
@@ -188,7 +188,7 @@ Each small horizontal square then represents **0.02 s**, so the shortcuts become
 
 ## 8. Basic rhythm assessment (supplementary)
 
-The lecture's central focus is ECG fundamentals, not a full arrhythmia course. Still, an initial rhythm assessment connects the tracing to its purpose.
+The emphasis here is ECG fundamentals, not a full arrhythmia course. Still, an initial rhythm assessment connects the tracing to its purpose.
 
 Ask four questions: **Is the ventricular rate appropriate? Are the R–R intervals regular? Are consistent P waves present before QRS? Is conduction through PR and QRS appropriate?**
 
