@@ -30,9 +30,15 @@ This register distinguishes **source/markup checks** from **scientific visual ve
 1. Compare each diagram visually with a reliable clinical/anatomical or physiological reference; record orientation, labels, directions and any exceptions.
 2. Verify equations, worked examples, physiological values and all Understanding Check answers.
 3. Where a verified lecture-slide statement differs from accepted physiology, teach the accurate mechanism in the main narrative and include a brief, explicitly sourced lecture-specific note only where necessary.
-4. Run `python build.py` from the root and compare generated `content.js` to the committed output; avoid relying on manual generated-file patches.
+4. Run `python scripts/check_content.py` and `python build.py` from the root; compare regenerated `content.js` to the committed output. The new `.github/workflows/cvs-content-validation.yml` runs source checks and a full build on GitHub Actions, but does not yet enforce generated-file parity.
 5. Test on a real narrow mobile viewport: equation wrapping, image sizing, captions, disclosure controls and navigation.
 6. Confirm that any third-party image credit and reuse conditions remain accurate.
 7. Only then mark Chapters 2–6 approved for merging. Apply the same release gates to the remaining chapters.
 
 **Status:** Source-level structural audit completed; visual, clinical and browser verification remain open. Do not label the project fully validated.
+
+## Automation added on this branch
+
+- `scripts/check_content.py` checks all 27 mapped topic sources, figure and disclosure tag pairing, and the 60 explanation-reveal checks in Chapters 2–6.
+- `.github/workflows/cvs-content-validation.yml` attempts a fresh compile on pushes and pull requests.
+- These checks do **not** replace visual inspection, scientific review, mobile browser testing, or confirming that the committed `content.js` exactly matches a fresh build.
