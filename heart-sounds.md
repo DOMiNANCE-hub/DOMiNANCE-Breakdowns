@@ -125,10 +125,9 @@ The best listening points on the chest are **not necessarily directly over the a
 | **Tricuspid** | Lower **left** sternal border |
 | **Mitral** | **Apex**, commonly fifth left intercostal space near midclavicular line |
 
-<figure class="teaching-illustration teaching-illustration-portrait" id="cvs05-auscultation">
-<a href="https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Heart_sounds_auscultation_areas.svg" alt="Anterior chest surface showing colour-coded cardiac auscultation points: navy aortic, yellow pulmonary, red tricuspid, green mitral, light blue Erb's point." width="436" height="600"></a>
-<figcaption><strong>Figure 01. Cardiac auscultation areas.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Vinne2, after Ickle and Gray's Anatomy · <a href="https://commons.wikimedia.org/wiki/File:Heart_sounds_auscultation_areas.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></details></figcaption>
-</figure>
+**Orientation check:** These are locations on the **patient's** chest, not the observer's. When facing a patient, the patient's left is on your right. The tricuspid area is at the **patient's lower left sternal border** (commonly around the fourth or fifth intercostal space). Do not confuse the valve's anatomical position with its best listening point.
+
+*The previous colour-coded illustration has been withdrawn because its tricuspid marker appeared on the patient's right, contradicting the correct landmark above. A verified replacement is required before reinstating it.*
 
 A stethoscope's **diaphragm** transmits many higher-frequency sounds well (e.g. S1, S2 and many murmurs). Its **bell**, applied lightly, can help detect low-frequency S3, S4 and some diastolic murmurs. This is a supplementary clinical technique.
 
