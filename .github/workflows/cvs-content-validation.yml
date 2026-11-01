@@ -28,3 +28,9 @@ jobs:
           assert s.count('"slug":') == 27, "Expected 27 compiled topics"
           print("Compiled content contains 27 topics.")
           PY
+      - name: Upload regenerated site content
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-cvs-content
+          path: content.js
+          retention-days: 7
