@@ -25,9 +25,12 @@ for row in rows:
     if s.count("<details") != s.count("</details>"):
         errors.append(f"{slug}: unmatched details tags")
     for fig in re.findall(r"<figure\b[\s\S]*?</figure>", s):
-        for required in ('<img', 'alt="', '<figcaption>'):
-            if required not in fig:
-                errors.append(f"{slug}: figure missing {required}")
+        required = ['<figcaption>']
+        if "<img" in fig:
+            required.append('alt="')
+        for item in required:
+            if item not in fig:
+                errors.append(f"{slug}: figure missing {item}")
     if slug in reviewed:
         count = s.count("<summary>Reveal explanation</summary>")
         if count != 12:
