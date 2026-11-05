@@ -99,5 +99,5 @@ Additional lecture inputs include cortical and hypothalamic influences, pulmonar
 
 ## Sources and scope
 
-- Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 18–36 (verify specific slide alignment against the original lecture deck before release).
+- Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 18–36.
 - Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.

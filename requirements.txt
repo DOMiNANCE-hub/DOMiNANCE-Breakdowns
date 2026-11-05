@@ -1,0 +1,2 @@
+# Build-time only: compiles the Markdown chapters into content.js. The website itself has no runtime dependencies.
+mistune==3.2.0
