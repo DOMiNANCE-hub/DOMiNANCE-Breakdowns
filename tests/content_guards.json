@@ -1,0 +1,129 @@
+{
+  "_about": "Regression guards carried over from the retired milestone workflows. Edit deliberately: when a chapter is rebuilt, update its entry in the same pull request and explain why. minimum_checks prevents accidental loss of Understanding Checks; it is not a target and may be changed when a chapter is redesigned.",
+  "expected_chapters": 27,
+  "minimum_figure_credits": 26,
+  "chapters": {
+    "cv-introduction": {
+      "minimum_checks": 12
+    },
+    "cardiac-muscle": {
+      "minimum_checks": 12
+    },
+    "cardiac-conduction": {
+      "minimum_checks": 12,
+      "required": [
+        "do not necessarily contain three separate, insulated conducting bundles"
+      ],
+      "forbidden": [
+        "The three internodal pathways shown"
+      ]
+    },
+    "cardiac-cycle": {
+      "minimum_checks": 12
+    },
+    "heart-sounds": {
+      "minimum_checks": 12
+    },
+    "ecg": {
+      "minimum_checks": 12
+    },
+    "cardiac-output": {
+      "minimum_checks": 12,
+      "required": [
+        "Cardiac index",
+        "5.25 L/min"
+      ],
+      "forbidden": [
+        "The lecturer"
+      ]
+    },
+    "co-measurement": {
+      "minimum_checks": 12,
+      "required": [
+        "V̇O₂",
+        "CₐO₂",
+        "CᵥO₂"
+      ]
+    },
+    "hemodynamics": {
+      "minimum_checks": 12,
+      "required": [
+        "Reynolds number",
+        "Hagen–Poiseuille",
+        "Pressure, flow and resistance"
+      ],
+      "forbidden": [
+        "The lecturer"
+      ]
+    },
+    "blood-pressure": {
+      "minimum_checks": 12,
+      "required": [
+        "Approximate mean arterial pressure",
+        "Pulse pressure",
+        "Hydrostatic pressure change"
+      ],
+      "forbidden": [
+        "The lecturer"
+      ]
+    },
+    "pulses": {
+      "minimum_checks": 12
+    },
+    "venous-return": {
+      "minimum_checks": 12,
+      "required": [
+        "Venous-return relation",
+        "Vascular compliance"
+      ]
+    },
+    "microcirculation": {
+      "minimum_checks": 12
+    },
+    "edema": {
+      "minimum_checks": 12
+    },
+    "lymphatics": {
+      "minimum_checks": 12
+    },
+    "local-regulation": {
+      "minimum_checks": 12
+    },
+    "neural-humoral": {
+      "minimum_checks": 12
+    },
+    "reflexes": {
+      "minimum_checks": 12
+    },
+    "gravity": {
+      "minimum_checks": 12
+    },
+    "shock": {
+      "minimum_checks": 12
+    },
+    "heart-failure": {
+      "minimum_checks": 12
+    },
+    "cerebral": {
+      "minimum_checks": 12,
+      "required": [
+        "Monro–Kellie"
+      ]
+    },
+    "coronary": {
+      "minimum_checks": 12
+    },
+    "pulmonary": {
+      "minimum_checks": 12
+    },
+    "splanchnic": {
+      "minimum_checks": 12
+    },
+    "skin": {
+      "minimum_checks": 12
+    },
+    "fetal": {
+      "minimum_checks": 12
+    }
+  }
+}

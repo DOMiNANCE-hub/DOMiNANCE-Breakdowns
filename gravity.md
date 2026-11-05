@@ -99,6 +99,6 @@ Another important effect is partial cerebral flow protection because both head-l
 
 ## Sources and scope
 
-- Primary: CIRCULATION 3 Homeostasis in CVS.pdf, slides 2–11 (verify specific slide alignment against the original lecture deck before release).
+- Primary: CIRCULATION 3 Homeostasis in CVS.pdf, slides 2–11.
 - Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
 - Clinical thresholds and mechanistic clarifications are supplementary and should not be mistaken for verbatim lecture claims.

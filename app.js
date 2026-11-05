@@ -97,7 +97,16 @@
     }
   ];
   const byLecture = new Map(lectures.map(l => [l.slug, l]));
-  const completed = new Set(JSON.parse(localStorage.getItem('dom-completed') || '[]'));
+  // Saved preferences are optional: storage can be blocked (private browsing, in-app browsers) or hold corrupt values.
+  const readStore = key => { try { return localStorage.getItem(key); } catch { return null; } };
+  const writeStore = (key, value) => { try { localStorage.setItem(key, value); } catch { /* preference is not saved */ } };
+  const readCompleted = () => {
+    try {
+      const saved = JSON.parse(readStore('dom-completed') || '[]');
+      return Array.isArray(saved) ? saved.filter(s => typeof s === 'string') : [];
+    } catch { return []; }
+  };
+  const completed = new Set(readCompleted());
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const topicUrl = (slug, from) => '#/physiology/cvs/' + slug + (from ? '?from=' + encodeURIComponent(from) : '');
   const lectureUrl = slug => '#/physiology/cvs/lecture/' + slug;
@@ -120,7 +129,7 @@
       <div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
       <label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
     const requestedView = new URLSearchParams((location.hash || '').split('?')[1] || '').get('view');
-    let mode = requestedView === 'topics' ? 'topics' : (localStorage.getItem('dom-library-view') === 'topics' ? 'topics' : 'lectures');
+    let mode = requestedView === 'topics' ? 'topics' : (readStore('dom-library-view') === 'topics' ? 'topics' : 'lectures');
     let term = '';
     let group = 'All';
     const draw = () => {
@@ -144,7 +153,7 @@
       }
     };
     document.querySelector('#search').addEventListener('input', e => {term = e.target.value.trim().toLowerCase(); draw();});
-    document.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => {mode = b.dataset.mode; term = ''; group = 'All'; document.querySelector('#search').value = ''; localStorage.setItem('dom-library-view', mode); draw();}));
+    document.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => {mode = b.dataset.mode; term = ''; group = 'All'; document.querySelector('#search').value = ''; writeStore('dom-library-view', mode); draw();}));
     draw();
   }
 
@@ -174,7 +183,7 @@
     main.innerHTML = `<div class="breadcrumb"><a href="${baseUrl}">Physiology</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${breadcrumb} / ${esc(t.title)}</div><div class="article-layout"><article class="article-sheet"><div class="article-top"><span class="topic-flag">${esc(t.group)} · CVS</span><span class="topic-flag">Explanatory breakdown</span></div><h1>${esc(t.title)}</h1><div class="article-summary">${sourceLecture ? `From <strong>${esc(sourceLecture.file)}</strong>${scope ? `, slides ${esc(scope[1])}` : ''}. ` : ''}Study one idea at a time: understand the mechanism, then check your reasoning.</div><div class="mobile-sections"><label for="sections-select" class="group-label">Jump to a section</label><select id="sections-select"><option value="">Select section…</option>${t.sections.map(s => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></div><div class="article-text">${window.DOM_DIAGRAMS?.[t.slug] || ''}${t.html}</div><div class="article-end"><button id="mark-read" class="btn btn-primary">${completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed'}</button>${sourceLecture ? `<a class="btn" href="${lectureUrl(sourceLecture.slug)}">← Back to lecture outline</a>` : ''}${next ? `<a class="btn" href="${topicUrl(next.slug, sourceLecture?.slug)}">Next: ${esc(next.title)} →</a>` : `<a class="btn" href="${baseUrl}">All CVS topics →</a>`}</div></article><aside class="toc"><h2>In this breakdown</h2>${toc}<div class="toc-info">Short teaching sections with explanations and quick checks.</div><div class="nav-bottom">${prev ? `<a href="${topicUrl(prev.slug, sourceLecture?.slug)}">← Previous topic</a>` : ''}${sourceLecture ? `<a href="${lectureUrl(sourceLecture.slug)}">Back to ${esc(sourceLecture.name)}</a>` : `<a href="${baseUrl}">All CVS topics</a>`}${next ? `<a href="${topicUrl(next.slug, sourceLecture?.slug)}">Next topic →</a>` : ''}</div></aside></div>`;
     document.getElementById('mark-read').addEventListener('click', () => {
       if (completed.has(t.slug)) completed.delete(t.slug); else completed.add(t.slug);
-      localStorage.setItem('dom-completed', JSON.stringify([...completed]));
+      writeStore('dom-completed', JSON.stringify([...completed]));
       document.getElementById('mark-read').textContent = completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed';
     });
     document.querySelectorAll('[data-scroll]').forEach(a => a.addEventListener('click', e => {e.preventDefault();document.getElementById(a.dataset.scroll)?.scrollIntoView({behavior:'smooth'});}));
@@ -202,11 +211,11 @@
   window.addEventListener('hashchange', navigate);
   window.addEventListener('scroll', updateProgress, {passive:true});
   window.addEventListener('resize', updateProgress);
-  document.documentElement.setAttribute('data-theme', localStorage.getItem('dom-theme') || 'light');
+  document.documentElement.setAttribute('data-theme', readStore('dom-theme') === 'dark' ? 'dark' : 'light');
   document.getElementById('theme-toggle').addEventListener('click', () => {
     const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
     document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('dom-theme', next);
+    writeStore('dom-theme', next);
   });
   navigate();
 })();

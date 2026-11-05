@@ -1,0 +1,70 @@
+name: CI
+
+# One quality gate for every pull request and for main.
+# It only reads the repository: it never commits, pushes or deploys.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Build, structure audit and browser tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install build dependency
+        run: pip install -r requirements.txt
+
+      - name: Rebuild content.js and confirm it matches the committed file
+        run: |
+          python build.py
+          if ! git diff --quiet -- content.js; then
+            echo "::error file=content.js::content.js is out of date. Run 'python build.py' and commit the result."
+            git diff --stat -- content.js
+            exit 1
+          fi
+
+      - name: Audit self-tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Structural audit of all chapters
+        run: python audit_quality.py --report "$RUNNER_TEMP/structure-report.json"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: JavaScript syntax check
+        run: for f in *.js tests/*.js; do node --check "$f" || exit 1; done
+
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.63.0
+          npx playwright install --with-deps chromium
+
+      - name: Browser regression suite (27 chapters, 320–1280 px, phone emulation)
+        run: node tests/browser_smoke.js
+
+      - name: Keep the structure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: structure-report
+          path: ${{ runner.temp }}/structure-report.json
+          if-no-files-found: ignore

@@ -56,17 +56,23 @@ def readable_math(html):
             raise ValueError('Invalid MathML in chapter content: '+m.group(0)[:150])
     return re.sub(r'<math\b[^>]*>[\s\S]*?</math>',replace,html)
 
+def search_text(html):
+    """Full plain text of a chapter for in-page search (never truncated)."""
+    text=html_module.unescape(re.sub(r'<[^>]+>',' ',html))
+    text=re.sub(r'\s+',' ',text)
+    # Tags become spaces; remove the artefact space this leaves before punctuation (e.g. "</em>;").
+    return re.sub(r' ([,.;:!?)\]])',r'\1',text).strip()
+
 topics=[]
 for row in rows:
     fp=ROOT/f'{row["slug"]}.md'
     text=fp.read_text(encoding='utf-8')
     html=readable_math(md(text))
     html,sections=make_sections(html)
-    # Math is optional progressive enhancement; without it, display concise text formulas.
     topics.append({'slug':row['slug'],'title':row['title'],'group':row['group'],
       'source':row['source_primary'],'pages':row['source_pages'],
       'coverage':row['coverage_type'],'priority':row['priority'],
-      'sections':sections,'html':html,'plain':re.sub(r'<[^>]+>',' ',html)[:20000]})
+      'sections':sections,'html':html,'plain':search_text(html)})
 script='window.DOMINANCE_TOPICS = '+json.dumps(topics,ensure_ascii=False,separators=(',',':'))+';\n'
 (ROOT/'content.js').write_text(script,encoding='utf-8')
 print('Built',len(topics),'topics, total',round(len(script)/1024),'KiB')

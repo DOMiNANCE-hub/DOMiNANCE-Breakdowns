@@ -109,5 +109,5 @@ The lecture includes concealed internal bleeding after femoral fracture, splenic
 
 ## Sources and scope
 
-- Primary: CIRCULATION 3 Homeostasis in CVS.pdf, slides 12–30 (verify specific slide alignment against the original lecture deck before release).
+- Primary: CIRCULATION 3 Homeostasis in CVS.pdf, slides 12–30.
 - Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
