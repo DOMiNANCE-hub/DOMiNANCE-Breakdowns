@@ -4,7 +4,17 @@
   "minimum_figure_credits": 25,
   "chapters": {
     "cv-introduction": {
-      "minimum_checks": 12
+      "minimum_checks": 11,
+      "required": [
+        "Same volume per minute, different pressure",
+        "Valves contain no muscle",
+        "grows with the square of the distance",
+        "in parallel"
+      ],
+      "forbidden": [
+        "Does ventricular contraction always mean blood is being ejected",
+        "Supplementary 1."
+      ]
     },
     "cardiac-muscle": {
       "minimum_checks": 12

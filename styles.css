@@ -556,3 +556,11 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
  .glossary-popup.is-sheet .gl-learn{display:flex;justify-content:center;min-height:46px;margin-top:14px;border-radius:12px;background:var(--navy2);color:var(--sheet)}
  .glossary-popup.is-sheet .gl-close{display:block;position:absolute;top:8px;right:8px;width:44px;height:44px;border:0;background:transparent;color:var(--muted);font-size:24px;line-height:1}
 }
+
+/* ---------- Circulation overview (Chapter 1) ---------- */
+.tw-svg .cm-line{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.tw-svg .cm-rich{stroke:var(--w-ao)}.tw-svg .cm-poor{stroke:var(--w-lv)}
+.tw-svg .cm-head.cm-rich{fill:var(--w-ao);stroke:none}.tw-svg .cm-head.cm-poor{fill:var(--w-lv);stroke:none}
+.tw-svg .cm-rich-text{fill:var(--w-ao)}.tw-svg .cm-poor-text{fill:var(--w-lv)}
+.tw-svg .cm-organ{stroke:var(--w-vol)}.tw-svg .cm-lungs{stroke:var(--w-vol);stroke-width:2}
+.tw-svg .cm-bracket{fill:none;stroke:var(--muted);stroke-width:1.6}
