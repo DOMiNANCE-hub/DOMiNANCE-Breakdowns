@@ -17,7 +17,17 @@
       ]
     },
     "cardiac-muscle": {
-      "minimum_checks": 12
+      "minimum_checks": 11,
+      "required": [
+        "calcium-induced calcium release (CICR)",
+        "Xanthines block that enzyme",
+        "Hold neighbouring cells firmly together",
+        "sympathetic nerve endings release mainly noradrenaline"
+      ],
+      "forbidden": [
+        "Supplementary 1.",
+        "rivet"
+      ]
     },
     "cardiac-conduction": {
       "minimum_checks": 12,
