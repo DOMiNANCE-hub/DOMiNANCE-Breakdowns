@@ -564,3 +564,26 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .cm-rich-text{fill:var(--w-ao)}.tw-svg .cm-poor-text{fill:var(--w-lv)}
 .tw-svg .cm-organ{stroke:var(--w-vol)}.tw-svg .cm-lungs{stroke:var(--w-vol);stroke-width:2}
 .tw-svg .cm-bracket{fill:none;stroke:var(--muted);stroke-width:1.6}
+
+/* ---------- Calcium cycle stepper (Chapter 2) ---------- */
+.tw-svg .cc-membrane{fill:none;stroke:var(--muted);stroke-width:3;stroke-linejoin:round}
+.tw-svg .cc-ttub{fill:color-mix(in srgb,var(--w-vol) 10%,transparent);stroke:none}
+.tw-svg .cc-sr{fill:color-mix(in srgb,var(--w-lv) 14%,transparent);stroke:var(--w-lv);stroke-width:2}
+.tw-svg .cc-channel{fill:var(--sheet);stroke:var(--navy);stroke-width:2}
+.tw-svg .cc-pump{fill:var(--sheet);stroke:var(--navy);stroke-width:2}
+.tw-svg .cc-pointer{stroke:var(--muted);stroke-width:1.2}
+.tw-svg .cc-actin-line{stroke:var(--w-vol);stroke-width:5;stroke-linecap:round}
+.tw-svg .cc-myosin{stroke:var(--w-ao);stroke-width:8;stroke-linecap:round}
+.tw-svg .cc-head{stroke:var(--w-ao);stroke-width:3;stroke-linecap:round}
+.tw-svg .cc-zline{stroke:var(--navy);stroke-width:3}
+.tw-svg .cc-actin,.tw-svg .cc-zline{transition:transform .6s ease}
+.tw-svg.cc-contracted .cc-left{transform:translateX(18px)}.tw-svg.cc-contracted .cc-right{transform:translateX(-18px)}
+.tw-svg .cc-ion{fill:var(--gold);stroke:var(--navy);stroke-width:1;transition:transform .7s ease}
+.tw-svg .cc-ion.cc-trigger{fill:#e8a33d}
+.tw-svg .cc-part{opacity:.55;transition:opacity .25s}
+.tw-svg .cc-part.is-on{opacity:1}
+.tw-svg .cc-part.is-on .cc-channel,.tw-svg .cc-part.is-on .cc-pump{stroke:var(--gold);stroke-width:3.5}
+.tw-svg .cc-part.is-on .cc-ttub{fill:color-mix(in srgb,var(--gold) 28%,transparent)}
+.tw-svg .cc-signal{opacity:0;transition:opacity .3s}.tw-svg .cc-signal.is-on{opacity:1}
+.tw-svg .cc-plus{fill:var(--gold);font-weight:800;font-size:16px}
+@media (prefers-reduced-motion:reduce){.tw-svg .cc-ion,.tw-svg .cc-actin{transition:none}}

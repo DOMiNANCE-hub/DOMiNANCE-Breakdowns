@@ -2,34 +2,36 @@
 
 ## 1. What makes cardiac muscle different?
 
-The heart must contract repeatedly throughout life, generating enough force to circulate blood while allowing sufficient time for its chambers to refill between beats. Its cells must respond to electrical stimulation, communicate with neighbouring cells and relax effectively after each contraction.
+Heart muscle has to do something no other muscle does: contract about once a second for a whole lifetime, without tiring, and relax completely between beats so the chambers can refill. Its special features follow from those demands.
 
-Cardiac muscle is **striated and involuntary**, with short, branched cells that typically contain one centrally located nucleus. Like skeletal muscle, its contractile proteins are organised into sarcomeres containing actin and myosin.
+Like skeletal muscle, cardiac muscle is **striated**. Its actin and myosin filaments are arranged in repeating units called **<span data-term="sarcomere">sarcomeres</span>**, which shorten when the muscle contracts. Unlike skeletal muscle, it is **involuntary**, and its cells are short and branched, usually with one central nucleus.
 
-However, cardiac muscle has several distinctive features:
+Every heartbeat follows the same chain of events, and this chapter follows it link by link:
 
-- **Intercalated discs** connect neighbouring cardiomyocytes mechanically and electrically.
-- **Prolonged action potentials and refractory periods** prevent normal tetanic contraction.
-- **Calcium-induced calcium release** links electrical excitation to contraction.
-- **Numerous mitochondria** support its continuous demand for ATP.
+**electrical signal → calcium enters the cell → the cell's calcium store releases much more → actin and myosin pull → calcium is removed → the muscle relaxes.**
 
-Cardiac muscle exhibits excitability, conductivity and contractility. Automaticity—the ability to generate impulses spontaneously—is particularly important in specialised pacemaker cells rather than every working ventricular myocyte.
+Four features make this chain work in the heart:
+
+- **Intercalated discs** join the cells, so the signal spreads and the cells pull together (<a href="#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together">§2</a>).
+- **A long action potential with a plateau** lets calcium in and stops the muscle from locking in contraction (<a href="#/physiology/cvs/cardiac-muscle?section=3-the-cardiac-muscle-action-potential">§3</a>, <a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
+- **Calcium-induced calcium release** links the electrical signal to contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
+- **Many mitochondria** supply a constant stream of ATP. Heart muscle depends almost entirely on aerobic metabolism, so it needs oxygen all the time. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
+
+A few specialised heart cells can fire on their own; this is **<span data-term="automaticity">automaticity</span>**. Ordinary working muscle cells normally don't: they wait to be excited by their neighbours. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 ## 2. Intercalated discs: how separate cells function together
 
-A single cardiac muscle cell cannot pump blood effectively in isolation. To generate coordinated force, neighbouring cells must remain firmly connected and transmit electrical signals to one another.
+One heart muscle cell on its own cannot pump blood. Thousands must contract together, and each cell's pull must pass to the next. Both jobs happen at the **intercalated discs**, where neighbouring cells meet end to end.
 
-These connections occur at **intercalated discs**, which contain three important junctional structures.
-
-| Structure | Role |
+| Structure | What it does |
 |---|---|
-| **Fascia adherens** | Anchor actin filaments and transmit contractile force between cells. |
-| **Desmosomes** | Hold neighbouring cells together, resisting separation during repeated contractions. |
-| **Gap junctions** | Permit ionic current to pass between cells, allowing electrical excitation to spread. |
+| **Fascia adherens** | Anchors the actin filaments of neighbouring cells, so the pull passes from one cell to the next |
+| **Desmosomes** | Hold neighbouring cells firmly together, so they don't tear apart under repeated force |
+| **Gap junctions** | Tiny channels that let ions (electrical current) flow straight from one cell into the next |
 
-When one cardiomyocyte becomes electrically excited, local current passes through gap junctions to neighbouring cells, bringing their membranes towards threshold and propagating the action potential. Fascia adherens and desmosomes maintain mechanical continuity as those cells contract.
+When one cell is excited, current flows through its gap junctions into its neighbours and brings them to threshold. The signal spreads from cell to cell, and the whole chamber contracts almost as one. The other two junctions hold the cells together while they pull.
 
-Thus, cardiac muscle behaves as a **<span data-term="functional-syncytium">functional syncytium</span>**: many separate cells act together as a coordinated unit. The atria and ventricles form two electrically distinct functional syncytia. Their usual connection is through the specialised atrioventricular conducting pathway, allowing atrial contraction to precede ventricular contraction.
+So heart muscle behaves as a **<span data-term="functional-syncytium">functional syncytium</span>**: *syn* (together) + *cyt* (cell), meaning separate cells working as one unit. The atria form one syncytium and the ventricles another. Between them lies a ring of fibrous tissue that does not conduct. The only normal electrical route across it is the <span data-term="av-node">AV node</span>, which is why the AV node controls when the ventricles contract after the atria. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-01">
 <a href="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" alt="Branched cardiac muscle fibres and an enlarged intercalated disc showing desmosomes and gap junctions." width="1018" height="476"></a>
@@ -38,172 +40,167 @@ Thus, cardiac muscle behaves as a **<span data-term="functional-syncytium">funct
 
 ## 3. The cardiac muscle action potential
 
-For a ventricular cardiomyocyte to contract, its membrane must first undergo an **action potential**—a temporary change in membrane potential resulting from ionic movements.
+An **action potential** is a brief electrical change across the cell membrane: the inside of the cell swings from negative to positive and back again. It is the signal that tells the cell to contract.
 
-Unlike the brief action potential of skeletal muscle, a ventricular action potential lasts approximately **200–300 milliseconds** and has a prolonged plateau. Its resting membrane potential is approximately **−90 mV**.
+In ventricular muscle, the cell rests at about **−90 mV**. Its action potential lasts about **200–300 ms**, roughly 100 times longer than a skeletal muscle action potential. That extra length comes from a long, flat **plateau**.
 
-| Phase | Main electrical event |
+| Phase | What happens |
 |---|---|
-| **Phase 0 — Rapid depolarisation** | Fast voltage-gated Na⁺ channels open, producing rapid Na⁺ influx. |
-| **Phase 1 — Initial repolarisation** | Fast Na⁺ channels inactivate, while transient outward K⁺ current produces a brief fall in membrane potential. |
-| **Phase 2 — Plateau** | Inward Ca²⁺ current through L-type channels partly balances outward K⁺ current. |
-| **Phase 3 — Repolarisation** | Ca²⁺ entry declines, and outward K⁺ currents restore the negative membrane potential. |
-| **Phase 4 — Resting phase** | A relatively stable membrane potential is maintained largely by resting K⁺ conductance. |
+| **0: Rapid upstroke** | Fast Na⁺ channels open. Na⁺ rushes in, and the inside of the cell becomes positive within about a millisecond. |
+| **1: Small dip** | The Na⁺ channels close, and a brief outflow of K⁺ pulls the voltage down slightly. |
+| **2: Plateau** | L-type Ca²⁺ channels (L = long-lasting) let Ca²⁺ in, while K⁺ leaks out. The two roughly cancel, so the voltage stays nearly flat. |
+| **3: Repolarisation** | The Ca²⁺ channels close, the K⁺ outflow wins, and the inside returns to negative. |
+| **4: Rest** | The cell stays steady at about −90 mV, held there by K⁺ channels that are open at rest. |
 
-### Why does the plateau occur?
+**Why does the plateau matter?** It has two jobs:
 
-During phase 2, Ca²⁺ entering the cell tends to maintain depolarisation while K⁺ leaving the cell tends to repolarise it. Because these currents partly balance one another, membrane potential changes relatively slowly. The resulting plateau prolongs the action potential and refractory period, while the Ca²⁺ entering through L-type channels also helps trigger contraction.
+1. **It lets calcium in.** The Ca²⁺ entering during the plateau is the trigger for contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
+2. **It keeps the cell <span data-term="refractory-period">refractory</span>**, meaning it cannot fire again until its contraction is nearly over. This prevents tetanus (<a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
+
+**You can see the action potential on the ECG.** The ECG lecture links the flat **ST segment** to the plateau, when all the ventricular muscle is depolarised. The **QT interval** roughly matches how long a ventricular action potential lasts. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
 <figcaption><strong>Figure 02. Electrical activity, refractoriness and contraction.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
-**Important distinction:** This is a ventricular *contractile-cell* action potential. Sinoatrial nodal pacemaker cells have no stable resting membrane potential, and their phase 0 upstroke relies primarily on Ca²⁺ entry rather than fast Na⁺ entry. Their behaviour belongs in the Cardiac Conduction and Automaticity chapter.
+**Important distinction:** this is the action potential of a working ventricular muscle cell. Pacemaker cells in the <span data-term="sa-node">SA node</span> have no steady resting voltage, and their upstroke is driven mainly by Ca²⁺, not by fast Na⁺. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 <div class="media-resource video-resource" data-youtube-id="v7Q9BrNfIpQ" data-media-title="Cardiac Action Potential — Alila Medical Media"><span class="media-eyebrow">OPTIONAL NARRATED VIDEO</span><h3>Cardiac Action Potential — Alila Medical Media</h3><p>Revisit the ventricular action potential: identify the fast Na⁺ upstroke, Ca²⁺-dependent plateau and prolonged refractory period. The chapter text above remains the complete explanation.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=v7Q9BrNfIpQ" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© Alila Medical Media. Official YouTube embed; not downloaded or rehosted.</p></div>
 
+**Understanding Check: Sections 1–3**
+
+<p><strong>1.</strong> Neighbouring cardiac cells stay firmly attached but no longer contract together. Which junction has most likely failed?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Desmosomes, which hold neighbouring cells together</span><span class="mcq-option" data-option="B">B. Gap junctions, which let current pass between cells</span><span class="mcq-option" data-option="C">C. Fascia adherens, which anchor the actin filaments</span><span class="mcq-option" data-option="D">D. T-tubules, which carry the signal into each cell</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Gap junctions carry the electrical current from cell to cell. Without them the signal can't spread, so the cells stop contracting together, even though desmosomes and fascia adherens still hold them firmly attached.</p></details>
+
+<p><strong>2.</strong> What keeps the ventricular action potential flat during the plateau?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Fast Na⁺ channels staying open for about 200 ms</span><span class="mcq-option" data-option="B">B. The Na⁺–K⁺ pump stopping until contraction ends</span><span class="mcq-option" data-option="C">C. Ca²⁺ flowing in while K⁺ flows out at a similar rate</span><span class="mcq-option" data-option="D">D. Gap junctions holding the voltage of neighbouring cells</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Inward Ca²⁺ through L-type channels balances outward K⁺, so the voltage barely changes. The fast Na⁺ channels close within a few milliseconds of the upstroke.</p></details>
+
+<p><strong>3.</strong> On the ECG, which part matches the plateau of the ventricular action potential?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The ST segment</span><span class="mcq-option" data-option="B">B. The P wave</span><span class="mcq-option" data-option="C">C. The QRS complex</span><span class="mcq-option" data-option="D">D. The T wave</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> During the plateau, all the ventricular muscle is depolarised at once, so no current flows between regions and the ECG trace stays flat. The QRS complex is the upstroke spreading through the ventricles, and the T wave is repolarisation.</p></details>
+
 ## 4. Excitation–contraction coupling: from electrical signal to force
 
-An action potential must initiate changes inside the cardiomyocyte that activate the contractile proteins **(actin and myosin)**. This is **<span data-term="ecc">excitation–contraction coupling (ECC)</span>**, and its essential link is **Ca²⁺**.
+**<span data-term="ecc">Excitation–contraction coupling</span>** is the chain that turns the electrical signal into force. The link between the two is **calcium (Ca²⁺)**.
 
-1. **The action potential reaches the T-tubules.** Electrical excitation spreads along the sarcolemma and into T-tubules, carrying depolarisation into the cell.
-2. **L-type Ca²⁺ channels open.** Depolarisation permits a small influx of extracellular Ca²⁺ through L-type channels.
-3. **Ca²⁺ triggers further release.** The incoming Ca²⁺ activates **RyR2 (Ryanodine Receptor Type 2)** channels on the sarcoplasmic reticulum (SR), releasing much more stored Ca²⁺. This is **<span data-term="cicr">CICR (Calcium-Induced Calcium Release)</span>**. Entering Ca²⁺ is the trigger; the SR supplies much of the Ca²⁺ that activates contraction.
-4. **Ca²⁺ binds troponin C.** Tropomyosin moves away from the myosin-binding sites on actin.
-5. **Actin–myosin cross-bridge cycling produces force.** Myosin interacts with actin using energy from ATP hydrolysis, shortening sarcomeres and generating contraction.
+1. **The signal travels into the cell.** The action potential spreads along the cell surface and down the **<span data-term="t-tubules">T-tubules</span>**, tubes of surface membrane that dive deep into the cell.
+2. **A little Ca²⁺ enters.** The change in voltage opens **L-type Ca²⁺ channels** in the T-tubules, and a small amount of Ca²⁺ flows in from outside the cell.
+3. **That Ca²⁺ releases much more.** The incoming Ca²⁺ opens the release channels (**RyR2**, ryanodine receptor type 2) of the **<span data-term="sarcoplasmic-reticulum">sarcoplasmic reticulum (SR)</span>**, the cell's internal calcium store. The SR pours out far more Ca²⁺. This is **<span data-term="cicr">calcium-induced calcium release (CICR)</span>**: the entering Ca²⁺ is the trigger, and the SR supplies most of the Ca²⁺ that drives contraction.
+4. **Ca²⁺ unlocks the filaments.** Ca²⁺ binds to **troponin C** on the actin filament. This shifts **tropomyosin**, uncovering the spots where myosin can grab actin.
+5. **Myosin pulls.** Myosin heads attach to actin and pull, using energy from ATP. The sarcomeres shorten and the cell contracts.
+
+<figure class="learning-figure teaching-widget" data-widget="calcium-cycle"><figcaption>The calcium cycle, step by step</figcaption><p>One simple drawing of a heart muscle cell shows the cell membrane with a T-tubule, an L-type channel, the SR with its release channel (RyR2) and its pump (SERCA2a), the Na⁺–Ca²⁺ exchanger (NCX), and one actin–myosin unit. Next/Back steps through seven stages. At each stage the part involved lights up, with one plain sentence underneath: (1) the signal arrives down the T-tubule; (2) a little Ca²⁺ enters through the L-type channel; (3) the SR releases much more Ca²⁺; (4) Ca²⁺ binds troponin C, uncovering actin; (5) myosin pulls, and the cell contracts; (6) SERCA2a pumps Ca²⁺ back into the SR; (7) NCX pushes Ca²⁺ out of the cell, and the cell relaxes. Ca²⁺ is shown as dots that move between compartments. The text explains everything without the widget.</p></figure>
 
 <figure class="teaching-illustration" id="cvs02-figure-03">
 <a href="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" alt="Diagram showing cardiac T-tubule L-type calcium channels, ryanodine receptor, sodium–calcium exchanger, sarcoplasmic reticulum, SERCA and phospholamban." width="756" height="567"></a>
 <figcaption><strong>Figure 03. Cardiac calcium cycling.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer">PeaBrainC</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
-### Why is extracellular Ca²⁺ especially important in cardiac muscle?
-
-In skeletal muscle, an action potential activates voltage-sensitive proteins in the T-tubule membrane. These proteins are physically connected to Ca²⁺-release channels on the SR, so activation directly opens those channels and releases stored Ca²⁺. In other words, skeletal muscle does not first require Ca²⁺ to enter from outside to trigger SR release.
-
-Cardiac muscle works differently: extracellular Ca²⁺ must enter through L-type channels first, and that incoming Ca²⁺ activates RyR2 channels to release more Ca²⁺ from the SR. **Skeletal muscle uses direct mechanical coupling; cardiac muscle uses CICR.** Reducing Ca²⁺ entry into cardiac muscle therefore generally weakens contraction, even if the SR still contains stored Ca²⁺.
+**Why does heart muscle depend on calcium from outside the cell?** In skeletal muscle, the voltage sensor in the T-tubule is mechanically linked to the SR's release channel, so the signal opens the store directly; no outside Ca²⁺ is needed. Heart muscle has no such direct link. Ca²⁺ must first enter from outside to open the store. **Skeletal muscle uses a direct mechanical link; heart muscle uses CICR.** So anything that reduces Ca²⁺ entry, such as calcium-channel-blocking drugs, weakens the heart's contraction, even if the SR is still full.
 
 ## 5. How does cardiac muscle relax?
 
-The myocardium must relax after each contraction so its chambers can refill. Cytosolic Ca²⁺ must fall: Ca²⁺ dissociates from troponin C, tropomyosin again limits myosin-binding sites on actin, and interactions between the contractile proteins **(actin and myosin)** decrease.
+To relax, the cell must lower its Ca²⁺ again. Ca²⁺ leaves troponin C, tropomyosin covers the binding spots on actin again, and myosin lets go.
 
-Two major mechanisms remove cytosolic Ca²⁺:
+Two main pumps remove the Ca²⁺:
 
-- **<span data-term="serca">SERCA2a (Sarco/Endoplasmic Reticulum Calcium ATPase, isoform 2a)</span>:** Uses ATP to pump Ca²⁺ back into the SR for storage and reuse.
-- **<span data-term="ncx">NCX (Na⁺–Ca²⁺ Exchanger)</span>:** Normally uses the Na⁺ gradient to extrude Ca²⁺ from the cell.
+- **<span data-term="serca">SERCA2a</span>** (the sarco-endoplasmic reticulum Ca²⁺ pump) is a pump in the SR membrane, powered by ATP. It pumps Ca²⁺ back into the SR, ready for the next beat.
+- **<span data-term="ncx">NCX</span>** (the Na⁺–Ca²⁺ exchanger) sits in the cell membrane. It uses the Na⁺ gradient to swap Na⁺ in for Ca²⁺ out, removing roughly the Ca²⁺ that entered during the beat.
 
-Other pathways, including the plasma membrane Ca²⁺ ATPase, make smaller contributions.
+Other pathways, including a Ca²⁺ pump in the cell membrane, play smaller parts. **Relaxation therefore uses energy, just as contraction does.**
 
-### Why does impaired SERCA2a activity matter?
+**What if SERCA2a works too slowly?**
 
-**Slower relaxation:** When Ca²⁺ is returned to the SR more slowly, cytosolic Ca²⁺ remains elevated longer, delaying relaxation and potentially impairing ventricular filling.
+- **Relaxation is delayed.** Ca²⁺ stays high in the cell for longer, so the muscle stays partly contracted and the ventricle fills less well.
+- **Later beats can be weaker.** Less Ca²⁺ goes back into the SR, so less is available to release on the next beat.
 
-**Potentially weaker later contractions:** Less Ca²⁺ may be stored in the SR for the next heartbeat. Consequently, less Ca²⁺ may be released to activate actin–myosin interactions on subsequent beats.
-
-Effective pumping therefore depends on **both strong contraction and efficient relaxation**.
+Good pumping needs **both a strong contraction and a fast, complete relaxation**.
 
 ## 6. Why can't cardiac muscle undergo normal tetanus?
 
-Skeletal muscle can undergo sustained tetanic contraction because its electrical refractory period is much shorter than its mechanical twitch. Repeated stimuli can arrive while force is still being generated.
+In skeletal muscle, the action potential is over in a few milliseconds, long before the twitch ends. A second stimulus can arrive while the muscle is still contracting, and rapid stimuli add up into one sustained contraction: **tetanus**.
 
-Cardiac muscle has a prolonged action potential and **long refractory period** that overlaps most of its contraction. It cannot normally be re-excited rapidly enough for skeletal-type fused tetanus.
+Heart muscle can't do this. As the lecture puts it, it is impossible to tetanise cardiac muscle because of the **long refractory period** of its action potential. The refractory period lasts almost as long as the contraction itself. By the time the cell can fire again, it has already begun to relax.
 
-This protects the heart's rhythmic pumping: if the ventricles stayed contracted continuously, they could not relax, refill and eject blood in successive beats. See Figure 02 for the electrical and mechanical timing.
+**Why this matters:** a heart locked in sustained contraction could not refill, so it would pump nothing. The long refractory period guarantees that the ventricles relax and refill between beats. Figure 02 shows how the refractory period and the contraction line up.
 
-## 7. How does sympathetic stimulation affect cardiac muscle?
+**Understanding Check: Sections 4–6**
 
-During exercise or stress, the heart may need to beat faster, contract more strongly and relax more quickly.
+<p><strong>1.</strong> Ca²⁺ still enters through L-type channels, but the SR's release channels (RyR2) fail to open. What happens to contraction?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It is much weaker, because the SR's large Ca²⁺ store is not released</span><span class="mcq-option" data-option="B">B. It is normal, because the entering Ca²⁺ is enough on its own</span><span class="mcq-option" data-option="C">C. It is stronger, because more Ca²⁺ stays in the extracellular fluid</span><span class="mcq-option" data-option="D">D. It becomes sustained, because Ca²⁺ can no longer be pumped away</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The entering Ca²⁺ is only the trigger. Most of the Ca²⁺ that activates the filaments comes from the SR, so without RyR2 release the rise in Ca²⁺ is far too small.</p></details>
 
-Noradrenaline and adrenaline stimulate **β₁-adrenergic receptors** on cardiomyocytes:
+<p><strong>2.</strong> SERCA2a pumps work more slowly than normal. What is the most likely immediate effect?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The action potential upstroke becomes slower</span><span class="mcq-option" data-option="B">B. Gap junctions close, so cells contract one at a time</span><span class="mcq-option" data-option="C">C. The heart can now be tetanised by rapid stimuli</span><span class="mcq-option" data-option="D">D. Relaxation is delayed because Ca²⁺ in the cell stays high</span></span></p>
+<details class="mcq-answer" data-answer="D"><summary>Show answer and explanation</summary><p><em>Answer: D.</em> SERCA2a is the main route for removing Ca²⁺ after a beat. If it slows, Ca²⁺ stays bound to troponin for longer and relaxation is delayed. Over later beats, less Ca²⁺ is stored for release.</p></details>
 
-**Noradrenaline/adrenaline → β₁ receptor → Gs protein → adenylyl cyclase → increased cAMP (cyclic adenosine monophosphate) → activation of PKA (Protein Kinase A).**
+<p><strong>3.</strong> Why can't a rapid series of stimuli make cardiac muscle contract continuously?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Cardiac muscle stores no calcium in its SR</span><span class="mcq-option" data-option="B">B. Gap junctions block stimuli that arrive too quickly</span><span class="mcq-option" data-option="C">C. Its long refractory period lasts most of the contraction</span><span class="mcq-option" data-option="D">D. The vagus nerve relaxes the muscle between beats</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> The cell cannot fire again until its contraction is nearly over, so contractions cannot add up into tetanus. This guarantees relaxation and filling between beats.</p></details>
 
-PKA phosphorylates proteins involved in Ca²⁺ handling, leading to two particularly important effects:
+## 7. How do the sympathetic and vagal nerves change cardiac muscle?
 
-- **Stronger contraction:** Enhanced L-type Ca²⁺ channel activity increases trigger Ca²⁺ entry, promoting greater SR Ca²⁺ release and stronger actin–myosin interaction.
-- **Faster relaxation:** PKA phosphorylation of **<span data-term="phospholamban">phospholamban</span>** reduces its usual inhibition of SERCA2a, allowing Ca²⁺ to return to the SR more rapidly.
+**Sympathetic stimulation** prepares the heart for exercise or stress: stronger beats, faster relaxation and a faster rate.
 
-### Inotropy, lusitropy and chronotropy
+**Noradrenaline** (released by sympathetic nerve endings) and **adrenaline** (released by the adrenal medulla) both act on **β₁ receptors** on heart cells:
 
-| Term | What it describes | Positive effect |
-|---|---|---|
-| **<span data-term="inotropy">Inotropy</span>** | Myocardial contractile strength | Stronger contraction |
-| **<span data-term="lusitropy">Lusitropy</span>** | Rate of myocardial relaxation | Faster relaxation |
-| **<span data-term="chronotropy">Chronotropy</span>** | Heart rate | Faster heart rate |
+**β₁ receptor → G protein → adenylyl cyclase → cAMP rises → PKA is switched on**
 
-Increased Ca²⁺ availability enhances inotropy, while faster SR Ca²⁺ reuptake improves lusitropy. Sympathetic stimulation of pacemaker cells also increases chronotropy. Together these help the heart meet increased circulatory demands.
+Here **cAMP** (cyclic AMP) is a messenger molecule inside the cell. **PKA** (protein kinase A) is an enzyme that switches other proteins on or off by adding phosphate to them. PKA acts on the Ca²⁺ machinery in two ways:
 
-**Important distinction:** Increased inotropy is improved intrinsic contractile ability under comparable loading conditions—not simply stronger contraction because the ventricle contains more blood. This becomes important when studying the Frank–Starling mechanism.
+- **Stronger contraction.** L-type channels let in more Ca²⁺, so the SR releases more, and more myosin heads pull on actin.
+- **Faster relaxation.** PKA disables **<span data-term="phospholamban">phospholamban</span>**, a protein that normally acts as a brake on SERCA2a. With the brake off, Ca²⁺ is pumped back into the SR faster.
 
-## 8. Connecting cardiac muscle physiology to the pumping heart
+**<span data-term="xanthines">Caffeine and theophylline (xanthines)</span>** work further along the same pathway. The enzyme **phosphodiesterase** normally breaks cAMP down. Xanthines block that enzyme, so cAMP builds up and contraction gets stronger.
 
-### Why doesn't ventricular contraction immediately mean ejection?
+**Vagal stimulation** works the other way. Acetylcholine released by the vagus nerve slows the SA node (a slower heart rate) and weakens **atrial** contraction. Its direct effect on the strength of the ventricles is small, because few vagal fibres reach ventricular muscle.
 
-Electrical activation initiates contraction, but ventricular pressure must first exceed pressure in the corresponding outflow artery before blood can be ejected. The lecturer notes that right ventricular ejection can begin before left ventricular ejection because pressure in the pulmonary artery is considerably lower than in the aorta.
+**Three words for three effects:**
 
-Therefore, **the onset of contraction and the onset of ejection are not necessarily simultaneous**. The detailed pressure changes belong in the Cardiac Cycle chapter.
+| Term | Word parts | What it describes | Positive effect |
+|---|---|---|---|
+| **<span data-term="inotropy">Inotropy</span>** | *ino* = fibre | Strength of contraction | Stronger contraction |
+| **<span data-term="lusitropy">Lusitropy</span>** | *lusi* = loosening | Speed of relaxation | Faster relaxation |
+| **<span data-term="chronotropy">Chronotropy</span>** | *chrono* = time | Heart rate | Faster heart rate |
 
-### What happens to diastole when heart rate increases?
+**Important distinction:** positive inotropy means the muscle contracts more strongly **at the same filling**. A ventricle that contracts harder simply because it holds more blood is showing the Frank–Starling effect, not increased inotropy. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
-As heart rate rises, each cardiac cycle becomes shorter. Both systole and diastole can shorten, but **diastole usually shortens proportionately more**. This matters because ventricular filling and much of left ventricular coronary perfusion occur during diastole.
+<aside class="source-note"><strong>Source note:</strong> The lecture slide says adrenaline comes from sympathetic nerve endings and noradrenaline from the adrenals. It is the other way round: sympathetic nerve endings release mainly noradrenaline, and the adrenal medulla releases mainly adrenaline. Both act on β₁ receptors. The lecture also lists a negative inotropic effect of vagal stimulation; this effect is mainly on the atria.</aside>
 
-Moderate increases in heart rate are accommodated by adjustments such as greater contractility and faster relaxation. Excessive tachycardia, however, can reduce filling and myocardial perfusion, so beating more often does not always increase the volume pumped per minute.
+## 8. Why these properties matter for pumping
 
-## Understanding Check
+Each property of heart muscle supports one part of the pumping cycle:
 
-**1. A cardiomyocyte contracts normally, but neighbouring cells fail to activate together. Which intercalated-disc component is most likely affected?**
-<details><summary>Reveal explanation</summary><p><strong>Gap junctions.</strong> They form low-resistance pathways for ionic current to pass directly between neighbouring cardiomyocytes. If this electrical coupling is disrupted, an action potential may not spread reliably, so contractions lose coordination. <strong>Fascia adherens and desmosomes</strong> instead mainly maintain mechanical attachment and transmission of force.</p></details>
+- **Gap junctions** make each chamber contract as one, giving a strong, coordinated squeeze.
+- **The long refractory period** guarantees that the ventricles relax and refill between beats.
+- **Calcium handling sets the strength of each beat.** More Ca²⁺ means more myosin heads pulling, a stronger contraction and a bigger stroke volume. *(<a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">→ Cardiac Output, §7</a>)*
+- **Fast relaxation matters most at high heart rates.** Diastole shortens most as the rate rises, so the ventricles must relax quickly to have time to fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">→ Cardiac Cycle, §10</a>)*
+- **Contraction is not the same as ejection.** The ventricles start contracting a moment before blood leaves: pressure must first rise above the pressure in the aorta or pulmonary artery. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
 
-**2. Which ion produces the rapid ventricular phase 0 upstroke, and how is this different from the phase 2 plateau?**
-<details><summary>Reveal explanation</summary><p><strong>Phase 0:</strong> fast voltage-gated Na⁺ channels open, producing a large inward Na⁺ current and rapid depolarisation. <strong>Phase 2:</strong> a smaller, sustained inward Ca²⁺ current through L-type channels is roughly balanced by outward K⁺ current, maintaining the plateau. The plateau prolongs electrical activity and helps support Ca²⁺-dependent contraction.</p></details>
+<aside class="source-note"><strong>Source note:</strong> Lecture connection: Circulation 1 (cardiac muscle cannot be tetanised; contractility through β₁ receptors and cAMP; xanthines; vagal effect) and the ECG lecture (ST segment and QT interval). The cellular detail (intercalated discs, phases of the action potential, CICR, SERCA2a and NCX) is standard physiology added as foundation.</aside>
 
-**3. What happens if RyR2 channels fail to open despite normal Ca²⁺ entry through L-type channels?**
-<details><summary>Reveal explanation</summary><p><strong>Contraction becomes much weaker.</strong> Ca²⁺ entering through L-type channels is primarily the trigger for opening ryanodine receptor type 2 (RyR2) channels on the sarcoplasmic reticulum. Without that amplified Ca²⁺ release, the cytosolic Ca²⁺ rise is too small to activate the normal number of actin–myosin interactions.</p></details>
+## 9. Understanding Check
 
-**4. Explain how impaired SERCA2a can delay relaxation and weaken later contractions.**
-<details><summary>Reveal explanation</summary><p><strong>Relaxation is delayed</strong> because SERCA2a normally pumps cytosolic Ca²⁺ back into the sarcoplasmic reticulum (SR). If its activity falls, Ca²⁺ remains elevated in the cytosol longer, delaying detachment of Ca²⁺ from troponin. Reduced SR refilling can also leave less Ca²⁺ available for release on later beats, potentially reducing force.</p></details>
+<p><strong>1.</strong> How does β₁ stimulation make heart muscle both contract more strongly and relax faster?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The plateau is shortened, so less Ca²⁺ is needed for each beat</span><span class="mcq-option" data-option="B">B. More Ca²⁺ is released, and SERCA2a is freed to pump it back faster</span><span class="mcq-option" data-option="C">C. Gap junctions open wider, so the cells contract and relax together</span><span class="mcq-option" data-option="D">D. Vagal fibres are switched off, which removes their braking effect</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> PKA increases Ca²⁺ entry and release, giving a stronger beat. It also disables phospholamban, the brake on SERCA2a, so Ca²⁺ is pumped back faster and the muscle relaxes sooner.</p></details>
 
-**5. Why can skeletal muscle undergo tetanus while cardiac muscle normally cannot?**
-<details><summary>Reveal explanation</summary><p><strong>Skeletal muscle can summate contractions</strong> because its refractory period ends well before a twitch finishes; repeated stimuli can then produce fused tetanus. Cardiac muscle has a prolonged action-potential plateau and refractory period that overlaps most of contraction, preventing a new propagated action potential soon enough for normal tetanic summation. This preserves time for relaxation and filling.</p></details>
+<p><strong>2.</strong> According to the lecture, why can caffeine and theophylline make heart muscle contract more strongly?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They block the breakdown of cAMP, so cAMP builds up</span><span class="mcq-option" data-option="B">B. They open fast Na⁺ channels, so the upstroke is larger</span><span class="mcq-option" data-option="C">C. They block β₁ receptors, so noradrenaline acts longer</span><span class="mcq-option" data-option="D">D. They slow SERCA2a, so more Ca²⁺ stays in the cell</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Xanthines block phosphodiesterase, the enzyme that breaks down cAMP. More cAMP means more PKA activity and stronger contraction.</p></details>
 
-**6. How can sympathetic stimulation increase contractile strength and speed of relaxation at the same time?**
-<details><summary>Reveal explanation</summary><p><strong>β₁-receptor activation → cAMP → protein kinase A (PKA).</strong> PKA promotes L-type Ca²⁺ entry and larger SR Ca²⁺ release, producing a stronger contraction (<em>positive inotropy</em>). PKA also phosphorylates phospholamban, relieving its inhibition of SERCA2a so Ca²⁺ returns to the SR faster (<em>positive lusitropy</em>). The same signal therefore supports both stronger contraction and faster relaxation.</p></details>
+<p><strong>3.</strong> A ventricle contracts more strongly because it was filled with more blood. Is this a positive inotropic effect?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Yes, because any stronger contraction counts as inotropy</span><span class="mcq-option" data-option="B">B. Yes, because extra filling releases more Ca²⁺ from the SR</span><span class="mcq-option" data-option="C">C. No, because inotropy only describes the heart rate</span><span class="mcq-option" data-option="D">D. No, because inotropy means stronger at the same filling</span></span></p>
+<details class="mcq-answer" data-answer="D"><summary>Show answer and explanation</summary><p><em>Answer: D.</em> A stronger beat caused by more filling is the Frank–Starling effect. Inotropy is a change in the muscle's own strength at the same filling.</p></details>
 
-**7. Why can extreme tachycardia lower cardiac output despite a faster heart rate?**
-<details><summary>Reveal explanation</summary><p>Cardiac output equals <strong>heart rate × stroke volume (CO = HR × SV)</strong>. Extreme tachycardia shortens diastole substantially, leaving less time for ventricular filling. This can lower end-diastolic volume and stroke volume. If stroke volume decreases proportionally more than heart rate increases, cardiac output falls despite the faster rhythm.</p></details>
+<p><strong>4.</strong> Strong vagal stimulation mainly affects the heart by:<span class="mcq-options"><span class="mcq-option" data-option="A">A. Weakening ventricular contraction more than heart rate</span><span class="mcq-option" data-option="B">B. Blocking the gap junctions between ventricular cells</span><span class="mcq-option" data-option="C">C. Slowing the SA node and weakening atrial contraction</span><span class="mcq-option" data-option="D">D. Shortening the refractory period of the ventricles</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Acetylcholine slows the SA node and weakens the atria. Few vagal fibres reach ventricular muscle, so the direct effect on ventricular strength is small.</p></details>
 
+<p><strong>5.</strong> Why does fast relaxation matter more at high heart rates?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Diastole shortens most, so filling must happen faster</span><span class="mcq-option" data-option="B">B. Systole lengthens, so contraction must end sooner</span><span class="mcq-option" data-option="C">C. The refractory period disappears at high heart rates</span><span class="mcq-option" data-option="D">D. Ca²⁺ stops entering the cells when the rate is high</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> As the rate rises, diastole is cut far more than systole. A ventricle that relaxes slowly has too little time left to fill.</p></details>
 
-### Additional application and mechanism checks
+## 10. Chapter Essentials
 
-**Supplementary 1. What would failure of desmosomes most directly threaten during repeated contractions?**
-
-<details><summary>Reveal explanation</summary><p>Desmosomes help cells resist mechanical separation under repeated force. Damage can compromise tissue integrity even where gap-junction ionic conduction is initially intact.</p></details>
-
-**Supplementary 2. Why does ventricular phase 2 prolong refractoriness?**
-
-<details><summary>Reveal explanation</summary><p>L-type calcium entry balanced by potassium efflux sustains membrane depolarization, delaying recovery of sufficient fast sodium-channel availability for another propagated action potential.</p></details>
-
-**Supplementary 3. What happens to force if extracellular calcium entry is substantially reduced?**
-
-<details><summary>Reveal explanation</summary><p>Reduced L-type calcium trigger entry diminishes RyR2-mediated sarcoplasmic reticulum calcium release and therefore reduces cytosolic calcium activation of troponin and cross-bridge formation.</p></details>
-
-**Supplementary 4. What distinguishes positive inotropy from positive lusitropy?**
-
-<details><summary>Reveal explanation</summary><p>Positive inotropy increases developed contractile force at comparable loading conditions; positive lusitropy accelerates myocardial relaxation and calcium removal. Sympathetic beta-1 signalling can promote both.</p></details>
-
-**Supplementary 5. Why is impaired calcium removal particularly detrimental during rapid heart rates?**
-
-<details><summary>Reveal explanation</summary><p>Shortened diastole leaves less time for cytosolic calcium decline. Incomplete relaxation can increase diastolic ventricular pressure, reduce filling and compromise subsequent stroke volume.</p></details>
-
-## Chapter Essentials
-
-1. **Intercalated discs:** Fascia adherens and desmosomes provide mechanical coupling; gap junctions enable electrical communication.
-2. **Functional syncytium:** Separate cardiomyocytes act as coordinated electrical units; the atria and ventricles form distinct functional syncytia.
-3. **Ventricular action potential:** Phase 0—Na⁺ influx; phase 2—Ca²⁺ influx balanced by K⁺ efflux; phase 3—mainly K⁺-mediated repolarisation.
-4. **Excitation–contraction coupling:** L-type Ca²⁺ entry triggers RyR2-mediated SR release; Ca²⁺ binds troponin C to permit actin–myosin interaction.
-5. **Relaxation:** SERCA2a returns Ca²⁺ to the SR; NCX removes Ca²⁺ from the cell.
-6. **Refractoriness:** The prolonged refractory period prevents normal tetanic contraction and preserves rhythmic pumping.
-7. **Sympathetic effects:** β₁–cAMP–PKA signalling increases contractile strength and speeds relaxation.
-8. **Key terms:** Inotropy is contractile strength; lusitropy is relaxation rate; chronotropy is heart rate.
-9. **Fast heart rates:** Diastole shortens disproportionately, and excessive tachycardia may compromise ventricular filling and coronary perfusion.
+1. **The chain of events:** electrical signal → Ca²⁺ enters → the SR releases more Ca²⁺ → myosin pulls on actin → Ca²⁺ is removed → the muscle relaxes.
+2. **Intercalated discs:** gap junctions pass current from cell to cell; desmosomes and fascia adherens hold the cells together and pass on their pull. The cells act as one unit (a functional syncytium).
+3. **The atria and ventricles are separate units.** Fibrous tissue insulates them, and the AV node is the only normal electrical route between them.
+4. **The ventricular action potential:** phase 0 is Na⁺ rushing in; phase 2, the plateau, is Ca²⁺ in balanced by K⁺ out; phase 3 is K⁺ out. On the ECG, the plateau is the ST segment.
+5. **CICR:** a little Ca²⁺ entering through L-type channels opens RyR2, and the SR releases much more. Ca²⁺ binds troponin C, and myosin pulls on actin.
+6. **Relaxation needs energy:** SERCA2a pumps Ca²⁺ back into the SR, and NCX pushes it out of the cell.
+7. **No tetanus:** the long refractory period lasts most of the contraction, so the ventricles always relax and refill.
+8. **Sympathetic (β₁ → cAMP → PKA):** stronger contraction and faster relaxation (phospholamban released). Xanthines raise cAMP by blocking its breakdown. Vagal stimulation slows the SA node and weakens the atria.
+9. **Inotropy** is strength at the same filling; **lusitropy** is speed of relaxation; **chronotropy** is heart rate.
