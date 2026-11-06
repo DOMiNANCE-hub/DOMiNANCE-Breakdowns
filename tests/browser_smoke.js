@@ -363,6 +363,37 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     await calm.context().close();
   }
 
+  // ---------- 7b. Chapter 4 teaching widgets, answer feedback, tooltip cards and section links ----------
+  section('Cardiac Cycle widgets, answer feedback, tooltip cards and section deep links');
+  {
+    const page = await newPage(browser, base, { viewport: { width: 390, height: 860 } });
+    await page.goto(base + '/' + chapterUrl('cardiac-cycle'), { waitUntil: 'load' });
+    await page.waitForTimeout(80);
+    const widgets = await page.$$eval('.teaching-widget', els => els.map(e => e.dataset.ready === '1' && !e.classList.contains('tw-failed') && !!e.querySelector('svg, input, button')));
+    check(widgets.length === 8 && widgets.every(Boolean), `cardiac-cycle: ${widgets.filter(Boolean).length}/8 teaching widgets rendered`);
+    await page.locator('[data-widget="wiggers"] .tw-dot').nth(4).click();
+    check((await page.locator('[data-widget="wiggers"] .tw-step-title').innerText()).startsWith('Step 5'), 'Wiggers stepper did not reach step 5');
+    const slider = page.locator('[data-widget="hr-slider"] input');
+    await slider.evaluate(el => { el.value = '150'; el.dispatchEvent(new Event('input', { bubbles: true })); });
+    check((await page.locator('[data-widget="hr-slider"] output').innerText()).includes('0.40 s (400 ms)'), 'heart-rate slider: 150 beats/min should give 0.40 s');
+    const firstQuestion = page.locator('details.mcq-answer').first().locator('xpath=preceding-sibling::p[1]');
+    await firstQuestion.locator('button.mcq-option[data-option="A"]').click();
+    check(/best answer is D/.test(await firstQuestion.locator('.mcq-feedback').innerText()), 'wrong answer did not show the correct key');
+    check(await page.locator('details.mcq-answer').first().evaluate(d => d.open), 'answer explanation did not open after answering');
+    await page.locator('.glossary-trigger[data-glossary="av-node"]').first().click();
+    check(await page.locator('#dom-glossary-popup .gl-confuse').count() === 1, "tooltip card lacks its Don't confuse line");
+    await page.locator('#dom-glossary-popup .gl-learn').click();
+    await page.waitForTimeout(200);
+    const landed = await page.evaluate(() => ({ hash: location.hash, top: document.getElementById('5-why-does-the-av-node-delay-electrical-conduction')?.getBoundingClientRect().top }));
+    check(landed.hash.includes('cardiac-conduction') && Math.abs(landed.top ?? 999) < 160, `"Learn it fully" did not open Cardiac Conduction §5 (${JSON.stringify(landed)})`);
+    const ids = await page.evaluate(() => Object.fromEntries(window.DOMINANCE_TOPICS.map(t => [t.slug, t.sections.map(s => s.id)])));
+    const badLinks = await page.evaluate(ids => Object.entries(window.DOM_GLOSSARY).filter(([, v]) => v[3]).filter(([, v]) => {
+      const m = v[3].match(/cvs\/([a-z0-9-]+)\?section=(.+)$/); return !m || !(ids[m[1]] || []).includes(m[2]); }).map(([k]) => k), ids);
+    check(badLinks.length === 0, `tooltip links to missing sections: ${badLinks.join(', ')}`);
+    check(page.pageErrors.length === 0, `cardiac-cycle widgets: page errors ${page.pageErrors.join('; ')}`);
+    await page.context().close();
+  }
+
   // ---------- 8. Browser storage blocked or corrupted ----------
   section('Works when browser storage is blocked or corrupted');
   {
