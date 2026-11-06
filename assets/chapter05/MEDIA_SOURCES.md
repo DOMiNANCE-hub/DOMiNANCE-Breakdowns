@@ -33,7 +33,8 @@ Captions say "typical of", because the library labels sounds, not diagnoses.
 
 ## Figure (§8)
 
-- OpenStax College, Anatomy and Physiology, Figure 19.30 "Stethoscope Placement for Auscultation" — CC BY 4.0 — hosted on Wikimedia Commons: https://commons.wikimedia.org/wiki/File:2030_Stethoscope_Placement.jpg (file: https://upload.wikimedia.org/wikipedia/commons/8/81/2030_Stethoscope_Placement.jpg). Replaces the Wikimedia colour-coded auscultation image (removed). Owner to confirm the image on the preview.
+- `auscultation-areas.jpg` (850 × 793), supplied by the project owner on 6 Nov 2026. Base drawing: Gray's Anatomy of the Human Body (1918), public domain; labels A / P / T / M added. Open item: record the source of the labelled version if known.
+- Replaces the Wikimedia colour-coded auscultation image and the OpenStax figure trial.
 
 ## Synthetic sounds
 

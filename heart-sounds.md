@@ -230,9 +230,9 @@ The lecture says each valve is best heard over its **surface marking**: the spot
 | **Tricuspid** | Lower **left** border of the sternum (fourth or fifth intercostal space) |
 | **Mitral** | The **apex**: fifth left intercostal space, in line with the middle of the clavicle |
 
-<figure class="teaching-illustration" id="cvs05-auscultation">
-<a href="https://commons.wikimedia.org/wiki/File:2030_Stethoscope_Placement.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/8/81/2030_Stethoscope_Placement.jpg" alt="Front of the chest showing where the stethoscope is placed to hear the aortic, pulmonary, tricuspid and mitral valves." width="1708" height="1363"></a>
-<figcaption><strong>Figure 01. Where to place the stethoscope for each valve.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">OpenStax College, <em>Anatomy and Physiology</em>, Figure 19.30 · <a href="https://commons.wikimedia.org/wiki/File:2030_Stethoscope_Placement.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.</span></details></figcaption>
+<figure class="teaching-illustration teaching-illustration-portrait" id="cvs05-auscultation">
+<img loading="lazy" src="assets/chapter05/auscultation-areas.jpg" alt="Front view of the rib cage and sternum with four labelled listening points: aortic at the second right intercostal space beside the sternum, pulmonary at the second left, tricuspid at the lower left sternal border, and mitral at the apex in the fifth left intercostal space." width="850" height="793">
+<figcaption><strong>Figure 01. Where to place the stethoscope for each valve.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Rib cage drawing from Gray's <em>Anatomy of the Human Body</em> (1918), public domain; listening-point labels added. Supplied by the DOMiNANCE Breakdowns project.</span></details></figcaption>
 </figure>
 
 **Why aren't these spots directly over the valves?** The four valves sit close together behind the sternum, packed into a small area. Each valve's sound travels **in the direction its blood flows**, and comes out where that chamber or vessel lies closest to the chest wall:
