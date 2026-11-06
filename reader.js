@@ -106,6 +106,12 @@ function mount(){
  selectMode(mode);setClasses();
  rendering=false;
 }
+window.addEventListener('dom:section',event=>{
+ if(!article||mode==='continuous')return;
+ const target=document.getElementById(event.detail);
+ const index=sections.findIndex(s=>s.nodes.some(n=>n===target||n.contains(target)));
+ if(index>=0)showSection(index);
+});
 setClasses();
 const observer=new MutationObserver(()=>{if(!rendering)mount()});
 observer.observe(main,{childList:true});

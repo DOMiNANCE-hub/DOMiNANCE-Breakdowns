@@ -203,7 +203,29 @@
     else platformHome();
     window.scrollTo({top:0, behavior:'instant'});
     updateProgress();
+    const section = new URLSearchParams((location.hash || '').split('?')[1] || '').get('section');
+    if (section) setTimeout(() => goToSection(section), 0);
   }
+  // Deep links: #/physiology/cvs/<slug>?section=<heading-id> opens a chapter at that section.
+  function goToSection(id) {
+    const target = document.getElementById(id);
+    if (!target || !main.contains(target)) return;
+    window.dispatchEvent(new CustomEvent('dom:section', {detail: id}));
+    target.scrollIntoView({behavior: 'instant', block: 'start'});
+    updateProgress();
+  }
+  // A link to a section of the chapter already open scrolls in place instead of re-rendering it.
+  document.addEventListener('click', e => {
+    const link = e.target.closest?.('a[href^="#/physiology/cvs/"]');
+    if (!link || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const [path, query] = link.getAttribute('href').slice(1).split('?');
+    const section = new URLSearchParams(query || '').get('section');
+    const current = (location.hash || '').replace(/^#/, '').split('?')[0];
+    if (!section || path !== current || !document.getElementById(section)) return;
+    e.preventDefault();
+    try { history.replaceState(null, '', link.getAttribute('href')); } catch {}
+    goToSection(section);
+  });
   function updateProgress() {
     const max = document.documentElement.scrollHeight - window.innerHeight;
     document.getElementById('scroll-progress').style.width = (max > 0 ? Math.min(100, 100 * window.scrollY / max) : 0) + '%';
