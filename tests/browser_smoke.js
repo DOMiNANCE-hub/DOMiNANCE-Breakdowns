@@ -394,6 +394,39 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     await page.context().close();
   }
 
+  section('Heart Sounds widgets, recordings, murmur predictor and source notes');
+  {
+    const page = await newPage(browser, base, { viewport: { width: 390, height: 860 } });
+    await page.goto(base + '/' + chapterUrl('heart-sounds'), { waitUntil: 'load' });
+    await page.waitForTimeout(150);
+    const widgets = await page.$$eval('.article-text .teaching-widget', els => els.map(e => ({ w: e.dataset.widget, ok: e.dataset.ready === '1' && !e.classList.contains('tw-failed') && !!e.querySelector('svg, button') })));
+    check(widgets.length === 8 && widgets.every(w => w.ok), `heart-sound widgets did not all render: ${JSON.stringify(widgets)}`);
+    check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'Heart Sounds page scrolls sideways at 390 px');
+    check(await page.locator('details.mcq-answer').count() === 14, 'Heart Sounds should have 14 answer-feedback questions');
+    const notes = page.locator('aside.source-note');
+    check(await notes.count() === 3 && await notes.first().locator('.source-note-body').isHidden(), 'source notes should start collapsed');
+    await notes.first().locator('.source-note-toggle').click();
+    check(await notes.first().locator('.source-note-body').isVisible(), 'source note did not open');
+    const pr = page.locator('[data-widget="murmur-predictor"]');
+    await pr.locator('[data-valve="mitral"]').click(); await pr.locator('[data-fault="stenosis"]').click(); await pr.locator('.snd-all').click();
+    check((await pr.locator('.snd-steps').innerText()).includes('diastolic murmur'), 'predictor: mitral stenosis should be diastolic');
+    await pr.locator('[data-fault="regurgitation"]').click(); await pr.locator('.snd-all').click();
+    check((await pr.locator('.snd-steps').innerText()).includes('systolic murmur'), 'predictor: mitral regurgitation should be systolic');
+    check(await pr.locator('.snd-example .snd-play').count() === 1, 'predictor example recording button missing');
+    await page.locator('[data-widget="filling-sounds"] .snd-play[data-clip="s3"]').click();
+    check(await page.locator('audio').count() === 0, 'recordings should not add audio elements to the page');
+    await page.locator('.snd-mode-btn[data-mode="phone"]').first().click();
+    check(await page.locator('.snd-mode-btn[data-mode="phone"][aria-pressed="true"]').count() === await page.locator('.snd-mode-btn[data-mode="phone"]').count(), 'phone-speaker toggle not synced');
+    const missing = await page.evaluate(async () => { const out = []; for (const n of ['normal-apex', 'normal-base', 'split-s2', 's3', 's4', 'aortic-stenosis', 'aortic-regurgitation', 'mitral-regurgitation', 'mitral-stenosis', 'pulmonary-stenosis']) for (const v of ['', '-phone']) if (!(await fetch('assets/chapter05/audio/' + n + v + '.mp3', { method: 'HEAD' })).ok) out.push(n + v); return out; });
+    check(missing.length === 0, `missing heart-sound clips: ${missing.join(', ')}`);
+    const ids = await page.evaluate(() => Object.fromEntries(window.DOMINANCE_TOPICS.map(t => [t.slug, t.sections.map(s => s.id)])));
+    const bad = await page.evaluate(ids => [...document.querySelectorAll('.article-text a[href^="#/physiology/cvs/"]')].map(a => a.getAttribute('href')).filter(h => {
+      const m = h.match(/cvs\/([a-z0-9-]+)(?:\?section=(.+))?$/); return !m || !ids[m[1]] || (m[2] && !ids[m[1]].includes(m[2])); }), ids);
+    check(bad.length === 0, `Heart Sounds links to missing sections: ${bad.join(', ')}`);
+    check(page.pageErrors.length === 0, `heart-sounds widgets: page errors ${page.pageErrors.join('; ')}`);
+    await page.context().close();
+  }
+
   // ---------- 8. Browser storage blocked or corrupted ----------
   section('Works when browser storage is blocked or corrupted');
   {

@@ -494,7 +494,52 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .article-text button.mcq-option.is-wrong{border-color:var(--w-bad);background:color-mix(in srgb,var(--w-bad) 11%,var(--sheet))}
 .article-text .mcq-feedback{display:block;margin-top:8px;font-weight:800;color:var(--w-ok)}.article-text .mcq-feedback.is-wrong{color:var(--w-bad)}
 .article-text .source-note{display:block;margin:14px 0 18px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--sheet2);border-radius:0 10px 10px 0;font-size:13px;line-height:1.6}
+.article-text .source-note.is-collapsible{padding:0;background:transparent;border-left-width:3px}
+.article-text .source-note-toggle{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;width:100%;min-height:44px;padding:9px 14px;border:0;background:var(--sheet2);border-radius:0 10px 10px 0;color:var(--navy);font:inherit;font-size:13px;text-align:left;cursor:pointer}
+.article-text .source-note-toggle::before{content:'▸';display:inline-block;color:var(--gold);font-weight:800;transition:transform .15s}
+.article-text .source-note-toggle[aria-expanded="true"]::before{transform:rotate(90deg)}
+.article-text .source-note-toggle[aria-expanded="true"]{border-radius:0 10px 0 0}
+.article-text .source-note-label{font-weight:800}.article-text .source-note-hint{color:var(--muted)}
+.article-text .source-note-toggle:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.article-text .source-note-body{padding:2px 14px 10px;background:var(--sheet2);border-radius:0 0 10px 0}
 .article-text .related-links{font-size:13px;color:var(--muted);line-height:1.7}
+
+/* ---------- Heart-sound widgets (Chapter 5) ---------- */
+.snd-timeline .snd-valves{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 4px}
+.snd-valve{display:inline-flex;gap:6px;align-items:baseline;padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:var(--sheet);font-size:13px;transition:background .12s,border-color .12s}
+.snd-valve em{font-style:normal;color:var(--muted);font-weight:700}
+.snd-valve.is-flash{border-color:var(--w-ao);background:color-mix(in srgb,var(--w-ao) 16%,var(--sheet))}
+.snd-hr{display:flex;flex-direction:column;flex:1 1 220px;font-size:13px;font-weight:700;color:var(--navy)}.snd-hr input{width:100%;min-height:44px;accent-color:var(--blue)}
+.snd-readout{font-weight:800;color:var(--navy);margin:6px 0 0!important;font-size:14px}
+.teaching-widget .tw-tiny-note{font-size:12px!important;color:var(--muted);margin:4px 0 0!important}
+.tw-svg .snd-cursor{stroke:var(--navy);stroke-width:3;stroke-linecap:round}
+.snd-list{display:flex;flex-direction:column;gap:8px;margin:6px 0}
+.snd-list.tw-controls{flex-direction:row}
+.snd-row{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center}
+.snd-note{font-size:13px;color:var(--text);line-height:1.5}
+.snd-play{display:inline-flex;gap:8px;align-items:center}.snd-icon{font-size:11px}
+.snd-mode{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:8px 0 2px;font-size:12.5px}
+.snd-mode .tw-btn{min-height:36px;padding:5px 11px;font-size:12px}
+.snd-mode-label{font-weight:800;color:var(--navy)}.snd-mode-hint{flex-basis:100%;color:var(--muted);font-size:12px;line-height:1.45}
+.sound-clips{margin:10px 0 16px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--sheet2)}
+.sound-clips .media-credit,.teaching-widget .media-credit{font-size:11.5px;color:var(--muted);margin:6px 0 0}
+.tw-svg .snd-mark.is-lit circle{fill:var(--gold);fill-opacity:.55;stroke-width:5}
+.tw-svg .snd-cusp line{stroke:var(--w-lv);stroke-width:6;stroke-linecap:round}
+.tw-svg .snd-cusp{transition:transform .12s ease-in}
+.tw-svg .tw-hinge{fill:var(--muted)}
+.tw-svg .snd-travel{fill:none;stroke:var(--muted);stroke-width:1.6;stroke-dasharray:4 3}
+.tw-svg .snd-soft-text{fill:var(--w-vol)}.tw-svg .snd-loud-text{fill:var(--w-ao)}
+.tw-svg .tw-wall{stroke:var(--muted);stroke-width:3;stroke-linecap:round}
+.tw-svg .tw-leaflet{stroke:var(--w-lv);stroke-width:5;stroke-linecap:round}
+.tw-svg .tw-flow.tw-faint{opacity:.45;stroke-width:2.5}.tw-svg .tw-flow.tw-jet{stroke-width:4.5}.tw-svg .tw-flow.tw-back{stroke:var(--w-ao)}.tw-svg .tw-flow.tw-fast{stroke-width:2.5}
+.tw-svg .tw-arrowhead-back{fill:var(--w-ao)}.tw-svg .snd-swirl{fill:none;stroke:var(--w-ao);stroke-width:2;stroke-linecap:round}
+.snd-predictor .snd-pick{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0 8px}
+.snd-pick-label{min-width:44px;font-weight:800;font-size:13px;color:var(--navy)}
+.snd-prompt{margin:10px 0!important;padding:14px;border:1px dashed var(--line);border-radius:11px;color:var(--muted);font-size:13.5px;text-align:center}
+.snd-steps{margin:6px 0 0;padding-left:22px;font-size:14px;line-height:1.55}.snd-steps li{margin:4px 0}
+.tw-svg .tw-valve-line{stroke:var(--w-vol);stroke-width:5;stroke-linecap:round}.tw-svg .tw-valve-line.is-bad{stroke:var(--w-ao)}
+.tw-svg .snd-phase{fill:color-mix(in srgb,var(--gold) 35%,transparent)}
+.snd-example{margin-top:8px}.snd-example:empty{display:none}
 .article-text a[href^="#/physiology/cvs/"]{color:var(--blue);font-weight:700;text-decoration:none}.article-text a[href^="#/physiology/cvs/"]:hover{text-decoration:underline}
 
 /* ---------- Glossary card (four-line layout, dialog on tap, bottom sheet on phones) ---------- */

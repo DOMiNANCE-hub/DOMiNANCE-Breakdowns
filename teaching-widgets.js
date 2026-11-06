@@ -367,14 +367,48 @@
   const builders = {'chamber-timeline': chamberTimeline, 'diastolic-plot': diastolicPlot, 'valve-stepper': valveStepper,
     'volume-bar': volumeBar, 'wiggers': wiggers, 's2-timing': s2Timing, 'hr-slider': hrSlider, 'map-quiz': mapQuiz};
 
+  // ---------- 10. Source notes: collapsed behind a toggle (all chapters) ----------
+  function sourceNote(aside) {
+    if (aside.dataset.ready) return;
+    aside.dataset.ready = '1';
+    const lead = aside.querySelector(':scope > strong:first-child');
+    if (lead && /^\s*Source note:?\s*$/i.test(lead.textContent)) lead.remove();
+    const id = 'tw-src-' + (++uid);
+    const body = document.createElement('div');
+    body.className = 'source-note-body';
+    body.id = id;
+    body.hidden = true;
+    while (aside.firstChild) body.appendChild(aside.firstChild);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'source-note-toggle';
+    button.setAttribute('aria-expanded', 'false');
+    button.setAttribute('aria-controls', id);
+    button.innerHTML = '<span class="source-note-label">Source note</span><span class="source-note-hint">how this compares with the lecture</span>';
+    button.addEventListener('click', () => {
+      const open = button.getAttribute('aria-expanded') !== 'true';
+      button.setAttribute('aria-expanded', String(open));
+      body.hidden = !open;
+    });
+    aside.classList.add('is-collapsible');
+    aside.append(button, body);
+  }
+
+  // Other scripts (e.g. heart-sound-widgets.js) can add builders and reuse the helpers.
+  window.DOMWidgets = {
+    helpers: {esc, smooth, line, svgOpen, keepDescription, nextId: p => p + (++uid), NS},
+    register(name, fn) { builders[name] = fn; enhance(); }
+  };
+
   function enhance() {
     main.querySelectorAll('.teaching-widget[data-widget]:not([data-ready])').forEach(el => {
-      el.dataset.ready = '1';
       const build = builders[el.dataset.widget];
       if (!build) return;
+      el.dataset.ready = '1';
       try { build(el); } catch (e) { el.classList.add('tw-failed'); if (window.console) console.error('Teaching widget failed:', el.dataset.widget, e); }
     });
     main.querySelectorAll('details.mcq-answer').forEach(mcq);
+    main.querySelectorAll('aside.source-note').forEach(sourceNote);
   }
   new MutationObserver(enhance).observe(main, {childList: true, subtree: true});
   enhance();

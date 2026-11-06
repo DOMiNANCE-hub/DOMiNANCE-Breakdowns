@@ -32,7 +32,19 @@
       ]
     },
     "heart-sounds": {
-      "minimum_checks": 12
+      "minimum_checks": 14,
+      "required": [
+        "Lower pulmonary impedance",
+        "floating valves",
+        "when is the faulty valve supposed to be open",
+        "Normal blood flow is silent",
+        "S1 is loudest at the apex"
+      ],
+      "forbidden": [
+        "Representative illustrative durations",
+        "Heart_sounds_auscultation_areas.svg",
+        "Supplementary 1."
+      ]
     },
     "ecg": {
       "minimum_checks": 12
