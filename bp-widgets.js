@@ -81,4 +81,52 @@
     draw();
   }
   W.register('cuff-simulator', cuffSimulator);
+
+  // ---------- Muscle pump (Chapter 12, §4) ----------
+  function musclePump(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'mp-wrap';
+    wrap.innerHTML = `<div class="tw-controls"><button type="button" class="tw-btn" data-s="squeeze">Squeeze</button><button type="button" class="tw-btn" data-s="relax">Relax</button><button type="button" class="tw-btn mp-play">▶ Play</button><button type="button" class="tw-btn" data-s="stand">Stand still</button></div><div class="tw-stage"></div><p class="lv-readout mp-say" aria-live="polite"></p>`;
+    const stage = wrap.querySelector('.tw-stage');
+    let state = 'relax', timer = 0;
+    const X = 200;
+    const valve = (y, open) => open
+      ? `<path d="M${X - 24} ${y} L${X - 16} ${y - 26} M${X + 24} ${y} L${X + 16} ${y - 26}" class="mp-valve"/>`
+      : `<path d="M${X - 24} ${y} L${X} ${y - 16} L${X + 24} ${y}" class="mp-valve mp-shut"/>`;
+    const SAY = {
+      squeeze: '<strong>Muscle contracts.</strong> The squeezed vein can only empty upwards: the <strong>lower valve snaps shut</strong> and the <strong>upper valve is pushed open</strong>, so blood moves towards the heart.',
+      relax: '<strong>Muscle relaxes.</strong> The vein springs open and <strong>refills from below</strong> through the open lower valve. The <strong>upper valve shuts</strong>, so blood that moved up does not fall back.',
+      stand: '<strong>Standing still.</strong> No muscle squeezes, so the pump stops. Gravity pools blood in the swollen lower vein. <strong>Less blood returns → less filling → lower stroke volume.</strong>'
+    };
+    const draw = () => {
+      const sq = state === 'squeeze', st = state === 'stand';
+      const wm = sq ? 22 : 50, wl = st ? 78 : 50, mx = sq ? 34 : 62;
+      stage.innerHTML = svgOpen(400, 290, `Leg vein with two valves between calf muscles: ${state}.`) +
+        `<text x="${X}" y="14" text-anchor="middle" class="tw-tiny tw-strong">to the heart ↑</text>` +
+        `<rect x="${X - 25}" y="20" width="50" height="78" class="mp-vein"/>` +
+        `<rect x="${X - wm / 2}" y="98" width="${wm}" height="110" rx="${sq ? 10 : 0}" class="mp-vein${st ? '' : ' mp-mid'}"/>` +
+        `<rect x="${X - wl / 2}" y="208" width="${wl}" height="72" rx="${st ? 20 : 0}" class="mp-vein${st ? ' mp-pool' : ''}"/>` +
+        `<ellipse cx="${X - mx - 40}" cy="153" rx="42" ry="62" class="mp-muscle${sq ? ' is-on' : ''}"/><ellipse cx="${X + mx + 40}" cy="153" rx="42" ry="62" class="mp-muscle${sq ? ' is-on' : ''}"/>` +
+        `<text x="${X - mx - 40}" y="157" text-anchor="middle" class="tw-tiny tw-strong">calf muscle</text><text x="${X + mx + 40}" y="157" text-anchor="middle" class="tw-tiny tw-strong">calf muscle</text>` +
+        valve(98, sq || st) + valve(208, !sq) +
+        `<text x="${X + 34}" y="92" class="tw-tiny tw-muted">upper valve: ${sq || st ? 'open' : 'shut'}</text><text x="${X + 34}" y="202" class="tw-tiny tw-muted">lower valve: ${!sq ? 'open' : 'shut'}</text>` +
+        (sq ? `<path d="M${X} 190 V40" class="mp-arrow" marker-end="url(#mp-h)"/>` : '') +
+        (state === 'relax' ? `<path d="M${X} 275 V130" class="mp-arrow" marker-end="url(#mp-h)"/>` : '') +
+        `<defs><marker id="mp-h" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="mp-head"/></marker></defs></svg>`;
+      wrap.querySelector('.mp-say').innerHTML = SAY[state];
+      wrap.querySelectorAll('[data-s]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.s === state)));
+    };
+    const stop = () => { clearInterval(timer); timer = 0; wrap.querySelector('.mp-play').textContent = '▶ Play'; };
+    wrap.querySelectorAll('[data-s]').forEach(b => b.addEventListener('click', () => { stop(); state = b.dataset.s; draw(); }));
+    wrap.querySelector('.mp-play').addEventListener('click', e => {
+      if (timer) { stop(); return; }
+      e.currentTarget.textContent = '❚❚ Pause';
+      state = 'squeeze'; draw();
+      timer = setInterval(() => { state = state === 'squeeze' ? 'relax' : 'squeeze'; draw(); }, 1300);
+    });
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    draw();
+  }
+  W.register('muscle-pump', musclePump);
 })();

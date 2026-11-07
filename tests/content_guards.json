@@ -147,10 +147,11 @@
       ]
     },
     "venous-return": {
-      "minimum_checks": 12,
+      "minimum_checks": 9,
       "required": [
-        "Venous-return relation",
-        "Vascular compliance"
+        "Picture a sink draining into a bucket.",
+        "data-widget=\"muscle-pump\"",
+        "class=\"view-switch\""
       ]
     },
     "microcirculation": {
