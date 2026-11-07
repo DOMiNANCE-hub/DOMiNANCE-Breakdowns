@@ -42,7 +42,7 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
 form.key{display:flex;gap:8px;flex-wrap:wrap}
 input,button{font:inherit;border-radius:12px;border:1px solid var(--line);padding:10px 12px;background:var(--sheet);color:var(--text)}
-button{background:var(--navy);color:#fff;border-color:var(--navy);font-weight:700;cursor:pointer}
+button{background:#1d4caf;color:#fff;border-color:#1d4caf;font-weight:700;cursor:pointer}
 .empty{color:var(--muted)}
 a{color:var(--blue)}
 </style>
@@ -89,10 +89,10 @@ a{color:var(--blue)}
   async function open(key) {
     app.innerHTML = '<div class="card empty">Loading…</div>';
     const r = await fetch('/api/stats', {headers: {'x-stats-key': key}}).catch(() => null);
-    if (!r || r.status === 401) { sessionStorage.removeItem('dom-stats-key'); app.innerHTML = '<div class="card">That key didn’t work. <a href="">Try again</a>.</div>'; return; }
+    if (!r || r.status === 401) { try { localStorage.removeItem('dom-stats-key'); } catch {} app.innerHTML = '<div class="card">That key didn’t work. <a href="">Try again</a>.</div>'; return; }
     if (r.status === 503) { app.innerHTML = '<div class="card">The database isn’t connected yet. In Vercel: project → Storage → Create Database → Upstash for Redis → connect it to this project.</div>'; return; }
     if (!r.ok) { app.innerHTML = '<div class="card">Couldn’t load the numbers. Refresh to try again.</div>'; return; }
-    sessionStorage.setItem('dom-stats-key', key);
+    try { localStorage.setItem('dom-stats-key', key); } catch {}
     const d = await r.json();
     const bank = await questionBank([...new Set(d.questions.map(q => q.id.split(':')[0]))]);
     const views = sum(d.views), answers = d.questions.reduce((a, q) => a + q.total, 0);
@@ -128,7 +128,12 @@ a{color:var(--blue)}
   const g = document.createElement('script');
   g.src = (window.DOM_BUNDLE?.core || []).find(f => f.startsWith('glossary.js')) || 'glossary.js';
   document.head.append(g);
-  const saved = sessionStorage.getItem('dom-stats-key');
+  // The private link carries the key after '#', which never leaves the device. It is remembered here,
+  // so the dashboard opens straight away next time, and the key is then removed from the address bar.
+  const fromLink = new URLSearchParams(location.hash.slice(1)).get('key');
+  if (fromLink) { try { localStorage.setItem('dom-stats-key', fromLink); } catch {} history.replaceState(null, '', location.pathname); }
+  let saved = fromLink;
+  try { saved = saved || localStorage.getItem('dom-stats-key'); } catch {}
   document.getElementById('key-form')?.addEventListener('submit', e => { e.preventDefault(); open(document.getElementById('key').value.trim()); });
   if (saved) open(saved);
 })();
