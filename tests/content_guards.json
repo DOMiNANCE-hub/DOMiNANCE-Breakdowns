@@ -125,12 +125,12 @@
     "blood-pressure": {
       "minimum_checks": 12,
       "required": [
-        "Approximate mean arterial pressure",
-        "Pulse pressure",
-        "Hydrostatic pressure change"
+        "The whole method is a contest",
+        "data-widget=\"cuff-simulator\"",
+        "These are not the heart sounds."
       ],
       "forbidden": [
-        "The lecturer"
+        "Phase A — Cuff pressure"
       ]
     },
     "pulses": {
