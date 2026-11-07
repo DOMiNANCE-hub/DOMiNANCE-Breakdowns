@@ -376,19 +376,51 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 }
 @media(max-width:360px){:is(.article-text,.cs-body) .equation-block math{font-size:14px}:is(.article-text,.cs-body) .equation-block{padding:8px}}
 
-/* Stable formula rendering: ordinary accessible text, no fragile MathML glyph stacks. */
-:is(.article-text,.cs-body) .equation-block .equation-formula{
- display:block;max-width:100%;min-width:0;
- font:750 clamp(15px,3vw,19px)/1.55 'Plus Jakarta Sans',system-ui,sans-serif;
- color:var(--navy2);white-space:normal;overflow-wrap:normal;word-break:normal;
- font-variant-numeric:lining-nums tabular-nums;letter-spacing:0;
+/* Proper mathematical typography: visible fraction bars and raised/lowered scripts.
+   Each formula scrolls inside its own block on narrow screens; never flatten it into text. */
+.equation-block .equation-formula{
+  display:block;min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;
+  padding:6px 0 8px;white-space:nowrap;word-break:normal;overflow-wrap:normal;
+  font:650 clamp(16px,2.6vw,19px)/1.5 'Plus Jakarta Sans',system-ui,sans-serif;
+  color:var(--navy2);font-variant-numeric:lining-nums tabular-nums;
+  -webkit-overflow-scrolling:touch;overscroll-behavior-inline:contain;scrollbar-width:thin;
 }
-@media(max-width:660px){
- :is(.article-text,.cs-body) .equation-block .equation-formula{
-  font-size:16px;line-height:1.55;overflow-wrap:anywhere;
- }
+.equation-block .eq-layout{
+  display:inline-flex;align-items:center;vertical-align:middle;
+  width:max-content;max-width:none;white-space:nowrap;line-height:1.4;
 }
-@media(max-width:350px){:is(.article-text,.cs-body) .equation-block .equation-formula{font-size:15px}}
+.equation-block .eq-token{display:inline;white-space:pre;}
+.equation-block .eq-operator{padding:0 .13em;}
+.equation-block .eq-words{font-size:.86em;font-weight:500;white-space:pre;}
+.equation-block .eq-gap{display:inline-block;flex:none;min-height:1px;}
+.equation-block .eq-fraction{
+  display:inline-flex;flex:none;flex-direction:column;align-items:stretch;
+  justify-content:center;margin:0 .15em;vertical-align:middle;
+  font-size:.93em;line-height:1.2;white-space:nowrap;
+}
+.equation-block .eq-numerator,.equation-block .eq-denominator{
+  display:flex;align-items:center;justify-content:center;
+  min-height:1.3em;padding:0 .25em;white-space:nowrap;
+}
+.equation-block .eq-numerator{border-bottom:1.5px solid currentColor;padding-bottom:.14em;}
+.equation-block .eq-denominator{padding-top:.14em;}
+.equation-block .eq-script{display:inline-flex;align-items:baseline;white-space:nowrap;}
+.equation-block .eq-script>sup,.equation-block .eq-script>sub{
+  position:relative;font-size:.67em;line-height:1;vertical-align:baseline;
+}
+.equation-block .eq-script>sup{top:-.55em;}
+.equation-block .eq-script>sub{top:.30em;}
+.equation-block .eq-both{display:inline-flex;flex-direction:column;font-size:.65em;line-height:1;}
+.equation-block .eq-both sup,.equation-block .eq-both sub{font-size:1em;line-height:1.05;}
+.equation-block .eq-root{display:inline-flex;align-items:stretch;vertical-align:middle;}
+.equation-block .eq-root-symbol{font-size:1.3em;line-height:1.2;}
+.equation-block .eq-radicand{border-top:1.5px solid currentColor;padding:.10em .16em 0;}
+.equation-block .eq-over{display:inline-flex;flex-direction:column;align-items:center;line-height:1;}
+.equation-block .eq-accent{font-size:.7em;height:.65em;}
+.equation-block .eq-phantom{visibility:hidden;}
+@media(max-width:360px){
+  .equation-block .equation-formula{font-size:16px;padding:7px 0 9px;}
+}
 
 /* Student-friendly figure captions: title first; attribution remains one tap away. */
 :is(.article-text,.cs-body) figure figcaption .figure-attribution,
