@@ -773,3 +773,107 @@ html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
 .resume-card:hover{border-color:var(--blue)}
 .resume-text{display:grid;gap:2px;min-width:0;flex:1}.resume-text small{color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11px}.resume-text strong{color:var(--navy);overflow:hidden;text-overflow:ellipsis}.resume-text span{color:var(--muted);font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .resume-go{color:var(--blue);font-weight:800;white-space:nowrap}
+/* =====================================================================
+   Reading layer: one calm, consistent reading surface on every screen.
+   The memorable element is the gold section numeral; everything else is quiet.
+   ===================================================================== */
+:root{--num:#b9820f;--measure:68ch}
+[data-theme="dark"]{--num:var(--gold)}
+[data-reader-width="wide"]{--measure:86ch}
+
+/* Header: kicker, title, one meta line with the reading options on the right */
+.article-sheet .article-kicker{margin:0 0 8px;font-size:14px;font-weight:600;color:var(--muted);letter-spacing:0}
+.article-sheet h1{margin:0 0 14px;text-wrap:balance}
+.article-sheet .article-summary{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;margin:0 0 30px;padding:0 0 18px;border-bottom:1px solid var(--line);font-size:14px;color:var(--muted)}
+.article-summary .article-source{flex-basis:100%;order:3;font-size:13px}
+.article-summary .reader-toolbar{margin:0;padding:0;border:0;background:none;flex:0 0 auto;display:block;width:auto}
+.article-summary .reader-toggle{display:inline-flex;align-items:center;gap:8px;width:auto;min-height:40px;padding:4px 14px 4px 5px;border:1px solid var(--line);border-radius:999px;background:var(--sheet);color:var(--text);font-weight:700;font-size:13.5px;cursor:pointer}
+.article-summary .reader-toggle-icon{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--sheet2);border:0;font:800 12px/1 'Plus Jakarta Sans',sans-serif;color:var(--blue)}
+.article-summary .reader-toggle-state{margin-left:2px;color:var(--muted);font-weight:600;font-size:12.5px}
+.article-summary .reader-toggle-state::after{content:'▾';margin-left:6px;display:inline-block;transition:transform .2s}
+.article-summary .reader-toolbar.is-open{flex-basis:100%;order:4}
+.article-summary .reader-toolbar.is-open .reader-toggle-state::after{transform:rotate(180deg)}
+.article-summary .reader-panel{display:none}
+.article-summary .reader-toolbar.is-open .reader-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 18px;margin-top:10px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--sheet2)}
+.article-summary .reader-toolbar-space{display:inline-block;width:170px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--sheet);margin:0}
+.article-summary .reader-modes{display:inline-flex;gap:4px;width:auto}
+@media(max-width:560px){.article-summary .reader-toolbar.is-open .reader-panel{display:grid}.article-summary .reader-modes{display:grid;grid-template-columns:repeat(3,1fr);width:100%}.article-summary .reader-toggle-state{display:none}}
+
+/* The reading column */
+.article-sheet .article-text{font-size:17px;line-height:1.72;color:var(--text)}
+[data-reader-scale="90"] .article-sheet .article-text{font-size:15.5px}
+[data-reader-scale="110"] .article-sheet .article-text{font-size:18.5px}
+[data-reader-scale="120"] .article-sheet .article-text{font-size:20px}
+.article-sheet .article-text>:is(p,ul,ol,h2,h3,h4,.check-block){max-width:var(--measure)}
+.article-sheet .article-text p{margin:0 0 1em}
+.article-sheet .article-text li{margin:0 0 .45em}
+.article-sheet .article-text h2{font:800 clamp(22px,2.3vw,27px)/1.25 'Plus Jakarta Sans',sans-serif;letter-spacing:-.022em;margin:2.3em 0 .65em;padding-top:0;text-wrap:balance}
+.article-sheet .article-text h1+h2,.article-sheet .article-text>h2:first-child{margin-top:.3em}
+.article-sheet .article-text h3{font:800 1.08em/1.35 'Plus Jakarta Sans',sans-serif;color:var(--navy);margin:1.6em 0 .5em}
+.sec-num{color:var(--num);margin-right:.18em;font-variant-numeric:tabular-nums}
+.article-sheet .article-text strong{font-weight:700}
+.article-sheet .article-text em:has(>a[href^="#/physiology/cvs/"]){font-style:normal;font-size:.86em}
+.article-sheet .article-text a[href^="#/physiology/cvs/"]{font-weight:600}
+.article-sheet .article-text table{font-size:.86em}
+
+/* Understanding Checks: one calm panel per set of questions */
+.article-sheet .check-block{margin:2.2em 0;padding:22px 22px 6px;border:1px solid var(--line);border-radius:20px;background:var(--sheet2)}
+.check-block .check-label{display:flex;align-items:center;gap:9px;margin:0 0 16px;font:800 14.5px/1.3 'Plus Jakarta Sans',sans-serif;color:var(--navy)}
+.check-block .check-label::before{content:'?';display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--num);color:#fff;font-size:13px}
+[data-theme="dark"] .check-block .check-label::before{color:#1b1406}
+.check-block .check-label strong{font-weight:800}
+.check-block>p{font-size:.95em}
+.check-block .mcq-options{gap:8px;margin-top:12px}
+.check-block .mcq-option{font-size:15px;padding:11px 15px;border-radius:13px;background:var(--sheet);transition:border-color .15s,background-color .15s}
+.check-block .mcq-option:hover:not(:disabled){background:color-mix(in srgb,var(--blue) 5%,var(--sheet))}
+.article-sheet .check-block details{margin:4px 0 24px;padding:0;border:0;background:none;font-size:.92em}
+.article-sheet .check-block details summary{display:inline-flex;align-items:center;gap:8px;min-height:40px;list-style:none;color:var(--blue);font-weight:700}
+.article-sheet .check-block details summary::-webkit-details-marker{display:none}
+.article-sheet .check-block details summary::before{content:'';width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .2s;margin-right:2px}
+.article-sheet .check-block details[open] summary::before{transform:rotate(45deg)}
+.article-sheet .check-block details[open]>p{margin:6px 0 0;padding:12px 15px;border-left:3px solid var(--w-ok);border-radius:0 12px 12px 0;background:var(--sheet)}
+
+/* Chapter Essentials: the summary to come back to */
+.article-sheet .article-text h2[id$="chapter-essentials"]+ol{padding:18px 22px 18px 44px;border-radius:20px;background:color-mix(in srgb,var(--gold) 12%,var(--sheet));border:1px solid color-mix(in srgb,var(--gold) 40%,var(--line))}
+.article-sheet .article-text h2[id$="chapter-essentials"]+ol li::marker{color:var(--num);font-weight:800}
+
+/* End of chapter: the next step is one obvious card */
+.article-sheet .article-end{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.next-card{display:grid;justify-self:start;min-width:min(100%,320px);gap:4px;padding:18px 20px;border-radius:18px;background:var(--navy);color:#fff;text-decoration:none;transition:transform .15s}
+.next-card:hover{transform:translateY(-1px)}
+.next-label{font-size:13px;opacity:.8}.next-title{font:800 19px/1.3 'Plus Jakarta Sans',sans-serif}
+.next-title::after{content:' →'}
+[data-theme="dark"] .next-card{background:#1d3a6e}
+.end-actions{display:flex;flex-wrap:wrap;gap:8px}
+.end-actions .btn{min-height:44px}
+
+/* Breadcrumb and contents panel */
+.breadcrumb{font-size:13px}
+.breadcrumb a{text-decoration:none;color:var(--navy);font-weight:600}
+.toc{padding:18px 14px}
+.toc h2{font:700 13px 'Plus Jakarta Sans',sans-serif;letter-spacing:0;text-transform:none;color:var(--navy);margin:0 0 10px;padding:0 6px}
+.toc a{font-size:13px;line-height:1.45;padding:8px 8px;color:var(--muted)}
+.nav-bottom{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.nav-bottom a{font-size:12.5px;line-height:1.4;padding:6px 8px}
+
+/* Phones: the text sits on the page, not in a box */
+@media(max-width:660px){
+  .breadcrumb{margin:16px 0 10px}
+  .breadcrumb .crumb-root,.breadcrumb .crumb-here{display:none}
+  .breadcrumb .crumb-parent a::before{content:'← '}
+  .article-layout .article-sheet{border:0;border-radius:0;box-shadow:none;background:transparent;padding:4px 2px 0}
+  .article-sheet .article-text{font-size:17px;line-height:1.68}
+  [data-reader-scale="90"] .article-sheet .article-text{font-size:15.5px}
+  [data-reader-scale="110"] .article-sheet .article-text{font-size:18.5px}
+  [data-reader-scale="120"] .article-sheet .article-text{font-size:20px}
+  .article-sheet .article-text h2{font-size:22px;margin-top:2em}
+  .article-sheet .check-block{margin:1.8em -6px;padding:18px 14px 4px;border-radius:18px}
+  .article-sheet .article-text h2[id$="chapter-essentials"]+ol{padding:14px 16px 14px 36px;margin-inline:-6px}
+  body:has(.article-sheet){background:var(--sheet)}
+}
+@media(max-width:660px){
+  .article-summary .reader-adjust{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 12px;width:100%}
+  .article-summary .reader-adjust select{width:100%;min-width:0}
+  .article-summary .reader-adjust label[for="reader-width"],.article-summary .reader-adjust #reader-width{display:none}
+}
+@media(max-width:760px){.article-sheet .article-end .next-card{justify-self:stretch}.article-sheet .article-end .end-actions .btn{flex:1}}

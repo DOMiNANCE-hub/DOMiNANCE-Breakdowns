@@ -84,7 +84,26 @@ def responsive_images(html):
         tag=tag.replace(src.group(0),f'src="{u}?width=800" srcset="{u}?width=480 480w, {u}?width=800 800w, {u}?width=1200 1200w" sizes="(max-width: 700px) 92vw, 760px"')
         return tag
     return re.sub(r'<img\b[^>]*>',fix,html)
-for t in topics: t['html']=responsive_images(t['html'])
+# Reading layout: section numbers get their own span, and each set of Understanding Check
+# questions is grouped so it reads as one calm panel. Text and anchors are unchanged.
+def reading_layout(html):
+    html=re.sub(r'(<h2 id="[^"]+">)(\d+\.)\s+',r'\1<span class="sec-num">\2</span> ',html)
+    out=[];pos=0
+    starts=[m for m in re.finditer(r'<p><strong>Understanding Check[^<]*</strong></p>|<h2 id="[^"]+"><span class="sec-num">\d+\.</span> Understanding Check[^<]*</h2>',html)]
+    for m in starts:
+        if m.start()<pos: continue
+        end=len(html)
+        nxt=re.compile(r'<h[23][ >]').search(html,m.end())
+        if nxt: end=nxt.start()
+        if m.group(0).startswith('<h2'):
+            out.append(html[pos:m.end()]); body=html[m.end():end]; label=''
+        else:
+            out.append(html[pos:m.start()]); body=html[m.end():end]
+            label=m.group(0).replace('<p><strong>','<p class="check-label"><strong>',1)
+        out.append('<section class="check-block">'+label+body.rstrip('\n')+'</section>\n'); pos=end
+    out.append(html[pos:])
+    return ''.join(out)
+for t in topics: t['html']=responsive_images(reading_layout(t['html']))
 
 # Full bundle: used by the structural audit and the browser test suite (not loaded by the site).
 script='window.DOMINANCE_TOPICS = '+json.dumps(topics,ensure_ascii=False,separators=(',',':'))+';\n'

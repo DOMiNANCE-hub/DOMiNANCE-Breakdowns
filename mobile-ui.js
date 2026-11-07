@@ -117,7 +117,7 @@
     });
     spyNow();
     const toc = main.querySelector('.toc');
-    if (toc && !toc.querySelector('.toc-keys')) toc.querySelector('.toc-info')?.insertAdjacentHTML('afterend', '<p class="toc-keys"><kbd>[</kbd> <kbd>]</kbd> previous / next section</p>');
+    if (toc && !toc.querySelector('.toc-keys')) toc.querySelector('.nav-bottom')?.insertAdjacentHTML('beforebegin', '<p class="toc-keys"><kbd>[</kbd> <kbd>]</kbd> previous / next section</p>');
     progress();
   }
   // Scrollspy: the last section heading above the upper third of the screen is the one being read.

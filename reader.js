@@ -74,7 +74,7 @@ function mount(){
  toolbar.className='reader-toolbar';
  toolbar.setAttribute('role','group');toolbar.setAttribute('aria-label','Reading preferences');
  toolbar.innerHTML=`<button type="button" class="reader-toggle" aria-expanded="false" aria-controls="reader-panel"><span class="reader-toggle-icon" aria-hidden="true">Aa</span><span>Reading options</span><span class="reader-toggle-state" aria-hidden="true"></span></button><div class="reader-panel" id="reader-panel"><div class="reader-modes" role="group" aria-label="Reading mode"><button type="button" data-reader-mode="continuous">Continuous</button><button type="button" data-reader-mode="section">Sections</button><button type="button" data-reader-mode="presentation">Cards</button></div><div class="reader-adjust"><label for="reader-size">Text size</label><select id="reader-size" aria-label="Reading text size"><option value="90">Small</option><option value="100">Normal</option><option value="110">Large</option><option value="120">Extra large</option></select><label for="reader-width">Line width</label><select id="reader-width" aria-label="Reading line width"><option value="comfortable">Comfortable</option><option value="wide">Wide</option></select></div></div>`;
- article.querySelector('.article-summary')?.after(toolbar);
+ article.querySelector('.article-summary')?.append(toolbar);
  const nav=document.createElement('nav');nav.id='reader-section-nav';nav.className='reader-section-nav';
  nav.setAttribute('aria-label','Section reading navigation');
  nav.innerHTML='<button type="button" id="reader-prev">← Previous</button><span id="reader-position" aria-live="polite"></span><button type="button" id="reader-next">Next →</button>';
