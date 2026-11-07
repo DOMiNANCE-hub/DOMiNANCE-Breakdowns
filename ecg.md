@@ -72,11 +72,6 @@ Each one measures the voltage **between two limb electrodes**:
 
 Together they form a triangle around the heart, **Einthoven's triangle**.
 
-<figure class="teaching-illustration ecg-figure-small" id="ecg-einthoven">
-<a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
-<figcaption><strong>Figure 01. Bipolar limb-lead directions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Kychot · <a href="https://commons.wikimedia.org/wiki/File:ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
-</figure>
-
 Because the three leads share the same three electrodes, their voltages at any instant are linked by **Einthoven's law**:
 
 <div class="equation-block"><span class="equation-label">Einthoven's law</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mi>II</mi></msub><mo>=</mo><msub><mi>V</mi><mi>I</mi></msub><mo>+</mo><msub><mi>V</mi><mi>III</mi></msub></math></div>
@@ -108,10 +103,25 @@ Each chest electrode is a positive end, compared with an average of the limb ele
 
 Place **V4 before V3**, because V3 sits midway between V2 and V4. A misplaced electrode changes the shapes and can make a normal ECG look abnormal.
 
-<figure class="teaching-illustration ecg-figure-small" id="ecg-precordial">
-<a href="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" alt="Anterior torso and rib cage with six labelled ECG chest electrodes V1 to V6 in their correct anatomical positions." width="287" height="252"></a>
-<figcaption><strong>Figure 02. V1–V6 chest electrode positions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Jmarchn · <a href="https://commons.wikimedia.org/wiki/File:Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
-</figure>
+<figure class="learning-figure ecg-svg-figure ecg-leads-figure" id="ecg-leads"><figcaption>Where the limb and chest leads look from</figcaption><div class="ecg-panels">
+<svg viewBox="0 0 300 300" role="img" aria-label="Limb leads. Front view of a body; the patient's right is on your left. Einthoven's triangle joins the right arm, left arm and left leg electrodes. Lead I runs from the right arm to the left arm, Lead II from the right arm to the left leg, and Lead III from the left arm to the left leg; each arrowhead is the lead's positive end. Dashed arrows from the centre show the augmented leads: aVR towards the right arm, aVL towards the left arm and aVF towards the foot."><defs><marker id="el-h" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="ef-head"/></marker><marker id="el-h2" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="ef-head2"/></marker></defs>
+<g class="ef-body"><circle cx="150" cy="38" r="21"/><path d="M104 66H196Q210 66 212 82L224 140L206 144L198 104V196H102V104L94 144L76 140L88 82Q90 66 104 66Z"/><path d="M108 196H146L140 284H112Z"/><path d="M154 196H192L188 284H160Z"/></g>
+<g class="ef-lead"><path d="M74 98H224" marker-end="url(#el-h)"/><path d="M70 104L136 228" marker-end="url(#el-h)"/><path d="M230 104L164 228" marker-end="url(#el-h)"/></g>
+<g class="ef-aug"><path d="M150 148L84 104" marker-end="url(#el-h2)"/><path d="M150 148L216 104" marker-end="url(#el-h2)"/><path d="M150 148V218" marker-end="url(#el-h2)"/></g>
+<g class="ef-electrode"><circle cx="66" cy="98" r="13"/><circle cx="234" cy="98" r="13"/><circle cx="150" cy="252" r="13"/></g>
+<g class="ef-elabel"><text x="66" y="103" text-anchor="middle">RA</text><text x="234" y="103" text-anchor="middle">LA</text><text x="150" y="257" text-anchor="middle">LL</text></g>
+<g class="ef-leadlabel"><text x="150" y="90" text-anchor="middle">I</text><text x="88" y="182" text-anchor="end">II</text><text x="212" y="182">III</text></g>
+<g class="ef-auglabel"><text x="104" y="136" text-anchor="middle">aVR</text><text x="196" y="136" text-anchor="middle">aVL</text><text x="157" y="178">aVF</text></g>
+<text x="150" y="296" text-anchor="middle" class="ef-cap">Limb leads (front view)</text></svg>
+<svg viewBox="0 0 300 300" role="img" aria-label="Chest leads. Front view of the chest; the patient's left is on your right. V1 sits in the 4th intercostal space at the right edge of the sternum and V2 at the left edge. V4 sits in the 5th intercostal space on the midclavicular line, V3 midway between V2 and V4, V5 on the anterior axillary line and V6 on the midaxillary line, both level with V4.">
+<path class="ef-torso" d="M60 30Q150 14 240 30Q282 40 286 90V280H14V90Q18 40 60 30Z"/>
+<rect class="ef-sternum" x="138" y="40" width="24" height="150" rx="6"/>
+<g class="ef-guide"><path d="M24 128H280"/><path d="M24 168H280"/><path d="M212 40V230"/><path d="M248 50V230"/><path d="M274 70V230"/></g>
+<g class="ef-guidelabel"><text x="26" y="122">4th ICS</text><text x="26" y="162">5th ICS</text><text x="212" y="246" text-anchor="middle">MCL</text><text x="248" y="262" text-anchor="middle">AAL</text><text x="276" y="246" text-anchor="middle">MAL</text></g>
+<g class="ef-electrode"><circle cx="132" cy="128" r="10"/><circle cx="168" cy="128" r="10"/><circle cx="190" cy="148" r="10"/><circle cx="212" cy="168" r="10"/><circle cx="248" cy="168" r="10"/><circle cx="274" cy="168" r="10"/></g>
+<g class="ef-vlabel"><text x="132" y="110" text-anchor="middle">V1</text><text x="168" y="110" text-anchor="middle">V2</text><text x="178" y="160" text-anchor="end">V3</text><text x="212" y="196" text-anchor="middle">V4</text><text x="248" y="196" text-anchor="middle">V5</text><text x="274" y="196" text-anchor="middle">V6</text></g>
+<text x="150" y="296" text-anchor="middle" class="ef-cap">Chest leads (front view)</text></svg>
+</div><p class="ef-note">Patient’s right is on your left. Arrowheads mark each lead’s positive end. ICS = intercostal space; MCL = midclavicular line; AAL = anterior axillary line; MAL = midaxillary line.</p></figure>
 
 <aside class="source-note"><strong>Source note:</strong> The lecture names the three lead groups (bipolar, augmented unipolar, chest unipolar). Electrode positions and the right-leg electrode's role are standard clinical teaching.</aside>
 
@@ -123,10 +133,17 @@ The ECG trace is made of three kinds of parts. The words are not interchangeable
 - **Segment:** the flat stretch **between** two waves (PR segment, ST segment).
 - **Interval:** a span that **includes at least one wave** (PR interval, QT interval).
 
-<figure class="teaching-illustration ecg-figure-signal" id="ecg-normal-wave">
-<a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" alt="Labeled normal ECG with P wave, QRS complex, T wave, PR segment and interval, ST segment and QT interval." width="512" height="512"></a>
-<figcaption><strong>Figure 03. Normal ECG waves and intervals.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Agateller (Anthony Atkielski), SVG conversion by atom · <a href="https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></details></figcaption>
-</figure>
+<figure class="learning-figure ecg-svg-figure" id="ecg-normal-wave"><figcaption>One normal beat: waves, segments and intervals</figcaption>
+<svg viewBox="0 0 360 282" role="img" aria-label="One normal ECG beat. Waves, drawn in dark blue, are the P wave, the QRS complex and the T wave. Segments, drawn in gold on the baseline, are the PR segment between the P wave and the QRS, and the ST segment between the QRS and the T wave. Intervals are shown as brackets underneath: the PR interval from the start of P to the start of QRS, normally 0.12 to 0.20 seconds; the QRS duration, normally 0.06 to 0.10 seconds; and the QT interval from the start of QRS to the end of T, about 0.2 to 0.4 seconds depending on heart rate.">
+<g class="ef-legend"><rect x="126" y="8" width="16" height="6" rx="3" class="ef-key-wave"/><text x="146" y="15">Wave</text><rect x="188" y="8" width="16" height="6" rx="3" class="ef-key-seg"/><text x="208" y="15">Segment</text><path d="M276 6V14H292V6" class="ef-bracket"/><text x="297" y="15">Interval</text></g>
+<path class="ef-trace" d="M10 120H30C38 100 62 100 70 120H100L105 128L113 40L121 136L127 120H165C178 92 207 92 220 120H345"/>
+<g class="ef-seg"><path d="M72 120H98"/><path d="M129 120H163"/></g>
+<g class="ef-wave"><path d="M30 120C38 100 62 100 70 120"/><path d="M100 120L105 128L113 40L121 136L127 120"/><path d="M165 120C178 92 207 92 220 120"/></g>
+<g class="ef-wavelabel"><text x="50" y="94" text-anchor="middle">P</text><text x="113" y="32" text-anchor="middle">QRS</text><text x="192" y="86" text-anchor="middle">T</text></g>
+<g class="ef-seglabel"><text x="96" y="154" text-anchor="end">PR segment</text><text x="131" y="154">ST segment</text></g>
+<g class="ef-bracket"><path d="M30 172V180H100V172"/><path d="M100 206V214H127V206"/><path d="M100 240V248H220V240"/></g>
+<g class="ef-ilabel"><text x="30" y="198">PR interval <tspan class="ef-val">0.12–0.20 s</tspan></text><text x="100" y="232">QRS <tspan class="ef-val">0.06–0.10 s</tspan></text><text x="100" y="266">QT interval <tspan class="ef-val">0.2–0.4 s, rate-dependent</tspan></text></g>
+</svg></figure>
 
 <div class="media-resource video-resource" data-youtube-id="OKJvR83fIrc" data-media-title="(ECG or EKG) Wave patterns. Part 2 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 2 OF 3</span><h3>(ECG or EKG) Wave patterns. Part 2</h3><p>BioVFX. Upward and downward deflections, and how to identify the P, Q, R, S and T waves. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=OKJvR83fIrc" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
@@ -199,7 +216,14 @@ The <span data-term="wiggers">Wiggers diagram</span> puts these electrical event
 
 ECG paper is a grid of **small squares** (1 mm) grouped into **large squares** (5 small squares, outlined in bold). In the lecture's standard settings, the paper moves at **25 mm/s**, and **10 mm of height = 1 mV**.
 
-<div class="ecg-calibration-mini" role="group" aria-label="ECG paper calibration"><div class="ecg-paper-sample" aria-hidden="true"></div><div><strong>At 25 mm/s</strong><p>1 small 1-mm horizontal square = <strong>0.04 s</strong><br>1 large 5-mm horizontal square = <strong>0.20 s</strong></p><p><strong>At 10 mm/mV:</strong> 1 small vertical square = <strong>0.1 mV</strong>; 1 large vertical square = <strong>0.5 mV</strong>.</p></div></div>
+<figure class="learning-figure ecg-svg-figure" id="ecg-paper"><figcaption>Reading the ECG paper</figcaption>
+<svg viewBox="0 0 360 236" role="img" aria-label="ECG paper grid at 25 millimetres per second and 10 millimetres per millivolt. One small 1 millimetre square is 0.04 seconds across and 0.1 millivolts high. One large square, five small squares, is 0.20 seconds across and 0.5 millivolts high. Twenty-five small squares across make 1 second. The calibration pulse at the start is 10 small squares tall, which is 1 millivolt.">
+<rect x="20" y="20" width="300" height="144" class="ef-paper"/><path d="M20 20V164" class="ef-major"/><path d="M32 20V164" class="ef-minor"/><path d="M44 20V164" class="ef-minor"/><path d="M56 20V164" class="ef-minor"/><path d="M68 20V164" class="ef-minor"/><path d="M80 20V164" class="ef-major"/><path d="M92 20V164" class="ef-minor"/><path d="M104 20V164" class="ef-minor"/><path d="M116 20V164" class="ef-minor"/><path d="M128 20V164" class="ef-minor"/><path d="M140 20V164" class="ef-major"/><path d="M152 20V164" class="ef-minor"/><path d="M164 20V164" class="ef-minor"/><path d="M176 20V164" class="ef-minor"/><path d="M188 20V164" class="ef-minor"/><path d="M200 20V164" class="ef-major"/><path d="M212 20V164" class="ef-minor"/><path d="M224 20V164" class="ef-minor"/><path d="M236 20V164" class="ef-minor"/><path d="M248 20V164" class="ef-minor"/><path d="M260 20V164" class="ef-major"/><path d="M272 20V164" class="ef-minor"/><path d="M284 20V164" class="ef-minor"/><path d="M296 20V164" class="ef-minor"/><path d="M308 20V164" class="ef-minor"/><path d="M320 20V164" class="ef-major"/><path d="M20 20H320" class="ef-minor"/><path d="M20 32H320" class="ef-minor"/><path d="M20 44H320" class="ef-major"/><path d="M20 56H320" class="ef-minor"/><path d="M20 68H320" class="ef-minor"/><path d="M20 80H320" class="ef-minor"/><path d="M20 92H320" class="ef-minor"/><path d="M20 104H320" class="ef-major"/><path d="M20 116H320" class="ef-minor"/><path d="M20 128H320" class="ef-minor"/><path d="M20 140H320" class="ef-minor"/><path d="M20 152H320" class="ef-minor"/><path d="M20 164H320" class="ef-major"/>
+<rect x="248" y="44" width="12" height="12" class="ef-hi"/>
+<path class="ef-trace ef-cal" d="M20 152H44V32H92V152H320"/>
+<g class="ef-bracket"><path d="M98 32H104V152H98"/><path d="M200 168V174H260V168"/><path d="M20 196V202H320V196"/></g>
+<g class="ef-ilabel"><text x="108" y="96">1 mV</text><text x="108" y="112" class="ef-val">10 mm tall</text><text x="230" y="188" text-anchor="middle">1 large square = <tspan class="ef-val">0.20 s</tspan></text><text x="170" y="218" text-anchor="middle">25 small squares = <tspan class="ef-val">1 second</tspan></text><text x="266" y="40" text-anchor="start">1 small square</text><text x="266" y="68" class="ef-val">0.04 s · 0.1 mV</text></g>
+</svg><p class="ef-note">Standard settings: paper speed 25 mm/s, and 10 mm of height = 1 mV. One small square = <strong>0.04 s</strong> across and <strong>0.1 mV</strong> up; one large square = <strong>0.20 s</strong> and <strong>0.5 mV</strong>.</p></figure>
 
 **Across the paper is time.** The paper moves 25 small squares every second. So:
 

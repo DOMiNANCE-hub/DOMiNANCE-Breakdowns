@@ -102,6 +102,11 @@ Press a thumb firmly into swollen skin for a few seconds.
 - **Pitting oedema:** a dent stays after you let go. The extra fluid is free to move and is pushed aside. This is typical of heart failure, low albumin and venous causes.
 - **Non-pitting oedema:** no dent forms. The tissue is firm, because the fluid is bound up with protein and the tissue has become scarred.
 
+<figure class="teaching-illustration" id="cvs14-pitting-oedema">
+<img loading="lazy" src="assets/chapter14/pitting-oedema.jpg" alt="An examiner's thumbs press firmly into the tops of a child's swollen feet to test for pitting oedema." width="997" height="727">
+<figcaption><strong>Pitting oedema in both feet.</strong> Firm thumb pressure for a few seconds pushes the free interstitial fluid aside. When the thumb is lifted, a pit is left behind and fills in slowly as the fluid seeps back.</figcaption>
+</figure>
+
 
 
 **<span data-term="lymphoedema">Lymphoedema</span>** is usually non-pitting, but **only once it is long-standing**. Early lymphoedema can still pit, and it becomes firm as scarring develops.

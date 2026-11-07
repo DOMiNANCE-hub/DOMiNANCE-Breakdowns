@@ -35,7 +35,7 @@ So heart muscle behaves as a **functional syncytium**: *syn* (together) + *cyt* 
 
 <figure class="teaching-illustration" id="cvs02-figure-01">
 <a href="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" alt="Branched cardiac muscle fibres and an enlarged intercalated disc showing desmosomes and gap junctions." width="1018" height="476"></a>
-<figcaption><strong>Figure 01. Cardiac muscle and intercalated discs.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer">OpenStax</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></details></figcaption>
+<figcaption><strong>Figure 1. Cardiac muscle and intercalated discs.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer">OpenStax</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 ## 3. The cardiac muscle action potential
@@ -61,7 +61,7 @@ In ventricular muscle, the cell rests at about **−90 mV**. Its action potentia
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
-<figcaption><strong>Figure 02. Electrical activity, refractoriness and contraction.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></details></figcaption>
+<figcaption><strong>Figure 2. Electrical activity, refractoriness and contraction.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 **Important distinction:** this is the action potential of a working ventricular muscle cell. Pacemaker cells in the <span data-term="sa-node">SA node</span> have no steady resting voltage, and their upstroke is driven mainly by Ca²⁺, not by fast Na⁺. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
@@ -93,7 +93,7 @@ In ventricular muscle, the cell rests at about **−90 mV**. Its action potentia
 
 <figure class="teaching-illustration" id="cvs02-figure-03">
 <a href="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" alt="Diagram showing cardiac T-tubule L-type calcium channels, ryanodine receptor, sodium–calcium exchanger, sarcoplasmic reticulum, SERCA and phospholamban." width="756" height="567"></a>
-<figcaption><strong>Figure 03. Cardiac calcium cycling.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer">PeaBrainC</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption>
+<figcaption><strong>Figure 3. Cardiac calcium cycling.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Cardiac_calcium_cycling_and_excitation-contraction_coupling.png" target="_blank" rel="noopener noreferrer">PeaBrainC</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
 **Why does heart muscle depend on calcium from outside the cell?** In skeletal muscle, the voltage sensor in the T-tubule is mechanically linked to the SR's release channel, so the signal opens the store directly; no outside Ca²⁺ is needed. Heart muscle has no such direct link. Ca²⁺ must first enter from outside to open the store. **Skeletal muscle uses a direct mechanical link; heart muscle uses CICR.** So anything that reduces Ca²⁺ entry, such as calcium-channel-blocking drugs, weakens the heart's contraction, even if the SR is still full.
@@ -122,7 +122,7 @@ In skeletal muscle, the action potential is over in a few milliseconds, long bef
 
 Heart muscle can't do this. As the lecture puts it, it is impossible to tetanise cardiac muscle because of the **long refractory period** of its action potential. The refractory period lasts almost as long as the contraction itself. By the time the cell can fire again, it has already begun to relax.
 
-**Why this matters:** a heart locked in sustained contraction could not refill, so it would pump nothing. The long refractory period guarantees that the ventricles relax and refill between beats. Figure 02 shows how the refractory period and the contraction line up.
+**Why this matters:** a heart locked in sustained contraction could not refill, so it would pump nothing. The long refractory period guarantees that the ventricles relax and refill between beats. Figure 2 shows how the refractory period and the contraction line up.
 
 **Understanding Check: Sections 4–6**
 
