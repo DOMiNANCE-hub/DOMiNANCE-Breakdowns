@@ -223,13 +223,28 @@
       "minimum_checks": 12
     },
     "splanchnic": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "two capillary beds in a row",
+        "zone 3 is damaged first",
+        "space of Disse"
+      ]
     },
     "skin": {
-      "minimum_checks": 12
+      "minimum_checks": 7,
+      "required": [
+        "axon-reflex-figure",
+        "substance P",
+        "No spinal cord needed"
+      ]
     },
     "fetal": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "ductus venosus",
+        "Ligamentum arteriosum",
+        "2,3-BPG"
+      ]
     }
   }
 }

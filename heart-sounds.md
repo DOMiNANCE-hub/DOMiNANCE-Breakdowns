@@ -268,7 +268,7 @@ Turbulence is not limited to the heart valves. Wherever blood is forced through 
 
 The rule is the same everywhere: **find the pressure difference that drives the abnormal flow, and when it exists.** That tells you when the sound is heard. The PDA murmur is continuous for exactly this reason: the pressure difference between the aorta and pulmonary artery never reverses.
 
-<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=what-closes-after-delivery">Fetal Circulation, "What closes after delivery?"</a> · bruits over narrowed arteries → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · Korotkoff sounds in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
+<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=4-what-closes-after-delivery">Fetal Circulation, "What closes after delivery?"</a> · bruits over narrowed arteries → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · Korotkoff sounds in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
 
 ## 10. Understanding Check
 

@@ -1,121 +1,85 @@
 # Splanchnic and Hepatic Circulation
 
-## An unusual route through two capillary networks
+## 1. An unusual route through two capillary beds
+
+The gut is supplied by three unpaired arteries from the aorta: the **<span data-term="coeliac-trunk">coeliac trunk</span>**, the **superior mesenteric artery** and the **inferior mesenteric artery**.
+
+**The unusual part is where the blood goes next.** Venous blood from the gut and spleen does **not** go straight back to the heart. It collects in the **<span data-term="portal-vein">portal vein</span>** (formed by the superior mesenteric and splenic veins) and passes through the **liver first**.
+
+So this blood crosses **two capillary beds in a row**: the gut's capillaries, then the liver's **<span data-term="sinusoid">sinusoids</span>**. **Why?** Everything absorbed from the gut (nutrients, drugs, toxins, bacteria) is sent to the liver to be processed **before** it reaches the rest of the body.
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portal_venous_system-en.svg" alt="Labelled anatomical illustration of portal venous return from abdominal digestive organs to the liver"><figcaption><strong>Figure. Portal venous system.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Jmarchn, <a href="https://commons.wikimedia.org/wiki/File:Portal_venous_system-en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption></figure>
 
+## 2. The liver's double blood supply and its zones
 
-The abdominal organs receive arterial blood mainly through the **coeliac trunk**, **superior mesenteric artery** and **inferior mesenteric artery**. Venous blood from much of the gut passes through the **portal vein** to liver sinusoids before draining through hepatic veins to the inferior vena cava. Thus, absorbed nutrients are delivered to the liver before much systemic distribution.
+The liver gets blood from **two inflows**:
 
-## Hepatic microcirculation
+| Inflow | Share of the flow | Brings |
+|---|---|---|
+| **Portal vein** | About **75%** | Nutrient-rich, but partly deoxygenated, blood from the gut |
+| **Hepatic artery** | About **25%** | Oxygen-rich arterial blood (about half the liver's oxygen) |
+
+Both enter at the **<span data-term="portal-triad">portal triad</span>** (portal vein branch + hepatic artery branch + bile duct). They **mix in the sinusoids**, the leaky, wide liver capillaries, and flow towards the **central vein** → hepatic veins → inferior vena cava. **Bile flows the opposite way**, towards the bile ducts in the triad.
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_scheme1.jpg" alt="Illustration of hepatic lobule organization, central vein, portal triads and acinar zones with oxygen delivery gradients"><figcaption><strong>Figure. Hepatic lobule and acinar oxygen zonation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">MarquardtM, <a href="https://commons.wikimedia.org/wiki/File:Liver_scheme1.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption></figure>
 
-
-
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_vascular_anatomy.svg" alt="Detailed labelled anatomical illustration of liver vessels, portal tract and hepatic lobule structures"><figcaption><strong>Figure. Liver vascular and lobular anatomy.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Gwilz, <a href="https://commons.wikimedia.org/wiki/File:Liver_vascular_anatomy.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption></figure>
 
+**Zones: why the centre suffers first.** Along each sinusoid, liver cells take oxygen out as blood passes:
 
-Branches of portal vein and hepatic artery enter near portal tracts, blood mixes in liver **sinusoids**, and drains toward **central veins**. Zone 1 hepatocytes near inflow have greater oxygen availability, while **zone 3** hepatocytes near central veins are more vulnerable to hypoxic damage. Hepatocytes receive oxygen from both portal and arterial sources.
+- **Zone 1** (near the portal triad) gets the **freshest, most oxygen-rich** blood.
+- **<span data-term="hepatic-zones">Zone 3</span>** (near the central vein) gets blood that has **already given up much of its oxygen**.
 
-## Blood flow after meals and in shock
-Intestinal metabolic activity increases after feeding, promoting splanchnic blood flow. This region contains a sizeable venous reservoir. During haemorrhage, sympathetic constriction can mobilize splanchnic blood and reduce nonessential regional flow, although severe or prolonged hypoperfusion risks intestinal ischaemia.
+So when blood flow or oxygen falls (in shock or heart failure), **zone 3 is damaged first**.
 
-## Ascites
-Portal hypertension can increase hydrostatic pressure in abdominal microvessels and hepatic sinusoids. Combined with renal sodium retention, lymph production and often low plasma albumin, this favours **ascites**, accumulation of fluid in the peritoneal cavity. The mechanism is multifactorial; increased protein concentration in all ascitic fluid should not be assumed.
+Between the sinusoid lining and the liver cells is a narrow gap, the **<span data-term="space-of-disse">space of Disse</span>**, where plasma touches the cells directly. Fluid that collects here drains as hepatic lymph.
 
-**Why shock can injure the gut:** sympathetic redistribution supports systemic pressure but can reduce mucosal oxygen delivery below demand.
+## 3. Blood flow after meals, and in shock
 
-## Two inflows and the hepatic microvascular route
-Arteries from the **coeliac trunk, superior mesenteric and inferior mesenteric arteries** supply abdominal organs; portal venous blood collects nutrients and metabolites from the gut/spleen before delivering them to the liver. The liver receives blood through **portal vein and hepatic artery** branches, which mix in sinusoids and drain to **central veins → hepatic veins → IVC**. The **portal triad** contains a portal venule, hepatic arteriole and bile ductule. Bile generally travels in a direction opposing sinusoidal blood drainage.
+- **After a meal**, the gut works harder and its arterioles dilate, so splanchnic blood flow rises: **<span data-term="postprandial-hyperaemia">postprandial hyperaemia</span>**.
+- **The splanchnic veins are a blood reservoir**: stretchy, and holding a large volume.
+- **In haemorrhage**, sympathetic nerves **constrict** the splanchnic vessels. This sends stored blood back to the heart and diverts flow to the brain and heart. It helps hold up blood pressure, but if it lasts, the **gut lining becomes ischaemic** and can break down. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-In the classical lobule, periportal hepatocytes are closer to the portal triad and receive more oxygenated inflow; **centrilobular (zone 3)** hepatocytes near terminal hepatic venules have relatively lower oxygen availability and are especially vulnerable to some ischaemic insults. This oxygen gradient helps explain why zone 3 is relatively vulnerable during impaired perfusion.
+**Understanding Check: Sections 1–3**
 
-## Digestion, shock and venous storage
-Following a meal, intestinal metabolic activity increases **splanchnic flow** (postprandial hyperaemia). The splanchnic venous bed is a substantial **blood reservoir**. During marked sympathetic activation in haemorrhage, splanchnic vasoconstriction shifts blood centrally and reduces gut perfusion; prolonged severe underperfusion can injure the bowel.
+<p><strong>1.</strong> Why does gut venous blood pass through the liver before reaching the heart?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The liver processes absorbed nutrients and toxins first</span><span class="mcq-option" data-option="B">B. The liver adds oxygen to the venous blood from the gut</span><span class="mcq-option" data-option="C">C. The portal vein is too narrow to reach the heart</span><span class="mcq-option" data-option="D">D. The gut veins have no valves, so they need the liver to pump</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The portal route sends everything absorbed from the gut to the liver to be processed before it enters the general circulation.</p></details>
 
-## Explain ascites without one misleading protein story
-**Ascites** is fluid accumulated within the peritoneal cavity. Portal hypertension increases sinusoidal hydrostatic pressure and hepatic lymph formation; when lymphatic drainage is exceeded, fluid can accumulate in the abdomen. In cirrhosis, sodium/water retention and lowered serum albumin often contribute. The composition and protein concentration of ascitic fluid vary with the underlying cause; high-protein fluid is **not universal** in all ascites.
+<p><strong>2.</strong> In shock, why are liver cells near the central vein (zone 3) damaged first?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They receive blood after upstream cells have used much of its oxygen</span><span class="mcq-option" data-option="B">B. They receive blood only from the portal vein</span><span class="mcq-option" data-option="C">C. They are closest to the hepatic artery</span><span class="mcq-option" data-option="D">D. They do not have sinusoids</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Blood flows from the portal triad to the central vein, losing oxygen along the way, so zone 3 runs short first.</p></details>
 
-**Practice:** Why is zone 3 particularly sensitive to low oxygen supply? It lies downstream in the sinusoidal pathway and receives blood with less remaining oxygen.
+<p><strong>3.</strong> How do the splanchnic vessels help in haemorrhage?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They dilate to receive more blood from the heart</span><span class="mcq-option" data-option="B">B. They constrict, sending stored blood back to the heart</span><span class="mcq-option" data-option="C">C. They make new red cells to replace lost blood</span><span class="mcq-option" data-option="D">D. They stop the liver from releasing glucose</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Sympathetic constriction squeezes the splanchnic reservoir and diverts flow to vital organs, at the cost of gut perfusion.</p></details>
 
+## 4. Why does fluid collect as ascites?
 
-## Follow the circulation from gut to liver
+**<span data-term="ascites">Ascites</span>** is fluid in the peritoneal cavity. It usually develops when the liver is scarred (**<span data-term="cirrhosis">cirrhosis</span>**), through several routes at once:
 
-### The portal route has a special purpose
+1. **High portal pressure:** scarring blocks flow through the liver, so pressure backs up in the portal vein and sinusoids, pushing fluid out. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
+2. **Much more hepatic lymph:** the leaky sinusoids filter so much fluid that the lymphatics can't keep up, and the excess weeps into the abdomen.
+3. **The kidneys keep salt and water**, sensing underfilled arteries.
+4. **Low albumin** (a failing liver makes less), so the pull holding fluid in the vessels weakens. *(<a href="#/physiology/cvs/edema?section=5-why-can-low-plasma-proteins-cause-oedema">→ Oedema, §5</a>)*
 
-Blood arrives at the gastrointestinal organs through systemic arterial branches. After passing through intestinal capillaries, much venous drainage enters the **superior mesenteric and splenic veins**, which typically join to form the **portal vein**; the inferior mesenteric vein commonly drains into the splenic vein, though anatomy varies. The portal vein carries absorbed nutrients and gut-derived substances to the liver **before** they enter the wider systemic circulation.
+**Right heart failure** can cause ascites too: high pressure backs up through the hepatic veins into the liver.
 
-The liver has **two inflows**: portal venous blood supplies most of its flow, while hepatic arterial blood makes an important oxygen contribution. Both reach sinusoids, then pass toward central veins, hepatic veins and the inferior vena cava. Meanwhile, bile moves toward bile ductules in the portal tracts, generally **opposite** the direction of sinusoidal blood flow.
+The protein content of ascitic fluid **varies with the cause**: it is not always high, and not always low.
 
-### Why is zone 3 vulnerable?
+**Understanding Check: Section 4**
 
-Think of a hepatic sinusoid as a pathway through which mixed portal and arterial blood passes. **Zone 1** hepatocytes lie closer to entry and receive relatively oxygen-rich blood first. By the time blood reaches **zone 3**, oxygen has been extracted along the way. A fall in overall delivery therefore threatens downstream zone 3 earlier. This does not mean zone 3 is always damaged, or that every liver injury follows the same pattern.
+<p><strong>1.</strong> Which change most directly starts ascites in cirrhosis?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Raised pressure in the portal vein and liver sinusoids</span><span class="mcq-option" data-option="B">B. Raised pressure in the hepatic artery</span><span class="mcq-option" data-option="C">C. Increased flow through the coeliac trunk</span><span class="mcq-option" data-option="D">D. Increased albumin production by the liver</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Scarring obstructs flow, raising portal and sinusoidal pressure. Lymph overflow, salt retention and low albumin add to it.</p></details>
 
-### What changes after a meal and during haemorrhage?
+<p><strong>2.</strong> How can right heart failure cause ascites?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Pressure backs up through the hepatic veins into the liver</span><span class="mcq-option" data-option="B">B. It raises albumin, pulling fluid into the abdomen</span><span class="mcq-option" data-option="C">C. It blocks the portal vein directly</span><span class="mcq-option" data-option="D">D. It stops the kidneys from retaining salt</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> High right atrial pressure is passed back into the hepatic veins and sinusoids, so filtration rises.</p></details>
 
-Digestion increases local metabolic activity, producing **postprandial hyperaemia**: intestinal resistance falls and blood flow rises to support absorption. The splanchnic veins are also highly compliant, so they hold substantial blood volume. During haemorrhage sympathetic activation narrows splanchnic vessels and mobilizes venous blood toward the central circulation. This helps maintain venous return and pressure, but **prolonged loss of gut perfusion** can impair mucosal integrity and cause injury.
+<p><strong>3.</strong> Why do the liver's sinusoids produce so much lymph?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They are very leaky, so fluid and protein filter out easily</span><span class="mcq-option" data-option="B">B. They have no blood flow at all</span><span class="mcq-option" data-option="C">C. They contain muscle that pumps fluid out</span><span class="mcq-option" data-option="D">D. They are lined by thick, continuous capillaries</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Sinusoids are discontinuous capillaries, so much fluid passes into the space of Disse and drains as hepatic lymph.</p></details>
 
-### Why does fluid accumulate as ascites?
+## 5. Chapter Essentials
 
-Follow the chain: increased resistance to portal flow (commonly in cirrhosis) raises **portal/sinusoidal hydrostatic pressure** and hepatic lymph formation. At the same time, altered effective arterial filling promotes kidney **sodium and water retention**. When filtration and lymph formation exceed removal, fluid accumulates in the peritoneal cavity. Lower albumin may contribute but is neither the only nor a necessary explanation. The protein content of ascites varies with its cause.
-
-**Understanding checkpoint:** Why might a patient with portal hypertension have ascites despite adequate drinking? *The problem is altered vascular pressures, lymph formation and renal fluid retention, not simply insufficient or excessive water intake.*
-
-## Comprehensive Understanding Checks
-
-**01. Name the three main unpaired abdominal visceral arteries.**
-
-<details><summary>Show explanation</summary>The coeliac trunk, superior mesenteric artery and inferior mesenteric artery arise from the abdominal aorta and supply different portions of the digestive organs. Their venous drainage predominantly joins the portal system before reaching the liver.</details>
-
-**02. Where does most intestinal venous blood travel before reaching the IVC?**
-
-<details><summary>Show explanation</summary>Most intestinal venous blood enters the hepatic portal vein, reaches liver sinusoids, then leaves through central veins and hepatic veins to the IVC. This arrangement lets the liver process nutrients and other absorbed substances first.</details>
-
-**03. Why is hepatic zone 3 susceptible to hypoxic injury?**
-
-<details><summary>Show explanation</summary>Zone 3 lies downstream toward the central venous outflow. Blood has already supplied oxygen to upstream hepatocytes, so zone 3 has less oxygen reserve and is vulnerable when overall hepatic perfusion falls.</details>
-
-**04. What structures lie near a portal triad?**
-
-<details><summary>Show explanation</summary>A portal triad region contains branches of a portal venule, hepatic arteriole and bile ductule. Blood from the first two enters sinusoids toward central veins, while bile travels in the opposite general direction toward ductules.</details>
-
-**05. Why does gut blood flow increase after eating?**
-
-<details><summary>Show explanation</summary>Digestive and absorptive demand promotes local metabolic vasodilation and postprandial hyperaemia.</details>
-
-**06. How can abdominal veins contribute to blood pressure compensation?**
-
-<details><summary>Show explanation</summary>The splanchnic venous bed stores a substantial volume of blood. Sympathetic venoconstriction reduces its capacity and shifts blood into central veins, supporting venous return during haemorrhage even while gut blood flow may decrease.</details>
-
-**07. Why can shock damage intestinal mucosa despite sympathetic compensation?**
-
-<details><summary>Show explanation</summary>During major blood loss, the body narrows splanchnic vessels to defend central pressure and perfusion. If intestinal flow falls too far or too long, mucosal oxygen delivery cannot meet demand and tissue injury may follow.</details>
-
-**08. What is the space of Disse?**
-
-<details><summary>Show explanation</summary>The space of Disse lies between hepatocytes and the fenestrated endothelium of liver sinusoids. It allows exchange between blood plasma and hepatocytes; it is distinct from the sinusoidal blood lumen itself.</details>
-
-**09. Why does portal hypertension promote ascites?**
-
-<details><summary>Show explanation</summary>It increases filtration into hepatic interstitium and lymph production, which can overwhelm drainage.</details>
-
-**10. Is all ascitic fluid rich in protein?**
-
-<details><summary>Show explanation</summary>No. Ascitic protein concentration differs by cause. Portal hypertension, hepatic lymph formation, renal sodium retention and plasma protein changes contribute differently across disorders, so protein-rich fluid is not universal.</details>
-
-**11. How can right-heart failure aggravate ascites?**
-
-<details><summary>Show explanation</summary>Right-heart failure can increase central and hepatic venous pressures. Back-pressure in hepatic sinusoids increases filtration and lymph formation; if removal is exceeded, abdominal fluid accumulation can worsen.</details>
-
-**12. Why do arterial anastomoses not guarantee gut survival after a major blockage?**
-
-<details><summary>Show explanation</summary>Anastomoses may offer alternate routes after an arterial blockage, but their diameter and pressure gradient may not deliver enough blood. The affected gut segment can therefore remain ischaemic despite some collateral pathways.</details>
-
-## Chapter Essentials
-
-1. Portal flow passes through hepatic sinusoids before returning to IVC.
-2. Hepatic zone 3 is relatively vulnerable to low oxygen delivery.
-3. Digestion increases regional mucosal perfusion.
-4. Splanchnic veins are an important blood reservoir.
-5. Portal and hepatic venous pressures affect ascites production.
+1. **Gut arteries:** coeliac trunk, superior mesenteric and inferior mesenteric.
+2. **Portal route:** gut capillaries → portal vein → **liver sinusoids** → hepatic veins → IVC: two capillary beds in a row.
+3. **Two liver inflows:** the portal vein (about 75% of flow) and the hepatic artery (about 25%, but about half the oxygen).
+4. **Zone 1** (portal triad) is oxygen-rich; **zone 3** (central vein) is oxygen-poor and damaged first.
+5. **After meals**, gut flow rises. **In haemorrhage**, splanchnic vessels constrict, mobilising blood but risking gut ischaemia.
+6. **Ascites:** portal hypertension + lymph overflow + salt retention + low albumin (cirrhosis), or right heart failure.
