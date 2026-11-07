@@ -9,7 +9,7 @@
 | CIRCULATION 1(4).pdf | 100 | Primary lecture source |
 | CIRCULATION 2 REGULATION OF THE CVS(2).pdf | 37 | Primary lecture source |
 | CIRCULATION 3 Homeostasis in CVS.pdf | 43 | Primary lecture source |
-| Lecture 5 Homeostais in CVS.pdf | 35 | Near-duplicate of Circulation 3 (slides 1–34) |
+| Lecture 5 Homeostasis in CVS.pdf | 35 | Near-duplicate of Circulation 3 (slides 1–34) |
 | Lecture 6 Regional Circulation Proper.pdf | 48 | Primary lecture source |
 | Lecture 7 ECG 2.pdf | 14 | Primary lecture source |
 

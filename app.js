@@ -65,7 +65,7 @@
     },
     {
       slug: 'lecture-5', index: '05', name: 'Homeostasis in CVS (Lecture 5)',
-      file: 'Lecture 5 Homeostais in CVS.pdf', pages: 35, tone: 'amber', duplicateOf: 'circulation-3',
+      file: 'Lecture 5 Homeostasis in CVS.pdf', pages: 35, tone: 'amber', duplicateOf: 'circulation-3',
       overview: 'This is substantially the same Homeostasis material as Circulation 3. Use the same three explanations without rereading duplicates.',
       modules: [
         ['gravity','2–11','Gravity and postural cardiovascular responses'],
