@@ -1,5 +1,5 @@
 /* DOMiNANCE Breakdowns — offline reading (service worker).
- * Built by build.py from sw-template.js: __VERSION__ and __SHELL__ are filled in.
+ * Built by build.py from sw-template.js, which fills in the version and the app-shell file list.
  * - The app shell is saved on install, so the site opens without a connection.
  * - Every chapter a student opens is kept; "Save all chapters" stores the rest.
  * - Versioned files (content/*, *.js?v=, *.css?v=) never change, so they are served from the cache first.
