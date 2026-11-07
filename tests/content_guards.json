@@ -155,10 +155,24 @@
       ]
     },
     "microcirculation": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "tug-of-war between two kinds of pressure",
+        "data-widget=\"starling-balance\""
+      ],
+      "forbidden": [
+        "Treat the printed units as erroneous"
+      ]
     },
     "edema": {
-      "minimum_checks": 12
+      "minimum_checks": 7,
+      "required": [
+        "Only two ways",
+        "data-widget=\"starling-balance\""
+      ],
+      "forbidden": [
+        "New figure (if"
+      ]
     },
     "lymphatics": {
       "minimum_checks": 12
