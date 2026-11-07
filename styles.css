@@ -639,3 +639,11 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .rr-ecg{fill:none;stroke:var(--navy);stroke-width:2.4;stroke-linejoin:round}
 .tw-svg .rr-bracket{fill:none;stroke:var(--w-la);stroke-width:2}
 .rr-steps{margin:10px 0 0;padding:10px 13px 10px 32px;background:var(--sheet);border:1px solid var(--line);border-radius:11px;font-size:13.5px;line-height:1.6;color:var(--text)}
+/* Chapter 7 (cardiac output): Frank–Starling explorer */
+.tw-svg .fs-grid{stroke:var(--line);stroke-width:1}.tw-svg .fs-axis{stroke:var(--muted);stroke-width:2}
+.tw-svg .fs-curve{fill:none;stroke-width:3;opacity:.35}.tw-svg .fs-curve.is-on{stroke-width:5;opacity:1}
+.tw-svg .fs-low{stroke:var(--w-lv)}.tw-svg .fs-normal{stroke:var(--w-vol)}.tw-svg .fs-high{stroke:var(--w-la)}
+.tw-svg .fs-drop{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:4 4}
+.tw-svg .fs-dot{fill:var(--gold);stroke:var(--navy);stroke-width:2.5}
+.fs-read{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:10px}.fs-read span{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--sheet)}.fs-read small{font-size:11px;color:var(--muted)}.fs-read strong{font-size:15px;color:var(--navy)}
+.fs-lab{font-size:13px;font-weight:800;color:var(--navy)}
