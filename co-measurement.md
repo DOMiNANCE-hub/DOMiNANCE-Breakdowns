@@ -2,7 +2,7 @@
 
 ## 1. Why measure cardiac output instead of calculating it from heart rate alone?
 
-CO = HR × SV, but at the bedside **stroke volume can't be seen or felt**. A pulse tells you the heart rate, not how much blood each beat pushes out. So we need a way to measure blood flow directly. The lecture's method is **<span data-term="fick">Fick's principle</span>**, which works out flow from how much oxygen the body uses. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
+CO = HR × <span data-term="stroke-volume">SV</span>, but at the bedside **stroke volume can't be seen or felt**. A pulse tells you the heart rate, not how much blood each beat pushes out. So we need a way to measure blood flow directly. The lecture's method is **<span data-term="fick">Fick's principle</span>**, which works out flow from how much oxygen the body uses. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
 ## 2. Fick's principle: working out flow from oxygen use
 
@@ -30,7 +30,7 @@ Blood works the same way:
 
 <figure class="learning-figure teaching-widget" data-widget="fick-calculator" data-desc="sr"><figcaption>Fick calculator</figcaption><p>Three sliders: oxygen use (150–1,000 mL/min), arterial O₂ content (0.10–0.22 mL/mL) and mixed venous O₂ content (0.05–0.18 mL/mL; it cannot exceed arterial). The three steps update live, with the answer in L/min. A small bar shows the oxygen dropped off per mL. It starts at the lecture's 250, 0.20 and 0.15 → 5.0 L/min. One line notes the pattern: when tissues take more oxygen from each mL, the same oxygen use needs less flow.</p></figure>
 
-**Content, not saturation.** Fick needs the **amount of oxygen in each mL of blood** (content). **<span data-term="o2-saturation">Saturation</span>** only tells you what percentage of haemoglobin is carrying oxygen. Someone with anaemia can be 98% saturated but carry much less oxygen per mL, because there is less haemoglobin. Using saturation in place of content gives the wrong answer.
+**Content, not saturation.** Fick needs the **amount of oxygen in each mL of blood** (content). **Saturation** only tells you what percentage of haemoglobin is carrying oxygen. Someone with anaemia can be 98% saturated but carry much less oxygen per mL, because there is less haemoglobin. Using saturation in place of content gives the wrong answer.
 
 ## 3. Where do the oxygen measurements come from?
 
@@ -63,7 +63,7 @@ The same "what goes in must come out" idea underlies other methods.
 
 **Dye dilution.** Inject a known amount of dye into a vein, then measure its concentration downstream over time. **Fast flow dilutes the dye more and washes it past quickly**, so the concentration curve is low and short. Slow flow gives a higher, longer curve. From the dose and the curve, flow can be worked out.
 
-**Thermodilution.** The same idea, using **cold** saline instead of dye. A pulmonary artery catheter injects it, and a temperature sensor (<span data-term="thermodilution">thermistor</span>) downstream records how much and for how long the blood cools.
+**Thermodilution.** The same idea, using **cold** saline instead of dye. A pulmonary artery catheter injects it, and a temperature sensor (thermistor) downstream records how much and for how long the blood cools.
 
 | Method | What is measured | Main pitfall |
 |---|---|---|
@@ -79,7 +79,7 @@ The heart doesn't just move blood. It pushes it **against pressure**, and that t
 
 <div class="equation-block"><span class="equation-label">Approximate external stroke work</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>SW</mi><mo>≈</mo><mi>SV</mi><mo>×</mo><mi>P</mi></math><span class="equation-example">P is the pressure the ventricle pumps against, usually mean arterial pressure. This is an estimate: the exact value is the area of the pressure–volume loop.</span></div>
 
-**Example:** SV = 70 mL, mean arterial pressure = 100 mmHg → <span data-term="stroke-work">stroke work</span> ≈ 70 × 100 = **7,000 mmHg·mL** (about **0.93 J**) per beat.
+**Example:** SV = 70 mL, <span data-term="map">mean arterial pressure</span> = 100 mmHg → stroke work ≈ 70 × 100 = **7,000 mmHg·mL** (about **0.93 J**) per beat.
 
 **Why does the left ventricle do more work than the right?** Both pump the **same volume**, but the left pumps against about **100 mmHg** (aorta) and the right against about **15 mmHg** (pulmonary artery). Same volume against higher pressure means more work. That is why the left ventricular wall is so much thicker. *(<a href="#/physiology/cvs/cv-introduction?section=4-why-is-the-left-ventricular-wall-thicker-than-the-right">→ Introduction, §4</a>)*
 
@@ -94,7 +94,7 @@ Follow the loop round:
 - **Top:** it ejects (volume falls at high pressure).
 - **Left side:** it relaxes with all valves shut, so pressure falls at constant volume.
 
-**The area inside the loop is the stroke work.** A taller loop (higher pressure) or a wider loop (bigger SV) means more work. *(<a href="#/physiology/cvs/cardiac-cycle?section=8-the-whole-cycle-on-one-map">→ Cardiac Cycle, §8</a>)*
+**The area inside the loop is the <span data-term="stroke-work">stroke work</span>.** A taller loop (higher pressure) or a wider loop (bigger SV) means more work. *(<a href="#/physiology/cvs/cardiac-cycle?section=8-the-whole-cycle-on-one-map">→ Cardiac Cycle, §8</a>)*
 
 The loop shows only the **outside work** of pushing blood. The muscle also uses energy to pump calcium, keep ion gradients and hold tension, so **stroke work is not the same as the heart's total oxygen use**.
 
@@ -102,7 +102,7 @@ The loop shows only the **outside work** of pushing blood. The muscle also uses 
 
 The lecture lists three main things that set how much oxygen the heart muscle uses:
 
-1. **<span data-term="wall-tension">Wall tension</span>**, which rises with the pressure the ventricle must develop
+1. **Wall tension**, which rises with the pressure the ventricle must develop
 2. **Contractility:** a stronger beat costs more energy
 3. **Heart rate:** more beats per minute
 
@@ -113,7 +113,7 @@ The lecture lists three main things that set how much oxygen the heart muscle us
 
 These are general patterns. Individual patients vary with severity and coronary supply.
 
-**Why must coronary flow rise in exercise?** Even at rest, the heart muscle extracts most of the oxygen from its blood (about 70%). There is little left to take, so when demand rises, **the only way to get more oxygen is more coronary flow**. If narrowed coronaries can't deliver it, the muscle runs short of oxygen and chest pain (angina) results. *(<a href="#/physiology/cvs/coronary">→ Coronary Circulation</a>)*
+**Why must coronary flow rise in exercise?** Even at rest, the heart muscle extracts most of the oxygen from its blood (about 70%). There is little left to take, so when demand rises, **the only way to get more oxygen is more coronary flow**. If narrowed coronaries can't deliver it, the muscle runs short of oxygen and chest pain (<span data-term="angina">angina</span>) results. *(<a href="#/physiology/cvs/coronary">→ Coronary Circulation</a>)*
 
 **Careful:** Fick uses the **whole body's** oxygen use to measure cardiac output. The heart's **own** oxygen use is a separate, much smaller quantity.
 

@@ -7,7 +7,7 @@
 It depends on two things:
 
 - **Heart rate (HR):** beats per minute.
-- **Stroke volume (SV):** the blood ejected by one ventricle in **one beat**.
+- **<span data-term="stroke-volume">Stroke volume</span> (SV):** the blood ejected by one ventricle in **one beat**.
 
 <div class="equation-block"><span class="equation-label">Cardiac output</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mi>HR</mi><mo>×</mo><mi>SV</mi></math><span class="equation-example">Example: 75 beats/min × 70 mL/beat = <strong>5,250 mL/min = 5.25 L/min</strong></span></div>
 
@@ -21,7 +21,7 @@ The two circulations are joined **in series**. Everything the right ventricle pu
 
 ### Cardiac index: allowing for body size
 
-A bigger person needs more blood flow than a smaller one. **<span data-term="cardiac-index">Cardiac index (CI)</span>** divides cardiac output by **body surface area (BSA)**, so people of different sizes can be compared fairly.
+A bigger person needs more blood flow than a smaller one. **Cardiac index (CI)** divides cardiac output by **body surface area (BSA)**, so people of different sizes can be compared fairly.
 
 <div class="equation-block"><span class="equation-label">Cardiac index</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CI</mi><mo>=</mo><mfrac><mi>CO</mi><mi>BSA</mi></mfrac></math><span class="equation-example">For CO = 5.25 L/min and BSA = 1.75 m²: <strong>CI = 3.0 L/min/m²</strong>.</span></div>
 
@@ -29,7 +29,7 @@ A bigger person needs more blood flow than a smaller one. **<span data-term="car
 
 From CO = HR × SV, a faster heart rate raises cardiac output **only if stroke volume holds up**.
 
-**Sympathetic nerves usually raise both.** They speed the SA node (positive **<span data-term="chronotropy">chronotropy</span>**) and make each contraction stronger (positive **<span data-term="inotropy">inotropy</span>**). So in exercise, HR and SV rise together, and CO rises a lot.
+**Sympathetic nerves usually raise both.** They speed the <span data-term="sa-node">SA node</span> (positive **<span data-term="chronotropy">chronotropy</span>**) and make each contraction stronger (positive **<span data-term="inotropy">inotropy</span>**). So in exercise, HR and SV rise together, and CO rises a lot.
 
 **But a very fast heart can pump less.** The ventricles fill during diastole. As heart rate rises, diastole shortens much more than systole. At very high rates there is too little time to fill, so each beat ejects less.
 
@@ -52,14 +52,14 @@ From CO = HR × SV, a faster heart rate raises cardiac output **only if stroke v
 
 ## 3. What determines stroke volume?
 
-Stroke volume is what the ventricle starts with minus what it leaves behind: **SV = EDV − ESV** (end-diastolic volume minus end-systolic volume). *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
+Stroke volume is what the ventricle starts with minus what it leaves behind: **SV = <span data-term="edv">EDV</span> − <span data-term="esv">ESV</span>** (end-diastolic volume minus end-systolic volume). *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
 
 Three things decide it:
 
 | Factor | The question it answers | If it rises (others unchanged) |
 |---|---|---|
-| **<span data-term="preload">Preload</span>** | How stretched is the ventricle before it contracts? | SV rises (within limits) |
-| **<span data-term="afterload">Afterload</span>** | How hard is it to push the blood out? | SV falls |
+| **Preload** | How stretched is the ventricle before it contracts? | SV rises (within limits) |
+| **Afterload** | How hard is it to push the blood out? | SV falls |
 | **Contractility** | How strongly can the muscle contract at the same stretch? | SV rises |
 
 ### Preload: the starting stretch
@@ -74,7 +74,7 @@ Three things decide it:
 
 ### Contractility: how strong the muscle is at a given stretch
 
-**Contractility** (inotropy) is how forcefully the muscle contracts **at the same stretch and the same load**. It depends mainly on how much calcium reaches the contractile proteins in each beat. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
+**Contractility** (<span data-term="inotropy">inotropy</span>) is how forcefully the muscle contracts **at the same stretch and the same load**. It depends mainly on how much calcium reaches the contractile proteins in each beat. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
 
 **Key distinction:** a ventricle that contracts harder **because it was stretched more** is using the Frank–Starling mechanism. That is **not** a rise in contractility. A rise in contractility means a stronger contraction **without** extra stretch.
 
@@ -112,14 +112,14 @@ Someone who has been standing lies down. Blood stops pooling in the legs and ret
 
 Two beats have **the same EDV**, but before the second one, sympathetic nerves raise calcium entry. The second beat ejects more **without any extra stretch**: the point jumps to a **higher curve**. A weakened heart muscle sits on a **lower curve**.
 
-**Careful:** a higher afterload also lowers the curve. So a lower curve doesn't prove that contractility has fallen, unless afterload is the same.
+**Careful:** a higher <span data-term="afterload">afterload</span> also lowers the curve. So a lower curve doesn't prove that contractility has fallen, unless afterload is the same.
 
 ### Two lecture terms: heterometric and homometric
 
 | Term | Meaning (break it down) | Example |
 |---|---|---|
-| **<span data-term="heterometric">Heterometric</span>** regulation | *hetero* = different, *metric* = length: output changes because the **starting length changes** | More venous return → more stretch → more SV (Frank–Starling) |
-| **<span data-term="homometric">Homometric</span>** regulation | *homo* = same: output changes at the **same starting length** | Sympathetic stimulation → stronger beat at the same EDV |
+| **Heterometric** regulation | *hetero* = different, *metric* = length: output changes because the **starting length changes** | More <span data-term="venous-return">venous return</span> → more stretch → more SV (Frank–Starling) |
+| **Homometric** regulation | *homo* = same: output changes at the **same starting length** | Sympathetic stimulation → stronger beat at the same EDV |
 
 **Understanding Check: Sections 3–5**
 
@@ -152,7 +152,7 @@ EDV depends on **how much blood comes back**, **how long the ventricle has to fi
 |---|---|
 | Blood loss | Less blood to return |
 | Standing still | Gravity pools blood in the leg veins |
-| Fluid around the heart (tamponade) | Pressure from outside stops the ventricle expanding |
+| Fluid around the heart (<span data-term="tamponade">tamponade</span>) | Pressure from outside stops the ventricle expanding |
 | A stiff ventricle | It resists stretching, so it fills less |
 | A very fast heart rate | Too little time to fill |
 
@@ -164,7 +164,7 @@ The lecture also lists **heart attack (myocardial infarction)** and **endomyocar
 
 <div class="co-cause-flow" role="group" aria-label="Beta adrenergic inotropic pathway"><span>β₁ receptor</span><b>→</b><span>Gs / adenylyl cyclase</span><b>→</b><span>cAMP / PKA ↑</span><b>→</b><span>Ca²⁺ cycling ↑</span><b>→</b><span>Stronger contraction</span></div>
 
-In plain terms, the signal ends up letting **more calcium in** through L-type channels and **more calcium out of the sarcoplasmic reticulum**. More calcium means more cross-bridges and a stronger beat (positive **inotropy**). The same signal also speeds the pumping of calcium back into storage, so the muscle **relaxes faster** too (positive **<span data-term="lusitropy">lusitropy</span>**), which helps the ventricle refill at fast heart rates.
+In plain terms, the signal ends up letting **more calcium in** through L-type channels and **more calcium out of the <span data-term="sarcoplasmic-reticulum">sarcoplasmic reticulum</span>**. More calcium means more cross-bridges and a stronger beat (positive **<span data-term="inotropy">inotropy</span>**). The same signal also speeds the pumping of calcium back into storage, so the muscle **relaxes faster** too (positive **<span data-term="lusitropy">lusitropy</span>**), which helps the ventricle refill at fast heart rates.
 
 **Caffeine and theophylline (<span data-term="xanthines">xanthines</span>)**, which the lecture lists, slow the breakdown of cAMP, so they can strengthen contraction. In everyday doses the effect is small.
 
@@ -180,7 +180,7 @@ In plain terms, the signal ends up letting **more calcium in** through L-type ch
 
 Three patients show why each factor must be thought about separately:
 
-- **Blood loss:** heart rate rises, but there is so little blood returning (low preload) that SV and CO can still fall.
+- **Blood loss:** heart rate rises, but there is so little blood returning (low <span data-term="preload">preload</span>) that SV and CO can still fall.
 - **Aortic stenosis:** even a strong contraction has to force blood through a narrow valve, a high load against ejection.
 - **Heart failure:** the curve is flat, so extra filling raises pressure and congestion more than SV.
 

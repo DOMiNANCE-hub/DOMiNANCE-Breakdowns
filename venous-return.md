@@ -2,7 +2,7 @@
 
 ## 1. What is venous return, and why is it essential?
 
-**<span data-term="venous-return">Venous return</span>** is the volume of blood flowing **back into the right atrium each minute**. Over time it must equal cardiac output: the heart can only pump out what comes back to it. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
+**Venous return** is the volume of blood flowing **back into the right atrium each minute**. Over time it must equal cardiac output: the heart can only pump out what comes back to it. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
 **The heart can't pump blood it doesn't receive.** Even a strong heart ejects little if it is poorly filled. More venous return fills the ventricles more, and through Frank–Starling they eject more. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
@@ -18,7 +18,7 @@ Veins have **thin, stretchy walls**. They can hold a lot of blood without much r
 
 So the veins are the body's **blood reservoir**: about half or more of the blood volume sits in the systemic veins at rest. *(<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">→ Haemodynamics, §10</a>)*
 
-**Venous tone: squeezing the reservoir.** Sympathetic nerves can tighten the smooth muscle in vein walls (**<span data-term="venoconstriction">venoconstriction</span>**). The veins then hold less, so stored blood is pushed towards the heart, **without adding any new blood**. This is how the body quickly tops up venous return after a bleed or on standing.
+**Venous tone: squeezing the reservoir.** Sympathetic nerves can tighten the smooth muscle in vein walls (**venoconstriction**). The veins then hold less, so stored blood is pushed towards the heart, **without adding any new blood**. This is how the body quickly tops up <span data-term="venous-return">venous return</span> after a bleed or on standing.
 
 **This is different from tightening arterioles.** Arterioles control **resistance** and so flow into organs. Veins mainly control **how much blood is stored** and how much is sent back to fill the heart.
 
@@ -28,7 +28,7 @@ Blood flows back because **pressure in the veins is higher than pressure in the 
 
 <div class="equation-block"><span class="equation-label">Venous-return relation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>VR</mi><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>msf</mi></msub><mo>−</mo><msub><mi>P</mi><mi>RA</mi></msub></mrow><msub><mi>R</mi><mi>VR</mi></msub></mfrac></math><span class="equation-example">Pmsf = mean systemic filling pressure; PRA = right atrial pressure; RVR = resistance to venous return.</span></div>
 
-- **<span data-term="pmsf">Pmsf (mean systemic filling pressure)</span>:** how "full" the circulation is: the pressure that would exist everywhere if the heart stopped and pressures evened out. It rises with **more blood volume** or **tighter veins**.
+- **Pmsf (mean systemic filling pressure):** how "full" the circulation is: the pressure that would exist everywhere if the heart stopped and pressures evened out. It rises with **more blood volume** or **tighter veins**.
 - **PRA (right atrial pressure):** the pressure the returning blood flows **into**.
 - **RVR:** the resistance of the veins on the way back.
 
@@ -36,7 +36,7 @@ Blood flows back because **pressure in the veins is higher than pressure in the 
 
 So:
 
-- **Venous return rises** with more blood volume or venoconstriction (Pmsf ↑).
+- **Venous return rises** with more blood volume or <span data-term="venoconstriction">venoconstriction</span> (Pmsf ↑).
 - **Venous return falls** if right atrial pressure rises, as when a failing right ventricle can't empty.
 
 **There's a limit.** Lowering right atrial pressure helps only so far. Once it falls below zero, the large veins entering the chest collapse and stop extra blood getting through.
@@ -66,7 +66,7 @@ Each contraction pumps blood a step closer to the heart. **Walking is a pump.**
 <figure class="learning-figure teaching-widget" data-widget="muscle-pump" data-desc="sr"><figcaption>Muscle pump</figcaption><p>Shown with the original static diagram behind the Diagram | Interactive switch. A leg vein between two calf muscles, with a valve above and below. Squeeze shows the muscles pressing in, the lower valve shut, the upper valve open and blood moving up. Relax shows the muscles easing, the lower valve open (refilling from below) and the upper valve shut (no backflow). Play alternates them. A Stand still toggle stops the pump and shows blood pooling in a swollen lower vein, with the line "Less blood returns → less filling → lower stroke volume".</p></figure>
 </div>
 
-**Why do soldiers faint on parade?** Standing still, gravity pools blood in the leg veins and **the muscle pump isn't working**. Less blood returns, so filling and stroke volume fall, blood pressure drops and the brain gets less blood. Gently tensing the calves or rising on the toes keeps the pump going. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
+**Why do soldiers faint on parade?** Standing still, gravity pools blood in the leg veins and **the muscle pump isn't working**. Less blood returns, so filling and <span data-term="stroke-volume">stroke volume</span> fall, blood pressure drops and the brain gets less blood. Gently tensing the calves or rising on the toes keeps the pump going. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
 
 ## 5. How does breathing help venous return?
 
@@ -94,7 +94,7 @@ The lecture also notes that **pulsing arteries** next to veins squeeze them slig
 
 ## 6. What does central venous pressure tell us?
 
-**<span data-term="cvp">Central venous pressure (CVP)</span>** is the pressure in the large veins next to the right atrium. It is about the same as right atrial pressure, and it is what the JVP shows at the bedside. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
+**Central venous pressure (CVP)** is the pressure in the large veins next to the right atrium. It is about the same as right atrial pressure, and it is what the <span data-term="jvp">JVP</span> shows at the bedside. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
 
 It is **low**, only a few mmHg. The lecture's example is about 4.6 mmHg, but the exact value depends on posture, breathing and how it is measured.
 
@@ -104,7 +104,7 @@ It is **low**, only a few mmHg. The lecture's example is about 4.6 mmHg, but the
 
 Above the heart, gravity **lowers** venous pressure. In the neck, the veins can fall below atmospheric pressure. Ordinary neck veins simply **collapse**, which is why they look empty when you stand.
 
-The **<span data-term="dural-sinus">dural venous sinuses</span>** inside the skull are different: they are held open by tough dura. If one is cut open above heart level, as in a head wound or neurosurgery with the patient sitting, its below-atmospheric pressure can **suck air in**. An air bubble then travels to the heart and lungs: a dangerous **<span data-term="air-embolism">air embolism</span>**.
+The **dural venous sinuses** inside the skull are different: they are held open by tough dura. If one is cut open above heart level, as in a head wound or neurosurgery with the patient sitting, its below-atmospheric pressure can **suck air in**. An air bubble then travels to the heart and lungs: a dangerous **air embolism**.
 
 **Understanding Check: Sections 6–7**
 

@@ -4,7 +4,7 @@
 
 Every day, capillaries filter fluid and a little protein into the tissues, and most of it doesn't go straight back into the blood. **Capillaries can't take protein back at all.** Without another route, tissues would steadily swell. *(<a href="#/physiology/cvs/microcirculation?section=6-classic-starling-model-versus-revised-understanding">→ Microcirculation, §6</a>)*
 
-The **<span data-term="lymphatic-system">lymphatic system</span>** is that route. It collects the excess fluid, proteins and particles from the tissues and returns them to the veins. Once inside a lymph vessel, the fluid is called **lymph**.
+The **lymphatic system** is that route. It collects the excess fluid, proteins and particles from the tissues and returns them to the veins. Once inside a lymph vessel, the fluid is called **lymph**.
 
 <div class="lymph-flow" role="group" aria-label="Lymphatic return route"><span>Capillary filtration</span><b>→</b><span>Interstitial fluid</span><b>→</b><span>Lymph capillaries</span><b>→</b><span>Lymph vessels and ducts</span><b>→</b><span>Venous blood</span></div>
 
@@ -12,7 +12,7 @@ The **<span data-term="lymphatic-system">lymphatic system</span>** is that route
 
 ## 2. How does lymph enter a lymphatic capillary?
 
-**Lymph capillaries start as blind-ended tubes** in the tissues, closed at one end like the finger of a glove. Their wall is one layer of endothelial cells whose edges **overlap like roof tiles**. Fine **<span data-term="anchoring-filaments">anchoring filaments</span>** tie these cells to the surrounding tissue.
+**Lymph capillaries start as blind-ended tubes** in the tissues, closed at one end like the finger of a glove. Their wall is one layer of endothelial cells whose edges **overlap like roof tiles**. Fine **anchoring filaments** tie these cells to the surrounding tissue.
 
 **One-way flaps:**
 
@@ -48,7 +48,7 @@ Lymph flows at very low pressure, with no heart to pump it. Several things keep 
 
 ## 4. Where does lymph finally return to blood?
 
-All lymph drains into two main ducts. Each empties into the veins at the **<span data-term="venous-angle">venous angle</span>**, where the internal jugular vein joins the subclavian vein:
+All lymph drains into two main ducts. Each empties into the veins at the **venous angle**, where the <span data-term="jvp">internal jugular vein</span> joins the subclavian vein:
 
 | Duct | What it drains | Where it empties |
 |---|---|---|
@@ -65,19 +65,19 @@ On its way, lymph passes through **lymph nodes**: bean-shaped filters packed wit
 
 ## 5. Why is the intestinal lymphatic system important in fat absorption?
 
-Each finger-like villus of the small intestine contains a lymph capillary called a **<span data-term="lacteal">lacteal</span>** (*lac* = milk, after the milky look of lymph after a fatty meal).
+Each finger-like villus of the small intestine contains a lymph capillary called a **lacteal** (*lac* = milk, after the milky look of lymph after a fatty meal).
 
 **How fat gets into the blood:**
 
 <div class="lymph-flow" role="group" aria-label="Intestinal lipid absorption through lymphatics"><span>Long-chain dietary lipids</span><b>→</b><span>Enterocyte chylomicrons</span><b>→</b><span>Villus lacteal</span><b>→</b><span>Mesenteric lymph</span><b>→</b><span>Thoracic duct → Blood</span></div>
 
-1. Gut cells absorb the digested fats and repackage them into large fat droplets wrapped in protein: **<span data-term="chylomicron">chylomicrons</span>**.
+1. Gut cells absorb the digested fats and repackage them into large fat droplets wrapped in protein: **chylomicrons**.
 2. Chylomicrons are **too big** to enter blood capillaries, so they enter the leaky **lacteals** instead.
-3. They travel up the lymphatics and the thoracic duct, and enter the blood at the left venous angle.
+3. They travel up the lymphatics and the thoracic duct, and enter the blood at the left <span data-term="venous-angle">venous angle</span>.
 
-This milky, fat-rich lymph from the gut is called **<span data-term="chyle">chyle</span>**.
+This milky, fat-rich lymph from the gut is called **chyle**.
 
-**Not all fat goes this way.** Short- and medium-chain fatty acids are small enough to go straight into the blood capillaries, and on to the liver in the portal vein. It is the **long-chain fats** (and fat-soluble vitamins) that need the lymph.
+**Not all fat goes this way.** Short- and medium-chain fatty acids are small enough to go straight into the blood capillaries, and on to the liver in the <span data-term="portal-vein">portal vein</span>. It is the **long-chain fats** (and fat-soluble vitamins) that need the lymph.
 
 **Understanding Check: Sections 4–5**
 
@@ -101,11 +101,11 @@ The lymphatics keep the tissues from swelling by matching what the capillaries f
 
 ## 7. Why does lymphatic obstruction cause lymphoedema?
 
-When lymphatics are blocked, protein-rich fluid builds up. The protein holds the water in the tissue, and over time causes inflammation and scarring. The result is **lymphoedema**: swelling that is soft at first and becomes **firm and non-pitting** as it lasts. *(<a href="#/physiology/cvs/edema?section=8-why-are-pitting-and-non-pitting-oedema-different">→ Oedema, §8</a>)*
+When lymphatics are blocked, protein-rich fluid builds up. The protein holds the water in the tissue, and over time causes inflammation and scarring. The result is **<span data-term="lymphoedema">lymphoedema</span>**: swelling that is soft at first and becomes **firm and non-pitting** as it lasts. *(<a href="#/physiology/cvs/edema?section=8-why-are-pitting-and-non-pitting-oedema-different">→ Oedema, §8</a>)*
 
 The lecture's examples:
 
-- **Filariasis:** parasitic worms (spread by mosquitoes) live in and damage the lymph vessels, and can cause the gross swelling of **<span data-term="elephantiasis">elephantiasis</span>**.
+- **Filariasis:** parasitic worms (spread by mosquitoes) live in and damage the lymph vessels, and can cause the gross swelling of **elephantiasis**.
 - **Radical mastectomy:** removing the armpit lymph nodes in breast cancer surgery can leave the arm swollen.
 
 Cancer blocking lymph nodes, and lymphatics that never formed properly (congenital), can do the same.
@@ -114,7 +114,7 @@ Cancer blocking lymph nodes, and lymphatics that never formed properly (congenit
 
 Three jobs fail:
 
-- **Fluid balance:** fluid and protein stay in the tissues, causing lymphoedema.
+- **Fluid balance:** fluid and protein stay in the tissues, causing <span data-term="lymphoedema">lymphoedema</span>.
 - **Immune defence:** lymph no longer reaches the nodes, so infections are detected and fought less well, and swollen limbs get infected easily.
 - **Fat absorption:** if the gut lymphatics fail, long-chain fats and fat-soluble vitamins can't be absorbed properly.
 

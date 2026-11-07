@@ -45,7 +45,7 @@
     viewer.querySelector('.vv-stage').append(frame(src, panel.dataset.mediaTitle));
     viewer.addEventListener('click', e => { if (e.target === viewer || e.target.closest('.vv-close')) closeVideo(); });
     viewer.addEventListener('keydown', e => {
-      if (e.key === 'Escape') { e.preventDefault(); closeVideo(); }
+      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); closeVideo(); }
       if (e.key === 'Tab') { e.preventDefault(); viewer.querySelector(document.activeElement === viewer.querySelector('.vv-close') ? 'iframe' : '.vv-close').focus(); }
     });
     document.body.append(viewer);

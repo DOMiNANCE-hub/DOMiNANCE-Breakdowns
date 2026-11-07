@@ -15,7 +15,7 @@
 
 ## 2. Why doesn't blood stop moving during diastole?
 
-In diastole the aortic valve is shut and no blood is being ejected, yet blood keeps flowing through the arteries. The reason is the **<span data-term="windkessel">Windkessel effect</span>** (German for "air chamber", after the air-filled chamber old fire pumps used to smooth out their spurts):
+In diastole the aortic valve is shut and no blood is being ejected, yet blood keeps flowing through the arteries. The reason is the **Windkessel effect** (German for "air chamber", after the air-filled chamber old fire pumps used to smooth out their spurts):
 
 1. **Systole:** blood is ejected faster than it can drain away, so the elastic aorta **stretches**, storing some of the energy.
 2. **Diastole:** the aorta **springs back**, pushing the stored blood onwards.
@@ -24,7 +24,7 @@ In diastole the aortic valve is shut and no blood is being ejected, yet blood ke
 
 So flow is **smooth and continuous** in the tissues even though the heart pumps in spurts. Pressure still falls in diastole; the recoil just slows the fall.
 
-**A stiff aorta can't stretch much.** The same stroke volume then pushes systolic pressure higher, and with less recoil, diastolic pressure falls lower. That is why older people often have high systolic pressure with a **wide <span data-term="pulse-pressure">pulse pressure</span>**. *(<a href="#/physiology/cvs/pulses?section=1-what-is-an-arterial-pulse">→ Pulses and JVP, §1</a>)*
+**A stiff aorta can't stretch much.** The same <span data-term="stroke-volume">stroke volume</span> then pushes systolic pressure higher, and with less recoil, diastolic pressure falls lower. That is why older people often have high systolic pressure with a **wide <span data-term="pulse-pressure">pulse pressure</span>**. *(<a href="#/physiology/cvs/pulses?section=1-what-is-an-arterial-pulse">→ Pulses and JVP, §1</a>)*
 
 ## 3. Why do systolic and diastolic pressure depend on more than heart rate?
 
@@ -32,7 +32,7 @@ Blood pressure is set by **how much blood the heart pumps** and **how hard it is
 
 <div class="equation-block"><span class="equation-label">Mean pressure and flow</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MAP</mi><mo>−</mo><mi>CVP</mi><mo>≈</mo><mi>CO</mi><mo>×</mo><mi>SVR</mi></math><span class="equation-example">MAP = mean arterial pressure; CVP = central venous pressure; SVR = systemic vascular resistance.</span></div>
 
-Because CVP is near zero, this is usually written **MAP ≈ CO × <span data-term="svr">SVR</span>** (systemic vascular resistance). It is the same rule as Q = ΔP ÷ R, rearranged. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
+Because <span data-term="cvp">CVP</span> is near zero, this is usually written **<span data-term="map">MAP</span> ≈ CO × SVR** (systemic vascular resistance). It is the same rule as Q = ΔP ÷ R, rearranged. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
 
 So pressure rises if **cardiac output** rises or if the **arterioles tighten** (SVR rises). Heart rate alone doesn't tell you what BP will do.
 
@@ -66,7 +66,7 @@ So a wide pulse pressure doesn't by itself prove a big stroke volume. It may be 
 
 ## 5. What is mean arterial pressure, and why isn't it simply the midpoint?
 
-**<span data-term="map">Mean arterial pressure (MAP)</span>** is the **average pressure over a whole beat**. It is the pressure that actually drives blood into the tissues.
+**Mean arterial pressure (MAP)** is the **average pressure over a whole beat**. It is the pressure that actually drives blood into the tissues.
 
 **Why isn't it halfway between 120 and 70?** At a resting heart rate, the heart spends about **one-third of each beat in systole** and **two-thirds in diastole**. The pressure sits near diastolic for longer, so the average is pulled towards it.
 
@@ -102,7 +102,7 @@ Blood is a column of fluid, so **gravity adds pressure below the heart and takes
 
 ## 7. How does a cuff and stethoscope reveal systolic and diastolic pressure?
 
-The cuff squeezes the brachial artery in the upper arm. A stethoscope over the artery, just below the cuff, listens for **<span data-term="korotkoff">Korotkoff sounds</span>**: taps made by blood forcing its way through the squeezed artery. **The whole method is a contest: is the cuff squeezing harder than the blood is pushing?**
+The cuff squeezes the brachial artery in the upper arm. A stethoscope over the artery, just below the cuff, listens for **Korotkoff sounds**: taps made by blood forcing its way through the squeezed artery. **The whole method is a contest: is the cuff squeezing harder than the blood is pushing?**
 
 **1. Cuff above systolic (say 150; BP 120/70).** The cuff squeezes harder than even the peak of each beat. The artery stays **shut**. No blood gets through, so there is **silence**.
 
@@ -131,7 +131,7 @@ The cuff squeezes the brachial artery in the upper arm. A stethoscope over the a
 4. **Then listen:** inflate about 20–30 mmHg above that point. Deflate **slowly**, about 2 mmHg per second, listening over the brachial artery.
 5. **Record:** the first tap (systolic) and the point where the sounds disappear (diastolic).
 
-**Why feel first?** In some people the taps fade out for a while between systolic and diastolic (an **<span data-term="auscultatory-gap">auscultatory gap</span>**). If you only listened, you might start below the real systolic pressure and miss it.
+**Why feel first?** In some people the taps fade out for a while between systolic and diastolic (an **auscultatory gap**). If you only listened, you might start below the real systolic pressure and miss it.
 
 **Feeling alone gives systolic only.** The radial pulse returns when the cuff falls below systolic, but nothing you can feel marks diastolic.
 
@@ -147,7 +147,7 @@ The cuff squeezes the brachial artery in the upper arm. A stethoscope over the a
 
 Cuff size goes by **arm circumference**: large arms need large cuffs, and children need child-sized cuffs.
 
-**Automatic machines** (<span data-term="oscillometric">oscillometric</span> monitors) don't listen for Korotkoff sounds. They sense pressure wobbles in the cuff and calculate the BP.
+**Automatic machines** (oscillometric monitors) don't listen for <span data-term="korotkoff">Korotkoff sounds</span>. They sense pressure wobbles in the cuff and calculate the BP.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture covers auscultation, palpation, direct arterial measurement and cuff size. Resting time, deflation rate and the auscultatory gap are standard clinical guidance (American Heart Association).</aside>
 

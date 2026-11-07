@@ -67,7 +67,7 @@ These two effects are what the lecture means by "venous return" and "reduces pul
 
 <aside class="source-note"><strong>Source note:</strong> The lecture says the aortic and pulmonary valves close "at the same time" in expiration. In practice a small gap remains but is usually too short to hear; the teaching point is the widening on inspiration. Mechanism 2 corresponds to the lecture's "decrease in the impedance of the pulmonary vasculature". The lecture also lists "contracting lungs exert a force on the vessels"; this is not a standard explanation of splitting, so we have not taught it.</aside>
 
-<p class="related-links"><strong>Related:</strong> the full timing picture → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · breathing and venous return → <a href="#/physiology/cvs/venous-return?section=5-how-does-breathing-help-venous-return">Veins and Venous Return, §5</a></p>
+<p class="related-links"><strong>Related:</strong> the full timing picture → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · breathing and <span data-term="venous-return">venous return</span> → <a href="#/physiology/cvs/venous-return?section=5-how-does-breathing-help-venous-return">Veins and Venous Return, §5</a></p>
 
 **Understanding Check: Sections 1–3**
 
@@ -90,12 +90,12 @@ Recall how a ventricle fills *(<a href="#/physiology/cvs/cardiac-cycle?section=3
 - **<span data-term="diastasis">Diastasis</span>.** Filling slows to a trickle.
 - **<span data-term="atrial-kick">Atrial kick</span>.** The atria contract and push in the last portion of blood.
 
-**<span data-term="s3">S3</span>: at the end of rapid filling, early in diastole.** About 0.1–0.2 s after S2, the rush of early filling reaches the limit of how far the ventricle wall will easily stretch. The inflowing blood is suddenly slowed, and the ventricle wall and blood vibrate. The result is a low, dull sound just after S2: **"lub-dub-dum"**. Many students remember the rhythm as *Ken-TUC-ky*.
+**S3: at the end of rapid filling, early in diastole.** About 0.1–0.2 s after S2, the rush of early filling reaches the limit of how far the ventricle wall will easily stretch. The inflowing blood is suddenly slowed, and the ventricle wall and blood vibrate. The result is a low, dull sound just after S2: **"lub-dub-dum"**. Many students remember the rhythm as *Ken-TUC-ky*.
 
 - **When it is normal:** in children, young adults, athletes and pregnant women. Their ventricles relax quickly and fill very fast.
 - **When it suggests a problem:** with age, early filling normally slows and S3 disappears. In an older adult, an S3 usually means the ventricle is being overfilled or is enlarged and failing. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
 
-**<span data-term="s4">S4</span>: during the atrial kick, late in diastole.** Just before S1, the atria contract and push their blood into the ventricles. If the ventricle is **stiff**, for example thickened, it resists this final push. The blood is stopped abruptly and the wall vibrates. The result is a low sound just before S1: **"da-lub-dub"**, or *TEN-nes-see*.
+**S4: during the atrial kick, late in diastole.** Just before S1, the atria contract and push their blood into the ventricles. If the ventricle is **stiff**, for example thickened, it resists this final push. The blood is stopped abruptly and the wall vibrates. The result is a low sound just before S1: **"da-lub-dub"**, or *TEN-nes-see*.
 
 - **It depends entirely on atrial contraction.** It comes just after the <span data-term="p-wave">P wave</span> and goes with the <span data-term="a-wave">a wave</span> in the atria. So it is **absent in atrial fibrillation**, where the atria quiver instead of contracting together.
 - **When it suggests a problem:** an S4 you can actually hear with a stethoscope in an adult usually means a stiff ventricle.
@@ -115,7 +115,7 @@ Recall how a ventricle fills *(<a href="#/physiology/cvs/cardiac-cycle?section=3
 
 <aside class="source-note"><strong>Source note:</strong> The lecture lists both S3 and S4 as normal sounds due to rapid ventricular filling. We agree that both are filling sounds. Standard physiology texts (e.g. Guyton and Hall) separate them by cause: S3 comes from rapid passive filling, S4 from atrial contraction. They also note that S3 is often normal in young people, while an audible S4 in an adult usually points to a stiff ventricle. We teach that distinction because it explains why S4 disappears in atrial fibrillation.</aside>
 
-<p class="related-links"><strong>Related:</strong> the filling phases → <a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">Cardiac Cycle, §3</a> · S3 and S4 on the Wiggers diagram → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
+<p class="related-links"><strong>Related:</strong> the filling phases → <a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">Cardiac Cycle, §3</a> · S3 and S4 on the <span data-term="wiggers">Wiggers diagram</span> → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
 
 ## 5. Why do heart sounds change in loudness?
 
@@ -132,7 +132,7 @@ Each sound is made by a valve snapping shut. So anything that makes the snap **h
 **S2 depends on the pressure in the artery behind the valve.** The aortic and pulmonary valves are pushed shut by the pressure in the aorta and pulmonary artery. The higher that pressure, the harder and quicker the valve is driven shut. This is the lecture's "brisk closure".
 
 - **High blood pressure in the aorta** (systemic hypertension) → loud **A2**.
-- **High pressure in the pulmonary artery** (pulmonary hypertension) → loud **P2**. It is heard best at the pulmonary area, the second left intercostal space.
+- **High pressure in the pulmonary artery** (<span data-term="pulmonary-hypertension">pulmonary hypertension</span>) → loud **P2**. It is heard best at the pulmonary area, the second left intercostal space.
 
 **What a stethoscope picks up also depends on the route to the chest wall.** Sounds are quieter through a thick chest wall, fluid around the heart, or over-inflated lungs. A badly damaged, stiff valve may also barely move, so its closing sound becomes softer even though the disease is severe. So **loudness alone never tells you how serious a problem is**. It is one clue to put alongside timing and where the sound is heard.
 
@@ -156,21 +156,21 @@ Each sound is made by a valve snapping shut. So anything that makes the snap **h
 
 **Normal blood flow is silent.** Blood normally moves in smooth layers, sliding past one another. This is **<span data-term="laminar-flow">laminar flow</span>**, the lecture's "streamlined" flow. Nothing tumbles or collides, so there is nothing to hear.
 
-A **<span data-term="murmur">murmur</span>** is the sound of blood flow that has become **<span data-term="turbulent-flow">turbulent</span>**: swirling and tumbling instead of sliding in layers. The swirls shake the heart and vessel walls for as long as the turbulence lasts. So a murmur is a longer **whooshing** sound, not a short thud like S1 or S2.
+A **murmur** is the sound of blood flow that has become **<span data-term="turbulent-flow">turbulent</span>**: swirling and tumbling instead of sliding in layers. The swirls shake the heart and vessel walls for as long as the turbulence lasts. So a murmur is a longer **whooshing** sound, not a short thud like S1 or S2.
 
-**What makes flow turbulent?** Flow tips into turbulence when it is **fast**, when the blood is **thin** (low viscosity), or when it is forced through a **sudden narrowing**. The lecture sums this up with the Reynolds number: the higher it is, the more likely turbulence becomes. *(<a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">→ Haemodynamics, §5</a>)*
+**What makes flow turbulent?** Flow tips into turbulence when it is **fast**, when the blood is **thin** (low viscosity), or when it is forced through a **sudden narrowing**. The lecture sums this up with the <span data-term="reynolds">Reynolds number</span>: the higher it is, the more likely turbulence becomes. *(<a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">→ Haemodynamics, §5</a>)*
 
 **The heart can make flow turbulent in three ways.** These follow the lecture's list.
 
 1. **A narrowed valve (<span data-term="stenosis">stenosis</span>).** When the valve should be open, it opens only partly. Blood is squeezed through the small opening as a fast jet, which becomes turbulent beyond the valve. This murmur is made by **forward** flow.
 2. **A leaking valve (<span data-term="regurgitation">regurgitation</span>, the lecture's "incompetence").** When the valve should be shut, it does not close fully. Blood is driven **backwards** through the gap as a fast jet. This is the lecture's "backflow".
-3. **Fast flow through normal valves (a "hyperdynamic" circulation).** The valves are healthy, but blood moves fast enough, or is thin enough, to become turbulent anyway. The lecture's example is **anaemia**, where thin blood and a raised cardiac output combine. Exercise, fever and pregnancy can do the same. These **<span data-term="flow-murmur">flow murmurs</span>** do not mean the valves are damaged.
+3. **Fast flow through normal valves (a "hyperdynamic" circulation).** The valves are healthy, but blood moves fast enough, or is thin enough, to become turbulent anyway. The lecture's example is **anaemia**, where thin blood and a raised cardiac output combine. Exercise, fever and pregnancy can do the same. These **flow murmurs** do not mean the valves are damaged.
 
 <figure class="learning-figure teaching-widget" data-widget="murmur-figure"><figcaption>Three ways to make a murmur</figcaption><p>Four panels. Normal: a fully open valve with smooth, parallel arrows (laminar: silent). Stenosis: a narrowed opening with a fast jet that breaks into swirls beyond it (forward jet). Regurgitation: a valve that should be shut, with a thin jet leaking backwards into swirls (backward jet). High flow: a normal open valve with many long, fast arrows becoming swirls (normal valve, fast flow). In every murmur there is turbulence somewhere; the questions are where it is and which way the blood is going.</p></figure>
 
 **The key question for any murmur:** which way is the abnormal blood flowing, and is that happening in systole or diastole? That decides when you hear it, which is the subject of <a href="#/physiology/cvs/heart-sounds?section=7-predict-a-murmur-s-timing-without-memorising-a-list">§7</a>.
 
-**Murmur or bruit?** Both come from the same mechanism. A murmur is heard over the heart; a bruit is heard over a blood vessel (<a href="#/physiology/cvs/heart-sounds?section=9-why-can-bruits-or-murmurs-arise-elsewhere">§9</a>).
+**Murmur or <span data-term="bruit">bruit</span>?** Both come from the same mechanism. A murmur is heard over the heart; a bruit is heard over a blood vessel (<a href="#/physiology/cvs/heart-sounds?section=9-why-can-bruits-or-murmurs-arise-elsewhere">§9</a>).
 
 <p class="related-links"><strong>Related:</strong> laminar flow, turbulence and the Reynolds number → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · anaemia and viscosity → <a href="#/physiology/cvs/hemodynamics?section=7-viscosity-haematocrit-and-blood-cells">Haemodynamics, §7</a></p>
 
@@ -221,7 +221,7 @@ The pattern is a cross: each lesion falls in the opposite phase to its partner. 
 
 ## 8. Where do we listen to each heart valve?
 
-The lecture says each valve is best heard over its **surface marking**: the spot on the chest wall where that valve's sound comes through most clearly. These four spots are the **<span data-term="auscultation-areas">auscultation areas</span>**:
+The lecture says each valve is best heard over its **surface marking**: the spot on the chest wall where that valve's sound comes through most clearly. These four spots are the **auscultation areas**:
 
 | Area | Where on the chest |
 | --- | --- |
@@ -249,26 +249,26 @@ Moving the stethoscope between the two and hearing which sound gets louder tells
 
 <div class="teaching-widget sound-clips" data-widget="sound-clips" data-clips="normal-apex,normal-base"><p>Two recordings of the same normal heart sounds: at the apex, where S1 is louder, and at the base, where S2 is louder.</p></div>
 
-**Bell or diaphragm?** The **diaphragm**, pressed firmly, picks up higher-pitched sounds: S1, S2 and most murmurs. The **bell**, resting lightly, picks up low-pitched sounds such as S3, S4 and the rumble of mitral stenosis.
+**Bell or diaphragm?** The **diaphragm**, pressed firmly, picks up higher-pitched sounds: S1, S2 and most murmurs. The **bell**, resting lightly, picks up low-pitched sounds such as <span data-term="s3">S3</span>, <span data-term="s4">S4</span> and the rumble of mitral stenosis.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture slide gives "AT PM" beside the listening areas. We could not confirm what this abbreviation means, so we present the four standard areas without it. Valve surface positions follow standard anatomy texts.</aside>
 
 ## 9. Why can bruits or murmurs arise elsewhere?
 
-Turbulence is not limited to the heart valves. Wherever blood is forced through a narrowing, takes a short cut, or flows unusually fast, it can become turbulent and make a sound (<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">§6</a>). Heard over a vessel, this sound is called a **<span data-term="bruit">bruit</span>**. The lecture lists these examples:
+Turbulence is not limited to the heart valves. Wherever blood is forced through a narrowing, takes a short cut, or flows unusually fast, it can become turbulent and make a sound (<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">§6</a>). Heard over a vessel, this sound is called a **bruit**. The lecture lists these examples:
 
 | Condition | Why the flow becomes turbulent | When it is heard |
 | --- | --- | --- |
-| **Patent ductus arteriosus (PDA)**: the fetal channel between the aorta and pulmonary artery stays open after birth | Aortic pressure is higher than pulmonary pressure in **both** systole and diastole, so blood crosses all the time | **Continuous**, through S2 |
+| **Patent <span data-term="ductus-arteriosus">ductus arteriosus</span> (PDA)**: the fetal channel between the aorta and pulmonary artery stays open after birth | Aortic pressure is higher than pulmonary pressure in **both** systole and diastole, so blood crosses all the time | **Continuous**, through S2 |
 | **Ventricular septal defect (VSD)**: a hole between the ventricles | When the ventricles contract, left ventricular pressure far exceeds right, so blood jets through the hole | **Systolic** |
 | **Arteriovenous (AV) fistula**: a direct channel from an artery to a vein | High-pressure arterial blood rushes into a low-pressure vein, skipping the capillaries | Continuous bruit over the site |
 | **Aneurysm**: a ballooned section of artery | The sudden widening disturbs smooth flow (not every aneurysm makes a sound) | A bruit over the aneurysm |
 | **Goitre** (enlarged thyroid) with high blood flow | Increased blood flow through the gland | A bruit over the thyroid |
-| **Anaemia** | Thin, fast blood (see §6) | A soft systolic flow murmur |
+| **Anaemia** | Thin, fast blood (see §6) | A soft systolic <span data-term="flow-murmur">flow murmur</span> |
 
 The rule is the same everywhere: **find the pressure difference that drives the abnormal flow, and when it exists.** That tells you when the sound is heard. The PDA murmur is continuous for exactly this reason: the pressure difference between the aorta and pulmonary artery never reverses.
 
-<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=4-what-closes-after-delivery">Fetal Circulation, "What closes after delivery?"</a> · bruits over narrowed arteries → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · Korotkoff sounds in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
+<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=4-what-closes-after-delivery">Fetal Circulation, "What closes after delivery?"</a> · bruits over narrowed arteries → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · <span data-term="korotkoff">Korotkoff sounds</span> in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
 
 ## 10. Understanding Check
 

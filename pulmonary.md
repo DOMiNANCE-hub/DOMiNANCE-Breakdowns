@@ -31,8 +31,8 @@ The same flow is pushed through by a pressure drop about **one-ninth** as large,
 
 **Exercise: more flow, little extra pressure.** When cardiac output rises, two things happen:
 
-- **<span data-term="recruitment">Recruitment</span>:** capillaries that were closed or barely perfused **open up**.
-- **<span data-term="distension">Distension</span>:** capillaries that were already open **widen**.
+- **Recruitment:** capillaries that were closed or barely perfused **open up**.
+- **Distension:** capillaries that were already open **widen**.
 
 Both lower the resistance, so pulmonary flow can rise several-fold while pulmonary arterial pressure rises only a little. That protects the thin capillaries, and the right ventricle, from high pressure.
 
@@ -40,8 +40,8 @@ Both lower the resistance, so pulmonary flow can rise several-fold while pulmona
 
 The alveolar wall must be thin for gas exchange, so the lung can't afford fluid leaking into it. Compare the two main forces across a pulmonary capillary *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*:
 
-- **Capillary hydrostatic pressure**, pushing fluid out: only about **10 mmHg**.
-- **Plasma oncotic pressure**, pulling fluid in: about **25 mmHg**.
+- **Capillary <span data-term="hydrostatic-pressure">hydrostatic pressure</span>**, pushing fluid out: only about **10 mmHg**.
+- **Plasma <span data-term="oncotic-pressure">oncotic pressure</span>**, pulling fluid in: about **25 mmHg**.
 
 The outward push is unusually weak. So only a small amount of fluid filters into the lung's interstitium, and the **lymphatics** carry it away easily, long before it can reach the alveoli.
 
@@ -69,7 +69,7 @@ The outward push is unusually weak. So only a small amount of fluid filters into
 - At the **base**, vascular pressure is higher, more vessels are open and wider, and **blood flow is greatest**.
 - At the **apex**, vascular pressure is lowest and **blood flow is least**.
 
-**<span data-term="west-zones">West zones</span>: compare three pressures.** Whether a capillary is open depends on the pressure inside it versus the **alveolar air pressure** squeezing it from outside:
+**West zones: compare three pressures.** Whether a capillary is open depends on the pressure inside it versus the **alveolar air pressure** squeezing it from outside:
 
 | Zone | Pressures | What happens |
 |---|---|---|
@@ -89,18 +89,18 @@ West zones are **pressure relationships**, not fixed stripes of lung. They shift
 
 In most tissues, low oxygen **dilates** the arterioles, bringing in more blood. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)* The lung does the **opposite**:
 
-**<span data-term="hpv">Hypoxic pulmonary vasoconstriction</span>:** when an alveolus has low oxygen, the small pulmonary arteries supplying it **constrict**.
+**Hypoxic pulmonary vasoconstriction:** when an alveolus has low oxygen, the small pulmonary arteries supplying it **constrict**.
 
-**Why the opposite?** In the lung, low oxygen in an alveolus means that alveolus is **poorly ventilated**. Sending blood there would waste it, because the blood can't pick up oxygen. Constricting those vessels **diverts blood to well-ventilated alveoli**, matching blood flow to air flow (the **<span data-term="vq-ratio">ventilation–perfusion ratio</span>**). A rise in CO₂ (and H⁺) also constricts pulmonary vessels, which helps in the same way.
+**Why the opposite?** In the lung, low oxygen in an alveolus means that alveolus is **poorly ventilated**. Sending blood there would waste it, because the blood can't pick up oxygen. Constricting those vessels **diverts blood to well-ventilated alveoli**, matching blood flow to air flow (the **ventilation–perfusion ratio**). A rise in CO₂ (and H⁺) also constricts pulmonary vessels, which helps in the same way.
 
 **Local versus everywhere:**
 
 - **One poorly ventilated region** (for example, a blocked airway): blood is redirected, and oxygenation improves.
-- **Every alveolus hypoxic** (high altitude, chronic lung disease): there is nowhere better to send the blood. Constriction everywhere **raises total pulmonary resistance**. If it persists, the result is **<span data-term="pulmonary-hypertension">pulmonary hypertension</span>**, and the right ventricle strains against it.
+- **Every alveolus hypoxic** (high altitude, chronic lung disease): there is nowhere better to send the blood. Constriction everywhere **raises total pulmonary resistance**. If it persists, the result is **pulmonary hypertension**, and the right ventricle strains against it.
 
 **Before birth**, the same response keeps fetal pulmonary resistance high, so blood bypasses the fluid-filled lungs. *(<a href="#/physiology/cvs/fetal?section=1-why-does-the-fetus-need-shortcuts">→ Fetal Circulation, §1</a>)*
 
-**Nerves and nitric oxide:** the pulmonary vessels have an extensive autonomic supply; sympathetic stimulation **constricts** them. **Nitric oxide** from the endothelium **dilates** them.
+**Nerves and <span data-term="nitric-oxide">nitric oxide</span>:** the pulmonary vessels have an extensive autonomic supply; sympathetic stimulation **constricts** them. **Nitric oxide** from the endothelium **dilates** them.
 
 **Understanding Check: Sections 4–5**
 

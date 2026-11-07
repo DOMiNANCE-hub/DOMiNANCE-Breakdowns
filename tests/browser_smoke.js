@@ -450,6 +450,8 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     const badLinks = await page.evaluate(ids => Object.entries(window.DOM_GLOSSARY).filter(([, v]) => v[3]).filter(([, v]) => {
       const m = v[3].match(/cvs\/([a-z0-9-]+)\?section=(.+)$/); return !m || !(ids[m[1]] || []).includes(m[2]); }).map(([k]) => k), ids);
     check(badLinks.length === 0, `tooltip links to missing sections: ${badLinks.join(', ')}`);
+    const unlinked = await page.evaluate(() => Object.entries(window.DOM_GLOSSARY).filter(([, v]) => !v[3]).map(([k]) => k));
+    check(unlinked.length === 0, `tooltips without a "Learn it fully" section: ${unlinked.join(', ')}`);
     check(page.pageErrors.length === 0, `cardiac-cycle widgets: page errors ${page.pageErrors.join('; ')}`);
     await page.context().close();
   }

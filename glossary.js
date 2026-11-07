@@ -5,25 +5,25 @@
 (() => {
   'use strict';
   const terms = Object.freeze({
-    'functional-syncytium': ['Functional syncytium', 'Heart muscle cells remain separate cells, but electrical signals pass between them so they contract together as one coordinated unit.'],
-    'ecc': ['Excitation–contraction coupling (ECC)', 'How an electrical impulse makes heart muscle contract: it triggers a rise in calcium inside the cell, allowing the contractile proteins to work.'],
-    'cicr': ['Calcium-induced calcium release (CICR)', 'A small amount of calcium entering a heart cell opens RyR2 channels, releasing much more calcium from its internal store to strengthen contraction.'],
-    'serca': ['SERCA2a', 'A pump that uses ATP to return calcium to the heart cell’s internal store, allowing the muscle to relax.'],
-    'ncx': ['Na⁺–Ca²⁺ exchanger (NCX)', 'A protein in the heart-cell membrane that usually moves calcium out of the cell by using the energy stored in the sodium gradient.'],
-    'phospholamban': ['Phospholamban', 'A protein that normally slows the SERCA calcium pump. When phosphorylated, it releases this brake, so calcium is stored faster and the heart relaxes sooner.'],
-    'inotropy': ['Inotropy', 'How strongly heart muscle contracts at a given filling level. Positive inotropy means a stronger contraction without needing extra filling.'],
-    'lusitropy': ['Lusitropy', 'How quickly heart muscle relaxes after contracting. Faster relaxation helps the ventricles fill between beats.'],
+    'functional-syncytium': ['Functional syncytium', 'Heart muscle cells remain separate cells, but electrical signals pass between them so they contract together as one coordinated unit.', null, '#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together', 'Cardiac Muscle §2'],
+    'ecc': ['Excitation–contraction coupling (ECC)', 'How an electrical impulse makes heart muscle contract: it triggers a rise in calcium inside the cell, allowing the contractile proteins to work.', null, '#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force', 'Cardiac Muscle §4'],
+    'cicr': ['Calcium-induced calcium release (CICR)', 'A small amount of calcium entering a heart cell opens RyR2 channels, releasing much more calcium from its internal store to strengthen contraction.', null, '#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force', 'Cardiac Muscle §4'],
+    'serca': ['SERCA2a', 'A pump that uses ATP to return calcium to the heart cell’s internal store, allowing the muscle to relax.', null, '#/physiology/cvs/cardiac-muscle?section=5-how-does-cardiac-muscle-relax', 'Cardiac Muscle §5'],
+    'ncx': ['Na⁺–Ca²⁺ exchanger (NCX)', 'A protein in the heart-cell membrane that usually moves calcium out of the cell by using the energy stored in the sodium gradient.', null, '#/physiology/cvs/cardiac-muscle?section=5-how-does-cardiac-muscle-relax', 'Cardiac Muscle §5'],
+    'phospholamban': ['Phospholamban', 'A protein that normally slows the SERCA calcium pump. When phosphorylated, it releases this brake, so calcium is stored faster and the heart relaxes sooner.', null, '#/physiology/cvs/cardiac-muscle?section=7-how-do-the-sympathetic-and-vagal-nerves-change-cardiac-muscle', 'Cardiac Muscle §7'],
+    'inotropy': ['Inotropy', 'How strongly heart muscle contracts at a given filling level. Positive inotropy means a stronger contraction without needing extra filling.', null, '#/physiology/cvs/cardiac-muscle?section=7-how-do-the-sympathetic-and-vagal-nerves-change-cardiac-muscle', 'Cardiac Muscle §7'],
+    'lusitropy': ['Lusitropy', 'How quickly heart muscle relaxes after contracting. Faster relaxation helps the ventricles fill between beats.', null, '#/physiology/cvs/cardiac-muscle?section=7-how-do-the-sympathetic-and-vagal-nerves-change-cardiac-muscle', 'Cardiac Muscle §7'],
     'automaticity': ["Automaticity", "The ability of some heart cells to fire on their own, without a nerve signal. It is why the heart beats even when its nerves are cut.", "Heart rate control by the nerves, which only speed up or slow down this built-in rhythm.", "#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker", "Cardiac Conduction §3"],
     'pacemaker-potential': ["Pacemaker potential", "The slow, automatic climb in a pacemaker cell's voltage between beats, until it reaches threshold and fires. Also called phase 4 or spontaneous diastolic depolarisation.", "The resting potential of a working muscle cell, which stays flat until a neighbour excites it.", "#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker", "Cardiac Conduction §3"],
     'funny-current': ["Funny current (I_f)", "A leak of positive ions, mainly Na⁺, into SA node cells through HCN channels. It starts the slow climb to threshold. 'Funny' because the channels open when the cell becomes more negative.", null, "#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker", "Cardiac Conduction §3"],
     'overdrive-suppression': ["Overdrive suppression", "When a slower pacemaker is repeatedly fired by a faster one, its own firing is temporarily suppressed. It explains the short pause before a backup pacemaker takes over.", null, "#/physiology/cvs/cardiac-conduction?section=4-if-other-conducting-cells-can-fire-spontaneously-why-doesn-t-each-set-its-own-rhythm", "Cardiac Conduction §4"],
     'dromotropy': ["Dromotropy", "An effect on how fast the electrical signal travels, especially through the AV node (dromo = running). Positive dromotropy means faster conduction and a shorter PR interval.", "Chronotropy, which is an effect on heart rate.", "#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity", "Cardiac Conduction §7"],
     'bruit': ["Bruit", "A whooshing sound heard over a blood vessel, made by turbulent flow: for example over a narrowed artery or an AV fistula.", "A murmur, the same kind of sound heard over the heart.", "#/physiology/cvs/heart-sounds?section=9-why-can-bruits-or-murmurs-arise-elsewhere", "Heart Sounds §9"],
-    'ecg': ['Electrocardiogram (ECG)', 'A tracing of the heart’s electrical activity recorded from electrodes on the skin. It shows electrical activation and recovery, not the pumping force directly.'],
-    'ecg-vector': ['Cardiac electrical vector', 'An arrow representing the overall strength and direction of the heart’s electrical activity at a moment. Each ECG lead records how much of that arrow points along its viewing direction.'],
-    'preload': ['Preload', 'How stretched the ventricular muscle is just before contraction. It depends mainly on ventricular filling; end-diastolic volume and pressure help estimate it.'],
-    'afterload': ['Afterload', 'The force or load the ventricle must overcome to eject blood. It depends on arterial pressure and ventricular wall stress, not just vascular resistance.'],
-    'chronotropy': ['Chronotropy', 'A change in heart rate. Positive chronotropy makes the heart beat faster; negative chronotropy slows it.'],
+    'ecg': ['Electrocardiogram (ECG)', 'A tracing of the heart’s electrical activity recorded from electrodes on the skin. It shows electrical activation and recovery, not the pumping force directly.', null, '#/physiology/cvs/ecg?section=1-what-does-an-ecg-actually-record', 'ECG §1'],
+    'ecg-vector': ['Cardiac electrical vector', 'An arrow representing the overall strength and direction of the heart’s electrical activity at a moment. Each ECG lead records how much of that arrow points along its viewing direction.', null, '#/physiology/cvs/ecg?section=2-why-can-the-tracing-move-upwards-or-downwards', 'ECG §2'],
+    'preload': ['Preload', 'How stretched the ventricular muscle is just before contraction. It depends mainly on ventricular filling; end-diastolic volume and pressure help estimate it.', null, '#/physiology/cvs/cardiac-output?section=3-what-determines-stroke-volume', 'Cardiac Output §3'],
+    'afterload': ['Afterload', 'The force or load the ventricle must overcome to eject blood. It depends on arterial pressure and ventricular wall stress, not just vascular resistance.', null, '#/physiology/cvs/cardiac-output?section=3-what-determines-stroke-volume', 'Cardiac Output §3'],
+    'chronotropy': ['Chronotropy', 'A change in heart rate. Positive chronotropy makes the heart beat faster; negative chronotropy slows it.', null, '#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity', 'Cardiac Conduction §7'],
     'systole-diastole': ["Systole and diastole", "Systole means contraction; diastole means relaxation. Always say which chambers: atrial systole and ventricular systole happen at different times.", "", "#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing", "Cardiac Cycle §1"],
     'sa-node': ["SA node (sinoatrial node)", "A small patch of pacemaker cells in the wall of the right atrium. It fires on its own and starts every normal heartbeat.", "", "#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker", "Cardiac Conduction §3"],
     'av-node': ["AV node (atrioventricular node)", "The normal electrical gateway from the atria to the ventricles. It holds the impulse back briefly, so the atria finish contracting before the ventricles start.", "The AV valves, which are valves, not electrical tissue.", "#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction", "Cardiac Conduction §5"],
@@ -269,7 +269,7 @@
     if (!entry) return;
     if (active && active !== trigger) {active.removeAttribute('aria-describedby');active.setAttribute('aria-expanded','false');}
     active = trigger; pinned = stick;
-    const [name, definition, confuse, href, label] = entry;
+    const [name, definition, confuse] = entry; let [, , , href, label] = entry;
     popup.replaceChildren();
     const title = document.createElement('strong');
     title.className = 'gl-title';
@@ -287,6 +287,16 @@
       c.append(b, confuse);
       popup.append(c);
     }
+    // "Learn it fully" is left out when it would open the section the student is already reading.
+    const here = (() => {
+      const route = (location.hash.split('?')[0].split('/')[3] || '');
+      const article = trigger.closest('.article-text') || document.querySelector('#main .article-text');
+      let id = '';
+      if (article && trigger.closest('.article-text')) { for (const h of article.querySelectorAll(':scope > h2[id]')) { if (h.compareDocumentPosition(trigger) & Node.DOCUMENT_POSITION_FOLLOWING) id = h.id; } }
+      return {route, id};
+    })();
+    const target = (href || '').match(/cvs\/([a-z0-9-]+)(?:\?section=(.+))?$/);
+    if (target && target[1] === here.route && (!target[2] || target[2] === here.id)) href = '';
     if (href) {
       const a = document.createElement('a');
       a.className = 'gl-learn';

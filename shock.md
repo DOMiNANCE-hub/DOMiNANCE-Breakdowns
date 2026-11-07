@@ -2,9 +2,9 @@
 
 ## 1. What is shock?
 
-**<span data-term="shock">Shock</span>** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
+**Shock** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
 
-**Shock is not defined by a blood pressure number.** Recall **mean arterial pressure ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
+**Shock is not defined by a blood pressure number.** Recall **<span data-term="map">mean arterial pressure</span> ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
 
 Every type of shock comes down to one of four failures:
 
@@ -13,15 +13,15 @@ Every type of shock comes down to one of four failures:
 | **Hypovolaemic** (low volume) | Not enough **blood volume** | Haemorrhage, trauma, surgery, **burns**, severe **diarrhoea and vomiting** |
 | **Cardiogenic** | The heart can't **pump** | Myocardial infarction, heart failure, arrhythmias |
 | **Distributive** (low resistance) | Vessels **dilate** massively, so blood pools and is maldistributed | **Septic** shock, **anaphylaxis**, **neurogenic** shock |
-| **Obstructive** | Blood flow is **blocked** | Cardiac <span data-term="tamponade">tamponade</span>, tension pneumothorax, pulmonary embolism, cardiac tumour |
+| **Obstructive** | Blood flow is **blocked** | Cardiac tamponade, <span data-term="tension-pneumothorax">tension pneumothorax</span>, pulmonary embolism, cardiac tumour |
 
 ## 2. Haemorrhage: the model for all shock
 
 The lecture uses **haemorrhage** to illustrate the events in every kind of shock. Follow it link by link:
 
 1. **Blood is lost**, so **blood volume falls**.
-2. Less blood fills the veins, so **venous return falls**. *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
-3. Less filling, so **stroke volume** falls (Frank–Starling), and **cardiac output falls**. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
+2. Less blood fills the veins, so **<span data-term="venous-return">venous return</span> falls**. *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
+3. Less filling, so **<span data-term="stroke-volume">stroke volume</span>** falls (Frank–Starling), and **cardiac output falls**. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
 4. Blood pressure falls, and the **tissues are underperfused**.
 
 Everything else, the signs, the compensation and the deterioration, follows from this chain.
@@ -31,17 +31,17 @@ Everything else, the signs, the compensation and the deterioration, follows from
 | Sign | Why it happens |
 |---|---|
 | **Low blood pressure** | Low cardiac output. (Early on, constriction may hide it.) |
-| **Fast, weak pulse** | Baroreceptors fire less, so the vasomotor centre is released: sympathetic drive gives **reflex tachycardia**. The pulse is **weak** because stroke volume is small. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)* |
+| **Fast, weak pulse** | <span data-term="baroreceptors">Baroreceptors</span> fire less, so the <span data-term="vasomotor-centre">vasomotor centre</span> is released: sympathetic drive gives **reflex tachycardia**. The pulse is **weak** because <span data-term="stroke-volume">stroke volume</span> is small. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)* |
 | **Pale, cool, clammy skin** | Sympathetic **vasoconstriction** is generalised but most **marked in the skin**; sweating adds the clamminess. The **heart and brain are spared**. *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
-| **Low urine output** | Constriction of renal arterioles lowers **<span data-term="gfr">GFR</span>**; the kidneys also keep **Na⁺** and water. Urea builds up in the blood. |
+| **Low urine output** | Constriction of renal arterioles lowers **GFR**; the kidneys also keep **Na⁺** and water. Urea builds up in the blood. |
 | **Rapid breathing** | Low flow starves the **chemoreceptors** of oxygen, and **lactic acid** builds up; both drive breathing. *(<a href="#/physiology/cvs/reflexes?section=5-chemoreceptors">→ Reflexes, §5</a>)* |
-| **Intense thirst** | **Angiotensin II** and **ADH** rise. |
+| **Intense thirst** | **<span data-term="angiotensin-ii">Angiotensin II</span>** and **<span data-term="adh">ADH</span>** rise. |
 | **Restless and anxious**, later **dull and apathetic** | Early: sympathetic arousal (restlessness also works the **muscle pump**). Later: **cerebral ischaemia**. |
-| **Lactic acidosis** | Without enough oxygen, cells switch to **<span data-term="anaerobic-glycolysis">anaerobic glycolysis</span>**, making **lactic acid**. |
+| **Lactic acidosis** | Without enough oxygen, cells switch to **anaerobic glycolysis**, making **lactic acid**. |
 
 ## 4. How the body fights back
 
-**Within seconds: nerves.** Falling blood pressure unloads the baroreceptors, and the chemoreceptors are stimulated. Sympathetic discharge rises:
+**Within seconds: nerves.** Falling blood pressure unloads the <span data-term="baroreceptors">baroreceptors</span>, and the chemoreceptors are stimulated. Sympathetic discharge rises:
 
 - **Heart:** faster and stronger.
 - **Arterioles:** constrict everywhere **except the heart and brain**, raising resistance and redirecting flow to them.
@@ -50,23 +50,23 @@ Everything else, the signs, the compensation and the deterioration, follows from
 
 **Within minutes to hours: hormones.**
 
-- **Renin → angiotensin II → aldosterone:** constriction, salt and water retention, thirst.
-- **ADH (vasopressin):** water retention and constriction.
+- **Renin → angiotensin II → <span data-term="aldosterone">aldosterone</span>:** constriction, salt and water retention, thirst.
+- **<span data-term="adh">ADH (vasopressin)</span>:** water retention and constriction.
 - **ACTH → cortisol.**
 
 *(<a href="#/physiology/cvs/neural-humoral?section=6-fast-slow-and-slower-putting-it-together">→ Neural and Hormonal Control, §6</a>)*
 
-**Within hours: fluid moves into the blood.** Arteriolar constriction and low pressure **lower capillary hydrostatic pressure**, so the balance at the capillaries tips towards **reabsorption**. Fluid moves from the **interstitial spaces into the blood**, partly refilling it. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*
+**Within hours: fluid moves into the blood.** Arteriolar constriction and low pressure **lower capillary <span data-term="hydrostatic-pressure">hydrostatic pressure</span>**, so the balance at the capillaries tips towards **reabsorption**. Fluid moves from the **interstitial spaces into the blood**, partly refilling it. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*
 
 **Over days to weeks: full repair.**
 
 - If bleeding stops, **blood volume** is restored in about **12–72 hours**, mainly by drawing in fluid and retaining salt and water.
 - That added fluid **dilutes** the blood, so **plasma proteins** and **haemoglobin** concentration fall.
-- **<span data-term="erythropoietin">Erythropoietin</span>** from the kidney drives new red cell production; haemoglobin returns to normal in about **4–5 weeks**.
+- **Erythropoietin** from the kidney drives new red cell production; haemoglobin returns to normal in about **4–5 weeks**.
 
 ### The lecture's question: Hb and haematocrit after losing whole blood
 
-**Immediately after a bleed, Hb and haematocrit are normal.** Whole blood is lost, so red cells and plasma are lost **in the same proportion**: what remains has the same concentration. They **fall later**, as interstitial fluid (and any IV fluid) dilutes the remaining red cells. So a **normal Hb doesn't rule out a large, recent bleed**.
+**Immediately after a bleed, Hb and <span data-term="haematocrit">haematocrit</span> are normal.** Whole blood is lost, so red cells and plasma are lost **in the same proportion**: what remains has the same concentration. They **fall later**, as interstitial fluid (and any IV fluid) dilutes the remaining red cells. So a **normal Hb doesn't rule out a large, recent bleed**.
 
 **Understanding Check: Sections 1–4**
 
@@ -88,7 +88,7 @@ If the blood loss is large or prolonged, the compensation fails, and several **v
 1. **The heart fails.** Low blood pressure means low **coronary** flow. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a>)* Ischaemia and **acidosis** weaken the heart muscle, so cardiac output falls further.
 2. **The vasomotor centre fails.** Prolonged **cerebral ischaemia** depresses it. Sympathetic drive collapses: the heart **slows** and the vessels **dilate**. Blood pressure and brain flow fall further.
 3. **Acidosis.** **Lactic acid** depresses the heart and makes the vessels **stop responding to adrenaline and noradrenaline**.
-4. **Capillary stasis and leak.** Late in shock, the **precapillary sphincters relax but the venules stay constricted**. Blood enters the capillaries but can't leave, so it **stagnates**, capillary **hydrostatic pressure rises**, and fluid is **lost into the tissues**. Volume falls further.
+4. **Capillary stasis and leak.** Late in shock, the **<span data-term="precapillary-sphincter">precapillary sphincters</span> relax but the venules stay constricted**. Blood enters the capillaries but can't leave, so it **stagnates**, capillary **<span data-term="hydrostatic-pressure">hydrostatic pressure</span> rises**, and fluid is **lost into the tissues**. Volume falls further.
 5. **The kidneys are damaged.** Prolonged low flow can cause **acute tubular damage**.
 
 **Irreversible shock:** eventually, even if the lost blood is **fully replaced**, the circulation doesn't recover: resistance stays low, the heart stays weak, and the patient dies. The tissues, especially the heart and brain, have been too badly damaged.
@@ -102,22 +102,22 @@ If the blood loss is large or prolonged, the compensation fails, and several **v
 
 Other causes of volume loss (the lecture's list):
 
-- **Burns:** **plasma** seeps from the burnt skin, but the red cells stay behind. So the blood becomes **concentrated** (<span data-term="haemoconcentration">haemoconcentration</span>): Hb and haematocrit **rise**, the opposite of haemorrhage.
-- **Traumatic shock:** crushed muscle releases **<span data-term="myoglobin">myoglobin</span>**, which damages the kidneys.
+- **Burns:** **plasma** seeps from the burnt skin, but the red cells stay behind. So the blood becomes **concentrated** (haemoconcentration): Hb and <span data-term="haematocrit">haematocrit</span> **rise**, the opposite of haemorrhage.
+- **Traumatic shock:** crushed muscle releases **myoglobin**, which damages the kidneys.
 - **Surgical shock:** bleeding and dehydration.
 - **Diarrhoea, uncontrolled diabetes and adrenal insufficiency:** salt and water loss.
 
-**Cardiogenic shock.** The volume is normal, but the heart can't pump it, so cardiac output falls (myocardial infarction, heart failure, arrhythmias). Blood **backs up** behind the failing ventricle, so venous pressure and the JVP are often **high**, unlike haemorrhage. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
+**Cardiogenic shock.** The volume is normal, but the heart can't pump it, so cardiac output falls (myocardial infarction, heart failure, arrhythmias). Blood **backs up** behind the failing ventricle, so venous pressure and the <span data-term="jvp">JVP</span> are often **high**, unlike haemorrhage. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
 
 **Distributive (low-resistance) shock.** The blood volume is normal, but **massive vasodilation** lets blood **pool** and flow is maldistributed:
 
 | Type | Cause | Key feature |
 |---|---|---|
-| **Neurogenic** | Sudden loss of sympathetic tone (spinal cord injury, spinal anaesthesia; the lecture also includes fainting from strong emotion) | Vessels dilate; the heart may be **slow** |
+| **Neurogenic** | Sudden loss of <span data-term="sympathetic-tone">sympathetic tone</span> (spinal cord injury, spinal anaesthesia; the lecture also includes fainting from strong emotion) | Vessels dilate; the heart may be **slow** |
 | **Septic** | **Bacterial toxins** | Vasodilation **and** leaky capillaries; skin may be **warm** early *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
 | **Anaphylactic** | An **antigen–antibody** reaction releases **histamine** | Widespread dilation **and** leaky capillaries |
 
-**Obstructive shock.** Something blocks filling or outflow: fluid compressing the heart (**tamponade**), a **<span data-term="tension-pneumothorax">tension pneumothorax</span>** squeezing the great veins, or a **pulmonary embolism** blocking the pulmonary artery.
+**Obstructive shock.** Something blocks filling or outflow: fluid compressing the heart (**<span data-term="tamponade">tamponade</span>**), a **tension pneumothorax** squeezing the great veins, or a **pulmonary embolism** blocking the pulmonary artery.
 
 **Understanding Check: Sections 5–6**
 

@@ -2,7 +2,7 @@
 
 ## 1. Why does the heart need a separate blood supply?
 
-The blood inside the chambers can't nourish the thick ventricular walls: oxygen can only diffuse a fraction of a millimetre. So the heart has its own arteries, the **right and left coronary arteries**. They arise from the **<span data-term="aortic-sinuses">aortic sinuses</span>**, the small pouches just above the aortic valve cusps.
+The blood inside the chambers can't nourish the thick ventricular walls: oxygen can only diffuse a fraction of a millimetre. So the heart has its own arteries, the **right and left coronary arteries**. They arise from the **aortic sinuses**, the small pouches just above the aortic valve cusps.
 
 **The heart already takes out most of its oxygen at rest** (about 70%, compared with about 25% for the body as a whole). So when it works harder, it can't simply extract more. **Coronary blood flow has to rise.** *(<a href="#/physiology/cvs/co-measurement?section=7-why-does-pressure-loading-increase-the-heart-s-oxygen-demand">→ Measuring Cardiac Output, §7</a>)*
 
@@ -19,11 +19,11 @@ The blood inside the chambers can't nourish the thick ventricular walls: oxygen 
   - the **left circumflex (LCx)**, curving round the left side, which supplies the **side wall of the left ventricle**.
 - **Right coronary artery (RCA)** supplies the **right ventricle** and, usually, the **bottom (inferior) wall** of the heart.
 
-**<span data-term="coronary-dominance">Dominance</span>** just means which artery gives off the **posterior descending artery**, which supplies the back of the septum. It is the RCA in most people ("right dominant"). It does **not** mean that artery supplies one whole side.
+**Dominance** just means which artery gives off the **posterior descending artery**, which supplies the back of the septum. It is the RCA in most people ("right dominant"). It does **not** mean that artery supplies one whole side.
 
 <figure class="learning-figure"><figcaption>Figure 1. Major coronary routes and drainage — simplified flow map</figcaption><svg viewBox="0 0 680 250" role="img" aria-label="Aortic root branches into left main and right coronary arteries. Left main divides into LAD and circumflex; posterior descending artery origin defines dominance. Venous return passes chiefly via coronary sinus to right atrium"><g font-family="Arial,sans-serif" fill="#22354e" text-anchor="middle"><rect x="240" y="9" width="200" height="38" rx="10" fill="#e8f0ff" stroke="#638dce"/><text x="340" y="34" font-size="15">Aortic root</text><rect x="67" y="84" width="210" height="43" rx="10" fill="#e6f3ff" stroke="#6d96c7"/><text x="172" y="111" font-size="15">Left main coronary</text><rect x="405" y="84" width="212" height="43" rx="10" fill="#e6f3ff" stroke="#6d96c7"/><text x="511" y="111" font-size="15">Right coronary</text><rect x="16" y="160" width="152" height="48" rx="9" fill="#e8f6ec" stroke="#70a987"/><text x="92" y="178" font-size="14">LAD</text><text x="92" y="196" font-size="12">anterior + septal</text><rect x="183" y="160" width="150" height="48" rx="9" fill="#e8f6ec" stroke="#70a987"/><text x="258" y="178" font-size="14">Circumflex</text><text x="258" y="196" font-size="12">lateral LV</text><rect x="404" y="160" width="250" height="48" rx="9" fill="#fff0da" stroke="#c4a16b"/><text x="529" y="178" font-size="14">PDA origin defines</text><text x="529" y="196" font-size="13">coronary dominance</text><text x="340" y="239" font-size="13">Venous blood: cardiac veins → coronary sinus → right atrium</text></g><g stroke="#5278a5" stroke-width="2.6" fill="none"><path d="M340 47v18H172v19M340 65h171v19M172 127v16H92v17M172 143h86v17M511 127v33M333 183h71"/></g></svg><p>Conceptual branches, not an anatomical map of coronary vessel positions. Dominance and individual territories vary.</p></figure>
 
-**Drainage:** most coronary venous blood collects in the **<span data-term="coronary-sinus">coronary sinus</span>**, which empties into the **right atrium**. A little drains straight into the chambers.
+**Drainage:** most coronary venous blood collects in the **coronary sinus**, which empties into the **right atrium**. A little drains straight into the chambers.
 
 ## 3. Why is left ventricular coronary perfusion greatest during diastole?
 
@@ -33,7 +33,7 @@ The blood inside the chambers can't nourish the thick ventricular walls: oxygen 
 
 **In diastole, the muscle relaxes and the arteries open.** Aortic pressure is still high, so blood **rushes in**.
 
-So **the left ventricle is fed mainly in diastole.** The right ventricle, which squeezes far less hard, is fed in both systole and diastole.
+So **the left ventricle is fed mainly in diastole.** The right ventricle, which squeezes far less hard, is fed in both <span data-term="systole-diastole">systole and diastole</span>.
 
 <figure class="learning-figure"><figcaption>Figure 2. Myocardial compression explains diastolic left-coronary flow</figcaption><svg viewBox="0 0 620 160" role="img" aria-label="During systole intramyocardial vessels are compressed; during diastole their compression is relieved and left ventricular coronary flow increases"><rect x="12" y="20" width="270" height="112" rx="14" fill="#fce9ec" stroke="#bf6777"/><rect x="338" y="20" width="270" height="112" rx="14" fill="#e8f3ff" stroke="#668dbf"/><g font-size="17" font-weight="bold" text-anchor="middle" fill="#24364d"><text x="147" y="50">Systole</text><text x="473" y="50">Diastole</text></g><g font-size="14" text-anchor="middle" fill="#24364d"><text x="147" y="77">Muscle squeezes vessels</text><text x="147" y="102">LV flow is restricted</text><text x="473" y="77">Muscle relaxes</text><text x="473" y="102">LV flow increases</text></g><path d="M289 78h40m-9 -7 9 7 -9 7" stroke="#456d95" stroke-width="3" fill="none"/></svg><p>Qualitative comparison; the amount of systolic flow depends on vessel depth, ventricular pressures and the territory being supplied.</p></figure>
 
@@ -56,9 +56,9 @@ The **inner layer** of the left ventricle is squeezed hardest, because it is clo
 
 ## 4. How does coronary flow match changing myocardial work?
 
-The heart's oxygen demand rises with **heart rate**, **contractility** and **wall tension**. *(<a href="#/physiology/cvs/co-measurement?section=7-why-does-pressure-loading-increase-the-heart-s-oxygen-demand">→ Measuring Cardiac Output, §7</a>)*
+The heart's oxygen demand rises with **heart rate**, **contractility** and **<span data-term="wall-tension">wall tension</span>**. *(<a href="#/physiology/cvs/co-measurement?section=7-why-does-pressure-loading-increase-the-heart-s-oxygen-demand">→ Measuring Cardiac Output, §7</a>)*
 
-**Working heart muscle opens its own arteries.** As it works harder, it releases local signals, chiefly **<span data-term="adenosine">adenosine</span>** and also K⁺, low O₂ and **nitric oxide** from the endothelium. These relax the coronary arterioles, so flow rises to match the work. This is **<span data-term="active-hyperaemia">active hyperaemia</span>**. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)*
+**Working heart muscle opens its own arteries.** As it works harder, it releases local signals, chiefly **adenosine** and also K⁺, low O₂ and **<span data-term="nitric-oxide">nitric oxide</span>** from the endothelium. These relax the coronary arterioles, so flow rises to match the work. This is **active hyperaemia**. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)*
 
 **Sympathetic nerves: two effects, one winner.** They can constrict coronary arteries directly (α receptors). But they also make the heart beat faster and harder (β₁), which raises its metabolism and releases dilating metabolites. **The dilation wins**, so in exercise coronary flow rises.
 
@@ -77,9 +77,9 @@ In a healthy heart, the arterioles dilate enough to cope. But with a **narrowed 
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Coronary_Artery_Disease.png" alt="Medical comparison of normal coronary artery flow and an artery narrowed by atherosclerotic plaque."><figcaption><strong>Figure. Normal coronary artery versus a narrowed vessel.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption></figure>
 
-**<span data-term="flow-reserve">Coronary flow reserve</span>** is how much coronary flow can rise above its resting level when the arterioles fully dilate. Normally, it can rise about 4–5 times.
+**Coronary flow reserve** is how much coronary flow can rise above its resting level when the arterioles fully dilate. Normally, it can rise about 4–5 times.
 
-**Why <span data-term="angina">angina</span> comes on with exertion, not at rest:** behind a narrowed artery, the arterioles **dilate at rest** to keep flow normal. They have **used up their reserve**. When exercise raises demand, there is nothing left to give, so supply falls short and **angina** (ischaemic chest pain) appears. Resting cures it.
+**Why angina comes on with exertion, not at rest:** behind a narrowed artery, the arterioles **dilate at rest** to keep flow normal. They have **used up their reserve**. When exercise raises demand, there is nothing left to give, so supply falls short and **angina** (ischaemic chest pain) appears. Resting cures it.
 
 | | **Angina** | **Myocardial infarction (heart attack)** |
 |---|---|---|

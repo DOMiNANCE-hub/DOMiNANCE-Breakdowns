@@ -9,11 +9,11 @@ Pumping works only if the chambers contract in the right order and at the right 
 
 That gives the heart two electrical jobs: **start each beat**, and **deliver the signal in the right order**. The specialised conducting system does both.
 
-Unlike skeletal muscle, the heart does not need a nerve impulse for every contraction. Specialised heart cells fire on their own; this is **<span data-term="automaticity">automaticity</span>**. The nerves only speed this built-in rhythm up or slow it down (<a href="#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity">§7</a>). As the lecture summarises, depolarisation spreads from the SA node to the AV node, then down the bundle of His to the rest of the heart, and contraction starts after depolarisation.
+Unlike skeletal muscle, the heart does not need a nerve impulse for every contraction. Specialised heart cells fire on their own; this is **<span data-term="automaticity">automaticity</span>**. The nerves only speed this built-in rhythm up or slow it down (<a href="#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity">§7</a>). As the lecture summarises, depolarisation spreads from the <span data-term="sa-node">SA node</span> to the <span data-term="av-node">AV node</span>, then down the bundle of His to the rest of the heart, and contraction starts after depolarisation.
 
 ## 2. The pathway of cardiac electrical conduction
 
-**SA node → atrial muscle → AV node → bundle of His → right and left bundle branches → Purkinje fibres → ventricular muscle**
+**SA node → atrial muscle → AV node → bundle of His → right and left bundle branches → <span data-term="his-purkinje">Purkinje fibres</span> → ventricular muscle**
 
 | Structure | Where it is and what it does |
 |---|---|
@@ -37,11 +37,11 @@ Unlike skeletal muscle, the heart does not need a nerve impulse for every contra
 
 Because it reaches threshold first.
 
-A working ventricular muscle cell sits at a steady −90 mV until a neighbour excites it. An SA node cell never sits still. After each beat, its voltage immediately starts **creeping upwards by itself** until it reaches threshold and fires. This slow climb is the **<span data-term="pacemaker-potential">pacemaker potential</span>**, also called spontaneous diastolic depolarisation: *spontaneous* (by itself), *diastolic* (between beats), *depolarisation* (becoming less negative).
+A working ventricular muscle cell sits at a steady −90 mV until a neighbour excites it. An SA node cell never sits still. After each beat, its voltage immediately starts **creeping upwards by itself** until it reaches threshold and fires. This slow climb is the **pacemaker potential**, also called spontaneous diastolic depolarisation: *spontaneous* (by itself), *diastolic* (between beats), *depolarisation* (becoming less negative).
 
 **The three phases of the SA node action potential:**
 
-- **Phase 4: the slow climb.** At its most negative, about −60 mV, the cell opens special channels that let positive ions, mainly Na⁺, leak in. This leak is the **<span data-term="funny-current">funny current (I_f)</span>**, and its channels are called HCN channels. It is called "funny" because most channels open when a cell becomes *less* negative, but these open when it becomes *more* negative. Later in the climb, Ca²⁺ channels start to open too, and the outward K⁺ leak fades. The voltage rises steadily towards threshold, about −40 mV.
+- **Phase 4: the slow climb.** At its most negative, about −60 mV, the cell opens special channels that let positive ions, mainly Na⁺, leak in. This leak is the **funny current (I_f)**, and its channels are called HCN channels. It is called "funny" because most channels open when a cell becomes *less* negative, but these open when it becomes *more* negative. Later in the climb, Ca²⁺ channels start to open too, and the outward K⁺ leak fades. The voltage rises steadily towards threshold, about −40 mV.
 - **Phase 0: the upstroke.** At threshold, **L-type Ca²⁺ channels** open and Ca²⁺ rushes in. This upstroke is slower than a ventricular cell's, which is driven by fast Na⁺ channels. The SA node never gets negative enough to use its fast Na⁺ channels.
 - **Phase 3: repolarisation.** The Ca²⁺ channels close, K⁺ flows out, and the voltage falls back to about −60 mV. The climb then starts again.
 
@@ -69,17 +69,17 @@ There is no phase 1 or 2: an SA node cell has **no plateau**.
 
 The lecture puts it simply: all parts of the conducting system can fire on their own, but they are controlled by the SA node, the pacemaker.
 
-The reason is speed. The SA node climbs to threshold fastest. Each beat it starts spreads through the conducting system and fires the slower cells **before** they reach threshold on their own. That resets them, so their own rhythm never gets a chance. **The fastest pacemaker wins**; the others still have automaticity, but they are always beaten to it.
+The reason is speed. The SA node climbs to threshold fastest. Each beat it starts spreads through the conducting system and fires the slower cells **before** they reach threshold on their own. That resets them, so their own rhythm never gets a chance. **The fastest pacemaker wins**; the others still have <span data-term="automaticity">automaticity</span>, but they are always beaten to it.
 
-Being driven repeatedly at a faster rate also temporarily suppresses the slower cells' own firing. This is **<span data-term="overdrive-suppression">overdrive suppression</span>**, and it is why there can be a short pause before a backup pacemaker takes over.
+Being driven repeatedly at a faster rate also temporarily suppresses the slower cells' own firing. This is **overdrive suppression**, and it is why there can be a short pause before a backup pacemaker takes over.
 
-**What if the SA node fails?** The next fastest pacemaker takes over and produces an **<span data-term="escape-rhythm">escape rhythm</span>**:
+**What if the SA node fails?** The next fastest pacemaker takes over and produces an **escape rhythm**:
 
 | Pacemaker | Typical rate |
 |---|---|
 | SA node | 60–100 beats/min (normal resting rhythm) |
 | AV junction | about 40–60 beats/min |
-| Ventricles (Purkinje fibres) | about 20–40 beats/min |
+| Ventricles (<span data-term="his-purkinje">Purkinje fibres</span>) | about 20–40 beats/min |
 
 An escape rhythm keeps the ventricles beating, but more slowly, so it may not pump enough blood.
 
@@ -87,7 +87,7 @@ An escape rhythm keeps the ventricles beating, but more slowly, so it may not pu
 
 The AV node conducts **slowly**. Its cells are small, they have few gap junctions, and like the SA node their upstroke is driven by Ca²⁺. The signal takes about a tenth of a second to get through.
 
-**Why is that delay useful?** It gives the atria time to **finish contracting** before the ventricles start. The atrial kick pushes the last portion of blood into the ventricles while the mitral and tricuspid valves are still open. Most filling, about 70% in the lecture, has already happened passively; the kick only tops it up.
+**Why is that delay useful?** It gives the atria time to **finish contracting** before the ventricles start. The <span data-term="atrial-kick">atrial kick</span> pushes the last portion of blood into the ventricles while the mitral and tricuspid valves are still open. Most filling, about 70% in the lecture, has already happened passively; the kick only tops it up.
 
 **You can see the delay on the ECG.** The lecture describes the **<span data-term="pr-interval">PR interval</span>**, normally 0.12–0.20 s, as the time from the start of atrial depolarisation to the start of ventricular depolarisation. Most of that time is the signal crawling through the AV node. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
 
@@ -95,7 +95,7 @@ The AV node conducts **slowly**. Its cells are small, they have few gap junction
 
 ## 6. Why is ventricular conduction so rapid?
 
-After the AV node, the signal enters the **<span data-term="his-purkinje">His–Purkinje system</span>** and speeds up dramatically:
+After the AV node, the signal enters the **His–Purkinje system** and speeds up dramatically:
 
 | Tissue | Approximate conduction speed |
 |---|---|
@@ -103,7 +103,7 @@ After the AV node, the signal enters the **<span data-term="his-purkinje">His–
 | Ordinary ventricular muscle | about 0.3–0.5 m/s |
 | Purkinje fibres | about 2–4 m/s |
 
-Purkinje fibres are fast because they are **wide**, packed with **gap junctions**, and use **fast Na⁺ channels** for their upstroke. They spread the signal over the inner walls of both ventricles in a few hundredths of a second, so the whole ventricular muscle is activated within about 0.1 s, the width of the QRS complex.
+Purkinje fibres are fast because they are **wide**, packed with **gap junctions**, and use **fast Na⁺ channels** for their upstroke. They spread the signal over the inner walls of both ventricles in a few hundredths of a second, so the whole ventricular muscle is activated within about 0.1 s, the width of the <span data-term="qrs">QRS complex</span>.
 
 The order is roughly: the wall between the ventricles first, then the inner walls near the apex, then outwards through the muscle to the outer surface, and the base last. The details belong in the ECG chapter.
 
@@ -136,9 +136,9 @@ The order is roughly: the wall between the ventricles first, then the inner wall
 
 The key rule: **the faster the phase 4 climb reaches threshold, the sooner the next beat.** The nerves change heart rate by changing that climb.
 
-**At rest, the vagus is already braking the heart.** An SA node with no nerve input fires at about 100 beats/min. At rest, the vagus nerve releases acetylcholine all the time (**<span data-term="vagal-tone">vagal tone</span>**), holding the rate down to about 60–80. The lecture's evidence: heart rate is controlled mainly by this constant vagal discharge, so cutting the vagus (vagotomy) or blocking it with **atropine** makes the heart rate rise.
+**At rest, the vagus is already braking the heart.** An SA node with no nerve input fires at about 100 beats/min. At rest, the vagus nerve releases acetylcholine all the time (**vagal tone**), holding the rate down to about 60–80. The lecture's evidence: heart rate is controlled mainly by this constant vagal discharge, so cutting the vagus (vagotomy) or blocking it with **<span data-term="atropine">atropine</span>** makes the heart rate rise.
 
-**Sympathetic stimulation speeds the climb.** Noradrenaline acts on **β₁ receptors** and raises cAMP inside the SA node cells. More funny current and more Ca²⁺ current flow, the phase 4 climb gets **steeper**, threshold comes sooner, and the heart rate rises. Conduction through the AV node also speeds up, so the PR interval shortens.
+**Sympathetic stimulation speeds the climb.** Noradrenaline acts on **β₁ receptors** and raises cAMP inside the SA node cells. More <span data-term="funny-current">funny current</span> and more Ca²⁺ current flow, the phase 4 climb gets **steeper**, threshold comes sooner, and the heart rate rises. Conduction through the AV node also speeds up, so the PR interval shortens.
 
 **Vagal stimulation slows the climb.** Acetylcholine acts on **M₂ receptors**. It lowers cAMP, so there is less funny current. It also opens extra K⁺ channels, so the cell starts each climb **lower** (more negative) and climbs **more slowly**. Threshold comes later, and the heart rate falls. AV conduction slows, so the PR interval lengthens.
 
@@ -146,8 +146,8 @@ The key rule: **the faster the phase 4 climb reaches threshold, the sooner the n
 
 **Two words for two effects:**
 
-- **<span data-term="chronotropy">Chronotropy</span>** (*chrono* = time): an effect on **heart rate**.
-- **<span data-term="dromotropy">Dromotropy</span>** (*dromo* = running): an effect on **conduction speed**, especially through the AV node.
+- **Chronotropy** (*chrono* = time): an effect on **heart rate**.
+- **Dromotropy** (*dromo* = running): an effect on **conduction speed**, especially through the AV node.
 
 Sympathetic stimulation is positively chronotropic and dromotropic; vagal stimulation is negatively chronotropic and dromotropic.
 
@@ -157,15 +157,15 @@ Sympathetic stimulation is positively chronotropic and dromotropic; vagal stimul
 
 Electrical problems come in two kinds: the pacemaker fails, or the signal is delayed or blocked on its way.
 
-**The SA node fails.** It fires too slowly or pauses. A backup pacemaker may take over with a slower escape rhythm (<a href="#/physiology/cvs/cardiac-conduction?section=4-if-other-conducting-cells-can-fire-spontaneously-why-doesn-t-each-set-its-own-rhythm">§4</a>).
+**The SA node fails.** It fires too slowly or pauses. A backup pacemaker may take over with a slower <span data-term="escape-rhythm">escape rhythm</span> (<a href="#/physiology/cvs/cardiac-conduction?section=4-if-other-conducting-cells-can-fire-spontaneously-why-doesn-t-each-set-its-own-rhythm">§4</a>).
 
-**The signal is blocked at the AV node (<span data-term="heart-block">heart block</span>).** Think of it as three levels of trouble:
+**The signal is blocked at the AV node (heart block).** Think of it as three levels of trouble:
 
 - **First degree: every impulse gets through, but late.** The PR interval is longer than 0.20 s.
 - **Second degree: some impulses don't get through.** Some atrial beats are not followed by a ventricular beat; those beats are "dropped".
 - **Third degree (complete): no impulses get through.** The atria keep beating at the SA node's rate, and the ventricles beat independently at a slow escape rate.
 
-In complete block, the atria sometimes contract while the tricuspid valve is shut. Blood is pushed back into the neck veins, giving the **giant "a" waves** the lecture describes in the JVP. *(<a href="#/physiology/cvs/pulses">→ Pulses and JVP</a>)*
+In complete block, the atria sometimes contract while the tricuspid valve is shut. Blood is pushed back into the neck veins, giving the **giant "a" waves** the lecture describes in the <span data-term="jvp">JVP</span>. *(<a href="#/physiology/cvs/pulses">→ Pulses and JVP</a>)*
 
 Both kinds of problem reduce pumping: the heart rate may be too slow, and the atria and ventricles no longer work in step.
 

@@ -2,7 +2,7 @@
 
 ## 1. What is a cardiovascular reflex?
 
-Chapter 17 described the **controls**: the vasomotor centre, the sympathetic nerves, the vagus. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* This chapter describes the **sensors** that tell the centre when to act.
+Chapter 17 described the **controls**: the <span data-term="vasomotor-centre">vasomotor centre</span>, the sympathetic nerves, the vagus. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* This chapter describes the **sensors** that tell the centre when to act.
 
 Every reflex has the same five links:
 
@@ -12,7 +12,7 @@ Most cardiovascular reflexes are **negative feedback**: they push the change bac
 
 ## 2. Baroreceptors: the body's pressure sensors
 
-**<span data-term="baroreceptors">Baroreceptors</span>** are stretch-sensitive nerve endings in the walls of the large arteries. They don't sense pressure directly: they sense **stretch**. Higher pressure stretches the wall more, so they **fire faster**.
+**Baroreceptors** are stretch-sensitive nerve endings in the walls of the large arteries. They don't sense pressure directly: they sense **stretch**. Higher pressure stretches the wall more, so they **fire faster**.
 
 | Site | Sensory nerve | Arrives at |
 |---|---|---|
@@ -30,8 +30,8 @@ Both sit in **high-pressure** arteries, right at the "inlets" to the brain and b
 
 **When blood pressure rises:**
 
-1. The arterial walls **stretch more**, so the baroreceptors **fire faster**.
-2. Signals travel up IX and X to the **NTS**.
+1. The arterial walls **stretch more**, so the <span data-term="baroreceptors">baroreceptors</span> **fire faster**.
+2. Signals travel up IX and X to the **<span data-term="nts">NTS</span>**.
 3. The NTS **excites the depressor area**, which **inhibits the pressor area**. Sympathetic firing **falls**.
 4. The NTS also **excites the vagal neurons**. Vagal firing to the heart **rises**.
 5. Result: the heart beats **slower** and **less forcefully**, arterioles **dilate** and veins **relax**.
@@ -64,7 +64,7 @@ Both sit in **high-pressure** arteries, right at the "inlets" to the brain and b
 
 ## 4. Low-pressure receptors: sensing how full the circulation is
 
-There are also stretch receptors in **low-pressure** sites: the walls of the **atria** (where the venae cavae and pulmonary veins enter) and the **pulmonary vessels**. Because pressure there depends mainly on how much blood fills them, they act as **<span data-term="volume-receptors">volume receptors</span>**.
+There are also stretch receptors in **low-pressure** sites: the walls of the **atria** (where the venae cavae and pulmonary veins enter) and the **pulmonary vessels**. Because pressure there depends mainly on how much blood fills them, they act as **volume receptors**.
 
 The lecture describes two types in the atria:
 
@@ -76,9 +76,9 @@ The lecture describes two types in the atria:
 When the atria are **overfilled** (too much volume), the type B receptors fire more. This triggers responses that **get rid of volume**:
 
 - **Vasodilation** and a **fall in blood pressure**.
-- **Less ADH** is released, so the kidneys **excrete more water** (the lecture also notes less ACTH).
-- The stretched atria release **ANP**, which does the same. *(<a href="#/physiology/cvs/neural-humoral?section=5-hormones-that-act-on-the-circulation">→ Neural and Hormonal Control, §5</a>)*
-- A **rise** in heart rate (the **<span data-term="bainbridge">Bainbridge reflex</span>**), which pumps the extra blood onwards, out of the congested veins.
+- **Less <span data-term="adh">ADH</span>** is released, so the kidneys **excrete more water** (the lecture also notes less ACTH).
+- The stretched atria release **<span data-term="anp">ANP</span>**, which does the same. *(<a href="#/physiology/cvs/neural-humoral?section=5-hormones-that-act-on-the-circulation">→ Neural and Hormonal Control, §5</a>)*
+- A **rise** in heart rate (the **Bainbridge reflex**), which pumps the extra blood onwards, out of the congested veins.
 
 **Notice the surprise:** this reflex lowers pressure but **speeds** the heart. That is one of the lecture’s “exceptions” (<a href="#/physiology/cvs/reflexes?section=7-other-inputs-and-the-lecture-s-exceptions">§7</a>).
 
@@ -86,7 +86,7 @@ When the atria are **overfilled** (too much volume), the type B receptors fire m
 
 ## 5. Chemoreceptors
 
-**<span data-term="chemoreceptors">Peripheral chemoreceptors</span>** sit in small clusters of cells, the **<span data-term="carotid-body">carotid bodies</span>** and **aortic bodies**, close to the baroreceptors. They sense **low O₂**, **high CO₂** and **high H⁺** in arterial blood. Their main job is to **stimulate breathing**. They also raise sympathetic drive to the vessels, which helps hold up blood pressure when it is very low, because low flow starves the chemoreceptor cells of oxygen.
+**Peripheral chemoreceptors** sit in small clusters of cells, the **carotid bodies** and **aortic bodies**, close to the baroreceptors. They sense **low O₂**, **high CO₂** and **high H⁺** in arterial blood. Their main job is to **stimulate breathing**. They also raise sympathetic drive to the vessels, which helps hold up blood pressure when it is very low, because low flow starves the chemoreceptor cells of oxygen.
 
 **Don't mix them up:** the **carotid sinus** (baroreceptor) senses **stretch**; the **carotid body** (chemoreceptor) senses **blood chemistry**.
 
@@ -94,7 +94,7 @@ When the atria are **overfilled** (too much volume), the type B receptors fire m
 
 ## 6. The Cushing reflex: when the brain is squeezed
 
-When **intracranial pressure** rises (from a tumour, a blood clot or hydrocephalus), it compresses the brain's vessels and **cerebral perfusion pressure falls**. *(<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">→ Cerebral Circulation, §4</a>)*
+When **<span data-term="icp">intracranial pressure</span>** rises (from a tumour, a blood clot or <span data-term="hydrocephalus">hydrocephalus</span>), it compresses the brain's vessels and **<span data-term="cpp">cerebral perfusion pressure</span> falls**. *(<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">→ Cerebral Circulation, §4</a>)*
 
 1. Blood flow to the **medulla** falls, so the vasomotor centre becomes **hypoxic** and **hypercapnic**.
 2. That **directly stimulates** the vasomotor centre: sympathetic firing surges, and **arterial pressure rises** sharply, forcing blood back into the brain.
@@ -121,8 +121,8 @@ The vasomotor centre doesn't only listen to pressure and chemical sensors. The l
 | Stimulus | Blood pressure | Heart rate | Why |
 |---|---|---|---|
 | **Haemorrhage** | Low | **Fast** | Baroreflex: less stretch → more sympathetic |
-| **Raised ICP (Cushing)** | **High** | **Slow** | Brainstem ischaemia raises pressure; baroreflex slows the heart |
-| **Overfilled atria (Bainbridge)** | **Lower** | **Fast** | Volume receptors: dilate and pump the excess onwards |
+| **Raised <span data-term="icp">ICP</span> (Cushing)** | **High** | **Slow** | Brainstem ischaemia raises pressure; baroreflex slows the heart |
+| **Overfilled atria (Bainbridge)** | **Lower** | **Fast** | <span data-term="volume-receptors">Volume receptors</span>: dilate and pump the excess onwards |
 
 **Understanding Check: Sections 4–7**
 

@@ -2,9 +2,9 @@
 
 ## 1. An unusual route through two capillary beds
 
-The gut is supplied by three unpaired arteries from the aorta: the **<span data-term="coeliac-trunk">coeliac trunk</span>**, the **superior mesenteric artery** and the **inferior mesenteric artery**.
+The gut is supplied by three unpaired arteries from the aorta: the **coeliac trunk**, the **superior mesenteric artery** and the **inferior mesenteric artery**.
 
-**The unusual part is where the blood goes next.** Venous blood from the gut and spleen does **not** go straight back to the heart. It collects in the **<span data-term="portal-vein">portal vein</span>** (formed by the superior mesenteric and splenic veins) and passes through the **liver first**.
+**The unusual part is where the blood goes next.** Venous blood from the gut and spleen does **not** go straight back to the heart. It collects in the **portal vein** (formed by the superior mesenteric and splenic veins) and passes through the **liver first**.
 
 So this blood crosses **two capillary beds in a row**: the gut's capillaries, then the liver's **<span data-term="sinusoid">sinusoids</span>**. **Why?** Everything absorbed from the gut (nutrients, drugs, toxins, bacteria) is sent to the liver to be processed **before** it reaches the rest of the body.
 
@@ -16,10 +16,10 @@ The liver gets blood from **two inflows**:
 
 | Inflow | Share of the flow | Brings |
 |---|---|---|
-| **Portal vein** | About **75%** | Nutrient-rich, but partly deoxygenated, blood from the gut |
+| **<span data-term="portal-vein">Portal vein</span>** | About **75%** | Nutrient-rich, but partly deoxygenated, blood from the gut |
 | **Hepatic artery** | About **25%** | Oxygen-rich arterial blood (about half the liver's oxygen) |
 
-Both enter at the **<span data-term="portal-triad">portal triad</span>** (portal vein branch + hepatic artery branch + bile duct). They **mix in the sinusoids**, the leaky, wide liver capillaries, and flow towards the **central vein** → hepatic veins → inferior vena cava. **Bile flows the opposite way**, towards the bile ducts in the triad.
+Both enter at the **portal triad** (portal vein branch + hepatic artery branch + bile duct). They **mix in the sinusoids**, the leaky, wide liver capillaries, and flow towards the **central vein** → hepatic veins → inferior vena cava. **Bile flows the opposite way**, towards the bile ducts in the triad.
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_scheme1.jpg" alt="Illustration of hepatic lobule organization, central vein, portal triads and acinar zones with oxygen delivery gradients"><figcaption><strong>Figure. Hepatic lobule and acinar oxygen zonation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">MarquardtM, <a href="https://commons.wikimedia.org/wiki/File:Liver_scheme1.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption></figure>
 
@@ -28,15 +28,15 @@ Both enter at the **<span data-term="portal-triad">portal triad</span>** (portal
 **Zones: why the centre suffers first.** Along each sinusoid, liver cells take oxygen out as blood passes:
 
 - **Zone 1** (near the portal triad) gets the **freshest, most oxygen-rich** blood.
-- **<span data-term="hepatic-zones">Zone 3</span>** (near the central vein) gets blood that has **already given up much of its oxygen**.
+- **Zone 3** (near the central vein) gets blood that has **already given up much of its oxygen**.
 
 So when blood flow or oxygen falls (in shock or heart failure), **zone 3 is damaged first**.
 
-Between the sinusoid lining and the liver cells is a narrow gap, the **<span data-term="space-of-disse">space of Disse</span>**, where plasma touches the cells directly. Fluid that collects here drains as hepatic lymph.
+Between the sinusoid lining and the liver cells is a narrow gap, the **space of Disse**, where plasma touches the cells directly. Fluid that collects here drains as hepatic lymph.
 
 ## 3. Blood flow after meals, and in shock
 
-- **After a meal**, the gut works harder and its arterioles dilate, so splanchnic blood flow rises: **<span data-term="postprandial-hyperaemia">postprandial hyperaemia</span>**.
+- **After a meal**, the gut works harder and its arterioles dilate, so splanchnic blood flow rises: **postprandial hyperaemia**.
 - **The splanchnic veins are a blood reservoir**: stretchy, and holding a large volume.
 - **In haemorrhage**, sympathetic nerves **constrict** the splanchnic vessels. This sends stored blood back to the heart and diverts flow to the brain and heart. It helps hold up blood pressure, but if it lasts, the **gut lining becomes ischaemic** and can break down. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
@@ -53,7 +53,7 @@ Between the sinusoid lining and the liver cells is a narrow gap, the **<span dat
 
 ## 4. Why does fluid collect as ascites?
 
-**<span data-term="ascites">Ascites</span>** is fluid in the peritoneal cavity. It usually develops when the liver is scarred (**<span data-term="cirrhosis">cirrhosis</span>**), through several routes at once:
+**<span data-term="ascites">Ascites</span>** is fluid in the peritoneal cavity. It usually develops when the liver is scarred (**cirrhosis**), through several routes at once:
 
 1. **High portal pressure:** scarring blocks flow through the liver, so pressure backs up in the portal vein and sinusoids, pushing fluid out. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
 2. **Much more hepatic lymph:** the leaky sinusoids filter so much fluid that the lymphatics can't keep up, and the excess weeps into the abdomen.

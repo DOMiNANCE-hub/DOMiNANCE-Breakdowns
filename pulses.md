@@ -2,7 +2,7 @@
 
 ## 1. What is an arterial pulse?
 
-Each time the left ventricle ejects, it pushes a fresh volume of blood into an aorta that is already full. The aortic wall stretches and the pressure inside it rises. That stretch and pressure rise travel down the arteries as a **<span data-term="pulse-wave">wave</span>**, like a ripple running along a tight hose. When the wave passes under your finger at the wrist, the artery wall bulges briefly: that bulge is the **pulse**.
+Each time the left ventricle ejects, it pushes a fresh volume of blood into an aorta that is already full. The aortic wall stretches and the pressure inside it rises. That stretch and pressure rise travel down the arteries as a **wave**, like a ripple running along a tight hose. When the wave passes under your finger at the wrist, the artery wall bulges briefly: that bulge is the **pulse**.
 
 <div class="pulse-mechanism" role="group" aria-label="How an arterial pulse arises"><span>LV ejection</span><b>→</b><span>Aortic pressure ↑</span><b>→</b><span>Arterial wall expands</span><b>→</b><span>Pressure wave travels</span></div>
 
@@ -24,18 +24,18 @@ The lecture lists five features:
 | Feature | What you check | What it tells you |
 |---|---|---|
 | **Rate** | Beats per minute | How many beats are reaching the arteries |
-| **Volume** | How big the bulge under your finger is | Mainly the <span data-term="pulse-pressure">pulse pressure</span>: the rise from diastolic to systolic pressure, which grows with <span data-term="stroke-volume">stroke volume</span> |
+| **Volume** | How big the bulge under your finger is | Mainly the pulse pressure: the rise from diastolic to systolic pressure, which grows with <span data-term="stroke-volume">stroke volume</span> |
 | **Strength** | How firmly it pushes against your finger | How much pressure is in the artery |
 | **Character** | The shape of each beat: how fast it rises and falls | How the left ventricle ejects, and how the aortic valve is working |
 | **Location** | Which artery (radial, carotid, femoral…), and whether both sides match | A weak or missing pulse on one side points to a blockage on that side |
 
 Whether the rhythm is **regular** is also worth noting.
 
-**Why can the wrist count fewer beats than the heart makes?** In a very fast or irregular rhythm, some beats come so soon that the ventricle has hardly filled. Those beats eject too little blood to make a pulse you can feel. The pulse at the wrist can then be slower than the heart rate counted with a stethoscope. This difference is a **<span data-term="pulse-deficit">pulse deficit</span>**.
+**Why can the wrist count fewer beats than the heart makes?** In a very fast or irregular rhythm, some beats come so soon that the ventricle has hardly filled. Those beats eject too little blood to make a pulse you can feel. The pulse at the wrist can then be slower than the heart rate counted with a stethoscope. This difference is a **pulse deficit**.
 
 ## 3. Why is the jugular venous pulse visible in the neck?
 
-There is no valve between the right atrium and the large veins of the neck. So, as the lecture explains, pressure changes in the right atrium pass straight up into the neck veins, and you can see them. The **<span data-term="jvp">internal jugular vein</span>** acts like a gauge attached to the right atrium: the higher the right atrial pressure, the higher up the neck the column of blood reaches.
+There is no valve between the right atrium and the large veins of the neck. So, as the lecture explains, pressure changes in the right atrium pass straight up into the neck veins, and you can see them. The **internal jugular vein** acts like a gauge attached to the right atrium: the higher the right atrial pressure, the higher up the neck the column of blood reaches.
 
 **Pressure moves; the blood doesn't have to.** A pressure change travels up the column of blood even while the blood itself keeps flowing down towards the heart.
 
@@ -64,11 +64,11 @@ In one heartbeat, the pressure in the right atrium rises three times (the **a**,
 
 In order through one beat:
 
-- **a wave: the right atrium contracts.** At the end of ventricular diastole, just after the <span data-term="p-wave">P wave</span>, the atrium squeezes and its pressure rises. There is no valve between the atrium and the great veins, so, as the lecture notes, venous inflow briefly stops and a little blood is pushed back up the veins.
-- **c wave: the closed tricuspid valve bulges back.** As the right ventricle starts contracting, its rising pressure pushes the closed tricuspid valve so it bulges back into the atrium. The atrium itself is not contracting.
-- **x descent: the atrium relaxes and is stretched open.** The atrium relaxes after its contraction. As the right ventricle ejects, it also pulls the tricuspid valve ring downwards, making the atrium bigger. Pressure falls.
-- **v wave: the atrium fills with the tricuspid valve shut.** Blood keeps returning from the body throughout ventricular systole. With the tricuspid valve shut, it can only collect in the atrium, so pressure rises slowly. The atrium is not contracting.
-- **y descent: the tricuspid valve opens.** When right ventricular pressure falls below right atrial pressure, the valve opens and the stored blood rushes into the ventricle. Atrial pressure drops.
+- **<span data-term="a-wave">a wave</span>: the right atrium contracts.** At the end of ventricular diastole, just after the <span data-term="p-wave">P wave</span>, the atrium squeezes and its pressure rises. There is no valve between the atrium and the great veins, so, as the lecture notes, venous inflow briefly stops and a little blood is pushed back up the veins.
+- **<span data-term="c-wave">c wave</span>: the closed tricuspid valve bulges back.** As the right ventricle starts contracting, its rising pressure pushes the closed tricuspid valve so it bulges back into the atrium. The atrium itself is not contracting.
+- **<span data-term="x-descent">x descent</span>: the atrium relaxes and is stretched open.** The atrium relaxes after its contraction. As the right ventricle ejects, it also pulls the tricuspid valve ring downwards, making the atrium bigger. Pressure falls.
+- **<span data-term="v-wave">v wave</span>: the atrium fills with the tricuspid valve shut.** Blood keeps returning from the body throughout <span data-term="systole-diastole">ventricular systole</span>. With the tricuspid valve shut, it can only collect in the atrium, so pressure rises slowly. The atrium is not contracting.
+- **<span data-term="y-descent">y descent</span>: the tricuspid valve opens.** When right ventricular pressure falls below right atrial pressure, the valve opens and the stored blood rushes into the ventricle. Atrial pressure drops.
 
 | Wave | What causes it | When in the cycle |
 |---|---|---|
@@ -124,9 +124,9 @@ Confusing the two leads to wrong conclusions about right atrial pressure.
 
 The lecture's method:
 
-1. **Recline the patient at about 45°**, with the head turned slightly to the left, and look at the right internal jugular vein.
+1. **Recline the patient at about 45°**, with the head turned slightly to the left, and look at the right <span data-term="jvp">internal jugular vein</span>.
 2. **Adjust the angle until you can see the top of the pulsating column.** Sit the patient more upright if the neck veins are very full, or lie them flatter if the column is low.
-3. **Find the <span data-term="sternal-angle">sternal angle</span>**, the ridge where the manubrium meets the body of the sternum, level with the second rib.
+3. **Find the sternal angle**, the ridge where the manubrium meets the body of the sternum, level with the second rib.
 4. **Measure the vertical height** from the sternal angle up to the top of the column.
 
 **Why measure vertically?** The pressure in a column of fluid depends only on its vertical height, not on how long or slanted it is.
@@ -149,12 +149,12 @@ The lecture's method:
 The lecture links three conditions to the JVP:
 
 - **Right-sided heart failure: a raised JVP.** The right heart cannot pump on all the blood returning to it. Pressure backs up into the right atrium and the neck veins, so the column sits high.
-- **Tricuspid <span data-term="regurgitation">regurgitation</span>: a large wave during systole.** The leaky tricuspid valve lets the contracting right ventricle push blood back into the atrium, on top of the normal venous filling. The rise during systole becomes large. The lecture calls it a "big c wave"; because it joins the c and v waves, it is usually described as a giant **v** (or **cv**) wave.
-- **Complete <span data-term="heart-block">heart block</span>: giant ("cannon") a waves.** The atria and ventricles beat independently. Sometimes the atrium contracts while the tricuspid valve is shut, because the ventricle is contracting at the same moment. The blood cannot go forward, so the pressure spikes up the neck. This only happens on the beats where the timing collides, so the <span data-term="cannon-a-wave">giant a waves</span> come and go. *(<a href="#/physiology/cvs/cardiac-conduction?section=8-clinical-significance-of-conduction-disturbances">→ Cardiac Conduction, §8</a>)*
+- **Tricuspid <span data-term="regurgitation">regurgitation</span>: a large wave during systole.** The leaky tricuspid valve lets the contracting right ventricle push blood back into the atrium, on top of the normal venous filling. The rise during systole becomes large. The lecture calls it a "big <span data-term="c-wave">c wave</span>"; because it joins the c and v waves, it is usually described as a giant **v** (or **cv**) wave.
+- **Complete <span data-term="heart-block">heart block</span>: giant ("cannon") a waves.** The atria and ventricles beat independently. Sometimes the atrium contracts while the tricuspid valve is shut, because the ventricle is contracting at the same moment. The blood cannot go forward, so the pressure spikes up the neck. This only happens on the beats where the timing collides, so the giant a waves come and go. *(<a href="#/physiology/cvs/cardiac-conduction?section=8-clinical-significance-of-conduction-disturbances">→ Cardiac Conduction, §8</a>)*
 
 <figure class="teaching-illustration teaching-illustration-portrait" id="cvs11-distended-neck-veins">
 <img loading="lazy" src="assets/chapter11/distended-neck-veins.jpg" alt="Side view of a woman lying almost flat with her face covered. A thick, swollen vein bulges along the side of her neck from above the collarbone up towards the angle of the jaw." width="625" height="615">
-<figcaption><strong>Figure 02. A very high JVP.</strong> Grossly distended neck veins in a patient lying almost flat. Right atrial pressure is so high that the venous column reaches the angle of the jaw. (Cause in this patient: cardiac tamponade, where fluid around the heart stops it filling.)<details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Photograph believed to be by Ferencga, Wikimedia Commons; supplied by the DOMiNANCE Breakdowns project. Licence to be confirmed.</span></details></figcaption>
+<figcaption><strong>Figure 02. A very high JVP.</strong> Grossly distended neck veins in a patient lying almost flat. Right atrial pressure is so high that the venous column reaches the angle of the jaw. (Cause in this patient: <span data-term="tamponade">cardiac tamponade</span>, where fluid around the heart stops it filling.)<details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Photograph believed to be by Ferencga, Wikimedia Commons; supplied by the DOMiNANCE Breakdowns project. Licence to be confirmed.</span></details></figcaption>
 </figure>
 
 **Key distinction:** a giant **a** wave is the **atrium contracting against a shut valve**. A giant **v** wave is the **ventricle pushing blood back through a leaky valve**.
