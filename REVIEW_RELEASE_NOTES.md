@@ -2,7 +2,7 @@
 
 ## Academic work completed in this revision
 
-- Reviewed and inventoried all **277 slides** from six supplied PDFs, including the near-duplicate *Lecture 5 Homeostais in CVS* and *CIRCULATION 3 Homeostasis in CVS*. The page-by-page destinations and flags are in `SLIDE_BY_SLIDE_AUDIT.csv`.
+- Reviewed and inventoried all **277 slides** from six supplied PDFs, including the near-duplicate *Lecture 5 Homeostasis in CVS* and *CIRCULATION 3 Homeostasis in CVS*. The page-by-page destinations and flags are in `SLIDE_BY_SLIDE_AUDIT.csv`.
 - Strengthened all **27 teaching chapters** with source-specific explanations, corrected mechanisms and examples; **159 teaching subsections**, around **14,430 words** including the chapter headings and Q&A text.
 - Flagged **48 high-impact slide-specific interpretations or corrections**, including the ejection sequence, Laplace equation, cerebral meninges, capillary pore units, venous pressure, the modern Starling model, coronary beta-1 physiology, raised intracranial pressure, blood loss and fetal haemoglobin.
 - Included **11 independently authored educational figures and mechanism diagrams** in `figures.js`. Source lecture images have not been copied into the public project.
