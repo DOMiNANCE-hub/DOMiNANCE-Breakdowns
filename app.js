@@ -108,6 +108,36 @@
   };
   const completed = new Set(readCompleted());
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+  // ---------- on-demand loading: only the chapter being read is downloaded ----------
+  const bundle = window.DOM_BUNDLE || {chapters: {}, core: [], widgets: {}};
+  const scripts = new Map();
+  const loadScript = src => {
+    if (!scripts.has(src)) scripts.set(src, new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src; s.async = false;   // keep execution order (widget files need teaching-widgets.js first)
+      s.onload = resolve;
+      s.onerror = () => { scripts.delete(src); s.remove(); reject(new Error('Could not load ' + src)); };
+      document.head.append(s);
+    }));
+    return scripts.get(src);
+  };
+  const chapterHtml = slug => (window.DOM_CHAPTERS || {})[slug];
+  const ensureChapter = t => chapterHtml(t.slug) != null ? Promise.resolve() :
+    Promise.all([loadScript(bundle.chapters[t.slug]), loadScript(bundle.core[0])]);
+  const loadCore = () => Promise.all(bundle.core.map(loadScript));
+  const loadWidgetsFor = html => {
+    const names = new Set([...html.matchAll(/data-widget="([a-z0-9-]+)"/g)].map(m => m[1]));
+    const files = new Set([...names].map(n => bundle.widgets[n]).filter(Boolean));
+    return Promise.all([...files].map(loadScript));
+  };
+  const searchIndex = () => window.DOM_SEARCH ? Promise.resolve() : loadScript(bundle.search);
+  const prefetch = src => {
+    if (!src || scripts.has(src) || document.querySelector(`link[href="${src}"]`)) return;
+    const l = document.createElement('link'); l.rel = 'prefetch'; l.as = 'script'; l.href = src; document.head.append(l);
+  };
+  const idle = fn => (window.requestIdleCallback || (f => setTimeout(f, 1200)))(fn);
+  let routeToken = 0;
+  const markRendered = () => { main.dataset.route = location.hash || '#/'; main.removeAttribute('aria-busy'); };
   const topicUrl = (slug, from) => '#/physiology/cvs/' + slug + (from ? '?from=' + encodeURIComponent(from) : '');
   const lectureUrl = slug => '#/physiology/cvs/lecture/' + slug;
   const baseUrl = '#/physiology/cvs';
@@ -145,14 +175,18 @@
       } else {
         const filtered = groups.map(([grp, desc]) => {
           if (group !== 'All' && group !== grp) return '';
-          const selected = topics.filter(t => t.group === grp && (`${t.title} ${t.plain}`).toLowerCase().includes(term));
+          const selected = topics.filter(t => t.group === grp && (`${t.title} ${(window.DOM_SEARCH || {})[t.slug] || ''}`).toLowerCase().includes(term));
           return selected.length ? `<section><div class="group-label">${esc(grp)} · ${esc(desc)}</div><div class="cards">${selected.map(buildTopicCard).join('')}</div></section>` : '';
         }).join('');
         document.getElementById('library-list').innerHTML = `<div class="filters" role="group" aria-label="Filter by section">${['All',...groups.map(g => g[0])].map(g => `<button class="filter ${group===g?'active':''}" type="button" data-group="${g}">${g === 'All' ? 'All topics' : g}</button>`).join('')}</div>${filtered || '<div class="empty">No matching topics. Try another keyword.</div>'}`;
         document.querySelectorAll('[data-group]').forEach(b => b.addEventListener('click', () => {group = b.dataset.group; draw();}));
       }
     };
-    document.querySelector('#search').addEventListener('input', e => {term = e.target.value.trim().toLowerCase(); draw();});
+    document.querySelector('#search').addEventListener('input', e => {
+      term = e.target.value.trim().toLowerCase(); draw();
+      if (term && !window.DOM_SEARCH) searchIndex().then(() => { if (document.getElementById('library-list')) draw(); }).catch(() => {});
+    });
+    document.querySelector('#search').addEventListener('focus', () => idle(() => searchIndex().catch(() => {})), {once: true});
     document.querySelectorAll('[data-mode]').forEach(b => b.addEventListener('click', () => {mode = b.dataset.mode; term = ''; group = 'All'; document.querySelector('#search').value = ''; writeStore('dom-library-view', mode); draw();}));
     draw();
   }
@@ -169,8 +203,31 @@
     main.innerHTML = `<div class="breadcrumb"><a href="${baseUrl}">Physiology</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${esc(l.name)}</div><section class="lecture-hero tone-${l.tone}"><span class="lecture-kicker">LECTURE BREAKDOWN</span><div class="lecture-hero-layout"><div><div class="lecture-filename">${esc(l.file)}</div><h1>${esc(l.name)}</h1><p>${esc(l.overview)}</p></div><div class="lecture-stats"><strong>${l.pages}</strong><span>PDF pages</span></div></div></section>${duplicate}<section class="lecture-outline"><div class="section-heading"><div><h2>What this lecture contains</h2><p>Select a part to open its explanatory breakdown. Page references help you follow your PDF.</p></div></div><div class="lecture-rows">${rows}</div></section>${extra}<div class="lecture-footnav"><a class="btn" href="${baseUrl}">← All lecture documents</a><a class="btn" href="${baseUrl}?view=topics">Browse all CVS topics</a></div>`;
   }
 
-  function article(t) {
+  // Open a chapter: show its outline at once, download the chapter (cached after the first visit), then render.
+  function article(t, done) {
     document.title = t.title + ' | DOMiNANCE Breakdowns';
+    const token = ++routeToken;
+    const ready = () => {
+      if (token !== routeToken) return;
+      renderArticle(t);
+      done();
+      const html = chapterHtml(t.slug);
+      Promise.all([loadCore(), loadWidgetsFor(html)]).catch(() => {});
+      const next = topics[topics.indexOf(t) + 1];
+      if (next) idle(() => prefetch(bundle.chapters[next.slug]));
+    };
+    if (chapterHtml(t.slug) != null && window.DOM_DIAGRAMS) { ready(); return; }
+    main.setAttribute('aria-busy', 'true');
+    renderArticle(t, true);
+    ensureChapter(t).then(ready, () => {
+      if (token !== routeToken) return;
+      main.removeAttribute('aria-busy');
+      main.innerHTML = `<div class="load-error" role="alert"><h1>${esc(t.title)}</h1><p>This breakdown couldn’t be downloaded. Check your connection, then try again.</p><button class="btn btn-primary" type="button" id="retry-load">Try again</button></div>`;
+      document.getElementById('retry-load').addEventListener('click', navigate);
+    });
+  }
+
+  function renderArticle(t, skeleton = false) {
     const sourceLecture = getFrom();
     const idx = topics.indexOf(t);
     const relevant = sourceLecture ? sourceLecture.modules.map(m => m[0]).concat(sourceLecture.supplements || []).filter((v,i,a) => a.indexOf(v)===i) : topics.map(t => t.slug);
@@ -180,7 +237,8 @@
     const scope = sourceLecture?.modules.find(m => m[0] === t.slug);
     const breadcrumb = sourceLecture ? `<a href="${lectureUrl(sourceLecture.slug)}">${esc(sourceLecture.name)}</a>` : `<a href="${baseUrl}">All CVS topics</a>`;
     const toc = t.sections.map(s => `<a href="#${esc(s.id)}" data-scroll="${esc(s.id)}">${esc(s.title)}</a>`).join('');
-    main.innerHTML = `<div class="breadcrumb"><a href="${baseUrl}">Physiology</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${breadcrumb} / ${esc(t.title)}</div><div class="article-layout"><article class="article-sheet"><div class="article-top"><span class="topic-flag">${esc(t.group)} · CVS</span><span class="topic-flag">Explanatory breakdown</span></div><h1>${esc(t.title)}</h1><div class="article-summary">${sourceLecture ? `From <strong>${esc(sourceLecture.file)}</strong>${scope ? `, slides ${esc(scope[1])}` : ''}. ` : ''}Study one idea at a time: understand the mechanism, then check your reasoning.</div><div class="mobile-sections"><label for="sections-select" class="group-label">Jump to a section</label><select id="sections-select"><option value="">Select section…</option>${t.sections.map(s => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></div><div class="article-text">${window.DOM_DIAGRAMS?.[t.slug] || ''}${t.html}</div><div class="article-end"><button id="mark-read" class="btn btn-primary">${completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed'}</button>${sourceLecture ? `<a class="btn" href="${lectureUrl(sourceLecture.slug)}">← Back to lecture outline</a>` : ''}${next ? `<a class="btn" href="${topicUrl(next.slug, sourceLecture?.slug)}">Next: ${esc(next.title)} →</a>` : `<a class="btn" href="${baseUrl}">All CVS topics →</a>`}</div></article><aside class="toc"><h2>In this breakdown</h2>${toc}<div class="toc-info">Short teaching sections with explanations and quick checks.</div><div class="nav-bottom">${prev ? `<a href="${topicUrl(prev.slug, sourceLecture?.slug)}">← Previous topic</a>` : ''}${sourceLecture ? `<a href="${lectureUrl(sourceLecture.slug)}">Back to ${esc(sourceLecture.name)}</a>` : `<a href="${baseUrl}">All CVS topics</a>`}${next ? `<a href="${topicUrl(next.slug, sourceLecture?.slug)}">Next topic →</a>` : ''}</div></aside></div>`;
+    main.innerHTML = `<div class="breadcrumb"><a href="${baseUrl}">Physiology</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${breadcrumb} / ${esc(t.title)}</div><div class="article-layout"><article class="article-sheet${skeleton ? ' is-skeleton' : ''}"${skeleton ? ' aria-busy="true"' : ''}><div class="article-top"><span class="topic-flag">${esc(t.group)} · CVS</span><span class="topic-flag">Explanatory breakdown</span></div><h1>${esc(t.title)}</h1><div class="article-summary">${sourceLecture ? `From <strong>${esc(sourceLecture.file)}</strong>${scope ? `, slides ${esc(scope[1])}` : ''}. ` : ''}Study one idea at a time: understand the mechanism, then check your reasoning.</div>${skeleton ? '<div class="reader-toolbar-space" aria-hidden="true"></div>' : ''}<div class="mobile-sections"><label for="sections-select" class="group-label">Jump to a section</label><select id="sections-select"><option value="">Select section…</option>${t.sections.map(s => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></div><div class="article-text">${window.DOM_DIAGRAMS?.[t.slug] || ''}${skeleton ? '<p class="skeleton-note" role="status">Loading this breakdown…</p><div class="skeleton-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' : chapterHtml(t.slug)}</div><div class="article-end"><button id="mark-read" class="btn btn-primary">${completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed'}</button>${sourceLecture ? `<a class="btn" href="${lectureUrl(sourceLecture.slug)}">← Back to lecture outline</a>` : ''}${next ? `<a class="btn" href="${topicUrl(next.slug, sourceLecture?.slug)}">Next: ${esc(next.title)} →</a>` : `<a class="btn" href="${baseUrl}">All CVS topics →</a>`}</div></article><aside class="toc"><h2>In this breakdown</h2>${toc}<div class="toc-info">Short teaching sections with explanations and quick checks.</div><div class="nav-bottom">${prev ? `<a href="${topicUrl(prev.slug, sourceLecture?.slug)}">← Previous topic</a>` : ''}${sourceLecture ? `<a href="${lectureUrl(sourceLecture.slug)}">Back to ${esc(sourceLecture.name)}</a>` : `<a href="${baseUrl}">All CVS topics</a>`}${next ? `<a href="${topicUrl(next.slug, sourceLecture?.slug)}">Next topic →</a>` : ''}</div></aside></div>`;
+    if (skeleton) return;
     document.getElementById('mark-read').addEventListener('click', () => {
       if (completed.has(t.slug)) completed.delete(t.slug); else completed.add(t.slug);
       writeStore('dom-completed', JSON.stringify([...completed]));
@@ -197,14 +255,20 @@
 
   function navigate() {
     const path = (location.hash || '').replace(/^#\/?/, '').split('?')[0].split('/').filter(Boolean);
+    const section = new URLSearchParams((location.hash || '').split('?')[1] || '').get('section');
+    const done = () => {
+      markRendered();
+      window.dispatchEvent(new CustomEvent('dom:rendered'));
+      updateProgress();
+      if (section) setTimeout(() => goToSection(section), 0);
+    };
+    window.scrollTo({top:0, behavior:'instant'});
+    if (bySlug.has(path[2]) && path[2] !== 'lecture') { article(bySlug.get(path[2]), done); return; }
+    ++routeToken;
     if (path[2] === 'lecture' && byLecture.has(path[3])) lecturePage(byLecture.get(path[3]));
-    else if (bySlug.has(path[2])) article(bySlug.get(path[2]));
     else if (path[0] === 'physiology' && path[1] === 'cvs') cvsHome();
     else platformHome();
-    window.scrollTo({top:0, behavior:'instant'});
-    updateProgress();
-    const section = new URLSearchParams((location.hash || '').split('?')[1] || '').get('section');
-    if (section) setTimeout(() => goToSection(section), 0);
+    done();
   }
   // Deep links: #/physiology/cvs/<slug>?section=<heading-id> opens a chapter at that section.
   function goToSection(id) {
@@ -226,13 +290,17 @@
     try { history.replaceState(null, '', link.getAttribute('href')); } catch {}
     goToSection(section);
   });
-  function updateProgress() {
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    document.getElementById('scroll-progress').style.width = (max > 0 ? Math.min(100, 100 * window.scrollY / max) : 0) + '%';
-  }
+  // Reading progress bar: one update per frame, page height measured only when it can change.
+  const bar = document.getElementById('scroll-progress');
+  let maxScroll = 0, framePending = false;
+  const measure = () => { maxScroll = document.documentElement.scrollHeight - window.innerHeight; };
+  const paint = () => { framePending = false; bar.style.transform = `scaleX(${maxScroll > 0 ? Math.min(1, window.scrollY / maxScroll) : 0})`; };
+  function updateProgress() { measure(); paint(); }
+  const onScroll = () => { if (!framePending) { framePending = true; requestAnimationFrame(paint); } };
   window.addEventListener('hashchange', navigate);
-  window.addEventListener('scroll', updateProgress, {passive:true});
-  window.addEventListener('resize', updateProgress);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', updateProgress, {passive:true});
+  if (window.ResizeObserver) new ResizeObserver(measure).observe(main);
   document.documentElement.setAttribute('data-theme', readStore('dom-theme') === 'dark' ? 'dark' : 'light');
   document.getElementById('theme-toggle').addEventListener('click', () => {
     const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';

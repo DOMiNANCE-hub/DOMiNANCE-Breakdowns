@@ -58,7 +58,16 @@ async function newPage(browser, base, options = {}) {
 async function openRoute(page, base, hash) {
   if (!page.url().startsWith(base)) await page.goto(base + '/' + hash, { waitUntil: 'load' });
   else await page.evaluate(h => { location.hash = h; }, hash);
+  // Chapters are downloaded on demand: wait until the route has finished rendering.
+  await page.waitForFunction(h => document.getElementById('main')?.dataset.route === h, hash, { timeout: 5000 }).catch(() => {});
   await page.waitForTimeout(60);
+}
+
+
+// On phones the reading options are folded behind one "Reading options" button.
+async function openReader(page) {
+  const toggle = page.locator('.reader-toggle');
+  if (await toggle.isVisible() && await toggle.getAttribute('aria-expanded') === 'false') await toggle.click();
 }
 
 const chapterUrl = slug => '#/physiology/cvs/' + slug;
@@ -71,6 +80,8 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
   // Chapter catalogue straight from the bundle the site uses.
   const probe = await newPage(browser, base);
   await probe.goto(base + '/', { waitUntil: 'load' });
+  // The site loads chapters on demand; the full bundle (built alongside) gives the test catalogue in one go.
+  await probe.addScriptTag({ url: base + '/content.js' });
   const topics = await probe.evaluate(() => window.DOMINANCE_TOPICS.map(t => {
     const doc = new DOMParser().parseFromString(t.html, 'text/html');
     const checks = [...doc.querySelectorAll('details')].filter(d => !d.classList.contains('figure-attribution')).length;
@@ -147,6 +158,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     for (const t of topics) {
       await openRoute(page, base, chapterUrl(t.slug));
       const where = `${t.slug} reading modes`;
+      await openReader(page);
       check(await page.locator('button[data-reader-mode="continuous"]').getAttribute('aria-pressed') === 'true',
         `${where}: continuous is not the default`);
       const expected = await page.evaluate(() => {
@@ -184,6 +196,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     }
     // Keyboard navigation in Cards mode, text size and persistence.
     await openRoute(page, base, chapterUrl('cardiac-cycle'));
+    await openReader(page);
     await page.locator('button[data-reader-mode="presentation"]').click();
     await page.locator('#reader-prev').click();
     const before = Number((await page.locator('#reader-position').innerText()).match(/Card (\d+)/)[1]);
@@ -442,6 +455,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     await blocked.goto(base + '/' + chapterUrl('cardiac-cycle'), { waitUntil: 'load' });
     await blocked.locator('#mark-read').click();
     await blocked.locator('#theme-toggle').click();
+    await openReader(blocked);
     await blocked.locator('button[data-reader-mode="section"]').click();
     check(await blocked.locator('html').getAttribute('data-theme') === 'dark', 'storage blocked: theme toggle failed');
     check(blocked.pageErrors.length === 0, `storage blocked: page errors ${blocked.pageErrors.join('; ')}`);

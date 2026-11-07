@@ -73,6 +73,52 @@ for row in rows:
       'source':row['source_primary'],'pages':row['source_pages'],
       'coverage':row['coverage_type'],'priority':row['priority'],
       'sections':sections,'html':html,'plain':search_text(html)})
+# Phone-sized Wikimedia images: the original files can be several megabytes.
+COMMONS='https://commons.wikimedia.org/wiki/Special:FilePath/'
+def responsive_images(html):
+    def fix(m):
+        tag=m.group(0)
+        src=re.search(r'src="'+re.escape(COMMONS)+r'([^"?]+)"',tag)
+        if not src or 'srcset=' in tag: return tag
+        u=COMMONS+src.group(1)
+        tag=tag.replace(src.group(0),f'src="{u}?width=800" srcset="{u}?width=480 480w, {u}?width=800 800w, {u}?width=1200 1200w" sizes="(max-width: 700px) 92vw, 760px"')
+        return tag
+    return re.sub(r'<img\b[^>]*>',fix,html)
+for t in topics: t['html']=responsive_images(t['html'])
+
+# Full bundle: used by the structural audit and the browser test suite (not loaded by the site).
 script='window.DOMINANCE_TOPICS = '+json.dumps(topics,ensure_ascii=False,separators=(',',':'))+';\n'
 (ROOT/'content.js').write_text(script,encoding='utf-8')
-print('Built',len(topics),'topics, total',round(len(script)/1024),'KiB')
+
+# What the site loads: a small catalogue first, then one file per chapter on demand,
+# and the full-text search index only when someone searches. Names carry a content hash
+# so they can be cached for a year; the catalogue is loaded with ?v=<hash>.
+import hashlib
+def h(data): return hashlib.sha1(data.encode('utf-8') if isinstance(data,str) else data).hexdigest()[:10]
+out=ROOT/'content'; out.mkdir(exist_ok=True)
+keep=set()
+def emit(name,body):
+    fn=f'{name}.{h(body)}.js'; (out/fn).write_text(body,encoding='utf-8'); keep.add(fn); return 'content/'+fn
+chapters={}
+for t in topics:
+    chapters[t['slug']]=emit(t['slug'],'(window.DOM_CHAPTERS=window.DOM_CHAPTERS||{})['+json.dumps(t['slug'])+']='+json.dumps(t['html'],ensure_ascii=False)+';\n')
+search=emit('search','window.DOM_SEARCH='+json.dumps({t['slug']:t['plain'] for t in topics},ensure_ascii=False,separators=(',',':'))+';\n')
+ver=lambda f: f+'?v='+h((ROOT/f).read_bytes())
+widgets={}
+for js in sorted(ROOT.glob('*-widgets.js')):
+    if js.name=='teaching-widgets.js': continue
+    for name in re.findall(r"register\('([a-z0-9-]+)'",js.read_text(encoding='utf-8')): widgets[name]=ver(js.name)
+core=[ver(f) for f in ['figures.js','teaching-widgets.js','glossary.js','media.js','image-viewer.js']]
+catalogue=[{k:v for k,v in t.items() if k not in ('html','plain')} for t in topics]
+bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets}
+index='window.DOMINANCE_TOPICS='+json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+';\nwindow.DOM_BUNDLE='+json.dumps(bundle,separators=(',',':'))+';\n'
+(out/'index.js').write_text(index,encoding='utf-8')
+for f in out.glob('*.js'):
+    if f.name!='index.js' and f.name not in keep: f.unlink()
+
+# Point index.html at the current versions of every file it loads.
+page=(ROOT/'index.html').read_text(encoding='utf-8')
+for f in ['content/index.js','app.js','mobile-ui.js','reader.js','styles.css']:
+    page=re.sub(r'(["\'])'+re.escape(f)+r'(\?v=[0-9a-f]+)?\1',lambda m: m.group(1)+ver(f)+m.group(1),page)
+(ROOT/'index.html').write_text(page,encoding='utf-8')
+print('Built',len(topics),'topics; full bundle',round(len(script)/1024),'KiB; catalogue',round(len(index)/1024),'KiB')
