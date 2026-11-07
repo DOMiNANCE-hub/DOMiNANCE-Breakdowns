@@ -71,7 +71,21 @@
       ]
     },
     "ecg": {
-      "minimum_checks": 12
+      "minimum_checks": 12,
+      "required": [
+        "An ECG records electricity, not pumping.",
+        "Think of each lead as a camera",
+        "No calculator? Use the countdown.",
+        "data-widget=\"lead-view\"",
+        "data-widget=\"rate-ruler\"",
+        "data-youtube-id=\"HQqPYH7pdPM\"",
+        "data-youtube-id=\"OKJvR83fIrc\"",
+        "data-youtube-id=\"MOD3NthLAB0\""
+      ],
+      "forbidden": [
+        "Representative an illustrative",
+        "slide 14"
+      ]
     },
     "cardiac-output": {
       "minimum_checks": 12,

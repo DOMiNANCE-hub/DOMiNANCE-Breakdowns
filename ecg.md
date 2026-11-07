@@ -2,259 +2,317 @@
 
 ## 1. What does an ECG actually record?
 
-Every heartbeat is preceded by cardiac **electrical activation**. As myocardial cells depolarise and repolarise, electrical potential differences are produced and conducted through body tissues. Electrodes on the skin detect these differences. The **<span data-term="ecg">electrocardiogram (ECG, or EKG)</span>** is a recording of this electrical activity over time.
+Each heartbeat starts with an electrical signal that spreads through the heart muscle. As the muscle cells depolarise (switch on) and then repolarise (reset), they create small voltage differences. These spread through the body's tissues, all the way to the skin. Electrodes on the skin pick them up, and the machine draws them over time. That drawing is the **<span data-term="ecg">electrocardiogram (ECG, or EKG)</span>**.
 
-An ECG **does not directly measure** contraction strength, pressure, stroke volume or cardiac output. For example, a QRS complex signifies *ventricular depolarisation*, not the actual volume of blood being ejected. Electrical activity can be present without an effective pulse.
+<div class="ecg-concept-line" aria-label="Electrical and mechanical sequence"><span>Electrical activation</span><b>→</b><span>Contraction</span><b>→</b><span>Pressure changes</span><b>→</b><span>Blood movement</span></div>
 
-<div class="ecg-concept-line" aria-label="Electrical and mechanical sequence"><span>Electrical activation</span><b>→</b><span>Myocardial contraction</span><b>→</b><span>Pressure changes</span><b>→</b><span>Blood movement</span></div>
+**An ECG records electricity, not pumping.** It does not measure how strongly the heart contracts, the pressure it makes or how much blood it ejects. A QRS complex means the ventricles have been **switched on** electrically, not that they have pumped blood. Usually contraction follows. But the electrical signal can carry on even when the heart muscle pumps little or no blood. So a normal-looking ECG does not prove the heart is pumping well.
 
-**Why does this distinction matter?** An ECG can show organised electrical complexes even if ventricular contraction produces little or no effective circulation.
+<div class="media-resource video-resource" data-youtube-id="HQqPYH7pdPM" data-media-title="(ECG or EKG) Rhythm Strips part 1 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 1 OF 3</span><h3>(ECG or EKG) Rhythm Strips part 1</h3><p>BioVFX. An introduction to ECG recordings, ECG paper and rhythm strips, and how to measure time using the boxes on the paper. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=HQqPYH7pdPM" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
 ## 2. Why can the tracing move upwards or downwards?
 
-An **electrode** is a physical contact on the patient's skin. A **lead** is a particular electrical view calculated from electrode potentials. Different leads view the same heart from different directions, so the same heartbeat can produce different shapes across leads.
+First, two words that are easy to mix up:
 
-As activation spreads through the myocardium, we can represent its combined direction and magnitude by a changing electrical **<span data-term="ecg-vector">vector</span>**. The ECG lead detects the part of that vector directed along its positive recording direction.
+- An **electrode** is the sticker on the skin.
+- A **lead** is one view of the heart's electrical activity, worked out from the voltage between electrodes.
 
-| A depolarisation wave travels… | Recorded tendency |
+**Think of each lead as a camera** pointed at the heart from one direction. Every lead watches the same heartbeat, but from a different angle, so each draws a slightly different shape.
+
+At any moment, the electrical wave spreading through the heart has an overall **direction** and **size**. We draw it as an arrow, the electrical **<span data-term="ecg-vector">vector</span>**. What a lead records depends on which way that arrow points compared with the lead:
+
+| The wave of depolarisation travels… | The lead draws… |
 |---|---|
-| **Towards** a lead's positive direction | Positive (upward) deflection |
-| **Away from** its positive direction | Negative (downward) deflection |
-| Roughly **perpendicular** | Small or biphasic deflection |
+| **Towards** the lead's positive end | An upward deflection |
+| **Away from** it | A downward deflection |
+| **Across** it, at right angles | A small or up-and-down (biphasic) deflection |
 
-For example, much of normal ventricular depolarisation is directed inferiorly and towards the patient's left. Since Lead II views the heart in that general direction, its QRS complex is often predominantly upright.
+**Example:** in a normal heart, the ventricles depolarise mostly downwards and to the patient's left. Lead II looks at the heart from that direction, so its QRS is usually upright. aVR looks from the right shoulder, so the same wave travels away from it, and its QRS points down.
 
-**Important:** These rules describe **depolarisation**. Repolarisation has a different electrical polarity: a repolarisation wave travelling towards a positive electrode tends to produce a negative deflection. The normal ventricular T wave can therefore be upright even though it represents repolarisation, because the spread and polarity of repolarisation differ from depolarisation.
+**The up and down are electrical, not movement.** An upward wave does not mean the heart moved up. It means the electrical wave was heading towards that lead.
 
-An upward deflection is **not** a drawing of the heart moving upwards—it is the electrical signal's projection onto that lead.
+<figure class="learning-figure teaching-widget" data-widget="lead-view" data-desc="sr"><figcaption>Lead view</figcaption><p>A heart outline with one lead's positive end marked. Drag or tap to turn the depolarisation arrow. A small trace beside it updates live: upward when the arrow points towards the lead, downward when it points away, and a small up-and-down deflection when it points across. Buttons switch between Lead I, Lead II and aVR. Default: Lead II with the normal ventricular direction (upright QRS).</p></figure>
+
+**Why is the normal T wave upright, if it is "the opposite" of depolarisation?** The rule in the table is for depolarisation. Repolarisation (the cells resetting) gives the opposite sign: a resetting wave travelling *towards* a lead draws a *downward* deflection. But in the ventricles, the last cells to switch on (the outer layer) are the first to reset. So repolarisation travels in the **reverse direction**, from outside to inside. Opposite sign plus opposite direction cancel out, so the T wave usually points the same way as the QRS.
+
+<aside class="source-note"><strong>Source note:</strong> The lecture does not explain T-wave direction. The outer-layer-first order of ventricular repolarisation is standard textbook physiology (Guyton and Hall).</aside>
+
+**Understanding Check: Sections 1–2**
+
+<p><strong>1.</strong> What is the difference between an ECG electrode and an ECG lead?<span class="mcq-options"><span class="mcq-option" data-option="A">A. An electrode is a skin contact; a lead is a view worked out from electrodes</span><span class="mcq-option" data-option="B">B. An electrode records voltage; a lead records the strength of contraction</span><span class="mcq-option" data-option="C">C. An electrode is placed on the chest; a lead is always placed on a limb</span><span class="mcq-option" data-option="D">D. An electrode is one view of the heart; a lead is the wire to the machine</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Electrodes are the physical contacts. Leads are views calculated from the voltages between them, so ten electrodes can give twelve leads.</p></details>
+
+<p><strong>2.</strong> In one lead, the wave of ventricular depolarisation travels away from the positive end. What does that lead draw?<span class="mcq-options"><span class="mcq-option" data-option="A">A. An upward QRS, because the ventricles are contracting</span><span class="mcq-option" data-option="B">B. A downward QRS, because the wave is moving away</span><span class="mcq-option" data-option="C">C. A flat line, because no wave is heading towards it</span><span class="mcq-option" data-option="D">D. A taller T wave, because repolarisation comes first</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Depolarisation moving towards a lead draws an upward deflection, and moving away draws a downward one. The deflection shows direction, not contraction.</p></details>
+
+<p><strong>3.</strong> A patient's ECG shows regular, normal-looking QRS complexes, but no pulse can be felt. How is this possible?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The QRS complexes must be interference from the electrodes</span><span class="mcq-option" data-option="B">B. The ECG measures blood flow, so a pulse must be present</span><span class="mcq-option" data-option="C">C. The ECG records electrical activity, which can occur without effective pumping</span><span class="mcq-option" data-option="D">D. The pulse is always delayed by several seconds after each QRS</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> The ECG shows the electrical signal only. The muscle can fail to pump effectively even while that signal continues, so you must also check the pulse and blood pressure.</p></details>
 
 ## 3. Why can ten electrodes produce twelve ECG leads?
 
-The standard **12-lead ECG** uses **10 physical electrodes**: four on the limbs and six on the chest. Their potentials are combined to produce twelve electrical views.
+A standard **12-lead ECG** uses **10 electrodes**: one on each limb and six on the chest. The machine combines their voltages to give twelve views:
 
-| Lead group | Views | Names |
-|---|---:|---|
-| Bipolar limb | 3 | I, II, III |
-| Augmented limb | 3 | aVR, aVL, aVF |
-| Precordial (chest) | 6 | V1–V6 |
+| Lead group | How many | Names | Viewing plane |
+|---|---:|---|---|
+| Standard limb leads (bipolar) | 3 | I, II, III | Frontal (front-on) |
+| Augmented limb leads | 3 | aVR, aVL, aVF | Frontal |
+| Chest leads | 6 | V1–V6 | Horizontal (a slice across the chest) |
 
-The **right-leg (RL)** electrode mainly helps suppress electrical interference; it is not a thirteenth lead. The six limb leads observe the heart in the **frontal plane**, while the six chest leads add views in the **horizontal plane**.
+The **right-leg electrode** is not used to make a view. It works as an earth that reduces electrical interference. That is why there are ten electrodes but only nine are used to make the twelve views.
 
-### The three bipolar limb leads
+### The standard limb leads: I, II and III
 
-| Lead | Negative electrode | Positive electrode |
+Each one measures the voltage **between two limb electrodes**:
+
+| Lead | Negative end | Positive end |
 |---|---|---|
-| **I** | Right arm (RA) | Left arm (LA) |
-| **II** | Right arm (RA) | Left leg (LL) |
-| **III** | Left arm (LA) | Left leg (LL) |
+| **I** | Right arm | Left arm |
+| **II** | Right arm | Left leg |
+| **III** | Left arm | Left leg |
 
-These directions form **Einthoven's triangle**. Their simultaneous voltages obey **Einthoven's law**:
-
-<div class="equation-block"><span class="equation-label">Einthoven's law</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mi>II</mi></msub><mo>=</mo><msub><mi>V</mi><mi>I</mi></msub><mo>+</mo><msub><mi>V</mi><mi>III</mi></msub></math></div>
-
-For instance, if Lead I measures +0.5 mV and Lead III measures +0.3 mV at the same instant, Lead II should measure **+0.8 mV** (ignoring recording error).
+Together they form a triangle around the heart, **<span data-term="einthoven">Einthoven's triangle</span>**.
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-einthoven">
 <a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
 <figcaption><strong>Figure 01. Bipolar limb-lead directions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Kychot · <a href="https://commons.wikimedia.org/wiki/File:ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
-### The augmented limb leads
+Because the three leads share the same three electrodes, their voltages at any instant are linked by **Einthoven's law**:
 
-**aVR** views towards the right arm, **aVL** towards the left arm and **aVF** towards the left leg/foot. Each uses one positive limb electrode and a reference derived from the other limb electrodes. The normal mean ventricular depolarisation vector usually moves away from aVR, so its QRS complex is commonly predominantly negative.
+<div class="equation-block"><span class="equation-label">Einthoven's law</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>V</mi><mi>II</mi></msub><mo>=</mo><msub><mi>V</mi><mi>I</mi></msub><mo>+</mo><msub><mi>V</mi><mi>III</mi></msub></math></div>
 
-### The six chest leads
+So if Lead I reads +0.5 mV and Lead III reads +0.3 mV at the same instant, Lead II must read **+0.8 mV**.
 
-| Electrode | Standard position |
+### The augmented limb leads: aVR, aVL and aVF
+
+Each uses **one limb electrode as its positive end**, compared with an average of the other two limb electrodes:
+
+- **aVR** looks from the right arm.
+- **aVL** looks from the left arm.
+- **aVF** looks from the left foot.
+
+The lecture calls these leads **<span data-term="unipolar-lead">unipolar</span>**, because only one electrode forms the positive end. Normal ventricular depolarisation travels away from the right shoulder, so the QRS in **aVR is usually negative**.
+
+### The chest leads: V1–V6
+
+Each chest electrode is a positive end, compared with an average of the limb electrodes. Together they wrap around the heart from right to left.
+
+| Electrode | Position |
 |---|---|
-| **V1** | Fourth right intercostal space, right sternal border |
-| **V2** | Fourth left intercostal space, left sternal border |
+| **V1** | 4th intercostal space, right edge of the sternum |
+| **V2** | 4th intercostal space, left edge of the sternum |
 | **V3** | Midway between V2 and V4 |
-| **V4** | Fifth left intercostal space, midclavicular line |
-| **V5** | Anterior axillary line, horizontal with V4 |
-| **V6** | Midaxillary line, horizontal with V4 |
+| **V4** | 5th intercostal space, midclavicular line |
+| **V5** | Anterior axillary line, at the level of V4 |
+| **V6** | Midaxillary line, at the level of V4 |
 
-For accurate placement, locate **V4 before V3**, then put V3 midway between V2 and V4. Incorrect placement can alter the tracing and create misleading findings.
+Place **V4 before V3**, because V3 sits midway between V2 and V4. A misplaced electrode changes the shapes and can make a normal ECG look abnormal.
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-precordial">
 <a href="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Precordial_Leads_3.svg" alt="Anterior torso and rib cage with six labelled ECG chest electrodes V1 to V6 in their correct anatomical positions." width="287" height="252"></a>
 <figcaption><strong>Figure 02. V1–V6 chest electrode positions.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Jmarchn · <a href="https://commons.wikimedia.org/wiki/File:Precordial_Leads_3.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
+<aside class="source-note"><strong>Source note:</strong> The lecture names the three lead groups (bipolar, augmented unipolar, chest unipolar). Electrode positions and the right-leg electrode's role are standard clinical teaching.</aside>
+
 ## 4. Waves, segments and intervals: what is the difference?
 
-The ECG tracing is made up of **waves**, **segments** and **intervals**. These words are not interchangeable:
+The ECG trace is made of three kinds of parts. The words are not interchangeable:
 
-- **Wave:** A deflection associated with a change in the heart's summed electrical activity (e.g. P or T).
-- **Segment:** The part **between** specified waves (e.g. PR segment or ST segment).
-- **Interval:** A measured span including **one or more waves** and often a segment (e.g. PR or QT interval).
+- **Wave:** a bump up or down from the baseline (P, QRS, T).
+- **Segment:** the flat stretch **between** two waves (PR segment, ST segment).
+- **Interval:** a span that **includes at least one wave** (<span data-term="pr-interval">PR interval</span>, <span data-term="qt-interval">QT interval</span>).
 
 <figure class="teaching-illustration ecg-figure-signal" id="ecg-normal-wave">
 <a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" alt="Labeled normal ECG with P wave, QRS complex, T wave, PR segment and interval, ST segment and QT interval." width="512" height="512"></a>
 <figcaption><strong>Figure 03. Normal ECG waves and intervals.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Agateller (Anthony Atkielski), SVG conversion by atom · <a href="https://commons.wikimedia.org/wiki/File:SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain.</span></details></figcaption>
 </figure>
 
-### P wave — Atrial depolarisation
+<div class="media-resource video-resource" data-youtube-id="OKJvR83fIrc" data-media-title="(ECG or EKG) Wave patterns. Part 2 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 2 OF 3</span><h3>(ECG or EKG) Wave patterns. Part 2</h3><p>BioVFX. Upward and downward deflections, and how to identify the P, Q, R, S and T waves. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=OKJvR83fIrc" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-The SA node initiates an impulse, which spreads through atrial myocardium. The **P wave represents atrial myocardial depolarisation**, not merely the firing of the tiny SA node. Atrial contraction follows. Representative an illustrative normal P-wave duration of **0.08–0.10 seconds**.
+**P wave: the atria are switched on.** The signal starts in the SA node and spreads across both atria. The P wave is that spread through the atrial muscle; the SA node itself is too small to show. The atria contract just after it. Normal duration: **0.08–0.10 s**.
 
-### PR interval — Time from atrial to ventricular depolarisation
+**PR interval: from the atria switching on to the ventricles switching on.** It runs from the **start of the P wave** to the **start of the QRS**. Normal: **0.12–0.20 s**. It includes the spread across the atria, the hold-up in the AV node and the run down the His–Purkinje fibres. So the PR interval is **not just the AV delay**. *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
 
-The **PR interval** starts at the **beginning of the P wave** and ends at the **beginning of QRS**. It is normally about **0.12–0.20 seconds**. It includes atrial depolarisation and conduction through the AV node and His–Purkinje system up to the start of ventricular activation. **The whole PR interval is not simply the AV nodal delay.**
+The **PR segment** is shorter. It runs from the **end** of the P wave to the start of the QRS, when the signal is passing through the AV node and His–Purkinje fibres.
 
-In contrast, the **PR segment** runs from the **end** of P to the **start** of QRS. Keep the starting points distinct when answering exam questions.
+<div class="media-resource video-resource" data-youtube-id="MOD3NthLAB0" data-media-title="(ECG or EKG) PR interval part 3 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 3 OF 3</span><h3>(ECG or EKG) PR interval part 3</h3><p>BioVFX. The PR interval, measured from the start of the P wave to the start of the QRS complex, normally about 120–200 ms. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=MOD3NthLAB0" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-### QRS complex — Ventricular depolarisation
+**QRS complex: the ventricles are switched on.** The ventricles have far more muscle than the atria, so the QRS is much bigger than the P wave. Normal duration: **0.06–0.10 s** in the lecture; clinically, anything under 0.12 s is accepted as normal.
 
-The **QRS complex** represents ventricular depolarisation. Ventricular muscle mass is much greater than atrial mass, so its summed signal is typically larger than the P wave. The lecturer quotes a QRS duration of approximately **0.06–0.10 seconds**; a duration **under 0.12 seconds** is a common broad normal clinical criterion.
+- **Q:** a downward deflection before the first upward one
+- **R:** the upward deflection
+- **S:** a downward deflection after the R
 
-**Q** is the first negative deflection before a positive R; **R** is a positive deflection; **S** is a negative deflection after an R. A particular lead need not show all three letters.
+Not every lead shows all three.
 
-**Why don't we see atrial repolarisation separately?** It usually overlaps with ventricular depolarisation, and its smaller signal is masked by QRS—not absent.
+**Where is the atria resetting?** It happens at the same time as the QRS, and its small signal is hidden inside the much bigger one.
 
-### ST segment — A nearly flat line during continued ventricular electrical activity
+**ST segment: the whole ventricle is switched on.** It runs from the end of the QRS (the **<span data-term="j-point">J point</span>**) to the start of the T wave. All the ventricular cells are in the plateau of their action potential at the same voltage, so there is no voltage difference for the electrodes to pick up, and the line is flat. **Flat does not mean resting:** this is when the ventricles are contracting hardest. The lecture stresses that the ST segment can rise or fall when the heart muscle is short of oxygen (ischaemia).
 
-The **ST segment** extends from the **end of QRS (J point)** to the **beginning of the T wave**. During much of this interval, ventricular myocardial cells are in relatively similar depolarised states, so the lead often detects little net voltage difference.
+**T wave: the ventricles reset.** Resetting spreads more slowly than switching on, so the T wave is longer and lower than the QRS.
 
-**Flat does not mean inactive.** The ST segment roughly corresponds to the ventricular action-potential plateau, not to a period when the cells have returned to rest. ST elevation and depression can have clinical importance, including myocardial ischaemia, but require appropriate context.
+**U wave: sometimes seen.** A small wave after the T. The lecture describes it as the last remnants of ventricular repolarisation; its exact source is still debated.
 
-### T wave — Ventricular repolarisation
+**QT interval: the ventricles switch on and reset.** It runs from the **start of the QRS** to the **end of the T wave**, roughly one ventricular action potential. It is **0.2–0.4 s**, and it **shortens as heart rate rises**, so there is no single normal QT value.
 
-The **T wave** reflects the spread of ventricular repolarisation. Repolarisation is not instantaneous and may give a broader waveform than QRS. The normal T-wave direction reflects both the spatial sequence of recovery and the polarity of repolarisation.
+| Part | What happens | Normal (lecture) |
+|---|---|---|
+| **P wave** | Atria switch on | 0.08–0.10 s |
+| **PR interval** | Start of P to start of QRS | 0.12–0.20 s |
+| **QRS complex** | Ventricles switch on | 0.06–0.10 s |
+| **ST segment** | Whole ventricle switched on (plateau) | Flat at the baseline |
+| **T wave** | Ventricles reset | Longer than QRS |
+| **QT interval** | Ventricles switch on and reset | 0.2–0.4 s, depending on heart rate |
 
-### U wave — Sometimes present, origin uncertain
-
-A small **U wave** may follow the T wave. The lecture calls it the final remnants of ventricular repolarisation; this is a traditional teaching description. **Its precise source is still debated**, so we should not present a specific proposed mechanism as settled fact.
-
-### QT interval — Ventricular activation through recovery
-
-The **QT interval** extends from the **start of QRS to the end of the T wave**. It includes ventricular depolarisation and repolarisation. Representative an illustrative range of **0.2–0.4 seconds**, noting that QT varies with heart rate. Its duration shortens or lengthens with heart rate, so a single fixed normal QT value is misleading.
-
-**Supplementary: heart-rate correction.** Bazett's formula is a commonly taught approximation, although it is less reliable at unusually low or high heart rates.
-
-<div class="equation-block"><span class="equation-label">Bazett's QT correction</span><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>QT</mi><mi>c</mi></msub><mo>=</mo><mfrac><mi>QT</mi><msqrt><mi>RR</mi></msqrt></mfrac></math><span class="equation-example">Use QT and RR measurements in seconds; interpret the result in clinical context.</span></div>
+<aside class="source-note"><strong>Source note:</strong> Values are the lecture's. "Under 0.12 s" for the QRS is the usual clinical cut-off. Doctors correct the QT for heart rate (the QTc, often with Bazett's formula, QT ÷ √RR); that is beyond this lecture.</aside>
 
 ## 5. Connect the ECG to mechanical events
 
-| ECG feature | Electrical event | Mechanical connection |
-|---|---|---|
-| P wave | Atrial depolarisation | Atrial contraction follows |
-| PR interval | Atrial-to-ventricular activation time | Includes the AV delay that supports final filling |
-| QRS complex | Ventricular depolarisation | Ventricular contraction follows |
-| ST segment | Much ventricular myocardium remains depolarised | Sustained ventricular contraction/ejection |
-| T wave | Ventricular repolarisation | Mechanical relaxation develops, but not instantaneously |
+Each electrical event comes **just before** the mechanical event it triggers:
 
-This connects directly with Chapter 04's Wiggers diagram: **the ECG measures the electrical changes; the Wiggers diagram also shows pressure, volume and valve events**. The electrical and mechanical curves are connected but are not interchangeable.
+| ECG | Electrical event | What follows mechanically |
+|---|---|---|
+| **P wave** | Atria switch on | Atria contract and top up the ventricles |
+| **PR interval** | The signal is held in the AV node | The atria finish emptying before the ventricles contract |
+| **QRS** | Ventricles switch on | Ventricles contract; S1 is heard soon after |
+| **ST segment** | Whole ventricle switched on | Ventricles eject blood |
+| **T wave** | Ventricles reset | Ventricles relax; S2 comes near the end of the T wave |
+
+The <span data-term="wiggers">Wiggers diagram</span> puts these electrical events above the pressure and volume curves of the same beat. *(<a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">→ Cardiac Cycle, §9</a>)*
+
+**Understanding Check: Sections 3–5**
+
+<p><strong>1.</strong> At the same instant, Lead I reads +0.6 mV and Lead III reads +0.4 mV. What does Lead II read?<span class="mcq-options"><span class="mcq-option" data-option="A">A. +0.2 mV, because Lead II equals Lead I minus Lead III</span><span class="mcq-option" data-option="B">B. +1.0 mV, because Lead II equals Lead I plus Lead III</span><span class="mcq-option" data-option="C">C. +0.5 mV, because Lead II is the average of the other two</span><span class="mcq-option" data-option="D">D. +2.4 mV, because Lead II is the product of the other two</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Einthoven's law: Lead II = Lead I + Lead III, compared at the same instant.</p></details>
+
+<p><strong>2.</strong> A student measures from the end of the P wave to the start of the QRS and calls it the PR interval. What has the student left out?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The QRS complex, which the interval also includes</span><span class="mcq-option" data-option="B">B. The AV delay, which happens after the QRS starts</span><span class="mcq-option" data-option="C">C. The P wave, which the interval includes from its start</span><span class="mcq-option" data-option="D">D. The T wave, which ends the interval</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> The PR interval starts at the <strong>beginning</strong> of the P wave. What the student measured is the PR segment.</p></details>
+
+<p><strong>3.</strong> Why is the ST segment flat, even though the ventricles are contracting hard?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The ventricles are electrically silent and fully at rest</span><span class="mcq-option" data-option="B">B. The atria are resetting and cancel out the ventricles</span><span class="mcq-option" data-option="C">C. All ventricular cells are at the same voltage, so no difference is picked up</span><span class="mcq-option" data-option="D">D. The electrodes stop recording while blood is ejected</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> During the plateau, every ventricular cell sits at about the same voltage. With no difference between regions, the lead draws a flat line.</p></details>
+
+<p><strong>4.</strong> Why is the QRS complex much bigger than the P wave?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The ventricles have far more muscle to switch on</span><span class="mcq-option" data-option="B">B. The QRS includes the atria resetting as well</span><span class="mcq-option" data-option="C">C. The ventricles are closer to the electrodes</span><span class="mcq-option" data-option="D">D. The AV node amplifies the signal</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> More muscle switching on gives a bigger total signal. The atria resetting is hidden inside the QRS, but it is tiny and not the reason.</p></details>
 
 ## 6. How do ECG paper squares represent time and voltage?
 
-The lecturer's standard settings are **25 mm/s** (paper speed) and **10 mm/mV** (voltage gain).
+ECG paper is a grid of **small squares** (1 mm) grouped into **large squares** (5 small squares, outlined in bold). In the lecture's standard settings, the paper moves at **25 mm/s**, and **10 mm of height = 1 mV**.
 
 <div class="ecg-calibration-mini" role="group" aria-label="ECG paper calibration"><div class="ecg-paper-sample" aria-hidden="true"></div><div><strong>At 25 mm/s</strong><p>1 small 1-mm horizontal square = <strong>0.04 s</strong><br>1 large 5-mm horizontal square = <strong>0.20 s</strong></p><p><strong>At 10 mm/mV:</strong> 1 small vertical square = <strong>0.1 mV</strong>; 1 large vertical square = <strong>0.5 mV</strong>.</p></div></div>
 
-**Why is this true?** At 25 mm/s, the paper moves 25 mm in one second. Each 1-mm horizontal square therefore spans **1 ÷ 25 = 0.04 s**; five such squares span **0.20 s**.
+**Across the paper is time.** The paper moves 25 small squares every second. So:
 
-**Do not confuse axes:** Horizontal spacing measures time; vertical height measures voltage. A taller QRS does not mean a longer QRS duration.
+- 1 small square = 1 ÷ 25 = **0.04 s**
+- 1 large square = 5 × 0.04 = **0.20 s**
+- 5 large squares = **1 second**
+
+**Up the paper is voltage.** 10 small squares = 1 mV. So:
+
+- 1 small square = **0.1 mV**
+- 1 large square = **0.5 mV**
+
+**Don't mix the two.** A taller QRS is a bigger voltage, not a longer one. To measure how long something lasts, count squares **across**.
+
+**Try it:** a PR interval spans 4 small squares. How long is it? 4 × 0.04 = **0.16 s**, which is normal (0.12–0.20 s). In large squares, a normal PR interval is **3 to 5 small squares** (0.12–0.20 s), and a normal QRS is **under 3 small squares** (under 0.12 s).
 
 ## 7. Calculate heart rate from the tracing
 
-For a **regular rhythm**, measure the R–R interval. Since 60 seconds make one minute:
+**The idea in one sentence:** work out how long one beat takes, then see how many of those beats fit into a minute.
+
+**Step 1: count the small squares between two R waves.**
+
+**Step 2: change squares to seconds.** Multiply by 0.04. This is the <span data-term="rr-interval">RR interval</span>, the time for one beat.
+
+**Step 3: change to beats per minute.** Divide 60 by the RR interval.
+
+**The lecture's example: 22 small squares.**
+
+- Step 1: 22 small squares
+- Step 2: 22 × 0.04 = **0.88 s** per beat
+- Step 3: 60 ÷ 0.88 ≈ **68 beats/min**
+
+**The quicker way, and where 1500 comes from.** In one minute the paper moves 25 mm/s × 60 s = **1500 mm**, which is **1500 small squares**. If one beat takes 22 squares, the number of beats in a minute is:
+
+**1500 ÷ 22 ≈ 68 beats/min.** Same answer, one step.
+
+Counting large squares works the same way: 1500 small squares = **300 large squares**, so 300 ÷ 4.4 large squares ≈ 68.
 
 <div class="equation-block"><span class="equation-label">General relationship</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>HR</mi><mo>=</mo><mfrac><mn>60</mn><mrow><mi>RR</mi><mo> </mo><mtext>in seconds</mtext></mrow></mfrac></math></div>
 
-At 25 mm/s, the common shortcuts follow from 1500 small or 300 large squares passing per minute:
-
 <div class="equation-block"><span class="equation-label">25 mm/s · regular rhythm</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>HR</mi><mo>=</mo><mfrac><mn>1500</mn><msub><mi>N</mi><mtext>small squares</mtext></msub></mfrac></math><span class="equation-example">Or 300 ÷ number of large squares between consecutive R waves.</span></div>
 
-### Worked example: the lecturer's 22 small squares
+**No calculator? Use the countdown.** Find an R wave that sits on a thick line. For each thick line after it, say the next number in the countdown. Stop where the next R wave lands:
 
-If an R–R interval spans **22 small squares**:
+| Next R wave lands after… | 1 large square | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| **Heart rate (beats/min)** | 300 | 150 | 100 | 75 | 60 | 50 |
 
-**RR duration = 22 × 0.04 s = 0.88 s**
+Each number is just 300 ÷ the number of large squares. If the R wave falls between two lines, the rate lies between those two numbers. For the lecture's strip (4.4 large squares), it lands between 75 and 60, nearer 75: about 68.
 
-**Heart rate = 60 ÷ 0.88 ≈ 68 beats/min**, equivalently 1500 ÷ 22 ≈ 68.
+<figure class="learning-figure teaching-widget" data-widget="rate-ruler" data-desc="sr"><figcaption>Rate ruler</figcaption><p>A strip of ECG paper with two R waves. A slider sets the gap between them, from 10 to 40 small squares. Underneath, the three steps update live: squares → seconds (× 0.04) → beats/min (60 ÷ RR), with the 1500 shortcut and the countdown range beside them. It starts at the lecture's 22 squares, 68 beats/min.</p></figure>
 
-**Important observation about slide 14:** Not all its R–R intervals appear equal. The calculation **1500 ÷ 22** gives the rate represented by *that particular interval*. It should not automatically be called the average rate for the whole irregular tracing.
+**A second example:** 15 small squares. 15 × 0.04 = 0.6 s; 60 ÷ 0.6 = **100 beats/min**. Check: 1500 ÷ 15 = 100, or 3 large squares on the countdown = 100. ✓
 
-### What changes if the rhythm is irregular?
+**If the rhythm is irregular,** the gaps between R waves vary, so one gap gives the rate for one beat only. Instead, count the QRS complexes in a **6-second strip** (30 large squares) and multiply by **10**, because 6 s is one tenth of a minute. Eight complexes in 6 s ≈ **80 beats/min**.
 
-When R–R intervals vary, a single pair of R waves is insufficient to estimate the average. One simple method is to count ventricular complexes in a **6-second strip** and multiply by **10** (supplementary).
+**Three common mistakes**
 
-*Example:* 8 QRS complexes in 6 seconds → approximate average **80 beats/min**.
+- **Dividing 1500 by large squares.** Use 1500 for small squares and 300 for large squares.
+- **Using the 1500 rule on an irregular rhythm.** Count complexes in 6 s × 10 instead.
+- **Forgetting the paper speed.** At 50 mm/s each small square is 0.02 s, so the rules become 3000 ÷ small squares and 600 ÷ large squares.
 
-### What if paper speed is 50 mm/s?
-
-Each small horizontal square then represents **0.02 s**, so the shortcuts become **3000 ÷ small squares** or **600 ÷ large squares**. Always check the paper speed before using a shortcut.
+<aside class="source-note"><strong>Source note:</strong> The 1500 and 300 rules and the 22-square example are from the lecture. The countdown, the 6-second method and the 50 mm/s adjustment are standard supplementary teaching.</aside>
 
 ## 8. Basic rhythm assessment (supplementary)
 
-The lecture's central focus is ECG fundamentals, not a full arrhythmia course. Still, an initial rhythm assessment connects the tracing to its purpose.
+The lecture focuses on ECG basics, not rhythm diagnosis. But four questions turn the trace into a first look at the rhythm:
 
-Ask four questions: **Is the ventricular rate appropriate? Are the R–R intervals regular? Are consistent P waves present before QRS? Is conduction through PR and QRS appropriate?**
+1. **Rate:** is it between about 60 and 100 beats/min at rest?
+2. **Regularity:** are the RR intervals equal?
+3. **P waves:** is there one before every QRS, and do they all look the same?
+4. **Intervals:** is the PR interval 0.12–0.20 s, and the QRS narrow?
 
-A normal sinus rhythm generally shows P waves of consistent shape, with an appropriate relationship between each P and the following QRS and a reasonably regular rhythm. For healthy adults at rest, **60–100 beats/min** is a common reference range, though slower rates can be normal in particular circumstances.
+**Normal sinus rhythm** answers yes to all four.
 
-### Recognition of AV conduction disturbance
+The PR interval also shows whether the signal is getting through the AV node:
 
-| Pattern | Interpretation |
+| What you see | Meaning |
 |---|---|
-| **PR >0.20 s**, every P followed by QRS | First-degree AV block |
-| Some P waves **not followed by QRS** | Second-degree AV block |
-| P waves and QRS complexes follow **independent rhythms** | Complete (third-degree) AV block |
+| PR longer than 0.20 s, but every P is followed by a QRS | **First-degree** <span data-term="heart-block">heart block</span>: delayed, but always gets through |
+| Some P waves are not followed by a QRS | **Second-degree** heart block: some signals are dropped |
+| P waves and QRS complexes at their own separate rates | **Third-degree (complete)** heart block: nothing gets through |
 
-**Mechanism:** These patterns concern how the atrial impulse is delayed or fails to reach ventricular myocardium. Their detailed subtypes are supplementary and require additional ECG practice.
+The mechanisms are explained in Cardiac Conduction. *(<a href="#/physiology/cvs/cardiac-conduction?section=8-clinical-significance-of-conduction-disturbances">→ Cardiac Conduction, §8</a>)*
 
-A normal-looking ECG cannot guarantee effective cardiac output: **electrical activity does not prove adequate mechanical pumping**.
+**Understanding Check: Sections 6–8**
 
-## Understanding Check
+<p><strong>1.</strong> At 25 mm/s, two R waves are 20 small squares apart. What is the heart rate?<span class="mcq-options"><span class="mcq-option" data-option="A">A. 50 beats/min, because 1000 ÷ 20 = 50</span><span class="mcq-option" data-option="B">B. 60 beats/min, because 1200 ÷ 20 = 60</span><span class="mcq-option" data-option="C">C. 75 beats/min, because 1500 ÷ 20 = 75</span><span class="mcq-option" data-option="D">D. 80 beats/min, because 1600 ÷ 20 = 80</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> At 25 mm/s, 1500 small squares pass in a minute, so 1500 ÷ 20 = 75. Check: 20 × 0.04 = 0.8 s, and 60 ÷ 0.8 = 75.</p></details>
 
-**1. How can skin electrodes record activity generated inside the heart?**
-<details><summary>Reveal explanation</summary><p>Cardiac depolarisation and repolarisation produce electrical potential differences that are conducted through body tissues. Electrodes detect differences between skin locations, so the ECG can record the combined electrical activity without touching the myocardium. It records electricity, not the strength of contraction.</p></details>
+<p><strong>2.</strong> On a regular strip, each R wave lands 3 large squares after the one before. What is the heart rate?<span class="mcq-options"><span class="mcq-option" data-option="A">A. About 75 beats/min</span><span class="mcq-option" data-option="B">B. About 100 beats/min</span><span class="mcq-option" data-option="C">C. About 150 beats/min</span><span class="mcq-option" data-option="D">D. About 300 beats/min</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> The countdown runs 300, 150, 100, so 3 large squares is 100 beats/min (300 ÷ 3).</p></details>
 
-**2. Why do ten electrodes produce twelve ECG leads?**
-<details><summary>Reveal explanation</summary><p><strong>Electrodes are recording contacts; leads are calculated electrical views.</strong> Four limb electrodes and six precordial electrodes provide three bipolar limb views, three augmented limb views and six chest views. The right-leg electrode helps reduce interference rather than producing another lead.</p></details>
+<p><strong>3.</strong> Two QRS complexes look identical, but one is twice as tall. What does the extra height tell you?<span class="mcq-options"><span class="mcq-option" data-option="A">A. That beat lasted twice as long</span><span class="mcq-option" data-option="B">B. That beat had a bigger voltage</span><span class="mcq-option" data-option="C">C. That beat came at twice the rate</span><span class="mcq-option" data-option="D">D. That beat had a longer PR interval</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Height is voltage; width is time. A taller complex is a bigger signal, not a longer one.</p></details>
 
-**3. If a depolarisation vector moves away from the positive direction of Lead II, what deflection is expected?**
-<details><summary>Reveal explanation</summary><p><strong>Predominantly negative (downward).</strong> A lead displays the projection of the heart's electrical vector onto its positive recording direction. Depolarisation moving away from that direction generates a negative deflection; moving towards it produces a positive one.</p></details>
+<p><strong>4.</strong> An irregular rhythm shows 9 QRS complexes in a 6-second strip. What is the approximate rate?<span class="mcq-options"><span class="mcq-option" data-option="A">A. About 54 beats/min, from 9 × 6</span><span class="mcq-option" data-option="B">B. About 75 beats/min, from 1500 ÷ 20 squares</span><span class="mcq-option" data-option="C">C. About 90 beats/min, from 9 × 10</span><span class="mcq-option" data-option="D">D. About 150 beats/min, from 9 ÷ 6 × 100</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> A 6-second strip is one tenth of a minute, so multiply by 10. For an irregular rhythm this is more reliable than measuring one RR interval.</p></details>
 
-**4. Explain what Einthoven's law means if Leads I and III measure +0.5 and +0.3 mV at the same instant.**
-<details><summary>Reveal explanation</summary><p><strong>Lead II = +0.8 mV</strong>, because V<sub>II</sub> = V<sub>I</sub> + V<sub>III</sub>. This relationship follows from how the three bipolar limb leads use the right-arm, left-arm and left-leg electrode potentials. The values must be compared at the same instant.</p></details>
+<p><strong>5.</strong> Every P wave is followed by a QRS, but the PR interval is 0.28 s. What does this show?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Complete heart block: no signals get through</span><span class="mcq-option" data-option="B">B. Second-degree heart block: some signals are dropped</span><span class="mcq-option" data-option="C">C. First-degree heart block: signals are delayed but all get through</span><span class="mcq-option" data-option="D">D. A normal rhythm, because every P has a QRS</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> A PR interval over 0.20 s means the signal is slow through the AV node, but since every P is followed by a QRS, none are dropped.</p></details>
 
-**5. The QRS complex is larger than the P wave. Which electrical event does each represent, and why is the difference expected?**
-<details><summary>Reveal explanation</summary><p><strong>QRS is ventricular depolarisation; P is atrial depolarisation.</strong> The ventricles have greater muscle mass, so the summed surface electrical signal during ventricular activation is usually much larger. The small atrial repolarisation signal is normally hidden within QRS.</p></details>
+## 9. Chapter Essentials
 
-**6. A student measures the PR segment and calls it the PR interval. What is missing?**
-<details><summary>Reveal explanation</summary><p><strong>The P wave itself.</strong> The PR segment starts at the end of P and ends at the beginning of QRS; the PR interval starts at the <em>beginning</em> of P. Therefore the PR interval includes atrial depolarisation plus subsequent conduction time, not just AV nodal delay.</p></details>
-
-**7. Why can the ST segment lie near the baseline while most ventricular cells remain depolarised?**
-<details><summary>Reveal explanation</summary><p>During much of the ST segment, ventricular regions are in relatively similar depolarised states. The lead therefore detects only a small net electrical potential difference. A flat segment does <strong>not</strong> indicate that the ventricle has become electrically inactive.</p></details>
-
-**8. At 25 mm/s, two R waves are separated by 22 small squares. Calculate the rate.**
-<details><summary>Reveal explanation</summary><p>Each small horizontal square lasts 0.04 s. The RR interval is 22 × 0.04 = <strong>0.88 s</strong>. Rate = 60 ÷ 0.88 ≈ <strong>68 beats/min</strong> (also 1500 ÷ 22). If other R–R intervals differ, this is only the beat-to-beat rate for the chosen interval.</p></details>
-
-**9. Why does the 1500 rule need adjustment at a paper speed of 50 mm/s?**
-<details><summary>Reveal explanation</summary><p>The paper travels twice as far per second, so each small square lasts 0.02 s rather than 0.04 s. There are now 3000 small squares per minute; the corresponding regular-rhythm shortcut is <strong>3000 ÷ small squares</strong> (or 600 ÷ large squares).</p></details>
-
-**10. An irregular ECG has eight QRS complexes in six seconds. Estimate its average ventricular rate.**
-<details><summary>Reveal explanation</summary><p><strong>Approximately 80 beats/min.</strong> Eight beats in six seconds correspond to 8 × (60 ÷ 6) = 80 beats/min. For an irregular rhythm, counting complexes over a longer interval is more representative than applying the 1500 rule to one R–R interval.</p></details>
-
-**11. Each P wave is followed by QRS, but the PR interval is 0.24 seconds. What pattern does this suggest?**
-<details><summary>Reveal explanation</summary><p><strong>First-degree AV block.</strong> PR is prolonged beyond 0.20 s, yet each atrial impulse still conducts to the ventricles. The finding indicates delayed AV transmission, not dropped beats or complete AV dissociation.</p></details>
-
-**12. Can a regular ECG tracing prove that the ventricles are pumping enough blood?**
-<details><summary>Reveal explanation</summary><p><strong>No.</strong> An ECG measures electrical activity. Electrical impulses may occur without effective myocardial contraction or sufficient stroke volume, so perfusion requires assessment of the pulse, blood pressure and clinical state.</p></details>
-
-## Chapter Essentials
-
-1. **ECG:** Records electrical potential differences detected at the body surface, not blood pressure or contraction.
-2. **Twelve leads, ten electrodes:** Three bipolar limb, three augmented limb and six chest leads.
-3. **Vector rule:** Depolarisation towards a positive lead produces a positive deflection; away produces a negative deflection.
-4. **Lead placement:** I, II and III use limb-electrode differences; V1–V6 have specific chest landmarks.
-5. **P wave:** Atrial myocardial depolarisation; **QRS:** ventricular depolarisation; **T wave:** ventricular repolarisation.
-6. **PR interval:** Start of P to start of QRS, normally about 0.12–0.20 s; do not confuse with PR segment or pure AV nodal delay.
-7. **QRS duration:** About 0.06–0.10 s in the lecturer's examples; often less than 0.12 s clinically.
-8. **ST segment:** Ventricular myocardium remains largely depolarised; a flat tracing does not mean inactivity.
-9. **QT interval:** Start of QRS to end of T; varies with heart rate. U-wave origin remains unsettled.
-10. **Calibration at 25 mm/s and 10 mm/mV:** Small square 0.04 s horizontally and 0.1 mV vertically; large square 0.20 s.
-11. **Heart rate:** Regular rhythm HR = 1500 ÷ small squares or 300 ÷ large squares at 25 mm/s; use longer strips to estimate irregular rhythms.
-12. **Basic rhythm assessment:** Rate, regularity, P waves, PR and QRS; ECG electrical activity does not guarantee cardiac output.
+1. **The ECG records electricity, not pumping.** A normal trace does not prove the heart is ejecting blood.
+2. **Electrode = skin contact; lead = a view.** Ten electrodes give twelve leads; the right-leg electrode is an earth.
+3. **Direction rule:** depolarisation towards a lead draws an upward deflection; away draws a downward one; across draws a small up-and-down one.
+4. **The T wave is usually upright**, because ventricles reset in the reverse order to how they switched on.
+5. **Leads:** I, II and III (bipolar, Einthoven's triangle, II = I + III); aVR, aVL and aVF; V1–V6 across the chest.
+6. **P** = atria switch on (0.08–0.10 s); **QRS** = ventricles switch on (0.06–0.10 s); **T** = ventricles reset.
+7. **PR interval** = start of P to start of QRS (0.12–0.20 s), including the AV delay. The **PR segment** starts at the end of P.
+8. **ST segment** = whole ventricle switched on (plateau): flat but active. It shifts in ischaemia.
+9. **QT interval** = start of QRS to end of T (0.2–0.4 s), shorter at higher heart rates.
+10. **Paper:** 25 mm/s and 10 mm/mV. Small square = 0.04 s and 0.1 mV; large square = 0.20 s.
+11. **Rate (regular rhythm):** 60 ÷ RR (s), 1500 ÷ small squares or 300 ÷ large squares. Irregular: QRS complexes in 6 s × 10.
+12. **Heart block:** first degree = long PR, all conducted; second degree = some P waves dropped; third degree = P and QRS independent.
