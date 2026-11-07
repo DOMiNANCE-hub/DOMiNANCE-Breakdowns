@@ -1,8 +1,8 @@
-# Formation of <span data-term="oedema">Oedema</span>
+# Formation of Oedema
 
 ## 1. What exactly is oedema?
 
-**Oedema** is too much fluid in the spaces **between the cells** (the interstitium), enough to make tissue swell.
+**<span data-term="oedema">Oedema</span>** is too much fluid in the spaces **between the cells** (the interstitium), enough to make tissue swell.
 
 Fluid is always leaving the capillaries, and the lymphatics are always carrying it back. **Oedema happens when more leaves than can be carried away.**
 

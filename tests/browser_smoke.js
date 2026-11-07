@@ -287,7 +287,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await page.fill('#search', term); await page.waitForTimeout(20);
       return page.locator('.topic-card h3').allTextContents();
     };
-    check((await search('Bainbridge')).includes('Cardiovascular Reflexes and Cushing Response'), 'search for "Bainbridge" failed');
+    check((await search('Bainbridge')).includes('Cardiovascular Reflexes'), 'search for "Bainbridge" failed');
     for (const t of topics) {
       check((await search(t.tail)).includes(t.title), `${t.slug}: search cannot find text at the end of the chapter ("${t.tail}")`);
     }
