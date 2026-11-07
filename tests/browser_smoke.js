@@ -289,8 +289,13 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'CVS landing overflows');
 
     const lectures = await page.locator('.lecture-card').evaluateAll(cards => cards.map(c => c.getAttribute('href')));
-    check(lectures.length === 6, `expected 6 lecture cards, found ${lectures.length}`);
-    for (const href of lectures) {
+    // Lecture 5 repeats Circulation 3's slides, so the two share one card; its own page still opens.
+    check(lectures.length === 5, `expected 5 lecture cards, found ${lectures.length}`);
+    check(/Same slides as Lecture 5/.test(await page.locator('.lecture-card[href$="circulation-3"]').innerText()), 'Circulation 3 card should name Lecture 5');
+    await page.locator('#search').fill('lecture 5');
+    check(await page.locator('.lecture-card[href$="circulation-3"]').count() === 1, 'searching "lecture 5" should find the shared Homeostasis card');
+    await page.locator('#search').fill('');
+    for (const href of [...lectures, '#/physiology/cvs/lecture/lecture-5']) {
       await openRoute(page, base, href);
       const info = await page.evaluate(() => ({
         h1: document.querySelector('h1')?.textContent || '',
