@@ -594,6 +594,76 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log('  feedback checked at 390 and 1280 px');
   }
 
+  // ---------- Lecture tests ----------
+  section('Lecture tests: mark as you go, submit at the end, review, retry, resume');
+  {
+    const page = await newPage(browser, base, { viewport: { width: 390, height: 860 } });
+    const answers = [];
+    await page.route('**/api/collect', async route => { answers.push(...(JSON.parse(route.request().postData() || '{}').events || []).filter(e => e.t === 'answer')); await route.fulfill({ status: 204 }); });
+    await openRoute(page, base, '#/physiology/cvs/lecture/circulation-2');
+    check(await page.locator('.test-card').count() === 1, 'lecture page has no test card');
+    await page.locator('.test-card').click();
+    await page.waitForSelector('.lt-start');
+    check(/60 questions/.test(await page.locator('.lt-lede').innerText()), 'test intro should say 60 questions');
+    // Mark as you go
+    await page.locator('.lt-start').click();
+    check(await page.locator('.lt-next').isDisabled(), 'mark-as-you-go: Next should wait for an answer');
+    const stem1 = await page.locator('.lt-stem').innerText();
+    await page.locator('.lt-option').first().click();
+    check(await page.locator('.lt-verdict').count() === 1, 'mark-as-you-go: no verdict after answering');
+    check(await page.locator('.lt-option.is-correct').count() === 1, 'mark-as-you-go: correct option not shown');
+    check(await page.locator('.lt-why-not').count() === 3, 'mark-as-you-go: each wrong option should explain itself');
+    check(await page.locator('.lt-option:disabled').count() === 4, 'mark-as-you-go: answer should lock');
+    await page.locator('.lt-next').click();
+    check((await page.locator('.lt-stem').innerText()) !== stem1 && /2 \/ 60/.test(await page.locator('.lt-count').innerText()), 'Next did not move on');
+    // Leave and resume
+    await page.locator('.lt-exit').click();
+    await page.waitForTimeout(200);
+    await openRoute(page, base, '#/physiology/cvs/lecture/circulation-2/test');
+    await page.waitForSelector('.lt-resume');
+    check(/question 2 of 60/.test(await page.locator('.lt-resume').innerText()), 'resume should offer question 2 of 60');
+    // Submit at the end, Quick 20
+    await page.locator('input[name="mode"][value="exam"]').check();
+    await page.locator('input[name="size"][value="quick"]').check();
+    await page.locator('.lt-start').click();
+    check(/1 \/ 20/.test(await page.locator('.lt-count').innerText()), 'Quick 20 should have 20 questions');
+    await page.locator('.lt-option').nth(2).click();
+    check(await page.locator('.lt-verdict').count() === 0 && await page.locator('.lt-option.is-chosen').count() === 1, 'exam mode should not mark answers');
+    await page.locator('.lt-option').nth(1).click();
+    check(await page.locator('.lt-option.is-chosen').count() === 1, 'exam mode should allow changing an answer');
+    await page.locator('.lt-grid-btn').click();
+    await page.locator('.lt-jump[data-to="19"]').click();
+    await page.locator('.lt-option').first().click();
+    await page.locator('.lt-finish').click();
+    check(/haven’t answered 18 questions/.test(await page.locator('.lt-confirm').innerText()), 'exam mode should warn about unanswered questions');
+    await page.locator('.lt-submit-anyway').click();
+    await page.waitForSelector('.lt-pct');
+    check(await page.locator('.lt-item').count() === 20 && await page.locator('.lt-unanswered').count() === 18, 'review should list all 20 with 18 unanswered');
+    const missed = Number((await page.locator('.lt-retry').innerText()).match(/\d+/)[0]);
+    check(missed >= 18, 'retry should include the unanswered questions');
+    if (missed < 20) {   // the filter only appears when some were right
+      await page.locator('[data-only="1"]').click();
+      check(await page.locator('.lt-item').count() === missed, 'Missed filter should show only missed questions');
+    }
+    await page.locator('.lt-retry').click();
+    check(new RegExp('1 / ' + missed).test(await page.locator('.lt-count').innerText()), 'retry should start with the missed questions');
+    // Best score shows on the lecture page; answers are recorded with stable ids
+    await openRoute(page, base, '#/physiology/cvs/lecture/circulation-2');
+    check(/your best \d+%/.test(await page.locator('.test-card').innerText()), 'best score not shown on the lecture card');
+    await page.evaluate(() => { Object.defineProperty(document, 'visibilityState', { value: 'hidden', configurable: true }); document.dispatchEvent(new Event('visibilitychange')); });
+    await page.waitForTimeout(300);
+    check(answers.length >= 3 && answers.every(a => /^lt-circulation-2:[0-9a-f]{8}$/.test(a.q) && /^[A-D]$/.test(a.o)), `test answers not recorded correctly (${answers.length})`);
+    // The last chapter of the lecture invites the student to the test; Lecture 5 shares Circulation 3's (none yet)
+    await openRoute(page, base, chapterUrl('reflexes'));
+    check(await page.locator('.article-end .test-card[href$="circulation-2/test"]').count() === 1, 'Reflexes should end with the Circulation 2 test card');
+    await openRoute(page, base, chapterUrl('local-regulation'));
+    check(await page.locator('.article-end .test-card').count() === 0, 'only the last chapter of a lecture should show the test card');
+    check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'lecture test overflows at 390 px');
+    check(page.pageErrors.length === 0, `lecture test: page errors ${page.pageErrors.join('; ')}`);
+    await page.context().close();
+    console.log('  Circulation 2 test checked in both modes');
+  }
+
   section('Offline reading: opened chapters, Save all chapters, error with retry');
   {
     const page = await newPage(browser, base, { ...devices['Pixel 7'] });

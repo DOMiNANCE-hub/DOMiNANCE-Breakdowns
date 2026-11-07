@@ -90,6 +90,7 @@
       if (id) record({t: 'media', m: id.replace(/[^\w-]/g, '-')});
     }
   }, true);
+  window.addEventListener('dom:answer', e => record({t: 'answer', ...e.detail}));   // lecture-test answers
   let missTimer = 0;
   window.addEventListener('dom:search-miss', e => {
     clearTimeout(missTimer);

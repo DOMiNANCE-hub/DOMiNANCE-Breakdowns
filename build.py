@@ -151,9 +151,37 @@ for js in sorted(ROOT.glob('*-widgets.js')):
     if js.name=='teaching-widgets.js': continue
     for name in re.findall(r"register\('([a-z0-9-]+)'",js.read_text(encoding='utf-8')): widgets[name]=ver(js.name)
 core=[ver(f) for f in ['figures.js','teaching-widgets.js','glossary.js','media.js','image-viewer.js']]
+# Lecture tests: lecture-tests/<lecture-slug>.md (reviewed question files) → one file each, loaded only
+# when a student opens that test. Every question keeps a stable id (hash of its wording) for answer statistics.
+def lecture_test(path):
+    src=path.read_text(encoding='utf-8')
+    head,*blocks=re.split(r'\n### Q\d+\n',src)
+    meta=dict(re.findall(r'^(Lecture slug|Chapters): (.+)$',head,re.M))
+    lecture=meta['Lecture slug'].strip(); chapters=[c.strip() for c in meta['Chapters'].split(',')]
+    by_title={t['title'].lower():t for t in topics if t['slug'] in chapters}
+    questions=[]
+    for b in blocks:
+        f=dict(re.findall(r'^(Chapter|Section|Type|Stem|Answer|Why|Slides): (.*)$',b,re.M))
+        opts=dict(re.findall(r'^([A-D])\. (.*)$',b,re.M)); nots=dict(re.findall(r'^Not ([A-D]): (.*)$',b,re.M))
+        title=re.sub(r'^Chapter \d+\s*[—-]\s*','',f['Chapter']).strip().lower()
+        t=by_title.get(title)
+        assert t, f'{path.name}: unknown chapter {f["Chapter"]}'
+        num=re.match(r'(\d+)\.',f['Section'].strip())
+        sec=next((s for s in t['sections'] if num and s['title'].startswith(num.group(1)+'.')),None)
+        assert sec, f'{path.name}: unknown section {f["Section"]}'
+        assert set(opts)==set('ABCD') and f['Answer'].strip() in opts and len(nots)==3, f'{path.name}: incomplete question {f["Stem"][:40]}'
+        qid='lt-'+lecture+':'+hashlib.sha1(f['Stem'].encode('utf-8')).hexdigest()[:8]
+        questions.append({'id':qid,'chapter':t['slug'],'section':sec['id'],'type':f['Type'].strip(),'stem':f['Stem'].strip(),
+            'options':opts,'answer':f['Answer'].strip(),'why':f['Why'].strip(),'not':nots})
+    assert len({q['id'] for q in questions})==len(questions), f'{path.name}: duplicate question'
+    return lecture,{'lecture':lecture,'chapters':chapters,'questions':questions}
+tests={}
+for path in sorted((ROOT/'lecture-tests').glob('*.md')):
+    lecture,data=lecture_test(path)
+    tests[lecture]={'count':len(data['questions']),'chapters':data['chapters'],'file':emit('test-'+lecture,'(window.DOM_TESTS=window.DOM_TESTS||{})['+json.dumps(lecture)+']='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')}
 catalogue=[{k:v for k,v in t.items() if k not in ('html','plain')} for t in topics]
 assets=sorted('assets/'+str(f.relative_to(ROOT/'assets')).replace('\\','/') for f in (ROOT/'assets').rglob('*') if f.is_file() and f.suffix in ('.jpg','.png','.webp','.svg'))
-bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets}
+bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets,'tests':tests,'testApp':ver('lecture-test.js')}
 index='window.DOMINANCE_TOPICS='+json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+';\nwindow.DOM_BUNDLE='+json.dumps(bundle,separators=(',',':'))+';\n'
 (out/'index.js').write_text(index,encoding='utf-8')
 for f in out.glob('*.js'):
