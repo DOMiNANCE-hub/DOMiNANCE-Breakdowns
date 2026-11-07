@@ -1,0 +1,74 @@
+/* DOMiNANCE Breakdowns — offline reading (service worker).
+ * Built by build.py from sw-template.js: 835a8538e3 and ["/", "styles.css?v=565d535cc0", "content/index.js?v=90a2e6a65e", "app.js?v=95f91c0f4f", "mobile-ui.js?v=029b211ffe", "offline.js?v=eca48fe90b", "reader.js?v=9d7d2bea96", "figures.js?v=ff998896a1", "teaching-widgets.js?v=9f513ae261", "glossary.js?v=0c1b09c10d", "media.js?v=c47401262e", "image-viewer.js?v=66eb671bd5"] are filled in.
+ * - The app shell is saved on install, so the site opens without a connection.
+ * - Every chapter a student opens is kept; "Save all chapters" stores the rest.
+ * - Versioned files (content/*, *.js?v=, *.css?v=) never change, so they are served from the cache first.
+ * - Pages always try the network first, so new content appears as soon as it is published. */
+'use strict';
+const VERSION = '835a8538e3';
+const SHELL = ["/", "styles.css?v=565d535cc0", "content/index.js?v=90a2e6a65e", "app.js?v=95f91c0f4f", "mobile-ui.js?v=029b211ffe", "offline.js?v=eca48fe90b", "reader.js?v=9d7d2bea96", "figures.js?v=ff998896a1", "teaching-widgets.js?v=9f513ae261", "glossary.js?v=0c1b09c10d", "media.js?v=c47401262e", "image-viewer.js?v=66eb671bd5"];
+const SHELL_CACHE = 'dom-shell-' + VERSION;
+const CONTENT_CACHE = 'dom-content';       // chapters, widgets, images: kept across versions (file names are versioned)
+const IMAGE_HOSTS = ['commons.wikimedia.org', 'upload.wikimedia.org'];
+
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(SHELL_CACHE).then(c => c.addAll(SHELL)));
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    for (const key of await caches.keys()) if (key.startsWith('dom-shell-') && key !== SHELL_CACHE) await caches.delete(key);
+    await self.clients.claim();
+  })());
+});
+
+self.addEventListener('message', event => {
+  if (event.data === 'skip-waiting') self.skipWaiting();
+});
+
+const versioned = url => url.origin === self.location.origin && (url.pathname.startsWith('/content/') || url.searchParams.has('v'));
+const localAsset = url => url.origin === self.location.origin && url.pathname.startsWith('/assets/');
+
+async function cacheFirst(request, cacheName) {
+  const hit = await caches.match(request);
+  if (hit) return hit;
+  const response = await fetch(request);
+  if (response.ok) (await caches.open(cacheName)).put(request, response.clone());
+  return response;
+}
+
+async function networkFirstPage(request) {
+  try {
+    const response = await fetch(request);
+    if (response.ok) (await caches.open(SHELL_CACHE)).put('/', response.clone());
+    return response;
+  } catch {
+    return (await caches.match('/')) || (await caches.match('/index.html')) || Response.error();
+  }
+}
+
+// Wikimedia images: fetched with CORS so they can be stored compactly; if that fails, the browser loads them normally.
+async function image(request) {
+  const hit = await caches.match(request.url);
+  if (hit) return hit;
+  try {
+    const response = await fetch(request.url, {mode: 'cors', credentials: 'omit'});
+    if (response.ok && response.type !== 'opaque') (await caches.open(CONTENT_CACHE)).put(request.url, response.clone());
+    return response;
+  } catch {
+    return fetch(request);
+  }
+}
+
+self.addEventListener('fetch', event => {
+  const {request} = event;
+  if (request.method !== 'GET') return;
+  const url = new URL(request.url);
+  if (request.mode === 'navigate') { event.respondWith(networkFirstPage(request)); return; }
+  if (versioned(url)) { event.respondWith(cacheFirst(request, CONTENT_CACHE)); return; }
+  if (localAsset(url) && !request.headers.has('range')) { event.respondWith(cacheFirst(request, CONTENT_CACHE)); return; }
+  if (IMAGE_HOSTS.includes(url.hostname) && request.destination === 'image') { event.respondWith(image(request)); return; }
+  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
+    event.respondWith(cacheFirst(request, CONTENT_CACHE));
+  }
+});

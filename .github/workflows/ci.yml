@@ -34,9 +34,9 @@ jobs:
       - name: Rebuild the site bundles and confirm they match the committed files
         run: |
           python build.py
-          if [ -n "$(git status --porcelain -- content.js content index.html)" ]; then
-            echo "::error::Built files are out of date. Run 'python build.py' and commit content.js, content/ and index.html."
-            git status --short -- content.js content index.html
+          if [ -n "$(git status --porcelain -- content.js content index.html sw.js)" ]; then
+            echo "::error::Built files are out of date. Run 'python build.py' and commit content.js, content/, index.html and sw.js."
+            git status --short -- content.js content index.html sw.js
             exit 1
           fi
 

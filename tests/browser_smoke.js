@@ -284,7 +284,9 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     check(await page.locator('.topic-card').count() === 6, 'Regional filter does not show 6 chapters');
     await page.locator('[data-group="All"]').click();
     const search = async term => {
-      await page.fill('#search', term); await page.waitForTimeout(20);
+      await page.fill('#search', term);
+      await page.waitForFunction(() => window.DOM_SEARCH, null, { timeout: 5000 }).catch(() => {});   // full-text index loads on first search
+      await page.waitForTimeout(20);
       return page.locator('.topic-card h3').allTextContents();
     };
     check((await search('Bainbridge')).includes('Cardiovascular Reflexes'), 'search for "Bainbridge" failed');
@@ -470,6 +472,38 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     check(await corrupt.locator('html').getAttribute('data-theme') === 'light', 'corrupted storage: invalid theme applied');
     check(corrupt.pageErrors.length === 0, `corrupted storage: page errors ${corrupt.pageErrors.join('; ')}`);
     await corrupt.context().close();
+  }
+
+  // ---------- 12. Offline reading ----------
+  section('Offline reading: opened chapters, Save all chapters, error with retry');
+  {
+    const page = await newPage(browser, base, { ...devices['Pixel 7'] });
+    const ctx = page.context();
+    await page.goto(base + '/#/physiology/cvs', { waitUntil: 'load' });
+    const controlled = await page.waitForFunction(() => navigator.serviceWorker && navigator.serviceWorker.controller, null, { timeout: 8000 }).then(() => true, () => false);
+    if (check(controlled, 'offline: service worker did not take control')) {
+      await openRoute(page, base, chapterUrl('shock'));
+      await ctx.setOffline(true);
+      await page.reload({ waitUntil: 'load' });
+      await page.waitForFunction(() => document.getElementById('main')?.dataset.route, null, { timeout: 5000 }).catch(() => {});
+      check(await page.locator('.article-sheet:not(.is-skeleton) > h1').count() === 1, 'offline: an opened chapter did not reopen without a connection');
+      await openRoute(page, base, chapterUrl('fetal'));
+      check(await page.locator('#retry-load').count() === 1, 'offline: an unsaved chapter did not show the retry message');
+      await ctx.setOffline(false);
+      await openRoute(page, base, '#/physiology/cvs');
+      await page.locator('.offline-save').click();
+      const saved = await page.waitForFunction(() => /All chapters saved/.test(document.getElementById('offline-card')?.textContent || ''), null, { timeout: 20000 }).then(() => true, () => false);
+      check(saved, 'offline: Save all chapters did not finish');
+      await ctx.setOffline(true);
+      for (const slug of ['fetal', 'heart-sounds', 'reflexes']) {
+        await openRoute(page, base, chapterUrl(slug));
+        check(await page.locator('.article-sheet:not(.is-skeleton) > h1').count() === 1, `offline: saved chapter ${slug} did not open`);
+      }
+      check(await page.locator('[data-widget="reflex-tracer"][data-ready]').count() === 1, 'offline: interactive did not work offline');
+      await ctx.setOffline(false);
+    }
+    check(page.pageErrors.length === 0, `offline: page errors ${page.pageErrors.join('; ')}`);
+    await ctx.close();
   }
 
   await browser.close();
