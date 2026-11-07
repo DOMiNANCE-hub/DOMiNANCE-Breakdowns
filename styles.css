@@ -151,7 +151,6 @@
 :is(.article-text,.cs-body) .mechanism-strip strong{font-size:12px}
 :is(.article-text,.cs-body) .equation-block{display:flex;align-items:center;gap:9px 16px;flex-wrap:wrap;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 13px;margin:10px 0 13px;min-width:0}
 :is(.article-text,.cs-body) .equation-label{font:750 12px/1.4 'Plus Jakarta Sans',sans-serif;color:var(--muted)}
-:is(.article-text,.cs-body) .equation-block math{font-size:18px;display:inline-block;max-width:100%;overflow-wrap:normal;white-space:nowrap;color:var(--navy2)}
 :is(.article-text,.cs-body) .equation-example{font-size:12.5px;color:var(--text)}
 :is(.article-text,.cs-body) .equation-example strong{color:var(--navy)}
 @media(max-width:660px){
@@ -173,7 +172,6 @@
  :is(.article-text,.cs-body) .pressure-rules span{font-size:13.5px}
  :is(.article-text,.cs-body) .mechanism-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
  :is(.article-text,.cs-body) .equation-block{gap:6px 12px;padding:9px 11px}
- :is(.article-text,.cs-body) .equation-block math{font-size:16.5px}
  :is(.article-text,.cs-body) #chapter-essentials + ol{padding:12px 10px 12px 30px}
 }
 @media(max-width:400px){
@@ -364,18 +362,15 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 /* CVS equations: readable, contained and touch-scrollable on narrow phones. */
 :is(.article-text,.cs-body) .equation-block{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:5px;max-width:100%;min-width:0;overflow:hidden}
 :is(.article-text,.cs-body) .equation-label{display:block;white-space:normal;overflow-wrap:anywhere}
-:is(.article-text,.cs-body) .equation-block math{display:block;max-width:100%;min-width:0;width:max-content;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;font-size:clamp(14px,2.6vw,18px);line-height:1.4;padding:3px 0 6px;scrollbar-width:thin;white-space:nowrap}
 :is(.article-text,.cs-body) .equation-block .equation-example{display:block;max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:normal;line-height:1.55}
 :is(.article-text,.cs-body) .equation-block .equation-example strong{overflow-wrap:anywhere}
-:is(.article-text,.cs-body) .equation-block :is(mfrac,mrow,msup,msub){max-width:none}
 :is(.article-text,.cs-body) :not(pre)>code{white-space:normal;overflow-wrap:anywhere}
 @media(max-width:660px){
  :is(.article-text,.cs-body) .equation-block{padding:9px 10px;margin:9px 0 12px;gap:5px;border-radius:11px}
- :is(.article-text,.cs-body) .equation-block math{font-size:15px;max-width:100%;margin:0;overscroll-behavior-x:contain}
  :is(.article-text,.cs-body) .equation-label{font-size:11.5px}
  :is(.article-text,.cs-body) .equation-example{font-size:12px;line-height:1.5}
 }
-@media(max-width:360px){:is(.article-text,.cs-body) .equation-block math{font-size:14px}:is(.article-text,.cs-body) .equation-block{padding:8px}}
+@media(max-width:360px){:is(.article-text,.cs-body) .equation-block{padding:8px}}
 
 /* Proper mathematical typography: visible fraction bars and raised/lowered scripts.
    Each formula scrolls inside its own block on narrow screens; never flatten it into text. */
