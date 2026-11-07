@@ -184,6 +184,7 @@
       if (mode === 'lectures') {
         const relevant = lectures.filter(l => !l.duplicateOf && `${l.file} ${l.name} ${l.overview} ${twins(l).map(d => `${d.file} ${d.name}`).join(' ')} ${l.modules.map(m => bySlug.get(m[0])?.title).join(' ')}`.toLowerCase().includes(term));
         document.getElementById('library-list').innerHTML = `<div class="lecture-grid">${relevant.map(l => `<a class="lecture-card tone-${l.tone}" href="${lectureUrl(l.slug)}"><div class="lecture-card-head"><span class="lecture-number">${l.index}</span><span class="lecture-doc-icon" aria-hidden="true">▤</span></div><div class="lecture-file">${esc(docName(l.file))}</div>${twins(l).map(d => `<div class="lecture-file lecture-twin">Same slides as ${esc(docName(d.file))}</div>`).join('')}<h3>${esc(l.name)}</h3><p>${esc(l.overview)}</p><div class="lecture-card-bottom"><span>${l.pages} slide pages · ${l.modules.length} linked breakdowns</span><span aria-hidden="true">↗</span></div></a>`).join('')}</div>${relevant.length ? '<p class="library-note">Related lectures may lead to the same topic. Continue where you left off.</p>' : '<div class="empty">No lecture matches your search.</div>'}`;
+        if (term && !relevant.length) window.dispatchEvent(new CustomEvent('dom:search-miss', {detail: term}));
       } else {
         const filtered = groups.map(([grp, desc]) => {
           if (group !== 'All' && group !== grp) return '';
@@ -192,6 +193,7 @@
         }).join('');
         document.getElementById('library-list').innerHTML = `<div class="filters" role="group" aria-label="Filter by section">${['All',...groups.map(g => g[0])].map(g => `<button class="filter ${group===g?'active':''}" type="button" data-group="${g}">${g === 'All' ? 'All topics' : g}</button>`).join('')}</div>${filtered || (term && !window.DOM_SEARCH ? '<div class="empty" role="status">Searching all breakdowns…</div>' : '<div class="empty">No matching topics. Try another keyword.</div>')}`;
         document.querySelectorAll('[data-group]').forEach(b => b.addEventListener('click', () => {group = b.dataset.group; draw();}));
+        if (term && !filtered && window.DOM_SEARCH) window.dispatchEvent(new CustomEvent('dom:search-miss', {detail: term}));   // feedback.js notes searches that found nothing
       }
     };
     document.querySelector('#search').addEventListener('input', e => {

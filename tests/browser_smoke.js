@@ -527,6 +527,73 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
   }
 
   // ---------- 12. Offline reading ----------
+  // ---------- Feedback and anonymous usage ----------
+  section('Feedback: clear? votes, problem reports, anonymous reading events');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      const sent = [];
+      let status = 204;
+      await page.route('**/api/collect', async route => {
+        const body = JSON.parse(route.request().postData() || '{}');
+        sent.push(...(body.events || []));
+        await route.fulfill({ status });
+      });
+      await openRoute(page, base, chapterUrl('reflexes'));
+      check(await answerFirstCheck(page), `feedback @${width}: answering failed`);
+      await page.locator('.article-text .glossary-trigger').first().click();
+      await page.keyboard.press('Escape');
+      // Clear? → Not really → a short form that names the section
+      await page.locator('.article-end').scrollIntoViewIfNeeded();
+      await page.locator('.cf-btn[data-vote="down"]').click();
+      check(await page.locator('dialog.fb-dialog[open]').count() === 1, `feedback @${width}: "Not really" did not open the form`);
+      check(await page.locator('#fb-where option').count() === 9, `feedback @${width}: the form should list the whole chapter and its 8 sections`);
+      await page.locator('#fb-text').fill('The Cushing reflex section lost me at step 3.');
+      await page.locator('.fb-send').click();
+      await page.waitForTimeout(200);
+      check(/Thank you/.test(await page.locator('dialog.fb-dialog').innerText()), `feedback @${width}: no thank-you after sending`);
+      await page.locator('.fb-ok').click();
+      check(/glad it helped|Thanks for saying so/.test(await page.locator('.chapter-feedback').innerText()), `feedback @${width}: vote not acknowledged`);
+      // Reload: the vote is remembered; leaving the page sends the queued reading events.
+      await page.evaluate(() => document.dispatchEvent(new Event('visibilitychange')));
+      await page.evaluate(() => { Object.defineProperty(document, 'visibilityState', { value: 'hidden', configurable: true }); document.dispatchEvent(new Event('visibilitychange')); });
+      await page.waitForTimeout(300);
+      const types = new Set(sent.map(e => e.t));
+      for (const t of ['view', 'answer', 'tip', 'vote', 'note']) check(types.has(t), `feedback @${width}: no "${t}" event was sent (${[...types].join(', ')})`);
+      const answer = sent.find(e => e.t === 'answer');
+      check(answer && /^reflexes:[0-9a-f]{8}$/.test(answer.q) && /^[A-D]$/.test(answer.o), `feedback @${width}: answer event lacks a question id and option`);
+      const note = sent.find(e => e.t === 'note');
+      check(note && note.k === 'unclear' && note.c === 'reflexes' && note.x.includes('Cushing'), `feedback @${width}: note not sent correctly`);
+      check(!JSON.stringify(sent).match(/@|name/i), `feedback @${width}: events should carry nothing personal`);
+      // Report a problem with a set of questions
+      await openRoute(page, base, chapterUrl('reflexes'));
+      if (width < 760) { await page.locator('.check-launch').first().click(); await page.waitForTimeout(260); }
+      const scope = width < 760 ? '.check-sheet' : '.article-text';
+      await page.locator(`${scope} .check-report`).first().click();
+      check(await page.locator('#fb-where option').count() === 4, `feedback @${width}: question report should offer "in general" + 3 questions`);
+      // Before the database is connected the form says so instead of pretending.
+      status = 503;
+      await page.locator('#fb-text').fill('Question 2 option C looks right too.');
+      await page.locator('.fb-send').click();
+      await page.waitForTimeout(200);
+      check(/isn’t switched on yet/.test(await page.locator('dialog.fb-dialog').innerText()), `feedback @${width}: an unconnected database should be reported honestly`);
+      await page.locator('.fb-ok').click();
+      check(page.pageErrors.length === 0, `feedback @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.context().close();
+    }
+    // Browsers that ask not to be tracked send no reading events.
+    const quiet = await newPage(browser, base, { viewport: { width: 1280, height: 860 }, initScript: () => Object.defineProperty(navigator, 'globalPrivacyControl', { value: true }) });
+    const quietSent = [];
+    await quiet.route('**/api/collect', async route => { quietSent.push(...(JSON.parse(route.request().postData() || '{}').events || [])); await route.fulfill({ status: 204 }); });
+    await openRoute(quiet, base, chapterUrl('reflexes'));
+    await answerFirstCheck(quiet);
+    await quiet.evaluate(() => { Object.defineProperty(document, 'visibilityState', { value: 'hidden', configurable: true }); document.dispatchEvent(new Event('visibilitychange')); });
+    await quiet.waitForTimeout(300);
+    check(quietSent.length === 0, `Global Privacy Control: ${quietSent.length} reading events were sent`);
+    await quiet.context().close();
+    console.log('  feedback checked at 390 and 1280 px');
+  }
+
   section('Offline reading: opened chapters, Save all chapters, error with retry');
   {
     const page = await newPage(browser, base, { ...devices['Pixel 7'] });

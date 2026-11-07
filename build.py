@@ -114,7 +114,19 @@ def reading_layout(html):
         out.append('<section class="check-block">'+launch+'<div class="check-body">'+label+body.rstrip('\n')+'</div></section>\n'); pos=end
     out.append(html[pos:])
     return ''.join(out)
-for t in topics: t['html']=responsive_images(reading_layout(t['html']))
+# Every multiple-choice question gets a stable id (chapter + a hash of its wording), so answer
+# statistics follow the question even if questions are reordered. Rewording a question gives it a new id.
+def question_ids(html, slug):
+    def add(m):
+        before=html[:m.start()]
+        p=before.rfind('<p>')
+        stem=re.sub(r'<[^>]+>','',before[p:].split('<span class="mcq-options">')[0])
+        stem=re.sub(r'^\s*\d+\.\s*','',stem).strip()
+        qid=slug+':'+hashlib.sha1(stem.encode('utf-8')).hexdigest()[:8]
+        return f'<details class="mcq-answer" data-qid="{qid}"'
+    return re.sub(r'<details class="mcq-answer"',add,html)
+import hashlib
+for t in topics: t['html']=responsive_images(question_ids(reading_layout(t['html']),t['slug']))
 
 # Full bundle: used by the structural audit and the browser test suite (not loaded by the site).
 script='window.DOMINANCE_TOPICS = '+json.dumps(topics,ensure_ascii=False,separators=(',',':'))+';\n'
@@ -148,12 +160,13 @@ for f in out.glob('*.js'):
     if f.name!='index.js' and f.name not in keep: f.unlink()
 
 # Point index.html at the current versions of every file it loads.
-page=(ROOT/'index.html').read_text(encoding='utf-8')
-for f in ['content/index.js','app.js','mobile-ui.js','offline.js','reader.js','styles.css']:
-    page=re.sub(r'(["\'])'+re.escape(f)+r'(\?v=[0-9a-f]+)?\1',lambda m: m.group(1)+ver(f)+m.group(1),page)
-(ROOT/'index.html').write_text(page,encoding='utf-8')
+for html_page in ['index.html','stats.html']:
+    page=(ROOT/html_page).read_text(encoding='utf-8')
+    for f in ['content/index.js','app.js','mobile-ui.js','offline.js','reader.js','feedback.js','styles.css']:
+        page=re.sub(r'(["\'])'+re.escape(f)+r'(\?v=[0-9a-f]+)?\1',lambda m: m.group(1)+ver(f)+m.group(1),page)
+    (ROOT/html_page).write_text(page,encoding='utf-8')
 # Offline reading: the service worker is generated with the current shell file versions.
-shell=['/','styles.css','content/index.js','app.js','mobile-ui.js','offline.js','reader.js']
+shell=['/','styles.css','content/index.js','app.js','mobile-ui.js','offline.js','reader.js','feedback.js']
 shell=['/']+[ver(f) for f in shell[1:]]+core
 sw=(ROOT/'sw-template.js').read_text(encoding='utf-8')
 sw=sw.replace('__SHELL__',json.dumps(shell)).replace('__VERSION__',h(json.dumps(shell)+sw))

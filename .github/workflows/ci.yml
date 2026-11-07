@@ -34,9 +34,9 @@ jobs:
       - name: Rebuild the site bundles and confirm they match the committed files
         run: |
           python build.py
-          if [ -n "$(git status --porcelain -- content.js content index.html sw.js)" ]; then
+          if [ -n "$(git status --porcelain -- content.js content index.html stats.html sw.js)" ]; then
             echo "::error::Built files are out of date. Run 'python build.py' and commit content.js, content/, index.html and sw.js."
-            git status --short -- content.js content index.html sw.js
+            git status --short -- content.js content index.html stats.html sw.js
             exit 1
           fi
 
@@ -51,7 +51,7 @@ jobs:
           node-version: '22'
 
       - name: JavaScript syntax check
-        run: for f in *.js tests/*.js; do node --check "$f" || exit 1; done
+        run: for f in *.js api/*.js tests/*.js; do node --check "$f" || exit 1; done
 
       - name: Install Playwright and Chromium
         run: |
@@ -60,6 +60,8 @@ jobs:
 
       - name: Browser regression suite (27 chapters, 320–1280 px, phone emulation)
         run: node tests/browser_smoke.js
+      - name: Feedback endpoints
+        run: node tests/api_test.js
 
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js
