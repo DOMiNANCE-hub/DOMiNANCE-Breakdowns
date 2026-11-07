@@ -48,12 +48,12 @@
       stage.innerHTML = svgOpen(540, 290, `${L.label} looks from ${L.from}. The depolarisation arrow points ${Math.round(Math.abs(norm(ang - L.deg)))} degrees away from the lead, so the lead draws ${Math.abs(a) < 0.3 ? 'a small up-and-down QRS' : a > 0 ? 'an upward QRS' : 'a downward QRS'}.`) +
         `<defs><marker id="${id}-h" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="lv-head"/></marker></defs>` +
         `<circle cx="${CX}" cy="${CY}" r="${R}" class="lv-body"/>` +
-        `<path d="M${CX - 34} ${CY - 40} C${CX - 70} ${CY - 70} ${CX - 80} ${CY + 10} ${CX} ${CY + 58} C${CX + 80} ${CY + 10} ${CX + 70} ${CY - 70} ${CX + 34} ${CY - 40} C${CX + 18} ${CY - 56} ${CX} ${CY - 50} ${CX} ${CY - 36} C${CX} ${CY - 50} ${CX - 18} ${CY - 56} ${CX - 34} ${CY - 40} Z" class="lv-heart"/>` +
+        `<path d="M58 0C40 -26 4 -44 -26 -36C-54 -28 -62 4 -50 26C-38 46 -6 50 22 34C38 25 50 12 58 0Z" transform="translate(${CX} ${CY}) rotate(40)" class="lv-heart"/>` +
         `<line x1="${CX - Math.cos(la) * (R + 8)}" y1="${CY - Math.sin(la) * (R + 8)}" x2="${CX + Math.cos(la) * (R + 8)}" y2="${CY + Math.sin(la) * (R + 8)}" class="lv-axis"/>` +
         `<circle cx="${lx}" cy="${ly}" r="15" class="lv-eye"/><text x="${lx}" y="${ly + 6}" text-anchor="middle" class="lv-plus">+</text>` +
         `<line x1="${CX}" y1="${CY}" x2="${tx}" y2="${ty}" class="lv-vec" marker-end="url(#${id}-h)"/>` +
-        `<text x="${CX}" y="20" text-anchor="middle" class="tw-tiny tw-muted">patient's right ← → patient's left</text>` +
-        `<text x="${CX}" y="${CY + R + 40}" text-anchor="middle" class="tw-tiny tw-muted">drag or tap to turn the arrow</text>` +
+        `<text x="${CX - R - 4}" y="${CY - R + 4}" text-anchor="middle" class="lv-side">Right</text><text x="${CX + R + 4}" y="${CY - R + 4}" text-anchor="middle" class="lv-side">Left</text>` +
+        `<text x="${CX}" y="${CY + R + 40}" text-anchor="middle" class="lv-hint">Drag to turn the arrow</text>` +
         trace(a) + `</svg>`;
       const svg = stage.querySelector('svg');
       const point = e => {

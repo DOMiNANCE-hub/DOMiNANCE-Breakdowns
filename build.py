@@ -126,7 +126,45 @@ def question_ids(html, slug):
         return f'<details class="mcq-answer" data-qid="{qid}"'
     return re.sub(r'<details class="mcq-answer"',add,html)
 import hashlib
-for t in topics: t['html']=responsive_images(question_ids(reading_layout(t['html']),t['slug']))
+# Videos: one compact, tappable card (title, creator, part/length, one line of what it shows). Technical
+# notes ("loads only when tapped", embed details) stay out of sight; the credit and a YouTube link appear
+# with the player once it opens.
+def video_cards(html):
+    def card(m):
+        attrs,inner=m.group(1),m.group(2)
+        get=lambda pat: (re.search(pat,inner,re.S) or [None,''])[1]
+        eyebrow=html_module.unescape(get(r'<span class="media-eyebrow">(.*?)</span>'))
+        title=get(r'<h3>(.*?)</h3>')
+        desc=get(r'</h3>\s*<p>(.*?)</p>')
+        url=get(r'<a class="media-outlink" href="([^"]+)"')
+        credit=html_module.unescape(re.sub(r'<[^>]+>','',get(r'<p class="media-credit">(.*?)</p>')))
+        creator=(re.match(r'©\s*([^.,;]+)',credit) or [None,''])[1].strip()
+        credit=re.sub(r"\s*(Shown|shown) via YouTube's privacy-enhanced embed\.?|\s*Official YouTube embed; not (downloaded or )?rehosted\.|\s*The written explanation (above|on this page) does not depend on this video\.",'',credit).strip().rstrip(',')
+        desc=re.sub(r'\s*It loads only when tapped\.','',desc).strip()
+        if creator and desc.startswith(creator): desc=desc[len(creator):].lstrip('. ').strip()
+        em=re.match(r'^,?\s*<em>(.*?)</em>\.?$',desc)
+        if em: title,desc=em.group(1),''                      # the video's own title was given in the description
+        aff=re.match(r'^,\s*([^.]+)\.\s*',desc)
+        if aff: creator+=', '+aff.group(1); desc=desc[aff.end():]   # e.g. "Catherine Tsai, UCSF School of Medicine"
+        if creator: title=re.sub(r'\s*[—–-]\s*'+re.escape(creator)+r'$','',title)
+        start=re.search(r'Starts at ([0-9:]+)\.\s*',desc)
+        desc=re.sub(r'Starts at [0-9:]+\.\s*','',desc).strip()
+        meta=['Video']+([creator] if creator else [])
+        part=re.search(r'PART (\d+) OF (\d+)',eyebrow); mins=re.search(r'ABOUT (\d+) MINUTES?',eyebrow)
+        if part: meta.append(f'Part {part[1]} of {part[2]}')
+        if mins: meta.append(f'about {mins[1]} min')
+        if 'NARRATED' in eyebrow: meta.append('narrated')
+        if start: meta.append(f'from {start[1]}')
+        esc_attr=lambda x: html_module.escape(x,quote=True)
+        return (f'<div class="media-resource video-resource"{attrs} data-credit="{esc_attr(credit)}" data-url="{url}">'
+                f'<button type="button" class="video-card" data-media-action="play-video" aria-expanded="false">'
+                f'<span class="vc-play" aria-hidden="true"></span><span class="vc-text"><span class="vc-title">{title}</span>'
+                f'<span class="vc-meta">{" · ".join(meta)}</span>{f"<span class=vc-desc>{desc}</span>" if desc else ""}</span></button>'
+                f'<div class="media-stage"></div></div>')
+    html=re.sub(r'<div class="media-resource video-resource"([^>]*)>(.*?<p class="media-credit">.*?</p>)</div>',card,html,flags=re.S)
+    # Other media labels in sentence case, not capitals
+    return re.sub(r'<span class="media-eyebrow">([^<]*)</span>',lambda m: '<span class="media-eyebrow">'+m.group(1)[:1]+m.group(1)[1:].lower()+'</span>',html)
+for t in topics: t['html']=responsive_images(question_ids(video_cards(reading_layout(t['html'])),t['slug']))
 
 # Full bundle: used by the structural audit and the browser test suite (not loaded by the site).
 script='window.DOMINANCE_TOPICS = '+json.dumps(topics,ensure_ascii=False,separators=(',',':'))+';\n'

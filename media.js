@@ -21,6 +21,11 @@
     return iframe;
   };
 
+  const escHtml = t => String(t || '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const creditLine = panel => {
+    const url = /^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}(&amp;|&)?[\w=&;]*$/.test(panel.dataset.url || '') ? panel.dataset.url : '';
+    return escHtml(panel.dataset.credit || '') + (url ? `${panel.dataset.credit ? ' · ' : ''}<a href="${url}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>` : '');
+  };
   // ---------- phones: the video opens in its own full-screen window ----------
   let viewer = null, viewerFrom = null;
   function closeVideo(fromHistory = false) {
@@ -38,10 +43,11 @@
     viewer = document.createElement('div');
     viewer.className = 'video-viewer';
     viewer.setAttribute('role', 'dialog'); viewer.setAttribute('aria-modal', 'true'); viewer.setAttribute('aria-label', panel.dataset.mediaTitle || 'Educational video');
-    const title = panel.querySelector('h3')?.textContent.trim() || panel.dataset.mediaTitle || 'Video';
+    const title = panel.querySelector('.vc-title, h3')?.textContent.trim() || panel.dataset.mediaTitle || 'Video';
     viewer.innerHTML = '<div class="vv-head"><p class="vv-title"></p><button type="button" class="vv-close" aria-label="Close the video">✕</button></div>' +
-      '<div class="vv-stage"></div><p class="vv-hint">Turn your phone sideways for a bigger picture.</p>';
+      '<div class="vv-stage"></div><div class="vv-foot"><p class="vv-hint">Turn your phone sideways for a bigger picture.</p><p class="vv-credit"></p></div>';
     viewer.querySelector('.vv-title').textContent = title;
+    viewer.querySelector('.vv-credit').innerHTML = creditLine(panel);
     viewer.querySelector('.vv-stage').append(frame(src, panel.dataset.mediaTitle));
     viewer.addEventListener('click', e => { if (e.target === viewer || e.target.closest('.vv-close')) closeVideo(); });
     viewer.addEventListener('keydown', e => {
@@ -120,22 +126,22 @@
       play.setAttribute('aria-expanded', 'false');
     } else if (action === 'play-video') {
       if (phone.matches) { openVideo(panel, play); return; }
-      const src = videoSrc(panel, false);
+      const src = videoSrc(panel, true);
       if (!src) return;
-      stage.replaceChildren();
       const iframe = frame(src, panel.dataset.mediaTitle);
-      iframe.loading = 'lazy';
-      stage.appendChild(iframe);
+      const bar = document.createElement('div');
+      bar.className = 'vc-bar';
+      bar.innerHTML = `<p class="vc-credit">${creditLine(panel)}</p><button type="button" class="vc-close" data-media-action="stop-video">Close video</button>`;
+      stage.replaceChildren(iframe, bar);
       panel.classList.add('is-playing');
-      play.textContent = 'Close video';
-      play.dataset.mediaAction = 'stop-video';
-      play.setAttribute('aria-expanded', 'true');
+      panel.querySelector('.video-card')?.setAttribute('aria-expanded', 'true');
+      bar.querySelector('.vc-close').focus({preventScroll: true});
     } else if (action === 'stop-video') {
       stage.replaceChildren();
       panel.classList.remove('is-playing');
-      play.textContent = 'Watch video';
-      play.dataset.mediaAction = 'play-video';
-      play.setAttribute('aria-expanded', 'false');
+      const card = panel.querySelector('.video-card');
+      card?.setAttribute('aria-expanded', 'false');
+      card?.focus({preventScroll: true});
     } else if (action === 'play-animation') {
       const url = panel.dataset.animationSrc;
       if (!/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/[a-z0-9/_.-]+\.gif$/i.test(url || '')) return;
