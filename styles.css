@@ -680,3 +680,12 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .sb-arr{stroke-width:7;stroke-linecap:round}.tw-svg .out{stroke:var(--gold)}.tw-svg .in{stroke:var(--w-vol)}
 .tw-svg .sb-h-out{fill:var(--gold)}.tw-svg .sb-h-in{fill:var(--w-vol)}
 .tw-svg .sb-net{fill:var(--sheet);stroke:var(--line);stroke-width:1.5}.tw-svg .sb-net.is-out{fill:color-mix(in srgb,var(--gold) 30%,var(--sheet))}.tw-svg .sb-net.is-in{fill:color-mix(in srgb,var(--w-vol) 30%,var(--sheet))}
+/* Chapter 15: duct territories */
+.lymph-duct-figure svg{max-width:420px;margin:0 auto;display:block}
+.lymph-duct-figure .ly-td{fill:color-mix(in srgb,var(--w-vol) 35%,var(--sheet));stroke:var(--w-vol);stroke-width:1.5}
+.lymph-duct-figure .ly-rd{fill:color-mix(in srgb,var(--gold) 55%,var(--sheet));stroke:var(--gold);stroke-width:1.5}
+.lymph-duct-figure .ly-dia{stroke:var(--muted);stroke-width:1;stroke-dasharray:4 4}
+.lymph-duct-figure .ly-duct{fill:none;stroke:var(--navy);stroke-width:4;stroke-linecap:round}
+.lymph-duct-figure .ly-angle{fill:var(--w-lv);stroke:var(--sheet);stroke-width:1.5}
+.lymph-duct-figure text{fill:var(--text)}.lymph-duct-figure .ly-lab{font-size:14px;font-weight:800}.lymph-duct-figure .ly-lab-sm{font-size:12px}.lymph-duct-figure .ly-lab-xs{font-size:10px;fill:var(--muted)}
+.lymph-duct-figure .ly-lab-rd{fill:color-mix(in srgb,var(--gold) 70%,var(--text))}.lymph-duct-figure .ly-lab-td{fill:var(--w-vol)}
