@@ -99,7 +99,10 @@ Three things decide it:
 
 A Frank–Starling curve plots **stroke volume** (or cardiac output) against **filling** (EDV). There are two ways the point can move.
 
+<div class="view-switch">
+<figure class="learning-figure cardiac-output-figure static-view"><figcaption>Frank–Starling curves at a glance</figcaption><svg viewBox="0 0 640 295" role="img" aria-label="Schematic stroke-volume versus end-diastolic-volume graph showing increased, normal and reduced cardiac contractility curves."><line x1="85" y1="20" x2="85" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><line x1="85" y1="238" x2="600" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><path d="M99 229 C168 100 285 57 580 55" stroke="#2863dd" stroke-width="4.5" fill="none"/><path d="M99 232 C188 181 275 148 580 148" stroke="#16a085" stroke-width="4.5" fill="none"/><path d="M99 235 C205 222 320 208 580 207" stroke="#c39431" stroke-width="4.5" fill="none"/><g fill="currentColor" font-size="13"><text x="190" y="273">End-diastolic volume (preload) →</text><text x="22" y="130" transform="rotate(-90,22,130)">Stroke volume</text><text x="387" y="40">Greater contractility</text><text x="425" y="138">Reference</text><text x="432" y="196">Lower contractility</text></g></svg><p><strong>Read across one curve:</strong> changing EDV changes stroke volume by the Frank–Starling mechanism. <strong>Compare curves vertically:</strong> at the same EDV, greater intrinsic contractility gives greater SV (with afterload held constant). Original DOMiNANCE schematic; not patient-specific measurements.</p></figure>
 <figure class="learning-figure teaching-widget" data-widget="starling-explorer" data-desc="sr"><figcaption>Frank–Starling explorer</figcaption><p>Replaces the static curves. Three curves: low, normal and high contractility. A slider sets EDV, and the dot slides along the current curve. Buttons switch contractility, and the dot jumps up or down to another curve at the same EDV. A readout shows EDV, SV and CO (at 70 beats/min), and one sentence says which kind of change just happened.</p></figure>
+</div>
 
 ### Moving along the same curve: a change in preload
 

@@ -402,6 +402,31 @@
     register(name, fn) { builders[name] = fn; enhance(); }
   };
 
+
+  // ---------- Diagram | Interactive switch ----------
+  // <div class="view-switch"> holding a static figure (.static-view) and an interactive figure (.teaching-widget).
+  const VIEW_KEY = 'dom-view-mode';
+  const readView = () => { try { return localStorage.getItem(VIEW_KEY) || 'interactive'; } catch (e) { return 'interactive'; } };
+  function applyView(box, mode) {
+    const stat = box.querySelector(':scope > .static-view'), inter = box.querySelector(':scope > .teaching-widget');
+    if (!stat || !inter) return;
+    stat.hidden = mode !== 'diagram'; inter.hidden = mode === 'diagram';
+    box.querySelectorAll(':scope > .view-switch-bar button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === mode)));
+  }
+  function viewSwitch(box) {
+    if (box.dataset.ready) return;
+    box.dataset.ready = '1';
+    const bar = document.createElement('div');
+    bar.className = 'view-switch-bar'; bar.setAttribute('role', 'group'); bar.setAttribute('aria-label', 'Choose how to view this figure');
+    bar.innerHTML = '<span>View as:</span><button type="button" data-view="diagram">Diagram</button><button type="button" data-view="interactive">Interactive</button>';
+    box.prepend(bar);
+    bar.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+      try { localStorage.setItem(VIEW_KEY, b.dataset.view); } catch (e) { /* storage blocked */ }
+      main.querySelectorAll('.view-switch').forEach(x => applyView(x, b.dataset.view));
+    }));
+    applyView(box, readView());
+  }
+
   function enhance() {
     main.querySelectorAll('.teaching-widget[data-widget]:not([data-ready])').forEach(el => {
       const build = builders[el.dataset.widget];
@@ -411,6 +436,7 @@
     });
     main.querySelectorAll('details.mcq-answer').forEach(mcq);
     main.querySelectorAll('aside.source-note').forEach(sourceNote);
+    main.querySelectorAll('.view-switch').forEach(viewSwitch);
   }
   new MutationObserver(enhance).observe(main, {childList: true, subtree: true});
   enhance();
