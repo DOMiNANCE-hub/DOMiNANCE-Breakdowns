@@ -2,7 +2,7 @@
 
 ## 1. Why does the fetus need shortcuts?
 
-Before birth, the **<span data-term="placenta">placenta</span>**, not the lungs, does gas exchange. The fetal lungs are filled with fluid, and their vessels are tightly constricted, so **pulmonary resistance is very high**. Pumping all the blood through them would be wasted effort.
+Before birth, the **placenta**, not the lungs, does gas exchange. The fetal lungs are filled with fluid, and their vessels are tightly constricted, so **pulmonary resistance is very high**. Pumping all the blood through them would be wasted effort.
 
 So the fetal circulation has **three shortcuts (shunts)** that send oxygen-rich blood where it is needed, mainly the heart and brain, and route most of it **past the liver and lungs**.
 
@@ -10,12 +10,12 @@ So the fetal circulation has **three shortcuts (shunts)** that send oxygen-rich 
 
 ## 2. Trace the fetal circuit
 
-1. **Placenta → umbilical vein:** the most oxygen-rich blood in the fetus (yet still only about 80% saturated) travels up the **single umbilical vein**.
-2. **Shortcut 1: <span data-term="ductus-venosus">ductus venosus</span>.** Much of it **bypasses the liver**, going straight to the inferior vena cava.
+1. **<span data-term="placenta">Placenta</span> → umbilical vein:** the most oxygen-rich blood in the fetus (yet still only about 80% saturated) travels up the **single umbilical vein**.
+2. **Shortcut 1: ductus venosus.** Much of it **bypasses the liver**, going straight to the inferior vena cava.
 3. **Into the right atrium.** The stream from the IVC is aimed straight across the atrium at an opening in the septum.
-4. **Shortcut 2: <span data-term="foramen-ovale">foramen ovale</span>.** This oxygen-rich stream crosses **from the right atrium to the left atrium**, then goes to the left ventricle → aorta → **heart and brain first**.
+4. **Shortcut 2: foramen ovale.** This oxygen-rich stream crosses **from the right atrium to the left atrium**, then goes to the left ventricle → aorta → **heart and brain first**.
 5. **SVC blood** (oxygen-poor, from the head) goes mainly into the right ventricle → pulmonary trunk.
-6. **Shortcut 3: <span data-term="ductus-arteriosus">ductus arteriosus</span>.** Pulmonary resistance is high, so most of this blood **bypasses the lungs**, crossing **from the pulmonary trunk into the descending aorta**.
+6. **Shortcut 3: ductus arteriosus.** Pulmonary resistance is high, so most of this blood **bypasses the lungs**, crossing **from the pulmonary trunk into the descending aorta**.
 7. **Back to the placenta:** the **two umbilical arteries** (branches of the internal iliac arteries) carry blood back to be reoxygenated.
 
 <figure class="learning-figure"><figcaption>Figure. Three fetal vascular shortcuts</figcaption><svg viewBox="0 0 660 171" role="img" aria-label="Ductus venosus bypasses liver sinusoids, foramen ovale connects right atrium with left atrium, and ductus arteriosus connects pulmonary trunk with descending aorta"><g text-anchor="middle" fill="#24354d"><rect x="7" y="25" width="200" height="121" rx="12" fill="#ecf3ff" stroke="#6f97c8"/><rect x="229" y="25" width="200" height="121" rx="12" fill="#eaf5ee" stroke="#76a988"/><rect x="451" y="25" width="200" height="121" rx="12" fill="#fff1dc" stroke="#bb914f"/><g font-size="17" font-weight="bold"><text x="107" y="53">Ductus venosus</text><text x="329" y="53">Foramen ovale</text><text x="551" y="53">Ductus arteriosus</text></g><g font-size="13"><text x="107" y="84">Umbilical vein → IVC</text><text x="107" y="107">Partial liver bypass</text><text x="329" y="84">Right atrium → left</text><text x="329" y="107">atrium</text><text x="551" y="84">Pulmonary trunk →</text><text x="551" y="107">descending aorta</text></g></g></svg><p>Original route schematic; arrows show preferential fetal flow, not every stream or complete anatomical connection. Increased pulmonary flow after birth changes the pressure gradients that maintain these pathways.</p></figure>
@@ -30,7 +30,7 @@ So the fetal circulation has **three shortcuts (shunts)** that send oxygen-rich 
 
 ## 3. Fetal haemoglobin: grabbing oxygen from the mother
 
-**<span data-term="fetal-haemoglobin">Fetal haemoglobin (HbF)</span>** holds oxygen **more tightly** than adult haemoglobin (HbA), because it binds the molecule **<span data-term="bpg">2,3-BPG</span>** less strongly. 2,3-BPG normally loosens haemoglobin's grip on oxygen. So, at the low oxygen levels in the placenta, fetal blood can **pull oxygen across from the mother's blood**. After birth, HbF is gradually replaced by HbA over several months.
+**Fetal haemoglobin (HbF)** holds oxygen **more tightly** than adult haemoglobin (HbA), because it binds the molecule **2,3-BPG** less strongly. 2,3-BPG normally loosens haemoglobin's grip on oxygen. So, at the low oxygen levels in the placenta, fetal blood can **pull oxygen across from the mother's blood**. After birth, HbF is gradually replaced by HbA over several months.
 
 **Understanding Check: Sections 1–3**
 
@@ -58,9 +58,9 @@ Now **the left side has the higher pressure**, and each shunt closes:
 
 | Shunt | Why it closes | Becomes (anatomical remnant) |
 |---|---|---|
-| **Foramen ovale** | Left atrial pressure now **exceeds** right, which presses the flap shut | **<span data-term="fossa-ovalis">Fossa ovalis</span>** |
-| **Ductus arteriosus** | **Higher oxygen** and **less prostaglandin** (from the placenta) make it constrict | **<span data-term="ligamentum-arteriosum">Ligamentum arteriosum</span>** |
-| **Ductus venosus** | No more umbilical venous flow | **Ligamentum venosum** |
+| **<span data-term="foramen-ovale">Foramen ovale</span>** | Left atrial pressure now **exceeds** right, which presses the flap shut | **Fossa ovalis** |
+| **<span data-term="ductus-arteriosus">Ductus arteriosus</span>** | **Higher oxygen** and **less prostaglandin** (from the placenta) make it constrict | **Ligamentum arteriosum** |
+| **<span data-term="ductus-venosus">Ductus venosus</span>** | No more umbilical venous flow | **Ligamentum venosum** |
 | Umbilical vein | No more flow | **Ligamentum teres** (of the liver) |
 | Umbilical arteries | No more flow | **Medial umbilical ligaments** |
 

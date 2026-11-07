@@ -40,11 +40,11 @@ When pressure falls, the opposite happens: less stretch, the muscle relaxes, and
 
 **Why is this protective?** It stops a surge of pressure from being passed straight into the fragile capillaries downstream.
 
-**The law of Laplace: why small vessels don't burst.** For a cylindrical vessel, the **wall tension** needed to resist the pressure inside is:
+**The law of Laplace: why small vessels don't burst.** For a cylindrical vessel, the **<span data-term="wall-tension">wall tension</span>** needed to resist the pressure inside is:
 
 **T = P × r** (wall tension = transmural pressure × radius)
 
-- **<span data-term="transmural-pressure">Transmural pressure</span>** = pressure inside − pressure in the surrounding tissue.
+- **Transmural pressure** = pressure inside − pressure in the surrounding tissue.
 - At the same pressure, a vessel with **half the radius** needs only **half the wall tension**.
 
 So a capillary, with its tiny radius, can withstand blood pressure with a wall only one cell thick. And a vessel that **widens** (as in an aneurysm) needs **more** tension at the same pressure, so it is more likely to stretch further and rupture.
@@ -74,7 +74,7 @@ When a tissue's blood supply falls short of its needs, its **metabolites build u
 
 **Hyperaemia** simply means **increased blood flow**.
 
-| | **<span data-term="active-hyperaemia">Active hyperaemia</span>** | **<span data-term="reactive-hyperaemia">Reactive hyperaemia</span>** |
+| | **<span data-term="active-hyperaemia">Active hyperaemia</span>** | **Reactive hyperaemia** |
 |---|---|---|
 | When | **During** increased activity | **After** blood flow was cut off for a while |
 | Example | Working muscle in exercise | The red flush of a hand after a tight cuff is released |
@@ -102,11 +102,11 @@ The **endothelium**, the single-cell lining of the vessels, is not just a passiv
 
 | Signal | Effect | Notes |
 |---|---|---|
-| **<span data-term="nitric-oxide">Nitric oxide (NO)</span>** | **Dilates** | Released when flowing blood drags on the endothelium (**<span data-term="shear-stress">shear stress</span>**). It diffuses into the smooth muscle, raises **cGMP**, and the muscle relaxes. |
-| **<span data-term="prostacyclin">Prostacyclin</span>** | **Dilates** | Also stops platelets clumping |
-| **<span data-term="endothelin">Endothelin-1</span>** | **Constricts** | A powerful vasoconstrictor |
+| **Nitric oxide (NO)** | **Dilates** | Released when flowing blood drags on the endothelium (**shear stress**). It diffuses into the smooth muscle, raises **cGMP**, and the muscle relaxes. |
+| **Prostacyclin** | **Dilates** | Also stops platelets clumping |
+| **Endothelin-1** | **Constricts** | A powerful vasoconstrictor |
 
-Several other substances dilate vessels **through the endothelium**, by making it release NO: **<span data-term="bradykinin">bradykinin</span>**, **substance P** and **acetylcholine**. **Histamine** (via H₂ receptors) and **ANP** also dilate vessels. *(<a href="#/physiology/cvs/skin?section=3-the-triple-response-of-lewis">→ Cutaneous Circulation, §3</a>)*
+Several other substances dilate vessels **through the endothelium**, by making it release NO: **bradykinin**, **<span data-term="substance-p">substance P</span>** and **acetylcholine**. **Histamine** (via H₂ receptors) and **<span data-term="anp">ANP</span>** also dilate vessels. *(<a href="#/physiology/cvs/skin?section=3-the-triple-response-of-lewis">→ Cutaneous Circulation, §3</a>)*
 
 **Why does this matter?** When the endothelium is damaged (in atherosclerosis, smoking or diabetes), it makes less NO. The vessels dilate less well, and the balance tips towards constriction and clotting.
 

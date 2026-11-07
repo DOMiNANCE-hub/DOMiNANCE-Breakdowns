@@ -2,14 +2,14 @@
 
 ## 1. What is heart failure?
 
-**<span data-term="heart-failure">Heart failure</span>** is when the heart **can't pump enough blood for the body's needs**, or can only do so **at abnormally high filling pressures**.
+**Heart failure** is when the heart **can't pump enough blood for the body's needs**, or can only do so **at abnormally high filling pressures**.
 
 Both parts matter. Some patients have a near-normal cardiac output at rest, but only because their filling pressures are very high, and that high pressure is what causes their symptoms. So heart failure is **not simply "low cardiac output"**.
 
 Every failing heart causes two kinds of problem:
 
-- **<span data-term="forward-failure">Forward failure</span>:** too little blood goes **out**, so the organs are underperfused. This causes tiredness, poor exercise tolerance, and kidneys that hold on to salt and water.
-- **<span data-term="backward-failure">Backward failure</span>:** blood **backs up** behind the failing chamber, so the veins upstream become congested. This causes fluid in the lungs or the body.
+- **Forward failure:** too little blood goes **out**, so the organs are underperfused. This causes tiredness, poor exercise tolerance, and kidneys that hold on to salt and water.
+- **Backward failure:** blood **backs up** behind the failing chamber, so the veins upstream become congested. This causes fluid in the lungs or the body.
 
 These are **two sides of the same failing pump**, not two different diseases.
 
@@ -34,14 +34,14 @@ These are **two sides of the same failing pump**, not two different diseases.
 
 **Left heart failure → the lungs.** The left ventricle can't empty, so pressure rises in the left atrium and the lung veins. The lung capillaries filter fluid into the lungs faster than the lymphatics can clear it. This is **<span data-term="pulmonary-oedema">pulmonary oedema</span>**, and it causes **breathlessness**. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
 
-**Why worse lying flat (<span data-term="orthopnoea">orthopnoea</span>)?** Lying down, blood that pooled in the legs returns to the chest. The failing left ventricle can't pump the extra on, so lung pressure rises further. Patients prop themselves up on pillows to breathe.
+**Why worse lying flat (orthopnoea)?** Lying down, blood that pooled in the legs returns to the chest. The failing left ventricle can't pump the extra on, so lung pressure rises further. Patients prop themselves up on pillows to breathe.
 
 **Right heart failure → the body.** The right ventricle can't empty, so pressure rises in the right atrium and all the systemic veins:
 
-- **Raised JVP**, the visible sign of high right atrial pressure *(<a href="#/physiology/cvs/pulses?section=7-which-abnormal-jvp-waves-are-most-important">→ Pulses and JVP, §7</a>)*
+- **Raised <span data-term="jvp">JVP</span>**, the visible sign of high right atrial pressure *(<a href="#/physiology/cvs/pulses?section=7-which-abnormal-jvp-waves-are-most-important">→ Pulses and JVP, §7</a>)*
 - **Swollen, tender liver**, congested with blood
-- **<span data-term="ascites">Ascites</span>**: fluid in the abdomen
-- **Swollen ankles**: dependent, pitting oedema
+- **Ascites**: fluid in the abdomen
+- **Swollen ankles**: dependent, <span data-term="pitting">pitting oedema</span>
 
 **The two often go together.** The commonest cause of right failure is left failure: high lung pressure strains the right ventricle, which has to pump into it.
 
@@ -58,21 +58,21 @@ These are **two sides of the same failing pump**, not two different diseases.
 
 ## 4. What does the body do about it, and why does that make it worse?
 
-When the heart pumps too little, the **kidneys and baroreceptors sense a low arterial pressure** (the arteries are "underfilled") and switch on three rescue systems:
+When the heart pumps too little, the **kidneys and <span data-term="baroreceptors">baroreceptors</span> sense a low arterial pressure** (the arteries are "underfilled") and switch on three rescue systems:
 
 | System | What it does | Short-term help | Long-term harm |
 |---|---|---|---|
 | **Sympathetic nerves** | Faster, stronger heart; tighter arterioles | Holds up blood pressure and output | Fast rate shortens filling; tight arterioles raise **<span data-term="afterload">afterload</span>**; the heart muscle is overworked |
-| **Renin–angiotensin–aldosterone (RAAS)** | Constricts vessels; the kidneys keep salt and water | Raises blood volume and pressure | More volume → **more congestion and oedema**; higher afterload |
-| **ADH** | The kidneys keep water | Raises blood volume | Worsens fluid overload |
+| **Renin–angiotensin–<span data-term="aldosterone">aldosterone</span> (RAAS)** | Constricts vessels; the kidneys keep salt and water | Raises blood volume and pressure | More volume → **more congestion and oedema**; higher afterload |
+| **<span data-term="adh">ADH</span>** | The kidneys keep water | Raises blood volume | Worsens fluid overload |
 
 **The vicious circle:** the failing heart → the body senses "too little blood" → it keeps more fluid and tightens vessels → the heart faces more filling pressure and more afterload → it fails further.
 
 **The paradox:** a patient can be **waterlogged** (oedema everywhere) while the kidneys still act as if the body is **short of blood**. The total body fluid is high, but the arteries are underfilled because the pump is weak. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-**Frank–Starling helps less and less.** At first, extra filling stretches the ventricle and raises stroke volume. But a failing ventricle sits on a **flat, low curve**, so extra filling mainly raises pressure and congestion. *(<a href="#/physiology/cvs/cardiac-output?section=5-how-do-we-read-frank-starling-curves">→ Cardiac Output, §5</a>)*
+**Frank–Starling helps less and less.** At first, extra filling stretches the ventricle and raises <span data-term="stroke-volume">stroke volume</span>. But a failing ventricle sits on a **flat, low curve**, so extra filling mainly raises pressure and congestion. *(<a href="#/physiology/cvs/cardiac-output?section=5-how-do-we-read-frank-starling-curves">→ Cardiac Output, §5</a>)*
 
-**<span data-term="remodelling">Remodelling</span>.** Over months, the ventricle dilates or thickens and becomes less efficient: another long-term harm of chronic stimulation.
+**Remodelling.** Over months, the ventricle dilates or thickens and becomes less efficient: another long-term harm of chronic stimulation.
 
 **Understanding Check: Section 4**
 

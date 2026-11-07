@@ -2,7 +2,7 @@
 
 ## 1. What exactly is oedema?
 
-**<span data-term="oedema">Oedema</span>** is too much fluid in the spaces **between the cells** (the interstitium), enough to make tissue swell.
+**Oedema** is too much fluid in the spaces **between the cells** (the interstitium), enough to make tissue swell.
 
 Fluid is always leaving the capillaries, and the lymphatics are always carrying it back. **Oedema happens when more leaves than can be carried away.**
 
@@ -22,8 +22,8 @@ The four Starling forces decide how much fluid leaves the capillaries *(<a href=
 
 Two extra terms:
 
-- **<span data-term="kf">Kf</span>**, how leaky the wall is (and how much wall there is). A leaky, inflamed wall has a high Kf.
-- **<span data-term="reflection-coefficient">σ</span>**, how well the wall holds back protein. **σ = 1** means proteins can't cross at all, so their full pull counts. In leaky, inflamed capillaries **σ falls**, proteins slip through, and their pull is lost.
+- **Kf**, how leaky the wall is (and how much wall there is). A leaky, inflamed wall has a high Kf.
+- **σ**, how well the wall holds back protein. **σ = 1** means proteins can't cross at all, so their full pull counts. In leaky, inflamed capillaries **σ falls**, proteins slip through, and their pull is lost.
 
 ## 3. Five routes to the same outcome: excess interstitial fluid
 
@@ -31,7 +31,7 @@ Two extra terms:
 |---|---|---|
 | **Push too high** | Pc ↑ | Blocked veins, heart failure, standing still, leaky vein valves |
 | **Pull too weak** | πc ↓ (low albumin) | Liver disease, kidney protein loss (<span data-term="nephrotic">nephrotic syndrome</span>), malnutrition |
-| **Wall too leaky** | Kf ↑, σ ↓ | Inflammation, burns, allergy |
+| **Wall too leaky** | <span data-term="kf">Kf</span> ↑, σ ↓ | Inflammation, burns, allergy |
 | **Drain blocked** | Lymph flow ↓ | Filariasis, lymph nodes removed in breast cancer surgery |
 | **Too much fluid overall** | Salt and water retained | Kidney failure |
 
@@ -58,7 +58,7 @@ If blood can't drain out of the veins, it **backs up into the capillaries**, rai
 
 Albumin falls when:
 
-- **The liver can't make enough:** liver failure (cirrhosis).
+- **The liver can't make enough:** liver failure (<span data-term="cirrhosis">cirrhosis</span>).
 - **The kidneys leak it into the urine:** nephrotic syndrome.
 - **The diet lacks protein:** severe malnutrition (kwashiorkor).
 
@@ -66,7 +66,7 @@ The lecture also mentions **osmotically active substances building up in the tis
 
 ## 6. How does inflammation increase oedema?
 
-**Histamine, bradykinin and substance P** make the capillary wall **leaky**: the gaps between endothelial cells widen. Water and proteins pour out. The escaped proteins now pull water **outwards**, adding to the swelling.
+**Histamine, <span data-term="bradykinin">bradykinin</span> and <span data-term="substance-p">substance P</span>** make the capillary wall **leaky**: the gaps between endothelial cells widen. Water and proteins pour out. The escaped proteins now pull water **outwards**, adding to the swelling.
 
 This is why a sting or a sprain swells within minutes. It is **not a pressure problem; the wall itself has changed.**
 
@@ -86,11 +86,11 @@ This is why a sting or a sprain swells within minutes. It is **not a pressure pr
 
 ## 7. Why does lymphatic obstruction cause persistent swelling?
 
-Even with normal pressures, some fluid and protein leave the capillaries all the time, and **only the lymphatics can take the protein back**. If they are blocked, protein-rich fluid builds up. Over time it causes inflammation and scarring, and the swelling becomes firm and permanent: **<span data-term="lymphoedema">lymphoedema</span>**.
+Even with normal pressures, some fluid and protein leave the capillaries all the time, and **only the lymphatics can take the protein back**. If they are blocked, protein-rich fluid builds up. Over time it causes inflammation and scarring, and the swelling becomes firm and permanent: **lymphoedema**.
 
 The lecture's examples:
 
-- **Filariasis (elephantiasis):** parasitic worms block the lymph vessels, so the legs or scrotum swell enormously.
+- **Filariasis (<span data-term="elephantiasis">elephantiasis</span>):** parasitic worms block the lymph vessels, so the legs or scrotum swell enormously.
 - **Radical mastectomy:** removing the armpit lymph nodes in breast cancer surgery leaves that arm swollen.
 
 *(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
@@ -99,12 +99,12 @@ The lecture's examples:
 
 Press a thumb firmly into swollen skin for a few seconds.
 
-- **<span data-term="pitting">Pitting oedema</span>:** a dent stays after you let go. The extra fluid is free to move and is pushed aside. This is typical of heart failure, low albumin and venous causes.
+- **Pitting oedema:** a dent stays after you let go. The extra fluid is free to move and is pushed aside. This is typical of heart failure, low albumin and venous causes.
 - **Non-pitting oedema:** no dent forms. The tissue is firm, because the fluid is bound up with protein and the tissue has become scarred.
 
 
 
-**Lymphoedema** is usually non-pitting, but **only once it is long-standing**. Early lymphoedema can still pit, and it becomes firm as scarring develops.
+**<span data-term="lymphoedema">Lymphoedema</span>** is usually non-pitting, but **only once it is long-standing**. Early lymphoedema can still pit, and it becomes firm as scarring develops.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture states that lymphoedema does not pit. That describes its usual late stage; early lymphoedema can pit.</aside>
 

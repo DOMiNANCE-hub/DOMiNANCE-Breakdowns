@@ -175,7 +175,7 @@
       else if (e.target.closest('a[href^="#"]')) closeCheck(true);   // a link to the notes or another chapter: show it
     });
     checkSheet.addEventListener('keydown', e => {
-      if (e.key === 'Escape') { e.preventDefault(); closeCheck(); }
+      if (e.key === 'Escape') { if (!document.getElementById('dom-glossary-popup')?.hidden) return; e.preventDefault(); closeCheck(); }
       if (e.key === 'Tab') {
         const f = [...checkSheet.querySelectorAll('a[href],button:not(:disabled),summary,input,select')].filter(x => x.offsetParent);
         if (!f.length) return;

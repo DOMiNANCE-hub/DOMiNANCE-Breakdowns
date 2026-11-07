@@ -2,11 +2,11 @@
 
 ## 1. What does an ECG actually record?
 
-Each heartbeat starts with an electrical signal that spreads through the heart muscle. As the muscle cells depolarise (switch on) and then repolarise (reset), they create small voltage differences. These spread through the body's tissues, all the way to the skin. Electrodes on the skin pick them up, and the machine draws them over time. That drawing is the **<span data-term="ecg">electrocardiogram (ECG, or EKG)</span>**.
+Each heartbeat starts with an electrical signal that spreads through the heart muscle. As the muscle cells depolarise (switch on) and then repolarise (reset), they create small voltage differences. These spread through the body's tissues, all the way to the skin. Electrodes on the skin pick them up, and the machine draws them over time. That drawing is the **electrocardiogram (ECG, or EKG)**.
 
 <div class="ecg-concept-line" aria-label="Electrical and mechanical sequence"><span>Electrical activation</span><b>→</b><span>Contraction</span><b>→</b><span>Pressure changes</span><b>→</b><span>Blood movement</span></div>
 
-**An ECG records electricity, not pumping.** It does not measure how strongly the heart contracts, the pressure it makes or how much blood it ejects. A QRS complex means the ventricles have been **switched on** electrically, not that they have pumped blood. Usually contraction follows. But the electrical signal can carry on even when the heart muscle pumps little or no blood. So a normal-looking ECG does not prove the heart is pumping well.
+**An ECG records electricity, not pumping.** It does not measure how strongly the heart contracts, the pressure it makes or how much blood it ejects. A <span data-term="qrs">QRS complex</span> means the ventricles have been **switched on** electrically, not that they have pumped blood. Usually contraction follows. But the electrical signal can carry on even when the heart muscle pumps little or no blood. So a normal-looking ECG does not prove the heart is pumping well.
 
 <div class="media-resource video-resource" data-youtube-id="HQqPYH7pdPM" data-media-title="(ECG or EKG) Rhythm Strips part 1 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 1 OF 3</span><h3>(ECG or EKG) Rhythm Strips part 1</h3><p>BioVFX. An introduction to ECG recordings, ECG paper and rhythm strips, and how to measure time using the boxes on the paper. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=HQqPYH7pdPM" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
@@ -19,7 +19,7 @@ First, two words that are easy to mix up:
 
 **Think of each lead as a camera** pointed at the heart from one direction. Every lead watches the same heartbeat, but from a different angle, so each draws a slightly different shape.
 
-At any moment, the electrical wave spreading through the heart has an overall **direction** and **size**. We draw it as an arrow, the electrical **<span data-term="ecg-vector">vector</span>**. What a lead records depends on which way that arrow points compared with the lead:
+At any moment, the electrical wave spreading through the heart has an overall **direction** and **size**. We draw it as an arrow, the electrical **vector**. What a lead records depends on which way that arrow points compared with the lead:
 
 | The wave of depolarisation travels… | The lead draws… |
 |---|---|
@@ -33,7 +33,7 @@ At any moment, the electrical wave spreading through the heart has an overall **
 
 <figure class="learning-figure teaching-widget" data-widget="lead-view" data-desc="sr"><figcaption>Lead view</figcaption><p>A heart outline with one lead's positive end marked. Drag or tap to turn the depolarisation arrow. A small trace beside it updates live: upward when the arrow points towards the lead, downward when it points away, and a small up-and-down deflection when it points across. Buttons switch between Lead I, Lead II and aVR. Default: Lead II with the normal ventricular direction (upright QRS).</p></figure>
 
-**Why is the normal T wave upright, if it is "the opposite" of depolarisation?** The rule in the table is for depolarisation. Repolarisation (the cells resetting) gives the opposite sign: a resetting wave travelling *towards* a lead draws a *downward* deflection. But in the ventricles, the last cells to switch on (the outer layer) are the first to reset. So repolarisation travels in the **reverse direction**, from outside to inside. Opposite sign plus opposite direction cancel out, so the T wave usually points the same way as the QRS.
+**Why is the normal <span data-term="t-wave">T wave</span> upright, if it is "the opposite" of depolarisation?** The rule in the table is for depolarisation. Repolarisation (the cells resetting) gives the opposite sign: a resetting wave travelling *towards* a lead draws a *downward* deflection. But in the ventricles, the last cells to switch on (the outer layer) are the first to reset. So repolarisation travels in the **reverse direction**, from outside to inside. Opposite sign plus opposite direction cancel out, so the T wave usually points the same way as the QRS.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture does not explain T-wave direction. The outer-layer-first order of ventricular repolarisation is standard textbook physiology (Guyton and Hall).</aside>
 
@@ -70,7 +70,7 @@ Each one measures the voltage **between two limb electrodes**:
 | **II** | Right arm | Left leg |
 | **III** | Left arm | Left leg |
 
-Together they form a triangle around the heart, **<span data-term="einthoven">Einthoven's triangle</span>**.
+Together they form a triangle around the heart, **Einthoven's triangle**.
 
 <figure class="teaching-illustration ecg-figure-small" id="ecg-einthoven">
 <a href="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/ECG-Einthoven-triangle.svg" alt="Diagram of Einthoven triangle connecting arm and leg lead positions with bipolar Leads I, II and III." width="992" height="744"></a>
@@ -91,7 +91,7 @@ Each uses **one limb electrode as its positive end**, compared with an average o
 - **aVL** looks from the left arm.
 - **aVF** looks from the left foot.
 
-The lecture calls these leads **<span data-term="unipolar-lead">unipolar</span>**, because only one electrode forms the positive end. Normal ventricular depolarisation travels away from the right shoulder, so the QRS in **aVR is usually negative**.
+The lecture calls these leads **unipolar**, because only one electrode forms the positive end. Normal ventricular depolarisation travels away from the right shoulder, so the QRS in **aVR is usually negative**.
 
 ### The chest leads: V1–V6
 
@@ -121,7 +121,7 @@ The ECG trace is made of three kinds of parts. The words are not interchangeable
 
 - **Wave:** a bump up or down from the baseline (P, QRS, T).
 - **Segment:** the flat stretch **between** two waves (PR segment, ST segment).
-- **Interval:** a span that **includes at least one wave** (<span data-term="pr-interval">PR interval</span>, <span data-term="qt-interval">QT interval</span>).
+- **Interval:** a span that **includes at least one wave** (PR interval, QT interval).
 
 <figure class="teaching-illustration ecg-figure-signal" id="ecg-normal-wave">
 <a href="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SinusRhythmLabels.svg" alt="Labeled normal ECG with P wave, QRS complex, T wave, PR segment and interval, ST segment and QT interval." width="512" height="512"></a>
@@ -130,15 +130,15 @@ The ECG trace is made of three kinds of parts. The words are not interchangeable
 
 <div class="media-resource video-resource" data-youtube-id="OKJvR83fIrc" data-media-title="(ECG or EKG) Wave patterns. Part 2 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 2 OF 3</span><h3>(ECG or EKG) Wave patterns. Part 2</h3><p>BioVFX. Upward and downward deflections, and how to identify the P, Q, R, S and T waves. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=OKJvR83fIrc" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-**P wave: the atria are switched on.** The signal starts in the SA node and spreads across both atria. The P wave is that spread through the atrial muscle; the SA node itself is too small to show. The atria contract just after it. Normal duration: **0.08–0.10 s**.
+**<span data-term="p-wave">P wave</span>: the atria are switched on.** The signal starts in the <span data-term="sa-node">SA node</span> and spreads across both atria. The P wave is that spread through the atrial muscle; the SA node itself is too small to show. The atria contract just after it. Normal duration: **0.08–0.10 s**.
 
-**PR interval: from the atria switching on to the ventricles switching on.** It runs from the **start of the P wave** to the **start of the QRS**. Normal: **0.12–0.20 s**. It includes the spread across the atria, the hold-up in the AV node and the run down the His–Purkinje fibres. So the PR interval is **not just the AV delay**. *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
+**PR interval: from the atria switching on to the ventricles switching on.** It runs from the **start of the P wave** to the **start of the QRS**. Normal: **0.12–0.20 s**. It includes the spread across the atria, the hold-up in the <span data-term="av-node">AV node</span> and the run down the His–<span data-term="his-purkinje">Purkinje fibres</span>. So the PR interval is **not just the AV delay**. *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
 
 The **PR segment** is shorter. It runs from the **end** of the P wave to the start of the QRS, when the signal is passing through the AV node and His–Purkinje fibres.
 
 <div class="media-resource video-resource" data-youtube-id="MOD3NthLAB0" data-media-title="(ECG or EKG) PR interval part 3 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 3 OF 3</span><h3>(ECG or EKG) PR interval part 3</h3><p>BioVFX. The PR interval, measured from the start of the P wave to the start of the QRS complex, normally about 120–200 ms. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=MOD3NthLAB0" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-**QRS complex: the ventricles are switched on.** The ventricles have far more muscle than the atria, so the QRS is much bigger than the P wave. Normal duration: **0.06–0.10 s** in the lecture; clinically, anything under 0.12 s is accepted as normal.
+**<span data-term="qrs">QRS complex</span>: the ventricles are switched on.** The ventricles have far more muscle than the atria, so the QRS is much bigger than the P wave. Normal duration: **0.06–0.10 s** in the lecture; clinically, anything under 0.12 s is accepted as normal.
 
 - **Q:** a downward deflection before the first upward one
 - **R:** the upward deflection
@@ -148,7 +148,7 @@ Not every lead shows all three.
 
 **Where is the atria resetting?** It happens at the same time as the QRS, and its small signal is hidden inside the much bigger one.
 
-**ST segment: the whole ventricle is switched on.** It runs from the end of the QRS (the **<span data-term="j-point">J point</span>**) to the start of the T wave. All the ventricular cells are in the plateau of their action potential at the same voltage, so there is no voltage difference for the electrodes to pick up, and the line is flat. **Flat does not mean resting:** this is when the ventricles are contracting hardest. The lecture stresses that the ST segment can rise or fall when the heart muscle is short of oxygen (ischaemia).
+**ST segment: the whole ventricle is switched on.** It runs from the end of the QRS (the **J point**) to the start of the <span data-term="t-wave">T wave</span>. All the ventricular cells are in the plateau of their action potential at the same voltage, so there is no voltage difference for the electrodes to pick up, and the line is flat. **Flat does not mean resting:** this is when the ventricles are contracting hardest. The lecture stresses that the ST segment can rise or fall when the heart muscle is short of oxygen (ischaemia).
 
 **T wave: the ventricles reset.** Resetting spreads more slowly than switching on, so the T wave is longer and lower than the QRS.
 
@@ -174,10 +174,10 @@ Each electrical event comes **just before** the mechanical event it triggers:
 | ECG | Electrical event | What follows mechanically |
 |---|---|---|
 | **P wave** | Atria switch on | Atria contract and top up the ventricles |
-| **PR interval** | The signal is held in the AV node | The atria finish emptying before the ventricles contract |
-| **QRS** | Ventricles switch on | Ventricles contract; S1 is heard soon after |
+| **<span data-term="pr-interval">PR interval</span>** | The signal is held in the <span data-term="av-node">AV node</span> | The atria finish emptying before the ventricles contract |
+| **QRS** | Ventricles switch on | Ventricles contract; <span data-term="s1">S1</span> is heard soon after |
 | **ST segment** | Whole ventricle switched on | Ventricles eject blood |
-| **T wave** | Ventricles reset | Ventricles relax; S2 comes near the end of the T wave |
+| **T wave** | Ventricles reset | Ventricles relax; <span data-term="s2">S2</span> comes near the end of the T wave |
 
 The <span data-term="wiggers">Wiggers diagram</span> puts these electrical events above the pressure and volume curves of the same beat. *(<a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">→ Cardiac Cycle, §9</a>)*
 
@@ -222,7 +222,7 @@ ECG paper is a grid of **small squares** (1 mm) grouped into **large squares** (
 
 **Step 1: count the small squares between two R waves.**
 
-**Step 2: change squares to seconds.** Multiply by 0.04. This is the <span data-term="rr-interval">RR interval</span>, the time for one beat.
+**Step 2: change squares to seconds.** Multiply by 0.04. This is the RR interval, the time for one beat.
 
 **Step 3: change to beats per minute.** Divide 60 by the RR interval.
 
@@ -275,7 +275,7 @@ The lecture focuses on ECG basics, not rhythm diagnosis. But four questions turn
 
 **Normal sinus rhythm** answers yes to all four.
 
-The PR interval also shows whether the signal is getting through the AV node:
+The PR interval also shows whether the signal is getting through the <span data-term="av-node">AV node</span>:
 
 | What you see | Meaning |
 |---|---|

@@ -7,7 +7,7 @@
 Three helpers keep blood moving:
 
 - **Elastic recoil of large arteries.** In systole the aorta stretches like a balloon. In diastole it springs back and keeps pushing blood forward, so flow continues between beats.
-- **The skeletal muscle pump.** Contracting muscles squeeze the veins. **<span data-term="venous-valves">Valves</span>** in the veins let blood go only towards the heart.
+- **The skeletal muscle pump.** Contracting muscles squeeze the veins. **Valves** in the veins let blood go only towards the heart.
 - **The respiratory pump.** Breathing in lowers pressure in the chest and draws blood into the large veins.
 
 These help, but the **heart is the main pressure source**.
@@ -74,13 +74,13 @@ Each capillary is tiny, but there are billions of them side by side. Their **tot
 
 ## 5. Laminar flow, turbulence and Reynolds number
 
-**<span data-term="laminar-flow">Laminar flow</span>** means blood moves in smooth layers (*lamina* = thin layer). The layer touching the wall is held back by friction and moves slowest. Each layer inward slides faster, and the centre is fastest.
+**Laminar flow** means blood moves in smooth layers (*lamina* = thin layer). The layer touching the wall is held back by friction and moves slowest. Each layer inward slides faster, and the centre is fastest.
 
 <figure class="learning-figure hemo-flow-figure"><figcaption>Figure 01. Idealised laminar blood-flow profile</figcaption><svg viewBox="0 0 540 165" role="img" aria-label="An idealised vessel with multiple flow arrows, the longest arrows at the centre and shortest nearest the vessel wall."><rect x="40" y="34" width="465" height="99" rx="10" fill="#e9f1ff" stroke="#8caccb" stroke-width="2"/><g stroke="#2162be" stroke-width="4" stroke-linecap="round"><path d="M89 49H179m-10 -7 10 7 -10 7" fill="none"/><path d="M89 72H365m-10 -7 10 7 -10 7" fill="none"/><path d="M89 96H446m-10 -7 10 7 -10 7" fill="none"/><path d="M89 118H365m-10 -7 10 7 -10 7" fill="none"/></g><g fill="currentColor" font-size="12"><text x="41" y="22">Near the wall: slow</text><text x="299" y="22">Near centre: fast</text><text x="41" y="153">Original schematic — not a measured flow profile</text></g></svg><p>The ideal no-slip profile explains the lecturer's arrows. Actual blood contains cells and flowing vessels branch, pulse and deform, so the profile is not always exactly parabolic.</p></figure>
 
-**Laminar flow is silent.** When flow becomes **<span data-term="turbulent-flow">turbulent</span>**, swirling in eddies, it makes **noise**: murmurs in the heart, bruits in arteries. *(<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">→ Heart Sounds, §6</a>)*
+**Laminar flow is silent.** When flow becomes **turbulent**, swirling in eddies, it makes **noise**: murmurs in the heart, bruits in arteries. *(<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">→ Heart Sounds, §6</a>)*
 
-**What makes turbulence more likely?** The **<span data-term="reynolds">Reynolds number (Re)</span>** sums it up:
+**What makes turbulence more likely?** The **Reynolds number (Re)** sums it up:
 
 <div class="equation-block"><span class="equation-label">Reynolds number</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Re</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>v</mi><mi>D</mi></mrow><mi>η</mi></mfrac></math><span class="equation-example">ρ = density; v = velocity; D = diameter; η = dynamic viscosity.</span></div>
 
@@ -96,12 +96,12 @@ A high Re makes turbulence **more likely**, not certain. Branching and sudden na
 
 **Two examples:**
 
-- **Anaemia:** thinner blood (lower viscosity) and a faster circulation can cause a **flow murmur** with normal valves.
+- **Anaemia:** thinner blood (lower viscosity) and a faster circulation can cause a **<span data-term="flow-murmur">flow murmur</span>** with normal valves.
 - **A narrowed artery:** blood speeds up through the narrow part and becomes turbulent beyond it, causing a **<span data-term="bruit">bruit</span>**.
 
 ## 6. Why is vessel radius such a powerful determinant of flow?
 
-The **<span data-term="poiseuille">Poiseuille equation</span>** describes smooth flow through a straight tube:
+The **Poiseuille equation** describes smooth flow through a straight tube:
 
 <div class="equation-block"><span class="equation-label">Hagen–Poiseuille equation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>Δ</mi><mi>P</mi><msup><mi>r</mi><mn>4</mn></msup></mrow><mrow><mn>8</mn><mi>η</mi><mi>L</mi></mrow></mfrac></math><span class="equation-example">r = vessel radius; L = vessel length; η = viscosity.</span></div>
 
@@ -139,7 +139,7 @@ The **<span data-term="poiseuille">Poiseuille equation</span>** describes smooth
 
 **Viscosity** is how thick or sticky a fluid is: honey is more viscous than water. Thicker blood flows less easily, so resistance rises.
 
-Blood viscosity depends mainly on the **<span data-term="haematocrit">haematocrit</span>**, the percentage of blood made up of red cells. It also depends on plasma proteins, temperature and how flexible the red cells are.
+Blood viscosity depends mainly on the **haematocrit**, the percentage of blood made up of red cells. It also depends on plasma proteins, temperature and how flexible the red cells are.
 
 - **Polycythaemia** (too many red cells): thicker blood → more resistance → more work for the heart.
 - **Anaemia** (too few red cells): thinner blood, but each mL carries less oxygen, so the heart pumps more blood to compensate. That also means more work, for a different reason.
@@ -172,13 +172,13 @@ The lecture also gives an **arm-to-tongue circulation time of about 15 seconds**
 
 ## 10. Why can veins hold more blood than arteries?
 
-**<span data-term="compliance">Compliance</span>** is how much a vessel's volume increases for each rise in pressure:
+**Compliance** is how much a vessel's volume increases for each rise in pressure:
 
 <div class="equation-block"><span class="equation-label">Compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math></div>
 
 Veins are far more compliant than arteries: they balloon out with little pressure. So **most of the blood volume sits in the veins** (about two-thirds at rest), ready to be called on.
 
-**Why does tightening the veins help cardiac output?** Sympathetic nerves make the veins less stretchy. The stored blood is squeezed towards the heart, so venous return, EDV and, through Frank–Starling, stroke volume all rise. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
+**Why does tightening the veins help cardiac output?** Sympathetic nerves make the veins less stretchy. The stored blood is squeezed towards the heart, so <span data-term="venous-return">venous return</span>, <span data-term="edv">EDV</span> and, through Frank–Starling, <span data-term="stroke-volume">stroke volume</span> all rise. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
 **Understanding Check: Sections 7–10**
 

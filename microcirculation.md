@@ -2,7 +2,7 @@
 
 ## 1. Why is the microcirculation necessary?
 
-Every cell needs oxygen and nutrients, but the big arteries can't deliver them directly. The handover happens in the **<span data-term="microcirculation">microcirculation</span>**: the tiny vessels inside each tissue.
+Every cell needs oxygen and nutrients, but the big arteries can't deliver them directly. The handover happens in the **microcirculation**: the tiny vessels inside each tissue.
 
 <div class="micro-path" role="group" aria-label="Microcirculatory sequence"><span>Small arteriole</span><b>→</b><span>Capillary exchange</span><b>→</b><span>Venule</span><b>→</b><span>Venous return</span></div>
 
@@ -16,14 +16,14 @@ Yet capillaries hold only about **5% of the blood** at any moment.
 
 ## 2. What is a capillary wall made of?
 
-A capillary wall is just **one layer of endothelial cells** sitting on a thin **basement membrane**, sometimes wrapped by **<span data-term="pericytes">pericytes</span>**. There is **no muscle layer**: capillaries can't constrict themselves. That job belongs to the arterioles that feed them.
+A capillary wall is just **one layer of endothelial cells** sitting on a thin **basement membrane**, sometimes wrapped by **pericytes**. There is **no muscle layer**: capillaries can't constrict themselves. That job belongs to the arterioles that feed them.
 
 **Three types**, from tightest to leakiest:
 
 | Type | What the wall looks like | Where | What gets through |
 |---|---|---|---|
 | **Continuous** | Unbroken lining, with narrow gaps between cells | Muscle, skin, lungs; brain (tightest of all) | Water, gases and small molecules |
-| **<span data-term="fenestrated">Fenestrated</span>** | Cells with tiny pores (*fenestra* = window) | Gut villi, endocrine glands, kidney glomeruli | Water and small solutes, quickly |
+| **Fenestrated** | Cells with tiny pores (*fenestra* = window) | Gut villi, endocrine glands, kidney glomeruli | Water and small solutes, quickly |
 | **Discontinuous (sinusoidal)** | Large gaps, broken basement membrane | Liver, spleen, bone marrow | Even proteins and blood cells |
 
 The tissue's job decides the type. The gut and glands move a lot of fluid quickly, so they have fenestrated capillaries. The liver handles proteins, so it has the leakiest kind. The brain must be protected, so it has the tightest.
@@ -54,9 +54,9 @@ The tissue's job decides the type. The gut and glands move a lot of fluid quickl
 
 ## 4. What decides which capillaries receive more blood?
 
-Capillaries have no muscle, so they can't control their own flow. Flow is set **upstream**, by the **arterioles** (and, in classic teaching, by rings of muscle at the capillary entrances: **<span data-term="precapillary-sphincter">precapillary sphincters</span>**).
+Capillaries have no muscle, so they can't control their own flow. Flow is set **upstream**, by the **arterioles** (and, in classic teaching, by rings of muscle at the capillary entrances: **precapillary sphincters**).
 
-**Active tissue calls for more blood.** Working muscle releases metabolites (CO₂, H⁺, adenosine, K⁺) that relax the nearby arterioles. More blood flows in, and **more capillaries open up** (recruitment), so more surface area is available for exchange. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)*
+**Active tissue calls for more blood.** Working muscle releases metabolites (CO₂, H⁺, <span data-term="adenosine">adenosine</span>, K⁺) that relax the nearby arterioles. More blood flows in, and **more capillaries open up** (<span data-term="recruitment">recruitment</span>), so more surface area is available for exchange. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> Precapillary sphincters are classic teaching, but they are not found at every capillary. In many tissues the arterioles do the controlling.</aside>
 
@@ -64,8 +64,8 @@ Capillaries have no muscle, so they can't control their own flow. Flow is set **
 
 Fluid movement across the capillary wall is a **tug-of-war between two kinds of pressure**:
 
-- **<span data-term="hydrostatic-pressure">Hydrostatic pressure</span>** is the **push** of fluid against the wall. Blood pressure inside the capillary (**Pc**) pushes water **out**.
-- **<span data-term="oncotic-pressure">Oncotic pressure</span>** is the **pull** of proteins. Proteins can't cross the wall easily, and they hold water with them. Plasma proteins, mainly **albumin**, pull water **in** (**πc**).
+- **Hydrostatic pressure** is the **push** of fluid against the wall. Blood pressure inside the capillary (**Pc**) pushes water **out**.
+- **Oncotic pressure** is the **pull** of proteins. Proteins can't cross the wall easily, and they hold water with them. Plasma proteins, mainly **albumin**, pull water **in** (**πc**).
 
 The tissue side has its own, smaller, versions of each:
 
@@ -88,7 +88,7 @@ The tissue side has its own, smaller, versions of each:
 
 **The classic model (the lecture's):** the push wins at the arterial end, so fluid filters out. At the venous end, Pc has fallen below the protein pull, so fluid is drawn back in. Of about **24 L filtered a day, about 85% is reabsorbed** into the capillaries, and **15% is returned by the lymph**.
 
-**What we now know:** the inner surface of the capillary is coated with a gel-like layer, the **<span data-term="glycocalyx">glycocalyx</span>**. The protein pull that matters is the one across this layer, and it stays strong along the whole capillary. So in most tissues, **little fluid is reabsorbed at the venous end**. Instead, a small net filtration continues all along, and the **lymphatics return almost all of it**.
+**What we now know:** the inner surface of the capillary is coated with a gel-like layer, the **glycocalyx**. The protein pull that matters is the one across this layer, and it stays strong along the whole capillary. So in most tissues, **little fluid is reabsorbed at the venous end**. Instead, a small net filtration continues all along, and the **lymphatics return almost all of it**.
 
 **What to learn:** know the four forces and the lecture's classic numbers for the exam. But understand that **the lymphatics are the main return route, not a back-up**. That is why blocked lymphatics cause swelling so readily. *(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
 
@@ -100,7 +100,7 @@ The tissue side has its own, smaller, versions of each:
 |---|---|---|
 | **Arterioles dilate** | ↑ | More upstream pressure reaches the capillary, so Pc rises |
 | **Veins congested or blocked** | ↑ | Blood backs up, so Pc rises |
-| **Leaky capillaries** (histamine, bradykinin, substance P) | ↑ | Proteins escape, weakening the pull and widening the gaps |
+| **Leaky capillaries** (histamine, <span data-term="bradykinin">bradykinin</span>, <span data-term="substance-p">substance P</span>) | ↑ | Proteins escape, weakening the pull and widening the gaps |
 | **More capillaries open** | ↑ total exchange | More surface area |
 
 **Two very different causes of swelling:** a **raised pressure** (a blocked vein) pushes more water through a normal wall. A **leaky wall** (inflammation) lets water and proteins through even at normal pressure. *(<a href="#/physiology/cvs/edema">→ Oedema</a>)*

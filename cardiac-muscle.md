@@ -4,7 +4,7 @@
 
 Heart muscle has to do something no other muscle does: contract about once a second for a whole lifetime, without tiring, and relax completely between beats so the chambers can refill. Its special features follow from those demands.
 
-Like skeletal muscle, cardiac muscle is **striated**. Its actin and myosin filaments are arranged in repeating units called **<span data-term="sarcomere">sarcomeres</span>**, which shorten when the muscle contracts. Unlike skeletal muscle, it is **involuntary**, and its cells are short and branched, usually with one central nucleus.
+Like skeletal muscle, cardiac muscle is **striated**. Its actin and myosin filaments are arranged in repeating units called **sarcomeres**, which shorten when the muscle contracts. Unlike skeletal muscle, it is **involuntary**, and its cells are short and branched, usually with one central nucleus.
 
 Every heartbeat follows the same chain of events, and this chapter follows it link by link:
 
@@ -14,7 +14,7 @@ Four features make this chain work in the heart:
 
 - **Intercalated discs** join the cells, so the signal spreads and the cells pull together (<a href="#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together">§2</a>).
 - **A long action potential with a plateau** lets calcium in and stops the muscle from locking in contraction (<a href="#/physiology/cvs/cardiac-muscle?section=3-the-cardiac-muscle-action-potential">§3</a>, <a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
-- **Calcium-induced calcium release** links the electrical signal to contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
+- **<span data-term="cicr">Calcium-induced calcium release</span>** links the electrical signal to contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
 - **Many mitochondria** supply a constant stream of ATP. Heart muscle depends almost entirely on aerobic metabolism, so it needs oxygen all the time. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
 
 A few specialised heart cells can fire on their own; this is **<span data-term="automaticity">automaticity</span>**. Ordinary working muscle cells normally don't: they wait to be excited by their neighbours. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
@@ -31,7 +31,7 @@ One heart muscle cell on its own cannot pump blood. Thousands must contract toge
 
 When one cell is excited, current flows through its gap junctions into its neighbours and brings them to threshold. The signal spreads from cell to cell, and the whole chamber contracts almost as one. The other two junctions hold the cells together while they pull.
 
-So heart muscle behaves as a **<span data-term="functional-syncytium">functional syncytium</span>**: *syn* (together) + *cyt* (cell), meaning separate cells working as one unit. The atria form one syncytium and the ventricles another. Between them lies a ring of fibrous tissue that does not conduct. The only normal electrical route across it is the <span data-term="av-node">AV node</span>, which is why the AV node controls when the ventricles contract after the atria. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
+So heart muscle behaves as a **functional syncytium**: *syn* (together) + *cyt* (cell), meaning separate cells working as one unit. The atria form one syncytium and the ventricles another. Between them lies a ring of fibrous tissue that does not conduct. The only normal electrical route across it is the <span data-term="av-node">AV node</span>, which is why the AV node controls when the ventricles contract after the atria. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-01">
 <a href="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" alt="Branched cardiac muscle fibres and an enlarged intercalated disc showing desmosomes and gap junctions." width="1018" height="476"></a>
@@ -57,7 +57,7 @@ In ventricular muscle, the cell rests at about **−90 mV**. Its action potentia
 1. **It lets calcium in.** The Ca²⁺ entering during the plateau is the trigger for contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
 2. **It keeps the cell <span data-term="refractory-period">refractory</span>**, meaning it cannot fire again until its contraction is nearly over. This prevents tetanus (<a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
 
-**You can see the action potential on the ECG.** The ECG lecture links the flat **ST segment** to the plateau, when all the ventricular muscle is depolarised. The **QT interval** roughly matches how long a ventricular action potential lasts. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
+**You can see the action potential on the ECG.** The ECG lecture links the flat **ST segment** to the plateau, when all the ventricular muscle is depolarised. The **<span data-term="qt-interval">QT interval</span>** roughly matches how long a ventricular action potential lasts. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
@@ -81,13 +81,13 @@ In ventricular muscle, the cell rests at about **−90 mV**. Its action potentia
 
 ## 4. Excitation–contraction coupling: from electrical signal to force
 
-**<span data-term="ecc">Excitation–contraction coupling</span>** is the chain that turns the electrical signal into force. The link between the two is **calcium (Ca²⁺)**.
+**Excitation–contraction coupling** is the chain that turns the electrical signal into force. The link between the two is **calcium (Ca²⁺)**.
 
-1. **The signal travels into the cell.** The action potential spreads along the cell surface and down the **<span data-term="t-tubules">T-tubules</span>**, tubes of surface membrane that dive deep into the cell.
+1. **The signal travels into the cell.** The action potential spreads along the cell surface and down the **T-tubules**, tubes of surface membrane that dive deep into the cell.
 2. **A little Ca²⁺ enters.** The change in voltage opens **L-type Ca²⁺ channels** in the T-tubules, and a small amount of Ca²⁺ flows in from outside the cell.
-3. **That Ca²⁺ releases much more.** The incoming Ca²⁺ opens the release channels (**RyR2**, ryanodine receptor type 2) of the **<span data-term="sarcoplasmic-reticulum">sarcoplasmic reticulum (SR)</span>**, the cell's internal calcium store. The SR pours out far more Ca²⁺. This is **<span data-term="cicr">calcium-induced calcium release (CICR)</span>**: the entering Ca²⁺ is the trigger, and the SR supplies most of the Ca²⁺ that drives contraction.
+3. **That Ca²⁺ releases much more.** The incoming Ca²⁺ opens the release channels (**RyR2**, ryanodine receptor type 2) of the **sarcoplasmic reticulum (SR)**, the cell's internal calcium store. The SR pours out far more Ca²⁺. This is **calcium-induced calcium release (CICR)**: the entering Ca²⁺ is the trigger, and the SR supplies most of the Ca²⁺ that drives contraction.
 4. **Ca²⁺ unlocks the filaments.** Ca²⁺ binds to **troponin C** on the actin filament. This shifts **tropomyosin**, uncovering the spots where myosin can grab actin.
-5. **Myosin pulls.** Myosin heads attach to actin and pull, using energy from ATP. The sarcomeres shorten and the cell contracts.
+5. **Myosin pulls.** Myosin heads attach to actin and pull, using energy from ATP. The <span data-term="sarcomere">sarcomeres</span> shorten and the cell contracts.
 
 <figure class="learning-figure teaching-widget" data-widget="calcium-cycle" data-desc="sr"><figcaption>The calcium cycle, step by step</figcaption><p>One simple drawing of a heart muscle cell shows the cell membrane with a T-tubule, an L-type channel, the SR with its release channel (RyR2) and its pump (SERCA2a), the Na⁺–Ca²⁺ exchanger (NCX), and one actin–myosin unit. Next/Back steps through seven stages. At each stage the part involved lights up, with one plain sentence underneath: (1) the signal arrives down the T-tubule; (2) a little Ca²⁺ enters through the L-type channel; (3) the SR releases much more Ca²⁺; (4) Ca²⁺ binds troponin C, uncovering actin; (5) myosin pulls, and the cell contracts; (6) SERCA2a pumps Ca²⁺ back into the SR; (7) NCX pushes Ca²⁺ out of the cell, and the cell relaxes. Ca²⁺ is shown as dots that move between compartments. The text explains everything without the widget.</p></figure>
 
@@ -104,8 +104,8 @@ To relax, the cell must lower its Ca²⁺ again. Ca²⁺ leaves troponin C, trop
 
 Two main pumps remove the Ca²⁺:
 
-- **<span data-term="serca">SERCA2a</span>** (the sarco-endoplasmic reticulum Ca²⁺ pump) is a pump in the SR membrane, powered by ATP. It pumps Ca²⁺ back into the SR, ready for the next beat.
-- **<span data-term="ncx">NCX</span>** (the Na⁺–Ca²⁺ exchanger) sits in the cell membrane. It uses the Na⁺ gradient to swap Na⁺ in for Ca²⁺ out, removing roughly the Ca²⁺ that entered during the beat.
+- **SERCA2a** (the sarco-endoplasmic reticulum Ca²⁺ pump) is a pump in the SR membrane, powered by ATP. It pumps Ca²⁺ back into the SR, ready for the next beat.
+- **NCX** (the Na⁺–Ca²⁺ exchanger) sits in the cell membrane. It uses the Na⁺ gradient to swap Na⁺ in for Ca²⁺ out, removing roughly the Ca²⁺ that entered during the beat.
 
 Other pathways, including a Ca²⁺ pump in the cell membrane, play smaller parts. **Relaxation therefore uses energy, just as contraction does.**
 
@@ -146,18 +146,18 @@ Heart muscle can't do this. As the lecture puts it, it is impossible to tetanise
 Here **cAMP** (cyclic AMP) is a messenger molecule inside the cell. **PKA** (protein kinase A) is an enzyme that switches other proteins on or off by adding phosphate to them. PKA acts on the Ca²⁺ machinery in two ways:
 
 - **Stronger contraction.** L-type channels let in more Ca²⁺, so the SR releases more, and more myosin heads pull on actin.
-- **Faster relaxation.** PKA disables **<span data-term="phospholamban">phospholamban</span>**, a protein that normally acts as a brake on SERCA2a. With the brake off, Ca²⁺ is pumped back into the SR faster.
+- **Faster relaxation.** PKA disables **phospholamban**, a protein that normally acts as a brake on <span data-term="serca">SERCA2a</span>. With the brake off, Ca²⁺ is pumped back into the SR faster.
 
-**<span data-term="xanthines">Caffeine and theophylline (xanthines)</span>** work further along the same pathway. The enzyme **phosphodiesterase** normally breaks cAMP down. Xanthines block that enzyme, so cAMP builds up and contraction gets stronger.
+**Caffeine and theophylline (xanthines)** work further along the same pathway. The enzyme **phosphodiesterase** normally breaks cAMP down. Xanthines block that enzyme, so cAMP builds up and contraction gets stronger.
 
-**Vagal stimulation** works the other way. Acetylcholine released by the vagus nerve slows the SA node (a slower heart rate) and weakens **atrial** contraction. Its direct effect on the strength of the ventricles is small, because few vagal fibres reach ventricular muscle.
+**Vagal stimulation** works the other way. Acetylcholine released by the vagus nerve slows the <span data-term="sa-node">SA node</span> (a slower heart rate) and weakens **atrial** contraction. Its direct effect on the strength of the ventricles is small, because few vagal fibres reach ventricular muscle.
 
 **Three words for three effects:**
 
 | Term | Word parts | What it describes | Positive effect |
 |---|---|---|---|
-| **<span data-term="inotropy">Inotropy</span>** | *ino* = fibre | Strength of contraction | Stronger contraction |
-| **<span data-term="lusitropy">Lusitropy</span>** | *lusi* = loosening | Speed of relaxation | Faster relaxation |
+| **Inotropy** | *ino* = fibre | Strength of contraction | Stronger contraction |
+| **Lusitropy** | *lusi* = loosening | Speed of relaxation | Faster relaxation |
 | **<span data-term="chronotropy">Chronotropy</span>** | *chrono* = time | Heart rate | Faster heart rate |
 
 **Important distinction:** positive inotropy means the muscle contracts more strongly **at the same filling**. A ventricle that contracts harder simply because it holds more blood is showing the Frank–Starling effect, not increased inotropy. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
@@ -170,7 +170,7 @@ Each property of heart muscle supports one part of the pumping cycle:
 
 - **Gap junctions** make each chamber contract as one, giving a strong, coordinated squeeze.
 - **The long refractory period** guarantees that the ventricles relax and refill between beats.
-- **Calcium handling sets the strength of each beat.** More Ca²⁺ means more myosin heads pulling, a stronger contraction and a bigger stroke volume. *(<a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">→ Cardiac Output, §7</a>)*
+- **Calcium handling sets the strength of each beat.** More Ca²⁺ means more myosin heads pulling, a stronger contraction and a bigger <span data-term="stroke-volume">stroke volume</span>. *(<a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">→ Cardiac Output, §7</a>)*
 - **Fast relaxation matters most at high heart rates.** Diastole shortens most as the rate rises, so the ventricles must relax quickly to have time to fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">→ Cardiac Cycle, §10</a>)*
 - **Contraction is not the same as ejection.** The ventricles start contracting a moment before blood leaves: pressure must first rise above the pressure in the aorta or pulmonary artery. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
 

@@ -6,17 +6,17 @@ Local control looks after **one tissue at a time**. *(<a href="#/physiology/cvs/
 
 That central control works on the variables you already know *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)*:
 
-**Mean arterial pressure ≈ cardiac output × total peripheral resistance**, and **cardiac output = heart rate × stroke volume**.
+**<span data-term="map">Mean arterial pressure</span> ≈ cardiac output × total peripheral resistance**, and **cardiac output = heart rate × <span data-term="stroke-volume">stroke volume</span>**.
 
 So the nervous system and hormones can raise blood pressure in three ways:
 
 1. **Speed up the heart** (heart rate).
-2. **Strengthen each beat** (stroke volume, via contractility and venous return).
+2. **Strengthen each beat** (stroke volume, via contractility and <span data-term="venous-return">venous return</span>).
 3. **Narrow the arterioles** (peripheral resistance).
 
 ## 2. The control centre in the medulla
 
-The heart and blood vessels are controlled by groups of neurons in the **medulla oblongata**, together called the **<span data-term="vasomotor-centre">vasomotor centre</span>**. It has two opposing parts:
+The heart and blood vessels are controlled by groups of neurons in the **medulla oblongata**, together called the **vasomotor centre**. It has two opposing parts:
 
 | | **Pressor area** | **Depressor area** |
 |---|---|---|
@@ -24,7 +24,7 @@ The heart and blood vessels are controlled by groups of neurons in the **medulla
 | Does | **Excites** the sympathetic neurons in the spinal cord | **Inhibits** the pressor area |
 | Result | Blood pressure **rises** | Blood pressure **falls** |
 
-The pressor area sends fibres **straight down to the sympathetic neurons in the spinal cord**. Nearby are the **vagal neurons** that slow the heart. Sensory signals from the body's pressure and chemical sensors arrive at a relay station, the **<span data-term="nts">nucleus tractus solitarius (NTS)</span>**, which adjusts all of these. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
+The pressor area sends fibres **straight down to the sympathetic neurons in the spinal cord**. Nearby are the **vagal neurons** that slow the heart. Sensory signals from the body's pressure and chemical sensors arrive at a relay station, the **nucleus tractus solitarius (NTS)**, which adjusts all of these. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> The lecture's "pressor" and "depressor" areas correspond to what modern texts call the rostral ventrolateral medulla (pressor) and the caudal ventrolateral medulla (depressor).</aside>
 
@@ -41,7 +41,7 @@ They do two different jobs, depending on the vessel:
 
 ### The key idea: a constant background "tone"
 
-The sympathetic constrictor fibres fire **all the time**, at a low rate. This **<span data-term="sympathetic-tone">tonic discharge</span>** keeps every arteriole partly constricted. There is **no** equivalent background firing in dilator fibres.
+The sympathetic constrictor fibres fire **all the time**, at a low rate. This **tonic discharge** keeps every arteriole partly constricted. There is **no** equivalent background firing in dilator fibres.
 
 So the body controls vessel width by **turning the sympathetic tone up or down**:
 
@@ -50,7 +50,7 @@ So the body controls vessel width by **turning the sympathetic tone up or down**
 
 That is why cutting the sympathetic nerves (or a spinal injury) makes vessels dilate and blood pressure fall.
 
-**An exception: <span data-term="sympathetic-cholinergic">sympathetic cholinergic dilator fibres</span>.** Some sympathetic fibres to skeletal muscle release **acetylcholine** and **dilate** the vessels. They are switched on by the cortex, in **anticipation** of exercise or in alarm.
+**An exception: sympathetic cholinergic dilator fibres.** Some sympathetic fibres to skeletal muscle release **acetylcholine** and **dilate** the vessels. They are switched on by the cortex, in **anticipation** of exercise or in alarm.
 
 <aside class="source-note"><strong>Source note:</strong> These cholinergic dilator fibres are well shown in animals; their importance in humans is uncertain. Human sympathetic control of blood vessels is mainly noradrenergic and constrictor.</aside>
 
@@ -59,8 +59,8 @@ That is why cutting the sympathetic nerves (or a spinal injury) makes vessels di
 | | **Sympathetic** | **Parasympathetic (vagus)** |
 |---|---|---|
 | Transmitter and receptor | Noradrenaline on **β₁** | Acetylcholine on **M₂** |
-| Heart rate | **Faster** (SA node) | **Slower** (SA node) |
-| AV node | Faster conduction | Slower conduction |
+| Heart rate | **Faster** (<span data-term="sa-node">SA node</span>) | **Slower** (SA node) |
+| <span data-term="av-node">AV node</span> | Faster conduction | Slower conduction |
 | Force of contraction | **Stronger** | Little effect on the ventricles |
 
 *(<a href="#/physiology/cvs/cardiac-conduction">→ Cardiac Conduction</a>)*
@@ -68,7 +68,7 @@ That is why cutting the sympathetic nerves (or a spinal injury) makes vessels di
 **At rest, the vagus is in charge.** The SA node on its own would fire at about 100 beats/min. Constant **<span data-term="vagal-tone">vagal tone</span>** holds the resting rate down to about 70. So:
 
 - **Cutting the vagus** (vagotomy) → heart rate **rises**.
-- **<span data-term="atropine">Atropine</span>**, which blocks the vagus's muscarinic receptors → heart rate **rises**.
+- **Atropine**, which blocks the vagus's muscarinic receptors → heart rate **rises**.
 
 **The vagus acts mainly on the heart, not the vessels.** Most blood vessels have little or no parasympathetic supply. So the vagus controls blood pressure mainly through **heart rate**.
 
@@ -92,16 +92,16 @@ Hormones act more slowly than nerves, but their effects can last much longer.
 | Hormone | From | Main effects |
 |---|---|---|
 | **Adrenaline** | Adrenal medulla | **β₁:** faster, stronger heart. **β₂:** dilates arterioles in skeletal muscle and liver. **α₁** (at high levels): constricts most other vessels. |
-| **<span data-term="angiotensin-ii">Angiotensin II</span>** | Made in the blood when the kidney releases **renin** (low pressure) | **Constricts** arterioles; triggers **aldosterone**, **thirst** and **ADH** |
-| **<span data-term="aldosterone">Aldosterone</span>** | Adrenal cortex | Kidneys keep **Na⁺** (and water follows), raising blood volume over **hours to days** |
-| **<span data-term="adh">ADH (vasopressin)</span>** | Posterior pituitary | Kidneys keep **water**; at high levels, also **constricts** arterioles |
+| **Angiotensin II** | Made in the blood when the kidney releases **renin** (low pressure) | **Constricts** arterioles; triggers **aldosterone**, **thirst** and **ADH** |
+| **Aldosterone** | Adrenal cortex | Kidneys keep **Na⁺** (and water follows), raising blood volume over **hours to days** |
+| **ADH (vasopressin)** | Posterior pituitary | Kidneys keep **water**; at high levels, also **constricts** arterioles |
 
 **Dilators** (from the lecture):
 
 | Substance | Main effects |
 |---|---|
-| **<span data-term="anp">ANP</span>** (atrial natriuretic peptide) | Released when the atria are **stretched** by too much volume. **Dilates** vessels and makes the kidneys **lose Na⁺ and water**. |
-| **Kinins** (e.g. bradykinin) | Made in the plasma and tissues. **Dilate** arterioles, through endothelial NO. |
+| **ANP** (atrial natriuretic peptide) | Released when the atria are **stretched** by too much volume. **Dilates** vessels and makes the kidneys **lose Na⁺ and water**. |
+| **Kinins** (e.g. <span data-term="bradykinin">bradykinin</span>) | Made in the plasma and tissues. **Dilate** arterioles, through endothelial NO. |
 | **VIP** (vasoactive intestinal polypeptide) | **Dilates** vessels, especially in the gut |
 
 **Why can adrenaline both dilate and constrict?** Because different vessels carry different receptors. Muscle arterioles have many **β₂** receptors, which dilate; skin and gut arterioles have mainly **α₁** receptors, which constrict. So adrenaline **redirects** blood towards the muscles.
@@ -111,13 +111,13 @@ Hormones act more slowly than nerves, but their effects can last much longer.
 | Speed | Mechanism | Good for |
 |---|---|---|
 | **Seconds** | Nerves (sympathetic, vagus) and the reflexes that drive them | Standing up, sudden blood loss, exercise |
-| **Minutes** | Adrenaline, angiotensin II, ADH | Sustaining the response |
-| **Hours to days** | Aldosterone, ADH and the **kidneys' control of salt and water** | Restoring **blood volume**; long-term blood pressure |
+| **Minutes** | Adrenaline, angiotensin II, <span data-term="adh">ADH</span> | Sustaining the response |
+| **Hours to days** | <span data-term="aldosterone">Aldosterone</span>, ADH and the **kidneys' control of salt and water** | Restoring **blood volume**; long-term blood pressure |
 
 **Haemorrhage, step by step:**
 
-1. Blood volume falls, so venous return, stroke volume and arterial pressure fall.
-2. **Within seconds:** sympathetic firing rises and vagal tone falls. The heart beats **faster and harder**, arterioles **constrict**, and veins **squeeze** stored blood towards the heart.
+1. Blood volume falls, so venous return, <span data-term="stroke-volume">stroke volume</span> and arterial pressure fall.
+2. **Within seconds:** sympathetic firing rises and <span data-term="vagal-tone">vagal tone</span> falls. The heart beats **faster and harder**, arterioles **constrict**, and veins **squeeze** stored blood towards the heart.
 3. **Within minutes:** adrenaline, angiotensin II and ADH reinforce the constriction.
 4. **Over hours to days:** aldosterone and ADH make the kidneys keep salt and water, and thirst rises, slowly **refilling** the circulation.
 

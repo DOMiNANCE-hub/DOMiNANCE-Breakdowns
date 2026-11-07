@@ -12,7 +12,7 @@ Every cell in the body needs a steady supply of oxygen and nutrients. At the sam
 | 1 mm | a few minutes |
 | 1 cm | several hours |
 
-A body many centimetres thick could never be supplied that way. So the body uses **<span data-term="bulk-flow">bulk flow</span>** instead. The heart pumps blood quickly through vessels to within a few micrometres of almost every cell, and diffusion only has to cover that last tiny step. The lecture sums up the heart's job simply: to move the blood about, sending it to all the tissues.
+A body many centimetres thick could never be supplied that way. So the body uses **bulk flow** instead. The heart pumps blood quickly through vessels to within a few micrometres of almost every cell, and diffusion only has to cover that last tiny step. The lecture sums up the heart's job simply: to move the blood about, sending it to all the tissues.
 
 The **circulatory system** has three parts:
 
@@ -39,11 +39,11 @@ Blood travels through two circuits, one after the other:
   <figcaption><strong>Figure 01 — Pulmonary and systemic circulation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">OpenStax College, <a href="https://commons.wikimedia.org/wiki/File:2101_Blood_Flow_Through_the_Heart.jpg" target="_blank" rel="noopener noreferrer">original illustration</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>; unmodified.</span></details></figcaption>
 </figure>
 
-**The two circuits are <span data-term="in-series">in series</span>.** Blood must pass through one circuit before it can enter the other: body → right heart → lungs → left heart → body. There is no other route.
+**The two circuits are in series.** Blood must pass through one circuit before it can enter the other: body → right heart → lungs → left heart → body. There is no other route.
 
 **Why must both ventricles pump the same amount?** Because every drop the right ventricle sends through the lungs arrives at the left ventricle. Over any period longer than a few beats, the right and left ventricles must pump the same volume per minute: about 5 L/min each at rest. If the right ventricle pumped even slightly more than the left for a long time, blood would pile up in the lungs. If the left pumped more than the right, the lungs would slowly drain. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
-**Within the systemic circuit, the organs sit side by side (<span data-term="in-parallel">in parallel</span>).** The aorta divides into branches that supply the brain, the heart muscle, the gut and liver, the kidneys, the skeletal muscles and the skin. Because each organ has its own branch:
+**Within the systemic circuit, the organs sit side by side (in parallel).** The aorta divides into branches that supply the brain, the heart muscle, the gut and liver, the kidneys, the skeletal muscles and the skin. Because each organ has its own branch:
 
 - every organ receives fresh, oxygen-rich blood from the arteries, not blood another organ has already used;
 - the flow to each organ can be turned up or down on its own, by narrowing or widening that organ's small arteries, without starving the others. *(<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">→ Haemodynamics, §8</a>)*
@@ -112,7 +112,7 @@ Both ventricles pump the same volume each minute (<a href="#/physiology/cvs/cv-i
 
 Generating more pressure takes more muscle, so the left ventricular wall is thicker. **Same volume per minute, different pressure.**
 
-**Why is it useful for the lungs to have low pressure?** Lung capillaries are extremely thin, so that gases can cross them quickly. High pressure inside them would push fluid out into the lung tissue and air spaces. This is **<span data-term="pulmonary-oedema">pulmonary oedema</span>**, and it gets in the way of gas exchange. Low pulmonary pressure keeps the lungs dry. *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*
+**Why is it useful for the lungs to have low pressure?** Lung capillaries are extremely thin, so that gases can cross them quickly. High pressure inside them would push fluid out into the lung tissue and air spaces. This is **pulmonary oedema**, and it gets in the way of gas exchange. Low pulmonary pressure keeps the lungs dry. *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*
 
 ## 5. Systole and diastole
 
