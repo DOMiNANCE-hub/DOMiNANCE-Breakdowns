@@ -140,6 +140,12 @@
   const markRendered = () => { main.dataset.route = location.hash || '#/'; main.removeAttribute('aria-busy'); };
   const topicUrl = (slug, from) => '#/physiology/cvs/' + slug + (from ? '?from=' + encodeURIComponent(from) : '');
   const lectureUrl = slug => '#/physiology/cvs/lecture/' + slug;
+  // Lecture tests: a lecture that repeats another one (Lecture 5) uses that lecture's test.
+  const testFor = l => { const slug = l && (l.duplicateOf || l.slug); return slug && (bundle.tests || {})[slug] ? {slug, ...(bundle.tests[slug])} : null; };
+  const testUrl = slug => lectureUrl(slug) + '/test';
+  const testBest = slug => { try { return JSON.parse(localStorage.getItem('dom-test-' + slug) || 'null')?.best ?? null; } catch { return null; } };
+  const testCard = (l, lead) => { const t = testFor(l); if (!t) return ''; const best = testBest(t.slug);
+    return `<a class="test-card" href="${testUrl(t.slug)}"><span class="test-card-text"><span class="test-card-kicker">${lead}</span><strong>Take the lecture test</strong><span>${t.count} questions on the whole lecture · mark as you go or exam style${best != null ? ` · your best ${best}%` : ''}</span></span><span class="test-card-go" aria-hidden="true">→</span></a>`; };
   const baseUrl = '#/physiology/cvs';
   const heroSvg = `<svg class="hero-heart" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 103C48 91 20 73 15 50 9 21 43 7 60 34 77 7 111 21 105 50c-5 23-33 41-45 53Z"/><path d="M17 60h22l9-15 12 34 9-21h35"/></svg>`;
   const topIcon = t => {
@@ -215,9 +221,28 @@
     const extra = l.supplements?.length ? `<section class="extra-foundations"><h3>Important foundations added for understanding</h3><p>The lecture refers to these concepts but does not explain them as a full standalone topic.</p>${l.supplements.map(slug => {const t=bySlug.get(slug);return t?`<a class="foundation-link" href="${topicUrl(slug, l.slug)}">${esc(t.title)} <span>Study topic →</span></a>`:''}).join('')}</section>` : '';
     const twinNote = twins(l).map(d => `<div class="duplicate-notice"><strong>Same slides:</strong> ${esc(docName(d.file))} repeats this lecture, so these notes cover both.</div>`).join('');
     const duplicate = l.duplicateOf ? `<div class="duplicate-notice"><strong>Shared material:</strong> This PDF substantially repeats <a href="${lectureUrl(l.duplicateOf)}">Circulation 3</a>. The links below deliberately use the same notes, so you only need to study them once.</div>` : '';
-    main.innerHTML = `<div class="breadcrumb"><a href="#/">Home</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${esc(l.name)}</div><section class="lecture-hero tone-${l.tone}"><span class="lecture-kicker">LECTURE BREAKDOWN</span><div class="lecture-hero-layout"><div><div class="lecture-filename">${esc(docName(l.file))}</div><h1>${esc(l.name)}</h1><p>${esc(l.overview)}</p></div><div class="lecture-stats"><strong>${l.pages}</strong><span>PDF pages</span></div></div></section>${duplicate}${twinNote}<section class="lecture-outline"><div class="section-heading"><div><h2>What this lecture contains</h2><p>Select a part to open its explanatory breakdown. Page references help you follow your PDF.</p></div></div><div class="lecture-rows">${rows}</div></section>${extra}<div class="lecture-footnav"><a class="btn" href="${baseUrl}">← All lecture documents</a><a class="btn" href="${baseUrl}?view=topics">Browse all CVS topics</a></div>`;
+    main.innerHTML = `<div class="breadcrumb"><a href="#/">Home</a> / <a href="${baseUrl}">Cardiovascular System</a> / ${esc(l.name)}</div><section class="lecture-hero tone-${l.tone}"><span class="lecture-kicker">LECTURE BREAKDOWN</span><div class="lecture-hero-layout"><div><div class="lecture-filename">${esc(docName(l.file))}</div><h1>${esc(l.name)}</h1><p>${esc(l.overview)}</p></div><div class="lecture-stats"><strong>${l.pages}</strong><span>PDF pages</span></div></div></section>${duplicate}${twinNote}<section class="lecture-outline"><div class="section-heading"><div><h2>What this lecture contains</h2><p>Select a part to open its explanatory breakdown. Page references help you follow your PDF.</p></div></div><div class="lecture-rows">${rows}</div></section>${testCard(l, 'Finished the chapters?')}${extra}<div class="lecture-footnav"><a class="btn" href="${baseUrl}">← All lecture documents</a><a class="btn" href="${baseUrl}?view=topics">Browse all CVS topics</a></div>`;
   }
 
+  // A lecture test: the questions and the test screen download only when a student opens it.
+  function testPage(l, done) {
+    const t = testFor(l);
+    const token = ++routeToken;
+    document.title = 'Lecture test: ' + l.name + ' | DOMiNANCE Breakdowns';
+    if (!t) { lecturePage(l); done(); return; }
+    main.innerHTML = '<div class="lt-wrap"><p class="skeleton-note" role="status">Loading the test…</p></div>';
+    Promise.all([loadScript(bundle.testApp), loadScript(bundle.tests[t.slug].file)]).then(() => {
+      if (token !== routeToken) return;
+      window.DOMLectureTest.mount(main, {test: window.DOM_TESTS[t.slug], lecture: byLecture.get(t.slug), topics,
+        chapterUrl: (c, sec) => '#/physiology/cvs/' + c + (sec ? '?section=' + encodeURIComponent(sec) : ''), lectureUrl: lectureUrl(l.slug)});
+      done();
+    }, () => {
+      if (token !== routeToken) return;
+      main.innerHTML = `<div class="load-error" role="alert"><h1>Lecture test</h1><p>The test couldn’t be downloaded. Check your connection, then try again.</p><button class="btn btn-primary" type="button" id="retry-load">Try again</button></div>`;
+      document.getElementById('retry-load').addEventListener('click', navigate);
+      done();
+    });
+  }
   // Open a chapter: show its outline at once, download the chapter (cached after the first visit), then render.
   function article(t, done) {
     document.title = t.title + ' | DOMiNANCE Breakdowns';
@@ -242,6 +267,11 @@
     });
   }
 
+  // After the last chapter of a lecture: an invitation to that lecture's test.
+  function endTest(t, from) {
+    const lecture = [from, ...lectures].find(l => { const tt = l && testFor(l); return tt && bundle.tests[tt.slug].chapters.slice(-1)[0] === t.slug; });
+    return lecture ? testCard(lecture, `You’ve finished ${esc(lecture.name)}`) : '';
+  }
   function renderArticle(t, skeleton = false) {
     const sourceLecture = getFrom();
     const idx = topics.indexOf(t);
@@ -264,7 +294,7 @@
       `<div class="mobile-sections"><label for="sections-select" class="group-label">Jump to a section</label><select id="sections-select"><option value="">Select section…</option>${t.sections.map(s => `<option value="${esc(s.id)}">${esc(s.title)}</option>`).join('')}</select></div>` +
       `<div class="article-text">${window.DOM_DIAGRAMS?.[t.slug] || ''}${skeleton ? '<p class="skeleton-note" role="status">Loading this breakdown…</p><div class="skeleton-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>' : html}</div>` +
       `<footer class="article-end">${next ? `<a class="next-card" href="${topicUrl(next.slug, sourceLecture?.slug)}"><span class="next-label">Next breakdown</span><span class="next-title">${esc(next.title)}</span></a>` : `<a class="next-card" href="${baseUrl}"><span class="next-label">You’ve reached the last breakdown</span><span class="next-title">Back to all CVS topics</span></a>`}` +
-      `<div class="end-actions"><button id="mark-read" class="btn">${completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed'}</button>${sourceLecture ? `<a class="btn" href="${lectureUrl(sourceLecture.slug)}">Back to the lecture outline</a>` : ''}</div></footer></article>` +
+      `${endTest(t, sourceLecture)}<div class="end-actions"><button id="mark-read" class="btn">${completed.has(t.slug) ? '✓ Reviewed' : 'Mark as reviewed'}</button>${sourceLecture ? `<a class="btn" href="${lectureUrl(sourceLecture.slug)}">Back to the lecture outline</a>` : ''}</div></footer></article>` +
       `<aside class="toc"><h2>In this breakdown</h2>${toc}<div class="nav-bottom">${prev ? `<a href="${topicUrl(prev.slug, sourceLecture?.slug)}">← ${esc(prev.title)}</a>` : ''}${next ? `<a href="${topicUrl(next.slug, sourceLecture?.slug)}">${esc(next.title)} →</a>` : ''}</div></aside></div>`;
     if (skeleton) return;
     document.getElementById('mark-read').addEventListener('click', () => {
@@ -293,6 +323,7 @@
     window.scrollTo({top:0, behavior:'instant'});
     if (bySlug.has(path[2]) && path[2] !== 'lecture') { article(bySlug.get(path[2]), done); return; }
     ++routeToken;
+    if (path[2] === 'lecture' && path[4] === 'test' && byLecture.has(path[3])) { testPage(byLecture.get(path[3]), done); return; }
     if (path[2] === 'lecture' && byLecture.has(path[3])) lecturePage(byLecture.get(path[3]));
     else if (path[0] === 'physiology' && path[1] === 'cvs') cvsHome();
     else platformHome();

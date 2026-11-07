@@ -50,7 +50,7 @@
   // ---------- save every chapter ----------
   function allFiles() {
     const b = bundle();
-    const files = new Set([...Object.values(b.chapters), b.search, ...b.core, ...Object.values(b.widgets), ...(b.assets || [])]);
+    const files = new Set([...Object.values(b.chapters), b.search, ...b.core, ...Object.values(b.widgets), ...(b.assets || []), ...Object.values(b.tests || {}).map(t => t.file), b.testApp]);
     files.delete(undefined);
     return [...files];
   }
