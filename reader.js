@@ -63,7 +63,7 @@ function go(index){
 }
 function mount(){
  if(rendering)return;
- const next=main.querySelector('.article-sheet');
+ const next=main.querySelector('.article-sheet:not(.is-skeleton)');
  if(!next){article=null;currentSlug='';return}
  const slug=findSlug();
  if(next===article&&slug===currentSlug)return;

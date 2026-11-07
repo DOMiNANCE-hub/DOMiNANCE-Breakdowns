@@ -58,6 +58,8 @@ async function newPage(browser, base, options = {}) {
 async function openRoute(page, base, hash) {
   if (!page.url().startsWith(base)) await page.goto(base + '/' + hash, { waitUntil: 'load' });
   else await page.evaluate(h => { location.hash = h; }, hash);
+  // Chapters are downloaded on demand: wait until the route has finished rendering.
+  await page.waitForFunction(h => document.getElementById('main')?.dataset.route === h, hash, { timeout: 5000 }).catch(() => {});
   await page.waitForTimeout(60);
 }
 
@@ -71,6 +73,8 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
   // Chapter catalogue straight from the bundle the site uses.
   const probe = await newPage(browser, base);
   await probe.goto(base + '/', { waitUntil: 'load' });
+  // The site loads chapters on demand; the full bundle (built alongside) gives the test catalogue in one go.
+  await probe.addScriptTag({ url: base + '/content.js' });
   const topics = await probe.evaluate(() => window.DOMINANCE_TOPICS.map(t => {
     const doc = new DOMParser().parseFromString(t.html, 'text/html');
     const checks = [...doc.querySelectorAll('details')].filter(d => !d.classList.contains('figure-attribution')).length;

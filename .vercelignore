@@ -1,0 +1,13 @@
+# Only the site itself is published; sources, tests and internal reviews stay in the repository.
+*.md
+*.csv
+*.py
+*.json
+!vercel.json
+tests/
+docs/
+.github/
+__pycache__/
+node_modules/
+content.js
+requirements.txt
