@@ -942,3 +942,4 @@ html.video-open{overflow:hidden}
 details.mcq-answer.is-after-answer:not([open]){display:none}
 details.mcq-answer.is-after-answer>summary{display:none}
 details.mcq-answer.is-after-answer[open]>p:first-of-type{margin-top:4px}
+.lecture-card .lecture-twin{margin-top:-4px;font-weight:600;text-transform:none;letter-spacing:0;opacity:.85}
