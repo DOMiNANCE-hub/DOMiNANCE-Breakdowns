@@ -607,3 +607,20 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .ps-trace{fill:none;stroke:var(--navy);stroke-width:3;stroke-linejoin:round}
 .tw-svg .ps-symp{stroke:var(--w-ao)}.tw-svg .ps-vagal{stroke:var(--w-lv)}
 .ps-readout{font-size:14px;margin:6px 0 0!important}
+/* Chapter 11: JVP wave explorer */
+.tw-svg .jv-event{stroke:var(--line);stroke-width:1;stroke-dasharray:3 4}
+.tw-svg .jv-bracket{fill:none;stroke:var(--muted);stroke-width:1.5}
+.tw-svg .jv-trace{fill:none;stroke:var(--muted);stroke-width:3;stroke-linejoin:round;opacity:.55}
+.tw-svg .jv-trace.jv-hot{stroke:var(--w-la);stroke-width:5;opacity:1}
+.tw-svg .jv-letter{font-size:17px;font-weight:800;fill:var(--muted)}.tw-svg .jv-letter.is-on{fill:var(--w-la);font-size:21px}
+.tw-svg .jv-vein{fill:color-mix(in srgb,var(--w-vol) 22%,var(--sheet));stroke:var(--muted);stroke-width:1.5}
+.tw-svg .jv-ra,.tw-svg .jv-rv{fill:var(--sheet);stroke:var(--muted);stroke-width:2;transition:all .25s}
+.tw-svg .jv-ra.is-on,.tw-svg .jv-rv.is-on{fill:color-mix(in srgb,var(--gold) 45%,var(--sheet));stroke:var(--navy)}
+.tw-svg .jv-rv.is-half{fill:color-mix(in srgb,var(--gold) 18%,var(--sheet))}
+.tw-svg .jv-blood{fill:color-mix(in srgb,var(--w-vol) 30%,transparent);transition:all .25s}
+.tw-svg .jv-valve{fill:none;stroke:var(--navy);stroke-width:4;stroke-linecap:round}.tw-svg .jv-valve-hot{stroke:var(--w-lv)}
+.tw-svg .jv-ringline{stroke:var(--navy);stroke-width:4;stroke-linecap:round}
+.tw-svg .jv-arrow{fill:none;stroke-width:4;stroke-linecap:round}
+.tw-svg .jv-in{stroke:var(--w-vol)}.tw-svg .jv-back{stroke:var(--w-lv)}.tw-svg .jv-out{stroke:var(--w-ao)}
+.tw-svg .jv-head-in{fill:var(--w-vol)}.tw-svg .jv-head-back{fill:var(--w-lv)}.tw-svg .jv-head-out{fill:var(--w-ao)}
+.jv-nav{display:flex;gap:8px}
