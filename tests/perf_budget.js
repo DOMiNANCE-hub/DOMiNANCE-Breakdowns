@@ -4,6 +4,7 @@
  * Run from the repository root:  node tests/perf_budget.js
  *
  * Sizes are measured as gzip (servers send brotli, which is smaller still), so the budget is conservative.
+ * The 60 KB home limit also applies to equation typography; remove obsolete CSS rather than raising it.
  * Layout shift is measured on a phone with chapter files deliberately delayed, which is when jumps happen.
  */
 'use strict';
