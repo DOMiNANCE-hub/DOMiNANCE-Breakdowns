@@ -654,3 +654,12 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .rd-ghost{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:6 5}
 .tw-svg .rd-vessel{fill:color-mix(in srgb,var(--w-lv) 30%,var(--sheet));stroke:var(--w-lv);stroke-width:2.5;transition:all .15s}
 .tw-svg .rd-bar0{fill:var(--line)}.tw-svg .rd-bar{fill:var(--gold)}
+/* Chapter 10: cuff simulator */
+.tw-svg .cs-grid{stroke:var(--line);stroke-width:1}
+.tw-svg .cs-wave{fill:none;stroke:var(--w-lv);stroke-width:1.6;opacity:.8}
+.tw-svg .cs-cuffline{stroke:var(--navy);stroke-width:2.5;stroke-dasharray:7 5}
+.tw-svg .cs-mark{stroke:var(--gold);stroke-width:2}
+.tw-svg .cs-dot{fill:var(--gold);stroke:var(--navy);stroke-width:2}
+.tw-svg .cs-cuff{fill:color-mix(in srgb,var(--muted) 18%,var(--sheet));stroke:var(--muted);stroke-width:1.5}
+.tw-svg .cs-artery{fill:color-mix(in srgb,var(--w-lv) 55%,var(--sheet));stroke:var(--w-lv);stroke-width:1.5;transition:all .1s}
+.tw-svg .cs-shut{fill:var(--w-lv)}
