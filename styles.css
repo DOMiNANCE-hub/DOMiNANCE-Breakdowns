@@ -675,3 +675,8 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .mp-muscle{fill:color-mix(in srgb,#d9665c 25%,var(--sheet));stroke:#c4554c;stroke-width:2;transition:all .35s}.tw-svg .mp-muscle.is-on{fill:color-mix(in srgb,#d9665c 50%,var(--sheet))}
 .tw-svg .mp-valve{fill:none;stroke:var(--navy);stroke-width:4;stroke-linecap:round}.tw-svg .mp-shut{stroke:var(--w-lv)}
 .tw-svg .mp-arrow{stroke:var(--gold);stroke-width:6;stroke-linecap:round}.tw-svg .mp-head{fill:var(--gold)}
+/* Chapters 13–14: Starling balance */
+.tw-svg .sb-cap{fill:color-mix(in srgb,#d9665c 22%,var(--sheet));stroke:#c4554c;stroke-width:2}
+.tw-svg .sb-arr{stroke-width:7;stroke-linecap:round}.tw-svg .out{stroke:var(--gold)}.tw-svg .in{stroke:var(--w-vol)}
+.tw-svg .sb-h-out{fill:var(--gold)}.tw-svg .sb-h-in{fill:var(--w-vol)}
+.tw-svg .sb-net{fill:var(--sheet);stroke:var(--line);stroke-width:1.5}.tw-svg .sb-net.is-out{fill:color-mix(in srgb,var(--gold) 30%,var(--sheet))}.tw-svg .sb-net.is-in{fill:color-mix(in srgb,var(--w-vol) 30%,var(--sheet))}

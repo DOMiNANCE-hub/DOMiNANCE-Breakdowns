@@ -129,4 +129,51 @@
     draw();
   }
   W.register('muscle-pump', musclePump);
+
+  // ---------- Starling balance (Chapters 13 and 14) ----------
+  const SCEN = {
+    normal: {label: 'Normal', pca: 30, pcv: 10, pic: 28, say: 'The push wins at the arterial end (fluid leaves) and the pull wins at the venous end (classic model). Overall, a little more leaves than returns, and the lymph carries it away.'},
+    hf: {label: 'Heart failure', pca: 38, pcv: 22, pic: 28, say: '<strong>Push too high.</strong> Back pressure raises capillary pressure all along, so fluid leaves along the whole capillary and almost none returns: oedema.'},
+    alb: {label: 'Low albumin', pca: 30, pcv: 10, pic: 14, say: '<strong>Pull too weak.</strong> With little albumin, the protein pull is small, so fluid leaves along the whole capillary: generalised oedema.'},
+    leak: {label: 'Leaky capillary', pca: 32, pcv: 14, pic: 12, say: '<strong>Wall too leaky.</strong> Proteins escape into the tissue, so the effective pull falls and the escaped proteins pull water out too: local swelling.'}
+  };
+  const PI = -3, PII = 8;
+  function starlingBalance(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'sb-wrap';
+    wrap.innerHTML = `<div class="tw-controls" role="group" aria-label="Scenarios">${Object.entries(SCEN).map(([k, v]) => `<button type="button" class="tw-btn" data-sc="${k}">${v.label}</button>`).join('')}</div><div class="tw-stage"></div>` +
+      `<label class="lv-slider"><span>Capillary pressure at the arterial end (Pc): <strong class="sb-pc"></strong> mmHg</span><input type="range" data-k="pc" min="15" max="50" step="1"></label>` +
+      `<label class="lv-slider"><span>Plasma protein pull (πc): <strong class="sb-pi"></strong> mmHg</span><input type="range" data-k="pi" min="8" max="35" step="1"></label>` +
+      `<p class="lv-readout sb-say" aria-live="polite"></p>`;
+    const stage = wrap.querySelector('.tw-stage'), rPc = wrap.querySelector('[data-k="pc"]'), rPi = wrap.querySelector('[data-k="pi"]');
+    let sc = SCEN[fig.dataset.start] ? fig.dataset.start : 'normal', pca, pcv, pic;
+    const set = k => { sc = k; pca = SCEN[k].pca; pcv = SCEN[k].pcv; pic = SCEN[k].pic; rPc.value = pca; rPi.value = pic; };
+    const arrow = (x, y1, y2, cls, lab, val, side) => `<line x1="${x}" y1="${y1}" x2="${x}" y2="${y2}" class="sb-arr ${cls}" marker-end="url(#sb-${cls})"/><text x="${x + side * 8}" y="${(y1 + y2) / 2 + 4}" text-anchor="${side > 0 ? 'start' : 'end'}" class="tw-tiny tw-strong">${lab} ${val}</text>`;
+    const end = (x, pc, title) => {
+      const out = pc - PI + PII, net = out - pic, k = 1.9;
+      return `<text x="${x}" y="16" text-anchor="middle" class="tw-tiny tw-strong">${title}</text>` +
+        arrow(x - 24, 150, 150 - out * k, 'out', 'push out', Math.round(out), -1) +
+        arrow(x + 24, 150 - pic * k, 148, 'in', 'pull in', pic, 1) +
+        `<rect x="${x - 70}" y="232" width="140" height="30" rx="8" class="sb-net ${net > 0.5 ? 'is-out' : net < -0.5 ? 'is-in' : ''}"/>` +
+        `<text x="${x}" y="252" text-anchor="middle" class="tw-small tw-strong">${net > 0.5 ? `fluid leaves (net ${Math.round(net)})` : net < -0.5 ? `fluid returns (net ${Math.round(-net)})` : 'balanced'}</text>`;
+    };
+    const draw = () => {
+      stage.innerHTML = svgOpen(560, 272, `Capillary with Pc ${pca} at the arterial end, ${pcv} at the venous end, and a protein pull of ${pic} mmHg.`) +
+        `<defs><marker id="sb-out" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="sb-h-out"/></marker><marker id="sb-in" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="sb-h-in"/></marker></defs>` +
+        `<text x="548" y="70" text-anchor="end" class="tw-tiny tw-muted">tissue</text>` +
+        `<rect x="40" y="154" width="480" height="56" rx="28" class="sb-cap"/>` +
+        `<text x="280" y="187" text-anchor="middle" class="tw-tiny tw-muted">capillary: arterial end → venous end</text>` +
+        end(140, pca, `Arterial end (Pc ${pca})`) + end(420, pcv, `Venous end (Pc ${pcv})`) + `</svg>`;
+      wrap.querySelector('.sb-pc').textContent = pca; wrap.querySelector('.sb-pi').textContent = pic;
+      wrap.querySelector('.sb-say').innerHTML = sc ? SCEN[sc].say : 'Custom values: compare the push out and the pull in at each end. Whichever is bigger decides which way fluid moves.';
+      wrap.querySelectorAll('[data-sc]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.sc === sc)));
+    };
+    wrap.querySelectorAll('[data-sc]').forEach(b => b.addEventListener('click', () => { set(b.dataset.sc); draw(); }));
+    rPc.addEventListener('input', () => { sc = null; const d = Number(rPc.value) - pca; pca += d; pcv = Math.max(2, pcv + d); draw(); });
+    rPi.addEventListener('input', () => { sc = null; pic = Number(rPi.value); draw(); });
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    set(sc); draw();
+  }
+  W.register('starling-balance', starlingBalance);
 })();
