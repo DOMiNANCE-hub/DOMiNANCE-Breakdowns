@@ -179,9 +179,36 @@ tests={}
 for path in sorted((ROOT/'lecture-tests').glob('*.md')):
     lecture,data=lecture_test(path)
     tests[lecture]={'count':len(data['questions']),'chapters':data['chapters'],'file':emit('test-'+lecture,'(window.DOM_TESTS=window.DOM_TESTS||{})['+json.dumps(lecture)+']='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')}
+# LAMLA (last-minute mode): lamla/<lecture-slug>.md → one compact file per lecture: per chapter, the
+# must-know lines (★ = highest yield) and the other sheet sections as ready-made HTML.
+def lamla_sheet(path):
+    src=path.read_text(encoding='utf-8')
+    meta=dict(re.findall(r'^(Lecture slug|Chapters): (.+)$',src,re.M))
+    lecture=meta['Lecture slug'].strip(); slugs=[c.strip() for c in meta['Chapters'].split(',')]
+    by_title={t['title'].lower():t['slug'] for t in topics if t['slug'] in slugs}
+    chapters=[]
+    for block in re.split(r'\n(?=## )',src)[1:]:
+        heading,body=block.split('\n',1)
+        title=re.sub(r'^##\s*(Chapter \d+\s*[—-]\s*)?','',heading).strip().lower()
+        slug=by_title.get(title)
+        assert slug, f'{path.name}: unknown chapter {heading}'
+        parts=dict((m.group(1).strip().lower(),m.group(2)) for m in re.finditer(r'^### (.+?)\n(.*?)(?=^### |\Z)',body,re.M|re.S))
+        must=[]
+        for line in re.findall(r'^- (.+)$',parts.get('must-know',''),re.M):
+            star=line.startswith('★'); text=line.lstrip('★ ').strip()
+            must.append({'star':star,'html':md(text).strip().removeprefix('<p>').removesuffix('</p>')})
+        sec=lambda k: md(parts[k].strip()) if k in parts else ''
+        chapters.append({'slug':slug,'must':must,'numbers':sec('numbers to know'),'chains':sec('core chains'),
+                         'confuse':sec("don't confuse"),'traps':sec('exam traps')})
+    assert [c['slug'] for c in chapters]==slugs, f'{path.name}: chapters out of order'
+    return lecture,{'lecture':lecture,'chapters':chapters}
+lamla={}
+for path in sorted((ROOT/'lamla').glob('*.md')):
+    lecture,data=lamla_sheet(path)
+    lamla[lecture]={'chapters':[c['slug'] for c in data['chapters']],'file':emit('lamla-'+lecture,'(window.DOM_LAMLA=window.DOM_LAMLA||{})['+json.dumps(lecture)+']='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')}
 catalogue=[{k:v for k,v in t.items() if k not in ('html','plain')} for t in topics]
 assets=sorted('assets/'+str(f.relative_to(ROOT/'assets')).replace('\\','/') for f in (ROOT/'assets').rglob('*') if f.is_file() and f.suffix in ('.jpg','.png','.webp','.svg'))
-bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets,'tests':tests,'testApp':ver('lecture-test.js')}
+bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets,'tests':tests,'testApp':ver('lecture-test.js'),'lamla':lamla,'lamlaApp':ver('lamla.js')}
 index='window.DOMINANCE_TOPICS='+json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+';\nwindow.DOM_BUNDLE='+json.dumps(bundle,separators=(',',':'))+';\n'
 (out/'index.js').write_text(index,encoding='utf-8')
 for f in out.glob('*.js'):

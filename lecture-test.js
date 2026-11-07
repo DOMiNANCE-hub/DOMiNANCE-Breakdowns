@@ -213,7 +213,14 @@
     };
     document.addEventListener('keydown', keys);
 
-    intro();
+    // A link can choose the setup and start straight away (LAMLA ends with ?mode=instant&size=quick&start=1).
+    const ask = new URLSearchParams((location.hash || '').split('?')[1] || '');
+    if (ask.get('start') === '1') {
+      let ids = shuffle(test.questions.map(q => q.id));
+      if (ask.get('size') === 'quick' && ids.length > QUICK + 5) ids = ids.slice(0, QUICK);
+      try { history.replaceState(null, '', location.pathname + location.hash.split('?')[0]); } catch { /* keep */ }
+      begin(ids, ask.get('mode') === 'exam' ? 'exam' : 'instant');
+    } else intro();
   }
 
   window.DOMLectureTest = {mount, best: slug => read('dom-test-' + slug)?.best ?? null};
