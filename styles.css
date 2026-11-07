@@ -650,3 +650,7 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 /* Chapter 8: Fick calculator */
 .fk-bar{display:flex;height:16px;margin-top:12px;border-radius:8px;overflow:hidden;background:var(--line)}.fk-left{background:color-mix(in srgb,var(--w-vol) 55%,var(--sheet))}.fk-taken{background:var(--gold)}
 .fk-bar-lab{margin:6px 0 0;font-size:13px;color:var(--text)}
+/* Chapter 9: radius dial */
+.tw-svg .rd-ghost{fill:none;stroke:var(--line);stroke-width:2;stroke-dasharray:6 5}
+.tw-svg .rd-vessel{fill:color-mix(in srgb,var(--w-lv) 30%,var(--sheet));stroke:var(--w-lv);stroke-width:2.5;transition:all .15s}
+.tw-svg .rd-bar0{fill:var(--line)}.tw-svg .rd-bar{fill:var(--gold)}

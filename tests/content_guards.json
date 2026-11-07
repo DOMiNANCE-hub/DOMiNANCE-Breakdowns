@@ -113,12 +113,13 @@
     "hemodynamics": {
       "minimum_checks": 12,
       "required": [
-        "Reynolds number",
-        "Hagen–Poiseuille",
-        "Pressure, flow and resistance"
+        "Flow depends on the pressure",
+        "Think of a motorway.",
+        "data-widget=\"radius-dial\""
       ],
       "forbidden": [
-        "The lecturer"
+        "slide 71's suggestion",
+        "as the slide's unit suggests"
       ]
     },
     "blood-pressure": {
