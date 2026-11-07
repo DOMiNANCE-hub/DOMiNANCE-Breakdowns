@@ -207,9 +207,12 @@
       ]
     },
     "cerebral": {
-      "minimum_checks": 12,
+      "minimum_checks": 9,
       "required": [
-        "Monro–Kellie"
+        "CPP = MAP − ICP",
+        "Cushing triad",
+        "aqueduct of Sylvius",
+        "little anastomosis"
       ]
     },
     "coronary": {
@@ -220,7 +223,12 @@
       ]
     },
     "pulmonary": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "about one-tenth of systemic resistance",
+        "400 mL",
+        "Hypoxic pulmonary vasoconstriction"
+      ]
     },
     "splanchnic": {
       "minimum_checks": 6,

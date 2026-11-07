@@ -1,185 +1,198 @@
 # Cerebral Circulation, CSF and the Blood–Brain Barrier
 
-## 1. Why is circulation to the brain different?
+## 1. Why the brain can't wait for blood
 
-Neurons need a near-continuous supply of **oxygen and glucose** because their energy stores are limited. Cerebral blood flow must therefore be maintained despite changes in posture, arterial pressure and local neuronal activity. Yet the brain sits inside a rigid skull: swelling or bleeding can raise intracranial pressure and interfere with blood supply.
+The brain is about 2% of body weight but uses about **15% of the cardiac output** and about **20% of the body's oxygen** at rest. Yet it stores almost no oxygen and very little glucose. So it depends on a **continuous** blood supply:
 
-Three distinct ideas must not be confused:
+- About **10 seconds** without blood flow causes **unconsciousness**.
+- A few minutes causes permanent damage.
 
-- **Mean arterial pressure (MAP)** is the arterial pressure available to drive blood into the cranial circulation.
-- **Cerebral perfusion pressure (CPP)** is the pressure difference driving blood through the brain.
-- **Cerebral blood flow (CBF)** is the volume of blood actually delivered per unit time; it also depends on cerebrovascular resistance.
+**Not every part is equally fragile.** The cerebral cortex, **<span data-term="basal-ganglia">basal ganglia</span>** and **thalamus** are the most sensitive to low oxygen. The **brainstem**, which runs breathing and circulation, is more resistant. That is why a patient can survive a severe hypoxic injury with brainstem functions intact.
 
-In simple terms, **flow ≈ driving pressure ÷ resistance**. A reasonable CPP does not guarantee adequate flow if resistance is abnormally high.
+**Fuel:** glucose supplies about **90%** of the brain's energy. Brain cells take it up **without needing insulin**. So **hypoglycaemia** hits the brain fast: confusion, then **convulsions** and **coma**. In **prolonged starvation**, the brain switches partly to **<span data-term="ketone-bodies">ketone bodies</span>**, made by the liver from fat.
 
-## 2. Where does cerebral arterial blood come from?
+<aside class="source-note"><strong>Source note:</strong> The lecture says that in starvation the brain uses "other substances (amino acids, lipids and proteins)". More precisely, the main alternative fuel is ketone bodies, which the liver makes from fatty acids; ordinary fatty acids are not a major brain fuel.</aside>
+
+## 2. Where does the blood come from?
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Circle_of_Willis_en.svg" alt="Detailed inferior view of cerebral arterial anatomy showing vertebral and basilar arteries, internal carotids, anterior communicating arteries, posterior communicating arteries and branches of the Circle of Willis."><figcaption><strong>Figure. The real anatomical arrangement of the Circle of Willis.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Rhcastilhos, <a href="https://commons.wikimedia.org/wiki/File:Circle_of_Willis_en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · public domain · unmodified.</span></details></figcaption></figure>
 
+Two pairs of arteries supply the brain:
 
+- The two **internal carotid arteries** supply most of the front and middle of the brain.
+- The two **vertebral arteries** join to form the **basilar artery**, which supplies the back of the brain and the brainstem.
 
-Two **internal carotid arteries** supply much of the anterior circulation. Two **vertebral arteries** join to form the **basilar artery**, supplying the posterior circulation. These systems connect through the **Circle of Willis**, an arterial ring around the base of the brain that may offer alternative pathways when an upstream vessel narrows.
-
-The ring normally includes the paired anterior cerebral arteries near the anterior communicating artery, proximal internal carotid portions, posterior communicating arteries and proximal posterior cerebral arteries. **The middle cerebral artery (MCA) is a major internal carotid branch, but is not itself part of the ring.** Anatomical variations are common; the Circle of Willis cannot always compensate for an occlusion.
-
-| Main artery | Typical territory | A useful clinical association |
-|---|---|---|
-| **Anterior cerebral artery (ACA)** | Medial frontal/parietal cortex | Contralateral leg weakness may be prominent |
-| **Middle cerebral artery (MCA)** | Much of the lateral cerebral hemisphere | Contralateral face/arm deficits; aphasia when the dominant hemisphere is affected |
-| **Posterior cerebral artery (PCA)** | Occipital cortex and parts of inferomedial temporal lobe | Visual-field loss may occur |
-
-These are **general patterns, not rigid borders**. Collaterals and individual arterial anatomy vary.
+At the base of the brain, these connect in a ring: the **<span data-term="circle-of-willis">Circle of Willis</span>**. In principle, if one feeding artery narrows slowly, blood can come round the ring from the others. In practice, the ring is often incomplete or has thin segments, so it can't always compensate.
 
 <figure class="learning-figure"><figcaption>Figure. Cerebral arterial supply — conceptual route map</figcaption><svg viewBox="0 0 660 248" role="img" aria-label="Internal carotid systems lead to anterior and middle cerebral arteries; paired vertebral arteries join into basilar artery and reach posterior cerebral arteries; communicating vessels link the two systems"><g font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#22354e"><rect x="14" y="16" width="240" height="46" rx="10" fill="#e6efff" stroke="#638bd0"/><text x="134" y="44">Internal carotid systems</text><rect x="408" y="16" width="238" height="46" rx="10" fill="#e5f5ea" stroke="#76a586"/><text x="527" y="44">Vertebral arteries → basilar</text><rect x="12" y="128" width="192" height="48" rx="10" fill="#e6efff" stroke="#638bd0"/><text x="108" y="148">ACA: medial</text><text x="108" y="166">hemisphere</text><rect x="218" y="128" width="192" height="48" rx="10" fill="#e6efff" stroke="#638bd0"/><text x="314" y="148">MCA: lateral</text><text x="314" y="166">hemisphere</text><rect x="424" y="128" width="222" height="48" rx="10" fill="#e5f5ea" stroke="#76a586"/><text x="535" y="148">PCA: occipital</text><text x="535" y="166">and related regions</text><rect x="167" y="195" width="332" height="36" rx="9" fill="#fff3d9" stroke="#bb9e5e"/><text x="333" y="218">Circle of Willis: potential collateral links</text></g><g fill="none" stroke="#587ca6" stroke-width="2.5"><path d="M134 62v33H108v32M134 95h180v32M527 62v65M134 95v-8h393v40" stroke-linejoin="round"/><path d="M108 176v19M314 176v19M535 176v19H498"/></g></svg><p>This is a flow-and-territory learning schematic, not an anatomical depiction of the ring's exact vessel positions. The MCA arises from the internal carotid but is not part of the Circle of Willis.</p></figure>
 
-**Reason through an occlusion:** A left MCA blockage might damage the lateral motor cortex, affecting the right face and arm. If the language-dominant hemisphere is left-sided, speech or language deficits may accompany weakness. The symptoms depend on the tissue actually deprived of blood.
+**Beyond the ring, there is little backup.** The cerebral arteries that leave the circle have **few connections (<span data-term="anastomosis">anastomoses</span>)** with each other. So when one is blocked suddenly, the tissue it supplies has no other source, and it dies.
 
-## 3. How does the brain keep its blood flow stable?
+| Artery | Main territory | Blockage typically affects |
+|---|---|---|
+| **Anterior cerebral (ACA)** | Inner (medial) surface of the frontal and parietal lobes | The opposite **leg** |
+| **Middle cerebral (MCA)** | Most of the outer (lateral) surface of the hemisphere | The opposite **face and arm**; **speech**, if the dominant side |
+| **Posterior cerebral (PCA)** | Occipital lobe | **Vision** |
+
+The **middle cerebral artery** is a branch of the internal carotid. It is **not** part of the ring itself.
+
+## 3. How does the brain keep its blood flow steady?
 
 <figure class="learning-figure"><figcaption>Pressure autoregulation — conceptual blood-flow curve</figcaption><svg role="img" viewBox="0 0 620 235" aria-label="Cerebral blood flow rises at low pressure, changes relatively little across an autoregulated range, then rises again at high pressure; exact limits vary"><g stroke="#62758d" stroke-width="2" fill="none"><path d="M65 20v180h510"/></g><path d="M75 187Q125 178 170 100Q230 83 335 85Q415 87 455 79Q500 65 565 24" stroke="#2468c5" stroke-width="5" fill="none" stroke-linecap="round"/><g font-size="14" fill="#263d61"><text x="18" y="19">CBF</text><text x="360" y="222">Cerebral perfusion pressure →</text><text x="95" y="153">Low pressure</text><text x="230" y="67">Buffered flow</text><text x="462" y="116">High pressure</text></g><g stroke="#a7aeb8" stroke-dasharray="5 5"><path d="M190 45v152M448 45v152"/></g></svg><p>As driving pressure changes, cerebral arterioles adjust resistance to buffer cerebral blood flow. The apparent plateau is approximate, not perfectly flat; its boundaries vary and can shift with disease or chronic hypertension.</p></figure>
 
+**<span data-term="autoregulation">Autoregulation</span>.** When perfusion pressure rises, the cerebral arterioles **constrict**; when it falls, they **dilate**. So cerebral blood flow stays nearly constant across a wide range of blood pressures (classically quoted as a mean arterial pressure of about 60–150 mmHg; the limits vary between people). Outside that range, or after a brain injury, flow simply follows pressure. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)*
 
-### Pressure autoregulation
+**Carbon dioxide: the strongest controller.** A rise in arterial CO₂ raises H⁺ around the vessels, and the arterioles **dilate**, so flow rises. A fall in CO₂ **constricts** them. That is why **overbreathing** (which blows off CO₂) can make you **dizzy**: cerebral blood flow falls. Severe hypoxia also dilates cerebral vessels.
 
-When perfusion pressure rises, cerebral resistance arterioles can **constrict**; when pressure falls, they can **dilate**. This buffers changes in blood flow over a range of perfusion pressures. Outside that range—or after severe brain injury—flow becomes more pressure-dependent. The exact limits vary with individuals and conditions; a single textbook pressure interval must not be treated as universal.
+**Active areas get more blood.** When a brain region works harder, local signals dilate its arterioles, so flow rises **just in that region**. This is what brain-activity scans detect.
 
-Autoregulation is *not* the same as saying blood pressure never changes. Rather, **arteriolar resistance changes to protect flow**.
+**Nerves play only a small part.** Cerebral vessels are supplied by **sympathetic (adrenergic)**, **cholinergic** and **sensory** nerves. The sensory nerves explain why the **vessels and meninges feel pain** (a cause of headache), although brain tissue itself does not.
 
-### Carbon dioxide and oxygen
+**Understanding Check: Sections 1–3**
 
-A rise in arterial **CO₂** generally increases hydrogen ion concentration around brain vessels and causes **cerebral arteriolar dilation**, raising CBF. A fall in CO₂, as during excessive hyperventilation, causes vasoconstriction and can reduce CBF. Severe hypoxaemia can also dilate cerebral vessels. These responses are not interchangeable with systemic vascular responses.
+<p><strong>1.</strong> Which part of the brain is most resistant to a period of low oxygen?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The brainstem, which controls breathing and circulation</span><span class="mcq-option" data-option="B">B. The cerebral cortex, which controls conscious thought</span><span class="mcq-option" data-option="C">C. The basal ganglia, which help to control movement</span><span class="mcq-option" data-option="D">D. The thalamus, which relays sensory signals to the cortex</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The cortex, basal ganglia and thalamus are the most sensitive. The brainstem tolerates hypoxia better.</p></details>
 
-### Local activity
+<p><strong>2.</strong> Why can a sudden blockage of the middle cerebral artery kill brain tissue, even with a Circle of Willis?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Beyond the circle, cerebral arteries have few connections with each other</span><span class="mcq-option" data-option="B">B. The middle cerebral artery carries blood away from the brain</span><span class="mcq-option" data-option="C">C. The Circle of Willis closes completely during a stroke</span><span class="mcq-option" data-option="D">D. The middle cerebral artery has no branches into the brain</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The ring sits upstream. The arteries leaving it have little anastomosis, so a blocked branch leaves its territory without supply.</p></details>
 
-Active neural regions use more energy and can receive more blood through **neurovascular coupling**. Thus regional cerebral flow can change even when total systemic BP changes very little.
+<p><strong>3.</strong> A student hyperventilates and feels dizzy. Why?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Low CO₂ constricts the cerebral arterioles, so brain blood flow falls</span><span class="mcq-option" data-option="B">B. High CO₂ dilates the cerebral arterioles, so brain pressure rises</span><span class="mcq-option" data-option="C">C. Low oxygen in the blood constricts the cerebral arterioles</span><span class="mcq-option" data-option="D">D. Fast breathing raises blood pressure above the autoregulation range</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Overbreathing blows off CO₂. Cerebral arterioles constrict, and flow drops.</p></details>
 
-## 4. Why can normal arm BP coexist with poor brain perfusion?
+## 4. A rigid box: intracranial pressure and perfusion
 
-The commonly used approximation is **CPP = MAP − ICP**, provided intracranial pressure is the relevant downstream pressure. More precisely, the effective downstream pressure can be influenced by venous outflow pressure, so CPP is related to MAP minus the higher relevant downstream pressure.
+**The Monro–Kellie doctrine.** The skull is a closed, rigid box. It holds three things whose total volume stays nearly constant:
 
-If **MAP = 90 mmHg** and **ICP = 10 mmHg**, the approximate CPP is **80 mmHg**. If ICP increases to **35 mmHg** while MAP stays at 90, CPP falls to **55 mmHg**. The arm BP did not need to fall for cerebral perfusion to become threatened.
+- **Brain**, about 1400 g
+- **Blood**, about 75 mL
+- **CSF**, about 75 mL
+
+If one increases (a bleed, a tumour, swelling), something else must leave. At first, CSF and venous blood are squeezed out, so the pressure barely rises. Once that reserve is used up, even a small extra volume makes the **<span data-term="icp">intracranial pressure (ICP)</span>** shoot up, and the rising pressure **compresses the cerebral vessels**.
+
+**<span data-term="cpp">Cerebral perfusion pressure</span>: the pressure that actually drives blood through the brain.**
+
+**CPP = MAP − ICP**
+
+- Normal: MAP 90, ICP 10 → **CPP 80 mmHg**.
+- ICP rises to 35, MAP still 90 → **CPP 55 mmHg**.
+
+The arm blood pressure hasn't changed, yet the brain is getting less blood.
 
 <figure class="learning-figure"><figcaption>Figure. Increasing ICP reduces the driving pressure available to perfuse the brain</figcaption><svg viewBox="0 0 630 170" role="img" aria-label="At constant MAP 90 mmHg, ICP rising from 10 to 35 mmHg lowers CPP from 80 to 55 mmHg"><g font-family="Arial,sans-serif" fill="#253b57" font-size="15"><text x="10" y="25" font-weight="bold">Example at MAP = 90 mmHg</text><text x="10" y="69">ICP = 10</text><text x="10" y="129">ICP = 35</text><rect x="115" y="47" width="400" height="30" rx="6" fill="#e2ebf6"/><rect x="115" y="47" width="356" height="30" rx="6" fill="#73a4dc"/><rect x="115" y="107" width="400" height="30" rx="6" fill="#e2ebf6"/><rect x="115" y="107" width="244" height="30" rx="6" fill="#dc9873"/><text x="480" y="68">CPP 80</text><text x="369" y="128">CPP 55</text></g></svg><p>Illustrative pressure calculation; these bars are not a patient-specific treatment threshold. Cerebral flow additionally depends on resistance.</p></figure>
 
-### The Monro–Kellie principle and Cushing response
+**The Cushing reflex: a last-ditch defence.** When ICP climbs very high (the lecture gives more than about **33 mmHg**), the brainstem itself becomes ischaemic. Its vasomotor centre fires a massive **sympathetic** discharge that **raises arterial pressure**, trying to force blood back in. The baroreceptors detect the high pressure and **slow the heart**. **Irregular breathing** may follow.
 
-The adult cranial cavity contains mainly **brain tissue, blood and CSF**. Because the skull is relatively rigid, an expanding lesion can initially be compensated for by shifting venous blood and CSF. Once those reserves are exhausted, even a small additional volume can cause a large rise in ICP.
+So the **<span data-term="cushing-triad">Cushing triad</span>** is **high blood pressure, slow heart rate and irregular breathing**. It is a **late, dangerous sign**: the brain is about to be compressed past its limit. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
 
-An extreme increase in ICP threatens perfusion of the brainstem and can evoke a **Cushing response**: sympathetic hypertension to defend perfusion, with reflex bradycardia from arterial baroreceptors, sometimes accompanied by abnormal respiration. This is a **late, serious sign**, not the normal first response to every small ICP rise.
-
-## 5. Meninges, ventricles and cerebrospinal fluid
+## 5. The coverings, the ventricles and CSF
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Meninges-en.svg" alt="Cross-sectional anatomical illustration identifying dura mater, arachnoid mater, subarachnoid space and pia mater"><figcaption><strong>Figure. Meninges and the subarachnoid compartment.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Mysid and Wikimedia contributors, <a href="https://commons.wikimedia.org/wiki/File:Meninges-en.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption></figure>
 
+**The meninges**, from outside in:
 
+1. **Dura mater:** tough, attached to the skull.
+2. **Arachnoid mater:** thin, joined to the brain surface by fine strands (trabeculae).
+3. **Subarachnoid space:** contains **CSF** and the cerebral blood vessels.
+4. **Pia mater:** clings to the brain surface, following every fold.
+
+<aside class="source-note"><strong>Source note:</strong> The lecture says the subdural space also contains CSF. In normal anatomy, the subdural space is only a potential space; CSF lies in the subarachnoid space.</aside>
+
+**Where CSF is made and where it goes.** CSF is made mainly by the **<span data-term="choroid-plexus">choroid plexus</span>** in the lateral, third and fourth ventricles. It then flows:
+
+1. **Lateral ventricles** → through the **foramen of Monro** (interventricular foramen) →
+2. **Third ventricle** → through the **aqueduct of Sylvius** (cerebral aqueduct) →
+3. **Fourth ventricle** → out through the **foramen of Magendie** (middle) and the **foramina of Luschka** (sides) →
+4. **Subarachnoid space**, around the brain and spinal cord →
+5. Absorbed through the **<span data-term="arachnoid-villi">arachnoid villi</span>** into the venous sinuses, and so into the blood.
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/CSF_circulation.png" alt="Illustration of the brain ventricles, subarachnoid cerebrospinal fluid spaces and CSF circulation."><figcaption><strong>Figure. Ventricular and subarachnoid CSF compartments.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit"><a href="https://commons.wikimedia.org/wiki/File:CSF_circulation.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons source and contributors</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · unmodified.</span></details></figcaption></figure>
 
-From outside to inside, the coverings are **dura mater → arachnoid mater → subarachnoid space → pia mater**. The **subarachnoid space normally contains CSF and vessels**; the subdural space is only a *potential* space in normal anatomy.
-
-CSF is produced mainly by **choroid plexuses** in the ventricles. Adult total CSF volume is approximately **150 mL**, while production is several hundred millilitres per day, meaning the fluid is continually renewed.
-
 <figure class="learning-figure"><figcaption>Figure. CSF route from ventricular production to subarachnoid circulation</figcaption><svg viewBox="0 0 680 160" role="img" aria-label="Flow sequence from lateral ventricles via Monro, third ventricle, aqueduct and fourth ventricle to subarachnoid space"><g font-size="14" fill="#1b3557" text-anchor="middle"><rect x="8" y="32" width="112" height="62" rx="10" fill="#e7f0ff" stroke="#5c8bd7"/><text x="64" y="55">Lateral</text><text x="64" y="75">ventricles</text><rect x="152" y="32" width="106" height="62" rx="10" fill="#e5f6ed" stroke="#5d9d7e"/><text x="205" y="55">Third</text><text x="205" y="75">ventricle</text><rect x="290" y="32" width="105" height="62" rx="10" fill="#fff1d7" stroke="#bf953e"/><text x="342" y="55">Cerebral</text><text x="342" y="75">aqueduct</text><rect x="427" y="32" width="105" height="62" rx="10" fill="#e5f6ed" stroke="#5d9d7e"/><text x="479" y="55">Fourth</text><text x="479" y="75">ventricle</text><rect x="564" y="32" width="108" height="62" rx="10" fill="#e7f0ff" stroke="#5c8bd7"/><text x="618" y="55">Subarachnoid</text><text x="618" y="75">space</text></g><g fill="none" stroke="#436f9f" stroke-width="3"><path d="M121 63h25m-7 -6 7 6 -7 6M259 63h25m-7 -6 7 6 -7 6M396 63h25m-7 -6 7 6 -7 6M533 63h25m-7 -6 7 6 -7 6"/></g><g font-size="11" fill="#415772" text-anchor="middle"><text x="136" y="119">Monro</text><text x="545" y="118">Magendie/</text><text x="545" y="133">Luschka</text></g></svg><p>Original conceptual diagram; the choroid plexus produces most CSF, and the arrows represent bulk flow rather than exact anatomical proportions.</p></figure>
 
-The median aperture of **Magendie** and lateral apertures of **Luschka** allow CSF to leave the fourth ventricle. CSF circulates in the subarachnoid space and exits through multiple routes including **arachnoid granulations and lymphatic-associated pathways**. Its important functions include cushioning, buoyancy and solute exchange.
+| CSF value | Typical adult |
+|---|---|
+| Volume | About **150 mL** |
+| Production | About **550 mL/day**, so it is replaced several times a day |
+| Pressure (lumbar, lying down) | **70–180 mm CSF** |
+| Protein | About **20 mg/dL**, far less than plasma |
+| Glucose | About **64 mg/dL**, roughly two-thirds of blood glucose |
 
-### What happens if CSF cannot circulate normally?
+**What CSF does:**
 
-- **Noncommunicating (obstructive) hydrocephalus:** A blockage within the ventricular system, for example at the cerebral aqueduct, prevents downstream flow and dilates upstream ventricles.
-- **Communicating hydrocephalus:** Ventricular pathways remain open, but CSF handling or outflow beyond those pathways is impaired.
+- **Cushions** the brain against blows to the head.
+- **Buoyancy:** a brain weighing about 1400 g in air weighs only about **50 g** in CSF, so it doesn't crush its own base.
+- **Removes waste:** the one-way flow into the blood carries metabolites and drugs away.
+- **Carries hormones** to distant parts of the brain.
 
-Both may raise ICP, but clinical patterns and causes differ. A lumbar puncture accesses **subarachnoid CSF**, usually in the lower lumbar region; suspected mass effect or dangerous pressure gradients require appropriate clinical assessment before performing one.
+**Hydrocephalus: when CSF builds up.**
 
-## 6. What makes the blood–brain barrier selective?
+- **<span data-term="hydrocephalus">Non-communicating</span> (obstructive):** something **blocks the pathway** inside the ventricles, for example at the narrow aqueduct. The ventricles upstream of the block swell.
+- **Communicating:** the ventricles connect normally, but the **arachnoid villi can't absorb** CSF fast enough.
+
+**Lumbar puncture** samples CSF from the **subarachnoid space in the lower back**, below where the spinal cord ends. If ICP may be raised by a mass, it must be checked first, because releasing pressure from below can pull the brain downwards.
+
+**Understanding Check: Sections 4–5**
+
+<p><strong>1.</strong> A patient's MAP is 90 mmHg and ICP rises from 10 to 40 mmHg. What happens to cerebral perfusion pressure?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It falls from 80 to 50 mmHg, although arm blood pressure is unchanged</span><span class="mcq-option" data-option="B">B. It stays at 80 mmHg, because autoregulation keeps it constant</span><span class="mcq-option" data-option="C">C. It rises from 80 to 130 mmHg, because ICP adds to the MAP</span><span class="mcq-option" data-option="D">D. It falls to 40 mmHg, because CPP always equals ICP</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> CPP = MAP − ICP: 90 − 10 = 80, then 90 − 40 = 50 mmHg.</p></details>
+
+<p><strong>2.</strong> In the Cushing reflex, why does the heart rate fall?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The baroreceptors respond to the sympathetic rise in blood pressure</span><span class="mcq-option" data-option="B">B. The vagus nerve is crushed directly by the swollen brain</span><span class="mcq-option" data-option="C">C. Raised ICP blocks sympathetic nerves to the heart</span><span class="mcq-option" data-option="D">D. The heart receives less blood when ICP is high</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Brainstem ischaemia drives blood pressure up. The baroreflex then slows the heart.</p></details>
+
+<p><strong>3.</strong> A tumour blocks the aqueduct of Sylvius. Which ventricles enlarge?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The lateral and third ventricles, upstream of the block</span><span class="mcq-option" data-option="B">B. The fourth ventricle only, downstream of the block</span><span class="mcq-option" data-option="C">C. All four ventricles equally, because CSF absorption fails</span><span class="mcq-option" data-option="D">D. None, because CSF can bypass the aqueduct easily</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> CSF made in the lateral and third ventricles can't get past the aqueduct, so they swell: non-communicating hydrocephalus.</p></details>
+
+## 6. The blood–brain barrier
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Blood_brain_barrier.png" alt="Comparison of brain capillary endothelial barrier with the more permeable capillaries of other tissues"><figcaption><strong>Figure. What makes cerebral capillaries different?</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">David Nascari and Alan Sved, <a href="https://commons.wikimedia.org/wiki/File:Blood_brain_barrier.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption></figure>
 
+In most capillaries, small molecules slip through gaps between the endothelial cells. In the brain, the endothelial cells are sealed together by **<span data-term="tight-junctions">tight junctions</span>**, and there are no gaps or pores. So anything leaving the blood must pass **through** the cells. This is the **<span data-term="bbb">blood–brain barrier</span>**, and it lies in the **capillary endothelium**. Surrounding pericytes and astrocyte endfeet help maintain it.
 
-
-Most cerebral capillaries have **continuous, nonfenestrated endothelial cells joined by tight junctions**. Together with basement membrane, pericytes, astrocytic endfeet and regulated transporters, they form a neurovascular unit that tightly controls exchange.
-
-| Substance | Main route across the BBB |
+| Crosses easily | Crosses poorly |
 |---|---|
-| Oxygen and carbon dioxide | Diffuse across membranes |
-| Glucose | Carrier-mediated transport, especially **GLUT1** |
-| Many ions and water-soluble molecules | Restricted or regulated passage |
-| Some lipid-soluble substances | Can cross relatively easily, depending on properties |
+| **Water, O₂, CO₂** | **Proteins** |
+| **Lipid-soluble** substances (e.g. steroid hormones) | Substances **bound to plasma proteins** |
+| **Glucose**, quickly, but only by a **carrier** (GLUT1) | Most **ions and water-soluble** molecules |
 
-The **blood–CSF barrier** at the choroid plexus is different: its key junctional barrier is the choroid plexus **epithelium**, not simply the capillary endothelium. This distinction matters when interpreting CNS drug entry and fluid physiology.
+**Why have it?** It keeps the neurons' environment **constant**, despite swings in blood ions and hormones, and **shields** them from toxins and circulating antigens.
 
-The brain relies heavily on glucose in normal fed conditions. During prolonged fasting, **ketone bodies** become important alternative fuels; it is inaccurate to assume ordinary long-chain fatty acids freely replace glucose as the brain's main normal fuel.
+**Clinical points:**
 
-## 7. Integrate the mechanisms clinically
+- A drug acting on the brain must be able to **cross** the barrier.
+- The barrier **breaks down** in infection, injury, tumours and inflammation.
 
-**Stroke:** Ischaemic stroke reflects interrupted perfusion, while haemorrhagic stroke involves bleeding. Haemorrhage can damage tissue directly and may also raise ICP. The Circle of Willis offers *potential*, not guaranteed, protection.
+The **choroid plexus** has its own barrier between blood and CSF, but there the seal is formed by the **epithelial cells**, not the capillaries.
 
-**Head injury or expanding tumour:** Additional intracranial volume raises ICP; as CPP decreases, cerebral delivery may become inadequate. Initial compensation can hide an evolving problem.
+## 7. Stroke
 
-**Excessive hyperventilation:** Lower CO₂ can constrict cerebral vessels and lower CBF despite normal systemic BP. It must not be assumed universally beneficial.
+A **stroke** is a sudden loss of blood supply to part of the brain, causing ischaemia and cell death. The signs depend on which artery is affected (<a href="#/physiology/cvs/cerebral?section=2-where-does-the-blood-come-from">§2</a>).
 
-**Key distinction:** Good cerebral circulation requires arterial inflow, an adequate driving pressure, regulated vascular resistance and a stable intracranial environment—not simply a normal reading on an arm cuff.
+| | **Ischaemic stroke** | **Haemorrhagic stroke** |
+|---|---|---|
+| What happens | An artery is **blocked** | An artery **ruptures** and bleeds |
+| Causes | **Atherosclerotic plaque**, **thrombus** or **embolus** | Often a ruptured **aneurysm** |
+| Extra danger | — | The blood adds volume, so **ICP rises** (<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">§4</a>) |
 
-## Comprehensive Understanding Checks
+**Understanding Check: Sections 6–7**
 
-**01. How can the internal carotid and vertebrobasilar systems compensate for one another, and why might compensation fail?**
+<p><strong>1.</strong> Where does the blood–brain barrier lie?<span class="mcq-options"><span class="mcq-option" data-option="A">A. In the tight junctions of the brain's capillary endothelium</span><span class="mcq-option" data-option="B">B. In the arachnoid villi that absorb the cerebrospinal fluid</span><span class="mcq-option" data-option="C">C. In the pia mater that covers the surface of the brain</span><span class="mcq-option" data-option="D">D. In the smooth muscle wall of the cerebral arterioles</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Endothelial cells sealed by tight junctions force substances to pass through the cells, not between them.</p></details>
 
-<details><summary>Show explanation</summary><p>The Circle of Willis links anterior and posterior arterial systems through communicating arteries, creating potential collateral routes when a major inflow vessel narrows. These channels vary in size and may be incomplete, so a sudden occlusion may still deprive brain tissue of oxygen. The MCA is a major branch but is not itself part of the ring.</p></details>
+<p><strong>2.</strong> How does glucose cross the blood–brain barrier?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Quickly, by a specific carrier in the endothelial cells</span><span class="mcq-option" data-option="B">B. Slowly, by diffusing between the endothelial cells</span><span class="mcq-option" data-option="C">C. Only when insulin opens channels in the endothelium</span><span class="mcq-option" data-option="D">D. Bound to plasma proteins that carry it across</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Glucose is water-soluble, so it needs a carrier (GLUT1). The carrier moves it fast, and no insulin is needed.</p></details>
 
-**02. A patient develops right face and arm weakness with aphasia. Which cerebral vascular territory is especially concerning, and why?**
+<p><strong>3.</strong> Why can a haemorrhagic stroke damage brain tissue far from the bleeding artery?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The blood adds volume inside the skull, raising ICP everywhere</span><span class="mcq-option" data-option="B">B. The bleeding artery stops all flow through the Circle of Willis</span><span class="mcq-option" data-option="C">C. The blood dissolves the blood–brain barrier throughout the brain</span><span class="mcq-option" data-option="D">D. The bleed lowers the CSF pressure, so the brain collapses</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> In a rigid skull, extra volume raises ICP, lowering perfusion pressure across the whole brain.</p></details>
 
-<details><summary>Show explanation</summary><p>A left middle cerebral artery territory lesion is a strong possibility, assuming left-hemisphere language dominance. The left motor cortex controls the right side of the body, while dominant-hemisphere lateral cortical regions often support language. This is a territorial clue, not a diagnosis without examination and imaging.</p></details>
+## 8. Chapter Essentials
 
-**03. MAP remains 90 mmHg while ICP rises from 10 to 35 mmHg. How does the approximate CPP change?**
-
-<details><summary>Show explanation</summary><p>Using CPP ≈ MAP − ICP, the initial CPP is 90 − 10 = 80 mmHg. With ICP at 35, CPP falls to 90 − 35 = 55 mmHg. Perfusion driving pressure therefore drops by 25 mmHg even though arm arterial pressure is unchanged. Actual blood flow also depends on cerebrovascular resistance.</p></details>
-
-**04. Why can hyperventilation reduce cerebral blood flow despite unchanged systemic arterial pressure?**
-
-<details><summary>Show explanation</summary><p>Hyperventilation lowers arterial CO₂. This reduces local CO₂-related acidification and tends to constrict cerebral resistance arterioles, increasing resistance and reducing cerebral blood flow. The response illustrates why systemic pressure alone cannot predict tissue perfusion.</p></details>
-
-**05. A growing intracranial haematoma initially produces little ICP change, then pressure rises rapidly. Explain the change.**
-
-<details><summary>Show explanation</summary><p>The Monro–Kellie principle states that brain tissue, blood and CSF occupy a constrained cranial space. Early expansion can be buffered by displacement of CSF and venous blood. Once this compensation is exhausted, additional volume causes a steep rise in ICP, threatening CPP and cerebral perfusion.</p></details>
-
-**06. Explain the mechanism of hypertension with bradycardia in a severe Cushing response.**
-
-<details><summary>Show explanation</summary><p>Severely raised ICP threatens brainstem perfusion, provoking sympathetic vasoconstriction and systemic hypertension in an attempt to restore driving pressure. The resulting arterial pressure rise stimulates baroreceptors and can produce reflex bradycardia. It is a late warning sign, not an ordinary autoregulatory response.</p></details>
-
-**07. Trace CSF from its production site until it enters the subarachnoid space.**
-
-<details><summary>Show explanation</summary><p>CSF produced mainly by ventricular choroid plexuses passes from the lateral ventricles through the foramina of Monro to the third ventricle, then through the cerebral aqueduct to the fourth ventricle. It exits through the median Magendie and lateral Luschka apertures into the subarachnoid space.</p></details>
-
-**08. How would aqueduct obstruction differ from impaired CSF absorption?**
-
-<details><summary>Show explanation</summary><p>A blocked cerebral aqueduct interrupts flow within the ventricular system and causes noncommunicating hydrocephalus, often dilating ventricles upstream of the obstruction. Reduced CSF absorption despite open ventricular routes is a common mechanism of communicating hydrocephalus. Both can increase intracranial pressure.</p></details>
-
-**09. What distinguishes the normal subarachnoid space from the subdural space?**
-
-<details><summary>Show explanation</summary><p>The subarachnoid space between arachnoid and pia normally contains CSF and blood vessels. The subdural space between dura and arachnoid is normally a potential space, not an additional freely circulating CSF compartment. This matters when identifying meninges, bleeding sites and lumbar puncture anatomy.</p></details>
-
-**10. Why does the BBB allow glucose entry while restricting unrestricted passage of many polar substances?**
-
-<details><summary>Show explanation</summary><p>Brain capillary endothelial tight junctions restrict paracellular passage. Glucose crosses mainly through selective carriers such as GLUT1 instead of freely leaking between cells. Controlled transport helps keep the chemical environment around neurons stable while supplying essential nutrients.</p></details>
-
-**11. How is the blood–CSF barrier different from the blood–brain barrier?**
-
-<details><summary>Show explanation</summary><p>At most brain capillaries, specialised endothelial tight junctions form the main blood–brain barrier. At the choroid plexus, the principal tight-junction barrier between blood and CSF is provided by choroid plexus epithelial cells. The two barriers have different anatomical locations and exchange functions.</p></details>
-
-**12. Why can ketone bodies support brain metabolism during prolonged fasting without making fatty acids the brain's usual direct fuel?**
-
-<details><summary>Show explanation</summary><p>During prolonged fasting, the liver makes water-soluble ketone bodies that can cross into the brain and be oxidised for energy, reducing but not eliminating its need for glucose. Long-chain fatty acids do not normally replace glucose as a freely available major brain fuel across the BBB.</p></details>
-
-## Chapter Essentials
-
-1. Internal carotid and vertebrobasilar systems supply the brain; the Circle of Willis provides variable potential collateral pathways.
-2. The ACA, MCA and PCA supply characteristic but overlapping territories; the MCA is not part of the Circle of Willis itself.
-3. Cerebral flow depends on driving pressure and vascular resistance; autoregulation adjusts arteriolar tone to buffer changes in flow.
-4. CO₂ strongly modifies cerebral vascular resistance: hypercapnia tends to dilate and hypocapnia constricts.
-5. CPP is commonly approximated by MAP minus ICP, provided ICP represents the relevant downstream pressure.
-6. The Monro–Kellie principle explains why rising intracranial volume may eventually produce a steep ICP rise.
-7. A severe Cushing response involves sympathetic hypertension and secondary baroreflex bradycardia.
-8. CSF travels lateral ventricles → Monro → third ventricle → aqueduct → fourth ventricle → Magendie/Luschka → subarachnoid space.
-9. The subarachnoid space normally holds CSF; the subdural space is normally potential.
-10. The BBB depends chiefly on brain capillary endothelial tight junctions and selective transport; it differs from the choroid plexus blood–CSF barrier.
-11. Ischaemic and haemorrhagic strokes have different immediate mechanisms; neither is prevented reliably by the Circle of Willis.
-12. Normal systemic BP does not ensure normal cerebral tissue blood flow.
+1. **The brain can't store oxygen:** about 10 seconds without flow causes unconsciousness. The cortex, basal ganglia and thalamus are most sensitive; the brainstem is more resistant.
+2. **Fuel:** glucose (about 90%), taken up without insulin. Prolonged starvation: ketone bodies.
+3. **Supply:** internal carotids + vertebrals → basilar, joined in the **Circle of Willis**. Beyond the ring, **little anastomosis**.
+4. **Autoregulation** keeps flow steady across a wide pressure range. **CO₂** is the strongest controller: high CO₂ dilates, low CO₂ constricts.
+5. **Monro–Kellie:** brain + blood + CSF in a rigid skull. **CPP = MAP − ICP.**
+6. **Cushing reflex:** very high ICP → brainstem ischaemia → hypertension, bradycardia, irregular breathing. A late sign.
+7. **CSF:** made by the choroid plexus; lateral → Monro → third → Sylvius → fourth → Magendie/Luschka → subarachnoid space → arachnoid villi. About 150 mL, about 550 mL/day.
+8. **Hydrocephalus:** non-communicating (pathway blocked) or communicating (absorption fails).
+9. **Blood–brain barrier:** tight junctions in the capillary endothelium. Water, gases and lipid-soluble substances cross; glucose crosses by carrier; proteins don't.
+10. **Stroke:** ischaemic (blocked) or haemorrhagic (ruptured, often an aneurysm).
