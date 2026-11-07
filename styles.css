@@ -103,7 +103,8 @@
 @media(max-width:560px) {.glossary-popup {padding:12px 14px;font-size:12.5px;}:is(.article-text,.cs-body) #chapter-essentials + ol,:is(.article-text,.cs-body) [id$="-chapter-essentials"] + ol {padding:17px 15px 17px 34px;}}
 
 
-/* Concept-first teaching visuals: restrained{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:20px 0 24px}
+/* Concept-first teaching visuals: restrained, responsive and reading-oriented. */
+:is(.article-text,.cs-body) .teaching-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:20px 0 24px}
 :is(.article-text,.cs-body) .media-resource{background:var(--sheet2);border:1px solid var(--line);border-radius:17px;margin:22px 0;padding:20px 21px;overflow:hidden}
 :is(.article-text,.cs-body) .media-resource .media-eyebrow{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--blue);display:block;margin-bottom:7px}
 :is(.article-text,.cs-body) .media-resource h3{font-size:16px;line-height:1.35;color:var(--navy2);margin:0 0 7px}
@@ -1127,3 +1128,48 @@ details.mcq-answer.is-after-answer[open]>p:first-of-type{margin-top:4px}
 .lm-night h3{margin-top:14px}
 .lm-night>p{margin:0 0 6px;color:var(--muted);font-size:14.5px}
 @media(max-width:760px){.lm-learn,.lm-finish{border-radius:18px;padding:16px}.lm-must li{font-size:15.5px}}
+/* ---------- Video card (all chapters) ---------- */
+:is(.article-text,.cs-body) .media-resource.video-resource{background:none;border:0;padding:0;margin:1.6em 0;overflow:visible;max-width:var(--measure)}
+.video-card{display:flex;align-items:center;gap:14px;width:100%;padding:12px 16px 12px 12px;text-align:left;border:1px solid var(--line);border-radius:16px;background:var(--sheet2);color:var(--text);font:inherit;cursor:pointer;transition:border-color .15s,background-color .15s}
+.video-card:hover{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 4%,var(--sheet2))}
+.video-card:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.vc-play{flex:none;position:relative;width:46px;height:46px;border-radius:50%;background:var(--navy)}
+.vc-play::after{content:'';position:absolute;left:18px;top:14px;border-style:solid;border-width:9px 0 9px 14px;border-color:transparent transparent transparent #fff}
+[data-theme="dark"] .vc-play{background:#2c4f8f}
+.vc-text{display:grid;gap:2px;min-width:0}
+.vc-title{font:700 15.5px/1.35 'DM Sans',sans-serif;color:var(--navy)}
+.vc-meta{font-size:13px;color:var(--muted)}
+.vc-desc{font-size:14px;line-height:1.5;color:var(--text);opacity:.85;margin-top:2px}
+.video-resource.is-playing .video-card{border-radius:16px 16px 0 0;border-bottom-color:transparent}
+:is(.article-text,.cs-body) .video-resource .media-stage:not(:empty){aspect-ratio:auto;margin:0;display:block;background:#05080f;border:1px solid var(--line);border-top:0;border-radius:0 0 16px 16px;overflow:hidden}
+:is(.article-text,.cs-body) .video-resource .media-stage iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;min-height:0;border:0}
+.vc-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;background:var(--sheet2)}
+.vc-credit{margin:0;font-size:12.5px;line-height:1.5;color:var(--muted)}
+.vc-credit a,.vv-credit a{color:var(--blue);font-weight:600}
+.vc-close{flex:none;min-height:38px;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:var(--sheet);color:var(--text);font:700 13.5px 'DM Sans',sans-serif;cursor:pointer}
+.vv-foot{position:absolute;left:0;right:0;bottom:calc(14px + env(safe-area-inset-bottom));text-align:center;padding:0 16px}
+.vv-foot .vv-hint{position:static;margin:0 0 6px}
+.vv-credit{margin:0;font-size:12px;color:rgba(255,255,255,.55)}
+.vv-credit a{color:#8fb2ff}
+@media(orientation:landscape){.vv-foot{display:none}}
+@media(max-width:760px){.vc-desc{display:none}.video-card{padding:10px 12px 10px 10px}.vc-play{width:42px;height:42px}.vc-play::after{left:16px;top:12px}}
+/* Other media: labels in sentence case */
+.article-text .media-resource .media-eyebrow{letter-spacing:0;font-size:12.5px;font-weight:700;color:var(--muted)}
+/* Readability floor: no student-facing text below 12px (credits, captions, labels, widget notes) */
+:is(.article-text,.cs-body) :is(figcaption,figcaption strong,figcaption em,.figure-credit,.figure-credit a,.figure-credit em,.figure-attribution summary,.equation-label,.media-credit,.media-credit a,.learning-figure>p,small){font-size:12.5px}
+:is(.article-text,.cs-body) :is(.lymph-flow,.ecg-concept-line,.pulse-mechanism,.vr-flow,.micro-path) span{font-size:12px}
+:is(.article-text,.cs-body) .media-resource+.media-resource{margin-top:10px}
+:is(.article-text,.cs-body) .teaching-illustration figcaption .figure-credit,:is(.article-text,.cs-body) figure figcaption .figure-attribution summary,:is(.article-text,.cs-body) .media-resource .media-credit{font-size:12.5px}
+:is(.article-text,.cs-body) :is(.co-impact-strip,.fick-process,.bp-height-rules) strong{font-size:12px}
+.group-label,.lecture-file,.lecture-page-ref,.lecture-stats span,.done-tag{font-size:12px}
+:is(.article-text,.cs-body) figure figcaption details.figure-attribution span.figure-credit,:is(.article-text,.cs-body) figure figcaption details.figure-attribution span.figure-credit a{font-size:12.5px}
+
+/* Audio and animation: tidy card; technical links and notes stay out of the way */
+:is(.article-text,.cs-body) .media-resource:not(.video-resource) .media-outlink{display:none}
+:is(.article-text,.cs-body) .media-resource:not(.video-resource){max-width:var(--measure);padding:16px 18px;border-radius:16px}
+:is(.article-text,.cs-body) .media-resource:not(.video-resource) h3{font:700 16px/1.35 'DM Sans',sans-serif;color:var(--navy);margin:2px 0 4px}
+:is(.article-text,.cs-body) .media-resource:not(.video-resource)>p:not(.media-credit){font-size:15px;line-height:1.55;margin:0 0 12px}
+:is(.article-text,.cs-body) .media-resource .media-play{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 16px;border-radius:999px;font:700 14px 'DM Sans',sans-serif}
+:is(.article-text,.cs-body) .media-resource .media-play::before{content:'';border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent currentColor}
+:is(.article-text,.cs-body) .media-resource.is-playing .media-play::before{border-width:0;width:10px;height:10px;background:currentColor;border-radius:2px}
+[data-theme="dark"] :is(.article-text,.cs-body) .media-play{background:#2c4f8f;border-color:#2c4f8f;color:#fff}
