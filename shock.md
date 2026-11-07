@@ -1,113 +1,146 @@
-# Circulatory Shock
+# Circulatory <span data-term="shock">Shock</span>
 
-## 1. Shock is failure of tissue perfusion, not a BP threshold
+## 1. What is shock?
 
-**Circulatory shock** is life-threatening circulatory dysfunction leading to inadequate oxygen delivery and/or use relative to tissue metabolic requirements. Blood pressure can be near normal early, because systemic resistance rises while cardiac output and regional perfusion fall. **MAP ≈ CO × SVR** describes how a low CO can be masked by compensatory constriction. Evaluate circulation and tissue perfusion, not one cuff reading.
+**Shock** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
 
-## 2. Oxygen delivery connects physiology to cellular injury
+**Shock is not defined by a blood pressure number.** Recall **mean arterial pressure ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
 
-Systemic oxygen delivery **DO₂ = CO × CaO₂**, where CaO₂ is arterial oxygen content. Approximately **CaO₂ = 1.34 × Hb × SaO₂ + 0.003 × PaO₂** (mL O₂/dL, with Hb in g/dL and PaO₂ in mmHg). Thus haemorrhage can reduce delivery by reducing CO even before a measured Hb concentration falls. Failure of oxygen delivery/utilisation impairs ATP production; lactate can rise, although elevated lactate is not specific proof of tissue hypoxia.
+Every type of shock comes down to one of four failures:
 
-## 3. Four mechanistic classes
+| Type | What has failed | Examples (from the lecture) |
+|---|---|---|
+| **Hypovolaemic** (low volume) | Not enough **blood volume** | Haemorrhage, trauma, surgery, **burns**, severe **diarrhoea and vomiting** |
+| **Cardiogenic** | The heart can't **pump** | Myocardial infarction, heart failure, arrhythmias |
+| **Distributive** (low resistance) | Vessels **dilate** massively, so blood pools and is maldistributed | **Septic** shock, **anaphylaxis**, **neurogenic** shock |
+| **Obstructive** | Blood flow is **blocked** | Cardiac <span data-term="tamponade">tamponade</span>, tension pneumothorax, pulmonary embolism, cardiac tumour |
 
-**Hypovolaemic:** reduced effective intravascular volume (haemorrhage, GI losses, burns). **Cardiogenic:** inadequate pumping (large myocardial infarction, critical arrhythmia). **Distributive:** abnormal vascular tone and flow distribution (sepsis, anaphylaxis, neurogenic shock). **Obstructive:** impeded filling or forward flow (tamponade, tension pneumothorax, massive pulmonary embolism). Causes can overlap; early septic shock may have warm extremities, so cool skin is not universal.
+## 2. Haemorrhage: the model for all shock
 
-## 4. Follow blood loss all the way to organ hypoperfusion
+The lecture uses **haemorrhage** to illustrate the events in every kind of shock. Follow it link by link:
 
-Haemorrhage → circulating volume ↓ → venous return ↓ → preload ↓ → stroke volume ↓ → cardiac output ↓ → oxygen delivery ↓. The fall in arterial stretch unloads baroreceptors, driving sympathetic **tachycardia, increased contractility, venoconstriction and arteriolar constriction**. Skin may become pale and cool while renal perfusion and urine output decline. Reduced venous filling limits the benefit of simply making the heart beat faster.
+1. **Blood is lost**, so **blood volume falls**.
+2. Less blood fills the veins, so **venous return falls**. *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
+3. Less filling, so **stroke volume** falls (Frank–Starling), and **cardiac output falls**. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
+4. Blood pressure falls, and the **tissues are underperfused**.
 
-## 5. Compensation can preserve pressure while organs suffer
+Everything else, the signs, the compensation and the deterioration, follows from this chain.
 
-Early sympathetic responses can restore or partly maintain MAP despite inadequate tissue flow. **Excessive tachycardia** shortens diastolic filling time, potentially making stroke volume smaller. Strong vasoconstriction diverts flow away from skin and some organs; it cannot restore absent circulating volume. Angiotensin II, aldosterone, ADH and thirst help support volume over longer periods but are insufficient without control of major ongoing losses.
+## 3. What you see, and why
 
-## 6. Progressive shock and positive feedback
+| Sign | Why it happens |
+|---|---|
+| **Low blood pressure** | Low cardiac output. (Early on, constriction may hide it.) |
+| **Fast, weak pulse** | Baroreceptors fire less, so the vasomotor centre is released: sympathetic drive gives **reflex tachycardia**. The pulse is **weak** because stroke volume is small. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)* |
+| **Pale, cool, clammy skin** | Sympathetic **vasoconstriction** is generalised but most **marked in the skin**; sweating adds the clamminess. The **heart and brain are spared**. *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
+| **Low urine output** | Constriction of renal arterioles lowers **<span data-term="gfr">GFR</span>**; the kidneys also keep **Na⁺** and water. Urea builds up in the blood. |
+| **Rapid breathing** | Low flow starves the **chemoreceptors** of oxygen, and **lactic acid** builds up; both drive breathing. *(<a href="#/physiology/cvs/reflexes?section=5-chemoreceptors">→ Reflexes, §5</a>)* |
+| **Intense thirst** | **Angiotensin II** and **ADH** rise. |
+| **Restless and anxious**, later **dull and apathetic** | Early: sympathetic arousal (restlessness also works the **muscle pump**). Later: **cerebral ischaemia**. |
+| **Lactic acidosis** | Without enough oxygen, cells switch to **<span data-term="anaerobic-glycolysis">anaerobic glycolysis</span>**, making **lactic acid**. |
 
-Persistent hypoperfusion can produce cellular energy failure, acidosis, impaired myocardial performance and endothelial injury. Capillary leak and microvascular dysfunction can reduce effective circulating volume and oxygen extraction further. **Worsening flow → tissue injury → poorer pump/vascular function → still worse flow** is a reinforcing loop. Severe stages may become refractory despite treatment; there is no universal clock at which shock becomes irreversible.
+## 4. How the body fights back
 
-## 7. Why acute haemorrhage may initially show normal Hb and haematocrit
+**Within seconds: nerves.** Falling blood pressure unloads the baroreceptors, and the chemoreceptors are stimulated. Sympathetic discharge rises:
 
-A person loses **whole blood**, so both circulating red cells and plasma are removed together. Their *ratio*—haematocrit—and Hb *concentration* may remain near baseline immediately. Subsequent interstitial fluid recruitment and infused IV fluid dilute the residual red cells; Hb and haematocrit can then fall. Initial laboratory concentrations must not override evidence of acute bleeding and hypoperfusion. Erythropoietin-driven red cell replacement takes much longer than volume adjustments.
+- **Heart:** faster and stronger.
+- **Arterioles:** constrict everywhere **except the heart and brain**, raising resistance and redirecting flow to them.
+- **Veins:** constrict, squeezing out stored blood. The **splanchnic** veins, the **skin** and even the **pulmonary** veins give up blood to the systemic circulation. *(<a href="#/physiology/cvs/splanchnic?section=3-blood-flow-after-meals-and-in-shock">→ Splanchnic Circulation, §3</a>)*
+- **Adrenal medulla:** releases **adrenaline and noradrenaline**, reinforcing all of this.
 
-## 8. The physiology behind bedside signs
+**Within minutes to hours: hormones.**
 
-**Tachycardia** reflects sympathetic compensation in many forms, but can be absent with β-blockade, conduction disturbances or neurogenic causes. **Cool skin** often reflects peripheral constriction; **warm skin** can occur early in distributive shock. **Oliguria** suggests reduced renal perfusion or renal dysfunction; altered mentation may signal cerebral hypoperfusion. Lactate, capillary refill and trends can contribute, but none alone establishes or excludes shock.
+- **Renin → angiotensin II → aldosterone:** constriction, salt and water retention, thirst.
+- **ADH (vasopressin):** water retention and constriction.
+- **ACTH → cortisol.**
 
-## 9. Hypovolaemic, cardiogenic, distributive and obstructive reasoning
+*(<a href="#/physiology/cvs/neural-humoral?section=6-fast-slow-and-slower-putting-it-together">→ Neural and Hormonal Control, §6</a>)*
 
-In **hypovolaemia**, filling pressure is often low; in **cardiogenic pump failure**, filling pressures may rise behind the failing ventricle; in **distributive** forms systemic resistance is often low and circulation maldistributed, though later mixed myocardial depression occurs; in **obstructive** forms flow is mechanically impeded. These are **typical patterns**, not hard rules. Identify the failing link rather than treating all hypotension as a lack of fluid.
+**Within hours: fluid moves into the blood.** Arteriolar constriction and low pressure **lower capillary hydrostatic pressure**, so the balance at the capillaries tips towards **reabsorption**. Fluid moves from the **interstitial spaces into the blood**, partly refilling it. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*
 
-## 10. Clinical synthesis and limits
+**Over days to weeks: full repair.**
 
-The immediate priorities in suspected shock are urgent assessment of airway, breathing and circulation and rapid treatment of the underlying cause in a clinical setting. **Bleeding requires haemorrhage control**, pump failure requires cause-directed management, obstructive causes need relief, and distributive causes need targeted treatment. This chapter teaches physiology, not a substitute for emergency clinical protocols.
+- If bleeding stops, **blood volume** is restored in about **12–72 hours**, mainly by drawing in fluid and retaining salt and water.
+- That added fluid **dilutes** the blood, so **plasma proteins** and **haemoglobin** concentration fall.
+- **<span data-term="erythropoietin">Erythropoietin</span>** from the kidney drives new red cell production; haemoglobin returns to normal in about **4–5 weeks**.
 
-## Further physiological insights
+### The lecture's question: Hb and haematocrit after losing whole blood
 
-The lecture includes concealed internal bleeding after femoral fracture, splenic rupture or ectopic pregnancy; burn-related plasma losses may initially produce haemoconcentration rather than the typical immediate whole-blood Hb concentration pattern. It also covers myoglobin-associated renal injury in trauma, low urine output and tubular injury, myocardial ischaemia, capillary stasis and eventual vascular hyporesponsiveness. Vasovagal, postural, micturition and carotid-sinus syncope have distinct triggers; ordinary orthostatic syncope does not require bradycardia.
+**Immediately after a bleed, Hb and haematocrit are normal.** Whole blood is lost, so red cells and plasma are lost **in the same proportion**: what remains has the same concentration. They **fall later**, as interstitial fluid (and any IV fluid) dilutes the remaining red cells. So a **normal Hb doesn't rule out a large, recent bleed**.
 
-## Understanding Checks
+**Understanding Check: Sections 1–4**
 
-**01. Can a patient be shocked with a near-normal MAP after major bleeding?**
+<p><strong>1.</strong> Why can blood pressure look nearly normal early in shock?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Sympathetic constriction raises resistance, hiding a fall in cardiac output</span><span class="mcq-option" data-option="B">B. Cardiac output rises early in shock, offsetting the fall in volume</span><span class="mcq-option" data-option="C">C. The blood becomes more viscous, raising resistance and pressure</span><span class="mcq-option" data-option="D">D. Shock affects only the veins, not the arteries, at first</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> MAP ≈ CO × TPR. A rising TPR can hold MAP up while CO and organ flow fall.</p></details>
 
-<details><summary>Show explanation</summary>Yes. Raised SVR may sustain MAP while reduced venous return and cardiac output impair tissue oxygen delivery. Clinical perfusion matters.</details>
+<p><strong>2.</strong> Why is the skin pale and cool in haemorrhagic shock, while the brain stays perfused?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Sympathetic constriction is marked in the skin but spares the heart and brain</span><span class="mcq-option" data-option="B">B. The skin loses blood first, because its vessels are closest to the wound</span><span class="mcq-option" data-option="C">C. The brain constricts its own arteries to hold blood inside the skull</span><span class="mcq-option" data-option="D">D. Low body temperature constricts the skin vessels in all patients</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Generalised constriction redirects flow to the heart and brain, which have little sympathetic constriction.</p></details>
 
-**02. Write the equation connecting oxygen delivery to cardiac output.**
+<p><strong>3.</strong> A man has lost 1.5 L of blood in the last 30 minutes. His haemoglobin is normal. Why?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Red cells and plasma were lost together, so the concentration hasn't changed yet</span><span class="mcq-option" data-option="B">B. The spleen has released enough stored red cells to replace those lost</span><span class="mcq-option" data-option="C">C. Erythropoietin has already restored the red cell count</span><span class="mcq-option" data-option="D">D. The kidneys have retained enough water to restore the concentration</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Whole blood loss keeps the ratio the same. Hb falls later, as fluid moves in and dilutes the blood.</p></details>
 
-<details><summary>Show explanation</summary>Systemic oxygen delivery equals cardiac output multiplied by arterial oxygen content: DO₂ = CO × CaO₂. During haemorrhage, cardiac output may fall immediately from reduced venous return, even while haemoglobin concentration initially remains near its starting value. Normal early Hb does not imply normal oxygen delivery.</details>
+## 5. When shock feeds on itself: progressive and irreversible shock
 
-**03. Why does severe tachycardia sometimes worsen haemorrhagic shock?**
+If the blood loss is large or prolonged, the compensation fails, and several **vicious cycles** (positive feedback) take over. Each one makes perfusion worse, which makes the cycle turn faster:
 
-<details><summary>Show explanation</summary>A compensatory faster heartbeat initially supports output, but extreme tachycardia shortens diastole, the period for ventricular filling. If blood volume and venous return are already low, each beat may start with less blood, decreasing stroke volume enough to offset the increased rate.</details>
+<figure class="learning-figure shock-cycle-figure" id="cvs20-cycle"><figcaption>Figure. Progressive shock: the vicious cycles</figcaption><svg viewBox="0 0 400 400" role="img" aria-label="A central box, low cardiac output and blood pressure, with four loops that each lead back to it. One: low coronary flow and acidosis weaken the heart. Two: the vasomotor centre fails, so the heart slows and vessels dilate. Three: lactic acidosis depresses the heart and the vessels stop responding to adrenaline. Four: capillary stasis makes fluid leak out, so volume falls. Each loop lowers cardiac output and blood pressure further."><defs><marker id="sh-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="sh-arrowhead"/></marker></defs><g class="sh-arrow"><path d="M122 168L68 104" marker-end="url(#sh-head)"/><path d="M140 104L176 166" marker-end="url(#sh-head)"/><path d="M278 168L332 104" marker-end="url(#sh-head)"/><path d="M260 104L224 166" marker-end="url(#sh-head)"/><path d="M122 234L68 304" marker-end="url(#sh-head)"/><path d="M140 304L176 238" marker-end="url(#sh-head)"/><path d="M278 234L332 304" marker-end="url(#sh-head)"/><path d="M260 304L224 238" marker-end="url(#sh-head)"/></g><rect x="100" y="170" width="200" height="64" rx="12" class="sh-centre"/><g class="sh-box"><rect x="8" y="16" width="176" height="86" rx="10"/><rect x="216" y="16" width="176" height="86" rx="10"/><rect x="8" y="306" width="176" height="86" rx="10"/><rect x="216" y="306" width="176" height="86" rx="10"/></g><g text-anchor="middle"><text x="200" y="196" class="sh-lab">Low cardiac output</text><text x="200" y="216" class="sh-lab">and blood pressure</text><text x="96" y="40" class="sh-lab">1 · Heart weakens</text><text x="96" y="60" class="sh-sub">low coronary flow</text><text x="96" y="78" class="sh-sub">and acidosis</text><text x="304" y="40" class="sh-lab">2 · Brainstem fails</text><text x="304" y="60" class="sh-sub">vasomotor centre: heart</text><text x="304" y="78" class="sh-sub">slows, vessels dilate</text><text x="96" y="330" class="sh-lab">3 · Lactic acidosis</text><text x="96" y="350" class="sh-sub">heart depressed; vessels</text><text x="96" y="368" class="sh-sub">ignore adrenaline</text><text x="304" y="330" class="sh-lab">4 · Capillary stasis</text><text x="304" y="350" class="sh-sub">blood stagnates, fluid</text><text x="304" y="368" class="sh-sub">leaks: volume falls</text></g></svg><p>Each loop starts from poor perfusion and ends by lowering cardiac output and blood pressure further, so the cycle turns faster. Original DOMiNANCE diagram.</p></figure>
 
-**04. Why is vasoconstriction initially adaptive in haemorrhage?**
+1. **The heart fails.** Low blood pressure means low **coronary** flow. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a>)* Ischaemia and **acidosis** weaken the heart muscle, so cardiac output falls further.
+2. **The vasomotor centre fails.** Prolonged **cerebral ischaemia** depresses it. Sympathetic drive collapses: the heart **slows** and the vessels **dilate**. Blood pressure and brain flow fall further.
+3. **Acidosis.** **Lactic acid** depresses the heart and makes the vessels **stop responding to adrenaline and noradrenaline**.
+4. **Capillary stasis and leak.** Late in shock, the **precapillary sphincters relax but the venules stay constricted**. Blood enters the capillaries but can't leave, so it **stagnates**, capillary **hydrostatic pressure rises**, and fluid is **lost into the tissues**. Volume falls further.
+5. **The kidneys are damaged.** Prolonged low flow can cause **acute tubular damage**.
 
-<details><summary>Show explanation</summary>It increases SVR and supports arterial pressure while diverting limited blood toward vital organs, but cannot replace lost blood.</details>
+**Irreversible shock:** eventually, even if the lost blood is **fully replaced**, the circulation doesn't recover: resistance stays low, the heart stays weak, and the patient dies. The tissues, especially the heart and brain, have been too badly damaged.
 
-**05. Which shock type is most directly caused by cardiac tamponade?**
+## 6. The other types of shock
 
-<details><summary>Show explanation</summary>Obstructive shock, because pericardial pressure mechanically restricts ventricular filling and forward output.</details>
+**Hypovolaemic shock without visible bleeding.** Bleeding can be **concealed**:
 
-**06. Which shock type usually follows a large infarct with severe pump dysfunction?**
+- A **fractured femur** can hide over a litre of blood in the thigh.
+- A **ruptured spleen** or a ruptured **ectopic pregnancy** bleeds into the abdomen.
 
-<details><summary>Show explanation</summary>Cardiogenic shock: inadequate myocardial pumping reduces forward output, sometimes despite elevated filling pressures.</details>
+Other causes of volume loss (the lecture's list):
 
-**07. Why can early septic shock have warm skin?**
+- **Burns:** **plasma** seeps from the burnt skin, but the red cells stay behind. So the blood becomes **concentrated** (<span data-term="haemoconcentration">haemoconcentration</span>): Hb and haematocrit **rise**, the opposite of haemorrhage.
+- **Traumatic shock:** crushed muscle releases **<span data-term="myoglobin">myoglobin</span>**, which damages the kidneys.
+- **Surgical shock:** bleeding and dehydration.
+- **Diarrhoea, uncontrolled diabetes and adrenal insufficiency:** salt and water loss.
 
-<details><summary>Show explanation</summary>Distributive vasodilation can increase cutaneous blood flow despite severe circulatory dysfunction.</details>
+**Cardiogenic shock.** The volume is normal, but the heart can't pump it, so cardiac output falls (myocardial infarction, heart failure, arrhythmias). Blood **backs up** behind the failing ventricle, so venous pressure and the JVP are often **high**, unlike haemorrhage. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
 
-**08. Why may Hb and haematocrit be nearly unchanged immediately after acute whole-blood loss?**
+**Distributive (low-resistance) shock.** The blood volume is normal, but **massive vasodilation** lets blood **pool** and flow is maldistributed:
 
-<details><summary>Show explanation</summary>Immediately after an acute whole-blood haemorrhage, both red cells and plasma are lost, so the concentration of haemoglobin and haematocrit may initially change little despite a substantial reduction in total circulating red-cell mass. Later interstitial fluid shifts or intravenous fluids dilute the remaining blood.</details>
+| Type | Cause | Key feature |
+|---|---|---|
+| **Neurogenic** | Sudden loss of sympathetic tone (spinal cord injury, spinal anaesthesia; the lecture also includes fainting from strong emotion) | Vessels dilate; the heart may be **slow** |
+| **Septic** | **Bacterial toxins** | Vasodilation **and** leaky capillaries; skin may be **warm** early *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
+| **Anaphylactic** | An **antigen–antibody** reaction releases **histamine** | Widespread dilation **and** leaky capillaries |
 
-**09. Why does measured Hb often fall later after bleeding?**
+**Obstructive shock.** Something blocks filling or outflow: fluid compressing the heart (**tamponade**), a **<span data-term="tension-pneumothorax">tension pneumothorax</span>** squeezing the great veins, or a **pulmonary embolism** blocking the pulmonary artery.
 
-<details><summary>Show explanation</summary>Over time, fluid moves from the interstitium into the vascular space, and administered crystalloid may add further plasma volume. Because the lost red cells have not yet been replaced, haemoglobin concentration and haematocrit commonly fall after this haemodilution.</details>
+**Understanding Check: Sections 5–6**
 
-**10. Why can lactate rise in shock, and why is it not fully specific?**
+<p><strong>1.</strong> In progressive shock, why does failure of the vasomotor centre make things worse?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Sympathetic drive collapses, so the heart slows and the vessels dilate</span><span class="mcq-option" data-option="B">B. The vasomotor centre starts releasing more adrenaline into the blood</span><span class="mcq-option" data-option="C">C. The baroreceptors stop firing, so blood pressure rises suddenly</span><span class="mcq-option" data-option="D">D. Breathing stops, so the lungs no longer supply oxygen</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Prolonged cerebral ischaemia depresses the vasomotor centre, removing the constriction that was holding up pressure.</p></details>
 
-<details><summary>Show explanation</summary>Low oxygen delivery may increase anaerobic glycolysis and lactate, but adrenergic stimulation, clearance changes and other causes also affect lactate.</details>
+<p><strong>2.</strong> Late in shock, the precapillary sphincters relax while the venules stay constricted. What follows?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Blood stagnates, capillary pressure rises and fluid leaks out</span><span class="mcq-option" data-option="B">B. Blood flows faster, washing out the lactic acid from the tissues</span><span class="mcq-option" data-option="C">C. Capillary pressure falls, so fluid moves back into the blood</span><span class="mcq-option" data-option="D">D. The venules pump blood back to the heart more efficiently</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Blood enters the capillaries but can't leave, so filtration rises and more volume is lost.</p></details>
 
-**11. Explain one positive feedback loop in progressive shock.**
+<p><strong>3.</strong> A patient with severe burns has a raised haematocrit. Why is this different from haemorrhage?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Burns lose plasma but not red cells, so the blood becomes concentrated</span><span class="mcq-option" data-option="B">B. Burns lose red cells but not plasma, so the blood becomes diluted</span><span class="mcq-option" data-option="C">C. Burns stimulate erythropoietin at once, so new red cells appear</span><span class="mcq-option" data-option="D">D. Burns lose whole blood, which always raises the haematocrit</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Plasma seeps from the burnt skin while red cells stay behind: haemoconcentration.</p></details>
 
-<details><summary>Show explanation</summary>Low perfusion produces acidosis and myocardial/endothelial injury, worsening cardiac function, microvascular flow and effective volume; this further lowers perfusion.</details>
+<p><strong>4.</strong> How does septic shock differ from haemorrhagic shock in its early stage?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Volume is normal but vessels dilate and leak, so the skin may be warm</span><span class="mcq-option" data-option="B">B. Volume is low and vessels constrict, so the skin is always cold</span><span class="mcq-option" data-option="C">C. The heart stops pumping, so blood backs up into the veins</span><span class="mcq-option" data-option="D">D. A blood clot blocks the pulmonary artery, so filling falls</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Bacterial toxins cause vasodilation and leaky capillaries: a distributive shock.</p></details>
 
-**12. Why is the treatment target different in obstructive and hypovolaemic shock?**
+## 7. Chapter Essentials
 
-<details><summary>Show explanation</summary>Obstructive shock requires relief of the mechanical block; hypovolaemic shock requires correcting volume loss and its cause. Treating every low BP identically misses the mechanism.</details>
-
-## Chapter Essentials
-
-1. **Shock is failure of tissue perfusion, not a BP threshold** — Circulatory shock is life-threatening circulatory dysfunction leading to inadequate oxygen delivery and/or use relative to tissue metabolic requirements.
-2. **Oxygen delivery connects physiology to cellular injury** — Systemic oxygen delivery DO₂ = CO × CaO₂, where CaO₂ is arterial oxygen content.
-3. **Four mechanistic classes** — Hypovolaemic: reduced effective intravascular volume (haemorrhage, GI losses, burns).
-4. **Follow blood loss all the way to organ hypoperfusion** — Haemorrhage → circulating volume ↓ → venous return ↓ → preload ↓ → stroke volume ↓ → cardiac output ↓ → oxygen delivery ↓.
-5. **Compensation can preserve pressure while organs suffer** — Early sympathetic responses can restore or partly maintain MAP despite inadequate tissue flow.
-6. **Progressive shock and positive feedback** — Persistent hypoperfusion can produce cellular energy failure, acidosis, impaired myocardial performance and endothelial injury.
-7. **Why acute haemorrhage may initially show normal Hb and haematocrit** — A person loses whole blood, so both circulating red cells and plasma are removed together.
-8. **The physiology behind bedside signs** — Tachycardia reflects sympathetic compensation in many forms, but can be absent with β-blockade, conduction disturbances or neurogenic causes.
-9. **Hypovolaemic, cardiogenic, distributive and obstructive reasoning** — In hypovolaemia, filling pressure is often low; in cardiogenic pump failure, filling pressures may rise behind the failing ventricle; in distributive forms systemic resistance is often low and circulation maldistributed, though later mixed myocardial depression occurs; in obstructive forms flow is mechanically impeded.
-10. **Clinical synthesis and limits** — The immediate priorities in suspected shock are urgent assessment of airway, breathing and circulation and rapid treatment of the underlying cause in a clinical setting.
-
-## Sources and scope
-
-- Primary: CIRCULATION 3 Homeostasis in CVS.pdf, slides 12–30.
-- Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
+1. **Shock** = tissue perfusion too low for normal function, which damages tissues. Blood pressure can look normal early.
+2. **Four types:** hypovolaemic (volume), cardiogenic (pump), distributive (vessels dilate), obstructive (flow blocked).
+3. **Haemorrhage chain:** volume ↓ → venous return ↓ → stroke volume ↓ → cardiac output ↓ → perfusion ↓.
+4. **Signs:** low BP; fast, weak pulse; pale, cool skin; low urine; rapid breathing; thirst; restless, then dull; lactic acidosis. Each has a mechanism.
+5. **Compensation:** baroreflex and chemoreceptors (seconds), adrenal medulla, renin–angiotensin–aldosterone, ADH, cortisol (minutes to hours), interstitial fluid moving into the blood (hours).
+6. **Repair:** volume in 12–72 h; Hb by erythropoietin in 4–5 weeks. **Hb is normal straight after a bleed**, then falls with dilution.
+7. **Progressive shock:** heart fails, vasomotor centre fails, acidosis, capillary stasis and leak, kidney damage. **Irreversible shock:** no recovery even when volume is replaced.
+8. **Burns** concentrate the blood (plasma loss); **trauma** releases myoglobin; bleeding can be **concealed** (femur, spleen, ectopic).
+9. **Distributive:** neurogenic, septic (warm skin early), anaphylactic (histamine). **Cardiogenic:** high venous pressure. **Obstructive:** tamponade, tension pneumothorax, pulmonary embolism.
