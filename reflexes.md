@@ -1,103 +1,148 @@
-# Cardiovascular Reflexes and the Cushing Response
+# Cardiovascular Reflexes
 
-## 1. What makes a cardiovascular reflex?
+## 1. What is a cardiovascular reflex?
 
-A reflex involves a **stimulus**, receptor, afferent nerve, integration centre, autonomic efferent pathway and target response. Reflexes use negative feedback to stabilise arterial pressure or support filling. Understanding the direction of each link avoids memorising isolated arrows.
+Chapter 17 described the **controls**: the vasomotor centre, the sympathetic nerves, the vagus. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* This chapter describes the **sensors** that tell the centre when to act.
 
-## 2. Baroreceptors and their afferents
+Every reflex has the same five links:
 
-Arterial **stretch-sensitive endings** in the carotid sinus and aortic arch increase firing when their walls stretch more. Carotid sinus signals pass through **Hering's nerve → glossopharyngeal nerve (CN IX) → medullary NTS**. Aortic arch signals travel primarily through **vagus (CN X) → NTS**. They respond to mechanical stretch associated with pressure, not directly to blood oxygen concentration.
+**Stimulus → receptor → sensory (afferent) nerve → medulla → autonomic (efferent) nerves → heart and vessels**
 
-## 3. Arterial pressure rises: trace negative feedback
+Most cardiovascular reflexes are **negative feedback**: they push the change back the other way.
 
-Increased pressure stretches baroreceptors and increases afferent firing. The medulla decreases sympathetic cardiac/vascular drive and increases cardiac vagal action. **Heart rate, contractility, arteriolar resistance and often venous tone fall**, opposing the rise in MAP. The baroreflex buffers *rapid* changes; prolonged hypertension can reset its operating point.
+## 2. Baroreceptors: the body's pressure sensors
 
-## 4. Arterial pressure falls: trace the reverse response
+**<span data-term="baroreceptors">Baroreceptors</span>** are stretch-sensitive nerve endings in the walls of the large arteries. They don't sense pressure directly: they sense **stretch**. Higher pressure stretches the wall more, so they **fire faster**.
 
-Less arterial stretch reduces baroreceptor firing, increases sympathetic outflow and withdraws vagal restraint. HR and contractility tend to rise; arterioles constrict and veins mobilise blood centrally. These responses defend pressure but cannot replace major blood loss. Reflex tachycardia can be absent or blunted because of medications, conduction disease or other competing influences.
+| Site | Sensory nerve | Arrives at |
+|---|---|---|
+| **Carotid sinus** (where the common carotid divides) | **Carotid sinus nerve**, a branch of the **glossopharyngeal nerve (IX)** | **<span data-term="nts">NTS</span>** in the medulla |
+| **Aortic arch** | **Vagus nerve (X)** | **NTS** in the medulla |
 
-## 5. Chemoreceptor reflexes
+Both sit in **high-pressure** arteries, right at the "inlets" to the brain and body.
 
-Peripheral chemoreceptors in **carotid and aortic bodies** sense decreased arterial oxygen, elevated CO₂ and/or increased H⁺ under appropriate conditions. Carotid body afferents travel via CN IX; aortic body afferents primarily via CN X. Their chief role includes stimulating ventilation, while cardiovascular effects depend on the interaction with respiratory and other reflexes. **Do not confuse carotid body chemoreceptors with carotid sinus baroreceptors.**
+## 3. The baroreflex, step by step
 
-## 6. Low-pressure receptors and the Bainbridge response
+<div class="view-switch">
+<figure class="learning-figure baroreflex-figure static-view" id="cvs18-baroreflex"><figcaption>Figure. The baroreflex loop when blood pressure rises</figcaption><svg viewBox="0 0 400 470" role="img" aria-label="Loop diagram. Blood pressure rises, so the carotid sinus and aortic arch baroreceptors fire faster. Signals travel in cranial nerves IX and X to the NTS in the medulla. The NTS excites the depressor area, which inhibits the pressor area, so sympathetic firing to the heart, arterioles and veins falls. The NTS also excites the vagal neurons, so vagal firing to the SA node rises. The heart becomes slower and weaker, arterioles dilate and veins relax, so blood pressure falls back towards normal. When pressure falls, every arrow reverses."><defs><marker id="bx-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="bx-arrowhead"/></marker></defs><g class="bx-arrow"><path d="M280 32H310V82" marker-end="url(#bx-head)"/><path d="M310 142V170" marker-end="url(#bx-head)"/><path d="M230 198H107V254" marker-end="url(#bx-head)"/><path d="M310 224V254" marker-end="url(#bx-head)"/><path d="M107 314V344" marker-end="url(#bx-head)"/><path d="M300 314V344" marker-end="url(#bx-head)"/><path d="M107 404V426" marker-end="url(#bx-head)"/><path d="M300 404V426" marker-end="url(#bx-head)"/><path d="M24 445H10V32H118" marker-end="url(#bx-head)"/></g><g class="bx-node"><rect x="120" y="8" width="160" height="48" rx="10"/><rect x="230" y="84" width="160" height="58" rx="10"/><rect x="230" y="172" width="160" height="52" rx="10"/><rect x="24" y="256" width="166" height="58" rx="10"/><rect x="210" y="256" width="180" height="58" rx="10"/><rect x="24" y="346" width="166" height="58" rx="10"/><rect x="210" y="346" width="180" height="58" rx="10"/></g><rect x="24" y="428" width="366" height="34" rx="10" class="bx-effect"/><g text-anchor="middle"><text x="200" y="28" class="bx-lab">Blood pressure</text><text x="200" y="46" class="bx-sub"><tspan class="bx-up">rises ↑</tspan></text><text x="310" y="104" class="bx-lab">Baroreceptors</text><text x="310" y="120" class="bx-sub">carotid sinus, aortic arch</text><text x="310" y="136" class="bx-sub"><tspan class="bx-up">fire faster ↑</tspan></text><text x="310" y="194" class="bx-lab">IX and X → NTS</text><text x="310" y="212" class="bx-sub">in the medulla</text><text x="107" y="278" class="bx-lab">Depressor area <tspan class="bx-up">↑</tspan></text><text x="107" y="298" class="bx-sub">inhibits the pressor area</text><text x="300" y="278" class="bx-lab">Vagal neurons <tspan class="bx-up">↑</tspan></text><text x="300" y="298" class="bx-sub">in the medulla</text><text x="107" y="368" class="bx-lab">Sympathetic <tspan class="bx-down">↓</tspan></text><text x="107" y="388" class="bx-sub">heart, arterioles, veins</text><text x="300" y="368" class="bx-lab">Vagus to SA node <tspan class="bx-up">↑</tspan></text><text x="300" y="388" class="bx-sub">slows the heart</text><text x="207" y="450" class="bx-sub">Slower, weaker heart · arterioles dilate · veins relax</text></g><text x="18" y="76" class="bx-lab bx-down">…so pressure</text><text x="18" y="94" class="bx-lab bx-down">falls back ↓</text></svg><p>When blood pressure <strong>falls</strong>, every arrow reverses: the baroreceptors fire less, sympathetic firing rises, vagal firing falls, and the heart speeds up while the vessels constrict. Original DOMiNANCE diagram.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="reflex-tracer" data-desc="sr"><figcaption>Reflex tracer</figcaption><p>Three buttons: "Blood pressure rises", "Blood pressure falls" and "Intracranial pressure rises". Each press steps through the reflex one link at a time (Next / Back), lighting up each part of the loop with an up or down arrow and one sentence of explanation. A final summary row shows heart rate, contractility, arteriolar tone, venous tone and blood pressure. Shown with the static baroreflex figure behind the Diagram | Interactive switch.</p></figure>
+</div>
 
-Receptors in the atria and pulmonary vessels monitor central filling. Physiology distinguishes **type A atrial receptor discharge around atrial contraction** and **type B discharge around filling**. Stretch at the atrial–venous junction can promote a **Bainbridge reflex** increase in heart rate, helping manage increased venous return. The outcome depends on concurrent baroreflex input; atrial filling does not invariably produce tachycardia. Atrial stretch can also promote ANP release and alter volume-related hormonal responses.
+**When blood pressure rises:**
 
-## 7. Cushing response: threatened cerebral perfusion
+1. The arterial walls **stretch more**, so the baroreceptors **fire faster**.
+2. Signals travel up IX and X to the **NTS**.
+3. The NTS **excites the depressor area**, which **inhibits the pressor area**. Sympathetic firing **falls**.
+4. The NTS also **excites the vagal neurons**. Vagal firing to the heart **rises**.
+5. Result: the heart beats **slower** and **less forcefully**, arterioles **dilate** and veins **relax**.
+6. Cardiac output and resistance both fall, so blood pressure **falls back towards normal**.
 
-**Cerebral perfusion pressure (CPP) ≈ MAP − ICP** when ICP exceeds the relevant venous outflow pressure. Markedly rising intracranial pressure reduces perfusion. Severe brainstem ischaemia can provoke **sympathetic vasoconstriction and hypertension** to sustain perfusion. The resulting raised MAP activates **arterial baroreceptors**, contributing to **bradycardia**. Abnormal respiration can develop from brainstem dysfunction. Hypertension, bradycardia and irregular respiration comprise the classic **Cushing triad**—an ominous, often late sign, not a universal early presentation of elevated ICP.
+**When blood pressure falls**, everything runs in reverse:
 
-## 8. Compare apparently opposite reflex responses
+1. Less stretch, so the baroreceptors **fire less**.
+2. The depressor area is **no longer excited**, so the pressor area is **released**. Sympathetic firing **rises**.
+3. Vagal firing **falls**.
+4. Result: **faster** heart (**tachycardia**), **stronger** beats, arterioles **constrict**, veins **squeeze** stored blood towards the heart.
+5. Blood pressure **rises back towards normal**.
 
-**Ordinary blood loss** tends to cause baroreflex **tachycardia** and vasoconstriction. **Increased ICP** may create a Cushing sequence of sympathetic **hypertension** followed by **baroreflex bradycardia**. **Increased atrial filling** can stimulate a Bainbridge tendency toward tachycardia. Different primary stimuli can therefore yield different HR directions; always identify the initiating stimulus before predicting output.
+**What the baroreflex is good at, and what it isn't:**
 
-## Further physiological insights
+- It is excellent at buffering **sudden** changes: standing up, a sudden bleed. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
+- It is **not** in charge of long-term blood pressure. If pressure stays high for days, the baroreceptors **reset** to the new level and defend that instead. Long-term pressure is set mainly by the kidneys' control of salt and water. *(<a href="#/physiology/cvs/neural-humoral?section=6-fast-slow-and-slower-putting-it-together">→ Neural and Hormonal Control, §6</a>)*
+- It **can't replace lost blood**. A fast heart after a bleed shows the reflex is working, not that the problem is solved. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-Additional lecture inputs include cortical and hypothalamic influences, pulmonary inflation afferents, hypoxia, hypercapnia and pain. Brief painful stimuli may increase sympathetic pressure responses, while emotional or sustained-pain triggers can evoke vasovagal hypotension. Increased atrial filling can also suppress ADH and stimulate natriuretic peptide signalling.
+**Understanding Check: Sections 1–3**
 
-## Understanding Checks
+<p><strong>1.</strong> Which nerve carries signals from the carotid sinus baroreceptors?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The glossopharyngeal nerve (IX), via the carotid sinus nerve</span><span class="mcq-option" data-option="B">B. The vagus nerve (X), via its branches to the aortic arch</span><span class="mcq-option" data-option="C">C. The hypoglossal nerve (XII), via its branches in the neck</span><span class="mcq-option" data-option="D">D. The sympathetic chain, via the superior cervical ganglion</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Carotid sinus → IX. Aortic arch → X.</p></details>
 
-**01. Where are the two major high-pressure arterial baroreceptor sites?**
+<p><strong>2.</strong> A patient's blood pressure suddenly rises. What does the baroreflex do to heart rate and arterioles?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Slows the heart and dilates the arterioles</span><span class="mcq-option" data-option="B">B. Speeds the heart and constricts the arterioles</span><span class="mcq-option" data-option="C">C. Slows the heart and constricts the arterioles</span><span class="mcq-option" data-option="D">D. Speeds the heart and dilates the arterioles</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> More stretch → more vagal firing and less sympathetic firing: a slower heart and wider arterioles bring pressure down.</p></details>
 
-<details><summary>Show explanation</summary>At the carotid sinus and aortic arch, where stretch-sensitive endings report pressure-related changes in vessel-wall distension.</details>
+<p><strong>3.</strong> Why can't the baroreflex alone explain long-term high blood pressure?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The baroreceptors reset to defend whatever pressure persists</span><span class="mcq-option" data-option="B">B. The baroreceptors stop firing completely after a few hours</span><span class="mcq-option" data-option="C">C. The baroreceptors only respond to falls in blood pressure</span><span class="mcq-option" data-option="D">D. The baroreceptors sense oxygen, not the stretch of the artery</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> After days at a higher pressure, the reflex defends the new level. The kidneys set long-term pressure.</p></details>
 
-**02. Which cranial nerve carries carotid sinus baroreceptor signals centrally?**
+## 4. Low-pressure receptors: sensing how full the circulation is
 
-<details><summary>Show explanation</summary>The carotid sinus stretch receptors send impulses via the carotid sinus nerve (Hering's nerve), a branch of the glossopharyngeal nerve (CN IX), to the nucleus tractus solitarius in the medulla. Aortic arch receptors instead travel mainly through the vagus nerve.</details>
+There are also stretch receptors in **low-pressure** sites: the walls of the **atria** (where the venae cavae and pulmonary veins enter) and the **pulmonary vessels**. Because pressure there depends mainly on how much blood fills them, they act as **<span data-term="volume-receptors">volume receptors</span>**.
 
-**03. Which cranial nerve primarily carries aortic arch baroreceptor afferents?**
+The lecture describes two types in the atria:
 
-<details><summary>Show explanation</summary>Aortic arch baroreceptor afferents travel through the vagus nerve (CN X) to the medullary nucleus tractus solitarius. This sensory input allows the brainstem to alter sympathetic and parasympathetic output to the heart and blood vessels.</details>
+| | **Type A** | **Type B** |
+|---|---|---|
+| Fires during | **Atrial systole** (contraction) | Later, during **atrial filling** |
+| Mainly signals | Heart rate | How **full** the atria are |
 
-**04. A sudden rise in MAP activates the baroreflex. What happens to HR and resistance?**
+When the atria are **overfilled** (too much volume), the type B receptors fire more. This triggers responses that **get rid of volume**:
 
-<details><summary>Show explanation</summary>Increased baroreceptor firing promotes vagal activity and decreases sympathetic output, lowering HR and arteriolar resistance to oppose high MAP.</details>
+- **Vasodilation** and a **fall in blood pressure**.
+- **Less ADH** is released, so the kidneys **excrete more water** (the lecture also notes less ACTH).
+- The stretched atria release **ANP**, which does the same. *(<a href="#/physiology/cvs/neural-humoral?section=5-hormones-that-act-on-the-circulation">→ Neural and Hormonal Control, §5</a>)*
+- A **rise** in heart rate (the **<span data-term="bainbridge">Bainbridge reflex</span>**), which pumps the extra blood onwards, out of the congested veins.
 
-**05. Why is haemorrhagic reflex tachycardia not evidence of restored oxygen delivery?**
+**Notice the surprise:** this reflex lowers pressure but **speeds** the heart. That is one of the lecture’s “exceptions” (<a href="#/physiology/cvs/reflexes?section=7-other-inputs-and-the-lecture-s-exceptions">§7</a>).
 
-<details><summary>Show explanation</summary>HR may rise while reduced venous return and stroke volume lower cardiac output; tissue delivery can remain insufficient.</details>
+<aside class="source-note"><strong>Source note:</strong> In humans, the Bainbridge reflex is weak and usually outweighed by the arterial baroreflex; whether the heart rate rises or falls with extra volume depends on the balance between the two.</aside>
 
-**06. How does a carotid body differ physiologically from a carotid sinus?**
+## 5. Chemoreceptors
 
-<details><summary>Show explanation</summary>The carotid body is a peripheral chemoreceptor sensing blood gas and acid-base changes; the sinus is a stretch-sensitive arterial baroreceptor.</details>
+**<span data-term="chemoreceptors">Peripheral chemoreceptors</span>** sit in small clusters of cells, the **<span data-term="carotid-body">carotid bodies</span>** and **aortic bodies**, close to the baroreceptors. They sense **low O₂**, **high CO₂** and **high H⁺** in arterial blood. Their main job is to **stimulate breathing**. They also raise sympathetic drive to the vessels, which helps hold up blood pressure when it is very low, because low flow starves the chemoreceptor cells of oxygen.
 
-**07. What stimulus is most closely associated with the Bainbridge reflex?**
+**Don't mix them up:** the **carotid sinus** (baroreceptor) senses **stretch**; the **carotid body** (chemoreceptor) senses **blood chemistry**.
 
-<details><summary>Show explanation</summary>Increased venous return and stretch at atrial or venous junctions may increase HR, depending on competing reflexes.</details>
+**The vasomotor centre also senses chemistry directly.** If its own blood supply falls, the local **hypoxia and high CO₂** stimulate it, and sympathetic firing rises. That is the basis of the Cushing reflex (<a href="#/physiology/cvs/reflexes?section=6-the-cushing-reflex-when-the-brain-is-squeezed">§6</a>).
 
-**08. What are the lecturer's atrial receptor type A and B timing distinctions?**
+## 6. The Cushing reflex: when the brain is squeezed
 
-<details><summary>Show explanation</summary>Type A impulses occur around atrial contraction; type B impulses are associated with atrial filling. They are low-pressure volume-related receptors.</details>
+When **intracranial pressure** rises (from a tumour, a blood clot or hydrocephalus), it compresses the brain's vessels and **cerebral perfusion pressure falls**. *(<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">→ Cerebral Circulation, §4</a>)*
 
-**09. Why does the Cushing response initially increase systemic BP?**
+1. Blood flow to the **medulla** falls, so the vasomotor centre becomes **hypoxic** and **hypercapnic**.
+2. That **directly stimulates** the vasomotor centre: sympathetic firing surges, and **arterial pressure rises** sharply, forcing blood back into the brain.
+3. The arterial **baroreceptors** detect the high pressure and trigger **reflex bradycardia**.
+4. Pressure on the brainstem also disturbs breathing.
 
-<details><summary>Show explanation</summary>Severe intracranial hypertension compromises brainstem perfusion, provoking intense sympathetic vasoconstriction that raises systemic arterial pressure.</details>
+**<span data-term="cushing-triad">Cushing triad</span>: hypertension + bradycardia + irregular breathing.** It is a **late, dangerous sign** that the brain is being compressed.
 
-**10. Why can the pulse slow while BP rises in the Cushing response?**
+## 7. Other inputs, and the lecture’s “exceptions”
 
-<details><summary>Show explanation</summary>As intracranial pressure rises and cerebral perfusion falls, the brainstem can trigger intense sympathetic vasoconstriction, raising systemic arterial pressure. This elevated pressure stimulates arterial baroreceptors and can produce reflex slowing of heart rate. Bradycardia is therefore not a direct effect of raised intracranial pressure on the SA node in every case.</details>
+The vasomotor centre doesn't only listen to pressure and chemical sensors. The lecture lists other influences:
 
-**11. What does CPP approximate when intracranial pressure exceeds venous outflow pressure?**
+| Input | Effect on blood pressure |
+|---|---|
+| **Anger, excitement** (cortex → hypothalamus) | **Rises**, with a faster heart |
+| **Sharp, brief pain** | **Rises** |
+| **Prolonged, severe pain** | **Falls**: vasodilation, and possibly **fainting** |
+| **Fear and grief** (cortex) | **Falls**, with a slower heart: the basis of an emotional faint |
+| **Lung inflation** (vagal sensory fibres) | **Falls**: vasodilation |
+| **Hypoxia, high CO₂** (direct, on the vasomotor centre) | **Rises** |
 
-<details><summary>Show explanation</summary>Cerebral perfusion pressure is approximated by mean arterial pressure minus intracranial pressure, provided ICP is the main downstream pressure. If ICP rises while MAP remains unchanged, the pressure available to drive cerebral blood flow falls. Actual flow also depends on cerebrovascular resistance and autoregulatory capacity.</details>
+**Usually, heart rate and blood pressure move in the same direction** in these responses. But a reflex that is **correcting** a pressure change moves heart rate in the **opposite** direction. Always start with the **stimulus**:
 
-**12. Is the Cushing triad a reliable early screening test for raised ICP?**
+| Stimulus | Blood pressure | Heart rate | Why |
+|---|---|---|---|
+| **Haemorrhage** | Low | **Fast** | Baroreflex: less stretch → more sympathetic |
+| **Raised ICP (Cushing)** | **High** | **Slow** | Brainstem ischaemia raises pressure; baroreflex slows the heart |
+| **Overfilled atria (Bainbridge)** | **Lower** | **Fast** | Volume receptors: dilate and pump the excess onwards |
 
-<details><summary>Show explanation</summary>No. Hypertension, bradycardia and abnormal respiration together form the classic Cushing triad, usually suggesting severe or late intracranial hypertension and brainstem compromise. Earlier raised ICP can occur without the complete triad, so its absence cannot exclude dangerous pathology.</details>
+**Understanding Check: Sections 4–7**
 
-## Chapter Essentials
+<p><strong>1.</strong> How does the body respond when the atria are overstretched by too much volume?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Less ADH and more ANP, so the kidneys lose salt and water</span><span class="mcq-option" data-option="B">B. More ADH and less ANP, so the kidneys keep salt and water</span><span class="mcq-option" data-option="C">C. More aldosterone, so the kidneys keep sodium and water</span><span class="mcq-option" data-option="D">D. More renin, so angiotensin II constricts the arterioles</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Atrial stretch signals overfilling, so the responses all reduce volume.</p></details>
 
-1. **What makes a cardiovascular reflex?** — A reflex involves a stimulus, receptor, afferent nerve, integration centre, autonomic efferent pathway and target response.
-2. **Baroreceptors and their afferents** — Arterial stretch-sensitive endings in the carotid sinus and aortic arch increase firing when their walls stretch more.
-3. **Arterial pressure rises: trace negative feedback** — Increased pressure stretches baroreceptors and increases afferent firing.
-4. **Arterial pressure falls: trace the reverse response** — Less arterial stretch reduces baroreceptor firing, increases sympathetic outflow and withdraws vagal restraint.
-5. **Chemoreceptor reflexes** — Peripheral chemoreceptors in carotid and aortic bodies sense decreased arterial oxygen, elevated CO₂ and/or increased H⁺ under appropriate conditions.
-6. **Low-pressure receptors and the Bainbridge response** — Receptors in the atria and pulmonary vessels monitor central filling.
-7. **Cushing response: threatened cerebral perfusion** — Cerebral perfusion pressure (CPP) ≈ MAP − ICP when ICP exceeds the relevant venous outflow pressure.
-8. **Compare apparently opposite reflex responses** — Ordinary blood loss tends to cause baroreflex tachycardia and vasoconstriction.
+<p><strong>2.</strong> What is the difference between the carotid sinus and the carotid body?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The sinus senses arterial stretch; the body senses O₂, CO₂ and H⁺</span><span class="mcq-option" data-option="B">B. The sinus senses O₂, CO₂ and H⁺; the body senses arterial stretch</span><span class="mcq-option" data-option="C">C. Both sense stretch, but the sinus responds only to falls in pressure</span><span class="mcq-option" data-option="D">D. Both sense chemistry, but the body sends signals through the vagus</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Sinus = baroreceptor. Body = chemoreceptor. Both send signals through IX.</p></details>
 
-## Sources and scope
+<p><strong>3.</strong> A patient with a head injury develops hypertension and a heart rate of 45. What explains the slow heart?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Baroreceptors respond to the high pressure caused by brainstem ischaemia</span><span class="mcq-option" data-option="B">B. The injured brain directly stimulates the SA node to fire more slowly</span><span class="mcq-option" data-option="C">C. Low intracranial pressure removes the sympathetic drive to the heart</span><span class="mcq-option" data-option="D">D. Atrial stretch receptors respond to the rise in blood volume</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Rising ICP makes the vasomotor centre ischaemic, which raises arterial pressure. The baroreflex then slows the heart: the Cushing reflex.</p></details>
 
-- Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 18–36.
-- Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
+## 8. Chapter Essentials
+
+1. **Reflex:** stimulus → receptor → afferent nerve → medulla (NTS) → autonomic nerves → heart and vessels. Mostly negative feedback.
+2. **Baroreceptors** sense **stretch**: carotid sinus (IX) and aortic arch (X).
+3. **Pressure rises** → more firing → more vagal, less sympathetic → slower heart, dilation → pressure falls. **Pressure falls** → the reverse: **tachycardia** and constriction.
+4. The baroreflex buffers **sudden** changes; it **resets** with sustained changes and can't replace lost volume.
+5. **Atrial volume receptors** (type A in atrial systole, type B in filling): overfilling → dilation, less ADH, more ANP, faster heart (**Bainbridge**).
+6. **Chemoreceptors** (carotid and aortic bodies) sense low O₂, high CO₂ and H⁺; mainly drive breathing.
+7. **Cushing reflex:** raised ICP → medullary ischaemia → hypertension → baroreflex bradycardia; irregular breathing. A late sign.
+8. **Other inputs:** anger and sharp pain raise pressure; fear, grief, prolonged pain and lung inflation lower it.
+9. **Start with the stimulus:** haemorrhage = low BP + fast heart; Cushing = high BP + slow heart; Bainbridge = lower BP + fast heart.

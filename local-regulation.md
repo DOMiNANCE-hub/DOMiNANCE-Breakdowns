@@ -1,161 +1,141 @@
 # Local Control of Blood Flow
 
-## 1. Why does a tissue need local control?
+## 1. Why does a tissue need to control its own blood flow?
 
-The heart generates flow, but every organ must receive a supply matched to its moment-to-moment needs. During exercise, contracting muscles require more oxygen and nutrient delivery; meanwhile the brain needs fairly stable perfusion despite ordinary blood-pressure fluctuations. **Local blood-flow control** means a vascular bed adjusts the calibre of its own resistance vessels, especially small arteries and arterioles.
+The heart sets the total output, but each tissue needs a supply matched to **its own** needs, moment to moment. A sprinting leg muscle needs far more blood than it did at rest. The brain and kidneys need a **steady** supply, even when blood pressure wobbles.
 
-The starting relationship is **Q = ΔP / R**, where Q is volume flow (for example mL/min), ΔP is the pressure difference across a vascular bed (mmHg), and R is vascular resistance (mmHg·min/mL). If pressure rises at unchanged resistance, flow rises. If local arterioles constrict enough to raise resistance, that rise in flow can be opposed.
+Recall: **flow = pressure difference ÷ resistance** *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*. A tissue can't change the arterial pressure, but it **can** change its own resistance, by widening or narrowing its **arterioles**. And because resistance depends on the **fourth power of the radius**, a small change in arteriolar width has a big effect on flow: halving the radius raises the resistance about **16 times**.
 
-In an ideal rigid tube with laminar flow, **R = 8ηL/(πr⁴)** (Poiseuille relationship). η is dynamic viscosity, L is length and r is radius. Living vessels are not rigid tubes, but the fourth-power dependence explains why even a modest arteriolar radius change can strongly affect resistance. Halving radius would increase idealized resistance **16-fold** when the other variables are unchanged; do not treat this as an exact prediction for an intact circulation.
+Local control comes in two forms:
 
-<div class="lymph-flow" role="group" aria-label="Local flow adjustment"><span>Tissue activity or perfusion pressure changes</span><b>→</b><span>Local sensing</span><b>→</b><span>Arteriolar tone changes</span><b>→</b><span>Resistance and flow adjust</span></div>
+- **<span data-term="autoregulation">Autoregulation</span>:** keeping flow **steady** when the pressure changes (§2–3).
+- **Hyperaemia:** **raising** flow when the tissue needs more (<a href="#/physiology/cvs/local-regulation?section=4-active-and-reactive-hyperaemia">§4</a>).
 
-## 2. Autoregulation: keeping blood flow relatively steady
+## 2. Autoregulation: steady flow despite changing pressure
 
-**Autoregulation** is the ability of an organ to maintain relatively constant blood flow across a *range* of perfusion pressures by changing local vascular resistance. It does not mean perfect flow constancy, and it fails outside the organ's effective autoregulatory range. Cerebral and renal circulations are especially important examples; coronary regulation also strongly matches flow to metabolic demand.
+**Autoregulation** is a tissue's ability to keep its blood flow **relatively constant** when its perfusion pressure changes, by adjusting its own resistance.
 
-If perfusion pressure suddenly rises, flow initially tends to increase. Local arterioles then **constrict**, increasing resistance to counter the rise. If pressure falls moderately, they tend to **dilate** and lower resistance to defend flow. This is a local response and need not wait for a change in the heart's output.
-
-| Disturbance | Initial passive tendency | Compensatory change | Intended result |
+| If perfusion pressure… | Flow at first… | The arterioles… | So flow… |
 |---|---|---|---|
-| Increased perfusion pressure | Flow rises | Arteriolar constriction increases R | Flow moves back toward baseline |
-| Decreased perfusion pressure | Flow falls | Arteriolar dilation decreases R | Flow moves back toward baseline |
+| **Rises** | Rises | **Constrict** (resistance up) | Returns towards normal |
+| **Falls** | Falls | **Dilate** (resistance down) | Returns towards normal |
 
-**Limitation:** If pressure becomes too low for further dilation, blood flow falls despite maximal compensation. Thus autoregulation is not a guarantee against shock or severe hypotension.
+It is strongest in the **brain**, **kidneys** and **heart**. *(<a href="#/physiology/cvs/cerebral?section=3-how-does-the-brain-keep-its-blood-flow-steady">→ Cerebral Circulation, §3</a>)*
 
-## 3. Two complementary mechanisms: myogenic and metabolic
+**It only works within a range.** If pressure falls so far that the arterioles are already fully dilated, they have nothing left to give, and flow falls with pressure. This is why severe shock damages the brain and kidneys despite autoregulation. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-### Myogenic mechanism: the vessel responds to stretch
+**How does a tissue do it?** The lecture gives two theories. They are not rivals: both work at the same time.
 
-An arteriole experiences **transmural pressure = intravascular pressure − surrounding tissue pressure**. Higher transmural pressure distends its wall, activating vascular smooth-muscle signalling that increases contraction. Constriction reduces radius and raises resistance. Lower pressure reduces wall stretch, permitting relaxation and dilation.
+## 3. Two mechanisms: myogenic and metabolic
 
-**Why is this useful?** Without the active response, increased pressure would push extra blood through vulnerable small vessels. Myogenic autoregulation helps moderate flow variation and microvascular pressure, notably in cerebral and renal beds.
+### The myogenic mechanism: the vessel responds to stretch
+
+1. Pressure rises, so the arteriole is **stretched**.
+2. Stretch opens channels in the smooth muscle, which **contracts**.
+3. The arteriole **narrows**, raising resistance, so flow comes back down.
+
+When pressure falls, the opposite happens: less stretch, the muscle relaxes, and the arteriole widens.
 
 <figure class="learning-figure"><figcaption>Figure 01. Myogenic opposition to a rise in pressure</figcaption><svg viewBox="0 0 620 140" role="img" aria-label="Higher transmural pressure stretches an arteriole, triggering smooth-muscle contraction, raising resistance and opposing a large rise in flow"><rect x="5" y="32" width="172" height="62" rx="12" fill="#e9f3fd" stroke="#4d84aa"/><rect x="224" y="32" width="172" height="62" rx="12" fill="#e4f4ea" stroke="#4e9b74"/><rect x="443" y="32" width="172" height="62" rx="12" fill="#fff2d6" stroke="#b88933"/><g fill="#20324b" font-size="15" text-anchor="middle"><text x="91" y="57">Pressure ↑</text><text x="91" y="77">Wall stretch ↑</text><text x="310" y="57">Smooth muscle</text><text x="310" y="77">contracts</text><text x="529" y="57">Radius ↓; R ↑</text><text x="529" y="77">Flow rise opposed</text></g><path d="M181 63h36m-9 -7 9 7 -9 7M400 63h36m-9 -7 9 7 -9 7" stroke="#527895" stroke-width="3" fill="none"/></svg><p>Original conceptual schematic. The first pressure-driven increase in flow occurs before the slower corrective vascular response.</p></figure>
 
-### Metabolic mechanism: the tissue signals its needs
+**Why is this protective?** It stops a surge of pressure from being passed straight into the fragile capillaries downstream.
 
-When metabolism increases or perfusion is inadequate, local vasodilator influences rise. Depending on the tissue, these may include **adenosine, CO₂, H⁺, extracellular K⁺ and reduced tissue oxygen tension**. The relative importance of each signal differs among organs. Dilation lowers local resistance and improves delivery; increasing flow can also wash out accumulated signals.
+**The law of Laplace: why small vessels don't burst.** For a cylindrical vessel, the **wall tension** needed to resist the pressure inside is:
 
-Example: A vigorously contracting skeletal muscle consumes oxygen faster and produces metabolites. Its small resistance vessels dilate; muscle flow increases **even if systemic arterial pressure has not risen**.
+**T = P × r** (wall tension = transmural pressure × radius)
 
-**Distinguish the triggers:** Myogenic control principally senses **vessel stretch/pressure**, whereas metabolic control senses **local supply relative to demand**. Both can act simultaneously; this is not an either/or choice.
+- **<span data-term="transmural-pressure">Transmural pressure</span>** = pressure inside − pressure in the surrounding tissue.
+- At the same pressure, a vessel with **half the radius** needs only **half the wall tension**.
 
-## 4. Active versus reactive hyperaemia
+So a capillary, with its tiny radius, can withstand blood pressure with a wall only one cell thick. And a vessel that **widens** (as in an aneurysm) needs **more** tension at the same pressure, so it is more likely to stretch further and rupture.
 
-**Hyperaemia** means increased blood flow.
+<aside class="source-note"><strong>Source note:</strong> The lecture writes the general form as P = T(1/R₁ + 1/R₂), which for a cylinder simplifies to P = T/r, i.e. T = P × r. Its other form, P = T/(R₁ + R₂), is not equivalent and has been left out.</aside>
 
-| Active hyperaemia | Reactive hyperaemia |
-|---|---|
-| Occurs **during increased tissue activity** | Occurs **after a period of reduced or interrupted flow** |
-| Example: working skeletal muscle | Example: increased hand flow after releasing a temporary occlusion |
-| Increased metabolism promotes dilation | Ischaemia-associated metabolites, myogenic changes and other signals contribute; release restores driving pressure |
-| Flow rises to meet ongoing demand | A temporary overshoot helps repay the supply deficit and dissipate vasodilator influences |
+### The metabolic mechanism: the tissue signals its needs
 
-A useful sequence for **reactive hyperaemia** is: brief arterial occlusion → oxygen delivery falls and vasodilator influences develop → obstruction is released → previously dilated vascular bed receives a transient flow surge → flow gradually returns toward baseline. The magnitude and duration depend on the degree and length of occlusion and on the tissue.
+When a tissue's blood supply falls short of its needs, its **metabolites build up**. These **dilate** the arterioles, so flow rises and **washes the metabolites away**. As they clear, the arterioles narrow again. It is a self-correcting loop.
 
-**Do not confuse these with autoregulation.** Autoregulation describes relative **stability** of flow when perfusion pressure changes; hyperaemia describes an **increase** in flow in response to activity or prior underperfusion. Some underlying mechanisms overlap.
+**Which signals dilate?** Think about what a tissue short of blood would produce:
 
-## 5. What does the endothelium contribute?
+- **Low O₂**
+- **High CO₂** and **H⁺** (low pH), including **lactic acid**
+- **K⁺**, released by active cells
+- **<span data-term="adenosine">Adenosine</span>** (and ADP in heart muscle), from ATP breakdown
+- **Higher temperature**
 
-The **endothelium** is more than a passive lining. It senses shear stress and chemical signals and releases substances that modify underlying smooth-muscle tone.
+**Which signals constrict?** **Serotonin** (from platelets, at an injured vessel), **cold** and **angiotensin II**.
 
-- **Nitric oxide (NO):** endothelial NO diffuses into vascular smooth muscle, activates **soluble guanylyl cyclase**, raises **cGMP**, and promotes relaxation. Shear stress from flowing blood can stimulate endothelial NO production.
-- **Endothelin-1:** a powerful vasoconstrictor peptide acting principally via smooth-muscle ETᴀ receptors; endothelial ETʙ signalling can have different effects.
-- **Prostacyclin (PGI₂):** an endothelial vasodilator that also inhibits platelet aggregation.
-- **Histamine and bradykinin:** can promote endothelial-dependent vasodilation, and in suitable vascular beds increase permeability; their effects vary with receptor and tissue.
+**Myogenic or metabolic: what does each sense?**
 
-**Application:** Endothelial dysfunction can reduce NO bioavailability, contributing to impaired vasodilation. It should not be equated with the complete disappearance of myogenic or metabolic control.
+- **Myogenic** senses **pressure** (stretch of the vessel wall).
+- **Metabolic** senses **supply versus demand** in the tissue.
 
-## 6. Laplace's principle: pressure, radius, tension and stress
+## 4. Active and reactive hyperaemia
 
-One useful relationship is Laplace's law near myogenic regulation. It is important to specify **which geometry** and **which quantity** a formula describes.
+**Hyperaemia** simply means **increased blood flow**.
 
-For an ideal **thin-walled cylindrical vessel**, circumferential *wall tension per unit axial length* is approximately **T = Ptm × r**, where Ptm is transmural pressure and r is internal radius. For average circumferential **wall stress**, **σθ ≈ Ptm × r / h**, with wall thickness h. For an ideal thin-walled *spherical* membrane, **T = Ptm × r / 2**. These idealizations are not interchangeable.
+| | **<span data-term="active-hyperaemia">Active hyperaemia</span>** | **<span data-term="reactive-hyperaemia">Reactive hyperaemia</span>** |
+|---|---|---|
+| When | **During** increased activity | **After** blood flow was cut off for a while |
+| Example | Working muscle in exercise | The red flush of a hand after a tight cuff is released |
+| Why | Active cells make more metabolites, which dilate the arterioles | During the blockage, metabolites built up and the arterioles dilated; when flow returns, it **surges** into the wide-open bed |
+| Then | Flow stays high as long as the activity continues | Flow overshoots, washes the metabolites out, then returns to normal |
 
-At a fixed pressure and thickness, larger vessel radius implies greater average circumferential stress. However, **Laplace's relationship does not by itself explain myogenic signalling**: living vascular smooth muscle detects deformation and activates ion-channel and contractile pathways. Real arteries have finite wall thickness and active, nonlinear walls.
+The longer the blockage, the bigger and longer the reactive surge: the tissue is "repaying" its oxygen debt.
 
-**Numerical reasoning:** Two thin-walled cylindrical vessels have equal Ptm and h. If one has twice the radius, its estimated wall tension and stress are each twice as large. It would be incorrect to say resistance also doubles: resistance responds oppositely and much more strongly to radius in the simplified Poiseuille model.
+**Don't confuse these with autoregulation.** Autoregulation keeps flow **steady** when pressure changes. Hyperaemia **raises** flow because the tissue needs it.
 
-## 7. Bringing local and whole-body control together
+**Understanding Check: Sections 1–4**
 
-Local regulation operates alongside the autonomic nervous system and circulating hormones. In exercise, **active skeletal muscle** can show powerful metabolic vasodilation even while sympathetic activity increases elsewhere. This is one reason blood supply can be redistributed to working tissue rather than rising equally in every organ.
+<p><strong>1.</strong> Perfusion pressure to a kidney rises suddenly. How does autoregulation respond?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The arterioles constrict, raising resistance so flow returns towards normal</span><span class="mcq-option" data-option="B">B. The arterioles dilate, lowering resistance so flow rises further</span><span class="mcq-option" data-option="C">C. The heart slows, lowering the pressure that reaches the kidney</span><span class="mcq-option" data-option="D">D. The kidney's veins constrict, holding more blood in the organ</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> More pressure stretches the arterioles, which constrict. The higher resistance brings flow back down.</p></details>
 
-A fall in systemic pressure can trigger **baroreflex sympathetic vasoconstriction**, while critically underperfused tissues simultaneously accumulate local dilator signals. Which effect dominates depends on organ, severity, receptors, and physiological state. The next chapters examine the systemic side of this interaction.
+<p><strong>2.</strong> Why can a capillary withstand blood pressure with a wall only one cell thick?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Its tiny radius means only a small wall tension is needed</span><span class="mcq-option" data-option="B">B. Its blood pressure is higher than in the larger arteries</span><span class="mcq-option" data-option="C">C. Its wall contains thick smooth muscle that resists stretch</span><span class="mcq-option" data-option="D">D. Its large radius spreads the pressure over a bigger area</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> By the law of Laplace, T = P × r. A very small radius needs very little tension.</p></details>
 
-**Clinical application:** If systemic shock drives perfusion pressure below the lower autoregulatory limit, local dilation cannot maintain normal cerebral or renal flow. This connects local autoregulation directly to shock and organ dysfunction.
+<p><strong>3.</strong> A tourniquet is removed after five minutes, and the limb flushes red. What explains this?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Metabolites built up during the blockage, dilating the arterioles</span><span class="mcq-option" data-option="B">B. The muscles in the limb began to work harder after release</span><span class="mcq-option" data-option="C">C. The rise in arterial pressure stretched and opened the arterioles</span><span class="mcq-option" data-option="D">D. Sympathetic nerves to the limb were activated by the tourniquet</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> This is reactive hyperaemia: the dilated bed receives a surge of blood when flow returns.</p></details>
 
-## More connections worth understanding
+## 5. Signals from the endothelium
 
-The lecture lists rising temperature, low pH, increased carbon dioxide, potassium, lactate, cardiac ADP, bradykinin, substance P, histamine H2 signalling and ANP among local vasodilator-associated influences. Effects vary by tissue and receptor. It lists serotonin, cooling and angiotensin among constrictor influences. The two-curvature Laplace form P = T(1/R1 + 1/R2) is not mathematically equivalent to the slide's later expression P = T/(R1 + R2); that second expression must not be taught as a rearrangement.
+The **endothelium**, the single-cell lining of the vessels, is not just a passive tube. It releases signals that act on the smooth muscle underneath:
 
-## Understanding Checks
+| Signal | Effect | Notes |
+|---|---|---|
+| **<span data-term="nitric-oxide">Nitric oxide (NO)</span>** | **Dilates** | Released when flowing blood drags on the endothelium (**<span data-term="shear-stress">shear stress</span>**). It diffuses into the smooth muscle, raises **cGMP**, and the muscle relaxes. |
+| **<span data-term="prostacyclin">Prostacyclin</span>** | **Dilates** | Also stops platelets clumping |
+| **<span data-term="endothelin">Endothelin-1</span>** | **Constricts** | A powerful vasoconstrictor |
 
-**01.** Perfusion pressure through a vascular bed doubles while its resistance remains unchanged. What happens to flow initially, and what local adjustment can defend its baseline?
+Several other substances dilate vessels **through the endothelium**, by making it release NO: **<span data-term="bradykinin">bradykinin</span>**, **substance P** and **acetylcholine**. **Histamine** (via H₂ receptors) and **ANP** also dilate vessels. *(<a href="#/physiology/cvs/skin?section=3-the-triple-response-of-lewis">→ Cutaneous Circulation, §3</a>)*
 
-<details><summary>Show explanation</summary>From Q = ΔP/R, flow initially doubles if R is fixed. Autoregulation can increase arteriolar resistance through constriction, opposing the rise. A perfect twofold adjustment is an idealization; real responses vary by tissue and pressure range.</details>
+**Why does this matter?** When the endothelium is damaged (in atherosclerosis, smoking or diabetes), it makes less NO. The vessels dilate less well, and the balance tips towards constriction and clotting.
 
-**02.** Why are arterioles more effective local flow regulators than large veins?
+## 6. Local control and the whole body
 
-<details><summary>Show explanation</summary>Arterioles contain actively controlled vascular smooth muscle and supply a large share of systemic vascular resistance. Small radius changes alter resistance substantially. Veins primarily serve as capacitance vessels and modulate venous return rather than controlling each tissue's entry resistance.</details>
+Local control works **alongside** the nerves and hormones of the next two chapters. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* Sometimes they cooperate; sometimes they compete:
 
-**03.** When a renal resistance arteriole experiences increased transmural pressure, why may its smooth muscle contract rather than simply remain stretched?
+- **In exercise**, sympathetic nerves constrict arterioles throughout the body. But in the working muscles, metabolites dilate them so strongly that they **override** the sympathetic signal. So blood is **redirected** to where it is needed.
+- **In haemorrhage**, sympathetic constriction diverts blood from the skin and gut. If a tissue becomes badly starved of blood, its metabolites start to fight back, dilating its arterioles.
 
-<details><summary>Show explanation</summary>Stretch activates a myogenic smooth-muscle response that increases tone. A smaller radius raises resistance and helps counter an otherwise excessive pressure-driven rise in flow. The response is active, not merely elastic recoil.</details>
+**Understanding Check: Sections 5–6**
 
-**04.** A student says myogenic and metabolic autoregulation are the same because both change arteriolar radius. What is missing?
+<p><strong>1.</strong> How does nitric oxide relax vascular smooth muscle?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It raises cGMP in the smooth muscle, which relaxes it</span><span class="mcq-option" data-option="B">B. It blocks sympathetic nerves supplying the arteriole</span><span class="mcq-option" data-option="C">C. It raises calcium in the smooth muscle, which relaxes it</span><span class="mcq-option" data-option="D">D. It lowers the blood pressure inside the arteriole</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> NO diffuses from the endothelium into the smooth muscle, activates guanylyl cyclase and raises cGMP.</p></details>
 
-<details><summary>Show explanation</summary>The initiating signals differ. Myogenic regulation responds chiefly to pressure-driven vessel stretch. Metabolic regulation responds to a mismatch between local perfusion and metabolic demand, via signals such as adenosine, H⁺ and K⁺. They can cooperate in the same vascular bed.</details>
+<p><strong>2.</strong> During exercise, sympathetic activity rises, yet blood flow to the working muscles increases. Why?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Local metabolites dilate the muscle arterioles, overriding the constriction</span><span class="mcq-option" data-option="B">B. Sympathetic nerves do not supply the arterioles in skeletal muscle</span><span class="mcq-option" data-option="C">C. The rise in blood pressure alone stretches open the muscle arterioles</span><span class="mcq-option" data-option="D">D. Myogenic constriction is switched off in skeletal muscle</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Metabolic dilation in active muscle beats sympathetic constriction, so blood is redirected to the muscle.</p></details>
 
-**05.** During a sprint, muscle perfusion increases even though arterial pressure barely changes. Explain the local mechanism.
+<p><strong>3.</strong> Which of these constricts arterioles locally?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Serotonin released from platelets</span><span class="mcq-option" data-option="B">B. Adenosine released from active cells</span><span class="mcq-option" data-option="C">C. Potassium released from active cells</span><span class="mcq-option" data-option="D">D. Nitric oxide released from endothelium</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Serotonin, cold and angiotensin II constrict. Adenosine, K⁺ and NO all dilate.</p></details>
 
-<details><summary>Show explanation</summary>Working muscle increases its metabolic demand. Local vasodilator signals lower arteriolar resistance; therefore flow can rise at nearly constant driving pressure according to Q = ΔP/R. This is active hyperaemia.</details>
+## 7. Chapter Essentials
 
-**06.** Blood flow surges briefly after a pressure cuff is released. Is this active hyperaemia, reactive hyperaemia or autoregulation?
-
-<details><summary>Show explanation</summary>Reactive hyperaemia. Temporary occlusion reduced oxygen supply and fostered vasodilator influences; reopening permits a transient overshoot before signals dissipate. The defining feature is increased flow after preceding underperfusion.</details>
-
-**07.** Does adenosine have identical importance in every vascular bed? Explain.
-
-<details><summary>Show explanation</summary>No. Local metabolic mediators differ by organ and context. Adenosine is influential in some settings, especially coronary metabolic regulation, while combinations of oxygen, CO₂, H⁺, K⁺, endothelial and myogenic influences contribute elsewhere. Avoid memorising a universal single-metabolite explanation.</details>
-
-**08.** Trace the intracellular pathway by which endothelial NO relaxes adjacent vascular smooth muscle.
-
-<details><summary>Show explanation</summary>Endothelial NO diffuses into smooth muscle and activates soluble guanylyl cyclase, increasing cGMP and promoting smooth-muscle relaxation. This increases vessel radius, decreases resistance and can increase flow.</details>
-
-**09.** Why can endothelin-1 and nitric oxide have opposite effects on local flow?
-
-<details><summary>Show explanation</summary>They affect contractile tone differently: endothelin-1 typically stimulates smooth-muscle contraction, whereas NO promotes cGMP-dependent relaxation. The final response depends on their relative signalling and the receptors of the vascular bed.</details>
-
-**10.** Two ideal thin-walled cylindrical vessels face equal transmural pressure. One has double the radius and the same wall thickness. Compare estimated wall stress.
-
-<details><summary>Show explanation</summary>Average circumferential stress is approximately σθ = Ptm × r/h. With equal pressure and thickness, doubling radius doubles estimated stress. This is distinct from Poiseuille resistance, which decreases sharply as radius increases in the ideal rigid-tube model.</details>
-
-**11.** Why can autoregulation not fully protect the brain during profound haemorrhagic shock?
-
-<details><summary>Show explanation</summary>Autoregulation is effective only over a bounded pressure range. Below its lower limit, resistance vessels cannot dilate sufficiently to preserve flow; critically reduced perfusion pressure then leads to inadequate cerebral blood delivery despite local compensation.</details>
-
-**12.** A patient exercising has sympathetic activation, yet blood flow rises in active muscle. Is there a contradiction?
-
-<details><summary>Show explanation</summary>No. Sympathetic vasoconstrictor influence and local metabolic vasodilation act together. In active muscle, local demand-related dilation can strongly attenuate sympathetic constriction, so that perfusion increases while flow in less active beds may be restricted.</details>
-
-## Chapter Essentials
-
-1. Tissue flow depends on pressure difference and vascular resistance: **Q = ΔP/R**.
-2. Arteriolar calibre is a major adjustable determinant of local resistance.
-3. **Autoregulation** defends relatively stable flow only within a limited pressure range.
-4. Increased vessel stretch often produces **myogenic constriction**.
-5. A tissue with increased metabolic demand tends to develop **metabolic vasodilation**.
-6. **Active hyperaemia** accompanies increased tissue activity.
-7. **Reactive hyperaemia** follows temporary underperfusion.
-8. Endothelial **NO → soluble guanylyl cyclase → cGMP** promotes smooth-muscle relaxation.
-9. **Endothelin-1** commonly promotes vasoconstriction; endothelial responses are context-dependent.
-10. Cylindrical wall tension **T ≈ Ptm × r** and wall stress **σθ ≈ Ptm × r/h** require their assumptions.
-11. Local and systemic controls may compete or cooperate in one vascular bed.
-12. Severe shock can push perfusion below the effective autoregulatory range.
-
-## References and scope notes
-
-- **Lecturer scope:** CIRCULATION 2 REGULATION OF THE CVS(2).pdf, pp. 1–11 (local regulation, myogenic/metabolic theories, Laplace and mediators). Slide numbering/source mapping should be rechecked against the exact uploaded lecture PDF before merging.
-- **Reference physiology:** Guyton and Hall, *Textbook of Medical Physiology*, chapters on local and humoral control of tissue blood flow; Boron and Boulpaep, *Medical Physiology*, vascular smooth-muscle and regional-flow control.
-- **Supplementary precision:** Autoregulatory ranges are tissue-specific; mediator examples are not universal; Laplace equations refer to ideal geometries; Poiseuille's law is an explanatory approximation in biological vessels.
+1. **Flow = pressure difference ÷ resistance.** Tissues control their flow by changing **arteriolar radius** (resistance ∝ 1/r⁴).
+2. **Autoregulation** keeps flow steady when pressure changes, within a range. Strongest in the brain, kidneys and heart.
+3. **Myogenic:** stretch → smooth muscle contracts → arteriole narrows. **Senses pressure.**
+4. **Metabolic:** low O₂, high CO₂/H⁺, lactic acid, K⁺, adenosine, heat → dilation → metabolites washed out. **Senses supply versus demand.**
+5. **Local constrictors:** serotonin, cold, angiotensin II.
+6. **Law of Laplace (cylinder): T = P × r.** Small vessels need little wall tension; widened vessels need more.
+7. **Active hyperaemia:** more flow during activity. **Reactive hyperaemia:** a surge after a blockage.
+8. **Endothelium:** NO (via cGMP) and prostacyclin dilate; endothelin-1 constricts. Bradykinin, substance P and ACh dilate through NO.
+9. **In exercise**, local metabolic dilation overrides sympathetic constriction in working muscle.

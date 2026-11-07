@@ -185,13 +185,29 @@
       ]
     },
     "local-regulation": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "Reactive hyperaemia",
+        "T = P × r",
+        "Serotonin"
+      ]
     },
     "neural-humoral": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "tonic discharge",
+        "Pressor area",
+        "atropine"
+      ]
     },
     "reflexes": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "data-widget=\"reflex-tracer\"",
+        "cvs18-baroreflex",
+        "Bainbridge reflex",
+        "Cushing triad"
+      ]
     },
     "gravity": {
       "minimum_checks": 12
