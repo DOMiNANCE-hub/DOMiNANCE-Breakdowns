@@ -29,6 +29,8 @@
   const keepDescription = fig => {
     const p = fig.querySelector(':scope > p');
     if (p) p.classList.add('tw-description');
+    // Descriptions generated from a build spec are for screen readers only.
+    if (p && fig.dataset.desc === 'sr') p.classList.add('tw-visually-hidden');
     return p;
   };
 

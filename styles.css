@@ -587,3 +587,23 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .cc-signal{opacity:0;transition:opacity .3s}.tw-svg .cc-signal.is-on{opacity:1}
 .tw-svg .cc-plus{fill:var(--gold);font-weight:800;font-size:16px}
 @media (prefers-reduced-motion:reduce){.tw-svg .cc-ion,.tw-svg .cc-actin{transition:none}}
+
+/* ---------- Conduction widgets (Chapter 3) ---------- */
+.tw-svg .ct-ch{--on:0;fill:color-mix(in srgb,var(--gold) calc(var(--on) * 45%),var(--sheet));stroke:var(--muted);stroke-width:2}
+.tw-svg .ct-ring{stroke:var(--muted);stroke-width:4;stroke-dasharray:2 4}
+.tw-svg .ct-path{fill:none;stroke:var(--w-ao);stroke-width:3;stroke-linecap:round}.tw-svg .ct-faint{stroke-dasharray:4 4;opacity:.7}
+.tw-svg .ct-node{fill:var(--sheet);stroke:var(--w-ao);stroke-width:3}.tw-svg .ct-node.is-on{fill:var(--gold)}
+.tw-svg .ct-pointer{stroke:var(--muted);stroke-width:1}
+.tw-svg .ct-signal{fill:var(--gold);stroke:var(--navy);stroke-width:2}.tw-svg .ct-signal.is-gone{opacity:0}
+.tw-svg .ct-delay{opacity:0;fill:var(--w-ao)}.tw-svg .ct-delay.is-on{opacity:1}
+.tw-svg .ct-base{stroke:var(--line);stroke-width:1}
+.tw-svg .ct-ecg{fill:none;stroke:var(--navy);stroke-width:2.5;stroke-linejoin:round}
+.tw-svg .ct-lab{opacity:0;transition:opacity .2s}.tw-svg .ct-lab.is-on{opacity:1}
+.tw-svg .ct-bracket{fill:none;stroke:var(--w-ao);stroke-width:2}
+.ps-btns{flex-wrap:wrap}
+.tw-svg .ps-grid{stroke:var(--line);stroke-width:1}
+.tw-svg .ps-thr{stroke:var(--w-ao);stroke-width:1.6;stroke-dasharray:6 4}
+.tw-svg .ps-ref{fill:none;stroke:var(--muted);stroke-width:1.5;opacity:.45}
+.tw-svg .ps-trace{fill:none;stroke:var(--navy);stroke-width:3;stroke-linejoin:round}
+.tw-svg .ps-symp{stroke:var(--w-ao)}.tw-svg .ps-vagal{stroke:var(--w-lv)}
+.ps-readout{font-size:14px;margin:6px 0 0!important}

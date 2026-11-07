@@ -30,12 +30,16 @@
       ]
     },
     "cardiac-conduction": {
-      "minimum_checks": 12,
+      "minimum_checks": 11,
       "required": [
-        "do not necessarily contain three separate, insulated conducting bundles"
+        "They are routes the signal prefers, not insulated wires",
+        "vagal tone",
+        "PR interval",
+        "The fastest pacemaker wins"
       ],
       "forbidden": [
-        "The three internodal pathways shown"
+        "The three internodal pathways shown",
+        "Supplementary 1."
       ]
     },
     "cardiac-cycle": {
