@@ -175,7 +175,14 @@
       ]
     },
     "lymphatics": {
-      "minimum_checks": 12
+      "minimum_checks": 9,
+      "required": [
+        "Nodes filter; they don't pump.",
+        "cvs15-ducts"
+      ],
+      "forbidden": [
+        "Representative two examples"
+      ]
     },
     "local-regulation": {
       "minimum_checks": 12
