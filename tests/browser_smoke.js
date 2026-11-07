@@ -63,6 +63,13 @@ async function openRoute(page, base, hash) {
   await page.waitForTimeout(60);
 }
 
+
+// On phones the reading options are folded behind one "Reading options" button.
+async function openReader(page) {
+  const toggle = page.locator('.reader-toggle');
+  if (await toggle.isVisible() && await toggle.getAttribute('aria-expanded') === 'false') await toggle.click();
+}
+
 const chapterUrl = slug => '#/physiology/cvs/' + slug;
 
 (async () => {
@@ -151,6 +158,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     for (const t of topics) {
       await openRoute(page, base, chapterUrl(t.slug));
       const where = `${t.slug} reading modes`;
+      await openReader(page);
       check(await page.locator('button[data-reader-mode="continuous"]').getAttribute('aria-pressed') === 'true',
         `${where}: continuous is not the default`);
       const expected = await page.evaluate(() => {
@@ -188,6 +196,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     }
     // Keyboard navigation in Cards mode, text size and persistence.
     await openRoute(page, base, chapterUrl('cardiac-cycle'));
+    await openReader(page);
     await page.locator('button[data-reader-mode="presentation"]').click();
     await page.locator('#reader-prev').click();
     const before = Number((await page.locator('#reader-position').innerText()).match(/Card (\d+)/)[1]);
@@ -446,6 +455,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     await blocked.goto(base + '/' + chapterUrl('cardiac-cycle'), { waitUntil: 'load' });
     await blocked.locator('#mark-read').click();
     await blocked.locator('#theme-toggle').click();
+    await openReader(blocked);
     await blocked.locator('button[data-reader-mode="section"]').click();
     check(await blocked.locator('html').getAttribute('data-theme') === 'dark', 'storage blocked: theme toggle failed');
     check(blocked.pageErrors.length === 0, `storage blocked: page errors ${blocked.pageErrors.join('; ')}`);

@@ -258,6 +258,7 @@
     const section = new URLSearchParams((location.hash || '').split('?')[1] || '').get('section');
     const done = () => {
       markRendered();
+      window.dispatchEvent(new CustomEvent('dom:rendered'));
       updateProgress();
       if (section) setTimeout(() => goToSection(section), 0);
     };

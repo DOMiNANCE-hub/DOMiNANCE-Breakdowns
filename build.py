@@ -118,7 +118,7 @@ for f in out.glob('*.js'):
 
 # Point index.html at the current versions of every file it loads.
 page=(ROOT/'index.html').read_text(encoding='utf-8')
-for f in ['content/index.js','app.js','reader.js','styles.css']:
+for f in ['content/index.js','app.js','mobile-ui.js','reader.js','styles.css']:
     page=re.sub(r'(["\'])'+re.escape(f)+r'(\?v=[0-9a-f]+)?\1',lambda m: m.group(1)+ver(f)+m.group(1),page)
 (ROOT/'index.html').write_text(page,encoding='utf-8')
 print('Built',len(topics),'topics; full bundle',round(len(script)/1024),'KiB; catalogue',round(len(index)/1024),'KiB')

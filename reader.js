@@ -72,7 +72,7 @@ function mount(){
  const toolbar=document.createElement('div');
  toolbar.className='reader-toolbar';
  toolbar.setAttribute('role','group');toolbar.setAttribute('aria-label','Reading preferences');
- toolbar.innerHTML=`<div class="reader-modes" role="group" aria-label="Reading mode"><button type="button" data-reader-mode="continuous">Continuous</button><button type="button" data-reader-mode="section">Sections</button><button type="button" data-reader-mode="presentation">Cards</button></div><div class="reader-adjust"><label for="reader-size">Text size</label><select id="reader-size" aria-label="Reading text size"><option value="90">Small</option><option value="100">Normal</option><option value="110">Large</option><option value="120">Extra large</option></select><label for="reader-width">Line width</label><select id="reader-width" aria-label="Reading line width"><option value="comfortable">Comfortable</option><option value="wide">Wide</option></select></div>`;
+ toolbar.innerHTML=`<button type="button" class="reader-toggle" aria-expanded="false" aria-controls="reader-panel"><span class="reader-toggle-icon" aria-hidden="true">Aa</span><span>Reading options</span><span class="reader-toggle-state" aria-hidden="true"></span></button><div class="reader-panel" id="reader-panel"><div class="reader-modes" role="group" aria-label="Reading mode"><button type="button" data-reader-mode="continuous">Continuous</button><button type="button" data-reader-mode="section">Sections</button><button type="button" data-reader-mode="presentation">Cards</button></div><div class="reader-adjust"><label for="reader-size">Text size</label><select id="reader-size" aria-label="Reading text size"><option value="90">Small</option><option value="100">Normal</option><option value="110">Large</option><option value="120">Extra large</option></select><label for="reader-width">Line width</label><select id="reader-width" aria-label="Reading line width"><option value="comfortable">Comfortable</option><option value="wide">Wide</option></select></div></div>`;
  article.querySelector('.article-summary')?.after(toolbar);
  const nav=document.createElement('nav');nav.id='reader-section-nav';nav.className='reader-section-nav';
  nav.setAttribute('aria-label','Section reading navigation');
@@ -81,6 +81,11 @@ function mount(){
  sections=getSections();
  const saved=Number(safe('dom-last-section-'+slug,'0',Array.from({length:sections.length},(_,i)=>String(i))));
  activeSection=Number.isInteger(saved)?saved:0;
+ const toggle=toolbar.querySelector('.reader-toggle');
+ const stateLabel=()=>{toggle.querySelector('.reader-toggle-state').textContent={continuous:'Continuous',section:'Sections',presentation:'Cards'}[mode]};
+ toggle.addEventListener('click',()=>{const open=toolbar.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(open))});
+ toolbar.addEventListener('click',e=>{if(e.target.closest('[data-reader-mode]'))stateLabel()});
+ stateLabel();
  toolbar.querySelectorAll('[data-reader-mode]').forEach(button=>button.addEventListener('click',()=>selectMode(button.dataset.readerMode)));
  const size=toolbar.querySelector('#reader-size');size.value=String(scale);
  size.addEventListener('change',()=>{scale=Number(size.value);save('dom-reader-scale',scale);setClasses()});
