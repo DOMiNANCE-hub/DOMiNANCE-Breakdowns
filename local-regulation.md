@@ -131,11 +131,11 @@ Local control works **alongside** the nerves and hormones of the next two chapte
 ## 7. Chapter Essentials
 
 1. **Flow = pressure difference ÷ resistance.** Tissues control their flow by changing **arteriolar radius** (resistance ∝ 1/r⁴).
-2. **Autoregulation** keeps flow steady when pressure changes, within a range. Strongest in the brain, kidneys and heart.
+2. **Autoregulation** keeps flow steady when pressure changes: arterioles constrict when pressure rises and dilate when it falls. It works within a range and is strongest in the brain, kidneys and heart.
 3. **Myogenic:** stretch → smooth muscle contracts → arteriole narrows. **Senses pressure.**
 4. **Metabolic:** low O₂, high CO₂/H⁺, lactic acid, K⁺, adenosine, heat → dilation → metabolites washed out. **Senses supply versus demand.**
-5. **Local constrictors:** serotonin, cold, angiotensin II.
+5. **Local constrictors:** platelet serotonin, cold and angiotensin II narrow arterioles, raising resistance and cutting local flow.
 6. **Law of Laplace (cylinder): T = P × r.** Small vessels need little wall tension; widened vessels need more.
-7. **Active hyperaemia:** more flow during activity. **Reactive hyperaemia:** a surge after a blockage.
+7. **Active hyperaemia:** more flow during activity, because the tissue's own metabolites dilate its arterioles. **Reactive hyperaemia:** a surge after a blockage, because metabolites and an oxygen debt build up while flow is stopped.
 8. **Endothelium:** NO (via cGMP) and prostacyclin dilate; endothelin-1 constricts. Bradykinin, substance P and ACh dilate through NO.
 9. **In exercise**, local metabolic dilation overrides sympathetic constriction in working muscle.
