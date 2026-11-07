@@ -1,8 +1,8 @@
-# Circulatory <span data-term="shock">Shock</span>
+# Circulatory Shock
 
 ## 1. What is shock?
 
-**Shock** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
+**<span data-term="shock">Shock</span>** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
 
 **Shock is not defined by a blood pressure number.** Recall **mean arterial pressure ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
 
