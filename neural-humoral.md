@@ -1,103 +1,146 @@
-# Neural and Hormonal Regulation
+# Neural and Hormonal Control
 
-## 1. Why does the whole body need cardiovascular regulation?
+## 1. Why does the body need central control?
 
-Local control adapts individual organs; central regulation coordinates the circulation to defend arterial pressure and distribute flow when demand or volume changes. **MAP − right atrial pressure ≈ CO × SVR**, and **CO = HR × SV**. These are interconnected: changing venous tone can alter preload and stroke volume, while arteriolar tone changes afterload. A higher heart rate is therefore not proof of a higher output.
+Local control looks after **one tissue at a time**. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)* But someone has to look after the **whole circulation**: keeping arterial pressure high enough to perfuse every organ, and moving blood to where it's needed.
 
-## 2. The medullary control network
+That central control works on the variables you already know *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)*:
 
-The cardiovascular centres are functional networks, not a single on/off switch. Sensory information reaches the **nucleus tractus solitarius (NTS)**. The **rostral ventrolateral medulla (RVLM)** provides a major tonic sympathoexcitatory output; the **caudal ventrolateral medulla (CVLM)** contributes inhibitory relay activity. Cardiac vagal output involves nucleus ambiguus and dorsal motor nucleus of vagus. The *pressor* and *depressor* regions describe the net effects of stimulating these networks. Increased sympathetic vasomotor firing narrows many arterioles; reducing its tonic activity permits dilation.
+**Mean arterial pressure ≈ cardiac output × total peripheral resistance**, and **cardiac output = heart rate × stroke volume**.
 
-## 3. Sympathetic effects on the heart, arterioles and veins
+So the nervous system and hormones can raise blood pressure in three ways:
 
-Most sympathetic postganglionic fibres release **noradrenaline (norepinephrine)**. Cardiac **β₁** signalling increases SA node firing, AV conduction and ventricular contractility. Vascular **α₁** stimulation constricts many arterioles, increasing resistance, and many veins, reducing venous capacitance and mobilising blood toward the thorax. **Venoconstriction does not create blood**: its contribution is limited by circulating volume and right-heart function. During haemorrhage, systemic vascular resistance can preserve MAP while tissue flow remains inadequate.
+1. **Speed up the heart** (heart rate).
+2. **Strengthen each beat** (stroke volume, via contractility and venous return).
+3. **Narrow the arterioles** (peripheral resistance).
 
-## 4. Parasympathetic effects and tonic vagal restraint
+## 2. The control centre in the medulla
 
-Vagal **acetylcholine** binds cardiac **M₂ muscarinic receptors**, reducing SA nodal pacing and slowing AV nodal conduction. Parasympathetic innervation is relatively modest in most systemic resistance vessels; the vagus therefore regulates the heart much more directly than systemic vascular resistance. At rest, vagal restraint often keeps heart rate below the intrinsic SA nodal rate. Atropine blocks muscarinic signalling and usually increases resting heart rate.
+The heart and blood vessels are controlled by groups of neurons in the **medulla oblongata**, together called the **<span data-term="vasomotor-centre">vasomotor centre</span>**. It has two opposing parts:
 
-## 5. Hormones and circulating vasomotor agents
+| | **Pressor area** | **Depressor area** |
+|---|---|---|
+| Where | Upper, lateral part of the medulla | Lower, inner part of the medulla |
+| Does | **Excites** the sympathetic neurons in the spinal cord | **Inhibits** the pressor area |
+| Result | Blood pressure **rises** | Blood pressure **falls** |
 
-**Adrenaline (epinephrine)** from the adrenal medulla can activate β₁ cardiac receptors; β₂ stimulation dilates some skeletal-muscle vascular beds, while α stimulation constricts others, depending on concentration and receptor distribution. **Angiotensin II** acts mainly at AT₁ receptors to constrict arterioles, stimulate aldosterone and thirst, and support ADH release. **Aldosterone** increases distal nephron sodium reabsorption over hours to days; water retention follows depending on conditions. **Vasopressin (ADH)** increases renal water reabsorption through V₂ receptors and can cause V₁-mediated vasoconstriction at higher levels. **ANP/BNP** counter volume overload by promoting natriuresis and related effects. Endothelial NO and endothelin modify this systemic control locally.
+The pressor area sends fibres **straight down to the sympathetic neurons in the spinal cord**. Nearby are the **vagal neurons** that slow the heart. Sensory signals from the body's pressure and chemical sensors arrive at a relay station, the **<span data-term="nts">nucleus tractus solitarius (NTS)</span>**, which adjusts all of these. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
 
-## 6. What changes in haemorrhage and in exercise?
+<aside class="source-note"><strong>Source note:</strong> The lecture's "pressor" and "depressor" areas correspond to what modern texts call the rostral ventrolateral medulla (pressor) and the caudal ventrolateral medulla (depressor).</aside>
 
-**Haemorrhage:** reduced central blood volume lowers venous return, stroke volume and arterial stretch. Baroreflex unloading increases sympathetic activity and reduces vagal tone, raising heart rate, arteriolar resistance and venous tone. RAAS and ADH contribute over a longer time scale. If haemorrhage is severe, increased resistance cannot restore lost oxygen delivery. **Exercise:** sympathetic cardiac stimulation raises output while local metabolic dilation in active muscles can overcome much of the local vasoconstrictor influence. Other vascular beds may constrict, allowing redistribution. The final response is the sum of central and regional signals.
+## 3. Sympathetic control of the blood vessels
 
-## 7. Time scales and reset limits
+Sympathetic fibres supply the smooth muscle of **all blood vessels except the capillaries** (and the smallest venules, which have little muscle). Most release **noradrenaline**, which acts on **α₁ receptors** to **constrict** the vessel.
 
-Fast **neural** adjustments may appear within seconds; circulating catecholamines and angiotensin II can change tone rapidly; renal salt-water balance, aldosterone and structural adaptation shape control over hours to days. The arterial baroreflex can reset during sustained pressure changes and does not by itself determine long-term blood pressure. Kidney-mediated sodium and water balance are central to long-term volume and pressure regulation.
+They do two different jobs, depending on the vessel:
 
-## 8. Clinical application
+| Vessel | What constriction does |
+|---|---|
+| **Arterioles** (resistance vessels) | Raises **resistance**, so **blood pressure rises** and flow is redistributed |
+| **Veins** (capacitance vessels) | **Squeezes stored blood** out of the veins towards the heart, raising **venous return** and so cardiac output |
 
-An individual on a β₁ blocker may have a reduced tachycardic response despite blood loss, while α-mediated vasoconstriction may still occur. An individual taking an α₁ blocker may develop postural symptoms because peripheral vasoconstriction is impaired. **Do not diagnose shock from blood pressure alone**; follow perfusion, mental state, urine output, capillary refill and the clinical context.
+### The key idea: a constant background "tone"
 
-## Further physiological insights
+The sympathetic constrictor fibres fire **all the time**, at a low rate. This **<span data-term="sympathetic-tone">tonic discharge</span>** keeps every arteriole partly constricted. There is **no** equivalent background firing in dilator fibres.
 
-The lecture additionally names kinins (bradykinin), vasoactive intestinal polypeptide (VIP) and ANP as vasodilator influences. It describes specialised sympathetic cholinergic vasodilator pathways, although widespread human sympathetic vascular regulation is predominantly noradrenergic and constrictor. Cortical and hypothalamic signals, pain, lung inflation afferents, hypoxia and hypercapnia also modify medullary cardiovascular output.
+So the body controls vessel width by **turning the sympathetic tone up or down**:
 
-## Understanding Checks
+- **More** sympathetic firing → **constriction**.
+- **Less** sympathetic firing → **dilation**. No dilator nerve is needed; the vessel simply relaxes.
 
-**01. Sympathetic activity rises but pulse barely changes. How can MAP still rise?**
+That is why cutting the sympathetic nerves (or a spinal injury) makes vessels dilate and blood pressure fall.
 
-<details><summary>Show explanation</summary>α₁-mediated arteriolar constriction increases systemic vascular resistance; venoconstriction can support preload. MAP depends on both output and resistance, not heart rate alone.</details>
+**An exception: <span data-term="sympathetic-cholinergic">sympathetic cholinergic dilator fibres</span>.** Some sympathetic fibres to skeletal muscle release **acetylcholine** and **dilate** the vessels. They are switched on by the cortex, in **anticipation** of exercise or in alarm.
 
-**02. Why does vagal withdrawal increase SA nodal firing?**
+<aside class="source-note"><strong>Source note:</strong> These cholinergic dilator fibres are well shown in animals; their importance in humans is uncertain. Human sympathetic control of blood vessels is mainly noradrenergic and constrictor.</aside>
 
-<details><summary>Show explanation</summary>Removing ACh–M₂ signalling reduces inhibitory effects on pacemaker activity, allowing rate to approach the intrinsic SA nodal rate.</details>
+## 4. Control of the heart: sympathetic and vagus
 
-**03. Which receptor most directly increases ventricular contractility during sympathetic activation?**
+| | **Sympathetic** | **Parasympathetic (vagus)** |
+|---|---|---|
+| Transmitter and receptor | Noradrenaline on **β₁** | Acetylcholine on **M₂** |
+| Heart rate | **Faster** (SA node) | **Slower** (SA node) |
+| AV node | Faster conduction | Slower conduction |
+| Force of contraction | **Stronger** | Little effect on the ventricles |
 
-<details><summary>Show explanation</summary>Myocardial β₁ adrenergic receptor stimulation increases calcium availability and excitation–contraction coupling, increasing inotropy.</details>
+*(<a href="#/physiology/cvs/cardiac-conduction">→ Cardiac Conduction</a>)*
 
-**04. What is the difference between constricting an arteriole and constricting a vein?**
+**At rest, the vagus is in charge.** The SA node on its own would fire at about 100 beats/min. Constant **<span data-term="vagal-tone">vagal tone</span>** holds the resting rate down to about 70. So:
 
-<details><summary>Show explanation</summary>Arteriolar constriction mainly increases resistance and alters tissue flow; venoconstriction reduces capacitance and can move stored venous blood centrally to support preload.</details>
+- **Cutting the vagus** (vagotomy) → heart rate **rises**.
+- **<span data-term="atropine">Atropine</span>**, which blocks the vagus's muscarinic receptors → heart rate **rises**.
 
-**05. Can a strong sympathetic response restore the blood volume lost in severe haemorrhage?**
+**The vagus acts mainly on the heart, not the vessels.** Most blood vessels have little or no parasympathetic supply. So the vagus controls blood pressure mainly through **heart rate**.
 
-<details><summary>Show explanation</summary>No. It redistributes remaining blood and increases vascular tone but cannot manufacture lost volume; fluid replacement and control of bleeding address the primary deficit.</details>
+**Understanding Check: Sections 1–4**
 
-**06. How does the NTS participate in rapid BP regulation?**
+<p><strong>1.</strong> How do the sympathetic nerves make an arteriole dilate?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They reduce their background constrictor firing, so the muscle relaxes</span><span class="mcq-option" data-option="B">B. They release acetylcholine onto every arteriole in the body</span><span class="mcq-option" data-option="C">C. They increase their firing, which opens the arteriole wider</span><span class="mcq-option" data-option="D">D. They switch on a separate set of tonic dilator fibres</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Sympathetic constrictor fibres fire tonically. Turning that tone down is how most vessels dilate.</p></details>
 
-<details><summary>Show explanation</summary>It receives baroreceptor afferent signals and engages medullary pathways that adjust sympathetic and vagal outflow.</details>
+<p><strong>2.</strong> A patient is given atropine. What happens to the resting heart rate, and why?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It rises, because atropine blocks the vagal brake on the SA node</span><span class="mcq-option" data-option="B">B. It falls, because atropine blocks sympathetic β₁ receptors on the heart</span><span class="mcq-option" data-option="C">C. It rises, because atropine directly stimulates the SA node cells</span><span class="mcq-option" data-option="D">D. It stays the same, because the vagus has no effect at rest</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> At rest, vagal tone holds the rate below the SA node's own rate. Removing it lets the rate rise.</p></details>
 
-**07. Why can adrenaline dilate some vessels yet constrict others?**
+<p><strong>3.</strong> What does sympathetic constriction of the veins achieve?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It pushes stored blood towards the heart, raising venous return</span><span class="mcq-option" data-option="B">B. It raises peripheral resistance, the main cause of high pressure</span><span class="mcq-option" data-option="C">C. It reduces the volume of blood returning to the heart</span><span class="mcq-option" data-option="D">D. It makes new blood to replace volume lost in a bleed</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Veins are the blood reservoir. Squeezing them raises venous return and so cardiac output.</p></details>
 
-<details><summary>Show explanation</summary>Adrenergic receptor subtype distribution and concentration matter: β₂ can favour skeletal-muscle vasodilation, while α activation causes constriction in other beds.</details>
+## 5. Hormones that act on the circulation
 
-**08. Why is aldosterone slower than direct sympathetic vasoconstriction?**
+Hormones act more slowly than nerves, but their effects can last much longer.
 
-<details><summary>Show explanation</summary>Aldosterone modifies renal tubular transporter activity and sodium retention, influencing circulating volume over hours or days rather than acting as an immediate nerve impulse.</details>
+**Constrictors and volume-raisers:**
 
-**09. How can ADH influence both vascular tone and water retention?**
+| Hormone | From | Main effects |
+|---|---|---|
+| **Adrenaline** | Adrenal medulla | **β₁:** faster, stronger heart. **β₂:** dilates arterioles in skeletal muscle and liver. **α₁** (at high levels): constricts most other vessels. |
+| **<span data-term="angiotensin-ii">Angiotensin II</span>** | Made in the blood when the kidney releases **renin** (low pressure) | **Constricts** arterioles; triggers **aldosterone**, **thirst** and **ADH** |
+| **<span data-term="aldosterone">Aldosterone</span>** | Adrenal cortex | Kidneys keep **Na⁺** (and water follows), raising blood volume over **hours to days** |
+| **<span data-term="adh">ADH (vasopressin)</span>** | Posterior pituitary | Kidneys keep **water**; at high levels, also **constricts** arterioles |
 
-<details><summary>Show explanation</summary>V₂ receptor stimulation increases collecting-duct water reabsorption; V₁ receptors mediate vasoconstriction, especially at higher vasopressin levels.</details>
+**Dilators** (from the lecture):
 
-**10. Why might active muscle receive more blood during exercise despite sympathetic activity?**
+| Substance | Main effects |
+|---|---|
+| **<span data-term="anp">ANP</span>** (atrial natriuretic peptide) | Released when the atria are **stretched** by too much volume. **Dilates** vessels and makes the kidneys **lose Na⁺ and water**. |
+| **Kinins** (e.g. bradykinin) | Made in the plasma and tissues. **Dilate** arterioles, through endothelial NO. |
+| **VIP** (vasoactive intestinal polypeptide) | **Dilates** vessels, especially in the gut |
 
-<details><summary>Show explanation</summary>Local metabolic vasodilator signals in active muscle can attenuate vasoconstriction, while cardiac output rises and blood is redistributed.</details>
+**Why can adrenaline both dilate and constrict?** Because different vessels carry different receptors. Muscle arterioles have many **β₂** receptors, which dilate; skin and gut arterioles have mainly **α₁** receptors, which constrict. So adrenaline **redirects** blood towards the muscles.
 
-**11. If heart rate doubles but stroke volume halves, what happens to cardiac output?**
+## 6. Fast, slow and slower: putting it together
 
-<details><summary>Show explanation</summary>Since CO = HR × SV, the product remains unchanged. Tachycardia alone is not proof of improved blood delivery.</details>
+| Speed | Mechanism | Good for |
+|---|---|---|
+| **Seconds** | Nerves (sympathetic, vagus) and the reflexes that drive them | Standing up, sudden blood loss, exercise |
+| **Minutes** | Adrenaline, angiotensin II, ADH | Sustaining the response |
+| **Hours to days** | Aldosterone, ADH and the **kidneys' control of salt and water** | Restoring **blood volume**; long-term blood pressure |
 
-**12. Why is the baroreflex insufficient as the sole explanation for chronic BP control?**
+**Haemorrhage, step by step:**
 
-<details><summary>Show explanation</summary>It resets and buffers short-term changes; renal pressure natriuresis, fluid balance and longer-term hormonal mechanisms matter critically for persistent pressure regulation.</details>
+1. Blood volume falls, so venous return, stroke volume and arterial pressure fall.
+2. **Within seconds:** sympathetic firing rises and vagal tone falls. The heart beats **faster and harder**, arterioles **constrict**, and veins **squeeze** stored blood towards the heart.
+3. **Within minutes:** adrenaline, angiotensin II and ADH reinforce the constriction.
+4. **Over hours to days:** aldosterone and ADH make the kidneys keep salt and water, and thirst rises, slowly **refilling** the circulation.
 
-## Chapter Essentials
+The nerves can **hold up the pressure**, but they can't replace lost blood. Only the slower, kidney-driven steps restore the volume. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-1. **Why does the whole body need cardiovascular regulation?** — Local control adapts individual organs; central regulation coordinates the circulation to defend arterial pressure and distribute flow when demand or volume changes.
-2. **The medullary control network** — The cardiovascular centres are functional networks, not a single on/off switch.
-3. **Sympathetic effects on the heart, arterioles and veins** — Most sympathetic postganglionic fibres release noradrenaline (norepinephrine).
-4. **Parasympathetic effects and tonic vagal restraint** — Vagal acetylcholine binds cardiac M₂ muscarinic receptors, reducing SA nodal pacing and slowing AV nodal conduction.
-5. **Hormones and circulating vasomotor agents** — Adrenaline (epinephrine) from the adrenal medulla can activate β₁ cardiac receptors; β₂ stimulation dilates some skeletal-muscle vascular beds, while α stimulation constricts others, depending on concentration and receptor distribution.
-6. **What changes in haemorrhage and in exercise?** — Haemorrhage: reduced central blood volume lowers venous return, stroke volume and arterial stretch.
-7. **Time scales and reset limits** — Fast neural adjustments may appear within seconds; circulating catecholamines and angiotensin II can change tone rapidly; renal salt-water balance, aldosterone and structural adaptation shape control over hours to days.
-8. **Clinical application** — An individual on a β₁ blocker may have a reduced tachycardic response despite blood loss, while α-mediated vasoconstriction may still occur.
+**Understanding Check: Sections 5–6**
 
-## Sources and scope
+<p><strong>1.</strong> Why does adrenaline increase blood flow to skeletal muscle while reducing it to the skin?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Muscle arterioles have β₂ receptors that dilate; skin arterioles have α₁ that constrict</span><span class="mcq-option" data-option="B">B. Muscle arterioles have α₁ receptors that dilate; skin arterioles have β₂ that constrict</span><span class="mcq-option" data-option="C">C. Adrenaline reaches muscle only, because skin has no blood supply from the aorta</span><span class="mcq-option" data-option="D">D. Adrenaline acts only on the heart, and the muscle simply receives the extra output</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The response depends on the receptors each vessel carries.</p></details>
 
-- Primary: CIRCULATION 2 REGULATION OF THE CVS(2).pdf, slides 12–30.
-- Cross-reference: Guyton and Hall, *Textbook of Medical Physiology*; Boron and Boulpaep, *Medical Physiology*.
+<p><strong>2.</strong> What stimulates the release of ANP, and what does it do?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Atrial stretch; it dilates vessels and makes the kidneys lose salt and water</span><span class="mcq-option" data-option="B">B. Low blood pressure; it constricts vessels and makes the kidneys keep salt</span><span class="mcq-option" data-option="C">C. Low blood volume; it triggers thirst and the release of aldosterone</span><span class="mcq-option" data-option="D">D. Sympathetic firing; it speeds the heart and strengthens its contraction</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> ANP is the body's response to too much volume: it lowers volume and pressure.</p></details>
+
+<p><strong>3.</strong> After a large haemorrhage, which mechanism actually restores the lost blood volume?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Kidney salt and water retention driven by aldosterone and ADH</span><span class="mcq-option" data-option="B">B. Sympathetic constriction of the arterioles throughout the body</span><span class="mcq-option" data-option="C">C. Sympathetic constriction of the veins that store the blood</span><span class="mcq-option" data-option="D">D. A faster heart rate driven by the withdrawal of vagal tone</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Nerves raise pressure within seconds but don't add volume. The kidneys, over hours to days, do.</p></details>
+
+## 7. Chapter Essentials
+
+1. **MAP ≈ CO × TPR**, and **CO = HR × SV**. Central control adjusts heart rate, contractility, venous return and arteriolar tone.
+2. **Vasomotor centre** in the medulla: the **pressor area** excites spinal sympathetic neurons; the **depressor area** inhibits it. Sensory input arrives at the **NTS**.
+3. **Sympathetic constrictor fibres** (noradrenaline, α₁) supply all vessels except capillaries. **Arterioles:** resistance. **Veins:** push stored blood to the heart.
+4. **Tonic constrictor discharge:** less firing = dilation. There is no tonic dilator discharge.
+5. **Sympathetic cholinergic dilators** supply skeletal muscle (doubtful importance in humans).
+6. **Heart:** sympathetic (β₁) = faster and stronger; vagus (M₂) = slower. **Resting vagal tone** holds the rate down, so vagotomy or atropine raises it.
+7. **Hormones:** adrenaline (β₁, β₂ dilation in muscle, α₁ constriction elsewhere), angiotensin II, aldosterone, ADH raise pressure or volume; **ANP, kinins and VIP dilate**.
+8. **Timescales:** nerves in seconds, hormones in minutes, **kidneys over hours to days**. Only the kidneys restore lost volume.

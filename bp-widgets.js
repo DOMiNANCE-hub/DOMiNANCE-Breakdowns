@@ -206,4 +206,62 @@
     draw();
   }
   W.register('diastole-clock', diastoleClock);
+  // ---------- Reflex tracer (Chapter 18, §3) ----------
+  const RT = {
+    rise: {label: 'Blood pressure rises', steps: [
+      ['Blood pressure', 1, 'Arterial pressure rises and stretches the walls of the carotid sinus and aortic arch.'],
+      ['Baroreceptors', 1, 'More stretch, so they fire faster.'],
+      ['IX and X → NTS', 1, 'More signals reach the NTS in the medulla.'],
+      ['Depressor area', 1, 'The NTS excites the depressor area, which inhibits the pressor area.'],
+      ['Sympathetic firing', -1, 'Less sympathetic drive to the heart, arterioles and veins.'],
+      ['Vagal firing', 1, 'The NTS also excites the vagal neurons, so more vagal firing reaches the SA node.'],
+      ['Heart and vessels', 0, 'The heart beats slower and less forcefully; arterioles dilate; veins relax.'],
+      ['Blood pressure', -1, 'Cardiac output and resistance fall, so pressure falls back towards normal.']],
+      sum: [['Heart rate', -1], ['Contractility', -1], ['Arterioles', -1, 'dilate'], ['Veins', -1, 'relax'], ['Blood pressure', -1, 'back to normal']]},
+    fall: {label: 'Blood pressure falls', steps: [
+      ['Blood pressure', -1, 'Arterial pressure falls, for example after a bleed, so the arterial walls stretch less.'],
+      ['Baroreceptors', -1, 'Less stretch, so they fire less.'],
+      ['IX and X → NTS', -1, 'Fewer signals reach the NTS in the medulla.'],
+      ['Depressor area', -1, 'The depressor area is no longer excited, so the pressor area is released.'],
+      ['Sympathetic firing', 1, 'More sympathetic drive to the heart, arterioles and veins.'],
+      ['Vagal firing', -1, 'Vagal firing to the SA node falls.'],
+      ['Heart and vessels', 0, 'The heart beats faster (tachycardia) and harder; arterioles constrict; veins squeeze stored blood towards the heart.'],
+      ['Blood pressure', 1, 'Cardiac output and resistance rise, so pressure rises back towards normal.']],
+      sum: [['Heart rate', 1], ['Contractility', 1], ['Arterioles', 1, 'constrict'], ['Veins', 1, 'constrict'], ['Blood pressure', 1, 'back to normal']]},
+    icp: {label: 'Intracranial pressure rises', steps: [
+      ['Intracranial pressure', 1, 'A tumour, blood clot or hydrocephalus raises the pressure inside the skull.'],
+      ['Cerebral perfusion pressure', -1, 'CPP = MAP − ICP, so less blood reaches the medulla.'],
+      ['Vasomotor centre', 1, 'Its own hypoxia and high CO₂ stimulate it directly.'],
+      ['Sympathetic firing', 1, 'A massive sympathetic discharge constricts the arterioles.'],
+      ['Blood pressure', 1, 'Arterial pressure rises sharply, forcing blood back into the brain.'],
+      ['Baroreceptors', 1, 'They detect the high pressure and fire faster.'],
+      ['Vagal firing', 1, 'The baroreflex increases vagal firing to the SA node.'],
+      ['Heart rate', -1, 'The heart slows: high blood pressure with bradycardia, the Cushing reflex.']],
+      sum: [['Heart rate', -1], ['Arterioles', 1, 'constrict'], ['Blood pressure', 1, 'high'], ['Breathing', 0, 'irregular']]}
+  };
+  function reflexTracer(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'rt-wrap';
+    wrap.innerHTML = `<div class="tw-controls rt-scen" role="group" aria-label="Choose a starting change">${Object.entries(RT).map(([k, s]) => `<button type="button" class="tw-btn" data-sc="${k}" aria-pressed="false">${s.label}</button>`).join('')}</div>` +
+      `<ol class="rt-chain" aria-live="polite"></ol><div class="rt-sum"></div>` +
+      `<div class="tw-controls rt-nav"><button type="button" class="tw-btn" data-go="-1">Back</button><span class="rt-count"></span><button type="button" class="tw-btn" data-go="1">Next</button></div>`;
+    let sc = 'fall', i = 0;
+    const arrow = d => d > 0 ? '<span class="rt-up" aria-label="rises">↑</span>' : d < 0 ? '<span class="rt-down" aria-label="falls">↓</span>' : '<span class="rt-eq" aria-hidden="true">→</span>';
+    const draw = () => {
+      const s = RT[sc], n = s.steps.length;
+      wrap.querySelector('.rt-chain').innerHTML = s.steps.slice(0, i + 1).map(([name, d, say], k) =>
+        `<li class="${k === i ? 'is-now' : ''}"><span class="rt-badge">${arrow(d)}</span><span><strong>${name}</strong> ${say}</span></li>`).join('');
+      wrap.querySelector('.rt-sum').innerHTML = i === n - 1 ? `<p class="lv-readout"><strong>Overall:</strong> ${s.sum.map(([k, d, w]) => `${k} ${arrow(d)}${w ? ' ' + w : ''}`).join(' · ')}</p>` : '';
+      wrap.querySelector('.rt-count').textContent = `Step ${i + 1} of ${n}`;
+      wrap.querySelector('[data-go="-1"]').disabled = i === 0;
+      wrap.querySelector('[data-go="1"]').disabled = i === n - 1;
+      wrap.querySelectorAll('[data-sc]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.sc === sc)));
+    };
+    wrap.querySelectorAll('[data-sc]').forEach(b => b.addEventListener('click', () => { sc = b.dataset.sc; i = 0; draw(); }));
+    wrap.querySelectorAll('[data-go]').forEach(b => b.addEventListener('click', () => { i = Math.max(0, Math.min(RT[sc].steps.length - 1, i + Number(b.dataset.go))); draw(); }));
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    draw();
+  }
+  W.register('reflex-tracer', reflexTracer);
 })();
