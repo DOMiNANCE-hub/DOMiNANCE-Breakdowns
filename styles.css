@@ -1173,3 +1173,48 @@ details.mcq-answer.is-after-answer[open]>p:first-of-type{margin-top:4px}
 :is(.article-text,.cs-body) .media-resource .media-play::before{content:'';border-style:solid;border-width:6px 0 6px 10px;border-color:transparent transparent transparent currentColor}
 :is(.article-text,.cs-body) .media-resource.is-playing .media-play::before{border-width:0;width:10px;height:10px;background:currentColor;border-radius:2px}
 [data-theme="dark"] :is(.article-text,.cs-body) .media-play{background:#2c4f8f;border-color:#2c4f8f;color:#fff}
+/* ---------- ECG original diagrams ---------- */
+:is(.article-text,.cs-body) .ecg-svg-figure{max-width:var(--measure);margin:1.6em 0;padding:16px 16px 12px;border:1px solid var(--line);border-radius:18px;background:var(--sheet2)}
+:is(.article-text,.cs-body) .ecg-svg-figure>figcaption{font:700 15.5px/1.35 'DM Sans',sans-serif;color:var(--navy);margin:0 0 10px}
+.ecg-svg-figure svg{display:block;width:100%;height:auto;overflow:visible}
+.ecg-panels{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.ecg-panels{grid-template-columns:1fr;gap:6px}.ecg-panels svg{max-width:330px;margin:0 auto}}
+:is(.article-text,.cs-body) .ecg-svg-figure .ef-note{margin:10px 0 0;font-size:13.5px;line-height:1.55;color:var(--muted)}
+.ecg-svg-figure text{font-family:'DM Sans',sans-serif}
+.ef-trace{fill:none;stroke:var(--muted);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;opacity:.7}
+.ef-wave path{fill:none;stroke:var(--navy);stroke-width:4.5;stroke-linejoin:round;stroke-linecap:round}
+.ef-seg path{stroke:var(--num);stroke-width:7;stroke-linecap:round}
+.ef-key-wave{fill:var(--navy)}.ef-key-seg{fill:var(--num)}
+.ef-legend text{font-size:13px;fill:var(--muted);font-weight:600}
+.ef-bracket,.ef-bracket path{fill:none;stroke:var(--blue);stroke-width:2}
+.ef-wavelabel text{font-size:17px;font-weight:800;fill:var(--navy)}
+.ef-seglabel text{font-size:13.5px;font-weight:700;fill:var(--num)}
+.ef-ilabel text{font-size:14px;font-weight:700;fill:var(--text)}
+.ef-val{font-weight:500;fill:var(--muted)}
+.ef-body circle,.ef-body path{fill:color-mix(in srgb,var(--navy) 6%,var(--sheet));stroke:var(--line);stroke-width:1.5}
+.ef-lead path{fill:none;stroke:var(--navy);stroke-width:3}
+.ef-head{fill:var(--navy)}
+.ef-aug path{fill:none;stroke:var(--num);stroke-width:2.2;stroke-dasharray:5 4}
+.ef-head2{fill:var(--num)}
+.ef-electrode circle{fill:var(--sheet);stroke:var(--navy);stroke-width:2.5}
+.ef-elabel text{font-size:11.5px;font-weight:800;fill:var(--navy)}
+.ef-leadlabel text{font-size:18px;font-weight:800;fill:var(--navy)}
+.ef-auglabel text{font-size:14px;font-weight:700;fill:var(--num)}
+.ef-cap{font-size:13.5px;font-weight:700;fill:var(--muted)}
+.ef-torso{fill:color-mix(in srgb,var(--navy) 5%,var(--sheet));stroke:var(--line);stroke-width:1.5}
+.ef-sternum{fill:color-mix(in srgb,var(--navy) 10%,var(--sheet));stroke:var(--line)}
+.ef-guide path{stroke:var(--muted);stroke-width:1.2;stroke-dasharray:4 4;opacity:.7}
+.ef-guidelabel text{font-size:12.5px;font-weight:700;fill:var(--muted)}
+.ef-vlabel text{font-size:15px;font-weight:800;fill:var(--navy)}
+.ef-paper{fill:color-mix(in srgb,#e8505b 6%,var(--sheet))}
+.ef-minor{stroke:color-mix(in srgb,#e8505b 22%,var(--sheet));stroke-width:.8}
+.ef-major{stroke:color-mix(in srgb,#e8505b 55%,var(--sheet));stroke-width:1.6}
+.ef-hi{fill:var(--num);opacity:.85}
+.ef-cal{stroke:var(--navy);stroke-width:3;opacity:1}
+#ecg-paper .ef-ilabel text{paint-order:stroke;stroke:var(--sheet2);stroke-width:5px;stroke-linejoin:round}
+.lv-heart{fill:color-mix(in srgb,#d0505b 16%,var(--sheet));stroke:color-mix(in srgb,#b03a46 55%,var(--muted));stroke-width:2}
+.lv-vessel{fill:none;stroke:color-mix(in srgb,#b03a46 55%,var(--muted));stroke-width:6;stroke-linecap:round}
+.lv-side{font:700 19px 'DM Sans',sans-serif;fill:var(--muted)}
+.lv-hint{font:600 19px 'DM Sans',sans-serif;fill:var(--muted)}
+.lv-stage text.tw-small{font-size:21px}
+.lv-stage text.tw-tiny{font-size:18px}

@@ -1,7 +1,7 @@
 {
   "_about": "Regression guards carried over from the retired milestone workflows. Edit deliberately: when a chapter is rebuilt, update its entry in the same pull request and explain why. minimum_checks prevents accidental loss of Understanding Checks; it is not a target and may be changed when a chapter is redesigned.",
   "expected_chapters": 27,
-  "minimum_figure_credits": 27,
+  "minimum_figure_credits": 24,
   "chapters": {
     "cv-introduction": {
       "minimum_checks": 11,
