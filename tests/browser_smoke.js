@@ -248,6 +248,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log(`  ${topics.length} chapters checked in all three modes`);
   }
 
+  // Keep the responsive fraction checks after merging new media/reading styles from main.
   // ---------- 4. Equations ----------
   section('Equations retain stacked fractions and scripts on small screens');
   for (const width of [320, 360, 390, 768]) {
