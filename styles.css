@@ -689,3 +689,12 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .lymph-duct-figure .ly-angle{fill:var(--w-lv);stroke:var(--sheet);stroke-width:1.5}
 .lymph-duct-figure text{fill:var(--text)}.lymph-duct-figure .ly-lab{font-size:14px;font-weight:800}.lymph-duct-figure .ly-lab-sm{font-size:12px}.lymph-duct-figure .ly-lab-xs{font-size:10px;fill:var(--muted)}
 .lymph-duct-figure .ly-lab-rd{fill:color-mix(in srgb,var(--gold) 70%,var(--text))}.lymph-duct-figure .ly-lab-td{fill:var(--w-vol)}
+/* Chapter 21: left vs right failure */
+.hf-sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0}
+.hf-col{display:flex;flex-direction:column;gap:6px;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--sheet)}
+.hf-col strong{font-size:14px;color:var(--navy)}.hf-col span{font-size:13px;line-height:1.4;padding:6px 8px;border-radius:8px;background:var(--sheet2);position:relative}
+.hf-col span::before{content:"↓ ";color:var(--muted)}.hf-col .hf-end{font-weight:800}
+.hf-left{border-color:color-mix(in srgb,var(--w-vol) 55%,var(--line))}.hf-right{border-color:color-mix(in srgb,var(--gold) 60%,var(--line))}
+@media(max-width:420px){.hf-sides{grid-template-columns:1fr}}
+/* Chapter 23: diastole clock */
+.tw-svg .dc-sys{fill:color-mix(in srgb,#d9665c 45%,var(--sheet));stroke:#c4554c}.tw-svg .dc-dia{fill:color-mix(in srgb,var(--w-vol) 45%,var(--sheet));stroke:var(--w-vol)}.tw-svg .dc-track{fill:var(--sheet2);stroke:var(--line)}

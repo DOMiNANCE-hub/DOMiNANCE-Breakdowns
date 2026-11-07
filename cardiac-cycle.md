@@ -177,7 +177,7 @@ The **ejection fraction (EF)** is the share of EDV that is ejected:
 
 <div class="equation-block"><span class="equation-label">Ejection fraction</span><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>EF</mi><mo>=</mo><mfrac><mi>SV</mi><mi>EDV</mi></mfrac><mo>×</mo><mn>100</mn><mo>%</mo></math><span class="equation-example">Example: (80 ÷ 130) × 100 ≈ <strong>61.5%</strong></span></div>
 
-The lecture uses EDV ≈ 130 mL, SV ≈ 70–90 mL and EF ≈ 65% as typical values; small differences between rounded examples are not contradictions. EF is the fraction of *that ventricle's* end-diastolic blood ejected, not a fraction of total blood volume. Because it compares what is ejected with what was available, EF is widely used clinically as a measure of how well the ventricle contracts. A low EF suggests weakened contraction. *(<a href="#/physiology/cvs/heart-failure?section=systolic-and-diastolic-problems">→ Heart Failure Physiology</a>)*
+The lecture uses EDV ≈ 130 mL, SV ≈ 70–90 mL and EF ≈ 65% as typical values; small differences between rounded examples are not contradictions. EF is the fraction of *that ventricle's* end-diastolic blood ejected, not a fraction of total blood volume. Because it compares what is ejected with what was available, EF is widely used clinically as a measure of how well the ventricle contracts. A low EF suggests weakened contraction. *(<a href="#/physiology/cvs/heart-failure?section=2-systolic-and-diastolic-failure-can-t-squeeze-or-can-t-fill">→ Heart Failure Physiology</a>)*
 
 **Two ways to raise stroke volume.** Since SV = EDV − ESV, the ventricle can eject more by:
 
