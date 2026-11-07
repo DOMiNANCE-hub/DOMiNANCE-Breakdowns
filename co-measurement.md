@@ -16,9 +16,9 @@ Blood works the same way:
 
 <div class="fick-process" role="group" aria-label="Fick oxygen extraction concept"><span><strong>Arterial O₂ content</strong><small>O₂ carried into tissues</small></span><b>−</b><span><strong>Mixed venous O₂ content</strong><small>O₂ remaining after tissues</small></span><b>→</b><span><strong>O₂ extracted</strong><small>Amount removed from each unit of blood</small></span></div>
 
-<div class="equation-block"><span class="equation-label">Fick's oxygen principle</span><span class="equation-formula" role="math" aria-label="Oxygen consumption equals cardiac output times the arterial minus mixed venous oxygen content">V̇O₂ = CO × (CₐO₂ − CᵥO₂)</span></div>
+<div class="equation-block"><span class="equation-label">Fick's oxygen principle</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>V̇O₂</mi><mo>=</mo><mi>CO</mi><mo>×</mo><mo>(</mo><mi>CₐO₂</mi><mo>−</mo><mi>CᵥO₂</mi><mo>)</mo></math></div>
 
-<div class="equation-block"><span class="equation-label">Fick cardiac output</span><span class="equation-formula" role="math" aria-label="Cardiac output equals oxygen consumption divided by arterial minus mixed venous oxygen content">CO = V̇O₂ / (CₐO₂ − CᵥO₂)</span></div>
+<div class="equation-block"><span class="equation-label">Fick cardiac output</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mfrac><mi>V̇O₂</mi><mrow><mo>(</mo><mi>CₐO₂</mi><mo>−</mo><mi>CᵥO₂</mi><mo>)</mo></mrow></mfrac></math></div>
 
 **The lecture's example, in three steps:**
 
