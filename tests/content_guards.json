@@ -200,7 +200,11 @@
       "minimum_checks": 12
     },
     "heart-failure": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "two sides of the same failing pump",
+        "cvs21-sides"
+      ]
     },
     "cerebral": {
       "minimum_checks": 12,
@@ -209,7 +213,11 @@
       ]
     },
     "coronary": {
-      "minimum_checks": 12
+      "minimum_checks": 6,
+      "required": [
+        "the left ventricle is fed mainly in diastole",
+        "data-widget=\"diastole-clock\""
+      ]
     },
     "pulmonary": {
       "minimum_checks": 12

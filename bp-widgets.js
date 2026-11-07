@@ -176,4 +176,34 @@
     set(sc); draw();
   }
   W.register('starling-balance', starlingBalance);
+
+  // ---------- Diastole clock (Chapter 23, §5) ----------
+  function diastoleClock(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'dc-wrap';
+    wrap.innerHTML = `<div class="tw-stage"></div><label class="lv-slider"><span>Heart rate: <strong class="dc-hr"></strong> beats/min</span><input type="range" min="60" max="180" step="5" value="70" aria-label="Heart rate in beats per minute"></label><p class="lv-readout dc-say" aria-live="polite"></p>`;
+    const stage = wrap.querySelector('.tw-stage'), range = wrap.querySelector('input');
+    const draw = () => {
+      const hr = Number(range.value), beat = 60 / hr, sys = 0.29 - 0.05 * (hr - 70) / 80, dia = beat - sys;
+      const W0 = 40, WB = 480, scale = WB / 1.0;   // 1.0 s = full width
+      const perMin = dia * hr, frac = dia / beat;
+      stage.innerHTML = svgOpen(560, 170, `At ${hr} beats per minute each beat lasts ${beat.toFixed(2)} s, of which diastole is ${dia.toFixed(2)} s.`) +
+        `<text x="${W0}" y="22" class="tw-tiny tw-strong">One beat (${beat.toFixed(2)} s), drawn to scale (full width = 1 s)</text>` +
+        `<rect x="${W0}" y="32" width="${sys * scale}" height="40" rx="6" class="dc-sys"/><rect x="${W0 + sys * scale}" y="32" width="${dia * scale}" height="40" rx="6" class="dc-dia"/>` +
+        `<text x="${W0 + sys * scale / 2}" y="57" text-anchor="middle" class="tw-tiny tw-strong">systole ${sys.toFixed(2)} s</text>` +
+        (dia * scale > 120 ? `<text x="${W0 + sys * scale + dia * scale / 2}" y="57" text-anchor="middle" class="tw-tiny tw-strong">diastole ${dia.toFixed(2)} s</text>` : `<text x="${W0 + sys * scale + dia * scale + 6}" y="57" class="tw-tiny tw-strong">diastole ${dia.toFixed(2)} s</text>`) +
+        `<text x="${W0}" y="104" class="tw-tiny tw-strong">Diastole per minute: time the left ventricle is perfused</text>` +
+        `<rect x="${W0}" y="114" width="${WB}" height="22" rx="6" class="dc-track"/><rect x="${W0}" y="114" width="${WB * perMin / 60}" height="22" rx="6" class="dc-dia"/>` +
+        `<text x="${W0 + WB}" y="156" text-anchor="end" class="tw-tiny tw-strong">${perMin.toFixed(0)} s of every 60 s (${Math.round(frac * 100)}%)</text></svg>`;
+      wrap.querySelector('.dc-hr').textContent = hr;
+      wrap.querySelector('.dc-say').innerHTML = frac < 0.42
+        ? `<strong>Diastole is now only ${Math.round(frac * 100)}% of each beat.</strong> The left ventricle has little time to be perfused, while its oxygen demand is higher. With a narrowed coronary artery, this can cause ischaemia.`
+        : `At ${hr} beats/min, diastole fills <strong>${Math.round(frac * 100)}%</strong> of each beat. Raise the rate: systole shortens only a little, so diastole takes almost all of the cut.`;
+    };
+    range.addEventListener('input', draw);
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    draw();
+  }
+  W.register('diastole-clock', diastoleClock);
 })();
