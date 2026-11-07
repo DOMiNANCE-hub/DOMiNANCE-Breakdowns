@@ -1,0 +1,31 @@
+name: Rebuild equation PR generated assets (temporary)
+on:
+  push:
+    branches: [fix-math-typography]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Rebuild files after merging main changes
+        run: python build.py
+      - name: Commit generated bundles to PR branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content.js content index.html stats.html sw.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate equation bundles with merged premium-media updates"
+            git push origin HEAD:fix-math-typography
+          fi
