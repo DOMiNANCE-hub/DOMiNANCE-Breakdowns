@@ -157,7 +157,7 @@
     document.title = 'Cardiovascular Physiology | DOMiNANCE Breakdowns';
     main.innerHTML = `<section class="hero"><div class="hero-content"><div class="eyebrow">DOMiNANCE BREAKDOWNS · PHYSIOLOGY</div><h1>Cardiovascular Physiology,<br>Made Understandable.</h1><p>Understand your lectures through clear explanations of what happens, why it happens, and how the underlying mechanisms work.</p><span class="hero-chip">6 lecture documents · ${topics.length} breakdowns</span></div><div class="hero-visual"><div class="hero-orbit">${heroSvg}</div></div></section>
       <div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
-      <label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
+      <section class="offline-card" id="offline-card" aria-label="Offline reading"></section><label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
     const requestedView = new URLSearchParams((location.hash || '').split('?')[1] || '').get('view');
     let mode = requestedView === 'topics' ? 'topics' : (readStore('dom-library-view') === 'topics' ? 'topics' : 'lectures');
     let term = '';
@@ -178,7 +178,7 @@
           const selected = topics.filter(t => t.group === grp && (`${t.title} ${(window.DOM_SEARCH || {})[t.slug] || ''}`).toLowerCase().includes(term));
           return selected.length ? `<section><div class="group-label">${esc(grp)} · ${esc(desc)}</div><div class="cards">${selected.map(buildTopicCard).join('')}</div></section>` : '';
         }).join('');
-        document.getElementById('library-list').innerHTML = `<div class="filters" role="group" aria-label="Filter by section">${['All',...groups.map(g => g[0])].map(g => `<button class="filter ${group===g?'active':''}" type="button" data-group="${g}">${g === 'All' ? 'All topics' : g}</button>`).join('')}</div>${filtered || '<div class="empty">No matching topics. Try another keyword.</div>'}`;
+        document.getElementById('library-list').innerHTML = `<div class="filters" role="group" aria-label="Filter by section">${['All',...groups.map(g => g[0])].map(g => `<button class="filter ${group===g?'active':''}" type="button" data-group="${g}">${g === 'All' ? 'All topics' : g}</button>`).join('')}</div>${filtered || (term && !window.DOM_SEARCH ? '<div class="empty" role="status">Searching all breakdowns…</div>' : '<div class="empty">No matching topics. Try another keyword.</div>')}`;
         document.querySelectorAll('[data-group]').forEach(b => b.addEventListener('click', () => {group = b.dataset.group; draw();}));
       }
     };

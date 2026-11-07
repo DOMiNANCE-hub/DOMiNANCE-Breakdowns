@@ -799,3 +799,13 @@ html{scrollbar-gutter:stable}
   html.sheet-open{overflow:hidden}
 }
 @media(max-width:760px) and (prefers-reduced-motion:reduce){.topbar,.section-sheet,.sheet-backdrop{transition:none}}
+/* ---------- Offline reading ---------- */
+.offline-card{display:flex;align-items:center;justify-content:space-between;gap:12px 18px;flex-wrap:wrap;margin:0 0 16px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--sheet)}
+.offline-card:empty{display:none}
+.offline-text{display:grid;gap:2px;min-width:0;flex:1 1 240px}.offline-text strong{color:var(--navy)}.offline-text span{color:var(--muted);font-size:.9rem}
+.offline-card .btn{min-height:44px}
+.dom-toast{position:fixed;left:50%;width:max-content;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:10px;max-width:min(560px,calc(100vw - 24px));padding:10px 10px 10px 16px;border-radius:14px;background:var(--navy);color:#fff;box-shadow:0 12px 32px rgba(8,18,36,.3);font-size:.92rem}
+.dom-toast button{min-height:40px;border:0;border-radius:10px;padding:0 14px;background:rgba(255,255,255,.16);color:#fff;font-weight:700;cursor:pointer}
+.dom-toast .dom-toast-close{padding:0 12px;background:transparent}
+html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
+[data-theme="dark"] .dom-toast{background:#22365a}

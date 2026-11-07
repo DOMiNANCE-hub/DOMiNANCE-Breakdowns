@@ -110,7 +110,8 @@ for js in sorted(ROOT.glob('*-widgets.js')):
     for name in re.findall(r"register\('([a-z0-9-]+)'",js.read_text(encoding='utf-8')): widgets[name]=ver(js.name)
 core=[ver(f) for f in ['figures.js','teaching-widgets.js','glossary.js','media.js','image-viewer.js']]
 catalogue=[{k:v for k,v in t.items() if k not in ('html','plain')} for t in topics]
-bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets}
+assets=sorted('assets/'+str(f.relative_to(ROOT/'assets')).replace('\\','/') for f in (ROOT/'assets').rglob('*') if f.is_file() and f.suffix in ('.jpg','.png','.webp','.svg'))
+bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets}
 index='window.DOMINANCE_TOPICS='+json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+';\nwindow.DOM_BUNDLE='+json.dumps(bundle,separators=(',',':'))+';\n'
 (out/'index.js').write_text(index,encoding='utf-8')
 for f in out.glob('*.js'):
@@ -118,7 +119,13 @@ for f in out.glob('*.js'):
 
 # Point index.html at the current versions of every file it loads.
 page=(ROOT/'index.html').read_text(encoding='utf-8')
-for f in ['content/index.js','app.js','mobile-ui.js','reader.js','styles.css']:
+for f in ['content/index.js','app.js','mobile-ui.js','offline.js','reader.js','styles.css']:
     page=re.sub(r'(["\'])'+re.escape(f)+r'(\?v=[0-9a-f]+)?\1',lambda m: m.group(1)+ver(f)+m.group(1),page)
 (ROOT/'index.html').write_text(page,encoding='utf-8')
+# Offline reading: the service worker is generated with the current shell file versions.
+shell=['/','styles.css','content/index.js','app.js','mobile-ui.js','offline.js','reader.js']
+shell=['/']+[ver(f) for f in shell[1:]]+core
+sw=(ROOT/'sw-template.js').read_text(encoding='utf-8')
+sw=sw.replace('__SHELL__',json.dumps(shell)).replace('__VERSION__',h(json.dumps(shell)+sw))
+(ROOT/'sw.js').write_text(sw,encoding='utf-8')
 print('Built',len(topics),'topics; full bundle',round(len(script)/1024),'KiB; catalogue',round(len(index)/1024),'KiB')
