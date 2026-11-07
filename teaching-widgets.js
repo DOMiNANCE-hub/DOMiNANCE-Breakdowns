@@ -438,6 +438,6 @@
     main.querySelectorAll('aside.source-note').forEach(sourceNote);
     main.querySelectorAll('.view-switch').forEach(viewSwitch);
   }
-  new MutationObserver(enhance).observe(main, {childList: true, subtree: true});
+  new MutationObserver(enhance).observe(main, {childList: true});   // runs once per page render, not on every widget redraw
   enhance();
 })();

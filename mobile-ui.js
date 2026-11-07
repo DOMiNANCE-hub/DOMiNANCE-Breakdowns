@@ -9,7 +9,7 @@
   if (!main || !topbar) return;
   const phone = matchMedia('(max-width: 760px)');
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
-  let bar = null, sheet = null, backdrop = null, spy = null, headings = [], activeId = '', lastFocus = null;
+  let bar = null, sheet = null, backdrop = null, headings = [], activeId = '', lastFocus = null;
 
   // ---------- header that gets out of the way ----------
   let lastY = window.scrollY, headerHidden = false, ticking = false;
@@ -27,6 +27,7 @@
     else if (dy < -8) setHeader(false);
     if (Math.abs(dy) > 8) lastY = y;
     progress();
+    spyNow();
   }
   window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(frame); } }, {passive: true});
   topbar.addEventListener('focusin', () => setHeader(false));
@@ -65,7 +66,7 @@
     target.scrollIntoView({behavior: reduce.matches ? 'instant' : 'smooth', block: 'start'});
   }
   function teardown() {
-    spy?.disconnect(); spy = null; headings = []; activeId = '';
+    headings = []; activeId = '';
     [bar, sheet, backdrop].forEach(el => el?.remove());
     bar = sheet = backdrop = null;
     document.documentElement.classList.remove('sheet-open', 'has-chapter-bar');
@@ -114,16 +115,18 @@
         else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
       }
     });
-    // Scrollspy: the section crossing the upper third of the screen is the one being read.
-    if ('IntersectionObserver' in window && headings.length) {
-      spy = new IntersectionObserver(() => {
-        let current = '';
-        for (const h of headings) { if (h.getBoundingClientRect().top < window.innerHeight * 0.35 && !h.hidden) current = h.id; }
-        if (current !== activeId) setActive(current);
-      }, {rootMargin: '0px 0px -60% 0px', threshold: [0, 1]});
-      headings.forEach(h => spy.observe(h));
-    }
+    spyNow();
+    const toc = main.querySelector('.toc');
+    if (toc && !toc.querySelector('.toc-keys')) toc.querySelector('.toc-info')?.insertAdjacentHTML('afterend', '<p class="toc-keys"><kbd>[</kbd> <kbd>]</kbd> previous / next section</p>');
     progress();
+  }
+  // Scrollspy: the last section heading above the upper third of the screen is the one being read.
+  function spyNow() {
+    if (!headings.length) return;
+    let current = '';
+    const line = window.innerHeight * 0.35;
+    for (const h of headings) { if (!h.hidden && h.getBoundingClientRect().top < line) current = h.id; }
+    if (current !== activeId) setActive(current);
   }
   function setActive(id) {
     activeId = id;
@@ -139,6 +142,25 @@
       label.textContent = i >= 0 ? `Section ${i + 1} of ${headings.length}` : 'Sections';
     }
   }
+  // ---------- keyboard shortcuts (desktop) ----------
+  // [ and ] move between sections, / jumps to search on the library pages.
+  document.addEventListener('keydown', e => {
+    if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable) return;
+    if (e.key === '/') {
+      const search = document.getElementById('search');
+      if (search) { e.preventDefault(); search.focus(); }
+      return;
+    }
+    if ((e.key === '[' || e.key === ']') && headings.length) {
+      e.preventDefault();
+      const navButton = document.getElementById(e.key === ']' ? 'reader-next' : 'reader-prev');
+      if (navButton && navButton.offsetParent) { if (!navButton.disabled) navButton.click(); return; }   // Sections / Cards mode
+      const i = headings.findIndex(h => h.id === activeId);
+      const next = headings[Math.max(0, Math.min(headings.length - 1, (i < 0 ? -1 : i) + (e.key === ']' ? 1 : -1)))];
+      if (next) goTo(next.id);
+    }
+  });
   window.addEventListener('dom:rendered', mount);
   window.addEventListener('hashchange', () => closeSheet(false));
   phone.addEventListener?.('change', () => { if (!phone.matches) { setHeader(false); closeSheet(false); } });

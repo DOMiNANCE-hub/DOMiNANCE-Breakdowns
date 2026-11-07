@@ -326,7 +326,7 @@
     if (active && !document.contains(active)) hide();
   }
   const observer = new MutationObserver(enhance);
-  observer.observe(main, {childList: true, subtree: true});
+  observer.observe(main, {childList: true});   // a new page replaces main's children
   enhance();
 
   main.addEventListener('pointerover', e => {
