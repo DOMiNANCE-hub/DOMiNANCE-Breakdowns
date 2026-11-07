@@ -100,11 +100,14 @@
       ]
     },
     "co-measurement": {
-      "minimum_checks": 12,
+      "minimum_checks": 9,
       "required": [
-        "V̇O₂",
-        "CₐO₂",
-        "CᵥO₂"
+        "The idea, with a delivery van.",
+        "Content, not saturation.",
+        "data-widget=\"fick-calculator\""
+      ],
+      "forbidden": [
+        "Lecture slide 53"
       ]
     },
     "hemodynamics": {

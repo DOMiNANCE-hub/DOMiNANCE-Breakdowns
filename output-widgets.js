@@ -62,4 +62,34 @@
     draw();
   }
   W.register('starling-explorer', starlingExplorer);
+
+  // ---------- Fick calculator (Chapter 8, §2) ----------
+  function fickCalculator(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'fk-wrap';
+    const sl = (k, label, min, max, step, val, unit) => `<label class="lv-slider"><span>${label}: <strong class="fk-${k}"></strong> ${unit}</span><input type="range" data-k="${k}" min="${min}" max="${max}" step="${step}" value="${val}" aria-label="${label}"></label>`;
+    wrap.innerHTML = sl('vo2', 'Oxygen used by the body', 150, 1000, 10, 250, 'mL O₂/min') +
+      sl('ca', 'Arterial O₂ content', 0.10, 0.22, 0.01, 0.20, 'mL O₂ per mL blood') +
+      sl('cv', 'Mixed venous O₂ content', 0.05, 0.18, 0.01, 0.15, 'mL O₂ per mL blood') +
+      `<div class="fk-bar" aria-hidden="true"><span class="fk-left"></span><span class="fk-taken"></span></div><p class="fk-bar-lab"></p>` +
+      `<ol class="rr-steps" aria-live="polite"></ol><p class="lv-readout fk-say"></p>`;
+    const q = s => wrap.querySelector(s), inputs = wrap.querySelectorAll('input');
+    const draw = changed => {
+      let vo2 = Number(q('[data-k="vo2"]').value), ca = Number(q('[data-k="ca"]').value), cv = Number(q('[data-k="cv"]').value);
+      if (cv > ca - 0.01) { if (changed === 'ca') { cv = Math.max(0.05, ca - 0.01); q('[data-k="cv"]').value = cv; } else { cv = ca - 0.01; q('[data-k="cv"]').value = cv; } }
+      const diff = Math.round((ca - cv) * 100) / 100, co = vo2 / diff;
+      q('.fk-vo2').textContent = vo2; q('.fk-ca').textContent = ca.toFixed(2); q('.fk-cv').textContent = cv.toFixed(2);
+      q('.fk-left').style.width = `${(cv / 0.22) * 100}%`; q('.fk-taken').style.width = `${(diff / 0.22) * 100}%`;
+      q('.fk-bar-lab').innerHTML = `Each mL of blood arrives with ${ca.toFixed(2)} mL O₂ and leaves with ${cv.toFixed(2)}: it drops off <strong>${diff.toFixed(2)} mL O₂</strong> (gold).`;
+      q('.rr-steps').innerHTML = `<li><strong>Oxygen used:</strong> ${vo2} mL O₂/min</li>` +
+        `<li><strong>Dropped off per mL of blood:</strong> ${ca.toFixed(2)} − ${cv.toFixed(2)} = <strong>${diff.toFixed(2)}</strong> mL O₂</li>` +
+        `<li><strong>Flow:</strong> ${vo2} ÷ ${diff.toFixed(2)} = ${Math.round(co).toLocaleString('en-GB')} mL/min = <strong>${(co / 1000).toFixed(1)} L/min</strong></li>`;
+      q('.fk-say').innerHTML = 'Pattern: when tissues take <strong>more</strong> oxygen from each mL, the same oxygen use needs <strong>less</strong> flow. Try widening the gap.';
+    };
+    inputs.forEach(i => i.addEventListener('input', () => draw(i.dataset.k)));
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    draw();
+  }
+  W.register('fick-calculator', fickCalculator);
 })();

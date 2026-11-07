@@ -647,3 +647,6 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .fs-dot{fill:var(--gold);stroke:var(--navy);stroke-width:2.5}
 .fs-read{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:10px}.fs-read span{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--sheet)}.fs-read small{font-size:11px;color:var(--muted)}.fs-read strong{font-size:15px;color:var(--navy)}
 .fs-lab{font-size:13px;font-weight:800;color:var(--navy)}
+/* Chapter 8: Fick calculator */
+.fk-bar{display:flex;height:16px;margin-top:12px;border-radius:8px;overflow:hidden;background:var(--line)}.fk-left{background:color-mix(in srgb,var(--w-vol) 55%,var(--sheet))}.fk-taken{background:var(--gold)}
+.fk-bar-lab{margin:6px 0 0;font-size:13px;color:var(--text)}
