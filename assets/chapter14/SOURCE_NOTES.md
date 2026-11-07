@@ -17,3 +17,6 @@
 ## Cross-check
 - Revised Starling review: https://pubmed.ncbi.nlm.nih.gov/20200043/
 - Lymphedema stages: https://www.ncbi.nlm.nih.gov/books/NBK537239/
+
+## Images
+- pitting-oedema.jpg: supplied by the project owner (7 Nov 2026), used without a credit line at the owner's direction.
