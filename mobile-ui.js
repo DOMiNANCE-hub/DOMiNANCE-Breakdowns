@@ -117,7 +117,7 @@
     });
     spyNow();
     const toc = main.querySelector('.toc');
-    if (toc && !toc.querySelector('.toc-keys')) toc.querySelector('.toc-info')?.insertAdjacentHTML('afterend', '<p class="toc-keys"><kbd>[</kbd> <kbd>]</kbd> previous / next section</p>');
+    if (toc && !toc.querySelector('.toc-keys')) toc.querySelector('.nav-bottom')?.insertAdjacentHTML('beforebegin', '<p class="toc-keys"><kbd>[</kbd> <kbd>]</kbd> previous / next section</p>');
     progress();
   }
   // Scrollspy: the last section heading above the upper third of the screen is the one being read.
@@ -144,11 +144,97 @@
       label.textContent = i >= 0 ? `Section ${i + 1} of ${headings.length}` : 'Sections';
     }
   }
+  // ---------- Understanding Checks open in their own sheet on phones ----------
+  // The chapter shows one compact card per check; the questions open full height above the notes,
+  // and go back into the page when the sheet closes, so answers and feedback are kept.
+  let checkSheet = null, checkBlock = null, checkFocus = null, checkY = 0;
+  const checkOpen = () => !!checkSheet && !checkSheet.hidden;
+  function checkProgress(block) {
+    const launch = block.querySelector('.check-launch');
+    if (!launch) return;
+    const total = Number(launch.dataset.questions) || 0;
+    const done = block.querySelectorAll('.check-body details[open]:not(.figure-attribution)').length;
+    const part = launch.dataset.part;
+    const sub = launch.querySelector('.cl-sub'), go = launch.querySelector('.cl-go');
+    const count = done ? `${done} of ${total} answered` : `${total} question${total === 1 ? '' : 's'}`;
+    sub.textContent = (part ? part + ' · ' : '') + count;
+    go.textContent = !done ? 'Start' : done < total ? 'Continue' : 'Review';
+    launch.classList.toggle('is-done', total > 0 && done >= total);
+  }
+  function buildCheckSheet() {
+    checkSheet?.remove();
+    checkSheet = document.createElement('div');
+    checkSheet.className = 'check-sheet'; checkSheet.hidden = true;
+    checkSheet.setAttribute('role', 'dialog'); checkSheet.setAttribute('aria-modal', 'true'); checkSheet.setAttribute('aria-labelledby', 'check-sheet-title');
+    checkSheet.innerHTML = `<div class="cs-panel"><div class="cs-head"><div class="cs-title"><span class="cl-badge" aria-hidden="true">?</span><div><h2 id="check-sheet-title">Understanding Check</h2><p class="cs-part"></p></div></div>` +
+      `<button type="button" class="sheet-close" aria-label="Close the questions">✕</button></div><div class="cs-body"></div>` +
+      `<div class="cs-foot"><button type="button" class="btn btn-primary cs-done">Back to the notes</button></div></div>`;
+    main.append(checkSheet);   // inside #main so tooltips and figure links keep working
+    checkSheet.addEventListener('click', e => {
+      if (e.target === checkSheet || e.target.closest('.sheet-close, .cs-done')) closeCheck();
+      else if (e.target.closest('a[href^="#"]')) closeCheck(true);   // a link to the notes or another chapter: show it
+    });
+    checkSheet.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { e.preventDefault(); closeCheck(); }
+      if (e.key === 'Tab') {
+        const f = [...checkSheet.querySelectorAll('a[href],button:not(:disabled),summary,input,select')].filter(x => x.offsetParent);
+        if (!f.length) return;
+        if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+        else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+      }
+    });
+    checkSheet.addEventListener('toggle', () => { if (checkBlock) checkProgress(checkBlock); }, true);
+  }
+  function openCheck(block) {
+    if (!checkSheet || checkOpen()) return;
+    checkBlock = block; checkFocus = block.querySelector('.check-launch'); checkY = window.scrollY;
+    const body = block.querySelector('.check-body');
+    checkSheet.querySelector('.cs-part').textContent = block.querySelector('.check-launch')?.dataset.part || '';
+    checkSheet.querySelector('.cs-body').append(body);
+    checkSheet.hidden = false;
+    checkSheet.querySelector('.cs-body').scrollTop = 0;
+    document.documentElement.classList.add('sheet-open');
+    requestAnimationFrame(() => checkSheet.classList.add('is-open'));
+    try { history.pushState({domSheet: 'check'}, ''); } catch { /* back button closes nothing */ }
+    checkSheet.querySelector('.sheet-close').focus({preventScroll: true});
+  }
+  function closeCheck(fromHistory = false) {
+    if (!checkOpen()) return;
+    const block = checkBlock, body = checkSheet.querySelector('.check-body');
+    if (block && body) block.append(body);
+    checkSheet.classList.remove('is-open');
+    const done = () => { if (checkSheet && !checkSheet.classList.contains('is-open')) checkSheet.hidden = true; };
+    if (reduce.matches) done(); else setTimeout(done, 220);
+    if (!sheetOpen()) document.documentElement.classList.remove('sheet-open');
+    if (block) checkProgress(block);
+    checkBlock = null;
+    checkFocus?.focus({preventScroll: true});
+    if (!fromHistory && history.state?.domSheet === 'check') history.back();
+    else keepPlace(checkY);
+  }
+  // Going back restores the page position the browser saved, which can differ: keep the reader where they were.
+  const keepPlace = y => { window.scrollTo({top: y, behavior: 'instant'}); requestAnimationFrame(() => window.scrollTo({top: y, behavior: 'instant'})); };
+  window.addEventListener('popstate', e => {
+    if (checkOpen()) { closeCheck(true); keepPlace(checkY); }
+    else if (e.state === null && checkFocus && checkY && Math.abs(window.scrollY - checkY) > 2 && checkFocus.isConnected) keepPlace(checkY);
+  });
+  main.addEventListener('click', e => {
+    const launch = e.target.closest('.check-launch');
+    if (launch && main.contains(launch) && !checkSheet?.contains(launch)) { e.preventDefault(); openCheck(launch.closest('.check-block')); }
+  });
+  function mountChecks() {
+    closeCheck(true);
+    checkSheet?.remove(); checkSheet = null;
+    const blocks = main.querySelectorAll('.article-sheet:not(.is-skeleton) .check-block');
+    if (!blocks.length) return;
+    buildCheckSheet();
+    blocks.forEach(checkProgress);
+  }
   // ---------- keyboard shortcuts (desktop) ----------
   // [ and ] move between sections, / jumps to search on the library pages.
   document.addEventListener('keydown', e => {
     if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
-    if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable) return;
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName) || e.target.isContentEditable || checkOpen()) return;
     if (e.key === '/') {
       const search = document.getElementById('search');
       if (search) { e.preventDefault(); search.focus(); }
@@ -163,8 +249,8 @@
       if (next) goTo(next.id);
     }
   });
-  window.addEventListener('dom:rendered', mount);
-  window.addEventListener('hashchange', () => closeSheet(false));
-  phone.addEventListener?.('change', () => { if (!phone.matches) { setHeader(false); closeSheet(false); } });
-  mount();
+  window.addEventListener('dom:rendered', () => { mount(); mountChecks(); });
+  window.addEventListener('hashchange', () => { closeSheet(false); closeCheck(true); });
+  phone.addEventListener?.('change', () => { if (!phone.matches) { setHeader(false); closeSheet(false); closeCheck(); } });
+  mount(); mountChecks();
 })();

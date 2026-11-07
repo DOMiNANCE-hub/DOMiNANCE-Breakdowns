@@ -65,6 +65,25 @@ async function openRoute(page, base, hash) {
 
 
 // On phones the reading options are folded behind one "Reading options" button.
+// Understanding Checks: on phones they open in their own sheet; on wider screens they sit in the page.
+// Answers the first question of the first check and returns whether its explanation opened.
+async function answerFirstCheck(page) {
+  const launch = page.locator('.check-launch').first();
+  const sheeted = await launch.isVisible().catch(() => false);
+  if (sheeted) { await launch.click(); await page.waitForTimeout(260); }
+  const scope = sheeted ? page.locator('.check-sheet') : page.locator('.article-text');
+  const option = scope.locator('button.mcq-option').first();
+  let opened;
+  if (await option.count()) {
+    await option.click();
+    opened = await scope.locator('details:not(.figure-attribution)').first().evaluate(d => d.open);
+  } else {
+    await scope.locator('details:not(.figure-attribution) summary').first().click();
+    opened = await scope.locator('details:not(.figure-attribution)').first().evaluate(d => d.open);
+  }
+  if (sheeted) { await page.locator('.check-sheet .cs-done').click(); await page.waitForTimeout(260); }
+  return opened;
+}
 async function openReader(page) {
   const toggle = page.locator('.reader-toggle');
   if (await toggle.isVisible() && await toggle.getAttribute('aria-expanded') === 'false') await toggle.click();
@@ -144,8 +163,25 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(overflow <= 2, `${t.slug} on ${name}: horizontal overflow ${overflow}px`);
     }
     await openRoute(page, base, chapterUrl('cardiac-cycle'));
-    await page.locator('.article-text details summary').first().tap();
-    check(await page.locator('.article-text details').first().evaluate(d => d.open), `${name}: tapping a check did not reveal it`);
+    check(await answerFirstCheck(page), `${name}: answering a check did not reveal its explanation`);
+    check(await page.locator('.check-sheet').evaluate(el => el.hidden) && /answered/.test(await page.locator('.check-launch .cl-sub').first().innerText()),
+      `${name}: the question sheet did not close and record the answer`);
+    // Understanding Checks open in a sheet: the back button closes it and keeps the reading position.
+    const launch = page.locator('.check-launch').nth(1);
+    await launch.evaluate(el => el.scrollIntoView({block: 'center', behavior: 'instant'}));
+    const y = await page.evaluate(() => scrollY);
+    await launch.tap(); await page.waitForTimeout(260);
+    check(await page.locator('.check-sheet').isVisible(), `${name}: tapping a check card did not open the questions`);
+    await page.goBack(); await page.waitForTimeout(300);
+    check(await page.locator('.check-sheet').evaluate(el => el.hidden) && /cardiac-cycle$/.test(await page.evaluate(() => location.hash)) && Math.abs(await page.evaluate(() => scrollY) - y) < 3,
+      `${name}: Back did not close the questions in place`);
+    // Videos open in their own full-screen window.
+    const play = page.locator('button[data-media-action="play-video"]').first();
+    await play.evaluate(el => el.scrollIntoView({block: 'center', behavior: 'instant'}));
+    await play.tap(); await page.waitForTimeout(200);
+    check(await page.locator('.video-viewer iframe[src*="youtube-nocookie.com/embed/"]').count() === 1, `${name}: the video did not open in its own window`);
+    await page.locator('.video-viewer .vv-close').tap(); await page.waitForTimeout(200);
+    check(await page.locator('.video-viewer').count() === 0 && /cardiac-cycle$/.test(await page.evaluate(() => location.hash)), `${name}: closing the video window failed`);
     check(page.pageErrors.length === 0, `${name}: page errors ${page.pageErrors.join('; ')}`);
     await page.context().close();
     console.log(`  ${name}: ${topics.length} chapters checked`);
@@ -188,10 +224,8 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
         await page.locator('button[data-reader-mode="continuous"]').click();
         check((await visibleGroups()).hidden === 0, `${where}: continuous mode did not restore all content after ${mode}`);
       }
-      const first = page.locator('.article-text details:not(.figure-attribution) summary').first();
-      if (check(await first.count() === 1, `${where}: no Understanding Check inside the article`)) {
-        await first.click();
-        check(await page.locator('.article-text details:not(.figure-attribution)').first().evaluate(d => d.open), `${where}: check did not open`);
+      if (check(await page.locator('.article-text .check-block').count() > 0, `${where}: no Understanding Check inside the article`)) {
+        check(await answerFirstCheck(page), `${where}: check did not open`);
       }
     }
     // Keyboard navigation in Cards mode, text size and persistence.
@@ -354,8 +388,16 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     check(await page.locator('iframe').count() === 0, 'video iframe loaded before being requested');
     await page.locator('button[data-media-action="play-video"]').click();
     check((await page.locator('iframe').getAttribute('src') || '').startsWith('https://www.youtube-nocookie.com/embed/'), 'video embed not created');
-    await page.locator('button[data-media-action="stop-video"]').click();
+    check(await page.locator('.video-viewer').count() === 1, 'on a phone the video should open in its own window');
+    await page.keyboard.press('Escape');
     check(await page.locator('iframe').count() === 0, 'closing video did not remove the embed');
+    // Wider screens keep the video in the page.
+    await page.setViewportSize({ width: 1280, height: 800 });
+    await page.locator('button[data-media-action="play-video"]').click();
+    check(await page.locator('.video-viewer').count() === 0 && await page.locator('.media-stage iframe').count() === 1, 'desktop video should play in the page');
+    await page.locator('button[data-media-action="stop-video"]').click();
+    check(await page.locator('iframe').count() === 0, 'closing the in-page video did not remove the embed');
+    await page.setViewportSize({ width: 390, height: 800 });
     await page.locator('button[data-media-action="play-animation"]').click();
     check(await page.locator('.animation-resource .media-stage img').count() === 1, 'animation did not start');
     await page.locator('button[data-media-action="stop-animation"]').click();
@@ -391,10 +433,13 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     const slider = page.locator('[data-widget="hr-slider"] input');
     await slider.evaluate(el => { el.value = '150'; el.dispatchEvent(new Event('input', { bubbles: true })); });
     check((await page.locator('[data-widget="hr-slider"] output').innerText()).includes('0.40 s (400 ms)'), 'heart-rate slider: 150 beats/min should give 0.40 s');
-    const firstQuestion = page.locator('details.mcq-answer').first().locator('xpath=preceding-sibling::p[1]');
+    check(await page.locator('details.mcq-answer summary').first().isHidden(), 'multiple-choice explanations should not have a reveal button');
+    await page.locator('.check-launch').first().click(); await page.waitForTimeout(260);
+    const firstQuestion = page.locator('.check-sheet details.mcq-answer').first().locator('xpath=preceding-sibling::p[1]');
     await firstQuestion.locator('button.mcq-option[data-option="A"]').click();
     check(/best answer is D/.test(await firstQuestion.locator('.mcq-feedback').innerText()), 'wrong answer did not show the correct key');
-    check(await page.locator('details.mcq-answer').first().evaluate(d => d.open), 'answer explanation did not open after answering');
+    check(await page.locator('.check-sheet details.mcq-answer').first().evaluate(d => d.open), 'answer explanation did not open after answering');
+    await page.locator('.check-sheet .sheet-close').click(); await page.waitForTimeout(260);
     await page.locator('.glossary-trigger[data-glossary="av-node"]').first().click();
     check(await page.locator('#dom-glossary-popup .gl-confuse').count() === 1, "tooltip card lacks its Don't confuse line");
     await page.locator('#dom-glossary-popup .gl-learn').click();

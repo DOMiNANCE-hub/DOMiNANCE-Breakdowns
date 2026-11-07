@@ -4,11 +4,11 @@
 .topbar{position:sticky;top:0;z-index:15;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}[data-theme="dark"] .topbar{background:rgba(16,28,46,.96)}.topbar-inner{min-height:67px;display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{text-decoration:none;display:flex;align-items:center;gap:13px;white-space:nowrap}.brand-word,.footer-brand{font:800 20px 'Plus Jakarta Sans',sans-serif;letter-spacing:-.075em;color:#153c86}[data-theme="dark"] .brand-word,[data-theme="dark"] .footer-brand{color:#f0f4ff}.gold-i{color:#d6a235}.brand-divider{width:1px;height:23px;background:var(--line)}.brand-product{font-size:11px;font-weight:800;letter-spacing:.11em;color:var(--muted)}.top-actions{display:flex;align-items:center;gap:13px}.small-icon{height:38px;min-width:38px;border:1px solid var(--line);background:var(--sheet);color:var(--text);border-radius:12px;font-size:22px;line-height:1}.nav-link{text-decoration:none;color:var(--navy);font-weight:700;font-size:13px}
 .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:26px;background:linear-gradient(115deg,#123d92 0%,#285ad2 60%,#547fe3 100%);border-radius:26px;overflow:hidden;color:#fff;min-height:260px;position:relative;box-shadow:0 20px 38px rgba(16,66,155,.19);margin:28px 0 29px}.hero:after{content:'';width:390px;height:390px;border:60px solid rgba(255,255,255,.075);border-radius:50%;position:absolute;right:-120px;top:-130px}.hero-content{padding:42px 0 38px 44px;z-index:1}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#c8ddff}.hero h1{font:800 clamp(26px,4vw,40px)/1.16 'Plus Jakarta Sans',sans-serif;letter-spacing:-.05em;margin:12px 0}.hero p{font-size:15px;max-width:530px;margin:0;color:#dce8ff;line-height:1.7}.hero-visual{position:relative;z-index:1;display:flex;align-items:center;justify-content:center}.hero-orbit{width:214px;height:214px;border-radius:50%;background:radial-gradient(circle,#9ed4ff24 0,#9ed4ff0f 59%,transparent 60%);border:1px solid rgba(255,255,255,.23);box-shadow:0 0 0 20px rgba(255,255,255,.04),0 0 0 45px rgba(255,255,255,.025);display:grid;place-items:center}.hero-heart{width:104px;height:104px;fill:none;stroke:#ffdb87;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 5px 6px rgba(0,0,0,.13))}.hero-chip{display:inline-flex;background:#ffffff22;color:#fff;border:1px solid #ffffff40;padding:5px 12px;border-radius:30px;font-weight:700;font-size:12px;margin-top:17px}
 .section-heading{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:0 0 18px}.section-heading h2{font:800 23px 'Plus Jakarta Sans',sans-serif;letter-spacing:-.04em;margin:0}.section-heading p{margin:3px 0 0;color:var(--muted);font-size:13px}.search-field{display:flex;align-items:center;max-width:460px;width:100%;height:46px;border:1px solid var(--line);background:var(--sheet);border-radius:14px;box-shadow:0 3px 14px rgba(23,60,128,.03);padding:0 15px;gap:10px}.search-field span{color:var(--muted)}.search-field input{flex:1;min-width:0;background:transparent;border:0;color:var(--text);outline:0}.search-field input::placeholder{color:var(--muted)}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 24px}.filter{font-size:13px;font-weight:700;border:1px solid var(--line);background:var(--sheet);border-radius:50px;padding:8px 15px;color:var(--muted)}.filter.active{background:var(--navy2);color:#fff;border-color:transparent}[data-theme="dark"] .filter.active{background:#2d5aad;color:#fff}.group-label{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:var(--muted);margin:28px 0 13px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.topic-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--line);background:var(--sheet);border-radius:20px;padding:20px 21px;min-height:162px;box-shadow:var(--sh);transition:transform .19s,box-shadow .19s,border-color .19s}.topic-card:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(24,78,163,.14);border-color:#afc8f8}.card-top{display:flex;align-items:start;justify-content:space-between}.topic-icon{display:grid;place-items:center;width:43px;height:43px;border-radius:13px;background:var(--ico-bg,#eaf0ff);color:var(--ico-color,#2b61e8);font-size:19px;font-weight:800}.topic-arrow{color:var(--muted);font-size:20px}.topic-card h3{font:800 16px/1.35 'Plus Jakarta Sans',sans-serif;letter-spacing:-.03em;margin:16px 0 4px}.topic-card .meta{color:var(--muted);font-size:12px}.done-tag{font-size:11px;color:#24856b;font-weight:800}
-.breadcrumb{margin:28px 0 18px;font-size:13px;color:var(--muted)}.breadcrumb a{color:var(--navy);text-decoration:none;font-weight:700}.article-layout{display:grid;grid-template-columns:minmax(0,1fr) 235px;gap:26px;align-items:start}.article-sheet{background:var(--sheet);border:1px solid var(--line);border-radius:24px;padding:36px 42px 42px;box-shadow:var(--sh);min-width:0}.article-top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.topic-flag{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;padding:4px 10px;background:#e7efff;color:#2853ad;border-radius:50px}[data-theme="dark"] .topic-flag{background:#203960;color:#c5d8ff}.article-sheet h1{font:800 clamp(27px,3.4vw,39px)/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:-.06em;margin:12px 0 15px;color:var(--navy2)}.article-summary{font-size:14px;color:var(--muted);margin-bottom:26px;border-bottom:1px solid var(--line);padding-bottom:20px}.article-text{font-size:15.5px;line-height:1.8}.article-text h2{font:800 21px/1.35 'Plus Jakarta Sans',sans-serif;letter-spacing:-.035em;color:var(--navy);margin:35px 0 13px;padding-top:8px}.article-text p{margin:0 0 16px}.article-text strong{font-weight:750;color:var(--navy2)}.article-text ol,.article-text ul{padding-left:25px;margin:0 0 22px}.article-text li{margin:0 0 8px}.article-text table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.55;margin:22px 0}.article-text th{text-align:left;background:#e5efff;color:#163b76}.article-text td,.article-text th{padding:11px 13px;border:1px solid var(--line);vertical-align:top}[data-theme="dark"] .article-text th{background:#1b3a62;color:#d5e6ff}.article-text details{margin:12px 0 22px;background:var(--sheet2);border:1px solid var(--line);border-radius:14px;padding:14px 17px;font-size:14px}.article-text details summary{cursor:pointer;color:var(--navy);font-weight:800;outline-offset:3px}.article-text details[open]{border-color:#acc4f8}.article-text details p{margin-top:12px}.article-text code{background:var(--sheet2);border-radius:5px;padding:2px 4px}.article-text h1{display:none}.article-end{border-top:1px solid var(--line);margin-top:32px;padding-top:21px;display:flex;gap:9px;justify-content:space-between;align-items:center;flex-wrap:wrap}.btn{font-weight:800;border-radius:12px;padding:10px 15px;border:1px solid var(--line);background:var(--sheet);color:var(--navy);font-size:13px}.btn-primary{background:#1e55cb;border-color:#1e55cb;color:white}.btn:hover{filter:brightness(.96)}
+.breadcrumb{margin:28px 0 18px;font-size:13px;color:var(--muted)}.breadcrumb a{color:var(--navy);text-decoration:none;font-weight:700}.article-layout{display:grid;grid-template-columns:minmax(0,1fr) 235px;gap:26px;align-items:start}.article-sheet{background:var(--sheet);border:1px solid var(--line);border-radius:24px;padding:36px 42px 42px;box-shadow:var(--sh);min-width:0}.article-top{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.topic-flag{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;padding:4px 10px;background:#e7efff;color:#2853ad;border-radius:50px}[data-theme="dark"] .topic-flag{background:#203960;color:#c5d8ff}.article-sheet h1{font:800 clamp(27px,3.4vw,39px)/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:-.06em;margin:12px 0 15px;color:var(--navy2)}.article-summary{font-size:14px;color:var(--muted);margin-bottom:26px;border-bottom:1px solid var(--line);padding-bottom:20px}.article-text{font-size:15.5px;line-height:1.8}:is(.article-text,.cs-body) h2{font:800 21px/1.35 'Plus Jakarta Sans',sans-serif;letter-spacing:-.035em;color:var(--navy);margin:35px 0 13px;padding-top:8px}:is(.article-text,.cs-body) p{margin:0 0 16px}:is(.article-text,.cs-body) strong{font-weight:750;color:var(--navy2)}:is(.article-text,.cs-body) ol,:is(.article-text,.cs-body) ul{padding-left:25px;margin:0 0 22px}:is(.article-text,.cs-body) li{margin:0 0 8px}:is(.article-text,.cs-body) table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.55;margin:22px 0}:is(.article-text,.cs-body) th{text-align:left;background:#e5efff;color:#163b76}:is(.article-text,.cs-body) td,:is(.article-text,.cs-body) th{padding:11px 13px;border:1px solid var(--line);vertical-align:top}[data-theme="dark"] :is(.article-text,.cs-body) th{background:#1b3a62;color:#d5e6ff}:is(.article-text,.cs-body) details{margin:12px 0 22px;background:var(--sheet2);border:1px solid var(--line);border-radius:14px;padding:14px 17px;font-size:14px}:is(.article-text,.cs-body) details summary{cursor:pointer;color:var(--navy);font-weight:800;outline-offset:3px}:is(.article-text,.cs-body) details[open]{border-color:#acc4f8}:is(.article-text,.cs-body) details p{margin-top:12px}:is(.article-text,.cs-body) code{background:var(--sheet2);border-radius:5px;padding:2px 4px}:is(.article-text,.cs-body) h1{display:none}.article-end{border-top:1px solid var(--line);margin-top:32px;padding-top:21px;display:flex;gap:9px;justify-content:space-between;align-items:center;flex-wrap:wrap}.btn{font-weight:800;border-radius:12px;padding:10px 15px;border:1px solid var(--line);background:var(--sheet);color:var(--navy);font-size:13px}.btn-primary{background:#1e55cb;border-color:#1e55cb;color:white}.btn:hover{filter:brightness(.96)}
 .toc{position:sticky;top:89px;background:var(--sheet);border:1px solid var(--line);border-radius:19px;padding:20px 18px;box-shadow:var(--sh)}.toc h2{font:800 13px 'Plus Jakarta Sans',sans-serif;text-transform:uppercase;letter-spacing:.1em;margin:0 0 12px}.toc a{display:block;text-decoration:none;font-size:12px;line-height:1.5;padding:9px 5px;border-radius:8px;color:var(--muted)}.toc a:hover{color:var(--blue);background:var(--sheet2)}.toc-info{font-size:12px;line-height:1.6;color:var(--muted);margin-top:13px;padding-top:12px;border-top:1px solid var(--line)}.nav-bottom{margin-top:18px;display:flex;flex-direction:column;gap:7px}.nav-bottom a{font-size:12px;font-weight:750;color:var(--blue);text-decoration:none}
 .empty{padding:35px;background:var(--sheet);text-align:center;border:1px dashed var(--line);border-radius:15px;color:var(--muted)}.site-footer{margin-top:60px;border-top:1px solid var(--line);padding:28px 0;background:var(--sheet)}.footer-inner{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}.footer-brand{font-size:15px}.footer-brand>span:last-child{font:750 10px 'DM Sans',sans-serif;letter-spacing:.09em;margin-left:6px;color:var(--muted)}.mobile-sections{display:none}
 @media(max-width:940px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.article-layout{grid-template-columns:minmax(0,1fr)}.toc{position:static;display:none}.mobile-sections{display:block;margin:15px 0 22px}.mobile-sections select{width:100%;padding:12px;border:1px solid var(--line);background:var(--sheet);color:var(--text);border-radius:12px}.article-sheet{padding:30px 28px}}
-@media(max-width:660px){.wrap{width:calc(100% - 28px)}.brand-word{font-size:17px}.brand-product{font-size:10px}.brand{gap:8px}.topbar-inner{min-height:61px}.hero{grid-template-columns:1fr;min-height:0;border-radius:20px;margin:18px 0 26px;gap:0}.hero-content{padding:26px 24px 22px}.hero h1{font-size:28px}.hero-visual{display:none}.hero p{font-size:13px}.section-heading{display:block}.section-heading h2{font-size:20px}.search-field{max-width:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.topic-card{min-height:151px;padding:14px 13px;border-radius:16px}.topic-card h3{font-size:13px;margin:14px 0 5px}.topic-icon{width:35px;height:35px;font-size:16px}.group-label{font-size:11px}.article-sheet{padding:22px 20px;border-radius:18px}.article-sheet h1{font-size:27px}.article-text{font-size:14.5px;line-height:1.77}.article-text h2{font-size:18px}.article-text table{display:block;overflow-x:auto}.article-end{align-items:stretch}.article-end .btn{flex:1}.footer-inner{flex-direction:column;align-items:start;gap:7px}}
+@media(max-width:660px){.wrap{width:calc(100% - 28px)}.brand-word{font-size:17px}.brand-product{font-size:10px}.brand{gap:8px}.topbar-inner{min-height:61px}.hero{grid-template-columns:1fr;min-height:0;border-radius:20px;margin:18px 0 26px;gap:0}.hero-content{padding:26px 24px 22px}.hero h1{font-size:28px}.hero-visual{display:none}.hero p{font-size:13px}.section-heading{display:block}.section-heading h2{font-size:20px}.search-field{max-width:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.topic-card{min-height:151px;padding:14px 13px;border-radius:16px}.topic-card h3{font-size:13px;margin:14px 0 5px}.topic-icon{width:35px;height:35px;font-size:16px}.group-label{font-size:11px}.article-sheet{padding:22px 20px;border-radius:18px}.article-sheet h1{font-size:27px}.article-text{font-size:14.5px;line-height:1.77}:is(.article-text,.cs-body) h2{font-size:18px}:is(.article-text,.cs-body) table{display:block;overflow-x:auto}.article-end{align-items:stretch}.article-end .btn{flex:1}.footer-inner{flex-direction:column;align-items:start;gap:7px}}
 @media(max-width:390px){.brand-product,.brand-divider{display:none}.nav-link{font-size:12px}.topic-card{padding:12px}.cards{gap:8px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
@@ -68,24 +68,24 @@
 @media(max-width:560px){.lecture-row{display:grid;grid-template-columns:30px minmax(0,1fr) 16px;grid-template-areas:"number main arrow" "number pages arrow";row-gap:3px}.lecture-order{grid-area:number}.lecture-row-main{grid-area:main}.lecture-page-ref{grid-area:pages;text-align:left;max-width:none;font-size:10.5px}.lecture-arrow{grid-area:arrow}}
 
 /* Chapter 01: licensed teaching illustrations, sized for reading and mobile enlargement. */
-.article-text .teaching-illustration{margin:22px 0 26px;padding:15px 15px 12px;background:var(--sheet2);border:1px solid var(--line);border-radius:18px;overflow:hidden}
-.article-text .teaching-illustration>a{display:block;border-radius:12px;overflow:hidden;background:#fff;text-align:center}
-.article-text .teaching-illustration img{display:block;width:100%;height:auto;max-height:570px;object-fit:contain;margin:0 auto}
-.article-text .teaching-illustration figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin:12px 2px 0}
-.article-text .teaching-illustration figcaption strong{color:var(--text)}
-.article-text .teaching-illustration figcaption .figure-credit{display:block;font-size:11px;line-height:1.55;margin-top:5px}
-.article-text .teaching-illustration figcaption a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
-@media(max-width:560px){.article-text .teaching-illustration{padding:9px 9px 12px;border-radius:13px}.article-text .teaching-illustration figcaption{font-size:11.5px}}
+:is(.article-text,.cs-body) .teaching-illustration{margin:22px 0 26px;padding:15px 15px 12px;background:var(--sheet2);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+:is(.article-text,.cs-body) .teaching-illustration>a{display:block;border-radius:12px;overflow:hidden;background:#fff;text-align:center}
+:is(.article-text,.cs-body) .teaching-illustration img{display:block;width:100%;height:auto;max-height:570px;object-fit:contain;margin:0 auto}
+:is(.article-text,.cs-body) .teaching-illustration figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin:12px 2px 0}
+:is(.article-text,.cs-body) .teaching-illustration figcaption strong{color:var(--text)}
+:is(.article-text,.cs-body) .teaching-illustration figcaption .figure-credit{display:block;font-size:11px;line-height:1.55;margin-top:5px}
+:is(.article-text,.cs-body) .teaching-illustration figcaption a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+@media(max-width:560px){:is(.article-text,.cs-body) .teaching-illustration{padding:9px 9px 12px;border-radius:13px}:is(.article-text,.cs-body) .teaching-illustration figcaption{font-size:11.5px}}
 
 
 /* Shared glossary — subtle in-text triggers, accessible on touch and keyboard. */
-.article-text .glossary-trigger {
+:is(.article-text,.cs-body) .glossary-trigger {
   display:inline;appearance:none;background:none;border:0;border-bottom:1.5px dotted var(--blue);
   padding:0 0 1px;margin:0;color:inherit;font:inherit;line-height:inherit;cursor:help;
   text-decoration:none;text-align:inherit;vertical-align:baseline;
 }
-.article-text .glossary-trigger:hover {color:var(--blue);}
-.article-text .glossary-trigger:focus-visible {outline:2px solid var(--blue);outline-offset:3px;border-radius:2px;}
+:is(.article-text,.cs-body) .glossary-trigger:hover {color:var(--blue);}
+:is(.article-text,.cs-body) .glossary-trigger:focus-visible {outline:2px solid var(--blue);outline-offset:3px;border-radius:2px;}
 .glossary-popup {
   position:fixed;z-index:1010;width:min(305px,calc(100vw - 20px));
   padding:14px 16px;background:var(--sheet);color:var(--text);border:1px solid var(--line);
@@ -95,185 +95,185 @@
 .glossary-popup[hidden] {display:none !important;}
 .glossary-popup strong {display:block;color:var(--navy2);font-size:13px;margin-bottom:4px;}
 .glossary-popup span {display:block;}
-.article-text #chapter-essentials + ol,.article-text [id$="-chapter-essentials"] + ol {padding:20px 20px 20px 39px;border:1px solid var(--line);border-radius:16px;background:var(--sheet2);}
-.article-text #chapter-essentials + ol li,.article-text [id$="-chapter-essentials"] + ol li {padding-left:4px;margin-bottom:10px;}
-.article-text #understanding-check ~ p + details,.article-text [id$="-understanding-check"] ~ p + details {margin-top:-5px;}
-@media(max-width:560px) {.glossary-popup {padding:12px 14px;font-size:12.5px;}.article-text #chapter-essentials + ol,.article-text [id$="-chapter-essentials"] + ol {padding:17px 15px 17px 34px;}}
+:is(.article-text,.cs-body) #chapter-essentials + ol,:is(.article-text,.cs-body) [id$="-chapter-essentials"] + ol {padding:20px 20px 20px 39px;border:1px solid var(--line);border-radius:16px;background:var(--sheet2);}
+:is(.article-text,.cs-body) #chapter-essentials + ol li,:is(.article-text,.cs-body) [id$="-chapter-essentials"] + ol li {padding-left:4px;margin-bottom:10px;}
+:is(.article-text,.cs-body) #understanding-check ~ p + details,:is(.article-text,.cs-body) [id$="-understanding-check"] ~ p + details {margin-top:-5px;}
+@media(max-width:560px) {.glossary-popup {padding:12px 14px;font-size:12.5px;}:is(.article-text,.cs-body) #chapter-essentials + ol,:is(.article-text,.cs-body) [id$="-chapter-essentials"] + ol {padding:17px 15px 17px 34px;}}
 
 
 /* Concept-first teaching visuals: restrained{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:20px 0 24px}
-.article-text .media-resource{background:var(--sheet2);border:1px solid var(--line);border-radius:17px;margin:22px 0;padding:20px 21px;overflow:hidden}
-.article-text .media-resource .media-eyebrow{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--blue);display:block;margin-bottom:7px}
-.article-text .media-resource h3{font-size:16px;line-height:1.35;color:var(--navy2);margin:0 0 7px}
-.article-text .media-resource p{font-size:13px;line-height:1.65;margin:0 0 13px}
-.article-text .media-play{background:var(--navy);border:1px solid var(--navy);color:white;border-radius:10px;padding:9px 14px;font:700 12.5px 'Plus Jakarta Sans',sans-serif;cursor:pointer}
-.article-text .media-play:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
-.article-text .media-outlink{display:inline-block;font-size:12px;color:var(--blue);font-weight:750;margin-left:12px;text-decoration:underline;text-underline-offset:3px}
-.article-text .media-stage:not(:empty){margin-top:15px;background:#080d1a;border-radius:12px;overflow:hidden;display:grid;place-items:center}
-.article-text .video-resource .media-stage:not(:empty){aspect-ratio:16/9}
-.article-text .video-resource .media-stage iframe{display:block;border:0;width:100%;height:100%;min-height:190px}
-.article-text .animation-resource .media-stage img{max-width:100%;width:auto;max-height:660px;height:auto;display:block;margin:auto}
-.article-text .media-resource .media-credit{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0 0}
-.article-text .media-resource .media-credit a{color:var(--blue)}
-@media(max-width:660px){.article-text .media-resource{padding:16px 15px}.article-text .media-resource .media-outlink{display:block;margin:12px 0 0}}
+:is(.article-text,.cs-body) .media-resource{background:var(--sheet2);border:1px solid var(--line);border-radius:17px;margin:22px 0;padding:20px 21px;overflow:hidden}
+:is(.article-text,.cs-body) .media-resource .media-eyebrow{font-size:10px;font-weight:800;letter-spacing:.1em;color:var(--blue);display:block;margin-bottom:7px}
+:is(.article-text,.cs-body) .media-resource h3{font-size:16px;line-height:1.35;color:var(--navy2);margin:0 0 7px}
+:is(.article-text,.cs-body) .media-resource p{font-size:13px;line-height:1.65;margin:0 0 13px}
+:is(.article-text,.cs-body) .media-play{background:var(--navy);border:1px solid var(--navy);color:white;border-radius:10px;padding:9px 14px;font:700 12.5px 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+:is(.article-text,.cs-body) .media-play:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+:is(.article-text,.cs-body) .media-outlink{display:inline-block;font-size:12px;color:var(--blue);font-weight:750;margin-left:12px;text-decoration:underline;text-underline-offset:3px}
+:is(.article-text,.cs-body) .media-stage:not(:empty){margin-top:15px;background:#080d1a;border-radius:12px;overflow:hidden;display:grid;place-items:center}
+:is(.article-text,.cs-body) .video-resource .media-stage:not(:empty){aspect-ratio:16/9}
+:is(.article-text,.cs-body) .video-resource .media-stage iframe{display:block;border:0;width:100%;height:100%;min-height:190px}
+:is(.article-text,.cs-body) .animation-resource .media-stage img{max-width:100%;width:auto;max-height:660px;height:auto;display:block;margin:auto}
+:is(.article-text,.cs-body) .media-resource .media-credit{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0 0}
+:is(.article-text,.cs-body) .media-resource .media-credit a{color:var(--blue)}
+@media(max-width:660px){:is(.article-text,.cs-body) .media-resource{padding:16px 15px}:is(.article-text,.cs-body) .media-resource .media-outlink{display:block;margin:12px 0 0}}
 
 
 /* DOMiNANCE compact teaching standard: readable density, no oversized decorative gaps. */
 .article-text{min-width:0;overflow-wrap:break-word}
-.article-text h2{margin:25px 0 10px;padding-top:5px}
-.article-text h3{margin:16px 0 8px;line-height:1.4}
-.article-text p{margin-bottom:11px}
-.article-text ul,.article-text ol{margin-bottom:14px}
-.article-text li{margin-bottom:5px}
-.article-text table{margin:12px 0 17px;font-size:12.75px;line-height:1.45}
-.article-text td,.article-text th{padding:8px 10px}
-.article-text details{margin:8px 0 11px;padding:11px 14px}
-.article-text details p{margin:9px 0 1px}
-.article-text .teaching-illustration{margin:13px 0 17px;padding:10px 11px 9px}
-.article-text .teaching-illustration img{max-height:440px}
-.article-text .teaching-illustration figcaption{margin-top:8px}
-.article-text #chapter-essentials + ol{padding:13px 15px 13px 34px}
-.article-text #chapter-essentials + ol li{margin-bottom:6px}
-.article-text .media-resource{margin:12px 0;padding:13px 16px}
-.article-text .media-resource h3{margin-bottom:5px}
-.article-text .media-resource p{margin-bottom:8px}
-.article-text .media-play{min-height:42px}
-.article-text .pressure-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:13px 0}
-.article-text .pressure-rules>div{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px;row-gap:2px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 12px;min-width:0}
-.article-text .pressure-rules strong{font-size:13px;flex:0 0 auto}
-.article-text .pressure-rules span{font-size:15px;font-weight:800;color:var(--navy);white-space:nowrap}
-.article-text .pressure-rules small{font-size:11.5px;color:var(--muted);flex-basis:100%}
-.article-text .mechanism-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:9px 0 11px}
-.article-text .mechanism-strip span{font-size:12px;line-height:1.4;padding:7px 8px;border-radius:8px;border:1px solid var(--line);background:var(--sheet2);text-align:center}
-.article-text .mechanism-strip strong{font-size:12px}
-.article-text .equation-block{display:flex;align-items:center;gap:9px 16px;flex-wrap:wrap;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 13px;margin:10px 0 13px;min-width:0}
-.article-text .equation-label{font:750 12px/1.4 'Plus Jakarta Sans',sans-serif;color:var(--muted)}
-.article-text .equation-block math{font-size:18px;display:inline-block;max-width:100%;overflow-wrap:normal;white-space:nowrap;color:var(--navy2)}
-.article-text .equation-example{font-size:12.5px;color:var(--text)}
-.article-text .equation-example strong{color:var(--navy)}
+:is(.article-text,.cs-body) h2{margin:25px 0 10px;padding-top:5px}
+:is(.article-text,.cs-body) h3{margin:16px 0 8px;line-height:1.4}
+:is(.article-text,.cs-body) p{margin-bottom:11px}
+:is(.article-text,.cs-body) ul,:is(.article-text,.cs-body) ol{margin-bottom:14px}
+:is(.article-text,.cs-body) li{margin-bottom:5px}
+:is(.article-text,.cs-body) table{margin:12px 0 17px;font-size:12.75px;line-height:1.45}
+:is(.article-text,.cs-body) td,:is(.article-text,.cs-body) th{padding:8px 10px}
+:is(.article-text,.cs-body) details{margin:8px 0 11px;padding:11px 14px}
+:is(.article-text,.cs-body) details p{margin:9px 0 1px}
+:is(.article-text,.cs-body) .teaching-illustration{margin:13px 0 17px;padding:10px 11px 9px}
+:is(.article-text,.cs-body) .teaching-illustration img{max-height:440px}
+:is(.article-text,.cs-body) .teaching-illustration figcaption{margin-top:8px}
+:is(.article-text,.cs-body) #chapter-essentials + ol{padding:13px 15px 13px 34px}
+:is(.article-text,.cs-body) #chapter-essentials + ol li{margin-bottom:6px}
+:is(.article-text,.cs-body) .media-resource{margin:12px 0;padding:13px 16px}
+:is(.article-text,.cs-body) .media-resource h3{margin-bottom:5px}
+:is(.article-text,.cs-body) .media-resource p{margin-bottom:8px}
+:is(.article-text,.cs-body) .media-play{min-height:42px}
+:is(.article-text,.cs-body) .pressure-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:13px 0}
+:is(.article-text,.cs-body) .pressure-rules>div{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:10px;row-gap:2px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 12px;min-width:0}
+:is(.article-text,.cs-body) .pressure-rules strong{font-size:13px;flex:0 0 auto}
+:is(.article-text,.cs-body) .pressure-rules span{font-size:15px;font-weight:800;color:var(--navy);white-space:nowrap}
+:is(.article-text,.cs-body) .pressure-rules small{font-size:11.5px;color:var(--muted);flex-basis:100%}
+:is(.article-text,.cs-body) .mechanism-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:9px 0 11px}
+:is(.article-text,.cs-body) .mechanism-strip span{font-size:12px;line-height:1.4;padding:7px 8px;border-radius:8px;border:1px solid var(--line);background:var(--sheet2);text-align:center}
+:is(.article-text,.cs-body) .mechanism-strip strong{font-size:12px}
+:is(.article-text,.cs-body) .equation-block{display:flex;align-items:center;gap:9px 16px;flex-wrap:wrap;border:1px solid var(--line);border-radius:11px;background:var(--sheet2);padding:10px 13px;margin:10px 0 13px;min-width:0}
+:is(.article-text,.cs-body) .equation-label{font:750 12px/1.4 'Plus Jakarta Sans',sans-serif;color:var(--muted)}
+:is(.article-text,.cs-body) .equation-block math{font-size:18px;display:inline-block;max-width:100%;overflow-wrap:normal;white-space:nowrap;color:var(--navy2)}
+:is(.article-text,.cs-body) .equation-example{font-size:12.5px;color:var(--text)}
+:is(.article-text,.cs-body) .equation-example strong{color:var(--navy)}
 @media(max-width:660px){
  .article-text{font-size:14.5px;line-height:1.69}
- .article-text h2{margin:22px 0 9px;font-size:18px}
- .article-text h3{font-size:15px}
- .article-text p{margin-bottom:10px}
+ :is(.article-text,.cs-body) h2{margin:22px 0 9px;font-size:18px}
+ :is(.article-text,.cs-body) h3{font-size:15px}
+ :is(.article-text,.cs-body) p{margin-bottom:10px}
  .article-sheet{padding:18px 15px}
  .article-summary{margin-bottom:15px;padding-bottom:13px}
  .mobile-sections{margin:10px 0 14px}
- .article-text table{font-size:12px;max-width:100%;margin:11px 0 15px}
- .article-text td,.article-text th{padding:7px 8px}
- .article-text .teaching-illustration{padding:7px;margin:11px 0 14px}
- .article-text .teaching-illustration img{max-height:340px}
- .article-text .media-resource{padding:11px 12px;margin:12px 0}
- .article-text .pressure-rules{gap:7px}
- .article-text .pressure-rules>div{padding:8px 9px}
- .article-text .pressure-rules strong{font-size:12px}
- .article-text .pressure-rules span{font-size:13.5px}
- .article-text .mechanism-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
- .article-text .equation-block{gap:6px 12px;padding:9px 11px}
- .article-text .equation-block math{font-size:16.5px}
- .article-text #chapter-essentials + ol{padding:12px 10px 12px 30px}
+ :is(.article-text,.cs-body) table{font-size:12px;max-width:100%;margin:11px 0 15px}
+ :is(.article-text,.cs-body) td,:is(.article-text,.cs-body) th{padding:7px 8px}
+ :is(.article-text,.cs-body) .teaching-illustration{padding:7px;margin:11px 0 14px}
+ :is(.article-text,.cs-body) .teaching-illustration img{max-height:340px}
+ :is(.article-text,.cs-body) .media-resource{padding:11px 12px;margin:12px 0}
+ :is(.article-text,.cs-body) .pressure-rules{gap:7px}
+ :is(.article-text,.cs-body) .pressure-rules>div{padding:8px 9px}
+ :is(.article-text,.cs-body) .pressure-rules strong{font-size:12px}
+ :is(.article-text,.cs-body) .pressure-rules span{font-size:13.5px}
+ :is(.article-text,.cs-body) .mechanism-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ :is(.article-text,.cs-body) .equation-block{gap:6px 12px;padding:9px 11px}
+ :is(.article-text,.cs-body) .equation-block math{font-size:16.5px}
+ :is(.article-text,.cs-body) #chapter-essentials + ol{padding:12px 10px 12px 30px}
 }
 @media(max-width:400px){
- .article-text .pressure-rules{grid-template-columns:1fr}
+ :is(.article-text,.cs-body) .pressure-rules{grid-template-columns:1fr}
  .article-sheet{padding:16px 12px}
- .article-text table{font-size:11.5px}
+ :is(.article-text,.cs-body) table{font-size:11.5px}
 }
 
 /* Optional heart sounds: native controls, no layout shift until requested. */
-.article-text .audio-resource .media-stage:not(:empty){background:transparent;display:block;padding:0}
-.article-text .audio-resource audio{width:min(100%,420px);height:46px;display:block}
-.article-text .teaching-illustration-portrait img{max-height:370px;width:auto;max-width:100%;object-fit:contain}
+:is(.article-text,.cs-body) .audio-resource .media-stage:not(:empty){background:transparent;display:block;padding:0}
+:is(.article-text,.cs-body) .audio-resource audio{width:min(100%,420px);height:46px;display:block}
+:is(.article-text,.cs-body) .teaching-illustration-portrait img{max-height:370px;width:auto;max-width:100%;object-fit:contain}
 @media(max-width:600px){
- .article-text .teaching-illustration-portrait img{max-height:310px}
+ :is(.article-text,.cs-body) .teaching-illustration-portrait img{max-height:310px}
 }
 
 /* ECG chapter — compact, low-data diagrams and calibrated paper without extra graphics libraries. */
-.article-text .ecg-concept-line{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;margin:10px 0 15px;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:var(--sheet2)}
-.article-text .ecg-concept-line span{font-size:12px;font-weight:700}
-.article-text .ecg-concept-line b{color:var(--blue);font-size:15px}
-.article-text .ecg-figure-small img{max-height:260px;width:auto;max-width:100%}
-.article-text .ecg-figure-signal img{max-height:330px;width:auto;max-width:100%}
-.article-text .ecg-calibration-mini{display:grid;grid-template-columns:90px minmax(0,1fr);align-items:center;gap:11px;margin:12px 0 16px;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--sheet2)}
-.article-text .ecg-paper-sample{width:80px;height:80px;background-color:#fff8f8;border:1px solid #e5a9aa;background-image:linear-gradient(#cc78784d 1px,transparent 1px),linear-gradient(90deg,#cc78784d 1px,transparent 1px),linear-gradient(#b7545499 1px,transparent 1px),linear-gradient(90deg,#b7545499 1px,transparent 1px);background-size:8px 8px,8px 8px,40px 40px,40px 40px}
-.article-text .ecg-calibration-mini strong{font-size:12.5px}
-.article-text .ecg-calibration-mini p{font-size:12px;line-height:1.55;margin:3px 0}
-@media(max-width:660px){.article-text .ecg-concept-line{padding:8px 9px}.article-text .ecg-concept-line span{font-size:11px}.article-text .ecg-figure-small img{max-height:235px}.article-text .ecg-figure-signal img{max-height:285px}}
-@media(max-width:360px){.article-text .ecg-calibration-mini{grid-template-columns:64px minmax(0,1fr);gap:8px;padding:8px}.article-text .ecg-paper-sample{width:64px;height:64px}.article-text .ecg-calibration-mini p{font-size:11.5px}}
+:is(.article-text,.cs-body) .ecg-concept-line{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;margin:10px 0 15px;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:var(--sheet2)}
+:is(.article-text,.cs-body) .ecg-concept-line span{font-size:12px;font-weight:700}
+:is(.article-text,.cs-body) .ecg-concept-line b{color:var(--blue);font-size:15px}
+:is(.article-text,.cs-body) .ecg-figure-small img{max-height:260px;width:auto;max-width:100%}
+:is(.article-text,.cs-body) .ecg-figure-signal img{max-height:330px;width:auto;max-width:100%}
+:is(.article-text,.cs-body) .ecg-calibration-mini{display:grid;grid-template-columns:90px minmax(0,1fr);align-items:center;gap:11px;margin:12px 0 16px;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--sheet2)}
+:is(.article-text,.cs-body) .ecg-paper-sample{width:80px;height:80px;background-color:#fff8f8;border:1px solid #e5a9aa;background-image:linear-gradient(#cc78784d 1px,transparent 1px),linear-gradient(90deg,#cc78784d 1px,transparent 1px),linear-gradient(#b7545499 1px,transparent 1px),linear-gradient(90deg,#b7545499 1px,transparent 1px);background-size:8px 8px,8px 8px,40px 40px,40px 40px}
+:is(.article-text,.cs-body) .ecg-calibration-mini strong{font-size:12.5px}
+:is(.article-text,.cs-body) .ecg-calibration-mini p{font-size:12px;line-height:1.55;margin:3px 0}
+@media(max-width:660px){:is(.article-text,.cs-body) .ecg-concept-line{padding:8px 9px}:is(.article-text,.cs-body) .ecg-concept-line span{font-size:11px}:is(.article-text,.cs-body) .ecg-figure-small img{max-height:235px}:is(.article-text,.cs-body) .ecg-figure-signal img{max-height:285px}}
+@media(max-width:360px){:is(.article-text,.cs-body) .ecg-calibration-mini{grid-template-columns:64px minmax(0,1fr);gap:8px;padding:8px}:is(.article-text,.cs-body) .ecg-paper-sample{width:64px;height:64px}:is(.article-text,.cs-body) .ecg-calibration-mini p{font-size:11.5px}}
 
 /* Chapter 07: compact cardiac-output learning components */
-.article-text .co-impact-strip,.article-text .co-compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:11px 0 14px}
-.article-text .co-impact-strip>span,.article-text .co-compare-grid>div{border:1px solid var(--line);border-radius:10px;background:var(--sheet2);padding:10px 11px;min-width:0;display:flex;flex-direction:column;gap:3px}
-.article-text .co-impact-strip strong,.article-text .co-compare-grid strong{font-size:12.5px;line-height:1.4}
-.article-text .co-impact-strip small,.article-text .co-compare-grid small{font-size:11px;line-height:1.45;color:var(--muted)}
-.article-text .co-compare-grid span{color:var(--blue);font-size:13px;font-weight:800}
-.article-text .co-cause-flow{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px;border:1px solid var(--line);background:var(--sheet2);padding:9px 11px;border-radius:10px;margin:11px 0 14px}
-.article-text .co-cause-flow span{font-size:12px;line-height:1.5;font-weight:750}
-.article-text .co-cause-flow b{font-size:13px;color:var(--blue)}
-.article-text .cardiac-output-figure{margin:13px 0 16px;padding:11px 12px}
-.article-text .cardiac-output-figure svg{max-height:290px}
-.article-text .cardiac-output-figure p{font-size:12px;line-height:1.55;margin-top:7px}
-@media(max-width:660px){.article-text .co-impact-strip{gap:5px}.article-text .co-impact-strip>span{padding:7px}.article-text .co-impact-strip strong{font-size:11.5px}.article-text .co-impact-strip small{font-size:10px}.article-text .co-compare-grid{grid-template-columns:1fr;gap:6px}.article-text .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}.article-text .co-compare-grid small{grid-column:1/-1}.article-text .cardiac-output-figure svg{max-height:235px}}
-@media(max-width:350px){.article-text .co-impact-strip{grid-template-columns:1fr}.article-text .co-impact-strip>span{display:block}.article-text .co-impact-strip small{display:inline;margin-left:7px}.article-text .co-cause-flow span{font-size:11px}}
+:is(.article-text,.cs-body) .co-impact-strip,:is(.article-text,.cs-body) .co-compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:11px 0 14px}
+:is(.article-text,.cs-body) .co-impact-strip>span,:is(.article-text,.cs-body) .co-compare-grid>div{border:1px solid var(--line);border-radius:10px;background:var(--sheet2);padding:10px 11px;min-width:0;display:flex;flex-direction:column;gap:3px}
+:is(.article-text,.cs-body) .co-impact-strip strong,:is(.article-text,.cs-body) .co-compare-grid strong{font-size:12.5px;line-height:1.4}
+:is(.article-text,.cs-body) .co-impact-strip small,:is(.article-text,.cs-body) .co-compare-grid small{font-size:11px;line-height:1.45;color:var(--muted)}
+:is(.article-text,.cs-body) .co-compare-grid span{color:var(--blue);font-size:13px;font-weight:800}
+:is(.article-text,.cs-body) .co-cause-flow{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px;border:1px solid var(--line);background:var(--sheet2);padding:9px 11px;border-radius:10px;margin:11px 0 14px}
+:is(.article-text,.cs-body) .co-cause-flow span{font-size:12px;line-height:1.5;font-weight:750}
+:is(.article-text,.cs-body) .co-cause-flow b{font-size:13px;color:var(--blue)}
+:is(.article-text,.cs-body) .cardiac-output-figure{margin:13px 0 16px;padding:11px 12px}
+:is(.article-text,.cs-body) .cardiac-output-figure svg{max-height:290px}
+:is(.article-text,.cs-body) .cardiac-output-figure p{font-size:12px;line-height:1.55;margin-top:7px}
+@media(max-width:660px){:is(.article-text,.cs-body) .co-impact-strip{gap:5px}:is(.article-text,.cs-body) .co-impact-strip>span{padding:7px}:is(.article-text,.cs-body) .co-impact-strip strong{font-size:11.5px}:is(.article-text,.cs-body) .co-impact-strip small{font-size:10px}:is(.article-text,.cs-body) .co-compare-grid{grid-template-columns:1fr;gap:6px}:is(.article-text,.cs-body) .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}:is(.article-text,.cs-body) .co-compare-grid small{grid-column:1/-1}:is(.article-text,.cs-body) .cardiac-output-figure svg{max-height:235px}}
+@media(max-width:350px){:is(.article-text,.cs-body) .co-impact-strip{grid-template-columns:1fr}:is(.article-text,.cs-body) .co-impact-strip>span{display:block}:is(.article-text,.cs-body) .co-impact-strip small{display:inline;margin-left:7px}:is(.article-text,.cs-body) .co-cause-flow span{font-size:11px}}
 
 
 /* Chapter 08: compact Fick and ventricular stroke-work visuals. */
-.article-text .fick-process{display:flex;align-items:center;flex-wrap:wrap;gap:5px 7px;padding:9px 11px;margin:11px 0 14px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px}
-.article-text .fick-process span{min-width:0;display:flex;flex-direction:column;gap:3px}
-.article-text .fick-process strong{font-size:12px;line-height:1.4}
-.article-text .fick-process small{font-size:10.5px;line-height:1.4;color:var(--muted)}
-.article-text .fick-process b{font-size:15px;color:var(--blue)}
-.article-text .work-pv-figure{margin:13px 0 17px;padding:12px 13px}
-.article-text .work-pv-figure svg{max-height:270px}
-.article-text .work-pv-figure p{font-size:12px;line-height:1.55;margin-top:7px}
-@media(max-width:660px){.article-text .fick-process{gap:5px;padding:8px 10px}.article-text .fick-process strong{font-size:11.5px}.article-text .fick-process small{font-size:10px}.article-text .work-pv-figure{padding:10px}.article-text .work-pv-figure svg{max-height:225px}}
+:is(.article-text,.cs-body) .fick-process{display:flex;align-items:center;flex-wrap:wrap;gap:5px 7px;padding:9px 11px;margin:11px 0 14px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px}
+:is(.article-text,.cs-body) .fick-process span{min-width:0;display:flex;flex-direction:column;gap:3px}
+:is(.article-text,.cs-body) .fick-process strong{font-size:12px;line-height:1.4}
+:is(.article-text,.cs-body) .fick-process small{font-size:10.5px;line-height:1.4;color:var(--muted)}
+:is(.article-text,.cs-body) .fick-process b{font-size:15px;color:var(--blue)}
+:is(.article-text,.cs-body) .work-pv-figure{margin:13px 0 17px;padding:12px 13px}
+:is(.article-text,.cs-body) .work-pv-figure svg{max-height:270px}
+:is(.article-text,.cs-body) .work-pv-figure p{font-size:12px;line-height:1.55;margin-top:7px}
+@media(max-width:660px){:is(.article-text,.cs-body) .fick-process{gap:5px;padding:8px 10px}:is(.article-text,.cs-body) .fick-process strong{font-size:11.5px}:is(.article-text,.cs-body) .fick-process small{font-size:10px}:is(.article-text,.cs-body) .work-pv-figure{padding:10px}:is(.article-text,.cs-body) .work-pv-figure svg{max-height:225px}}
 
 
 /* Chapter 09: compact hemodynamics models and radius comparisons. */
-.article-text .hemo-radius-impact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 16px}
-.article-text .hemo-radius-impact>div{background:var(--sheet2);border:1px solid var(--line);border-radius:11px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
-.article-text .hemo-radius-impact strong{font-size:12px}.article-text .hemo-radius-impact span{font-size:15px;font-weight:800;color:var(--blue)}
-.article-text .hemo-radius-impact small{font-size:11px;line-height:1.4;color:var(--muted)}
-.article-text .hemo-flow-figure{padding:11px 12px;margin:11px 0 16px}
-.article-text .hemo-flow-figure svg{max-height:175px}.article-text .hemo-flow-figure p{font-size:11.5px;line-height:1.5}
-@media(max-width:660px){.article-text .hemo-radius-impact{gap:6px}.article-text .hemo-radius-impact>div{padding:9px}.article-text .hemo-radius-impact span{font-size:13px}.article-text .hemo-flow-figure svg{max-height:145px}}
+:is(.article-text,.cs-body) .hemo-radius-impact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 16px}
+:is(.article-text,.cs-body) .hemo-radius-impact>div{background:var(--sheet2);border:1px solid var(--line);border-radius:11px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
+:is(.article-text,.cs-body) .hemo-radius-impact strong{font-size:12px}:is(.article-text,.cs-body) .hemo-radius-impact span{font-size:15px;font-weight:800;color:var(--blue)}
+:is(.article-text,.cs-body) .hemo-radius-impact small{font-size:11px;line-height:1.4;color:var(--muted)}
+:is(.article-text,.cs-body) .hemo-flow-figure{padding:11px 12px;margin:11px 0 16px}
+:is(.article-text,.cs-body) .hemo-flow-figure svg{max-height:175px}:is(.article-text,.cs-body) .hemo-flow-figure p{font-size:11.5px;line-height:1.5}
+@media(max-width:660px){:is(.article-text,.cs-body) .hemo-radius-impact{gap:6px}:is(.article-text,.cs-body) .hemo-radius-impact>div{padding:9px}:is(.article-text,.cs-body) .hemo-radius-impact span{font-size:13px}:is(.article-text,.cs-body) .hemo-flow-figure svg{max-height:145px}}
 
 
 /* Chapter 10: compact Windkessel, hydrostatic-height and pressure-drop visuals. */
-.article-text .bp-windkessel-figure{padding:10px 11px;margin:11px 0 16px}
-.article-text .bp-windkessel-figure svg{max-height:190px}
-.article-text .bp-windkessel-figure p{font-size:11.5px;line-height:1.5}
-.article-text .bp-height-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 15px}
-.article-text .bp-height-rules>div{border:1px solid var(--line);background:var(--sheet2);border-radius:11px;padding:10px 11px;display:flex;flex-direction:column;gap:4px}
-.article-text .bp-height-rules strong{font-size:12px}
-.article-text .bp-height-rules span{font-size:15px;font-weight:800;color:var(--blue)}
-.article-text .bp-height-rules small{font-size:11px;line-height:1.4;color:var(--muted)}
-.article-text .bp-drop-strip{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;padding:10px 11px;margin:12px 0 16px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2)}
-.article-text .bp-drop-strip span{display:flex;flex-direction:column;gap:3px}
-.article-text .bp-drop-strip strong{font-size:12px}.article-text .bp-drop-strip small{font-size:10.5px;color:var(--muted)}
-.article-text .bp-drop-strip b{color:var(--blue);font-size:14px}
-@media(max-width:660px){.article-text .bp-windkessel-figure svg{max-height:155px}.article-text .bp-height-rules{gap:6px}.article-text .bp-height-rules>div{padding:9px}.article-text .bp-height-rules strong{font-size:11.5px}.article-text .bp-height-rules span{font-size:12.5px}.article-text .bp-height-rules small{font-size:10px}}
-@media(max-width:350px){.article-text .bp-height-rules{grid-template-columns:1fr}}
+:is(.article-text,.cs-body) .bp-windkessel-figure{padding:10px 11px;margin:11px 0 16px}
+:is(.article-text,.cs-body) .bp-windkessel-figure svg{max-height:190px}
+:is(.article-text,.cs-body) .bp-windkessel-figure p{font-size:11.5px;line-height:1.5}
+:is(.article-text,.cs-body) .bp-height-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:11px 0 15px}
+:is(.article-text,.cs-body) .bp-height-rules>div{border:1px solid var(--line);background:var(--sheet2);border-radius:11px;padding:10px 11px;display:flex;flex-direction:column;gap:4px}
+:is(.article-text,.cs-body) .bp-height-rules strong{font-size:12px}
+:is(.article-text,.cs-body) .bp-height-rules span{font-size:15px;font-weight:800;color:var(--blue)}
+:is(.article-text,.cs-body) .bp-height-rules small{font-size:11px;line-height:1.4;color:var(--muted)}
+:is(.article-text,.cs-body) .bp-drop-strip{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;padding:10px 11px;margin:12px 0 16px;border:1px solid var(--line);border-radius:11px;background:var(--sheet2)}
+:is(.article-text,.cs-body) .bp-drop-strip span{display:flex;flex-direction:column;gap:3px}
+:is(.article-text,.cs-body) .bp-drop-strip strong{font-size:12px}:is(.article-text,.cs-body) .bp-drop-strip small{font-size:10.5px;color:var(--muted)}
+:is(.article-text,.cs-body) .bp-drop-strip b{color:var(--blue);font-size:14px}
+@media(max-width:660px){:is(.article-text,.cs-body) .bp-windkessel-figure svg{max-height:155px}:is(.article-text,.cs-body) .bp-height-rules{gap:6px}:is(.article-text,.cs-body) .bp-height-rules>div{padding:9px}:is(.article-text,.cs-body) .bp-height-rules strong{font-size:11.5px}:is(.article-text,.cs-body) .bp-height-rules span{font-size:12.5px}:is(.article-text,.cs-body) .bp-height-rules small{font-size:10px}}
+@media(max-width:350px){:is(.article-text,.cs-body) .bp-height-rules{grid-template-columns:1fr}}
 
 
 /* Chapters 11–15: compact mobile-first pressure waves, fluid balance and lymph flows. */
-.article-text .pulse-mechanism,.article-text .vr-flow,.article-text .micro-path,.article-text .edema-balance,.article-text .lymph-flow{
+:is(.article-text,.cs-body) .pulse-mechanism,:is(.article-text,.cs-body) .vr-flow,:is(.article-text,.cs-body) .micro-path,:is(.article-text,.cs-body) .edema-balance,:is(.article-text,.cs-body) .lymph-flow{
 display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--sheet2);border:1px solid var(--line);border-radius:11px;padding:9px 11px;margin:11px 0 15px}
-.article-text .pulse-mechanism span,.article-text .vr-flow span,.article-text .micro-path span,.article-text .edema-balance span,.article-text .lymph-flow span{font-size:11.5px;font-weight:750;line-height:1.5}
-.article-text .edema-balance span{display:flex;flex-direction:column;gap:2px}.article-text .edema-balance strong{font-size:11.5px}
-.article-text .edema-balance small{color:var(--muted);font-size:10.5px;font-weight:400}
-.article-text .pulse-mechanism b,.article-text .vr-flow b,.article-text .micro-path b,.article-text .edema-balance b,.article-text .lymph-flow b{color:var(--blue);font-size:13px}
-.article-text .jvp-figure,.article-text .vr-pump-figure,.article-text .micro-force-figure,.article-text .lymph-entry-figure{padding:10px 12px;margin:12px 0 16px}
-.article-text .jvp-figure svg{max-height:240px}
-.article-text .vr-pump-figure svg,.article-text .micro-force-figure svg,.article-text .lymph-entry-figure svg{max-height:190px}
-.article-text .jvp-figure figcaption,.article-text .vr-pump-figure figcaption,.article-text .micro-force-figure figcaption,.article-text .lymph-entry-figure figcaption{font-size:12.5px}
-.article-text .jvp-figure p,.article-text .vr-pump-figure p,.article-text .micro-force-figure p,.article-text .lymph-entry-figure p{font-size:11.5px;line-height:1.55}
+:is(.article-text,.cs-body) .pulse-mechanism span,:is(.article-text,.cs-body) .vr-flow span,:is(.article-text,.cs-body) .micro-path span,:is(.article-text,.cs-body) .edema-balance span,:is(.article-text,.cs-body) .lymph-flow span{font-size:11.5px;font-weight:750;line-height:1.5}
+:is(.article-text,.cs-body) .edema-balance span{display:flex;flex-direction:column;gap:2px}:is(.article-text,.cs-body) .edema-balance strong{font-size:11.5px}
+:is(.article-text,.cs-body) .edema-balance small{color:var(--muted);font-size:10.5px;font-weight:400}
+:is(.article-text,.cs-body) .pulse-mechanism b,:is(.article-text,.cs-body) .vr-flow b,:is(.article-text,.cs-body) .micro-path b,:is(.article-text,.cs-body) .edema-balance b,:is(.article-text,.cs-body) .lymph-flow b{color:var(--blue);font-size:13px}
+:is(.article-text,.cs-body) .jvp-figure,:is(.article-text,.cs-body) .vr-pump-figure,:is(.article-text,.cs-body) .micro-force-figure,:is(.article-text,.cs-body) .lymph-entry-figure{padding:10px 12px;margin:12px 0 16px}
+:is(.article-text,.cs-body) .jvp-figure svg{max-height:240px}
+:is(.article-text,.cs-body) .vr-pump-figure svg,:is(.article-text,.cs-body) .micro-force-figure svg,:is(.article-text,.cs-body) .lymph-entry-figure svg{max-height:190px}
+:is(.article-text,.cs-body) .jvp-figure figcaption,:is(.article-text,.cs-body) .vr-pump-figure figcaption,:is(.article-text,.cs-body) .micro-force-figure figcaption,:is(.article-text,.cs-body) .lymph-entry-figure figcaption{font-size:12.5px}
+:is(.article-text,.cs-body) .jvp-figure p,:is(.article-text,.cs-body) .vr-pump-figure p,:is(.article-text,.cs-body) .micro-force-figure p,:is(.article-text,.cs-body) .lymph-entry-figure p{font-size:11.5px;line-height:1.55}
 @media(max-width:660px){
-.article-text .pulse-mechanism,.article-text .vr-flow,.article-text .micro-path,.article-text .edema-balance,.article-text .lymph-flow{gap:4px 6px;padding:8px 9px}
-.article-text .pulse-mechanism span,.article-text .vr-flow span,.article-text .micro-path span,.article-text .edema-balance span,.article-text .lymph-flow span{font-size:10.8px}
-.article-text .jvp-figure svg{max-height:190px}
-.article-text .vr-pump-figure svg,.article-text .micro-force-figure svg,.article-text .lymph-entry-figure svg{max-height:155px}
+:is(.article-text,.cs-body) .pulse-mechanism,:is(.article-text,.cs-body) .vr-flow,:is(.article-text,.cs-body) .micro-path,:is(.article-text,.cs-body) .edema-balance,:is(.article-text,.cs-body) .lymph-flow{gap:4px 6px;padding:8px 9px}
+:is(.article-text,.cs-body) .pulse-mechanism span,:is(.article-text,.cs-body) .vr-flow span,:is(.article-text,.cs-body) .micro-path span,:is(.article-text,.cs-body) .edema-balance span,:is(.article-text,.cs-body) .lymph-flow span{font-size:10.8px}
+:is(.article-text,.cs-body) .jvp-figure svg{max-height:190px}
+:is(.article-text,.cs-body) .vr-pump-figure svg,:is(.article-text,.cs-body) .micro-force-figure svg,:is(.article-text,.cs-body) .lymph-entry-figure svg{max-height:155px}
 }
-@media(max-width:350px){.article-text .edema-balance span{flex-basis:auto}.article-text .jvp-figure,.article-text .vr-pump-figure,.article-text .micro-force-figure,.article-text .lymph-entry-figure{padding:8px}}
+@media(max-width:350px){:is(.article-text,.cs-body) .edema-balance span{flex-basis:auto}:is(.article-text,.cs-body) .jvp-figure,:is(.article-text,.cs-body) .vr-pump-figure,:is(.article-text,.cs-body) .micro-force-figure,:is(.article-text,.cs-body) .lymph-entry-figure{padding:8px}}
 
 /* Reading Experience v1: compact controls; continuous reading remains default. */
 .reader-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:9px 16px;padding:10px 12px;margin:14px 0 18px;border:1px solid var(--line);border-radius:12px;background:var(--sheet2)}
@@ -308,9 +308,9 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 [data-reader-mode="presentation"] .article-text>figure{max-height:none}
 .reader-toolbar select:focus-visible,.reader-modes button:focus-visible,.reader-section-nav button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .glossary-popup{overflow-wrap:anywhere;max-height:min(60vh,360px);overflow-y:auto}
-.learning-figure svg,.article-text svg{max-width:100%;height:auto}
-.article-text img{max-width:100%;height:auto;object-fit:contain}
-.article-text table{display:block;max-width:100%;overflow-x:auto}
+.learning-figure svg,:is(.article-text,.cs-body) svg{max-width:100%;height:auto}
+:is(.article-text,.cs-body) img{max-width:100%;height:auto;object-fit:contain}
+:is(.article-text,.cs-body) table{display:block;max-width:100%;overflow-x:auto}
 .article-text{overflow-wrap:break-word}
 @media(max-width:390px){.reader-toolbar{margin:10px 0 13px}.reader-section-nav{gap:4px}.reader-section-nav button{font-size:.8rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
@@ -359,54 +359,54 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 @media(prefers-reduced-motion:reduce){.platform-available{transition:none}}
 
 /* CVS equations: readable, contained and touch-scrollable on narrow phones. */
-.article-text .equation-block{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:5px;max-width:100%;min-width:0;overflow:hidden}
-.article-text .equation-label{display:block;white-space:normal;overflow-wrap:anywhere}
-.article-text .equation-block math{display:block;max-width:100%;min-width:0;width:max-content;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;font-size:clamp(14px,2.6vw,18px);line-height:1.4;padding:3px 0 6px;scrollbar-width:thin;white-space:nowrap}
-.article-text .equation-block .equation-example{display:block;max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:normal;line-height:1.55}
-.article-text .equation-block .equation-example strong{overflow-wrap:anywhere}
-.article-text .equation-block :is(mfrac,mrow,msup,msub){max-width:none}
-.article-text :not(pre)>code{white-space:normal;overflow-wrap:anywhere}
+:is(.article-text,.cs-body) .equation-block{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:5px;max-width:100%;min-width:0;overflow:hidden}
+:is(.article-text,.cs-body) .equation-label{display:block;white-space:normal;overflow-wrap:anywhere}
+:is(.article-text,.cs-body) .equation-block math{display:block;max-width:100%;min-width:0;width:max-content;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;font-size:clamp(14px,2.6vw,18px);line-height:1.4;padding:3px 0 6px;scrollbar-width:thin;white-space:nowrap}
+:is(.article-text,.cs-body) .equation-block .equation-example{display:block;max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:normal;line-height:1.55}
+:is(.article-text,.cs-body) .equation-block .equation-example strong{overflow-wrap:anywhere}
+:is(.article-text,.cs-body) .equation-block :is(mfrac,mrow,msup,msub){max-width:none}
+:is(.article-text,.cs-body) :not(pre)>code{white-space:normal;overflow-wrap:anywhere}
 @media(max-width:660px){
- .article-text .equation-block{padding:9px 10px;margin:9px 0 12px;gap:5px;border-radius:11px}
- .article-text .equation-block math{font-size:15px;max-width:100%;margin:0;overscroll-behavior-x:contain}
- .article-text .equation-label{font-size:11.5px}
- .article-text .equation-example{font-size:12px;line-height:1.5}
+ :is(.article-text,.cs-body) .equation-block{padding:9px 10px;margin:9px 0 12px;gap:5px;border-radius:11px}
+ :is(.article-text,.cs-body) .equation-block math{font-size:15px;max-width:100%;margin:0;overscroll-behavior-x:contain}
+ :is(.article-text,.cs-body) .equation-label{font-size:11.5px}
+ :is(.article-text,.cs-body) .equation-example{font-size:12px;line-height:1.5}
 }
-@media(max-width:360px){.article-text .equation-block math{font-size:14px}.article-text .equation-block{padding:8px}}
+@media(max-width:360px){:is(.article-text,.cs-body) .equation-block math{font-size:14px}:is(.article-text,.cs-body) .equation-block{padding:8px}}
 
 /* Stable formula rendering: ordinary accessible text, no fragile MathML glyph stacks. */
-.article-text .equation-block .equation-formula{
+:is(.article-text,.cs-body) .equation-block .equation-formula{
  display:block;max-width:100%;min-width:0;
  font:750 clamp(15px,3vw,19px)/1.55 'Plus Jakarta Sans',system-ui,sans-serif;
  color:var(--navy2);white-space:normal;overflow-wrap:normal;word-break:normal;
  font-variant-numeric:lining-nums tabular-nums;letter-spacing:0;
 }
 @media(max-width:660px){
- .article-text .equation-block .equation-formula{
+ :is(.article-text,.cs-body) .equation-block .equation-formula{
   font-size:16px;line-height:1.55;overflow-wrap:anywhere;
  }
 }
-@media(max-width:350px){.article-text .equation-block .equation-formula{font-size:15px}}
+@media(max-width:350px){:is(.article-text,.cs-body) .equation-block .equation-formula{font-size:15px}}
 
 /* Student-friendly figure captions: title first; attribution remains one tap away. */
-.article-text figure figcaption .figure-attribution,
-.article-text .teaching-illustration figcaption .figure-attribution{
+:is(.article-text,.cs-body) figure figcaption .figure-attribution,
+:is(.article-text,.cs-body) .teaching-illustration figcaption .figure-attribution{
  display:inline-block;vertical-align:baseline;margin:0 0 0 8px;padding:0;
  background:none;border:0;border-radius:0;font-size:11px;line-height:1.5;
 }
-.article-text figure figcaption .figure-attribution summary{
+:is(.article-text,.cs-body) figure figcaption .figure-attribution summary{
  display:inline;cursor:pointer;font-size:11px;font-weight:600;
  color:var(--muted);text-decoration:underline;text-decoration-style:dotted;
  text-underline-offset:3px;outline-offset:3px;
 }
-.article-text figure figcaption .figure-attribution .figure-credit{
+:is(.article-text,.cs-body) figure figcaption .figure-attribution .figure-credit{
  display:block;margin-top:5px;font-size:11px;font-weight:400;
  color:var(--muted);line-height:1.5;overflow-wrap:anywhere;
 }
-.article-text figure figcaption .figure-attribution[open]{
+:is(.article-text,.cs-body) figure figcaption .figure-attribution[open]{
  display:block;margin:5px 0 0;
 }
-.article-text figure figcaption .figure-attribution a{color:var(--blue);text-decoration:underline}
+:is(.article-text,.cs-body) figure figcaption .figure-attribution a{color:var(--blue);text-decoration:underline}
 
 /* ---------- Teaching widgets (teaching-widgets.js) ---------- */
 :root{--w-la:#c97b00;--w-lv:#2b61e8;--w-ao:#c2334d;--w-vol:#14866a;--w-sys:#f6c766;--w-dia:#d8e6ff;--w-band:rgba(43,97,232,.08);--w-overlap:rgba(20,134,106,.13);--w-ok:#14866a;--w-bad:#b42c44}
@@ -438,25 +438,25 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-hr-out{display:block;font-weight:800;color:var(--navy);margin-top:8px;font-size:15px}.tw-hr-note{font-size:12px!important;color:var(--muted);margin:6px 0 0!important}
 .tw-visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .map-quiz{margin:6px 0 -8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}.tw-quiz-status{font-size:12px;color:var(--muted)}
-.article-text td.tw-hidden-cell{position:relative;cursor:pointer;color:transparent}.article-text td.tw-hidden-cell *{color:transparent!important;border-color:transparent!important}
-.article-text td.tw-hidden-cell::after{content:'Tap to reveal';position:absolute;inset:3px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:var(--sheet2);color:var(--blue);font-weight:800;font-size:12px}
-.article-text td.tw-hidden-cell:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
-.article-text .mcq-options{display:flex;flex-direction:column;gap:7px;margin-top:10px}.article-text span.mcq-option{display:block}
-.article-text button.mcq-option{display:block;width:100%;text-align:left;min-height:44px;padding:9px 13px;border:1px solid var(--line);border-radius:11px;background:var(--sheet);color:var(--text);font:inherit;font-size:14.5px;line-height:1.45;cursor:pointer}
-.article-text button.mcq-option:hover:not(:disabled){border-color:var(--blue)}.article-text button.mcq-option:disabled{cursor:default;opacity:1}
-.article-text button.mcq-option.is-correct{border-color:var(--w-ok);background:color-mix(in srgb,var(--w-ok) 13%,var(--sheet));font-weight:700}
-.article-text button.mcq-option.is-wrong{border-color:var(--w-bad);background:color-mix(in srgb,var(--w-bad) 11%,var(--sheet))}
-.article-text .mcq-feedback{display:block;margin-top:8px;font-weight:800;color:var(--w-ok)}.article-text .mcq-feedback.is-wrong{color:var(--w-bad)}
-.article-text .source-note{display:block;margin:14px 0 18px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--sheet2);border-radius:0 10px 10px 0;font-size:13px;line-height:1.6}
-.article-text .source-note.is-collapsible{padding:0;background:transparent;border-left-width:3px}
-.article-text .source-note-toggle{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;width:100%;min-height:44px;padding:9px 14px;border:0;background:var(--sheet2);border-radius:0 10px 10px 0;color:var(--navy);font:inherit;font-size:13px;text-align:left;cursor:pointer}
-.article-text .source-note-toggle::before{content:'▸';display:inline-block;color:var(--gold);font-weight:800;transition:transform .15s}
-.article-text .source-note-toggle[aria-expanded="true"]::before{transform:rotate(90deg)}
-.article-text .source-note-toggle[aria-expanded="true"]{border-radius:0 10px 0 0}
-.article-text .source-note-label{font-weight:800}.article-text .source-note-hint{color:var(--muted)}
-.article-text .source-note-toggle:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-.article-text .source-note-body{padding:2px 14px 10px;background:var(--sheet2);border-radius:0 0 10px 0}
-.article-text .related-links{font-size:13px;color:var(--muted);line-height:1.7}
+:is(.article-text,.cs-body) td.tw-hidden-cell{position:relative;cursor:pointer;color:transparent}:is(.article-text,.cs-body) td.tw-hidden-cell *{color:transparent!important;border-color:transparent!important}
+:is(.article-text,.cs-body) td.tw-hidden-cell::after{content:'Tap to reveal';position:absolute;inset:3px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:var(--sheet2);color:var(--blue);font-weight:800;font-size:12px}
+:is(.article-text,.cs-body) td.tw-hidden-cell:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+:is(.article-text,.cs-body) .mcq-options{display:flex;flex-direction:column;gap:7px;margin-top:10px}:is(.article-text,.cs-body) span.mcq-option{display:block}
+:is(.article-text,.cs-body) button.mcq-option{display:block;width:100%;text-align:left;min-height:44px;padding:9px 13px;border:1px solid var(--line);border-radius:11px;background:var(--sheet);color:var(--text);font:inherit;font-size:14.5px;line-height:1.45;cursor:pointer}
+:is(.article-text,.cs-body) button.mcq-option:hover:not(:disabled){border-color:var(--blue)}:is(.article-text,.cs-body) button.mcq-option:disabled{cursor:default;opacity:1}
+:is(.article-text,.cs-body) button.mcq-option.is-correct{border-color:var(--w-ok);background:color-mix(in srgb,var(--w-ok) 13%,var(--sheet));font-weight:700}
+:is(.article-text,.cs-body) button.mcq-option.is-wrong{border-color:var(--w-bad);background:color-mix(in srgb,var(--w-bad) 11%,var(--sheet))}
+:is(.article-text,.cs-body) .mcq-feedback{display:block;margin-top:8px;font-weight:800;color:var(--w-ok)}:is(.article-text,.cs-body) .mcq-feedback.is-wrong{color:var(--w-bad)}
+:is(.article-text,.cs-body) .source-note{display:block;margin:14px 0 18px;padding:10px 14px;border-left:3px solid var(--gold);background:var(--sheet2);border-radius:0 10px 10px 0;font-size:13px;line-height:1.6}
+:is(.article-text,.cs-body) .source-note.is-collapsible{padding:0;background:transparent;border-left-width:3px}
+:is(.article-text,.cs-body) .source-note-toggle{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;width:100%;min-height:44px;padding:9px 14px;border:0;background:var(--sheet2);border-radius:0 10px 10px 0;color:var(--navy);font:inherit;font-size:13px;text-align:left;cursor:pointer}
+:is(.article-text,.cs-body) .source-note-toggle::before{content:'▸';display:inline-block;color:var(--gold);font-weight:800;transition:transform .15s}
+:is(.article-text,.cs-body) .source-note-toggle[aria-expanded="true"]::before{transform:rotate(90deg)}
+:is(.article-text,.cs-body) .source-note-toggle[aria-expanded="true"]{border-radius:0 10px 0 0}
+:is(.article-text,.cs-body) .source-note-label{font-weight:800}:is(.article-text,.cs-body) .source-note-hint{color:var(--muted)}
+:is(.article-text,.cs-body) .source-note-toggle:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+:is(.article-text,.cs-body) .source-note-body{padding:2px 14px 10px;background:var(--sheet2);border-radius:0 0 10px 0}
+:is(.article-text,.cs-body) .related-links{font-size:13px;color:var(--muted);line-height:1.7}
 
 /* ---------- Heart-sound widgets (Chapter 5) ---------- */
 .snd-timeline .snd-valves{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 4px}
@@ -493,7 +493,7 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-svg .tw-valve-line{stroke:var(--w-vol);stroke-width:5;stroke-linecap:round}.tw-svg .tw-valve-line.is-bad{stroke:var(--w-ao)}
 .tw-svg .snd-phase{fill:color-mix(in srgb,var(--gold) 35%,transparent)}
 .snd-example{margin-top:8px}.snd-example:empty{display:none}
-.article-text a[href^="#/physiology/cvs/"]{color:var(--blue);font-weight:700;text-decoration:none}.article-text a[href^="#/physiology/cvs/"]:hover{text-decoration:underline}
+:is(.article-text,.cs-body) a[href^="#/physiology/cvs/"]{color:var(--blue);font-weight:700;text-decoration:none}:is(.article-text,.cs-body) a[href^="#/physiology/cvs/"]:hover{text-decoration:underline}
 
 /* ---------- Glossary card (four-line layout, dialog on tap, bottom sheet on phones) ---------- */
 .glossary-popup .gl-title{display:block;color:var(--navy2);font-size:13.5px;margin-bottom:4px}
@@ -766,10 +766,177 @@ html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
 @media(pointer:coarse){.brand,.nav-link{min-height:44px;display:inline-flex;align-items:center}.small-icon{height:44px;min-width:44px}}
 /* Wide tables on phones scroll sideways: soft shadows at the edges show there is more to see. */
 @media(max-width:660px){
-  .article-text table{background:linear-gradient(90deg,var(--sheet) 30%,transparent) left/28px 100% no-repeat local,linear-gradient(270deg,var(--sheet) 30%,transparent) right/28px 100% no-repeat local,radial-gradient(farthest-side at 0 50%,rgba(16,35,70,.22),transparent) left/12px 100% no-repeat scroll,radial-gradient(farthest-side at 100% 50%,rgba(16,35,70,.22),transparent) right/12px 100% no-repeat scroll;-webkit-overflow-scrolling:touch}
+  :is(.article-text,.cs-body) table{background:linear-gradient(90deg,var(--sheet) 30%,transparent) left/28px 100% no-repeat local,linear-gradient(270deg,var(--sheet) 30%,transparent) right/28px 100% no-repeat local,radial-gradient(farthest-side at 0 50%,rgba(16,35,70,.22),transparent) left/12px 100% no-repeat scroll,radial-gradient(farthest-side at 100% 50%,rgba(16,35,70,.22),transparent) right/12px 100% no-repeat scroll;-webkit-overflow-scrolling:touch}
 }
 /* Continue where you left off */
 .resume-card{display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:16px;background:var(--sheet);text-decoration:none;color:var(--text)}
 .resume-card:hover{border-color:var(--blue)}
 .resume-text{display:grid;gap:2px;min-width:0;flex:1}.resume-text small{color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11px}.resume-text strong{color:var(--navy);overflow:hidden;text-overflow:ellipsis}.resume-text span{color:var(--muted);font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .resume-go{color:var(--blue);font-weight:800;white-space:nowrap}
+/* =====================================================================
+   Reading layer: one calm, consistent reading surface on every screen.
+   The memorable element is the gold section numeral; everything else is quiet.
+   ===================================================================== */
+:root{--num:#b9820f;--measure:68ch}
+[data-theme="dark"]{--num:var(--gold)}
+[data-reader-width="wide"]{--measure:86ch}
+
+/* Header: kicker, title, one meta line with the reading options on the right */
+.article-sheet .article-kicker{margin:0 0 8px;font-size:14px;font-weight:600;color:var(--muted);letter-spacing:0}
+.article-sheet h1{margin:0 0 14px;text-wrap:balance}
+.article-sheet .article-summary{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;margin:0 0 30px;padding:0 0 18px;border-bottom:1px solid var(--line);font-size:14px;color:var(--muted)}
+.article-summary .article-source{flex-basis:100%;order:3;font-size:13px}
+.article-summary .reader-toolbar{margin:0;padding:0;border:0;background:none;flex:0 0 auto;display:block;width:auto}
+.article-summary .reader-toggle{display:inline-flex;align-items:center;gap:8px;width:auto;min-height:40px;padding:4px 14px 4px 5px;border:1px solid var(--line);border-radius:999px;background:var(--sheet);color:var(--text);font-weight:700;font-size:13.5px;cursor:pointer}
+.article-summary .reader-toggle-icon{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--sheet2);border:0;font:800 12px/1 'Plus Jakarta Sans',sans-serif;color:var(--blue)}
+.article-summary .reader-toggle-state{margin-left:2px;color:var(--muted);font-weight:600;font-size:12.5px}
+.article-summary .reader-toggle-state::after{content:'▾';margin-left:6px;display:inline-block;transition:transform .2s}
+.article-summary .reader-toolbar.is-open{flex-basis:100%;order:4}
+.article-summary .reader-toolbar.is-open .reader-toggle-state::after{transform:rotate(180deg)}
+.article-summary .reader-panel{display:none}
+.article-summary .reader-toolbar.is-open .reader-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 18px;margin-top:10px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--sheet2)}
+.article-summary .reader-toolbar-space{display:inline-block;width:170px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--sheet);margin:0}
+.article-summary .reader-modes{display:inline-flex;gap:4px;width:auto}
+@media(max-width:560px){.article-summary .reader-toolbar.is-open .reader-panel{display:grid}.article-summary .reader-modes{display:grid;grid-template-columns:repeat(3,1fr);width:100%}.article-summary .reader-toggle-state{display:none}}
+
+/* The reading column */
+.article-sheet .article-text{font-size:17px;line-height:1.72;color:var(--text)}
+[data-reader-scale="90"] .article-sheet .article-text{font-size:15.5px}
+[data-reader-scale="110"] .article-sheet .article-text{font-size:18.5px}
+[data-reader-scale="120"] .article-sheet .article-text{font-size:20px}
+.article-sheet .article-text>:is(p,ul,ol,h2,h3,h4,.check-block){max-width:var(--measure)}
+.article-sheet :is(.article-text,.cs-body) p{margin:0 0 1em}
+.article-sheet :is(.article-text,.cs-body) li{margin:0 0 .45em}
+.article-sheet :is(.article-text,.cs-body) h2{font:800 clamp(22px,2.3vw,27px)/1.25 'Plus Jakarta Sans',sans-serif;letter-spacing:-.022em;margin:2.3em 0 .65em;padding-top:0;text-wrap:balance}
+.article-sheet :is(.article-text,.cs-body) h1+h2,.article-sheet .article-text>h2:first-child{margin-top:.3em}
+.article-sheet :is(.article-text,.cs-body) h3{font:800 1.08em/1.35 'Plus Jakarta Sans',sans-serif;color:var(--navy);margin:1.6em 0 .5em}
+.sec-num{color:var(--num);margin-right:.18em;font-variant-numeric:tabular-nums}
+.article-sheet :is(.article-text,.cs-body) strong{font-weight:700}
+.article-sheet :is(.article-text,.cs-body) em:has(>a[href^="#/physiology/cvs/"]){font-style:normal;font-size:.86em}
+.article-sheet :is(.article-text,.cs-body) a[href^="#/physiology/cvs/"]{font-weight:600}
+.article-sheet :is(.article-text,.cs-body) table{font-size:.86em}
+
+/* Understanding Checks: one calm panel per set of questions */
+.article-sheet .check-block{margin:2.2em 0;padding:22px 22px 6px;border:1px solid var(--line);border-radius:20px;background:var(--sheet2)}
+.check-block .check-label{display:flex;align-items:center;gap:9px;margin:0 0 16px;font:800 14.5px/1.3 'Plus Jakarta Sans',sans-serif;color:var(--navy)}
+.check-block .check-label::before{content:'?';display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--num);color:#fff;font-size:13px}
+[data-theme="dark"] .check-block .check-label::before{color:#1b1406}
+.check-block .check-label strong{font-weight:800}
+.check-block .check-body>p{font-size:.95em}
+.check-block .mcq-options{gap:8px;margin-top:12px}
+.check-block .mcq-option{font-size:15px;padding:11px 15px;border-radius:13px;background:var(--sheet);transition:border-color .15s,background-color .15s}
+.check-block .mcq-option:hover:not(:disabled){background:color-mix(in srgb,var(--blue) 5%,var(--sheet))}
+.article-sheet .check-block details{margin:4px 0 24px;padding:0;border:0;background:none;font-size:.92em}
+.article-sheet .check-block details summary{display:inline-flex;align-items:center;gap:8px;min-height:40px;list-style:none;color:var(--blue);font-weight:700}
+.article-sheet .check-block details summary::-webkit-details-marker{display:none}
+.article-sheet .check-block details summary::before{content:'';width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .2s;margin-right:2px}
+.article-sheet .check-block details[open] summary::before{transform:rotate(45deg)}
+.article-sheet .check-block details[open]>p{margin:6px 0 0;padding:12px 15px;border-left:3px solid var(--w-ok);border-radius:0 12px 12px 0;background:var(--sheet)}
+
+/* Chapter Essentials: the summary to come back to */
+.article-sheet :is(.article-text,.cs-body) h2[id$="chapter-essentials"]+ol{padding:18px 22px 18px 44px;border-radius:20px;background:color-mix(in srgb,var(--gold) 12%,var(--sheet));border:1px solid color-mix(in srgb,var(--gold) 40%,var(--line))}
+.article-sheet :is(.article-text,.cs-body) h2[id$="chapter-essentials"]+ol li::marker{color:var(--num);font-weight:800}
+
+/* End of chapter: the next step is one obvious card */
+.article-sheet .article-end{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.next-card{display:grid;justify-self:start;min-width:min(100%,320px);gap:4px;padding:18px 20px;border-radius:18px;background:var(--navy);color:#fff;text-decoration:none;transition:transform .15s}
+.next-card:hover{transform:translateY(-1px)}
+.next-label{font-size:13px;opacity:.8}.next-title{font:800 19px/1.3 'Plus Jakarta Sans',sans-serif}
+.next-title::after{content:' →'}
+[data-theme="dark"] .next-card{background:#1d3a6e}
+.end-actions{display:flex;flex-wrap:wrap;gap:8px}
+.end-actions .btn{min-height:44px}
+
+/* Breadcrumb and contents panel */
+.breadcrumb{font-size:13px}
+.breadcrumb a{text-decoration:none;color:var(--navy);font-weight:600}
+.toc{padding:18px 14px}
+.toc h2{font:700 13px 'Plus Jakarta Sans',sans-serif;letter-spacing:0;text-transform:none;color:var(--navy);margin:0 0 10px;padding:0 6px}
+.toc a{font-size:13px;line-height:1.45;padding:8px 8px;color:var(--muted)}
+.nav-bottom{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.nav-bottom a{font-size:12.5px;line-height:1.4;padding:6px 8px}
+
+/* Phones: the text sits on the page, not in a box */
+@media(max-width:660px){
+  .breadcrumb{margin:16px 0 10px}
+  .breadcrumb .crumb-root,.breadcrumb .crumb-here{display:none}
+  .breadcrumb .crumb-parent a::before{content:'← '}
+  .article-layout .article-sheet{border:0;border-radius:0;box-shadow:none;background:transparent;padding:4px 2px 0}
+  .article-sheet .article-text{font-size:17px;line-height:1.68}
+  [data-reader-scale="90"] .article-sheet .article-text{font-size:15.5px}
+  [data-reader-scale="110"] .article-sheet .article-text{font-size:18.5px}
+  [data-reader-scale="120"] .article-sheet .article-text{font-size:20px}
+  .article-sheet :is(.article-text,.cs-body) h2{font-size:22px;margin-top:2em}
+  .article-sheet .check-block{margin:1.8em -6px;padding:18px 14px 4px;border-radius:18px}
+  .article-sheet :is(.article-text,.cs-body) h2[id$="chapter-essentials"]+ol{padding:14px 16px 14px 36px;margin-inline:-6px}
+  body:has(.article-sheet){background:var(--sheet)}
+}
+@media(max-width:660px){
+  .article-summary .reader-adjust{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 12px;width:100%}
+  .article-summary .reader-adjust select{width:100%;min-width:0}
+  .article-summary .reader-adjust label[for="reader-width"],.article-summary .reader-adjust #reader-width{display:none}
+}
+@media(max-width:760px){.article-sheet .article-end .next-card{justify-self:stretch}.article-sheet .article-end .end-actions .btn{flex:1}}
+/* ---------- Understanding Checks in their own sheet (phones) ---------- */
+.check-launch{display:none}
+.check-sheet{display:none}
+@media(max-width:760px){
+  .article-sheet .check-block{margin:1.6em 0;padding:0;border:0;background:none;border-radius:0}
+  .check-block .check-body{display:none}
+  .check-launch{display:flex;align-items:center;gap:13px;width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--sheet2);color:var(--text);font:inherit;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background-color .15s,border-color .15s}
+  .check-launch:active{background:color-mix(in srgb,var(--num) 8%,var(--sheet2))}
+  .check-launch:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+  .cl-badge{flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--num);color:#fff;font:800 15px 'Plus Jakarta Sans',sans-serif}
+  [data-theme="dark"] .cl-badge{color:#1b1406}
+  .cl-text{display:grid;gap:1px;min-width:0;flex:1}
+  .cl-text strong{font:800 15px/1.3 'Plus Jakarta Sans',sans-serif;color:var(--navy)}
+  .cl-sub{font-size:13.5px;line-height:1.35;color:var(--muted)}
+  .cl-go{flex:none;padding:7px 13px;border-radius:999px;background:var(--navy);color:#fff;font:700 13px 'Plus Jakarta Sans',sans-serif}
+  [data-theme="dark"] .cl-go{background:#2c4f8f}
+  .check-launch.is-done .cl-go{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 1px var(--line)}
+  .check-launch.is-done .cl-badge{background:var(--w-ok)}
+  .check-launch.is-done .cl-badge{font-size:0}.check-launch.is-done .cl-badge::before{content:'✓';font-size:16px;color:#fff}
+  .check-sheet[hidden]{display:none}
+  .check-sheet{display:block;position:fixed;inset:0;z-index:45;background:rgba(8,18,36,0);transition:background-color .22s}
+  .check-sheet.is-open{background:rgba(8,18,36,.45)}
+  .cs-panel{position:absolute;left:0;right:0;bottom:0;top:max(28px,env(safe-area-inset-top));display:flex;flex-direction:column;background:var(--sheet);border-radius:22px 22px 0 0;box-shadow:0 -12px 40px rgba(8,18,36,.22);transform:translateY(102%);transition:transform .26s cubic-bezier(.2,.8,.2,1)}
+  .check-sheet.is-open .cs-panel{transform:none}
+  .cs-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px 12px;border-bottom:1px solid var(--line)}
+  .cs-title{display:flex;align-items:center;gap:11px;min-width:0}
+  .cs-title h2{margin:0;font:800 16px/1.25 'Plus Jakarta Sans',sans-serif;color:var(--navy)}
+  .cs-part{margin:0;font-size:13px;color:var(--muted)}
+  .cs-part:empty{display:none}
+  .cs-head .sheet-close{flex:none;width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--sheet2);color:var(--text);font-size:16px}
+  .cs-body{flex:1;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:6px 18px 24px;font-size:16.5px;line-height:1.68}
+  .cs-body .check-body{display:block}
+  .cs-body .check-label{display:none}
+  .cs-body .check-body>p{font-size:1em}
+  .cs-body details{margin:4px 0 24px;padding:0;border:0;background:none;font-size:.94em}
+  .cs-body details summary{display:inline-flex;align-items:center;gap:8px;min-height:40px;list-style:none;color:var(--blue);font-weight:700}
+  .cs-body details summary::-webkit-details-marker{display:none}
+  .cs-body details summary::before{content:'';width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);transition:transform .2s}
+  .cs-body details[open] summary::before{transform:rotate(45deg)}
+  .cs-body details[open]>p{margin:6px 0 0;padding:12px 15px;border-left:3px solid var(--w-ok);border-radius:0 12px 12px 0;background:var(--sheet2)}
+  .cs-body .mcq-options{gap:8px;margin-top:12px}
+  .cs-body .mcq-option{font-size:15.5px;padding:12px 15px;border-radius:13px;background:var(--sheet)}
+  .cs-foot{padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+  .cs-foot .btn{width:100%;min-height:46px}
+}
+@media(max-width:760px) and (prefers-reduced-motion:reduce){.cs-panel,.check-sheet{transition:none}}
+/* ---------- Videos in their own full-screen window (phones) ---------- */
+html.video-open{overflow:hidden}
+.video-viewer{position:fixed;inset:0;z-index:70;display:flex;flex-direction:column;justify-content:center;background:#05080f;color:#fff;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);animation:vv-in .2s ease-out}
+@keyframes vv-in{from{opacity:0}to{opacity:1}}
+.vv-head{position:absolute;top:env(safe-area-inset-top);left:0;right:0;display:flex;align-items:center;gap:12px;padding:12px 14px;background:linear-gradient(#05080f,rgba(5,8,15,0))}
+.vv-title{flex:1;margin:0;font:700 14.5px/1.3 'Plus Jakarta Sans',sans-serif;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vv-close{flex:none;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:17px}
+.vv-close:focus-visible{outline:3px solid #8fb2ff;outline-offset:2px}
+.vv-stage{width:100%;aspect-ratio:16/9;max-height:100%;background:#000}
+.vv-stage iframe{display:block;width:100%;height:100%;border:0}
+.vv-hint{position:absolute;left:0;right:0;bottom:calc(18px + env(safe-area-inset-bottom));margin:0;text-align:center;font-size:13px;color:rgba(255,255,255,.62)}
+@media(orientation:landscape){.vv-hint{display:none}.vv-stage{height:100%;width:auto;margin:0 auto;max-width:100%}.vv-head{background:none;justify-content:flex-end}.vv-title{display:none}}
+@media(prefers-reduced-motion:reduce){.video-viewer{animation:none}}
+/* Multiple-choice explanations appear only after an answer is chosen */
+details.mcq-answer.is-after-answer:not([open]){display:none}
+details.mcq-answer.is-after-answer>summary{display:none}
+details.mcq-answer.is-after-answer[open]>p:first-of-type{margin-top:4px}

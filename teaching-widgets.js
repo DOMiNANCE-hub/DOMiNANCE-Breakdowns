@@ -336,6 +336,7 @@
     const options = question?.querySelector('.mcq-options');
     if (!options || options.dataset.ready) return;
     options.dataset.ready = '1';
+    details.classList.add('is-after-answer');   // the explanation appears once an option is chosen; no button to peek
     const key = details.dataset.answer;
     const feedback = document.createElement('span');
     feedback.className = 'mcq-feedback';
