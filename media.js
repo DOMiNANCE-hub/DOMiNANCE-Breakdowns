@@ -72,7 +72,8 @@
       stage.replaceChildren();
       const iframe = document.createElement('iframe');
       iframe.setAttribute('aria-label','Embedded educational video player');
-      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?rel=0';
+      const start = /^\d{1,5}$/.test(panel.dataset.youtubeStart || '') ? '&start=' + panel.dataset.youtubeStart : '';
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?rel=0' + start;
       iframe.title = panel.dataset.mediaTitle || 'Optional educational video';
       iframe.loading = 'lazy';
       iframe.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share';
