@@ -92,4 +92,41 @@
     draw();
   }
   W.register('fick-calculator', fickCalculator);
+
+  // ---------- Radius dial (Chapter 9, §6) ----------
+  function radiusDial(fig) {
+    const wrap = document.createElement('div');
+    wrap.className = 'rd-wrap';
+    wrap.innerHTML = `<div class="tw-controls" role="group" aria-label="Presets"><span class="fs-lab">Try:</span>${[50, 80, 100, 150].map(v => `<button type="button" class="tw-btn" data-r="${v}">${v}%</button>`).join('')}</div>` +
+      `<div class="tw-stage"></div>` +
+      `<label class="lv-slider"><span>Radius: <strong class="rd-r"></strong> of normal</span><input type="range" min="50" max="150" step="5" value="100" aria-label="Vessel radius as a percentage of normal"></label>` +
+      `<ol class="rr-steps" aria-live="polite"></ol><p class="lv-readout rd-say"></p>`;
+    const stage = wrap.querySelector('.tw-stage'), range = wrap.querySelector('input');
+    const draw = () => {
+      const pct = Number(range.value), f = pct / 100, f4 = f ** 4, flow = f4 * 100, res = 1 / f4;
+      const h = 40 * f, cy = 70, bw = 420;
+      stage.innerHTML = svgOpen(540, 190, `A vessel at ${pct}% of normal radius. Resistance is ${res.toFixed(1)} times normal and flow is ${Math.round(flow)}% of normal.`) +
+        `<rect x="40" y="${cy - 40}" width="460" height="80" rx="12" class="rd-ghost"/>` +
+        `<rect x="40" y="${cy - h}" width="460" height="${2 * h}" rx="${Math.min(12, h)}" class="rd-vessel"/>` +
+        `<text x="270" y="${cy + 5}" text-anchor="middle" class="tw-small tw-strong rd-in">radius ${pct}%</text>` +
+        `<text x="40" y="136" class="tw-tiny tw-muted">Flow at normal radius</text><rect x="40" y="142" width="${bw / 5.1}" height="12" rx="6" class="rd-bar0"/>` +
+        `<text x="40" y="170" class="tw-tiny tw-strong">Flow now: ${Math.round(flow)}%</text><rect x="40" y="176" width="${Math.max(2, bw / 5.1 * f4)}" height="12" rx="6" class="rd-bar"/></svg>`;
+      wrap.querySelector('.rd-r').textContent = `${pct}%`;
+      const r = f.toFixed(2);
+      wrap.querySelector('.rr-steps').innerHTML = `<li><strong>Radius:</strong> × ${r}</li>` +
+        `<li><strong>Radius to the fourth power:</strong> ${r} × ${r} × ${r} × ${r} = <strong>${f4.toFixed(3)}</strong></li>` +
+        `<li><strong>Resistance:</strong> 1 ÷ ${f4.toFixed(3)} = <strong>× ${res >= 10 ? res.toFixed(0) : res.toFixed(2)}</strong></li>` +
+        `<li><strong>Flow</strong> (same pressure difference): <strong>${flow >= 10 ? Math.round(flow) : flow.toFixed(1)}% of normal</strong></li>`;
+      wrap.querySelector('.rd-say').innerHTML = pct === 100 ? 'Move the slider: a small change in radius makes a big change in flow.'
+        : pct < 100 ? `A ${100 - pct}% narrowing cuts flow by <strong>${Math.round(100 - flow)}%</strong>. ${pct === 80 ? '<strong>A 20% narrowing more than halves flow.</strong>' : ''}`
+          : `A ${pct - 100}% widening raises flow by <strong>${Math.round(flow - 100)}%</strong>.`;
+      wrap.querySelectorAll('[data-r]').forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.r) === pct)));
+    };
+    range.addEventListener('input', draw);
+    wrap.querySelectorAll('[data-r]').forEach(b => b.addEventListener('click', () => { range.value = b.dataset.r; draw(); }));
+    fig.querySelector('figcaption').after(wrap);
+    keepDescription(fig);
+    draw();
+  }
+  W.register('radius-dial', radiusDial);
 })();

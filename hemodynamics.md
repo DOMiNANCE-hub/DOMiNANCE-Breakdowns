@@ -1,190 +1,209 @@
-# Blood Flow and Hemodynamics
+# Blood Flow and Haemodynamics
 
 ## 1. What propels blood around the circulation?
 
-The heart supplies the energy that establishes a pressure gradient. Blood moves through **arteries → arterioles → capillaries → venules → veins → heart**.
+**The heart creates pressure, and blood flows from high pressure to low.** Each beat pushes blood into the arteries at high pressure. The pressure falls step by step through **arteries → arterioles → capillaries → venules → veins**, back to the heart at nearly zero.
 
-Additional mechanisms include **elastic recoil** of large arteries, the **skeletal-muscle pump** compressing veins and the **respiratory pump** using changing intrathoracic pressures. These assist blood flow at different points; they do not replace the heart as its main pressure source.
+Three helpers keep blood moving:
 
-**Why does flow continue during ventricular diastole?** Large elastic arteries stretch during systole, storing energy; their recoil helps sustain pressure and forward flow between ejections. One-way valves in many veins help prevent backward flow during muscle compression.
+- **Elastic recoil of large arteries.** In systole the aorta stretches like a balloon. In diastole it springs back and keeps pushing blood forward, so flow continues between beats.
+- **The skeletal muscle pump.** Contracting muscles squeeze the veins. **<span data-term="venous-valves">Valves</span>** in the veins let blood go only towards the heart.
+- **The respiratory pump.** Breathing in lowers pressure in the chest and draws blood into the large veins.
+
+These help, but the **heart is the main pressure source**.
 
 ## 2. What actually determines flow?
 
-The **effective perfusion pressure** is the difference between upstream and downstream vascular pressure. For the same resistance, a larger pressure difference produces greater flow.
+**Flow depends on the pressure *difference*, not the pressure.** Picture two water tanks joined by a pipe. Water flows only if one tank is higher than the other, and faster the bigger the difference. Raise both tanks equally and nothing changes.
 
 <div class="equation-block"><span class="equation-label">Pressure, flow and resistance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>P</mi></mrow><mi>R</mi></mfrac><mspace width="1em"/><mi>R</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>P</mi></mrow><mi>Q</mi></mfrac></math><span class="equation-example">Q = blood volume per time; ΔP = upstream − downstream pressure; R = vascular resistance.</span></div>
 
-**Example:** A pressure drop of 80 mmHg across a system whose resistance is 20 mmHg·min/L produces flow of **4 L/min**. This is an arithmetic illustration, not a specific organ's reference flow.
+- **Q** = flow (volume per minute)
+- **ΔP** = pressure at the start minus pressure at the end
+- **R** = resistance: how hard the vessels make it for blood to pass
 
-**Important:** High pressure at one point does not, by itself, guarantee high flow. Blood flow depends on the **pressure drop across the pathway** and its resistance.
+**Example:** a pressure drop of 80 mmHg across a resistance of 20 mmHg·min/L gives 80 ÷ 20 = **4 L/min**.
+
+So **high pressure alone doesn't mean high flow.** A blocked artery can have high pressure upstream and almost no flow through it.
 
 ## 3. Why do different vessels have different roles?
 
-| Segment | Special structure | Primary role |
+| Vessel | What its wall is like | Its job |
 |---|---|---|
-| **Large arteries** | Elastic walls | Store pressure energy in systole and recoil in diastole |
-| **Arterioles** | Relatively abundant smooth muscle | Regulate resistance and organ perfusion |
-| **Capillaries** | Very thin endothelial walls | Exchange gases, nutrients and fluid |
-| **Veins** | Distensible thin walls, often valves | Store blood and support its return |
+| **Large arteries** | Thick and elastic | Stretch in systole, recoil in diastole (keep flow going) |
+| **Arterioles** | Thick smooth-muscle layer | Control resistance, and so flow into each organ |
+| **Capillaries** | One cell thick | Exchange gases, nutrients and fluid |
+| **Veins** | Thin, stretchy, with valves | Hold most of the blood; return it to the heart |
 
-**Why are arterioles called resistance vessels?** Small muscular arterioles can change their radius rapidly. Even slight constriction can strongly increase resistance.
+**Arterioles are "resistance vessels"** because their muscle can narrow or widen them quickly, and a small change in radius changes resistance hugely (<a href="#/physiology/cvs/hemodynamics?section=6-why-is-vessel-radius-such-a-powerful-determinant-of-flow">§6</a>).
 
-**Why are veins called capacitance vessels?** Their high compliance lets them accommodate substantial extra blood with a comparatively modest rise in pressure. Noradrenergic venoconstriction can shift blood from venous reservoirs towards the heart.
+**Veins are "capacitance vessels"** (*capacity* = how much they hold) because they stretch easily. They can take in a lot of extra blood with little rise in pressure. When sympathetic nerves tighten them, that stored blood is pushed back to the heart (<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">§10</a>).
 
-Key structures include capillary sphincters, endothelial gaps and fenestrations. **Careful correction:** microscopic gaps and fenestrations are not *millimetres* wide as the slide's unit suggests. Not every capillary has its own sphincter; local control varies with tissue. These details receive fuller treatment in the microcirculation chapter.
+Capillary structure and lymph are covered in their own chapters. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)* *(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
 
-**Lymphatic overview:** Lymph vessels collect excess interstitial fluid and proteins, have valves and often traverse lymph nodes before large lymphatic ducts return fluid near the subclavian–internal jugular venous junctions. Detailed lymphatic physiology follows in its dedicated chapter.
+<aside class="source-note"><strong>Source note:</strong> One slide gives capillary gaps and fenestrations in millimetres. They are in fact nanometres to micrometres wide.</aside>
 
 ## 4. Why is blood velocity lowest in capillaries?
 
-**Volume flow (Q)** is the quantity of blood per unit time; **velocity (v)** is the distance travelled per unit time. They are different measurements.
+**Flow and velocity are different things.**
+
+- **Flow (Q)** = **how much** blood passes per minute (L/min).
+- **Velocity (v)** = **how fast** it moves (cm/s).
 
 <div class="equation-block"><span class="equation-label">Continuity relation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mi>v</mi><mi>A</mi><mspace width="1em"/><mi>v</mi><mo>=</mo><mfrac><mi>Q</mi><mi>A</mi></mfrac></math><span class="equation-example">A = total cross-sectional area of the vessels considered.</span></div>
 
-**The crucial word is TOTAL.** Each capillary is narrow, but there are enormously many in parallel. Their combined cross-sectional area is far larger than that of the aorta.
+**A = the total cross-sectional area of all the vessels at that level.**
 
-Therefore, at comparable overall volume flow, mean velocity decreases as blood travels from the aorta towards capillary beds, then increases again towards larger veins as the total area falls. Slow capillary flow also permits more time for exchange.
+**Think of a motorway.** The same number of cars per minute has to pass every point. Where the road is one lane, the cars must go fast. Where it splits into hundreds of lanes, each car can go slowly.
 
+Each capillary is tiny, but there are billions of them side by side. Their **total** area is far bigger than the aorta's, so blood moves through them **most slowly**. This gives time for exchange. Blood speeds up again as the capillaries join into fewer, larger veins.
+
+**Understanding Check: Sections 1–4**
+
+<p><strong>1.</strong> Why does blood keep flowing in the arteries during ventricular diastole?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The ventricles keep ejecting a little blood in diastole</span><span class="mcq-option" data-option="B">B. The stretched aorta recoils and keeps pushing blood forward</span><span class="mcq-option" data-option="C">C. Valves in the arteries pump blood towards the tissues</span><span class="mcq-option" data-option="D">D. The veins pull blood out of the arteries by suction</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> The aorta stretches in systole and springs back in diastole, keeping the pressure up and the blood moving.</p></details>
+
+<p><strong>2.</strong> Pressure falls by 90 mmHg across a vascular bed with a resistance of 30 mmHg·min/L. What is the flow?<span class="mcq-options"><span class="mcq-option" data-option="A">A. 0.3 L/min, from 30 ÷ 90</span><span class="mcq-option" data-option="B">B. 3 L/min, from 90 ÷ 30</span><span class="mcq-option" data-option="C">C. 60 L/min, from 90 − 30</span><span class="mcq-option" data-option="D">D. 2,700 L/min, from 90 × 30</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Q = ΔP ÷ R = 90 ÷ 30 = 3 L/min.</p></details>
+
+<p><strong>3.</strong> Each capillary is very narrow, yet blood moves slowest in capillaries. Why?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Capillary walls create a lot of friction</span><span class="mcq-option" data-option="B">B. Capillaries have the highest blood pressure</span><span class="mcq-option" data-option="C">C. Their total cross-sectional area is enormous</span><span class="mcq-option" data-option="D">D. Red cells block the capillaries completely</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> v = Q ÷ A. The same flow spread across a huge total area moves slowly, like traffic spread across many lanes.</p></details>
+
+<p><strong>4.</strong> Why are veins called capacitance vessels?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They can hold a lot of extra blood with little rise in pressure</span><span class="mcq-option" data-option="B">B. Their muscle controls resistance to blood flow</span><span class="mcq-option" data-option="C">C. They are the main site of oxygen exchange</span><span class="mcq-option" data-option="D">D. They have the highest pressure in the circulation</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Veins stretch easily, so they store large volumes at low pressure. Arterioles are the resistance vessels.</p></details>
 
 ## 5. Laminar flow, turbulence and Reynolds number
 
-In ideal **laminar flow**, fluid travels in organised layers. The layer touching the vessel wall is slowest because of friction at the wall, while the centre moves faster. This gives the familiar smooth, approximately parabolic velocity profile in a straight tube.
+**<span data-term="laminar-flow">Laminar flow</span>** means blood moves in smooth layers (*lamina* = thin layer). The layer touching the wall is held back by friction and moves slowest. Each layer inward slides faster, and the centre is fastest.
 
 <figure class="learning-figure hemo-flow-figure"><figcaption>Figure 01. Idealised laminar blood-flow profile</figcaption><svg viewBox="0 0 540 165" role="img" aria-label="An idealised vessel with multiple flow arrows, the longest arrows at the centre and shortest nearest the vessel wall."><rect x="40" y="34" width="465" height="99" rx="10" fill="#e9f1ff" stroke="#8caccb" stroke-width="2"/><g stroke="#2162be" stroke-width="4" stroke-linecap="round"><path d="M89 49H179m-10 -7 10 7 -10 7" fill="none"/><path d="M89 72H365m-10 -7 10 7 -10 7" fill="none"/><path d="M89 96H446m-10 -7 10 7 -10 7" fill="none"/><path d="M89 118H365m-10 -7 10 7 -10 7" fill="none"/></g><g fill="currentColor" font-size="12"><text x="41" y="22">Near the wall: slow</text><text x="299" y="22">Near centre: fast</text><text x="41" y="153">Original schematic — not a measured flow profile</text></g></svg><p>The ideal no-slip profile explains the lecturer's arrows. Actual blood contains cells and flowing vessels branch, pulse and deform, so the profile is not always exactly parabolic.</p></figure>
 
-**Turbulent or disturbed flow** has changing local velocity directions, often generating audible sounds such as bruits or murmurs. It is made more likely by high velocity, sudden changes in vessel geometry and lower blood viscosity.
+**Laminar flow is silent.** When flow becomes **<span data-term="turbulent-flow">turbulent</span>**, swirling in eddies, it makes **noise**: murmurs in the heart, bruits in arteries. *(<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">→ Heart Sounds, §6</a>)*
 
-The **Reynolds number (Re)** helps describe the tendency for flow disturbances to become turbulent:
+**What makes turbulence more likely?** The **<span data-term="reynolds">Reynolds number (Re)</span>** sums it up:
 
 <div class="equation-block"><span class="equation-label">Reynolds number</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Re</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>v</mi><mi>D</mi></mrow><mi>η</mi></mfrac></math><span class="equation-example">ρ = density; v = velocity; D = diameter; η = dynamic viscosity.</span></div>
 
-Higher Reynolds number means a **greater likelihood** of turbulent flow, not a guarantee. The vessel's curvature, pulsatility, branching and stenoses also matter.
+Turbulence is more likely when:
 
-**Two different symbols:** **R** denotes vascular resistance in the flow law; **Re** denotes *Reynolds number*, which is dimensionless. Despite their similar symbols, they are not interchangeable.
+- **velocity (v) is high**, as through a narrowed valve or artery;
+- **the vessel is wide (D)**;
+- **viscosity (η) is low**, as in anaemia, where thinner blood flows more easily.
 
-**Anaemia:** Lower viscosity and a compensatory increase in flow can promote a systolic flow murmur without structural valve disease. **Local narrowing:** Velocity may accelerate through a stenosis, creating disturbed downstream flow and a vascular bruit.
+A high Re makes turbulence **more likely**, not certain. Branching and sudden narrowing also matter.
+
+**Don't confuse R with Re.** R is resistance; Re is the Reynolds number, a pure number with no units.
+
+**Two examples:**
+
+- **Anaemia:** thinner blood (lower viscosity) and a faster circulation can cause a **flow murmur** with normal valves.
+- **A narrowed artery:** blood speeds up through the narrow part and becomes turbulent beyond it, causing a **<span data-term="bruit">bruit</span>**.
 
 ## 6. Why is vessel radius such a powerful determinant of flow?
 
-The **Hagen–Poiseuille equation** describes ideal steady laminar flow through a long, straight, rigid circular tube:
+The **<span data-term="poiseuille">Poiseuille equation</span>** describes smooth flow through a straight tube:
 
 <div class="equation-block"><span class="equation-label">Hagen–Poiseuille equation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>Δ</mi><mi>P</mi><msup><mi>r</mi><mn>4</mn></msup></mrow><mrow><mn>8</mn><mi>η</mi><mi>L</mi></mrow></mfrac></math><span class="equation-example">r = vessel radius; L = vessel length; η = viscosity.</span></div>
 
-Combined with **R = ΔP/Q**, this gives:
-
 <div class="equation-block"><span class="equation-label">Ideal tube resistance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>R</mi><mo>=</mo><mfrac><mrow><mn>8</mn><mi>η</mi><mi>L</mi></mrow><mrow><mi>π</mi><msup><mi>r</mi><mn>4</mn></msup></mrow></mfrac></math></div>
 
-The key relationship is **R ∝ 1/r⁴**. When radius decreases, resistance increases dramatically.
+**The key fact: resistance depends on radius to the fourth power (R ∝ 1/r⁴).**
+
+**What does "to the fourth power" mean?** Multiply the change by itself four times. Halve the radius, and resistance rises by **2 × 2 × 2 × 2 = 16 times**. So with the same pressure difference, flow falls to **1/16**. Anyone who has tried to drink through a very thin straw knows the feeling.
 
 <div class="hemo-radius-impact" role="group" aria-label="Effect of radius on ideal vessel resistance"><div><strong>Radius halved</strong><span>Resistance ×16</span><small>At unchanged ΔP: flow falls to 1/16</small></div><div><strong>Radius doubled</strong><span>Resistance ÷16</span><small>At unchanged ΔP: flow increases sixteenfold</small></div></div>
 
-**Worked mechanism:** If the radius changes from r to r/2, the new resistance is **2⁴ = 16** times larger, *provided length and viscosity remain unchanged*. With a fixed pressure difference, Q = ΔP/R means flow falls to one-sixteenth.
+<figure class="learning-figure teaching-widget" data-widget="radius-dial" data-desc="sr"><figcaption>Radius dial</figcaption><p>A slider sets the vessel's radius from 50% to 150% of normal, and the vessel drawing narrows or widens. It shows the radius change, r⁴ worked out step by step, resistance (×) and flow (% of normal, at the same pressure difference), with flow bars for normal and new. It starts at 100%, and presets mark 80% (flow falls to about 41%) and 50% (about 6%). One line: "A 20% narrowing more than halves flow."</p></figure>
 
-These relationships are **mathematical aids**, not exact universal predictions: blood is non-Newtonian, vessels are compliant rather than rigid, and vascular tone and pressures change in living people.
+**Why this matters:** arterioles control flow by changing their radius only slightly. A 20% narrowing more than halves flow. This is how the body directs blood to the organs that need it (<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">§8</a>).
 
-### Does a faster jet at a stenosis mean total blood flow increases?
+**Caution:** Poiseuille assumes a rigid, straight tube and a simple fluid. Blood vessels stretch and branch, and blood contains cells, so the numbers are a guide, not exact predictions.
 
-**No.** At the narrowed throat, cross-sectional area decreases and velocity can rise locally, even while the stenosis increases resistance and reduces overall blood flow. A high *local speed* must not be confused with a high *volume flow rate*.
+**A fast jet doesn't mean more flow.** Blood speeds up through a narrowing (v = Q ÷ A), yet the narrowing **raises resistance**, so total flow can **fall**. Speed and flow are different things.
+
+**Understanding Check: Sections 5–6**
+
+<p><strong>1.</strong> Which change makes turbulent flow most likely?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Lower velocity and higher blood viscosity</span><span class="mcq-option" data-option="B">B. Higher velocity and lower blood viscosity</span><span class="mcq-option" data-option="C">C. A narrower vessel with slower flow</span><span class="mcq-option" data-option="D">D. Thicker blood in a smooth, straight vessel</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Re = ρvD ÷ η. Faster flow and thinner blood both raise Re.</p></details>
+
+<p><strong>2.</strong> A vessel's radius is halved, with pressure, length and viscosity unchanged. What happens to flow?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It halves</span><span class="mcq-option" data-option="B">B. It falls to a quarter</span><span class="mcq-option" data-option="C">C. It falls to an eighth</span><span class="mcq-option" data-option="D">D. It falls to a sixteenth</span></span></p>
+<details class="mcq-answer" data-answer="D"><summary>Show answer and explanation</summary><p><em>Answer: D.</em> R ∝ 1/r⁴. Half the radius gives 2⁴ = 16 times the resistance, so flow falls to 1/16.</p></details>
+
+<p><strong>3.</strong> Why can anaemia cause a heart murmur with normal valves?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Thinner blood and faster flow make turbulence more likely</span><span class="mcq-option" data-option="B">B. Thicker blood increases friction against the valves</span><span class="mcq-option" data-option="C">C. Low oxygen damages the valve leaflets directly</span><span class="mcq-option" data-option="D">D. The red cells clump together and strike the valves</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Lower viscosity and a higher cardiac output both raise the Reynolds number, so flow across normal valves can become turbulent.</p></details>
+
+<p><strong>4.</strong> Blood speeds up as it passes through a narrowed artery. Has total flow through the artery increased?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Yes, because faster blood always means more flow</span><span class="mcq-option" data-option="B">B. Yes, because the narrowing lowers resistance</span><span class="mcq-option" data-option="C">C. No: speed rises because the area falls, while flow may drop</span><span class="mcq-option" data-option="D">D. No: blood actually slows down in a narrowing</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> v = Q ÷ A, so speed rises where area falls. The narrowing also raises resistance, so total flow can fall.</p></details>
 
 ## 7. Viscosity, haematocrit and blood cells
 
-**Viscosity** describes internal resistance to flow. Blood viscosity depends on **haematocrit, plasma proteins, temperature, and red-cell deformation or aggregation**.
+**Viscosity** is how thick or sticky a fluid is: honey is more viscous than water. Thicker blood flows less easily, so resistance rises.
 
-The most important implications are:
+Blood viscosity depends mainly on the **<span data-term="haematocrit">haematocrit</span>**, the percentage of blood made up of red cells. It also depends on plasma proteins, temperature and how flexible the red cells are.
 
-- **Polycythaemia:** More red cells generally increase viscosity, raising viscous resistance and cardiac work.
-- **Anaemia:** Viscosity is often lower, but reduced oxygen-carrying capacity can increase cardiac-output demand and produce a flow murmur.
-- **Abnormal red-cell rigidity:** Conditions such as sickle-cell disease or hereditary spherocytosis can alter rheology.
+- **Polycythaemia** (too many red cells): thicker blood → more resistance → more work for the heart.
+- **Anaemia** (too few red cells): thinner blood, but each mL carries less oxygen, so the heart pumps more blood to compensate. That also means more work, for a different reason.
+- **Stiff or misshapen red cells** (sickle cell disease, hereditary spherocytosis) flow less easily through small vessels.
 
-In the very smallest vessels, the apparent viscosity differs from predictions for blood in large rigid tubes because cells change their distribution and deformation. Therefore, slide 71's suggestion that viscosity has little effect in all small vessels should be treated as a **context-dependent approximation**, not a universal statement.
+<aside class="source-note"><strong>Source note:</strong> One slide suggests viscosity has little effect in small vessels. In very narrow vessels, red cells line up in the centre and blood behaves as if it were thinner. This is a real effect, but it depends on vessel size and does not hold everywhere.</aside>
 
 ## 8. Why are arterioles the main controllable resistance vessels?
 
-The vascular network contains vessels **in series** (one after another) and **in parallel** (multiple paths serving different tissues).
+Vessels are arranged in two ways:
 
-With vessels in series, pressure drops add. With many open pathways in parallel, the overall resistance is lower than that of a single pathway alone.
+- **<span data-term="in-series">In series</span>** (one after another, like the arteries then arterioles then capillaries): the resistances **add up**.
+- **<span data-term="in-parallel">In parallel</span>** (side by side, like the many capillaries in a bed, or the organs off the aorta): each extra path **lowers** the total resistance, because blood has more routes.
 
-This explains an apparent puzzle: each capillary has a tiny radius, but there are very many capillaries **in parallel**. Arterioles, with their active muscular control of diameter, account for a large part of the important pressure drop and resistance regulation.
+**This solves a puzzle.** Each capillary is narrower than an arteriole, so why aren't capillaries the main resistance? Because there are so many of them **in parallel** that their combined resistance is lower. The **arterioles**, with their muscular walls, are where the biggest pressure drop happens and where resistance can be **adjusted**.
 
-**Physiological application:** Constricting arterioles reduces flow into a tissue at the same perfusion pressure. Dilation lowers local resistance and can increase flow.
-
+**In practice:** when an organ's arterioles constrict, its blood flow falls; when they dilate, its flow rises. The heart's output is the same, but it is shared out differently.
 
 ## 9. How can blood flow be measured?
 
-Three techniques are commonly used to measure flow, but they detect different physical signals:
-
-| Method | What it measures or detects | How it relates to flow |
+| Method | What it detects | How it gives flow |
 |---|---|---|
-| **Electromagnetic flowmeter** | Voltage induced by conducting blood in a magnetic field | Used to estimate blood movement through the field |
-| **Doppler ultrasound flowmeter** | Frequency shift from moving blood cells | Estimates velocity along the ultrasound beam |
-| **Plethysmography** | Changes in tissue or limb volume | Can estimate blood inflow with appropriate experimental conditions |
+| **Electromagnetic flowmeter** | Voltage produced by blood moving through a magnetic field | Voltage rises with flow |
+| **Doppler ultrasound** | The change in pitch of sound bouncing off moving red cells | Gives **velocity**; vessel area is needed to get flow |
+| **Plethysmography** | Swelling of a limb when venous outflow is briefly blocked | The rate of swelling equals the arterial inflow |
 
-**Key distinction:** Doppler primarily estimates **velocity**, not volume flow on its own. To estimate total flow, an estimate of the vessel's area and the velocity profile is also required.
+**Doppler measures speed, not volume.** To get flow, multiply velocity by the vessel's cross-sectional area (Q = vA).
 
-The lecture mentions a historical **arm-to-tongue circulation time around 15 seconds**. This is an illustrative transit-time estimate, not a fixed physiological constant for every person.
+The lecture also gives an **arm-to-tongue circulation time of about 15 seconds**: a substance injected into an arm vein is tasted on the tongue about 15 s later.
 
 ## 10. Why can veins hold more blood than arteries?
 
-**Vascular compliance** describes how much volume a vessel can accommodate for a given pressure change.
+**<span data-term="compliance">Compliance</span>** is how much a vessel's volume increases for each rise in pressure:
 
 <div class="equation-block"><span class="equation-label">Compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math></div>
 
-Large veins are more compliant than arteries. Their volume can rise considerably before venous pressure rises by the same amount. This is why veins are called **capacitance vessels**, whereas arterioles are commonly described as **resistance vessels**.
+Veins are far more compliant than arteries: they balloon out with little pressure. So **most of the blood volume sits in the veins** (about two-thirds at rest), ready to be called on.
 
-An approximate resting blood-volume distribution places a large share in the venous system. The listed percentages are **illustrative, not an exact complete partition**; their values do not add to 100% and vary with physiological conditions.
+**Why does tightening the veins help cardiac output?** Sympathetic nerves make the veins less stretchy. The stored blood is squeezed towards the heart, so venous return, EDV and, through Frank–Starling, stroke volume all rise. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
-**Why does venoconstriction help cardiac output?** When the venous system becomes less distensible, stored blood can be redirected towards the heart. This can increase venous return, end-diastolic volume and stroke volume through the Frank–Starling mechanism.
+**Understanding Check: Sections 7–10**
 
-## Understanding Check
+<p><strong>1.</strong> How do polycythaemia and anaemia both increase the heart's work?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Both make the blood thicker and harder to pump</span><span class="mcq-option" data-option="B">B. Polycythaemia thickens blood; anaemia makes the heart pump more blood</span><span class="mcq-option" data-option="C">C. Both lower blood pressure, so the heart beats faster</span><span class="mcq-option" data-option="D">D. Polycythaemia thins blood; anaemia thickens it</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Thicker blood raises resistance. Anaemic blood is thinner, but carries less oxygen, so cardiac output must rise.</p></details>
 
-**1. Why does blood keep moving through the arteries during ventricular diastole?**
-<details><summary>Reveal explanation</summary><p>Large elastic arteries stretch during ventricular systole and store pressure energy. Their recoil during diastole sustains arterial pressure and the pressure gradient towards smaller vessels, so blood can keep moving between ventricular ejections.</p></details>
+<p><strong>2.</strong> Capillaries are narrower than arterioles. Why are arterioles still the main resistance vessels?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Capillaries have no walls, so they offer no resistance</span><span class="mcq-option" data-option="B">B. Arterioles are longer than all the capillaries put together</span><span class="mcq-option" data-option="C">C. Capillaries are in parallel in huge numbers, and arterioles can adjust their radius</span><span class="mcq-option" data-option="D">D. Blood flows faster through capillaries than through arterioles</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> So many parallel capillaries share the flow that their total resistance is low. Arterioles have muscle to change their radius.</p></details>
 
-**2. An organ has an upstream-to-downstream pressure difference of 80 mmHg and a resistance of 20 mmHg·min/L. What is its flow?**
-<details><summary>Reveal explanation</summary><p><strong>Q = ΔP/R = 80/20 = 4 L/min.</strong> The pressure difference must be measured across the pathway; pressure at one end by itself does not establish the flow rate. The numbers are for arithmetic practice, not a named organ.</p></details>
+<p><strong>3.</strong> What does Doppler ultrasound measure directly?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The volume of blood flowing per minute</span><span class="mcq-option" data-option="B">B. The pressure difference along the vessel</span><span class="mcq-option" data-option="C">C. The speed of the moving blood cells</span><span class="mcq-option" data-option="D">D. The viscosity of the blood</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Doppler measures velocity from the pitch change. Flow needs the vessel's area as well (Q = vA).</p></details>
 
-**3. Why is mean capillary blood velocity low despite each capillary having a narrow lumen?**
-<details><summary>Reveal explanation</summary><p>The capillary system has an enormous number of vessels in <strong>parallel</strong>. Their <strong>combined</strong> cross-sectional area is much greater than that of the aorta. Because v = Q/A, the same overall volume flow moving through a much larger combined area has a lower average velocity.</p></details>
+<p><strong>4.</strong> Sympathetic nerves tighten the veins. What happens to stroke volume?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It rises, because more blood returns to fill the heart</span><span class="mcq-option" data-option="B">B. It falls, because resistance to flow increases</span><span class="mcq-option" data-option="C">C. It is unchanged, because veins don't affect the heart</span><span class="mcq-option" data-option="D">D. It falls, because the heart beats faster</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Less stretchy veins push stored blood to the heart. More filling means more stroke volume (Frank–Starling).</p></details>
 
-**4. Why does ideal laminar flow have a greater velocity in the centre than beside the wall?**
-<details><summary>Reveal explanation</summary><p>Fluid in immediate contact with the vessel wall moves slowly because of viscous boundary effects. Adjacent layers drag on one another, forming a velocity gradient. Flow towards the centre is less constrained and therefore faster. Real blood can depart from the ideal profile because it contains cells.</p></details>
+## 11. Chapter Essentials
 
-**5. A vessel's radius falls to half its original value at unchanged ΔP, viscosity and length. Predict resistance and flow.**
-<details><summary>Reveal explanation</summary><p>Hagen–Poiseuille gives <strong>R ∝ 1/r⁴</strong>. Halving the radius therefore increases the predicted resistance by <strong>16 times</strong>. With unchanged perfusion pressure and Q = ΔP/R, volume flow decreases to <strong>1/16</strong> of its previous value, under ideal-tube assumptions.</p></details>
-
-**6. A stenosis produces a very high velocity at its narrowest point. Must total blood flow through the artery have increased?**
-<details><summary>Reveal explanation</summary><p><strong>No.</strong> Local velocity is volume flow divided by local area, so speed can rise as the cross-sectional area narrows even if volume flow remains the same or decreases. The narrowing may also raise resistance and reduce total flow, depending on the pressure gradient.</p></details>
-
-**7. Why may anaemia produce a systolic flow murmur even with normal valves?**
-<details><summary>Reveal explanation</summary><p>Anaemia often reduces blood viscosity and increases cardiac output to compensate for reduced oxygen-carrying capacity. Higher flow velocity and reduced viscosity can increase the tendency towards disturbed flow, producing audible vibrations without a structurally abnormal valve.</p></details>
-
-**8. Distinguish vascular resistance R from the Reynolds number Re.**
-<details><summary>Reveal explanation</summary><p><strong>Resistance R</strong> relates the pressure difference across a pathway to the resulting volume flow. <strong>Reynolds number Re</strong> is dimensionless and compares effects of density, velocity, diameter and viscosity to assess the tendency towards turbulent flow. The two quantities are not equivalent.</p></details>
-
-**9. Why are arterioles the main adjustable resistance vessels instead of capillaries?**
-<details><summary>Reveal explanation</summary><p>Arterioles have smooth muscle capable of rapidly changing their radius and therefore flow resistance. Although individual capillaries are narrow, many operate in parallel and their overall equivalent resistance is reduced. Changing arteriolar tone strongly influences organ perfusion and systemic resistance.</p></details>
-
-**10. What does Doppler ultrasound directly estimate, and what else would be needed to estimate volume flow?**
-<details><summary>Reveal explanation</summary><p>Doppler detects frequency shifts from moving blood cells and estimates a component of <strong>velocity</strong>. Volume flow also depends on the cross-sectional area and the velocity profile across the vessel, so estimating Q requires more information than a single Doppler velocity reading.</p></details>
-
-**11. Why do veins store more additional blood than arteries for a similar rise in pressure?**
-<details><summary>Reveal explanation</summary><p>Veins have a greater <strong>compliance (C = ΔV/ΔP)</strong>. They accommodate a larger volume increase for a given pressure rise, acting as blood reservoirs. Arterioles instead use their muscular walls to regulate resistance.</p></details>
-
-**12. Polycythaemia and anaemia may both increase cardiac workload. How do their mechanisms differ?**
-<details><summary>Reveal explanation</summary><p>In <strong>polycythaemia</strong>, greater haematocrit usually increases viscosity and can raise flow resistance. In <strong>anaemia</strong>, reduced oxygen-carrying capacity often demands greater cardiac output to deliver enough oxygen, producing increased volume flow and workload even when viscosity is lower.</p></details>
-
-## Chapter Essentials
-
-1. **Flow:** Q = ΔP/R; a pressure *difference*, not isolated vessel pressure, drives net flow.
-2. **Diastolic arterial flow:** Elastic recoil helps maintain forward flow between ventricular ejections.
-3. **Vessel functions:** Elastic arteries, resistance arterioles, exchange capillaries and capacitance veins have distinct roles.
-4. **Velocity versus flow:** Q = vA; the total cross-sectional area of parallel capillaries is enormous.
-5. **Laminar flow:** Fastest near the centre and slowest by the wall in the ideal model.
-6. **Reynolds number:** Re = ρvD/η, a dimensionless measure of turbulence tendency, not vascular resistance.
-7. **Hagen–Poiseuille:** Q = πΔPr⁴/(8ηL) for ideal-tube flow; R = 8ηL/(πr⁴).
-8. **Radius effect:** Halving radius increases ideal resistance sixteenfold at unchanged other factors.
-9. **Arteriolar control:** Small changes in muscular-vessel radius substantially regulate blood flow.
-10. **Viscosity:** Depends on haematocrit, plasma components and red-cell properties; blood is not an ideal fluid.
-11. **Measurement:** Electromagnetic, Doppler and plethysmographic techniques detect different flow-related signals.
-12. **Compliance:** C = ΔV/ΔP; veins accommodate large volume changes at comparatively low pressure.
-13. **Small-vessel and lymphatic physiology:** Introduced here, developed in subsequent chapters.
+1. **Flow follows the pressure difference:** Q = ΔP ÷ R. High pressure alone doesn't mean high flow.
+2. **Elastic arteries** recoil in diastole and keep blood moving between beats.
+3. **Vessel roles:** elastic arteries (recoil), arterioles (resistance), capillaries (exchange), veins (capacity).
+4. **Velocity ≠ flow:** v = Q ÷ A. The capillaries' huge total area makes blood slowest there.
+5. **Laminar flow** is silent and fastest at the centre. **Turbulent flow** is noisy (murmurs, bruits).
+6. **Reynolds number** Re = ρvD ÷ η. High velocity, wide vessels and thin blood favour turbulence. Re is not resistance.
+7. **R ∝ 1/r⁴:** halve the radius, and resistance rises 16-fold. A 20% narrowing more than halves flow.
+8. **Viscosity** rises with haematocrit. Polycythaemia and anaemia both raise cardiac work, by different routes.
+9. **Arterioles** are the adjustable resistance. Parallel paths lower total resistance; series resistances add.
+10. **Doppler** measures velocity; flow = velocity × area.
+11. **Compliance** C = ΔV ÷ ΔP. Veins hold most of the blood, and tightening them raises venous return and stroke volume.
