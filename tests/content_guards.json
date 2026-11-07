@@ -210,10 +210,22 @@
       ]
     },
     "gravity": {
-      "minimum_checks": 12
+      "minimum_checks": 9,
+      "required": [
+        "cvs19-column",
+        "0.77 mmHg",
+        "Vasovagal syncope",
+        "Anti-g suits"
+      ]
     },
     "shock": {
-      "minimum_checks": 12
+      "minimum_checks": 7,
+      "required": [
+        "cvs20-cycle",
+        "Irreversible shock",
+        "haemoconcentration",
+        "12–72 hours"
+      ]
     },
     "heart-failure": {
       "minimum_checks": 6,
