@@ -40,7 +40,8 @@ async function cacheFirst(request, cacheName) {
 async function networkFirstPage(request) {
   try {
     const response = await fetch(request);
-    if (response.ok) (await caches.open(SHELL_CACHE)).put('/', response.clone());
+    const path = new URL(request.url).pathname;
+    if (response.ok && (path === '/' || path === '/index.html')) (await caches.open(SHELL_CACHE)).put('/', response.clone());   // only the app page itself
     return response;
   } catch {
     return (await caches.match('/')) || (await caches.match('/index.html')) || Response.error();
