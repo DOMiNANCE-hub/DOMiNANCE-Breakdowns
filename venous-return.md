@@ -2,132 +2,130 @@
 
 ## 1. What is venous return, and why is it essential?
 
-**Venous return (VR)** is the **volume of blood returning to the right atrium per unit time**. In a closed circulation at steady state, venous return must equal **cardiac output (CO)**: the heart cannot pump more blood out indefinitely than the circulation brings back.
+**<span data-term="venous-return">Venous return</span>** is the volume of blood flowing **back into the right atrium each minute**. Over time it must equal cardiac output: the heart can only pump out what comes back to it. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
-A stronger heart cannot maintain normal stroke volume when it has too little blood to fill it. This is the link to the Frank–Starling law in Chapter 07:
+**The heart can't pump blood it doesn't receive.** Even a strong heart ejects little if it is poorly filled. More venous return fills the ventricles more, and through Frank–Starling they eject more. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
 <div class="vr-flow" role="group" aria-label="Venous return to stroke volume"><span>Venous return ↑</span><b>→</b><span>Right-heart filling ↑</span><b>→</b><span>EDV ↑</span><b>→</b><span>Stroke volume ↑</span></div>
 
-**Why doesn't increased return immediately increase the left ventricular output?** Blood first passes through the right heart and lungs; effects on left ventricular filling follow after this transit. The two outputs become approximately equal over time.
+**Why does the left side respond a few beats later?** Extra returning blood enters the right heart first, then has to pass through the lungs before it reaches the left ventricle.
 
 ## 2. Why are veins called capacitance vessels?
 
-Compared with thick-walled arteries, large veins generally have **thin, compliant, distensible walls**. They can hold a substantial amount of blood while pressure remains relatively low.
-
-The lecture contrasts a filling artery with a filling vein: the artery's pressure rises more sharply for a given added volume, while the vein can accommodate far more volume with a small initial pressure rise.
+Veins have **thin, stretchy walls**. They can hold a lot of blood without much rise in pressure, like a half-filled balloon that takes more air easily. Arteries are stiffer, so the same added volume raises their pressure sharply.
 
 <div class="equation-block"><span class="equation-label">Vascular compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math><span class="equation-example">The higher C of veins permits greater volume storage for a given pressure rise.</span></div>
 
-A representative resting distribution places roughly **half of circulating blood in the systemic venous compartment**. These percentages are approximations and do not form an exact complete partition.
+So the veins are the body's **blood reservoir**: about half or more of the blood volume sits in the systemic veins at rest. *(<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">→ Haemodynamics, §10</a>)*
 
-### Why does venoconstriction increase available central blood?
+**Venous tone: squeezing the reservoir.** Sympathetic nerves can tighten the smooth muscle in vein walls (**<span data-term="venoconstriction">venoconstriction</span>**). The veins then hold less, so stored blood is pushed towards the heart, **without adding any new blood**. This is how the body quickly tops up venous return after a bleed or on standing.
 
-Noradrenergic sympathetic stimulation contracts venous smooth muscle. Veins become less distensible and hold less blood at a given pressure. Blood may shift out of peripheral venous reservoirs towards the heart, increasing the pressure driving venous return.
-
-**This is not identical to arteriolar constriction.** Arterioles chiefly adjust resistance to organ perfusion; venoconstriction chiefly influences **venous capacitance and filling**.
+**This is different from tightening arterioles.** Arterioles control **resistance** and so flow into organs. Veins mainly control **how much blood is stored** and how much is sent back to fill the heart.
 
 ## 3. What pressure actually drives venous return?
 
-Venous blood normally returns towards the right atrium because its upstream filling pressure exceeds downstream right atrial pressure.
-
-One useful conceptual model expresses this relation as:
+Blood flows back because **pressure in the veins is higher than pressure in the right atrium**. Venous return depends on the **difference**:
 
 <div class="equation-block"><span class="equation-label">Venous-return relation</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>VR</mi><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>msf</mi></msub><mo>−</mo><msub><mi>P</mi><mi>RA</mi></msub></mrow><msub><mi>R</mi><mi>VR</mi></msub></mfrac></math><span class="equation-example">Pmsf = mean systemic filling pressure; PRA = right atrial pressure; RVR = resistance to venous return.</span></div>
 
-**Mean systemic filling pressure** is a conceptual pressure determined by the amount of stressed blood volume and vascular properties; it is not simply the measured pressure in an ordinary peripheral vein while the heart is pumping.
+- **<span data-term="pmsf">Pmsf (mean systemic filling pressure)</span>:** how "full" the circulation is: the pressure that would exist everywhere if the heart stopped and pressures evened out. It rises with **more blood volume** or **tighter veins**.
+- **PRA (right atrial pressure):** the pressure the returning blood flows **into**.
+- **RVR:** the resistance of the veins on the way back.
 
-At unchanged upstream filling pressure and resistance, **a higher right atrial pressure narrows the gradient and can reduce venous return**. Conversely, increasing stressed blood volume or venous tone can increase upstream filling pressure.
+**Picture a sink draining into a bucket.** The flow depends on how much higher the sink's water level is than the bucket's. If the bucket fills up (right atrial pressure rises), flow slows, even with the sink unchanged.
 
-**Limitation:** This model is simplified; the great veins may partially collapse when intrathoracic pressure becomes sufficiently negative, so lowering right atrial pressure does not increase venous return without limit.
+So:
+
+- **Venous return rises** with more blood volume or venoconstriction (Pmsf ↑).
+- **Venous return falls** if right atrial pressure rises, as when a failing right ventricle can't empty.
+
+**There's a limit.** Lowering right atrial pressure helps only so far. Once it falls below zero, the large veins entering the chest collapse and stop extra blood getting through.
+
+**Understanding Check: Sections 1–3**
+
+<p><strong>1.</strong> Why must venous return equal cardiac output over time?<span class="mcq-options"><span class="mcq-option" data-option="A">A. The heart can only pump out the blood that comes back to it</span><span class="mcq-option" data-option="B">B. Veins and arteries always have the same pressure</span><span class="mcq-option" data-option="C">C. The right atrium stores any extra blood indefinitely</span><span class="mcq-option" data-option="D">D. Valves in the veins measure the blood flow</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> The circulation is a closed loop, so any lasting difference would pile blood up in one place.</p></details>
+
+<p><strong>2.</strong> Sympathetic nerves tighten the veins, with no change in blood volume. What happens to venous return?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It falls, because veins now resist flow</span><span class="mcq-option" data-option="B">B. It rises, because stored blood is pushed towards the heart</span><span class="mcq-option" data-option="C">C. It is unchanged, because no blood has been added</span><span class="mcq-option" data-option="D">D. It falls, because right atrial pressure drops</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Tighter veins hold less, so mean systemic filling pressure rises and more blood returns.</p></details>
+
+<p><strong>3.</strong> A failing right ventricle can't empty, so right atrial pressure rises. What happens to venous return?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It rises, because the atrium pulls harder</span><span class="mcq-option" data-option="B">B. It falls, because the pressure difference driving it shrinks</span><span class="mcq-option" data-option="C">C. It is unchanged, because Pmsf is the same</span><span class="mcq-option" data-option="D">D. It rises, because the veins tighten in response</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> VR depends on Pmsf − PRA. A higher PRA leaves a smaller difference, so less blood flows back.</p></details>
 
 ## 4. How do the skeletal-muscle pump and venous valves work?
 
-Veins in the limbs commonly contain **one-way valves**. When skeletal muscles contract around deep veins, the veins are compressed and blood is pushed onward, usually towards the heart.
+The deep veins of the legs run **between muscles** and contain **<span data-term="venous-valves">one-way valves</span>** that open only towards the heart.
 
-<figure class="learning-figure vr-pump-figure"><figcaption>Figure 01. Skeletal-muscle pump and one-way venous valves</figcaption><svg viewBox="0 0 540 160" role="img" aria-label="Original diagram of a vertical leg vein, one-way valves and surrounding muscle compression moving venous blood upwards towards the heart."><rect x="230" y="16" width="82" height="128" rx="12" fill="#d7eafe" stroke="#4381c1" stroke-width="2"/><path d="M230 55 Q271 65 273 79 Q273 65 312 55" fill="none" stroke="#174f92" stroke-width="3"/><path d="M230 107 Q271 117 273 132 Q273 117 312 107" fill="none" stroke="#174f92" stroke-width="3"/><path d="M273 114V23 M264 35 L273 23 L282 35" stroke="#1463bd" fill="none" stroke-width="5" stroke-linecap="round"/><g stroke="#e38c38" stroke-width="4" stroke-linecap="round"><path d="M172 80H222 M213 71 L222 80 L213 89"/><path d="M371 80H318 M327 71 L318 80 L327 89"/></g><g fill="currentColor" font-size="12"><text x="163" y="64">Muscle</text><text x="163" y="104">squeezes</text><text x="378" y="64">Muscle</text><text x="378" y="104">squeezes</text><text x="276" y="13" text-anchor="middle">To heart ↑</text><text x="12" y="149">Valves favour one-way upward movement during compression</text></g></svg><p>Illustration of the principle, not a scale drawing. Valves limit backward flow when muscle pressure is released.</p></figure>
+- **Muscle contracts:** it squeezes the vein. The blood can only go **up**, because the valve below snaps shut and the valve above is pushed open.
+- **Muscle relaxes:** the squeezed section expands and refills **from below**. The valve above shuts, so blood that has moved up doesn't fall back.
 
-### Why do soldiers subtly exercise their legs while standing?
+Each contraction pumps blood a step closer to the heart. **Walking is a pump.**
 
-When a person stands motionless, gravity increases hydrostatic pressure in leg veins and promotes **venous pooling**. Less blood is immediately available to return to the heart. The resulting fall in preload can reduce stroke volume and may produce light-headedness or fainting.
+<div class="view-switch">
+<figure class="learning-figure vr-pump-figure static-view"><figcaption>The muscle pump at a glance</figcaption><svg viewBox="0 0 540 160" role="img" aria-label="Original diagram of a vertical leg vein, one-way valves and surrounding muscle compression moving venous blood upwards towards the heart."><rect x="230" y="16" width="82" height="128" rx="12" fill="#d7eafe" stroke="#4381c1" stroke-width="2"/><path d="M230 55 Q271 65 273 79 Q273 65 312 55" fill="none" stroke="#174f92" stroke-width="3"/><path d="M230 107 Q271 117 273 132 Q273 117 312 107" fill="none" stroke="#174f92" stroke-width="3"/><path d="M273 114V23 M264 35 L273 23 L282 35" stroke="#1463bd" fill="none" stroke-width="5" stroke-linecap="round"/><g stroke="#e38c38" stroke-width="4" stroke-linecap="round"><path d="M172 80H222 M213 71 L222 80 L213 89"/><path d="M371 80H318 M327 71 L318 80 L327 89"/></g><g fill="currentColor" font-size="12"><text x="163" y="64">Muscle</text><text x="163" y="104">squeezes</text><text x="378" y="64">Muscle</text><text x="378" y="104">squeezes</text><text x="276" y="13" text-anchor="middle">To heart ↑</text><text x="12" y="149">Valves favour one-way upward movement during compression</text></g></svg><p>Illustration of the principle, not a scale drawing. Valves limit backward flow when muscle pressure is released.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="muscle-pump" data-desc="sr"><figcaption>Muscle pump</figcaption><p>Shown with the original static diagram behind the Diagram | Interactive switch. A leg vein between two calf muscles, with a valve above and below. Squeeze shows the muscles pressing in, the lower valve shut, the upper valve open and blood moving up. Relax shows the muscles easing, the lower valve open (refilling from below) and the upper valve shut (no backflow). Play alternates them. A Stand still toggle stops the pump and shows blood pooling in a swollen lower vein, with the line "Less blood returns → less filling → lower stroke volume".</p></figure>
+</div>
 
-Repeated **calf contractions, toe raises or marching in place** compress veins and improve return. This is the physiological reason that standing at attention can be more difficult than walking or subtly contracting the leg muscles.
+**Why do soldiers faint on parade?** Standing still, gravity pools blood in the leg veins and **the muscle pump isn't working**. Less blood returns, so filling and stroke volume fall, blood pressure drops and the brain gets less blood. Gently tensing the calves or rising on the toes keeps the pump going. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
 
 ## 5. How does breathing help venous return?
 
-During normal spontaneous **inspiration**, intrathoracic pressure becomes more negative. The thoracic venous/atrial pressure may decrease, promoting return from extrathoracic veins to the right side of the heart.
+**Breathing in** does two things at once:
 
-The **diaphragm** also changes abdominal pressure, helping generate a pressure gradient along the venae cavae. The effect varies with posture, volume status and the breathing pattern.
+- The chest expands, so **pressure inside the chest falls**. The veins in the chest and the right atrium are pulled open, and blood is drawn in from the veins outside the chest.
+- The diaphragm moves down and **raises pressure in the abdomen**, squeezing blood up from the abdominal veins.
 
-**Important qualification:** Positive-pressure ventilation can change these dynamics; “inspiration always increases venous return” is too absolute. Also, right-heart filling may increase before a similar effect is transmitted to the left heart.
+Both push blood towards the right heart, so **venous return rises during inspiration**. This is the respiratory pump. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
 
-The lecture also mentions arterial pulsation compressing adjacent veins, which can assist movement locally.
+**On a ventilator it reverses.** A ventilator pushes air in, so chest pressure **rises** on inspiration and venous return falls.
+
+The lecture also notes that **pulsing arteries** next to veins squeeze them slightly with each beat, helping blood along.
+
+**Understanding Check: Sections 4–5**
+
+<p><strong>1.</strong> When the calf muscle contracts, why does blood in the deep vein move up rather than down?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Gravity pulls blood upwards during muscle contraction</span><span class="mcq-option" data-option="B">B. The valve below shuts and the valve above opens</span><span class="mcq-option" data-option="C">C. The vein's own muscle pumps blood upwards</span><span class="mcq-option" data-option="D">D. The arteries next to it pull blood up by suction</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> The one-way valves let squeezed blood leave only towards the heart.</p></details>
+
+<p><strong>2.</strong> A soldier stands perfectly still for an hour and faints. What is the main reason?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Blood pools in the leg veins with no muscle pump, so filling falls</span><span class="mcq-option" data-option="B">B. Standing raises blood pressure too high for the brain</span><span class="mcq-option" data-option="C">C. The heart muscle tires from beating while upright</span><span class="mcq-option" data-option="D">D. Breathing stops being able to help venous return</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Pooling lowers venous return, EDV, stroke volume and blood pressure, so the brain is underperfused.</p></details>
+
+<p><strong>3.</strong> How does breathing in help blood return to the heart?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It raises chest pressure and pushes blood into the heart</span><span class="mcq-option" data-option="B">B. It slows the heart, giving more time to fill</span><span class="mcq-option" data-option="C">C. It lowers chest pressure and raises abdominal pressure</span><span class="mcq-option" data-option="D">D. It closes the venous valves in the legs</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Low chest pressure draws blood in, while the diaphragm pushes blood up from the abdomen.</p></details>
 
 ## 6. What does central venous pressure tell us?
 
-**Central venous pressure (CVP)** usually refers to pressure near the right atrium or great thoracic veins. It varies through the cardiac cycle and with respiration, reflecting right-sided filling pressures.
+**<span data-term="cvp">Central venous pressure (CVP)</span>** is the pressure in the large veins next to the right atrium. It is about the same as right atrial pressure, and it is what the JVP shows at the bedside. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
 
-Traditional teaching gives low pressures near the right atrium, including approximately **4.6 mmHg** in its example, but a single absolute value is **not a universal normal**. Actual readings depend on the reference level, respiratory phase, volume status, venous return and right ventricular function.
+It is **low**, only a few mmHg. The lecture's example is about 4.6 mmHg, but the exact value depends on posture, breathing and how it is measured.
 
-**Why can CVP rise when cardiac output falls?** If the right ventricle cannot empty effectively, blood may accumulate upstream and right atrial pressure may increase even while forward flow decreases. CVP is therefore not a direct measurement of circulating blood volume or cardiac output.
+**CVP is not a measure of blood volume.** A high CVP can mean too much fluid, or it can mean the **right ventricle is failing** and blood is backing up behind it, even while cardiac output is low. CVP has to be read together with the rest of the patient.
 
 ## 7. What happens to veins in the head when standing?
 
-Gravity changes venous pressure depending on height relative to the heart. Thin-walled extracranial veins may partially collapse when the surrounding pressure exceeds the pressure inside.
+Above the heart, gravity **lowers** venous pressure. In the neck, the veins can fall below atmospheric pressure. Ordinary neck veins simply **collapse**, which is why they look empty when you stand.
 
-Traditional teaching contrasts these with **dural venous sinuses**, whose walls are held open by dural attachments. If an open sinus is exposed while the internal pressure is below atmospheric pressure, **air may enter the venous circulation**, potentially causing a venous air embolism.
+The **<span data-term="dural-sinus">dural venous sinuses</span>** inside the skull are different: they are held open by tough dura. If one is cut open above heart level, as in a head wound or neurosurgery with the patient sitting, its below-atmospheric pressure can **suck air in**. An air bubble then travels to the heart and lungs: a dangerous **<span data-term="air-embolism">air embolism</span>**.
 
-This is a specific clinical risk of exposed low-pressure noncollapsible veins, not evidence that blood normally flows backwards from the brain to the heart.
+**Understanding Check: Sections 6–7**
 
+<p><strong>1.</strong> A patient has a high CVP. Which conclusion is safest?<span class="mcq-options"><span class="mcq-option" data-option="A">A. They definitely have too much fluid in their circulation</span><span class="mcq-option" data-option="B">B. Their cardiac output must be high</span><span class="mcq-option" data-option="C">C. It may be fluid overload or a failing right ventricle</span><span class="mcq-option" data-option="D">D. Their left ventricle must be failing alone</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> CVP reflects both filling and how well the right ventricle empties. It is not a simple blood-volume gauge.</p></details>
 
-## Understanding Check
+<p><strong>2.</strong> Why can an open dural venous sinus draw in air when the head is above the heart?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Its pressure is below atmospheric and its walls can't collapse</span><span class="mcq-option" data-option="B">B. Its pressure is high, so it bursts and draws in air</span><span class="mcq-option" data-option="C">C. The brain pumps air into the venous blood</span><span class="mcq-option" data-option="D">D. Breathing out pushes air into the sinus</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Ordinary veins would collapse at below-atmospheric pressure, but the dura holds the sinus open, so air is sucked in.</p></details>
 
-**1. Why must venous return equal cardiac output in steady state?**
-<details><summary>Reveal explanation</summary><p>The systemic and pulmonary circulations form a closed series circuit. Blood returning to the right heart must eventually be ejected through the pulmonary and systemic circuits. Persistent differences would cause progressive accumulation or depletion of blood in a compartment, so long-term <strong>VR = CO</strong>.</p></details>
+<p><strong>3.</strong> Why do neck veins look empty in someone standing upright?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Gravity drops their pressure below atmospheric, so they collapse</span><span class="mcq-option" data-option="B">B. All the blood is pumped into the arteries</span><span class="mcq-option" data-option="C">C. The valves in the neck veins close</span><span class="mcq-option" data-option="D">D. Their walls tighten and squeeze them shut</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Above the heart, venous pressure falls. Thin neck veins collapse rather than stay open.</p></details>
 
-**2. Why can't a very strong heart maintain normal output during major haemorrhage?**
-<details><summary>Reveal explanation</summary><p>Haemorrhage reduces circulating volume and the pressure driving venous return. The ventricle receives less blood, so <strong>EDV and stroke volume fall</strong>. Increased intrinsic contractility cannot fully compensate for the absence of adequate filling.</p></details>
+## 8. Chapter Essentials
 
-**3. Explain the difference between venous compliance and arteriolar resistance.**
-<details><summary>Reveal explanation</summary><p><strong>Compliance</strong> is volume change per pressure change; veins can store large volumes at low pressure. <strong>Resistance</strong> determines the pressure drop required for a particular blood flow; arterioles change their radius to control organ perfusion. The two vascular properties serve different functions.</p></details>
-
-**4. Why can sympathetic venoconstriction increase venous return even if total blood volume has not changed?**
-<details><summary>Reveal explanation</summary><p>Venoconstriction reduces venous capacitance and mobilises blood stored in peripheral veins. This increases the stressed volume and may increase mean systemic filling pressure, strengthening the gradient towards the right atrium without adding new blood.</p></details>
-
-**5. What does the difference between mean systemic filling pressure and right atrial pressure represent?**
-<details><summary>Reveal explanation</summary><p>It represents a conceptual <strong>pressure gradient driving systemic venous return</strong>. Venous return is greater at the same resistance when that gradient increases. Mean systemic filling pressure is not simply the pressure measured in a peripheral vein during ongoing circulation.</p></details>
-
-**6. Why may a rise in right atrial pressure reduce venous return if upstream filling pressure remains fixed?**
-<details><summary>Reveal explanation</summary><p>The pressure difference moving blood towards the right atrium becomes smaller. From the simplified relation VR = (Pmsf − PRA)/RVR, a higher downstream right atrial pressure reduces the gradient. Severe rises may reflect right-heart pumping failure as well.</p></details>
-
-**7. Why does subtle calf contraction help someone who is standing still for a long time?**
-<details><summary>Reveal explanation</summary><p>Standing promotes gravitational pooling in leg veins, which can reduce venous return and EDV. Calf contractions compress the veins while one-way valves favour upward flow. This mobilises pooled blood towards the heart, improving preload and helping prevent faintness.</p></details>
-
-**8. How does inspiration ordinarily support right-heart filling?**
-<details><summary>Reveal explanation</summary><p>Spontaneous inspiration lowers intrathoracic pressure, while abdominal and thoracic pressure changes favour movement of blood towards the chest. This can increase systemic venous return to the right heart. Positive-pressure ventilation or unusual pressures may change the effect.</p></details>
-
-**9. Does an elevated CVP always mean the patient has excess circulating blood volume?**
-<details><summary>Reveal explanation</summary><p><strong>No.</strong> CVP measures pressure near the right atrium and also depends on ventricular function, intrathoracic pressure and venous tone. Right-heart dysfunction can elevate CVP through upstream congestion despite inadequate forward flow, so CVP is not simply a blood-volume gauge.</p></details>
-
-**10. Why can the left ventricular stroke volume change after, rather than exactly when, venous return to the right atrium increases?**
-<details><summary>Reveal explanation</summary><p>New venous return first enters the right atrium and ventricle, then passes through the pulmonary circulation before reaching the left heart. The right-heart filling response therefore precedes the corresponding change in left ventricular EDV and ejection.</p></details>
-
-**11. Why can a dural venous sinus admit air when opened above heart level?**
-<details><summary>Reveal explanation</summary><p>Pressure may become subatmospheric in veins above the heart. Ordinary thin-walled veins can collapse, but dural sinuses are held open by surrounding tissue. If such a sinus is cut while internal pressure is below atmospheric pressure, air may be drawn into it, causing a dangerous venous air embolism.</p></details>
-
-**12. Why might a person feel faint after suddenly standing, even with a normal heart?**
-<details><summary>Reveal explanation</summary><p>Gravity temporarily shifts blood into dependent veins. Reduced immediate venous return lowers preload, stroke volume and sometimes arterial pressure until autonomic reflexes and muscle pumping compensate. This is a filling and circulation problem, not proof that the heart muscle is intrinsically weak.</p></details>
-
-## Chapter Essentials
-
-1. **Venous return:** Blood reaching the right atrium per minute; it equals cardiac output at steady state.
-2. **Veins:** High-compliance capacitance reservoirs, unlike resistance-regulating arterioles.
-3. **Venous tone:** Sympathetic venoconstriction can mobilise stored blood and increase central filling.
-4. **Pressure gradient:** VR ≈ (Pmsf − PRA)/RVR in a simplified model.
-5. **Mean systemic filling pressure:** Conceptual upstream filling pressure, not an ordinary peripheral venous reading.
-6. **Skeletal-muscle pump:** Contracting leg muscles compress veins and valves limit backward flow.
-7. **Standing:** Gravity promotes venous pooling, reducing venous return and potentially stroke volume.
-8. **Respiratory pump:** Spontaneous inspiration usually helps right-heart venous return.
-9. **CVP:** Pressure close to the right atrium; influenced by right-heart function and intrathoracic pressure.
-10. **CVP is not blood volume:** High right atrial pressure can accompany poor forward cardiac output.
-11. **Dural venous sinuses:** Remain open despite subatmospheric pressure, creating an air-embolism risk if exposed.
-12. **Filling and output:** Strong contraction cannot fully compensate for insufficient ventricular filling.
+1. **Venous return** = blood returning to the right atrium per minute. It equals cardiac output over time.
+2. **No filling, no output:** even a strong heart can't pump blood it doesn't receive.
+3. **Veins are capacitance vessels:** stretchy, low-pressure, holding most of the blood.
+4. **Venoconstriction** squeezes the reservoir and raises venous return without adding blood.
+5. **VR = (Pmsf − PRA) ÷ RVR.** More fullness raises return; higher right atrial pressure lowers it.
+6. **Muscle pump:** contracting muscles squeeze deep veins, and one-way valves send blood only towards the heart.
+7. **Standing still** pools blood in the legs and can cause fainting; moving the calves helps.
+8. **Breathing in** lowers chest pressure and raises abdominal pressure, so venous return rises.
+9. **CVP** ≈ right atrial pressure (a few mmHg). High CVP can mean overload or right heart failure.
+10. **Head veins** collapse when you stand; **dural sinuses** can't, so an open sinus above the heart risks air embolism.

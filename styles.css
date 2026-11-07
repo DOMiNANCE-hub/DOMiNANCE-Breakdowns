@@ -669,3 +669,9 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .view-switch-bar button[aria-pressed="true"]{background:var(--navy2);color:var(--sheet);border-color:transparent}
 .view-switch-bar button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .view-switch>[hidden]{display:none!important}
+/* Chapter 12: muscle pump */
+.tw-svg .mp-vein{fill:color-mix(in srgb,var(--w-vol) 35%,var(--sheet));stroke:var(--w-vol);stroke-width:2;transition:all .35s}
+.tw-svg .mp-pool{fill:color-mix(in srgb,var(--w-vol) 60%,var(--sheet))}
+.tw-svg .mp-muscle{fill:color-mix(in srgb,#d9665c 25%,var(--sheet));stroke:#c4554c;stroke-width:2;transition:all .35s}.tw-svg .mp-muscle.is-on{fill:color-mix(in srgb,#d9665c 50%,var(--sheet))}
+.tw-svg .mp-valve{fill:none;stroke:var(--navy);stroke-width:4;stroke-linecap:round}.tw-svg .mp-shut{stroke:var(--w-lv)}
+.tw-svg .mp-arrow{stroke:var(--gold);stroke-width:6;stroke-linecap:round}.tw-svg .mp-head{fill:var(--gold)}
