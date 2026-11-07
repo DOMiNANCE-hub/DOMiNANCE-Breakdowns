@@ -79,8 +79,10 @@
 
 
 /* Shared glossary — subtle in-text triggers, accessible on touch and keyboard. */
+/* The marked word looks and sits exactly the same before and after glossary.js turns it into a button (no layout shift). */
+:is(.article-text,.cs-body) span[data-term]{display:inline-block;border-bottom:1.5px dotted var(--blue);padding:0 0 1px;line-height:inherit;text-indent:0}
 :is(.article-text,.cs-body) .glossary-trigger {
-  display:inline;appearance:none;background:none;border:0;border-bottom:1.5px dotted var(--blue);
+  display:inline-block;appearance:none;background:none;border:0;border-bottom:1.5px dotted var(--blue);
   padding:0 0 1px;margin:0;color:inherit;font:inherit;line-height:inherit;cursor:help;
   text-decoration:none;text-align:inherit;vertical-align:baseline;
 }
