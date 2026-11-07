@@ -6,35 +6,34 @@ With each beat, a healthy heart makes two main sounds, heard through a stethosco
 
 | Sound | Valves that shut | When it happens |
 | --- | --- | --- |
-| **<span data-term="s1">S1</span>, "lub"** | **Mitral** and **tricuspid**, the inlet valves between the atria and the ventricles | As the ventricles start to contract |
-| **<span data-term="s2">S2</span>, "dub"** | **Aortic** and **pulmonary**, the outlet valves into the aorta and the pulmonary artery | As the ventricles stop ejecting and start to relax |
+| **S1, "lub"** | **Mitral** and **tricuspid**, the inlet valves between the atria and the ventricles | As the ventricles start to contract |
+| **S2, "dub"** | **Aortic** and **pulmonary**, the outlet valves into the aorta and the pulmonary artery | As the ventricles stop ejecting and start to relax |
 
 **Why does a shutting valve make a sound?** The lecture puts it simply: the sounds are made by the valves closing. But what you hear is not the leaflets clapping together. When a valve snaps shut, the blood moving against it stops suddenly. That sudden stop makes the blood, the tightened valve leaflets and the nearby heart and artery walls vibrate. It's the same reason a water pipe bangs when a tap is turned off quickly. The vibrations travel through the chest wall to the stethoscope.
 
 **Why is there no sound when a valve opens?** A normal valve opens gently as pressure builds behind it, and blood simply starts to flow smoothly. Nothing is stopped suddenly, so there is nothing to hear.
 
-**What the sounds tell you about timing.** S1 marks the start of ventricular contraction, and S2 marks its end. So:
+**What the sounds tell you about timing.** <span data-term="s1">S1</span> marks the start of ventricular contraction, and <span data-term="s2">S2</span> marks its end. So:
 
 - **S1 → S2** is **<span data-term="systole-diastole">ventricular systole</span>**: the ventricles contract and eject.
 - **S2 → next S1** is **ventricular diastole**: the ventricles relax and fill.
 
-At a resting heart rate, diastole is the longer phase. So the silence after "dub" is longer than the gap between "lub" and "dub". That is how you tell S1 from S2 when listening. At fast heart rates the two gaps become similar, so clinicians feel the carotid pulse while listening: the pulse comes just after S1. *(<a href="#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing">→ Cardiac Cycle, §1</a>)*
+At a resting heart rate, diastole is the longer phase. So the silence after "dub" is longer than the gap between "lub" and "dub". That is how you tell S1 from S2 when listening. At fast heart rates the two gaps become similar, so clinicians feel the carotid pulse while listening: the pulse comes just after S1. *(<a href="#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing">→ Cardiac Cycle, §1</a>)*
 
-<figure class="learning-figure teaching-widget" data-widget="heart-sound-timeline"><figcaption>Watch and listen to one heartbeat</figcaption><p>A marker moves across one heartbeat. At S1 the mitral and tricuspid valves light up as they shut; at S2 the aortic and pulmonary valves light up. The span from S1 to S2 is ventricular systole; the longer span after S2 is ventricular diastole. Play gives a lub-dub in time with the marker, and a heart-rate control (60–150 beats/min) shows diastole shrinking much more than systole as the rate rises. Schematic sounds and timings, not a recording.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="heart-sound-timeline" data-desc="sr"><figcaption>Watch and listen to one heartbeat</figcaption><p>A marker moves across one heartbeat. At S1 the mitral and tricuspid valves light up as they shut; at S2 the aortic and pulmonary valves light up. The span from S1 to S2 is ventricular systole; the longer span after S2 is ventricular diastole. Play gives a lub-dub in time with the marker, and a heart-rate control (60–150 beats/min) shows diastole shrinking much more than systole as the rate rises. Schematic sounds and timings, not a recording.</p></figure>
 
 **Hear a real heart.** Listen for lub, dub, then the longer pause.
 
 <div class="media-resource audio-resource" data-audio-src="https://upload.wikimedia.org/wikipedia/commons/d/d3/HROgg_Louder.ogg" data-audio-mp3="https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/HROgg_Louder.ogg/HROgg_Louder.ogg.mp3" data-media-title="Amplified normal heart sounds at approximately 70 beats per minute"><span class="media-eyebrow">REAL HEART · AMPLIFIED RECORDING · ABOUT 19 SECONDS</span><h3>Normal S1–S2 sequence</h3><p>A real chest, recorded through a stethoscope. Headphones work best.</p><button type="button" class="media-play" data-media-action="play-audio" aria-expanded="false">Listen</button> <a class="media-outlink" href="https://commons.wikimedia.org/wiki/File:HROgg_Louder.ogg" target="_blank" rel="noopener noreferrer">Open on Wikimedia Commons</a><div class="media-stage"></div><p class="media-credit">Original recording: James Heilman, MD (<a href="https://commons.wikimedia.org/wiki/File:HROgg.ogg" target="_blank" rel="noopener noreferrer">CC0</a>); amplified version: Natural Philo (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>).</p></div>
 
-<p class="related-links"><strong>Related:</strong> the valve rule → <a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">Cardiac Cycle, §2</a></p>
 
 ## 2. Why does S1 occur before S2?
 
-Both sounds follow the valve rule from Chapter 4. A valve **opens** when the pressure behind it is higher than the pressure in front of it. It **shuts** the moment that difference reverses. *(<a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">→ Cardiac Cycle, §2</a>)* Follow one beat. The left and right sides do the same thing at the same time; the right side just works at lower pressures.
+Both sounds follow the valve rule from the cardiac cycle. A valve **opens** when the pressure behind it is higher than the pressure in front of it. It **shuts** the moment that difference reverses. *(<a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">→ Cardiac Cycle, §2</a>)* Follow one beat. The left and right sides do the same thing at the same time; the right side just works at lower pressures.
 
-**S1: the inlet valves shut as contraction begins.** The electrical signal spreads through the ventricles (the <span data-term="qrs">QRS complex</span> on the ECG), and the ventricles start to contract. Within moments, pressure in each ventricle rises above the pressure in its atrium. Blood starts to push back towards the atria, and that push snaps the **mitral** and **tricuspid** valves shut: **S1**. The outlet valves are still shut as well, so for a moment the ventricles squeeze with every valve closed. This is <span data-term="isovolumetric">isovolumetric contraction</span>. S1 therefore marks the **start of ventricular systole**. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
+**S1: the inlet valves shut as contraction begins.** The electrical signal spreads through the ventricles (the <span data-term="qrs">QRS complex</span> on the ECG), and the ventricles start to contract. Within moments, pressure in each ventricle rises above the pressure in its atrium. Blood starts to push back towards the atria, and that push snaps the **mitral** and **tricuspid** valves shut: **S1**. The outlet valves are still shut as well, so for a moment the ventricles squeeze with every valve closed. This is <span data-term="isovolumetric">isovolumetric contraction</span>. S1 therefore marks the **start of ventricular systole**. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
 
-**S2: the outlet valves shut as ejection ends.** The ventricles keep ejecting until their force fades. Their pressure then falls below the pressure in the aorta and pulmonary artery. Blood briefly starts to flow back towards the ventricles, and this snaps the **aortic** and **pulmonary** valves shut: **S2**. The ventricles now relax with every valve closed again. This is isovolumetric relaxation. As the lecture puts it, S2 marks the **end of ventricular systole, which is the beginning of diastole**. *(<a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">→ Cardiac Cycle, §6</a>)*
+**S2: the outlet valves shut as ejection ends.** The ventricles keep ejecting until their force fades. Their pressure then falls below the pressure in the aorta and pulmonary artery. Blood briefly starts to flow back towards the ventricles, and this snaps the **aortic** and **pulmonary** valves shut: **S2**. The ventricles now relax with every valve closed again. This is isovolumetric relaxation. As the lecture puts it, S2 marks the **end of ventricular systole, which is the beginning of diastole**. *(<a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">→ Cardiac Cycle, §6</a>)*
 
 In one line: **S1 is when the ventricle overtakes the atrium; S2 is when the artery overtakes the ventricle.**
 
@@ -42,11 +41,11 @@ In one line: **S1 is when the ventricle overtakes the atrium; S2 is when the art
 
 **Do both valves in a pair shut at exactly the same moment?** Almost, but not quite. The lecture says they close at about the same time. For S1 the gap is too small to hear, so S1 sounds single. For S2 the gap can widen enough to hear as two parts. That is S2 splitting, the subject of the next section.
 
-<p class="related-links"><strong>Related:</strong> where S1 and S2 sit on the full timeline → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
+<p class="related-links"><strong>Related:</strong> where S1 and S2 sit on the full timeline → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
 
 ## 3. Why does S2 sometimes split with inspiration?
 
-**Why S2 has two parts.** S2 is made of **A2** (aortic closure) and **P2** (pulmonary closure). A2 normally comes first. During **expiration** they are close together and often sound single. During **inspiration**, P2 moves later and the gap widens: **<span data-term="s2-splitting">physiological splitting of S2</span>**. Two effects delay P2:
+**Why S2 has two parts.** S2 is made of **A2** (aortic closure) and **P2** (pulmonary closure). A2 normally comes first. During **expiration** they are close together and often sound single. During **inspiration**, P2 moves later and the gap widens: **physiological splitting of S2**. Two effects delay P2:
 
 1. **More right-heart filling.** Inspiration makes chest pressure more negative, drawing more venous blood into the right heart. The right ventricle fills more and takes longer to eject.
 2. **Lower pulmonary impedance.** The expanding lungs lower the <span data-term="pulmonary-impedance">impedance</span> (opposition to flow) of the pulmonary vessels. Blood keeps flowing forward into the pulmonary artery for longer after right ventricular pressure peaks, so the pulmonary valve closes later.
@@ -59,7 +58,7 @@ These two effects are what the lecture means by "venous return" and "reduces pul
 
 **Where and how to hear it.** P2 is a soft sound, so listen at the **pulmonary area**: the second left intercostal space, beside the sternum (see <a href="#/physiology/cvs/heart-sounds?section=8-where-do-we-listen-to-each-heart-valve">§8</a>). Ask the person to breathe slowly. On a breath in, the single "dub" becomes a quick "da-dub". On a breath out, it merges back into one.
 
-<figure class="learning-figure teaching-widget" data-widget="s2-timing"><figcaption>Why S2 splits on inspiration</figcaption><p>Two timelines. In expiration, A2 (aortic valve closing) and P2 (pulmonary valve closing) are almost together. In inspiration, A2 comes slightly earlier and P2 clearly later, so the gap widens. Schematic, not to scale.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="s2-timing" data-desc="sr"><figcaption>Why S2 splits on inspiration</figcaption><p>Two timelines. In expiration, A2 (aortic valve closing) and P2 (pulmonary valve closing) are almost together. In inspiration, A2 comes slightly earlier and P2 clearly later, so the gap widens. Schematic, not to scale.</p></figure>
 
 **Hear it.** A simulator recording at the pulmonary area. The simulator breathes quickly, so S2 changes from one sound to two and back every few beats. Listen for the "dub" becoming a short "da-dub". *(Recording: University of Michigan Heart Sound and Murmur Library, "split S2, transient", CC BY-SA 4.0. Headphones recommended.)*
 
@@ -67,7 +66,7 @@ These two effects are what the lecture means by "venous return" and "reduces pul
 
 <aside class="source-note"><strong>Source note:</strong> The lecture says the aortic and pulmonary valves close "at the same time" in expiration. In practice a small gap remains but is usually too short to hear; the teaching point is the widening on inspiration. Mechanism 2 corresponds to the lecture's "decrease in the impedance of the pulmonary vasculature". The lecture also lists "contracting lungs exert a force on the vessels"; this is not a standard explanation of splitting, so we have not taught it.</aside>
 
-<p class="related-links"><strong>Related:</strong> the full timing picture → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · breathing and <span data-term="venous-return">venous return</span> → <a href="#/physiology/cvs/venous-return?section=5-how-does-breathing-help-venous-return">Veins and Venous Return, §5</a></p>
+<p class="related-links"><strong>Related:</strong> the full timing picture → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · breathing and <span data-term="venous-return">venous return</span> → <a href="#/physiology/cvs/venous-return?section=5-how-does-breathing-help-venous-return">Venous Return, §5</a></p>
 
 **Understanding Check: Sections 1–3**
 
@@ -84,18 +83,18 @@ These two effects are what the lecture means by "venous return" and "reduces pul
 
 S1 and S2 are valves shutting. S3 and S4 are different: no valve shuts. They are **filling sounds**, made in diastole as blood rushes into the ventricle and is then suddenly slowed. The lecture says the same: both are due to ventricular filling. What separates them is **what drives the rush**, and that puts them at opposite ends of diastole.
 
-Recall how a ventricle fills *(<a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">→ Cardiac Cycle, §3</a>)*:
+Recall how a ventricle fills *(<a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">→ Cardiac Cycle, §3</a>)*:
 
 - **Rapid filling.** The mitral and tricuspid valves open, and blood stored in the atria pours into the ventricles.
-- **<span data-term="diastasis">Diastasis</span>.** Filling slows to a trickle.
-- **<span data-term="atrial-kick">Atrial kick</span>.** The atria contract and push in the last portion of blood.
+- **Diastasis.** Filling slows to a trickle.
+- **Atrial kick.** The atria contract and push in the last portion of blood.
 
 **S3: at the end of rapid filling, early in diastole.** About 0.1–0.2 s after S2, the rush of early filling reaches the limit of how far the ventricle wall will easily stretch. The inflowing blood is suddenly slowed, and the ventricle wall and blood vibrate. The result is a low, dull sound just after S2: **"lub-dub-dum"**. Many students remember the rhythm as *Ken-TUC-ky*.
 
 - **When it is normal:** in children, young adults, athletes and pregnant women. Their ventricles relax quickly and fill very fast.
-- **When it suggests a problem:** with age, early filling normally slows and S3 disappears. In an older adult, an S3 usually means the ventricle is being overfilled or is enlarged and failing. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
+- **When it suggests a problem:** with age, early filling normally slows and S3 disappears. In an older adult, an S3 usually means the ventricle is being overfilled or is enlarged and failing. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
 
-**S4: during the atrial kick, late in diastole.** Just before S1, the atria contract and push their blood into the ventricles. If the ventricle is **stiff**, for example thickened, it resists this final push. The blood is stopped abruptly and the wall vibrates. The result is a low sound just before S1: **"da-lub-dub"**, or *TEN-nes-see*.
+**S4: during the <span data-term="atrial-kick">atrial kick</span>, late in diastole.** Just before S1, the atria contract and push their blood into the ventricles. If the ventricle is **stiff**, for example thickened, it resists this final push. The blood is stopped abruptly and the wall vibrates. The result is a low sound just before S1: **"da-lub-dub"**, or *TEN-nes-see*.
 
 - **It depends entirely on atrial contraction.** It comes just after the <span data-term="p-wave">P wave</span> and goes with the <span data-term="a-wave">a wave</span> in the atria. So it is **absent in atrial fibrillation**, where the atria quiver instead of contracting together.
 - **When it suggests a problem:** an S4 you can actually hear with a stethoscope in an adult usually means a stiff ventricle.
@@ -111,11 +110,11 @@ Recall how a ventricle fills *(<a href="#/physiology/cvs/cardiac-cycle?section=3
 
 **How to listen.** Both are very low-pitched. Use the **bell** of the stethoscope, pressed lightly, at the **apex**, with the person turned onto their **left side**. This brings the apex closer to the chest wall.
 
-<figure class="learning-figure teaching-widget" data-widget="filling-sounds"><figcaption>Where S3 and S4 sit in filling</figcaption><p>Ventricular volume through one diastole: a steep rise (rapid filling), a flat stretch (diastasis), then a small final rise (atrial kick). S3 is marked where the steep rise suddenly levels off; S4 is marked on the atrial kick; S2 and the next S1 are marked at either end. Hear S3 and Hear S4 play the matching recording while the marker lights up. Recordings: University of Michigan Heart Sound and Murmur Library, CC BY-SA 4.0. Headphones recommended.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="filling-sounds" data-desc="sr"><figcaption>Where S3 and S4 sit in filling</figcaption><p>Ventricular volume through one diastole: a steep rise (rapid filling), a flat stretch (diastasis), then a small final rise (atrial kick). S3 is marked where the steep rise suddenly levels off; S4 is marked on the atrial kick; S2 and the next S1 are marked at either end. Hear S3 and Hear S4 play the matching recording while the marker lights up. Recordings: University of Michigan Heart Sound and Murmur Library, CC BY-SA 4.0. Headphones recommended.</p></figure>
 
 <aside class="source-note"><strong>Source note:</strong> The lecture lists both S3 and S4 as normal sounds due to rapid ventricular filling. We agree that both are filling sounds. Standard physiology texts (e.g. Guyton and Hall) separate them by cause: S3 comes from rapid passive filling, S4 from atrial contraction. They also note that S3 is often normal in young people, while an audible S4 in an adult usually points to a stiff ventricle. We teach that distinction because it explains why S4 disappears in atrial fibrillation.</aside>
 
-<p class="related-links"><strong>Related:</strong> the filling phases → <a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">Cardiac Cycle, §3</a> · S3 and S4 on the <span data-term="wiggers">Wiggers diagram</span> → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
+<p class="related-links"><strong>Related:</strong> S3 and S4 on the <span data-term="wiggers">Wiggers diagram</span> → <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Cardiac Cycle, §9</a></p>
 
 ## 5. Why do heart sounds change in loudness?
 
@@ -127,7 +126,7 @@ Each sound is made by a valve snapping shut. So anything that makes the snap **h
 - **Fast heart rate → loud S1.** Diastole is short, so the ventricles contract while blood is still rushing in and the cusps are still wide apart. Rising ventricular pressure slams them shut from fully open.
 - **A stronger contraction also gives a louder S1**, for example during exercise. Ventricular pressure rises faster, so the cusps are driven shut harder.
 
-<figure class="learning-figure teaching-widget" data-widget="s1-loudness"><figcaption>Why a slow heart has a soft S1</figcaption><p>Two panels of the mitral valve at the instant the ventricle starts to contract. Slow heart: the cusps are already close together and travel a short distance (soft S1). Fast heart: the cusps are still wide open and travel a long distance (loud S1). Play animates both closing at the same moment, with a quiet and a loud lub. Schematic.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="s1-loudness" data-desc="sr"><figcaption>Why a slow heart has a soft S1</figcaption><p>Two panels of the mitral valve at the instant the ventricle starts to contract. Slow heart: the cusps are already close together and travel a short distance (soft S1). Fast heart: the cusps are still wide open and travel a long distance (loud S1). Play animates both closing at the same moment, with a quiet and a loud lub. Schematic.</p></figure>
 
 **S2 depends on the pressure in the artery behind the valve.** The aortic and pulmonary valves are pushed shut by the pressure in the aorta and pulmonary artery. The higher that pressure, the harder and quicker the valve is driven shut. This is the lecture's "brisk closure".
 
@@ -136,7 +135,7 @@ Each sound is made by a valve snapping shut. So anything that makes the snap **h
 
 **What a stethoscope picks up also depends on the route to the chest wall.** Sounds are quieter through a thick chest wall, fluid around the heart, or over-inflated lungs. A badly damaged, stiff valve may also barely move, so its closing sound becomes softer even though the disease is severe. So **loudness alone never tells you how serious a problem is**. It is one clue to put alongside timing and where the sound is heard.
 
-<p class="related-links"><strong>Related:</strong> heart rate and the length of diastole → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · contractility → <a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">Cardiac Output, §7</a></p>
+<p class="related-links"><strong>Related:</strong> heart rate and the length of diastole → <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Cardiac Cycle, §10</a> · contractility → <a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">Cardiac Output, §7</a></p>
 
 **Understanding Check: Sections 4–5**
 
@@ -154,11 +153,11 @@ Each sound is made by a valve snapping shut. So anything that makes the snap **h
 
 ## 6. What makes a murmur?
 
-**Normal blood flow is silent.** Blood normally moves in smooth layers, sliding past one another. This is **<span data-term="laminar-flow">laminar flow</span>**, the lecture's "streamlined" flow. Nothing tumbles or collides, so there is nothing to hear.
+**Normal blood flow is silent.** Blood normally moves in smooth layers, sliding past one another. This is **laminar flow**, the lecture's "streamlined" flow. Nothing tumbles or collides, so there is nothing to hear.
 
-A **murmur** is the sound of blood flow that has become **<span data-term="turbulent-flow">turbulent</span>**: swirling and tumbling instead of sliding in layers. The swirls shake the heart and vessel walls for as long as the turbulence lasts. So a murmur is a longer **whooshing** sound, not a short thud like S1 or S2.
+A **murmur** is the sound of blood flow that has become **turbulent**: swirling and tumbling instead of sliding in layers. The swirls shake the heart and vessel walls for as long as the turbulence lasts. So a murmur is a longer **whooshing** sound, not a short thud like S1 or S2.
 
-**What makes flow turbulent?** Flow tips into turbulence when it is **fast**, when the blood is **thin** (low viscosity), or when it is forced through a **sudden narrowing**. The lecture sums this up with the <span data-term="reynolds">Reynolds number</span>: the higher it is, the more likely turbulence becomes. *(<a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">→ Haemodynamics, §5</a>)*
+**What makes flow <span data-term="turbulent-flow">turbulent</span>?** Flow tips into turbulence when it is **fast**, when the blood is **thin** (low viscosity), or when it is forced through a **sudden narrowing**. The lecture sums this up with the <span data-term="reynolds">Reynolds number</span>: the higher it is, the more likely turbulence becomes. *(<a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">→ Haemodynamics, §5</a>)*
 
 **The heart can make flow turbulent in three ways.** These follow the lecture's list.
 
@@ -166,13 +165,13 @@ A **murmur** is the sound of blood flow that has become **<span data-term="turbu
 2. **A leaking valve (<span data-term="regurgitation">regurgitation</span>, the lecture's "incompetence").** When the valve should be shut, it does not close fully. Blood is driven **backwards** through the gap as a fast jet. This is the lecture's "backflow".
 3. **Fast flow through normal valves (a "hyperdynamic" circulation).** The valves are healthy, but blood moves fast enough, or is thin enough, to become turbulent anyway. The lecture's example is **anaemia**, where thin blood and a raised cardiac output combine. Exercise, fever and pregnancy can do the same. These **flow murmurs** do not mean the valves are damaged.
 
-<figure class="learning-figure teaching-widget" data-widget="murmur-figure"><figcaption>Three ways to make a murmur</figcaption><p>Four panels. Normal: a fully open valve with smooth, parallel arrows (laminar: silent). Stenosis: a narrowed opening with a fast jet that breaks into swirls beyond it (forward jet). Regurgitation: a valve that should be shut, with a thin jet leaking backwards into swirls (backward jet). High flow: a normal open valve with many long, fast arrows becoming swirls (normal valve, fast flow). In every murmur there is turbulence somewhere; the questions are where it is and which way the blood is going.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="murmur-figure" data-desc="sr"><figcaption>Three ways to make a murmur</figcaption><p>Four panels. Normal: a fully open valve with smooth, parallel arrows (laminar: silent). Stenosis: a narrowed opening with a fast jet that breaks into swirls beyond it (forward jet). Regurgitation: a valve that should be shut, with a thin jet leaking backwards into swirls (backward jet). High flow: a normal open valve with many long, fast arrows becoming swirls (normal valve, fast flow). In every murmur there is turbulence somewhere; the questions are where it is and which way the blood is going.</p></figure>
 
 **The key question for any murmur:** which way is the abnormal blood flowing, and is that happening in systole or diastole? That decides when you hear it, which is the subject of <a href="#/physiology/cvs/heart-sounds?section=7-predict-a-murmur-s-timing-without-memorising-a-list">§7</a>.
 
 **Murmur or <span data-term="bruit">bruit</span>?** Both come from the same mechanism. A murmur is heard over the heart; a bruit is heard over a blood vessel (<a href="#/physiology/cvs/heart-sounds?section=9-why-can-bruits-or-murmurs-arise-elsewhere">§9</a>).
 
-<p class="related-links"><strong>Related:</strong> laminar flow, turbulence and the Reynolds number → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · anaemia and viscosity → <a href="#/physiology/cvs/hemodynamics?section=7-viscosity-haematocrit-and-blood-cells">Haemodynamics, §7</a></p>
+<p class="related-links"><strong>Related:</strong> anaemia and viscosity → <a href="#/physiology/cvs/hemodynamics?section=7-viscosity-haematocrit-and-blood-cells">Haemodynamics, §7</a></p>
 
 ## 7. Predict a murmur's timing without memorising a list
 
@@ -204,7 +203,7 @@ For any faulty valve, ask one question: **when is the faulty valve supposed to b
 
 The pattern is a cross: each lesion falls in the opposite phase to its partner. You never need to memorise it. If you forget, ask the question again.
 
-<figure class="learning-figure teaching-widget" data-widget="murmur-predictor"><figcaption>Murmur predictor</figcaption><p>Pick a valve (aortic, pulmonary, mitral, tricuspid) and a fault (narrowed or leaking). The tool then shows, one step at a time, when that valve should be open or shut, which way the abnormal jet flows, the phase on an S1–S2–S1 timeline, and the answer: systolic or diastolic. Hear an example plays a recording typical of that lesion where one exists. Recordings: University of Michigan Heart Sound and Murmur Library, CC BY-SA 4.0.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="murmur-predictor" data-desc="sr"><figcaption>Murmur predictor</figcaption><p>Pick a valve (aortic, pulmonary, mitral, tricuspid) and a fault (narrowed or leaking). The tool then shows, one step at a time, when that valve should be open or shut, which way the abnormal jet flows, the phase on an S1–S2–S1 timeline, and the answer: systolic or diastolic. Hear an example plays a recording typical of that lesion where one exists. Recordings: University of Michigan Heart Sound and Murmur Library, CC BY-SA 4.0.</p></figure>
 
 <div class="media-resource video-resource" data-youtube-id="dBwr2GZCmQM" data-media-title="Heart Sounds and Heart Murmurs — Alila Medical Media"><span class="media-eyebrow">OPTIONAL VIDEO · ABOUT 4 MINUTES</span><h3>Watch it all together</h3><p>Alila Medical Media, <em>Heart Sounds and Heart Murmurs</em>. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=dBwr2GZCmQM" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© Alila Medical Media, shown via YouTube's privacy-enhanced embed. The written explanation above does not depend on this video.</p></div>
 
@@ -268,7 +267,7 @@ Turbulence is not limited to the heart valves. Wherever blood is forced through 
 
 The rule is the same everywhere: **find the pressure difference that drives the abnormal flow, and when it exists.** That tells you when the sound is heard. The PDA murmur is continuous for exactly this reason: the pressure difference between the aorta and pulmonary artery never reverses.
 
-<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=4-what-closes-after-delivery">Fetal Circulation, "What closes after delivery?"</a> · bruits over narrowed arteries → <a href="#/physiology/cvs/hemodynamics?section=5-laminar-flow-turbulence-and-reynolds-number">Haemodynamics, §5</a> · <span data-term="korotkoff">Korotkoff sounds</span> in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
+<p class="related-links"><strong>Related:</strong> the ductus arteriosus and why it should close after birth → <a href="#/physiology/cvs/fetal?section=4-what-closes-after-delivery">Fetal Circulation, §4</a> · <span data-term="korotkoff">Korotkoff sounds</span> in blood-pressure measurement → <a href="#/physiology/cvs/blood-pressure?section=7-how-does-a-cuff-and-stethoscope-reveal-systolic-and-diastolic-pressure">Blood Pressure, §7</a></p>
 
 ## 10. Understanding Check
 

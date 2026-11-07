@@ -20,11 +20,11 @@ In diastole the aortic valve is shut and no blood is being ejected, yet blood ke
 1. **Systole:** blood is ejected faster than it can drain away, so the elastic aorta **stretches**, storing some of the energy.
 2. **Diastole:** the aorta **springs back**, pushing the stored blood onwards.
 
-<figure class="learning-figure bp-windkessel-figure"><figcaption>Figure 1. Windkessel mechanism — elastic arterial energy storage and recoil</figcaption><svg viewBox="0 0 560 168" role="img" aria-label="Two original arterial diagrams: during systole the large artery widens as blood enters and the wall expands; during diastole the artery recoils and sustains forward flow with the aortic valve closed."><g fill="currentColor" font-size="13" font-weight="800"><text x="15" y="21">Systole</text><text x="15" y="105">Diastole</text></g><g stroke="#bd515a" stroke-width="3" fill="#fce1e0"><path d="M124 42 C200 23 290 23 357 42 L475 42 L475 81 L357 81 C290 100 200 100 124 81 Z"/><path d="M124 118 C219 112 290 112 357 118 L475 118 L475 143 L357 143 C290 149 219 149 124 143 Z"/></g><g stroke="#2162be" stroke-width="4" stroke-linecap="round"><path d="M147 60H447m-13 -8 13 8 -13 8" fill="none"/><path d="M147 131H447m-13 -8 13 8 -13 8" fill="none"/></g><g fill="currentColor" font-size="11.5"><text x="488" y="64">Flow →</text><text x="488" y="137">Flow →</text><text x="213" y="34">Artery expands</text><text x="213" y="160">Artery recoils</text></g></svg><p>Original schematic showing that arterial elasticity converts intermittent ventricular ejection into a more continuous downstream flow. Not drawn to scale.</p></figure>
+<figure class="learning-figure bp-windkessel-figure dg-figure"><figcaption>Figure 1. Windkessel mechanism — elastic arterial energy storage and recoil</figcaption><svg viewBox="0 0 360 392" role="img" aria-label="Two panels. Systole: the aortic valve is open, the left ventricle ejects and the aorta stretches outwards, storing energy. Diastole: the aortic valve is shut, the aortic wall recoils inwards and keeps blood flowing forward."><defs><marker id="wk-m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head"/></marker><marker id="wk-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-blue"/></marker><marker id="wk-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-red"/></marker><marker id="wk-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-gold"/></marker></defs><text x="10" y="22" class="dg-h">Systole: aortic valve open</text><rect x="10" y="40" width="70" height="70" rx="14" class="dg-blue"/><text x="45" y="80" class="dg-b" text-anchor="middle">LV</text><path d="M84 60l12-9M84 90l12 9" class="dg-valve-open"/><path d="M96 58C150 30 290 30 350 56V94C290 120 150 120 96 92Z" class="dg-red-soft"/><path d="M104 75H334" class="dg-flow" marker-end="url(#wk-b)"/><path d="M222 44V22" class="dg-push" marker-end="url(#wk-m)"/><path d="M222 106V128" class="dg-push" marker-end="url(#wk-m)"/><text x="10" y="148" class="dg-s">Blood is ejected faster than it can</text><text x="10" y="166" class="dg-s">run off, so the aorta stretches and</text><text x="10" y="184" class="dg-s">stores energy in its elastic wall.</text><text x="10" y="222" class="dg-h">Diastole: aortic valve shut</text><rect x="10" y="240" width="70" height="70" rx="14" class="dg-blue"/><text x="45" y="280" class="dg-b" text-anchor="middle">LV</text><path d="M89 256V294" class="dg-valve-shut"/><path d="M96 258C150 268 290 268 350 258V292C290 282 150 282 96 292Z" class="dg-red-soft"/><path d="M110 275H334" class="dg-flow" marker-end="url(#wk-b)"/><path d="M222 234V258" class="dg-push" marker-end="url(#wk-m)"/><path d="M222 318V294" class="dg-push" marker-end="url(#wk-m)"/><text x="10" y="344" class="dg-s">No blood leaves the heart, but the wall</text><text x="10" y="362" class="dg-s">recoils and keeps pushing blood onwards,</text><text x="10" y="380" class="dg-s">so flow continues and pressure falls slowly.</text></svg><p>Original schematic, not to scale. Elastic recoil turns the heart's pulsed output into a steadier flow through the tissues.</p></figure>
 
 So flow is **smooth and continuous** in the tissues even though the heart pumps in spurts. Pressure still falls in diastole; the recoil just slows the fall.
 
-**A stiff aorta can't stretch much.** The same <span data-term="stroke-volume">stroke volume</span> then pushes systolic pressure higher, and with less recoil, diastolic pressure falls lower. That is why older people often have high systolic pressure with a **wide <span data-term="pulse-pressure">pulse pressure</span>**. *(<a href="#/physiology/cvs/pulses?section=1-what-is-an-arterial-pulse">→ Pulses and JVP, §1</a>)*
+**A stiff aorta can't stretch much.** The same <span data-term="stroke-volume">stroke volume</span> then pushes systolic pressure higher, and with less recoil, diastolic pressure falls lower. That is why older people often have high systolic pressure with a **wide <span data-term="pulse-pressure">pulse pressure</span>**. *(<a href="#/physiology/cvs/pulses?section=1-what-is-an-arterial-pulse">→ Pulses and JVP, §1</a>)*
 
 ## 3. Why do systolic and diastolic pressure depend on more than heart rate?
 
@@ -32,11 +32,11 @@ Blood pressure is set by **how much blood the heart pumps** and **how hard it is
 
 <div class="equation-block"><span class="equation-label">Mean pressure and flow</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MAP</mi><mo>−</mo><mi>CVP</mi><mo>≈</mo><mi>CO</mi><mo>×</mo><mi>SVR</mi></math><span class="equation-example">MAP = mean arterial pressure; CVP = central venous pressure; SVR = systemic vascular resistance.</span></div>
 
-Because <span data-term="cvp">CVP</span> is near zero, this is usually written **<span data-term="map">MAP</span> ≈ CO × SVR** (systemic vascular resistance). It is the same rule as Q = ΔP ÷ R, rearranged. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
+Because <span data-term="cvp">CVP</span> is near zero, this is usually written **<span data-term="map">MAP</span> ≈ CO × SVR** (systemic vascular resistance). It is the same rule as Q = ΔP ÷ R, rearranged. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
 
 So pressure rises if **cardiac output** rises or if the **arterioles tighten** (SVR rises). Heart rate alone doesn't tell you what BP will do.
 
-**Blood pressure is not the same as blood flow.** After a bleed, the arterioles tighten hard (high SVR), which can hold BP near normal even while cardiac output, and tissue blood flow, are falling. A normal BP doesn't prove the tissues are getting enough blood. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+**Blood pressure is not the same as blood flow.** After a bleed, the arterioles tighten hard (high SVR), which can hold BP near normal even while cardiac output, and tissue blood flow, are falling. A normal BP doesn't prove the tissues are getting enough blood. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
 **Understanding Check: Sections 1–3**
 
@@ -55,7 +55,7 @@ So pressure rises if **cardiac output** rises or if the **arterioles tighten** (
 
 <div class="equation-block"><span class="equation-label">Pulse pressure</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PP</mi><mo>=</mo><mi>SBP</mi><mo>−</mo><mi>DBP</mi></math><span class="equation-example">For 120/70 mmHg: <strong>PP = 50 mmHg</strong>.</span></div>
 
-It is the size of the pressure rise with each beat, and it is what you feel as the strength of the pulse. *(<a href="#/physiology/cvs/pulses?section=2-what-do-we-assess-when-palpating-a-pulse">→ Pulses and JVP, §2</a>)*
+It is the size of the pressure rise with each beat, and it is what you feel as the strength of the pulse. *(<a href="#/physiology/cvs/pulses?section=2-what-do-we-assess-when-palpating-a-pulse">→ Pulses and JVP, §2</a>)*
 
 Two things widen it:
 
@@ -78,7 +78,7 @@ So a wide pulse pressure doesn't by itself prove a big stroke volume. It may be 
 
 ## 6. Why does measured BP depend on whether the arm is above or below the heart?
 
-Blood is a column of fluid, so **gravity adds pressure below the heart and takes it away above**. For blood, the change is about **0.77 mmHg per centimetre** of height. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
+Blood is a column of fluid, so **gravity adds pressure below the heart and takes it away above**. For blood, the change is about **0.77 mmHg per centimetre** of height. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
 
 <div class="equation-block"><span class="equation-label">Hydrostatic pressure change</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Δ</mi><mi>P</mi><mo>=</mo><mi>ρ</mi><mi>g</mi><mi>h</mi></math><span class="equation-example">ρ = fluid density; g = gravitational acceleration; h = vertical height difference.</span></div>
 
@@ -121,7 +121,7 @@ The cuff squeezes the brachial artery in the upper arm. A stethoscope over the a
 
 <figure class="learning-figure teaching-widget" data-widget="cuff-simulator" data-desc="sr"><figcaption>Cuff simulator</figcaption><p>A patient with BP 120/70 at 70 beats/min. Press Deflate, or drag the cuff gauge, to lower cuff pressure from 160 to 50 mmHg at about 2–3 mmHg per beat. A drawing shows the artery under the cuff shut, spurting open with each beat, or open. Taps play in time with each beat only between 120 and 70 (sound can be switched off). Markers drop at the first tap ("systolic: 120") and the last ("diastolic: 70"), with one line underneath saying which of the four stages you are in.</p></figure>
 
-**These are not the heart sounds.** Korotkoff sounds are made **in the squeezed brachial artery**, not by heart valves. *(<a href="#/physiology/cvs/heart-sounds?section=1-why-does-the-heart-produce-sounds">→ Heart Sounds, §1</a>)*
+**These are not the heart sounds.** Korotkoff sounds are made **in the squeezed brachial artery**, not by heart valves. *(<a href="#/physiology/cvs/heart-sounds?section=1-why-does-the-heart-produce-sounds">→ Heart Sounds, §1</a>)*
 
 ## 8. How should BP actually be measured accurately?
 
@@ -153,7 +153,7 @@ Cuff size goes by **arm circumference**: large arms need large cuffs, and childr
 
 ## 9. Why does pressure decrease as blood travels through the circulation?
 
-Pressure is used up as blood pushes through resistance, just as Q = ΔP ÷ R predicts. The **biggest drop is across the arterioles**, the main resistance vessels. *(<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">→ Haemodynamics, §8</a>)*
+Pressure is used up as blood pushes through resistance, just as Q = ΔP ÷ R predicts. The **biggest drop is across the arterioles**, the main resistance vessels. *(<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">→ Haemodynamics, §8</a>)*
 
 <div class="bp-drop-strip" role="group" aria-label="Main locations of systemic pressure decrease"><span><strong>Aorta / arteries</strong><small>High pressure · strong pulses</small></span><b>→</b><span><strong>Arterioles</strong><small>Large pressure drop</small></span><b>→</b><span><strong>Capillaries / veins</strong><small>Lower pressure · damped pulses</small></span></div>
 

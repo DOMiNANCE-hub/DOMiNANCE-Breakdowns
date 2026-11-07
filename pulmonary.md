@@ -25,7 +25,7 @@ The two sides of the heart are **in series**, so the right ventricle must pump t
 | Pressure at the end of the circuit | Left atrium, about 5 | Right atrium, about 2 |
 | Pressure drop across the circuit | About **10** mmHg | About **90** mmHg |
 
-The same flow is pushed through by a pressure drop about **one-ninth** as large, so **pulmonary resistance is only about one-tenth of systemic resistance**. *(<a href="#/physiology/cvs/hemodynamics">→ Haemodynamics</a>)*
+The same flow is pushed through by a pressure drop about **one-ninth** as large, so **pulmonary resistance is only about one-tenth of systemic resistance**. *(<a href="#/physiology/cvs/hemodynamics">→ Haemodynamics</a>)*
 
 **Why so low?** The pulmonary vessels are **short, wide, thin-walled and stretchy**, and the capillary network is huge, with countless paths in parallel.
 
@@ -38,7 +38,7 @@ Both lower the resistance, so pulmonary flow can rise several-fold while pulmona
 
 ## 3. Why the alveoli stay dry
 
-The alveolar wall must be thin for gas exchange, so the lung can't afford fluid leaking into it. Compare the two main forces across a pulmonary capillary *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*:
+The alveolar wall must be thin for gas exchange, so the lung can't afford fluid leaking into it. Compare the two main forces across a pulmonary capillary *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*:
 
 - **Capillary <span data-term="hydrostatic-pressure">hydrostatic pressure</span>**, pushing fluid out: only about **10 mmHg**.
 - **Plasma <span data-term="oncotic-pressure">oncotic pressure</span>**, pulling fluid in: about **25 mmHg**.
@@ -47,7 +47,7 @@ The outward push is unusually weak. So only a small amount of fluid filters into
 
 <aside class="source-note"><strong>Source note:</strong> The full balance also includes the lung's interstitial forces (a slightly negative interstitial pressure and a fairly high interstitial protein level), which leave a small net outward filtration that the lymphatics clear. The lecture gives the two main values, 10 and 25 mmHg; Guyton and Hall give the full balance.</aside>
 
-**When does this safety margin fail?** In **left heart failure**, left atrial pressure rises and backs up into the pulmonary veins and capillaries. Once capillary hydrostatic pressure climbs past about **25 mmHg**, roughly the plasma oncotic pressure, filtration outruns lymph drainage. Fluid collects first in the interstitium, then floods the alveoli: **<span data-term="pulmonary-oedema">pulmonary oedema</span>**, which thickens the barrier and impairs gas exchange. *(<a href="#/physiology/cvs/heart-failure?section=3-left-versus-right-failure-where-does-the-blood-back-up">→ Heart Failure, §3</a>)*
+**When does this safety margin fail?** In **left heart failure**, left atrial pressure rises and backs up into the pulmonary veins and capillaries. Once capillary hydrostatic pressure climbs past about **25 mmHg**, roughly the plasma oncotic pressure, filtration outruns lymph drainage. Fluid collects first in the interstitium, then floods the alveoli: **pulmonary oedema**, which thickens the barrier and impairs gas exchange. *(<a href="#/physiology/cvs/heart-failure?section=3-left-versus-right-failure-where-does-the-blood-back-up">→ Heart Failure, §3</a>)*
 
 **Understanding Check: Sections 1–3**
 
@@ -62,9 +62,7 @@ The outward push is unusually weak. So only a small amount of fluid filters into
 
 ## 4. Gravity, posture and the lung's blood reservoir
 
-<figure class="learning-figure"><figcaption>How upright lung perfusion changes from apex to base</figcaption><svg viewBox="0 0 630 240" role="img" aria-label="Upright lung outline with apex less perfused than base and conceptual zone 2 and zone 3 relationships, with zone 1 being a possible not normal resting zone"><path d="M205 25C135 35 85 96 91 168C95 202 151 212 230 214V68Z" fill="#e1f2fb" stroke="#5e93ad" stroke-width="3"/><path d="M256 68V214C336 212 392 202 396 168C403 96 352 35 281 25Z" fill="#e1f2fb" stroke="#5e93ad" stroke-width="3"/><g stroke="#7d9cae" stroke-width="2" stroke-dasharray="6 5"><path d="M83 100h320M83 159h320"/></g><g fill="#273d5c" font-size="14"><text x="423" y="65">Apex: less perfusion</text><text x="423" y="119">Zone 2 pattern</text><text x="423" y="179">Zone 3 pattern</text><text x="423" y="216">Base: greater perfusion</text></g><g fill="#28679e"><path d="M120 50v116m-7 -12 7 12 7 -12"/></g></svg><p>Illustrative upright distribution: blood flow generally increases toward dependent bases. Zone 1 (alveolar pressure exceeding arterial pressure) may develop at the apex in low-pressure or positive-pressure ventilation states, but is generally absent in healthy resting lungs. Zone positions shift with conditions.</p></figure>
-
-**Standing up:** the lung apex sits above the heart and the base below it. Gravity adds pressure to the blood in the lower vessels and takes it away from the upper ones. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)* So:
+**Standing up:** the lung apex sits above the heart and the base below it. Gravity adds pressure to the blood in the lower vessels and takes it away from the upper ones. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)* So:
 
 - At the **base**, vascular pressure is higher, more vessels are open and wider, and **blood flow is greatest**.
 - At the **apex**, vascular pressure is lowest and **blood flow is least**.
@@ -79,15 +77,15 @@ The outward push is unusually weak. So only a small amount of fluid filters into
 
 West zones are **pressure relationships**, not fixed stripes of lung. They shift with posture, blood pressure and breathing.
 
-<figure class="learning-figure"><figcaption>Functional West zones of upright lung perfusion</figcaption><svg viewBox="0 0 640 176" role="img" aria-label="Three functional pressure regimes: zone one alveolar pressure exceeds arterial; zone two arterial exceeds alveolar exceeds venous; zone three arterial and venous exceed alveolar"><g text-anchor="middle" fill="#23384f"><rect x="8" y="22" width="195" height="125" rx="12" fill="#fff0e2" stroke="#d99c51"/><rect x="222" y="22" width="195" height="125" rx="12" fill="#edf2ff" stroke="#718dc9"/><rect x="436" y="22" width="195" height="125" rx="12" fill="#e5f4eb" stroke="#65a48d"/><g font-size="18" font-weight="bold"><text x="105" y="50">Zone 1</text><text x="319" y="50">Zone 2</text><text x="533" y="50">Zone 3</text></g><g font-size="17"><text x="105" y="83">PA &gt; Pa &gt; Pv</text><text x="319" y="83">Pa &gt; PA &gt; Pv</text><text x="533" y="83">Pa &gt; Pv &gt; PA</text></g><g font-size="13"><text x="105" y="113">Flow absent / minimal</text><text x="319" y="113">Waterfall flow</text><text x="533" y="113">Continuous flow</text></g></g></svg><p>Original conceptual comparison. PA = alveolar pressure, Pa = pulmonary arterial pressure, Pv = pulmonary venous pressure. Actual zones vary with posture and physiological conditions; zone 1 is ordinarily absent or minimal in healthy resting lungs.</p></figure>
+<figure class="learning-figure dg-figure"><figcaption>West zones in an upright lung</figcaption><svg viewBox="0 0 360 300" role="img" aria-label="An upright lung shaded from pale at the apex to dark at the base, showing blood flow increasing downwards. Zone 1 at the apex: alveolar pressure above arterial and venous, no flow; not present in healthy lungs. Zone 2: arterial above alveolar above venous, flow on and off. Zone 3 at the base: arterial above venous above alveolar, continuous and greatest flow."><defs><clipPath id="wz-lung"><path d="M100 24C52 34 22 110 22 190C22 236 50 266 104 266C140 266 168 254 172 230V40C160 30 128 22 100 24Z"/></clipPath></defs><g clip-path="url(#wz-lung)"><rect x="0" y="0" width="200" height="92" class="dg-zone1"/><rect x="0" y="92" width="200" height="78" class="dg-zone2"/><rect x="0" y="170" width="200" height="110" class="dg-zone3"/></g><path d="M100 24C52 34 22 110 22 190C22 236 50 266 104 266C140 266 168 254 172 230V40C160 30 128 22 100 24Z" class="dg-outline"/><path d="M24 92H350M22 170H350" class="dg-guide"/><text x="184" y="44" class="dg-b">Zone 1 (apex)</text><text x="184" y="62" class="dg-s">PA > Pa > Pv: no flow</text><text x="184" y="80" class="dg-s">Not in healthy lungs</text><text x="184" y="116" class="dg-b">Zone 2</text><text x="184" y="134" class="dg-s">Pa > PA > Pv</text><text x="184" y="152" class="dg-s">Flow on and off</text><text x="184" y="200" class="dg-b">Zone 3 (base)</text><text x="184" y="218" class="dg-s">Pa > Pv > PA</text><text x="184" y="236" class="dg-s">Continuous, greatest</text><text x="184" y="254" class="dg-s">flow</text><text x="10" y="292" class="dg-s">PA alveolar · Pa arterial · Pv venous pressure</text></svg><p>Blood flow increases from apex to base because gravity raises vascular pressure lower in the lung. Zones are pressure relationships, not fixed stripes: they shift with posture, blood pressure and breathing.</p></figure>
 
 **Lying down:** the whole lung is at about the level of the heart, so flow is spread more evenly. And about **400 mL** of blood moves from the body into the lungs. Standing up returns it to the circulation. So the pulmonary vessels act as a **blood reservoir**.
 
-**Why this matters: <span data-term="orthopnoea">orthopnoea</span>.** In left heart failure, the pulmonary capillaries are already near their limit. Lying flat adds that extra blood to the lungs, capillary pressure rises further, and the patient becomes **breathless lying down**. Sitting up moves blood back to the lower body and eases it. *(<a href="#/physiology/cvs/heart-failure?section=3-left-versus-right-failure-where-does-the-blood-back-up">→ Heart Failure, §3</a>)*
+**Why this matters: <span data-term="orthopnoea">orthopnoea</span>.** In left heart failure, the pulmonary capillaries are already near their limit. Lying flat adds that extra blood to the lungs, capillary pressure rises further, and the patient becomes **breathless lying down**. Sitting up moves blood back to the lower body and eases it. *(<a href="#/physiology/cvs/heart-failure?section=3-left-versus-right-failure-where-does-the-blood-back-up">→ Heart Failure, §3</a>)*
 
 ## 5. Low oxygen constricts lung vessels
 
-In most tissues, low oxygen **dilates** the arterioles, bringing in more blood. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)* The lung does the **opposite**:
+In most tissues, low oxygen **dilates** the arterioles, bringing in more blood. *(<a href="#/physiology/cvs/local-regulation">→ Local Control</a>)* The lung does the **opposite**:
 
 **Hypoxic pulmonary vasoconstriction:** when an alveolus has low oxygen, the small pulmonary arteries supplying it **constrict**.
 
@@ -98,7 +96,7 @@ In most tissues, low oxygen **dilates** the arterioles, bringing in more blood. 
 - **One poorly ventilated region** (for example, a blocked airway): blood is redirected, and oxygenation improves.
 - **Every alveolus hypoxic** (high altitude, chronic lung disease): there is nowhere better to send the blood. Constriction everywhere **raises total pulmonary resistance**. If it persists, the result is **pulmonary hypertension**, and the right ventricle strains against it.
 
-**Before birth**, the same response keeps fetal pulmonary resistance high, so blood bypasses the fluid-filled lungs. *(<a href="#/physiology/cvs/fetal?section=1-why-does-the-fetus-need-shortcuts">→ Fetal Circulation, §1</a>)*
+**Before birth**, the same response keeps fetal pulmonary resistance high, so blood bypasses the fluid-filled lungs. *(<a href="#/physiology/cvs/fetal?section=1-why-does-the-fetus-need-shortcuts">→ Fetal Circulation, §1</a>)*
 
 **Nerves and <span data-term="nitric-oxide">nitric oxide</span>:** the pulmonary vessels have an extensive autonomic supply; sympathetic stimulation **constricts** them. **Nitric oxide** from the endothelium **dilates** them.
 

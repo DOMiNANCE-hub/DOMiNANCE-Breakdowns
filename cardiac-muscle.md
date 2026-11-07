@@ -15,9 +15,9 @@ Four features make this chain work in the heart:
 - **Intercalated discs** join the cells, so the signal spreads and the cells pull together (<a href="#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together">§2</a>).
 - **A long action potential with a plateau** lets calcium in and stops the muscle from locking in contraction (<a href="#/physiology/cvs/cardiac-muscle?section=3-the-cardiac-muscle-action-potential">§3</a>, <a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
 - **<span data-term="cicr">Calcium-induced calcium release</span>** links the electrical signal to contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
-- **Many mitochondria** supply a constant stream of ATP. Heart muscle depends almost entirely on aerobic metabolism, so it needs oxygen all the time. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
+- **Many mitochondria** supply a constant stream of ATP. Heart muscle depends almost entirely on aerobic metabolism, so it needs oxygen all the time. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
 
-A few specialised heart cells can fire on their own; this is **<span data-term="automaticity">automaticity</span>**. Ordinary working muscle cells normally don't: they wait to be excited by their neighbours. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
+A few specialised heart cells can fire on their own; this is **automaticity**. Ordinary working muscle cells normally don't: they wait to be excited by their neighbours. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 ## 2. Intercalated discs: how separate cells function together
 
@@ -31,7 +31,7 @@ One heart muscle cell on its own cannot pump blood. Thousands must contract toge
 
 When one cell is excited, current flows through its gap junctions into its neighbours and brings them to threshold. The signal spreads from cell to cell, and the whole chamber contracts almost as one. The other two junctions hold the cells together while they pull.
 
-So heart muscle behaves as a **functional syncytium**: *syn* (together) + *cyt* (cell), meaning separate cells working as one unit. The atria form one syncytium and the ventricles another. Between them lies a ring of fibrous tissue that does not conduct. The only normal electrical route across it is the <span data-term="av-node">AV node</span>, which is why the AV node controls when the ventricles contract after the atria. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
+So heart muscle behaves as a **functional syncytium**: *syn* (together) + *cyt* (cell), meaning separate cells working as one unit. The atria form one syncytium and the ventricles another. Between them lies a ring of fibrous tissue that does not conduct. The only normal electrical route across it is the <span data-term="av-node">AV node</span>, which is why the AV node controls when the ventricles contract after the atria. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-01">
 <a href="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/1020_Cardiac_Muscle.jpg" alt="Branched cardiac muscle fibres and an enlarged intercalated disc showing desmosomes and gap junctions." width="1018" height="476"></a>
@@ -57,14 +57,14 @@ In ventricular muscle, the cell rests at about **−90 mV**. Its action potentia
 1. **It lets calcium in.** The Ca²⁺ entering during the plateau is the trigger for contraction (<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">§4</a>).
 2. **It keeps the cell <span data-term="refractory-period">refractory</span>**, meaning it cannot fire again until its contraction is nearly over. This prevents tetanus (<a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">§6</a>).
 
-**You can see the action potential on the ECG.** The ECG lecture links the flat **ST segment** to the plateau, when all the ventricular muscle is depolarised. The **<span data-term="qt-interval">QT interval</span>** roughly matches how long a ventricular action potential lasts. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
+**You can see the action potential on the ECG.** The ECG lecture links the flat **ST segment** to the plateau, when all the ventricular muscle is depolarised. The **<span data-term="qt-interval">QT interval</span>** roughly matches how long a ventricular action potential lasts. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ ECG, §4</a>)*
 
 <figure class="teaching-illustration" id="cvs02-figure-02">
 <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/26/2026_Action_Potential_Heart_Contraction.jpg" alt="Ventricular action potential and refractory period with a comparison of skeletal and cardiac muscle electrical and mechanical activity." width="1837" height="2019"></a>
 <figcaption><strong>Figure 2. Electrical activity, refractoriness and contraction.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:2026_Action_Potential_Heart_Contraction.jpg" target="_blank" rel="noopener noreferrer">OpenStax College</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a> · unmodified.</span></details></figcaption>
 </figure>
 
-**Important distinction:** this is the action potential of a working ventricular muscle cell. Pacemaker cells in the <span data-term="sa-node">SA node</span> have no steady resting voltage, and their upstroke is driven mainly by Ca²⁺, not by fast Na⁺. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
+**Important distinction:** this is the action potential of a working ventricular muscle cell. Pacemaker cells in the <span data-term="sa-node">SA node</span> have no steady resting voltage, and their upstroke is driven mainly by Ca²⁺, not by fast Na⁺. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 <div class="media-resource video-resource" data-youtube-id="v7Q9BrNfIpQ" data-media-title="Cardiac Action Potential — Alila Medical Media"><span class="media-eyebrow">OPTIONAL NARRATED VIDEO</span><h3>Cardiac Action Potential — Alila Medical Media</h3><p>Revisit the ventricular action potential: identify the fast Na⁺ upstroke, Ca²⁺-dependent plateau and prolonged refractory period. The chapter text above remains the complete explanation.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=v7Q9BrNfIpQ" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© Alila Medical Media. Official YouTube embed; not downloaded or rehosted.</p></div>
 
@@ -158,9 +158,9 @@ Here **cAMP** (cyclic AMP) is a messenger molecule inside the cell. **PKA** (pro
 |---|---|---|---|
 | **Inotropy** | *ino* = fibre | Strength of contraction | Stronger contraction |
 | **Lusitropy** | *lusi* = loosening | Speed of relaxation | Faster relaxation |
-| **<span data-term="chronotropy">Chronotropy</span>** | *chrono* = time | Heart rate | Faster heart rate |
+| **Chronotropy** | *chrono* = time | Heart rate | Faster heart rate |
 
-**Important distinction:** positive inotropy means the muscle contracts more strongly **at the same filling**. A ventricle that contracts harder simply because it holds more blood is showing the Frank–Starling effect, not increased inotropy. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
+**Important distinction:** positive inotropy means the muscle contracts more strongly **at the same filling**. A ventricle that contracts harder simply because it holds more blood is showing the Frank–Starling effect, not increased inotropy. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> The lecture slide says adrenaline comes from sympathetic nerve endings and noradrenaline from the adrenals. It is the other way round: sympathetic nerve endings release mainly noradrenaline, and the adrenal medulla releases mainly adrenaline. Both act on β₁ receptors. The lecture also lists a negative inotropic effect of vagal stimulation; this effect is mainly on the atria.</aside>
 
@@ -170,9 +170,9 @@ Each property of heart muscle supports one part of the pumping cycle:
 
 - **Gap junctions** make each chamber contract as one, giving a strong, coordinated squeeze.
 - **The long refractory period** guarantees that the ventricles relax and refill between beats.
-- **Calcium handling sets the strength of each beat.** More Ca²⁺ means more myosin heads pulling, a stronger contraction and a bigger <span data-term="stroke-volume">stroke volume</span>. *(<a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">→ Cardiac Output, §7</a>)*
-- **Fast relaxation matters most at high heart rates.** Diastole shortens most as the rate rises, so the ventricles must relax quickly to have time to fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">→ Cardiac Cycle, §10</a>)*
-- **Contraction is not the same as ejection.** The ventricles start contracting a moment before blood leaves: pressure must first rise above the pressure in the aorta or pulmonary artery. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
+- **Calcium handling sets the strength of each beat.** More Ca²⁺ means more myosin heads pulling, a stronger contraction and a bigger <span data-term="stroke-volume">stroke volume</span>. *(<a href="#/physiology/cvs/cardiac-output?section=7-what-changes-contractility">→ Cardiac Output, §7</a>)*
+- **Fast relaxation matters most at high heart rates.** Diastole shortens most as the rate rises, so the ventricles must relax quickly to have time to fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">→ Cardiac Cycle, §10</a>)*
+- **Contraction is not the same as ejection.** The ventricles start contracting a moment before blood leaves: pressure must first rise above the pressure in the aorta or pulmonary artery. *(<a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">→ Cardiac Cycle, §4</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> Lecture connection: Circulation 1 (cardiac muscle cannot be tetanised; contractility through β₁ receptors and cAMP; xanthines; vagal effect) and the ECG lecture (ST segment and QT interval). The cellular detail (intercalated discs, phases of the action potential, CICR, SERCA2a and NCX) is standard physiology added as foundation.</aside>
 

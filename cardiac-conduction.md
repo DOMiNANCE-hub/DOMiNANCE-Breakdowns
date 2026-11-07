@@ -9,7 +9,7 @@ Pumping works only if the chambers contract in the right order and at the right 
 
 That gives the heart two electrical jobs: **start each beat**, and **deliver the signal in the right order**. The specialised conducting system does both.
 
-Unlike skeletal muscle, the heart does not need a nerve impulse for every contraction. Specialised heart cells fire on their own; this is **<span data-term="automaticity">automaticity</span>**. The nerves only speed this built-in rhythm up or slow it down (<a href="#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity">§7</a>). As the lecture summarises, depolarisation spreads from the <span data-term="sa-node">SA node</span> to the <span data-term="av-node">AV node</span>, then down the bundle of His to the rest of the heart, and contraction starts after depolarisation.
+Unlike skeletal muscle, the heart does not need a nerve impulse for every contraction. Specialised heart cells fire on their own; this is **automaticity**. The nerves only speed this built-in rhythm up or slow it down (<a href="#/physiology/cvs/cardiac-conduction?section=7-how-does-the-autonomic-nervous-system-influence-pacemaker-activity">§7</a>). As the lecture summarises, depolarisation spreads from the <span data-term="sa-node">SA node</span> to the <span data-term="av-node">AV node</span>, then down the bundle of His to the rest of the heart, and contraction starts after depolarisation.
 
 ## 2. The pathway of cardiac electrical conduction
 
@@ -17,10 +17,10 @@ Unlike skeletal muscle, the heart does not need a nerve impulse for every contra
 
 | Structure | Where it is and what it does |
 |---|---|
-| **<span data-term="sa-node">SA node (sinoatrial node)</span>** | In the wall of the right atrium, where the superior vena cava joins it. Starts each beat. |
+| **SA node (sinoatrial node)** | In the wall of the right atrium, where the superior vena cava joins it. Starts each beat. |
 | **Internodal pathways** | Carry the signal across the right atrium to the AV node. Bachmann's bundle also carries it to the left atrium. |
-| **<span data-term="av-node">AV node (atrioventricular node)</span>** | Low in the right atrium, in the wall between the two atria, just behind the tricuspid valve. Holds the signal back briefly. |
-| **Bundle of His** | Carries the signal from the AV node through the fibrous barrier into the wall between the ventricles. |
+| **AV node (atrioventricular node)** | Low in the right atrium, in the wall between the two atria, just behind the tricuspid valve. Holds the signal back briefly. |
+| **Bundle of His** | Carries the signal from the <span data-term="av-node">AV node</span> through the fibrous barrier into the wall between the ventricles. |
 | **Right and left bundle branches** | Run down each side of the wall between the ventricles. |
 | **Purkinje fibres** | Spread through the inner walls of both ventricles and hand the signal to the muscle. |
 
@@ -89,7 +89,7 @@ The AV node conducts **slowly**. Its cells are small, they have few gap junction
 
 **Why is that delay useful?** It gives the atria time to **finish contracting** before the ventricles start. The <span data-term="atrial-kick">atrial kick</span> pushes the last portion of blood into the ventricles while the mitral and tricuspid valves are still open. Most filling, about 70% in the lecture, has already happened passively; the kick only tops it up.
 
-**You can see the delay on the ECG.** The lecture describes the **<span data-term="pr-interval">PR interval</span>**, normally 0.12–0.20 s, as the time from the start of atrial depolarisation to the start of ventricular depolarisation. Most of that time is the signal crawling through the AV node. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ Electrocardiography, §4</a>)*
+**You can see the delay on the ECG.** The lecture describes the **PR interval**, normally 0.12–0.20 s, as the time from the start of atrial depolarisation to the start of ventricular depolarisation. Most of that time is the signal crawling through the AV node. *(<a href="#/physiology/cvs/ecg?section=4-waves-segments-and-intervals-what-is-the-difference">→ ECG, §4</a>)*
 
 **Why can't the signal simply spread from the atria to the ventricles?** A ring of fibrous tissue between them does not conduct. The AV node and bundle of His are the only normal route across. Because the AV node can only pass impulses so fast, it also protects the ventricles from being driven by a very fast atrial rhythm.
 
@@ -165,7 +165,7 @@ Electrical problems come in two kinds: the pacemaker fails, or the signal is del
 - **Second degree: some impulses don't get through.** Some atrial beats are not followed by a ventricular beat; those beats are "dropped".
 - **Third degree (complete): no impulses get through.** The atria keep beating at the SA node's rate, and the ventricles beat independently at a slow escape rate.
 
-In complete block, the atria sometimes contract while the tricuspid valve is shut. Blood is pushed back into the neck veins, giving the **giant "a" waves** the lecture describes in the <span data-term="jvp">JVP</span>. *(<a href="#/physiology/cvs/pulses">→ Pulses and JVP</a>)*
+In complete block, the atria sometimes contract while the tricuspid valve is shut. Blood is pushed back into the neck veins, giving the **giant "a" waves** the lecture describes in the <span data-term="jvp">JVP</span>. *(<a href="#/physiology/cvs/pulses">→ Pulses and JVP</a>)*
 
 Both kinds of problem reduce pumping: the heart rate may be too slow, and the atria and ventricles no longer work in step.
 

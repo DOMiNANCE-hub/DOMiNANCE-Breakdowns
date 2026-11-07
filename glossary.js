@@ -246,12 +246,15 @@
 
   function place(trigger) {
     if (!trigger || popup.classList.contains('is-sheet')) return;
-    const r = trigger.getBoundingClientRect();
+    // A term that wraps has one box per line: sit above its first line, or below its last.
+    const rects = trigger.getClientRects();
+    const first = rects[0] || trigger.getBoundingClientRect(), last = rects[rects.length - 1] || first;
     const p = popup.getBoundingClientRect();
     const w = p.width;
+    const yAbove = first.top - p.height - 10;
+    const r = yAbove >= 8 ? first : last;
     const left = Math.max(10, Math.min(innerWidth - w - 10, r.left + r.width / 2 - w / 2));
-    const yAbove = r.top - p.height - 10;
-    const top = yAbove >= 8 ? yAbove : Math.min(innerHeight - p.height - 8, r.bottom + 10);
+    const top = yAbove >= 8 ? yAbove : Math.min(innerHeight - p.height - 8, last.bottom + 10);
     popup.style.left = left + 'px';
     popup.style.top = Math.max(8, top) + 'px';
   }
@@ -321,17 +324,17 @@
     if (stick && (href || popup.classList.contains('is-sheet'))) popup.focus({preventScroll: true});
   }
   function enhance() {
-    main.querySelectorAll('span[data-term]').forEach(span => {
+    // The marked word stays an inline span (not a <button>) so a multi-word term can wrap across lines
+    // and its dotted underline hugs the text. It is made keyboard- and screen-reader-operable here.
+    main.querySelectorAll('span[data-term]:not(.glossary-trigger)').forEach(span => {
       if (!terms[span.dataset.term]) return;
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'glossary-trigger';
-      b.dataset.glossary = span.dataset.term;
-      b.innerHTML = span.innerHTML;
-      b.setAttribute('aria-label', span.textContent + ', show glossary definition');
-      b.setAttribute('aria-expanded','false');
-      b.setAttribute('aria-haspopup','dialog');
-      span.replaceWith(b);
+      span.classList.add('glossary-trigger');
+      span.dataset.glossary = span.dataset.term;
+      span.setAttribute('role', 'button');
+      span.tabIndex = 0;
+      span.setAttribute('aria-label', span.textContent + ', show glossary definition');
+      span.setAttribute('aria-expanded','false');
+      span.setAttribute('aria-haspopup','dialog');
     });
     if (active && !document.contains(active)) hide();
   }
@@ -358,6 +361,14 @@
     if (active === e.target && !pinned && !popup.contains(e.relatedTarget)) hide();
   });
   main.addEventListener('click', e => {
+    const target = e.target.closest?.('.glossary-trigger');
+    if (!target) return;
+    e.preventDefault();
+    if (active === target && pinned) hide();
+    else show(target, true);
+  });
+  main.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
     const target = e.target.closest?.('.glossary-trigger');
     if (!target) return;
     e.preventDefault();

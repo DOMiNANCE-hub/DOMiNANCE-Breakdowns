@@ -18,13 +18,13 @@ These are **two sides of the same failing pump**, not two different diseases.
 | | **Systolic failure** | **Diastolic failure** |
 |---|---|---|
 | **The problem** | The ventricle can't **squeeze** properly | The ventricle can't **relax and fill** properly (it is stiff) |
-| **<span data-term="ejection-fraction">Ejection fraction</span>** | **Reduced** (it ejects a smaller fraction) | Often **preserved** (normal fraction of a small volume) |
+| **Ejection fraction** | **Reduced** (it ejects a smaller fraction) | Often **preserved** (normal fraction of a small volume) |
 | **Filling pressure** | High, because blood is left behind after each beat | High, because a stiff ventricle needs high pressure to fill |
 | **Typical causes** | Heart attack, cardiomyopathy | Long-standing high blood pressure, ageing, hypertrophy |
 
-**Both raise filling pressure, so both cause congestion.** A normal ejection fraction does **not** rule out heart failure: a stiff ventricle can eject a normal percentage of a small, high-pressure fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
+**Both raise filling pressure, so both cause congestion.** A normal <span data-term="ejection-fraction">ejection fraction</span> does **not** rule out heart failure: a stiff ventricle can eject a normal percentage of a small, high-pressure fill. *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
 
-**A fast heart makes both worse.** Diastole shortens, and a stiff ventricle, which already fills slowly, gets even less time to fill. *(<a href="#/physiology/cvs/cardiac-output?section=2-why-can-changing-heart-rate-alter-cardiac-output">→ Cardiac Output, §2</a>)*
+**A fast heart makes both worse.** Diastole shortens, and a stiff ventricle, which already fills slowly, gets even less time to fill. *(<a href="#/physiology/cvs/cardiac-output?section=2-why-can-changing-heart-rate-alter-cardiac-output">→ Cardiac Output, §2</a>)*
 
 ## 3. Left versus right failure: where does the blood back up?
 
@@ -32,13 +32,13 @@ These are **two sides of the same failing pump**, not two different diseases.
 
 <figure class="learning-figure hf-sides-figure" id="cvs21-sides"><figcaption>Figure 1. Left versus right failure: where the blood backs up</figcaption><div class="hf-sides" role="group" aria-label="Left and right heart failure chains"><div class="hf-col hf-left"><strong>Left ventricle fails</strong><span>Left atrial pressure ↑</span><span>Lung vein and capillary pressure ↑</span><span>Fluid filters into the lungs</span><span class="hf-end">Breathlessness, worse lying flat (pulmonary oedema)</span></div><div class="hf-col hf-right"><strong>Right ventricle fails</strong><span>Right atrial pressure ↑</span><span>Systemic vein pressure ↑</span><span>Congested liver and tissues</span><span class="hf-end">Raised JVP, swollen liver, ascites, swollen ankles</span></div></div><p>Blood backs up into the circulation that feeds the failing ventricle. Left failure is the commonest cause of right failure.</p></figure>
 
-**Left heart failure → the lungs.** The left ventricle can't empty, so pressure rises in the left atrium and the lung veins. The lung capillaries filter fluid into the lungs faster than the lymphatics can clear it. This is **<span data-term="pulmonary-oedema">pulmonary oedema</span>**, and it causes **breathlessness**. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
+**Left heart failure → the lungs.** The left ventricle can't empty, so pressure rises in the left atrium and the lung veins. The lung capillaries filter fluid into the lungs faster than the lymphatics can clear it. This is **pulmonary oedema**, and it causes **breathlessness**. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
 
 **Why worse lying flat (orthopnoea)?** Lying down, blood that pooled in the legs returns to the chest. The failing left ventricle can't pump the extra on, so lung pressure rises further. Patients prop themselves up on pillows to breathe.
 
 **Right heart failure → the body.** The right ventricle can't empty, so pressure rises in the right atrium and all the systemic veins:
 
-- **Raised <span data-term="jvp">JVP</span>**, the visible sign of high right atrial pressure *(<a href="#/physiology/cvs/pulses?section=7-which-abnormal-jvp-waves-are-most-important">→ Pulses and JVP, §7</a>)*
+- **Raised <span data-term="jvp">JVP</span>**, the visible sign of high right atrial pressure *(<a href="#/physiology/cvs/pulses?section=7-which-abnormal-jvp-waves-are-most-important">→ Pulses and JVP, §7</a>)*
 - **Swollen, tender liver**, congested with blood
 - **Ascites**: fluid in the abdomen
 - **Swollen ankles**: dependent, <span data-term="pitting">pitting oedema</span>
@@ -68,9 +68,9 @@ When the heart pumps too little, the **kidneys and <span data-term="baroreceptor
 
 **The vicious circle:** the failing heart → the body senses "too little blood" → it keeps more fluid and tightens vessels → the heart faces more filling pressure and more afterload → it fails further.
 
-**The paradox:** a patient can be **waterlogged** (oedema everywhere) while the kidneys still act as if the body is **short of blood**. The total body fluid is high, but the arteries are underfilled because the pump is weak. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+**The paradox:** a patient can be **waterlogged** (oedema everywhere) while the kidneys still act as if the body is **short of blood**. The total body fluid is high, but the arteries are underfilled because the pump is weak. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-**Frank–Starling helps less and less.** At first, extra filling stretches the ventricle and raises <span data-term="stroke-volume">stroke volume</span>. But a failing ventricle sits on a **flat, low curve**, so extra filling mainly raises pressure and congestion. *(<a href="#/physiology/cvs/cardiac-output?section=5-how-do-we-read-frank-starling-curves">→ Cardiac Output, §5</a>)*
+**Frank–Starling helps less and less.** At first, extra filling stretches the ventricle and raises <span data-term="stroke-volume">stroke volume</span>. But a failing ventricle sits on a **flat, low curve**, so extra filling mainly raises pressure and congestion. *(<a href="#/physiology/cvs/cardiac-output?section=5-how-do-we-read-frank-starling-curves">→ Cardiac Output, §5</a>)*
 
 **Remodelling.** Over months, the ventricle dilates or thickens and becomes less efficient: another long-term harm of chronic stimulation.
 

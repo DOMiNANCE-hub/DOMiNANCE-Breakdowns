@@ -4,7 +4,7 @@
 
 The **cardiac cycle** is everything that happens in the heart during one heartbeat: the atria and ventricles each contract and relax once, in a fixed order. **Systole** means contraction and **diastole** means relaxation. On their own, the words are incomplete. Always ask *systole of which chambers?* The atria and ventricles are often doing different things, though for a large part of each beat they are both relaxed.
 
-**Why do the atria go first?** Each beat starts with an electrical impulse from the <span data-term="sa-node">SA node</span> in the right atrium. The impulse spreads across the atria first, then pauses briefly at the <span data-term="av-node">AV node</span> before reaching the ventricles. So the atria are activated, and contract, just before the ventricles. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
+**Why do the atria go first?** Each beat starts with an electrical impulse from the <span data-term="sa-node">SA node</span> in the right atrium. The impulse spreads across the atria first, then pauses briefly at the <span data-term="av-node">AV node</span> before reaching the ventricles. So the atria are activated, and contract, just before the ventricles. *(<a href="#/physiology/cvs/cardiac-conduction?section=5-why-does-the-av-node-delay-electrical-conduction">→ Cardiac Conduction, §5</a>)*
 
 Follow one beat:
 
@@ -24,15 +24,15 @@ Follow one beat:
 
 These are rounded teaching values; the lecture gives no phase durations.
 
-That shared 0.4 s matters. After a short pause while ventricular pressure is still falling, it is when most ventricular filling happens. This is why atrial contraction is only a top-up. It is also why very fast heart rates, which shorten this period most, can limit filling (<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Section 10</a>).
+That shared 0.4 s matters. After a short pause while ventricular pressure is still falling, it is when most ventricular filling happens. This is why atrial contraction is only a top-up. It is also why very fast heart rates, which shorten this period most, can limit filling (<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">§10</a>).
 
-<figure class="learning-figure teaching-widget" data-widget="chamber-timeline"><figcaption>One heartbeat at 75 beats/min: what the atria and ventricles are doing</figcaption><p>Two aligned bars across one 0.8 s cycle. Atria: systole for the first 0.1 s, then diastole. Ventricles: systole from 0.1 s to 0.4 s, then diastole. From 0.4 s to 0.8 s both are relaxed: first a short pause while the ventricle is still relaxing with no filling, then passive filling. Proportions approximate, at 75 beats/min.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="chamber-timeline" data-desc="sr"><figcaption>One heartbeat at 75 beats/min: what the atria and ventricles are doing</figcaption><p>Two aligned bars across one 0.8 s cycle. Atria: systole for the first 0.1 s, then diastole. Ventricles: systole from 0.1 s to 0.4 s, then diastole. From 0.4 s to 0.8 s both are relaxed: first a short pause while the ventricle is still relaxing with no filling, then passive filling. Proportions approximate, at 75 beats/min.</p></figure>
 
 **What drives each step?** Every phase follows one chain:
 
 **Electrical signal → contraction or relaxation → pressure change → valves open or close → blood moves and volume changes**
 
-The electrical signal starts the chain but never moves blood or valves directly. Each link takes a moment, so the steps happen in sequence, not all at once. <a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">Section 2</a> explains the key link: how pressure moves the valves.
+The electrical signal starts the chain but never moves blood or valves directly. Each link takes a moment, so the steps happen in sequence, not all at once. The next section explains the key link: how pressure moves the valves.
 
 ## 2. The one rule every valve follows
 
@@ -43,7 +43,7 @@ The heart has four valves, in two pairs:
 
 All four obey one rule. A valve **opens** when pressure upstream (in the chamber blood is coming from) is higher than pressure downstream (where blood is going). It **closes** when that difference reverses.
 
-**How can pressure alone do this?** Each valve is made of thin flaps called cusps, shaped to open in one direction only. Higher pressure upstream pushes the cusps apart, and blood flows through. When downstream pressure becomes higher, blood starts to move backwards and pushes the cusps together until they seal. No nerve or electrical signal is involved. *(<a href="#/physiology/cvs/cv-introduction?section=3-the-heart-and-its-four-chambers">→ Introduction to the Heart and Circulation, §3</a>: valves keep flow one-way)*
+**How can pressure alone do this?** Each valve is made of thin flaps called cusps, shaped to open in one direction only. Higher pressure upstream pushes the cusps apart, and blood flows through. When downstream pressure becomes higher, blood starts to move backwards and pushes the cusps together until they seal. No nerve or electrical signal is involved. *(<a href="#/physiology/cvs/cv-introduction?section=3-the-heart-and-its-four-chambers">→ Introduction, §3</a>: valves keep flow one-way)*
 
 **What about the papillary muscles?** The AV valve cusps are tethered by chordae tendineae to papillary muscles in the ventricular wall. These muscles contract with the ventricle, but they do not open or close the valve. They hold the cusps in place so that rising ventricular pressure cannot push them inside out into the atrium.
 
@@ -53,7 +53,7 @@ Now apply the rule to the left heart: **left atrium → mitral valve → left ve
 
 Here P means pressure, LA is left atrium and LV is left ventricle. The two valves respond to **different** pressure differences, so there are moments when **both are closed at once**. Those moments explain two phases you will meet in Sections <a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">4</a> and <a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">6</a>, when the ventricle's pressure changes but its volume does not.
 
-One refinement comes later: moving blood carries momentum, so flow and valve closure can lag slightly behind a change in pressure (<a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">Section 6</a>).
+One refinement comes later: moving blood carries momentum, so flow and valve closure can lag slightly behind a change in pressure (<a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">§6</a>).
 
 The right heart follows the same rule at lower pressures, through the tricuspid and pulmonary valves. We follow the left heart first and return to the right in <a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Section 10</a>.
 
@@ -70,11 +70,11 @@ When the ventricle relaxes, its pressure falls. As soon as ventricular pressure 
 - **A stiff ventricle** resists passive stretching, so less blood enters passively and the active push makes up more of the total.
 - **A fast heart rate** shortens diastole, leaving less time for passive filling, so the final push contributes a larger share.
 
-When filling ends, the ventricle holds its **end-diastolic volume (EDV)**, about **130 mL** in the lecture's example. This is the volume it starts its next contraction with (<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">Section 7</a>).
+When filling ends, the ventricle holds its **end-diastolic volume (EDV)**, about **130 mL** in the lecture's example. This is the volume it starts its next contraction with (<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">§7</a>).
 
-<figure class="learning-figure teaching-widget" data-widget="diastolic-plot"><figcaption>Ventricular filling: why it is fast, then slow, then topped up</figcaption><p>Left atrial and left ventricular pressure across ventricular diastole, with ventricular volume beneath. When the mitral valve opens the pressure gap is large and volume rises steeply (rapid filling). The gap then narrows and volume rises slowly (diastasis). Atrial contraction makes the a wave and adds a final step of volume up to EDV. Ventricular pressure stays low throughout. Schematic; pressures not to scale.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="diastolic-plot" data-desc="sr"><figcaption>Ventricular filling: why it is fast, then slow, then topped up</figcaption><p>Left atrial and left ventricular pressure across ventricular diastole, with ventricular volume beneath. When the mitral valve opens the pressure gap is large and volume rises steeply (rapid filling). The gap then narrows and volume rises slowly (diastasis). Atrial contraction makes the a wave and adds a final step of volume up to EDV. Ventricular pressure stays low throughout. Schematic; pressures not to scale.</p></figure>
 
-**What is happening electrically during filling?** The ventricles repolarised near the end of their contraction (<a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">Section 5</a>), before filling began. During rapid filling and diastasis, no excitation wave is spreading through the working heart muscle, and none is needed: the pressure difference alone moves the blood. The <span data-term="sa-node">SA node</span> is not idle, though. Its pacemaker cells are slowly depolarising towards threshold. When they fire, the impulse spreads across the atria (the <span data-term="p-wave">P wave</span> on an ECG) and atrial contraction follows. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction and Automaticity, §3</a>)*
+**What is happening electrically during filling?** The ventricles repolarised near the end of their contraction (<a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">§5</a>), before filling began. During rapid filling and diastasis, no excitation wave is spreading through the working heart muscle, and none is needed: the pressure difference alone moves the blood. The <span data-term="sa-node">SA node</span> is not idle, though. Its pacemaker cells are slowly depolarising towards threshold. When they fire, the impulse spreads across the atria (the <span data-term="p-wave">P wave</span> on an ECG) and atrial contraction follows. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 **Understanding Check — Section 3**
 
@@ -83,9 +83,9 @@ When filling ends, the ventricle holds its **end-diastolic volume (EDV)**, about
 
 ## 4. Isovolumetric contraction: contracting, but no blood leaves
 
-We left the ventricle full, holding its <span data-term="edv">EDV</span>, with the atria just finished contracting (<a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">Section 3</a>). After the <span data-term="av-node">AV nodal</span> pause (<a href="#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing">Section 1</a>), the impulse races through the **<span data-term="his-purkinje">His–Purkinje system</span>**, activating the ventricular muscle almost all at once. On an ECG, this ventricular activation is the **<span data-term="qrs">QRS complex</span>** (more in <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">Section 9</a>). *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
+We left the ventricle full, holding its <span data-term="edv">EDV</span>, with the atria just finished contracting. After the <span data-term="av-node">AV nodal</span> pause, the impulse races through the **<span data-term="his-purkinje">His–Purkinje system</span>**, activating the ventricular muscle almost all at once. On an ECG, this ventricular activation is the **<span data-term="qrs">QRS complex</span>** (more in <a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">§9</a>). *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
 
-**Why does force lag slightly behind activation?** Electrical activation first has to release calcium inside each muscle cell; only then can the cell develop force. So ventricular pressure starts rising a moment after the QRS. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle Physiology, §4</a>)*
+**Why does force lag slightly behind activation?** Electrical activation first has to release calcium inside each muscle cell; only then can the cell develop force. So ventricular pressure starts rising a moment after the QRS. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
 
 **Why does the mitral valve close so quickly?** Atrial pressure is only a few mmHg, so ventricular pressure overtakes it almost as soon as contraction begins. The pressure difference across the mitral and tricuspid valves reverses and they **close**. This closure contributes to the **first heart sound (<span data-term="s1">S1</span>)**.
 
@@ -101,7 +101,7 @@ But ventricular pressure is still far below aortic pressure, so the **aortic val
 
 <aside class="source-note"><strong>Source note:</strong> The lecture says closure of the AV valves "initiates systole". More precisely, ventricular contraction starts first, and the rising pressure then closes the AV valves. Valve closure marks the start of isovolumetric contraction rather than causing it.</aside>
 
-<figure class="learning-figure teaching-widget" data-widget="valve-stepper"><figcaption>Isovolumetric contraction in three steps</figcaption><p>Step 1: ventricular pressure rises above atrial pressure, so the mitral and tricuspid valves close. Step 2: all four valves are closed; ventricular pressure rises while volume stays the same. Step 3: ventricular pressure exceeds arterial pressure, so the aortic and pulmonary valves open and ejection begins. The atria stay relaxed and keep filling throughout.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="valve-stepper" data-desc="sr"><figcaption>Isovolumetric contraction in three steps</figcaption><p>Step 1: ventricular pressure rises above atrial pressure, so the mitral and tricuspid valves close. Step 2: all four valves are closed; ventricular pressure rises while volume stays the same. Step 3: ventricular pressure exceeds arterial pressure, so the aortic and pulmonary valves open and ejection begins. The atria stay relaxed and keep filling throughout.</p></figure>
 
 **Understanding Check — Section 4**
 
@@ -120,9 +120,9 @@ As soon as LV pressure rises above aortic pressure, the **aortic valve opens** (
 **Why does it then slow down?** Two things shrink the pressure difference at once:
 
 - **The muscle weakens.** As contraction passes its peak, ventricular force and pressure fall.
-- **The aorta fills.** Blood entering the aorta stretches its elastic wall and raises aortic pressure. With the valve open, LV and aortic pressures now rise and fall almost together. *(<a href="#/physiology/cvs/blood-pressure?section=2-why-doesn-t-blood-stop-moving-during-diastole">→ Arterial Blood Pressure, §2</a>)*
+- **The aorta fills.** Blood entering the aorta stretches its elastic wall and raises aortic pressure. With the valve open, LV and aortic pressures now rise and fall almost together. *(<a href="#/physiology/cvs/blood-pressure?section=2-why-doesn-t-blood-stop-moving-during-diastole">→ Blood Pressure, §2</a>)*
 
-With a smaller difference, outflow slows: **reduced ejection**, the gentler part of the volume fall. Late in this phase, ventricular pressure can dip slightly below aortic pressure while blood still flows forward. Moving blood carries momentum and takes time to stop (<a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">Section 6</a>).
+With a smaller difference, outflow slows: **reduced ejection**, the gentler part of the volume fall. Late in this phase, ventricular pressure can dip slightly below aortic pressure while blood still flows forward. Moving blood carries momentum and takes time to stop.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture describes ejection as "initially slow, then rapid". Standard physiology, including the volume curve on every <span data-term="wiggers">Wiggers diagram</span>, shows the reverse: rapid ejection first, then reduced ejection. We teach the standard order.</aside>
 
@@ -139,19 +139,19 @@ When ejection ends, some blood remains: the **end-systolic volume (ESV)**. <a hr
 
 ## 6. Closing the outflow valves and isovolumetric relaxation
 
-**Why does the aortic valve close?** <a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">Section 5</a> left blood still coasting forward on momentum, even though ventricular pressure had dipped below aortic pressure. That forward flow now slows to a stop and briefly reverses. The tiny backflow pushes the aortic cusps together and they seal (the rule from <a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">Section 2</a>). The lecture calls this short interval, from the end of forward ejection to <span data-term="semilunar-valves">semilunar valve</span> closure, **protodiastole**.
+**Why does the aortic valve close?** Late in ejection, blood was still coasting forward on momentum, even though ventricular pressure had dipped below aortic pressure. That forward flow now slows to a stop and briefly reverses. The tiny backflow pushes the aortic cusps together and they seal (the rule from <a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">§2</a>). The lecture calls this short interval, from the end of forward ejection to <span data-term="semilunar-valves">semilunar valve</span> closure, **protodiastole**.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture times protodiastole from the moment "ventricular pressure starts falling". In our account, pressure begins to fall during reduced ejection, while blood is still leaving. We therefore date protodiastole from the end of forward flow, as most physiology texts do. Either way, it ends when the semilunar valves close.</aside>
 
-Aortic valve closure contributes the **aortic component of the second heart sound (<span data-term="s2">S2</span>)**. The pulmonary valve closes the same way, slightly later (<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">Section 10</a>). On the aortic pressure trace, closure leaves a small dip and rebound, the **dicrotic notch**. The dip is the brief backflow; the rebound is the stretched aortic wall recoiling against the now-closed valve. It is not a second contraction.
+Aortic valve closure contributes the **aortic component of the second heart sound (<span data-term="s2">S2</span>)**. The pulmonary valve closes the same way, slightly later (<a href="#/physiology/cvs/cardiac-cycle?section=10-right-versus-left-heart-s2-splitting-and-heart-rate">§10</a>). On the aortic pressure trace, closure leaves a small dip and rebound, the **dicrotic notch**. The dip is the brief backflow; the rebound is the stretched aortic wall recoiling against the now-closed valve. It is not a second contraction.
 
 **Why doesn't filling restart straight away?** The aortic valve is now shut, but ventricular pressure is still above atrial pressure, so the **mitral valve is also shut**. Both valves are closed again, and the ventricle is once more a sealed chamber.
 
-**Why does pressure fall so steeply?** This is <a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">Section 4</a> in reverse. The muscle relaxes as calcium is pumped out of the cytoplasm, so its tension drops. Volume cannot change, so the falling tension shows up entirely as falling pressure. Pressure drops steeply while volume stays at <span data-term="esv">ESV</span>. This is **isovolumetric relaxation**. *(<a href="#/physiology/cvs/cardiac-muscle?section=5-how-does-cardiac-muscle-relax">→ Cardiac Muscle Physiology, §5</a>)*
+**Why does pressure fall so steeply?** This is <a href="#/physiology/cvs/cardiac-cycle?section=4-isovolumetric-contraction-contracting-but-no-blood-leaves">Section 4</a> in reverse. The muscle relaxes as calcium is pumped out of the cytoplasm, so its tension drops. Volume cannot change, so the falling tension shows up entirely as falling pressure. Pressure drops steeply while volume stays at <span data-term="esv">ESV</span>. This is **isovolumetric relaxation**. *(<a href="#/physiology/cvs/cardiac-muscle?section=5-how-does-cardiac-muscle-relax">→ Cardiac Muscle, §5</a>)*
 
 <div class="mechanism-strip"><span><strong>Mitral</strong> closed</span><span><strong>Aortic</strong> closed</span><span><strong>Pressure</strong> ↓</span><span><strong>Volume</strong> = ESV</span></div>
 
-**Meanwhile, the atria** have kept filling behind closed <span data-term="av-valves">AV valves</span> since the <span data-term="x-descent">x descent</span> (<a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">Section 5</a>). Atrial pressure reaches its peak now: the **v wave**. No atrial contraction is involved; it is simply blood accumulating.
+**Meanwhile, the atria** have kept filling behind closed <span data-term="av-valves">AV valves</span> since the <span data-term="x-descent">x descent</span> (<a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">§5</a>). Atrial pressure reaches its peak now: the **v wave**. No atrial contraction is involved; it is simply blood accumulating.
 
 When ventricular pressure finally falls below atrial pressure, the **mitral valve opens**. The stored atrial blood rushes in, atrial pressure drops (the **y descent**), and rapid filling begins. We are back at <a href="#/physiology/cvs/cardiac-cycle?section=3-filling-how-blood-enters-the-relaxed-ventricle">Section 3</a>.
 
@@ -167,28 +167,28 @@ When ventricular pressure finally falls below atrial pressure, the **mitral valv
 
 ## 7. How much blood does the ventricle pump?
 
-A ventricle never empties completely. **<span data-term="edv">EDV</span>** is the volume just before contraction; **<span data-term="esv">ESV</span>** is what remains after ejection. The difference is the **stroke volume (SV)**, the volume ejected in one beat.
+A ventricle never empties completely. **EDV** is the volume just before contraction; **ESV** is what remains after ejection. The difference is the **stroke volume (SV)**, the volume ejected in one beat.
 
 <div class="equation-block"><span class="equation-label">Stroke volume</span><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>SV</mi><mo>=</mo><mi>EDV</mi><mo>−</mo><mi>ESV</mi></math><span class="equation-example">Example: 130 mL − 50 mL = <strong>80 mL</strong></span></div>
 
-**Why is some blood always left behind?** Ejection stops when the pressure difference and the blood's momentum run out (Sections <a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">5</a> and <a href="#/physiology/cvs/cardiac-cycle?section=6-closing-the-outflow-valves-and-isovolumetric-relaxation">6</a>), not when the chamber is empty. The remaining ESV is a reserve: a stronger contraction can eject some of it.
+**Why is some blood always left behind?** Ejection stops when the pressure difference and the blood's momentum run out, not when the chamber is empty. The remaining ESV is a reserve: a stronger contraction can eject some of it.
 
-The **ejection fraction (EF)** is the share of EDV that is ejected:
+The **ejection fraction (EF)** is the share of <span data-term="edv">EDV</span> that is ejected:
 
 <div class="equation-block"><span class="equation-label">Ejection fraction</span><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>EF</mi><mo>=</mo><mfrac><mi>SV</mi><mi>EDV</mi></mfrac><mo>×</mo><mn>100</mn><mo>%</mo></math><span class="equation-example">Example: (80 ÷ 130) × 100 ≈ <strong>61.5%</strong></span></div>
 
-The lecture uses EDV ≈ 130 mL, SV ≈ 70–90 mL and EF ≈ 65% as typical values; small differences between rounded examples are not contradictions. EF is the fraction of *that ventricle's* end-diastolic blood ejected, not a fraction of total blood volume. Because it compares what is ejected with what was available, EF is widely used clinically as a measure of how well the ventricle contracts. A low EF suggests weakened contraction. *(<a href="#/physiology/cvs/heart-failure?section=2-systolic-and-diastolic-failure-can-t-squeeze-or-can-t-fill">→ Heart Failure Physiology</a>)*
+The lecture uses EDV ≈ 130 mL, SV ≈ 70–90 mL and EF ≈ 65% as typical values; small differences between rounded examples are not contradictions. EF is the fraction of *that ventricle's* end-diastolic blood ejected, not a fraction of total blood volume. Because it compares what is ejected with what was available, EF is widely used clinically as a measure of how well the ventricle contracts. A low EF suggests weakened contraction. *(<a href="#/physiology/cvs/heart-failure?section=2-systolic-and-diastolic-failure-can-t-squeeze-or-can-t-fill">→ Heart Failure</a>)*
 
-**Two ways to raise stroke volume.** Since SV = EDV − ESV, the ventricle can eject more by:
+**Two ways to raise stroke volume.** Since SV = EDV − <span data-term="esv">ESV</span>, the ventricle can eject more by:
 
 - **filling more** (a larger EDV), or
 - **emptying more** (a smaller ESV), for example through stronger contraction.
 
-Chapter 7 explains what controls each. *(<a href="#/physiology/cvs/cardiac-output?section=3-what-determines-stroke-volume">→ Cardiac Output and Frank–Starling Law, §3</a>)*
+The Cardiac Output chapter explains what controls each. *(<a href="#/physiology/cvs/cardiac-output?section=3-what-determines-stroke-volume">→ Cardiac Output, §3</a>)*
 
 Now trace the volume through one beat. It **rises** during filling and reaches EDV after atrial systole. It stays **flat** during isovolumetric contraction, then **falls** during ejection, steeply then gradually. It stays **flat** at ESV during isovolumetric relaxation, then **rises** again when the mitral valve opens.
 
-<figure class="learning-figure teaching-widget" data-widget="volume-bar"><figcaption>Stroke volume and ejection fraction in one picture</figcaption><p>A ventricle filled to its end-diastolic volume of 130 mL. After ejection, 50 mL remains (end-systolic volume). The 80 mL that left is the stroke volume, which is 61.5% of 130 mL: the ejection fraction.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="volume-bar" data-desc="sr"><figcaption>Stroke volume and ejection fraction in one picture</figcaption><p>A ventricle filled to its end-diastolic volume of 130 mL. After ejection, 50 mL remains (end-systolic volume). The 80 mL that left is the stroke volume, which is 61.5% of 130 mL: the ejection fraction.</p></figure>
 
 **Understanding Check — Section 7**
 
@@ -236,13 +236,13 @@ A **Wiggers diagram** lines up everything you have just learned on one time axis
 
 Find those four crossings and you have found the four valve events. Between them, the volume curve tells you whether blood is entering, leaving or neither.
 
-<figure class="learning-figure teaching-widget wiggers-figure" data-widget="wiggers"><figcaption>The Wiggers diagram, built one step at a time (left heart)</figcaption><p>One heartbeat plus the start of the next, with the ECG, left atrial, left ventricular and aortic pressures, left ventricular volume and heart sounds on one time axis. The four valve events are where pressure curves cross: mitral closure and opening where the ventricular and atrial curves cross, aortic opening and closure where the ventricular and aortic curves cross. Labels show the P, QRS and T waves; the a, c and v waves and x and y descents; the dicrotic notch; EDV and ESV; and S1 and S2. Schematic; values approximate.</p></figure>
+<figure class="learning-figure teaching-widget wiggers-figure" data-widget="wiggers" data-desc="sr"><figcaption>The Wiggers diagram, built one step at a time (left heart)</figcaption><p>One heartbeat plus the start of the next, with the ECG, left atrial, left ventricular and aortic pressures, left ventricular volume and heart sounds on one time axis. The four valve events are where pressure curves cross: mitral closure and opening where the ventricular and atrial curves cross, aortic opening and closure where the ventricular and aortic curves cross. Labels show the P, QRS and T waves; the a, c and v waves and x and y descents; the dicrotic notch; EDV and ESV; and S1 and S2. Schematic; values approximate.</p></figure>
 
 **Step 1: Atrial systole.** The SA node fires and the atria depolarise: the **<span data-term="p-wave">P wave</span>**. Shortly afterwards the atria contract, producing the **a wave** on the atrial pressure trace and topping up the ventricle to <span data-term="edv">EDV</span>. *P wave → atrial contraction → a wave → EDV*: related, but in sequence, not simultaneous. (In a stiff ventricle, this final push can produce an extra sound, **<span data-term="s4">S4</span>**.)
 
 **Step 2: Ventricular contraction begins.** After the AV nodal delay, ventricular activation gives the **<span data-term="qrs">QRS complex</span>**. Ventricular pressure then rises and crosses atrial pressure: the mitral valve closes (**<span data-term="s1">S1</span>**), and the bulging valve makes the **<span data-term="c-wave">c wave</span>**. With both valves shut, the volume trace is flat: <span data-term="isovolumetric">isovolumetric contraction</span>.
 
-**Step 3: Ejection.** Ventricular pressure crosses aortic pressure and the aortic valve opens. From here the LV and aortic pressure traces run almost together, because they are connected through the open valve. The volume trace falls steeply (<span data-term="rapid-reduced-ejection">rapid ejection</span>), then more gently (reduced ejection). Meanwhile atrial pressure dips in the **<span data-term="x-descent">x descent</span>** (<a href="#/physiology/cvs/cardiac-cycle?section=5-ejection-why-blood-finally-leaves">Section 5</a>), then begins to climb.
+**Step 3: Ejection.** Ventricular pressure crosses aortic pressure and the aortic valve opens. From here the LV and aortic pressure traces run almost together, because they are connected through the open valve. The volume trace falls steeply (<span data-term="rapid-reduced-ejection">rapid ejection</span>), then more gently (reduced ejection). Meanwhile atrial pressure dips in the **<span data-term="x-descent">x descent</span>**, then begins to climb.
 
 **Step 4: Relaxation.** The **<span data-term="t-wave">T wave</span>** appears during reduced ejection as the ventricles repolarise. Forward flow stops and briefly reverses, the aortic valve closes (**<span data-term="s2">S2</span>**), and the **<span data-term="dicrotic-notch">dicrotic notch</span>** marks the aortic trace. Ventricular pressure drops steeply while volume stays flat at <span data-term="esv">ESV</span>; atrial pressure reaches the **<span data-term="v-wave">v wave</span>**.
 
@@ -265,7 +265,7 @@ Find those four crossings and you have found the four valve events. Between them
 | **v wave** | Venous blood continues entering the atrium while the AV valve is closed. |
 | **y descent** | AV valve opens and stored atrial blood empties into the ventricle. |
 
-<p class="related-links"><strong>Related:</strong> full <span data-term="jvp">JVP</span> waves and descents → <a href="#/physiology/cvs/pulses?section=4-why-are-the-a-c-and-v-waves-separated-by-x-and-y-descents">Arterial Pulse and Jugular Venous Pulse, §4</a> · ECG timing → <a href="#/physiology/cvs/ecg?section=5-connect-the-ecg-to-mechanical-events">Electrocardiography, §5</a> · S1 and S2 → <a href="#/physiology/cvs/heart-sounds?section=2-why-does-s1-occur-before-s2">Heart Sounds and Murmurs, §2</a> · S3 and S4 → <a href="#/physiology/cvs/heart-sounds?section=4-what-causes-s3-and-s4">Heart Sounds and Murmurs, §4</a></p>
+<p class="related-links"><strong>Related:</strong> full <span data-term="jvp">JVP</span> waves and descents → <a href="#/physiology/cvs/pulses?section=4-why-are-the-a-c-and-v-waves-separated-by-x-and-y-descents">Pulses and JVP, §4</a> · ECG timing → <a href="#/physiology/cvs/ecg?section=5-connect-the-ecg-to-mechanical-events">ECG, §5</a> · S1 and S2 → <a href="#/physiology/cvs/heart-sounds?section=2-why-does-s1-occur-before-s2">Heart Sounds, §2</a> · S3 and S4 → <a href="#/physiology/cvs/heart-sounds?section=4-what-causes-s3-and-s4">Heart Sounds, §4</a></p>
 
 ### Watch the mechanism
 
@@ -283,7 +283,7 @@ Find those four crossings and you have found the four valve events. Between them
 
 ## 10. Right versus left heart, S2 splitting and heart rate
 
-**Same rules, lower pressures.** Both ventricles are activated in the same beat and follow the same valve rule. The right ventricle pumps into the low-resistance pulmonary circulation, reaching about **25 mmHg**; the left reaches about **120 mmHg**. Even so, over time both pump almost exactly the same volume per minute. The two circuits are connected in series, so whatever the right ventricle sends through the lungs must come back to the left. Higher pressure does not mean more blood. *(<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">→ Introduction to the Heart and Circulation, §2</a>)*
+**Same rules, lower pressures.** Both ventricles are activated in the same beat and follow the same valve rule. The right ventricle pumps into the low-resistance pulmonary circulation, reaching about **25 mmHg**; the left reaches about **120 mmHg**. Even so, over time both pump almost exactly the same volume per minute. The two circuits are connected in series, so whatever the right ventricle sends through the lungs must come back to the left. Higher pressure does not mean more blood. *(<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">→ Introduction, §2</a>)*
 
 **Why the right ventricle ejects first.** The lecture notes that the left ventricle starts contracting slightly before the right, yet right ventricular ejection begins first. Both points are correct. The right ventricle only has to exceed about **10 mmHg** in the pulmonary artery, versus about **80 mmHg** in the aorta, so its <span data-term="isovolumetric">isovolumetric phase</span> (contracting with all valves shut, before ejection) is much shorter and the pulmonary valve opens first. The <span data-term="sa-node">SA node</span> does not send separate beats to each side.
 
@@ -294,11 +294,9 @@ Find those four crossings and you have found the four valve events. Between them
 
 A2 may also move slightly earlier. The expanded lung vessels hold more blood for a few beats, so left ventricular filling dips briefly.
 
-<figure class="learning-figure teaching-widget" data-widget="s2-timing"><figcaption>Why S2 splits on inspiration</figcaption><p>Two timelines. In expiration, A2 (aortic valve closing) and P2 (pulmonary valve closing) are almost together. In inspiration, A2 comes slightly earlier and P2 clearly later, so the gap widens. Schematic, not to scale.</p></figure>
-
 <aside class="source-note"><strong>Source note:</strong> The lecture says the valves close "at the same time" in expiration. In practice a small gap remains but is usually too short to hear; the teaching point is the inspiratory widening. Mechanism 2 corresponds to the lecture's "decrease in the impedance of the pulmonary vasculature". The lecture also lists "contracting lungs exert a force on the vessels"; this is not a standard explanation of splitting, so we have not taught it.</aside>
 
-<p class="related-links"><strong>Related:</strong> listening for splitting → <a href="#/physiology/cvs/heart-sounds?section=3-why-does-s2-sometimes-split-with-inspiration">Heart Sounds and Murmurs, §3</a> · breathing and <span data-term="venous-return">venous return</span> → <a href="#/physiology/cvs/venous-return?section=5-how-does-breathing-help-venous-return">Veins and Venous Return, §5</a></p>
+<p class="related-links"><strong>Related:</strong> listening for splitting → <a href="#/physiology/cvs/heart-sounds?section=3-why-does-s2-sometimes-split-with-inspiration">Heart Sounds, §3</a></p>
 
 **What happens when heart rate rises?** At **75 beats/min**, one cycle lasts **0.8 s**; at **150 beats/min**, only **0.4 s**. Both phases shorten, but not equally.
 
@@ -308,9 +306,9 @@ At very high rates, or when the ventricle relaxes poorly, there may not be enoug
 
 <div class="teaching-widget hr-slider" data-widget="hr-slider"><p>Cycle length = 60 ÷ heart rate. At 75 beats/min it is 0.80 s (800 ms). This tool calculates total cycle length only; it does not model the exact split between systole and diastole.</p></div>
 
-<p class="related-links"><strong>Related:</strong> cardiac output and rate → <a href="#/physiology/cvs/cardiac-output?section=2-why-can-changing-heart-rate-alter-cardiac-output">Cardiac Output and Frank–Starling Law, §2</a> · refractory period → <a href="#/physiology/cvs/cardiac-muscle?section=6-why-can-t-cardiac-muscle-undergo-normal-tetanus">Cardiac Muscle Physiology, §6</a></p>
+<p class="related-links"><strong>Related:</strong> cardiac output and rate → <a href="#/physiology/cvs/cardiac-output?section=2-why-can-changing-heart-rate-alter-cardiac-output">Cardiac Output, §2</a></p>
 
-**Coronary blood flow.** The left ventricle's own muscle receives most of its blood flow during **diastole**. During systole the contracting muscle squeezes the vessels running through it, especially the deeper ones. So marked tachycardia hits twice: it shortens the time for coronary perfusion just as the faster-working heart needs more oxygen. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a> and <a href="#/physiology/cvs/coronary?section=5-why-can-tachycardia-cause-ischaemia">§5</a>)*
+**Coronary blood flow.** The left ventricle's own muscle receives most of its blood flow during **diastole**. During systole the contracting muscle squeezes the vessels running through it, especially the deeper ones. So marked tachycardia hits twice: it shortens the time for coronary perfusion just as the faster-working heart needs more oxygen. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a> and <a href="#/physiology/cvs/coronary?section=5-why-can-tachycardia-cause-ischaemia">§5</a>)*
 
 **Understanding Check — Section 10**
 

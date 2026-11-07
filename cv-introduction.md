@@ -41,18 +41,18 @@ Blood travels through two circuits, one after the other:
 
 **The two circuits are in series.** Blood must pass through one circuit before it can enter the other: body → right heart → lungs → left heart → body. There is no other route.
 
-**Why must both ventricles pump the same amount?** Because every drop the right ventricle sends through the lungs arrives at the left ventricle. Over any period longer than a few beats, the right and left ventricles must pump the same volume per minute: about 5 L/min each at rest. If the right ventricle pumped even slightly more than the left for a long time, blood would pile up in the lungs. If the left pumped more than the right, the lungs would slowly drain. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
+**Why must both ventricles pump the same amount?** Because every drop the right ventricle sends through the lungs arrives at the left ventricle. Over any period longer than a few beats, the right and left ventricles must pump the same volume per minute: about 5 L/min each at rest. If the right ventricle pumped even slightly more than the left for a long time, blood would pile up in the lungs. If the left pumped more than the right, the lungs would slowly drain. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
 **Within the systemic circuit, the organs sit side by side (in parallel).** The aorta divides into branches that supply the brain, the heart muscle, the gut and liver, the kidneys, the skeletal muscles and the skin. Because each organ has its own branch:
 
 - every organ receives fresh, oxygen-rich blood from the arteries, not blood another organ has already used;
-- the flow to each organ can be turned up or down on its own, by narrowing or widening that organ's small arteries, without starving the others. *(<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">→ Haemodynamics, §8</a>)*
+- the flow to each organ can be turned up or down on its own, by narrowing or widening that organ's small arteries, without starving the others. *(<a href="#/physiology/cvs/hemodynamics?section=8-why-are-arterioles-the-main-controllable-resistance-vessels">→ Haemodynamics, §8</a>)*
 
 The lungs are the exception: all of the blood passes through them, in series.
 
-**The heart feeds itself the same way.** The heart does not take its oxygen from the blood inside its chambers. Its muscular wall is far too thick for oxygen to diffuse in from the chambers to most of its cells. So the heart muscle has its own parallel branch from the aorta: the **<span data-term="coronary-arteries">coronary arteries</span>**. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
+**The heart feeds itself the same way.** The heart does not take its oxygen from the blood inside its chambers. Its muscular wall is far too thick for oxygen to diffuse in from the chambers to most of its cells. So the heart muscle has its own parallel branch from the aorta: the **coronary arteries**. *(<a href="#/physiology/cvs/coronary?section=1-why-does-the-heart-need-a-separate-blood-supply">→ Coronary Circulation, §1</a>)*
 
-<figure class="learning-figure teaching-widget" data-widget="circuit-map"><figcaption>Series and parallel</figcaption><p>One loop runs right heart → lungs → left heart → aorta, labelled in series. The aorta then splits into side-by-side branches for the brain, the heart muscle (coronary arteries), the gut and liver, the kidneys, skeletal muscle and the skin, labelled in parallel. The branches rejoin in the veins and return to the right heart. Gut and liver are drawn as one branch because blood from the gut passes through the liver.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="circuit-map" data-desc="sr"><figcaption>Series and parallel</figcaption><p>One loop runs right heart → lungs → left heart → aorta, labelled in series. The aorta then splits into side-by-side branches for the brain, the heart muscle (coronary arteries), the gut and liver, the kidneys, skeletal muscle and the skin, labelled in parallel. The branches rejoin in the veins and return to the right heart. Gut and liver are drawn as one branch because blood from the gut passes through the liver.</p></figure>
 
 <aside class="source-note"><strong>Source note:</strong> The lecture gives about 5.5 L/min for each side of the heart; 5 L/min is also widely quoted. The parallel arrangement of organs is foundation material for the regional-circulation chapters.</aside>
 
@@ -83,7 +83,7 @@ The **atria** mainly receive blood and top up the ventricles. The **ventricles**
 - The **inlet valves** sit between each atrium and its ventricle: the **tricuspid** valve on the right and the **mitral** valve on the left. Together they are the <span data-term="av-valves">AV (atrioventricular) valves</span>.
 - The **outlet valves** sit between each ventricle and its artery: the **pulmonary** valve on the right and the **aortic** valve on the left. Together they are the <span data-term="semilunar-valves">semilunar valves</span>.
 
-Valves contain no muscle. They open and shut **passively**, pushed by blood pressure. A valve opens when the pressure behind it is higher than the pressure in front of it, and shuts the moment that reverses. So blood can only move forward. *(<a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">→ Cardiac Cycle, §2</a>)*
+Valves contain no muscle. They open and shut **passively**, pushed by blood pressure. A valve opens when the pressure behind it is higher than the pressure in front of it, and shuts the moment that reverses. So blood can only move forward. *(<a href="#/physiology/cvs/cardiac-cycle?section=2-the-one-rule-every-valve-follows">→ Cardiac Cycle, §2</a>)*
 
 **Arteries and veins are named by direction, not by oxygen.** The pulmonary arteries carry oxygen-poor blood, and the pulmonary veins carry oxygen-rich blood. This is because **arteries carry blood away from the heart and veins carry blood towards it**, whatever its oxygen content.
 
@@ -105,18 +105,18 @@ Valves contain no muscle. They open and shut **passively**, pushed by blood pres
 
 Both ventricles pump the same volume each minute (<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">§2</a>). Yet the left ventricle's wall is two to three times thicker than the right's. The difference is **pressure, not volume**.
 
-**What sets the pressure a pump must make?** Blood flows only when there is a pressure difference to push it. The more the vessels oppose flow (their **<span data-term="resistance">resistance</span>**), the bigger the pressure difference needed to keep the same flow. The lecture puts it as: flow = pressure difference ÷ resistance. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
+**What sets the pressure a pump must make?** Blood flows only when there is a pressure difference to push it. The more the vessels oppose flow (their **resistance**), the bigger the pressure difference needed to keep the same flow. The lecture puts it as: flow = pressure difference ÷ <span data-term="resistance">resistance</span>. *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*
 
 - **Systemic circulation:** a vast network of small, muscular arteries and arterioles, so total resistance is high. The left ventricle must reach about **120 mmHg** with each beat.
 - **Pulmonary circulation:** short, wide, thin-walled vessels, so resistance is low. The right ventricle needs only about **25 mmHg**.
 
 Generating more pressure takes more muscle, so the left ventricular wall is thicker. **Same volume per minute, different pressure.**
 
-**Why is it useful for the lungs to have low pressure?** Lung capillaries are extremely thin, so that gases can cross them quickly. High pressure inside them would push fluid out into the lung tissue and air spaces. This is **pulmonary oedema**, and it gets in the way of gas exchange. Low pulmonary pressure keeps the lungs dry. *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*
+**Why is it useful for the lungs to have low pressure?** Lung capillaries are extremely thin, so that gases can cross them quickly. High pressure inside them would push fluid out into the lung tissue and air spaces. This is **pulmonary oedema**, and it gets in the way of gas exchange. Low pulmonary pressure keeps the lungs dry. *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*
 
 ## 5. Systole and diastole
 
-**<span data-term="systole-diastole">Systole</span>** means contraction and **diastole** means relaxation. Always say which chambers you mean, because the atria and ventricles contract at different times.
+**Systole** means contraction and **diastole** means relaxation. Always say which chambers you mean, because the atria and ventricles contract at different times.
 
 - **Atrial systole:** the atria contract and push the final portion of blood into the ventricles.
 - **Atrial diastole:** the atria relax and fill with blood returning from the body and lungs.
@@ -125,16 +125,16 @@ Generating more pressure takes more muscle, so the left ventricular wall is thic
 
 **The order matters.** The atria contract **at the end of ventricular diastole**, just before the ventricles contract. By then, most ventricular filling (about 70% in the lecture) has already happened passively. Atrial contraction only tops it up.
 
-At a resting heart rate, one beat lasts about 0.8 s. The ventricles spend about 0.3 s in systole and 0.5 s in diastole. *(<a href="#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing">→ Cardiac Cycle, §1</a>)*
+At a resting heart rate, one beat lasts about 0.8 s. The ventricles spend about 0.3 s in <span data-term="systole-diastole">systole</span> and 0.5 s in diastole. *(<a href="#/physiology/cvs/cardiac-cycle?section=1-one-heartbeat-what-the-atria-and-ventricles-are-doing">→ Cardiac Cycle, §1</a>)*
 
 ## 6. Cardiac muscle and the conducting system
 
 To pump well, the heart needs two things: **force** and **timing**.
 
-- **Force: cardiac muscle (myocardium).** Cardiac muscle cells are electrically linked to one another. An impulse therefore spreads from cell to cell, and the muscle of each chamber contracts as one unit. *(<a href="#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together">→ Cardiac Muscle, §2</a>)*
-- **Timing: the conducting system.** The impulse starts in the **<span data-term="sa-node">SA node</span>**, at the junction of the superior vena cava and the right atrium. It spreads across the atria to the **<span data-term="av-node">AV node</span>**, which holds it back briefly. It then races down the **bundle of His** and the **<span data-term="his-purkinje">Purkinje fibres</span>** through both ventricles. *(<a href="#/physiology/cvs/cardiac-conduction?section=2-the-pathway-of-cardiac-electrical-conduction">→ Cardiac Conduction, §2</a>)*
+- **Force: cardiac muscle (myocardium).** Cardiac muscle cells are electrically linked to one another. An impulse therefore spreads from cell to cell, and the muscle of each chamber contracts as one unit. *(<a href="#/physiology/cvs/cardiac-muscle?section=2-intercalated-discs-how-separate-cells-function-together">→ Cardiac Muscle, §2</a>)*
+- **Timing: the conducting system.** The impulse starts in the **<span data-term="sa-node">SA node</span>**, at the junction of the superior vena cava and the right atrium. It spreads across the atria to the **<span data-term="av-node">AV node</span>**, which holds it back briefly. It then races down the **bundle of His** and the **<span data-term="his-purkinje">Purkinje fibres</span>** through both ventricles. *(<a href="#/physiology/cvs/cardiac-conduction?section=2-the-pathway-of-cardiac-electrical-conduction">→ Cardiac Conduction, §2</a>)*
 
-The lecture notes that every part of the conducting system can fire on its own. The SA node normally sets the pace because it fires **fastest**, so it triggers the rest before they can fire themselves. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
+The lecture notes that every part of the conducting system can fire on its own. The SA node normally sets the pace because it fires **fastest**, so it triggers the rest before they can fire themselves. *(<a href="#/physiology/cvs/cardiac-conduction?section=3-why-is-the-sa-node-the-normal-pacemaker">→ Cardiac Conduction, §3</a>)*
 
 **Electrical activation always comes first; contraction follows.** The order in which the impulse spreads sets the order of contraction: the atria first, then, after the AV-node delay, the ventricles.
 
