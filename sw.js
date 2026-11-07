@@ -5,8 +5,8 @@
  * - Versioned files (content/*, *.js?v=, *.css?v=) never change, so they are served from the cache first.
  * - Pages always try the network first, so new content appears as soon as it is published. */
 'use strict';
-const VERSION = '43330b09c3';
-const SHELL = ["/", "styles.css?v=a36e86d432", "content/index.js?v=15658e61a8", "app.js?v=91a25f4282", "mobile-ui.js?v=d850511c50", "offline.js?v=eca48fe90b", "reader.js?v=fdcf6fb050", "figures.js?v=ff998896a1", "teaching-widgets.js?v=64cbdf3f39", "glossary.js?v=8e6c5d6225", "media.js?v=c47401262e", "image-viewer.js?v=5a41a9f63b"];
+const VERSION = '12a361bab3';
+const SHELL = ["/", "styles.css?v=1dbef962f8", "content/index.js?v=cd97e03d22", "app.js?v=91a25f4282", "mobile-ui.js?v=1115d72edd", "offline.js?v=eca48fe90b", "reader.js?v=fdcf6fb050", "figures.js?v=ff998896a1", "teaching-widgets.js?v=6e62495c19", "glossary.js?v=8e6c5d6225", "media.js?v=30180446e2", "image-viewer.js?v=5a41a9f63b"];
 const SHELL_CACHE = 'dom-shell-' + VERSION;
 const CONTENT_CACHE = 'dom-content';       // chapters, widgets, images: kept across versions (file names are versioned)
 const IMAGE_HOSTS = ['commons.wikimedia.org', 'upload.wikimedia.org'];

@@ -86,6 +86,8 @@ def responsive_images(html):
     return re.sub(r'<img\b[^>]*>',fix,html)
 # Reading layout: section numbers get their own span, and each set of Understanding Check
 # questions is grouped so it reads as one calm panel. Text and anchors are unchanged.
+def html_escape(x):
+    return x.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")
 def reading_layout(html):
     html=re.sub(r'(<h2 id="[^"]+">)(\d+\.)\s+',r'\1<span class="sec-num">\2</span> ',html)
     out=[];pos=0
@@ -100,7 +102,16 @@ def reading_layout(html):
         else:
             out.append(html[pos:m.start()]); body=html[m.end():end]
             label=m.group(0).replace('<p><strong>','<p class="check-label"><strong>',1)
-        out.append('<section class="check-block">'+label+body.rstrip('\n')+'</section>\n'); pos=end
+        # On phones the questions open in their own sheet: the block shows only this launcher card.
+        title=re.sub(r'<[^>]+>','',m.group(0))
+        title=re.sub(r'^\s*\d+\.\s*','',title).strip()
+        part=re.sub(r'^Understanding Check\s*[:—–-]?\s*','',title).strip()
+        n=len(re.findall(r'<details(?![^>]*figure-attribution)',body))
+        sub=(part+' · ' if part else '')+f'{n} question'+('s' if n!=1 else '')
+        launch=(f'<button type="button" class="check-launch" aria-haspopup="dialog" data-questions="{n}" data-part="{html_escape(part)}">'
+                '<span class="cl-badge" aria-hidden="true">?</span><span class="cl-text"><strong>Understanding Check</strong>'
+                f'<span class="cl-sub">{html_escape(sub)}</span></span><span class="cl-go">Start</span></button>')
+        out.append('<section class="check-block">'+launch+'<div class="check-body">'+label+body.rstrip('\n')+'</div></section>\n'); pos=end
     out.append(html[pos:])
     return ''.join(out)
 for t in topics: t['html']=responsive_images(reading_layout(t['html']))
