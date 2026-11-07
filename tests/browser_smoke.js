@@ -162,7 +162,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(await page.locator('button[data-reader-mode="continuous"]').getAttribute('aria-pressed') === 'true',
         `${where}: continuous is not the default`);
       const expected = await page.evaluate(() => {
-        const kids = [...document.querySelector('.article-text').children];
+        const kids = [...document.querySelector('.article-text').children].filter(k => k.tagName !== 'H1');   // hidden chapter title
         return kids.filter(k => k.tagName === 'H2').length + (kids[0] && kids[0].tagName !== 'H2' ? 1 : 0);
       });
       const visibleGroups = () => page.evaluate(() => {

@@ -62,7 +62,7 @@
 .foundation-link{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center;padding:13px 15px;background:var(--sheet);border:1px solid var(--line);border-radius:11px;text-decoration:none;font-weight:800;font-size:14px}
 .foundation-link span{color:var(--blue);font-size:12px}
 .lecture-footnav{margin-top:20px;display:flex;flex-wrap:wrap;gap:12px}
-@media(max-width:750px){.lecture-grid{grid-template-columns:1fr}.lecture-hero-layout{align-items:start}.lecture-stats{padding:10px 13px}}
+@media(max-width:760px){.lecture-grid{grid-template-columns:1fr}.lecture-hero-layout{align-items:start}.lecture-stats{padding:10px 13px}}
 @media(max-width:560px){.library-heading{align-items:start}.library-heading h2{font-size:21px}.library-tabs{width:100%}.library-tab{flex:1;padding:10px 8px;font-size:12px}.lecture-card{min-height:0;padding:22px 20px}.lecture-hero{padding:23px 22px}.lecture-hero-layout{gap:12px}.lecture-stats{display:none}.lecture-row{padding:14px 13px;gap:10px}.lecture-page-ref{max-width:95px;font-size:10px}.lecture-row-detail{font-size:11.5px}.lecture-order{width:30px;height:30px;font-size:11px}.lecture-row-title{font-size:12.5px}.lecture-arrow{font-size:17px}}
 
 @media(max-width:560px){.lecture-row{display:grid;grid-template-columns:30px minmax(0,1fr) 16px;grid-template-areas:"number main arrow" "number pages arrow";row-gap:3px}.lecture-order{grid-area:number}.lecture-row-main{grid-area:main}.lecture-page-ref{grid-area:pages;text-align:left;max-width:none;font-size:10.5px}.lecture-arrow{grid-area:arrow}}
@@ -115,7 +115,7 @@
 .article-text .animation-resource .media-stage img{max-width:100%;width:auto;max-height:660px;height:auto;display:block;margin:auto}
 .article-text .media-resource .media-credit{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0 0}
 .article-text .media-resource .media-credit a{color:var(--blue)}
-@media(max-width:680px){.article-text .media-resource{padding:16px 15px}.article-text .media-resource .media-outlink{display:block;margin:12px 0 0}}
+@media(max-width:660px){.article-text .media-resource{padding:16px 15px}.article-text .media-resource .media-outlink{display:block;margin:12px 0 0}}
 
 
 /* DOMiNANCE compact teaching standard: readable density, no oversized decorative gaps. */
@@ -212,7 +212,7 @@
 .article-text .cardiac-output-figure{margin:13px 0 16px;padding:11px 12px}
 .article-text .cardiac-output-figure svg{max-height:290px}
 .article-text .cardiac-output-figure p{font-size:12px;line-height:1.55;margin-top:7px}
-@media(max-width:680px){.article-text .co-impact-strip{gap:5px}.article-text .co-impact-strip>span{padding:7px}.article-text .co-impact-strip strong{font-size:11.5px}.article-text .co-impact-strip small{font-size:10px}.article-text .co-compare-grid{grid-template-columns:1fr;gap:6px}.article-text .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}.article-text .co-compare-grid small{grid-column:1/-1}.article-text .cardiac-output-figure svg{max-height:235px}}
+@media(max-width:660px){.article-text .co-impact-strip{gap:5px}.article-text .co-impact-strip>span{padding:7px}.article-text .co-impact-strip strong{font-size:11.5px}.article-text .co-impact-strip small{font-size:10px}.article-text .co-compare-grid{grid-template-columns:1fr;gap:6px}.article-text .co-compare-grid>div{display:grid;grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}.article-text .co-compare-grid small{grid-column:1/-1}.article-text .cardiac-output-figure svg{max-height:235px}}
 @media(max-width:350px){.article-text .co-impact-strip{grid-template-columns:1fr}.article-text .co-impact-strip>span{display:block}.article-text .co-impact-strip small{display:inline;margin-left:7px}.article-text .co-cause-flow span{font-size:11px}}
 
 
@@ -225,7 +225,7 @@
 .article-text .work-pv-figure{margin:13px 0 17px;padding:12px 13px}
 .article-text .work-pv-figure svg{max-height:270px}
 .article-text .work-pv-figure p{font-size:12px;line-height:1.55;margin-top:7px}
-@media(max-width:680px){.article-text .fick-process{gap:5px;padding:8px 10px}.article-text .fick-process strong{font-size:11.5px}.article-text .fick-process small{font-size:10px}.article-text .work-pv-figure{padding:10px}.article-text .work-pv-figure svg{max-height:225px}}
+@media(max-width:660px){.article-text .fick-process{gap:5px;padding:8px 10px}.article-text .fick-process strong{font-size:11.5px}.article-text .fick-process small{font-size:10px}.article-text .work-pv-figure{padding:10px}.article-text .work-pv-figure svg{max-height:225px}}
 
 
 /* Chapter 09: compact hemodynamics models and radius comparisons. */
@@ -252,7 +252,7 @@
 .article-text .bp-drop-strip strong{font-size:12px}.article-text .bp-drop-strip small{font-size:10.5px;color:var(--muted)}
 .article-text .bp-drop-strip b{color:var(--blue);font-size:14px}
 @media(max-width:660px){.article-text .bp-windkessel-figure svg{max-height:155px}.article-text .bp-height-rules{gap:6px}.article-text .bp-height-rules>div{padding:9px}.article-text .bp-height-rules strong{font-size:11.5px}.article-text .bp-height-rules span{font-size:12.5px}.article-text .bp-height-rules small{font-size:10px}}
-@media(max-width:340px){.article-text .bp-height-rules{grid-template-columns:1fr}}
+@media(max-width:350px){.article-text .bp-height-rules{grid-template-columns:1fr}}
 
 
 /* Chapters 11–15: compact mobile-first pressure waves, fluid balance and lymph flows. */
@@ -330,7 +330,7 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .figure-viewer img{display:block;max-width:100%;max-height:calc(94dvh - 110px);height:auto;width:auto;object-fit:contain;margin:0 auto}
 .figure-viewer-close{display:block;position:sticky;top:0;margin-left:auto;margin-bottom:8px;background:var(--sheet2);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:9px 14px;font-weight:700;cursor:pointer;z-index:2}
 .figure-viewer-caption{font-size:.85rem;line-height:1.45;color:var(--muted);margin:8px 6px 2px}
-@media(max-width:500px){.figure-viewer{padding:8px}.figure-viewer img{max-height:calc(94dvh - 100px)}}
+@media(max-width:560px){.figure-viewer{padding:8px}.figure-viewer img{max-height:calc(94dvh - 100px)}}
 
 /* Platform landing page: subject-agnostic identity, real courses only as links. */
 .platform-hero{position:relative;overflow:hidden;margin:24px 0 27px;padding:clamp(27px,5vw,55px);border-radius:22px;background:linear-gradient(125deg,#11316c,#2258bc 65%,#3778d2);color:#fff;box-shadow:var(--sh)}
@@ -354,8 +354,8 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .platform-open{color:var(--blue);font-size:.84rem;font-weight:750;margin-top:auto;padding-top:10px}
 .platform-upcoming{opacity:.78}
 .platform-note{font-size:.87rem;color:var(--muted);margin:18px 0 0}
-@media(max-width:900px){.platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:500px){.platform-hero{margin-top:15px;padding:24px 19px;border-radius:17px}.platform-grid{gap:10px}.platform-system{padding:15px 11px}.platform-system h4{font-size:.9rem}.platform-system p{font-size:.79rem}}
+@media(max-width:940px){.platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.platform-hero{margin-top:15px;padding:24px 19px;border-radius:17px}.platform-grid{gap:10px}.platform-system{padding:15px 11px}.platform-system h4{font-size:.9rem}.platform-system p{font-size:.79rem}}
 @media(prefers-reduced-motion:reduce){.platform-available{transition:none}}
 
 /* CVS equations: readable, contained and touch-scrollable on narrow phones. */
@@ -431,7 +431,7 @@ display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;background:var(--shee
 .tw-step-copy{display:block;margin-top:10px;padding:10px 13px;background:var(--sheet);border:1px solid var(--line);border-radius:11px;font-size:13.5px;line-height:1.55;color:var(--text)}.tw-step-title{display:block;color:var(--navy);margin-bottom:2px}
 .tw-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px}.tw-scroll:focus-visible{outline:3px solid var(--focus)}
 .tw-wiggers-svg{min-width:600px}.tw-legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px!important;color:var(--muted);margin:6px 0 0!important}.tw-legend b{color:var(--navy)}
-.tw-swipe{display:none}@media(max-width:640px){.tw-swipe{display:inline;font-style:italic}}
+.tw-swipe{display:none}@media(max-width:660px){.tw-swipe{display:inline;font-style:italic}}
 .hr-slider{border:1px solid var(--line);border-radius:16px;padding:16px 16px 12px;background:var(--sheet2);margin:10px 0 24px}
 .tw-hr-label{display:block;font-weight:700;font-size:14px}.tw-hr input[type=range]{width:100%;min-height:44px;accent-color:var(--blue);margin:4px 0}
 .tw-hr-bar{height:10px;background:var(--sheet);border:1px solid var(--line);border-radius:6px;overflow:hidden}.tw-hr-bar span{display:block;height:100%;background:var(--w-lv);transition:width .15s}
@@ -762,3 +762,14 @@ html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
 [data-theme="dark"] .dom-toast{background:#22365a}
 .toc-keys{margin:10px 0 0;font-size:11px;color:var(--muted)}.toc-keys kbd{display:inline-block;min-width:20px;padding:1px 5px;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;background:var(--sheet2);font:700 11px/1.4 ui-monospace,monospace;text-align:center;color:var(--text)}
 @media(hover:none){.toc-keys{display:none}}
+/* Touch screens of any size (tablets included): comfortable header targets. */
+@media(pointer:coarse){.brand,.nav-link{min-height:44px;display:inline-flex;align-items:center}.small-icon{height:44px;min-width:44px}}
+/* Wide tables on phones scroll sideways: soft shadows at the edges show there is more to see. */
+@media(max-width:660px){
+  .article-text table{background:linear-gradient(90deg,var(--sheet) 30%,transparent) left/28px 100% no-repeat local,linear-gradient(270deg,var(--sheet) 30%,transparent) right/28px 100% no-repeat local,radial-gradient(farthest-side at 0 50%,rgba(16,35,70,.22),transparent) left/12px 100% no-repeat scroll,radial-gradient(farthest-side at 100% 50%,rgba(16,35,70,.22),transparent) right/12px 100% no-repeat scroll;-webkit-overflow-scrolling:touch}
+}
+/* Continue where you left off */
+.resume-card{display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:14px 16px;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:16px;background:var(--sheet);text-decoration:none;color:var(--text)}
+.resume-card:hover{border-color:var(--blue)}
+.resume-text{display:grid;gap:2px;min-width:0;flex:1}.resume-text small{color:var(--muted);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11px}.resume-text strong{color:var(--navy);overflow:hidden;text-overflow:ellipsis}.resume-text span{color:var(--muted);font-size:.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.resume-go{color:var(--blue);font-weight:800;white-space:nowrap}
