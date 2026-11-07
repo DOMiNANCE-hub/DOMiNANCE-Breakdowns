@@ -130,6 +130,8 @@
   }
   function setActive(id) {
     activeId = id;
+    const slug = (location.hash.split('?')[0].split('/')[3] || '');
+    if (slug && id) { try { localStorage.setItem('dom-last', JSON.stringify({slug, id, at: Date.now()})); } catch { /* not saved */ } }
     main.querySelectorAll('.toc a[data-scroll]').forEach(a => a.classList.toggle('is-active', a.dataset.scroll === id));
     sheet?.querySelectorAll('a[data-sheet]').forEach(a => {
       const on = a.dataset.sheet === id;

@@ -153,11 +153,20 @@
     return byLecture.get(m) || null;
   };
 
+  // "Continue where you left off": the last chapter and section read on this device.
+  function resumeCard() {
+    let last = null;
+    try { last = JSON.parse(readStore('dom-last') || 'null'); } catch { last = null; }
+    const t = last && bySlug.get(last.slug);
+    if (!t) return '';
+    const s = t.sections.find(x => x.id === last.id);
+    return `<a class="resume-card" href="${topicUrl(t.slug)}${s ? '?section=' + encodeURIComponent(s.id) : ''}"><span class="resume-text"><small>Continue where you left off</small><strong>${esc(t.title)}</strong>${s ? `<span>${esc(s.title)}</span>` : ''}</span><span class="resume-go" aria-hidden="true">Resume →</span></a>`;
+  }
   function cvsHome() {
     document.title = 'Cardiovascular Physiology | DOMiNANCE Breakdowns';
     main.innerHTML = `<section class="hero"><div class="hero-content"><div class="eyebrow">DOMiNANCE BREAKDOWNS · PHYSIOLOGY</div><h1>Cardiovascular Physiology,<br>Made Understandable.</h1><p>Understand your lectures through clear explanations of what happens, why it happens, and how the underlying mechanisms work.</p><span class="hero-chip">6 lecture documents · ${topics.length} breakdowns</span></div><div class="hero-visual"><div class="hero-orbit">${heroSvg}</div></div></section>
       <div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
-      <section class="offline-card" id="offline-card" aria-label="Offline reading"></section><label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
+      ${resumeCard()}<section class="offline-card" id="offline-card" aria-label="Offline reading"></section><label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div>`;
     const requestedView = new URLSearchParams((location.hash || '').split('?')[1] || '').get('view');
     let mode = requestedView === 'topics' ? 'topics' : (readStore('dom-library-view') === 'topics' ? 'topics' : 'lectures');
     let term = '';

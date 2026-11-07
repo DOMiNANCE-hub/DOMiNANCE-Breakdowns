@@ -26,6 +26,7 @@ function getSections(){
      current={heading:node,nodes:[node],name:node.textContent.trim()};
      groups.push(current);
    }else if(current){current.nodes.push(node)}
+   else if(node.tagName==='H1'){current=null}   // the chapter's own title is hidden; it is not a card
    else{
      if(!groups.length)groups.push({heading:null,nodes:[],name:'Introduction'});
      groups[0].nodes.push(node)
@@ -98,6 +99,15 @@ function mount(){
    if(event.key==='ArrowRight'||event.key==='PageDown'){event.preventDefault();if(activeSection<sections.length-1)go(activeSection+1)}
    if(event.key==='ArrowLeft'||event.key==='PageUp'){event.preventDefault();if(activeSection>0)go(activeSection-1)}
  });
+ // Cards mode on touch screens: swipe left/right to move between cards (not inside interactives or tables).
+ let sx=0,sy=0,st=0;
+ article.addEventListener('touchstart',e=>{if(mode!=='presentation'||e.touches.length!==1)return;const t=e.touches[0];sx=t.clientX;sy=t.clientY;st=Date.now()},{passive:true});
+ article.addEventListener('touchend',e=>{
+   if(mode!=='presentation'||!st)return;
+   const t=e.changedTouches[0],dx=t.clientX-sx,dy=t.clientY-sy;st=0;
+   if(e.target.closest('.teaching-widget,table,input,select,button,.view-switch,pre'))return;
+   if(Math.abs(dx)>70&&Math.abs(dx)>2*Math.abs(dy)){if(dx<0&&activeSection<sections.length-1)go(activeSection+1);else if(dx>0&&activeSection>0)go(activeSection-1)}
+ },{passive:true});
  main.querySelector('#sections-select')?.addEventListener('change',event=>{
    if(mode==='continuous')return;
    const index=sections.findIndex(s=>s.heading?.id===event.target.value);

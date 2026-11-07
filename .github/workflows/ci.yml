@@ -61,6 +61,9 @@ jobs:
       - name: Browser regression suite (27 chapters, 320–1280 px, phone emulation)
         run: node tests/browser_smoke.js
 
+      - name: Performance budget (download size, render-blocking scripts, layout shift)
+        run: node tests/perf_budget.js
+
       - name: Keep the structure report
         if: always()
         uses: actions/upload-artifact@v4
