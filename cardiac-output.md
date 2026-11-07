@@ -2,231 +2,228 @@
 
 ## 1. What is cardiac output, and why does it matter?
 
-**Cardiac output (CO)** is the **volume of blood ejected by one ventricle per unit time**, usually expressed in **litres per minute (L/min)**. It tells us how much blood the heart delivers to a circulation—not how much blood is ejected in a single beat.
+**Cardiac output (CO)** is the volume of blood **one ventricle** pumps out **each minute**. It is how much blood the heart delivers to the body, not how much it ejects in one beat.
 
-Two quantities determine cardiac output:
+It depends on two things:
 
-- **Heart rate (HR):** number of beats per minute.
-- **Stroke volume (SV):** blood ejected from one ventricle *per beat*.
+- **Heart rate (HR):** beats per minute.
+- **Stroke volume (SV):** the blood ejected by one ventricle in **one beat**.
 
 <div class="equation-block"><span class="equation-label">Cardiac output</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mi>HR</mi><mo>×</mo><mi>SV</mi></math><span class="equation-example">Example: 75 beats/min × 70 mL/beat = <strong>5,250 mL/min = 5.25 L/min</strong></span></div>
 
-**Why multiply?** Each beat sends out one stroke volume. If the ventricle pumps 70 mL each time and beats 75 times in one minute, the total volume ejected in that minute is 75 × 70 mL.
+**Why multiply?** Each beat sends out one stroke volume. 75 beats of 70 mL each is 75 × 70 mL in a minute.
 
-A representative resting cardiac output is approximately **5–5.5 L/min**. This is a representative value, not a universal constant: cardiac output varies with body size, activity and physiological conditions.
+At rest, cardiac output is about **5–5.5 L/min** in an adult. That is roughly the whole blood volume pumped round once a minute. It varies with body size and activity.
 
-### Why should right and left cardiac outputs be approximately equal?
+### Why must the right and left ventricles pump the same amount?
 
-The pulmonary and systemic circulations are **connected in series**. Blood ejected by the right ventricle enters the lungs and ultimately returns to the left ventricle. If one side consistently pumped a greater volume per minute than the other, blood would progressively accumulate in one circulation. The two outputs therefore remain approximately equal **over time**, although small moment-to-moment differences can occur.
+The two circulations are joined **in series**. Everything the right ventricle pumps into the lungs comes back to the left ventricle. If the right ventricle pumped even slightly more each minute than the left, blood would pile up in the lungs. So **over time the two outputs must be equal**, even though the left ventricle works at a much higher pressure. *(<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">→ Introduction, §2</a>)*
 
 ### Cardiac index: allowing for body size
 
-A person with a larger body generally needs more total blood flow than a smaller person. **Cardiac index (CI)** expresses cardiac output relative to **body surface area (BSA)**.
+A bigger person needs more blood flow than a smaller one. **<span data-term="cardiac-index">Cardiac index (CI)</span>** divides cardiac output by **body surface area (BSA)**, so people of different sizes can be compared fairly.
 
 <div class="equation-block"><span class="equation-label">Cardiac index</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CI</mi><mo>=</mo><mfrac><mi>CO</mi><mi>BSA</mi></mfrac></math><span class="equation-example">For CO = 5.25 L/min and BSA = 1.75 m²: <strong>CI = 3.0 L/min/m²</strong>.</span></div>
 
-Unlike CO, cardiac index is expressed as **L min⁻¹ m⁻²**. It is a size-adjusted measure, not a different kind of blood flow.
-
 ## 2. Why can changing heart rate alter cardiac output?
 
-From **CO = HR × SV**, increasing either HR or SV can raise output **if the other factor remains unchanged**. In a living heart, however, they are connected.
+From CO = HR × SV, a faster heart rate raises cardiac output **only if stroke volume holds up**.
 
-Sympathetic stimulation generally increases SA nodal firing (positive **<span data-term="chronotropy">chronotropy</span>**) and makes ventricular contraction stronger (positive **<span data-term="inotropy">inotropy</span>**). These effects can raise both HR and SV.
+**Sympathetic nerves usually raise both.** They speed the SA node (positive **<span data-term="chronotropy">chronotropy</span>**) and make each contraction stronger (positive **<span data-term="inotropy">inotropy</span>**). So in exercise, HR and SV rise together, and CO rises a lot.
 
-But **a faster heartbeat does not always mean more blood pumped per minute**. At very high rates, diastole becomes so short that ventricular filling decreases. Reduced filling can lower SV enough to offset the rise in HR.
+**But a very fast heart can pump less.** The ventricles fill during diastole. As heart rate rises, diastole shortens much more than systole. At very high rates there is too little time to fill, so each beat ejects less.
 
-**Example:** At 75 beats/min and 70 mL/beat, CO is **5.25 L/min**. At 130 beats/min but only 35 mL/beat, CO is **4.55 L/min**. Even though the heart beats faster, it pumps less blood per minute.
+**Example:** 75 beats/min × 70 mL = **5.25 L/min**. 130 beats/min × 35 mL = **4.55 L/min**. The heart is beating faster but pumping less.
 
 <div class="co-impact-strip" role="group" aria-label="Two determinants of cardiac output"><span><strong>HR ↑</strong><small>More beats per minute</small></span><span><strong>SV ↓ markedly</strong><small>Less blood each beat</small></span><span><strong>CO may ↓</strong><small>Depends on their product</small></span></div>
 
-**Reasoning rule:** Never predict cardiac output from heart rate alone unless you know what happens to stroke volume.
+**Rule:** never predict cardiac output from heart rate alone. Always ask what happened to stroke volume.
+
+**Understanding Check: Sections 1–2**
+
+<p><strong>1.</strong> A heart beats 80 times a minute and ejects 60 mL each beat. What is the cardiac output?<span class="mcq-options"><span class="mcq-option" data-option="A">A. 1.3 L/min, because 80 ÷ 60 = 1.3</span><span class="mcq-option" data-option="B">B. 4.8 L/min, because 80 × 60 mL = 4,800 mL/min</span><span class="mcq-option" data-option="C">C. 14.0 L/min, because 80 + 60 = 140</span><span class="mcq-option" data-option="D">D. 48.0 L/min, because 80 × 60 = 48,000 mL/min</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> CO = HR × SV = 80 × 60 mL = 4,800 mL/min = 4.8 L/min.</p></details>
+
+<p><strong>2.</strong> Why must right and left ventricular outputs be equal over time?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Both ventricles generate exactly the same pressure</span><span class="mcq-option" data-option="B">B. The two circulations are in series, so unequal outputs would pile up blood</span><span class="mcq-option" data-option="C">C. The septum lets blood mix until both ventricles hold the same volume</span><span class="mcq-option" data-option="D">D. The same nerve fires both ventricles at the same strength</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> All blood leaving the right ventricle returns to the left. Unequal outputs would move blood steadily from one circulation into the other.</p></details>
+
+<p><strong>3.</strong> Heart rate rises from 75 to 130 beats/min, while stroke volume falls from 70 to 35 mL. What happens to cardiac output?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It rises, because the heart is beating faster</span><span class="mcq-option" data-option="B">B. It stays the same, because the two changes cancel out</span><span class="mcq-option" data-option="C">C. It falls, because SV fell proportionally more than HR rose</span><span class="mcq-option" data-option="D">D. It cannot change, because CO depends only on venous return</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> 75 × 70 = 5.25 L/min; 130 × 35 = 4.55 L/min. Shorter filling time cut SV by half, which outweighed the faster rate.</p></details>
 
 ## 3. What determines stroke volume?
 
-From Chapter 04, **SV = EDV − ESV**: the amount ejected is the amount present at the end of filling minus the amount remaining after contraction.
+Stroke volume is what the ventricle starts with minus what it leaves behind: **SV = EDV − ESV** (end-diastolic volume minus end-systolic volume). *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
 
-Three closely related factors determine how much is ejected:
+Three things decide it:
 
-| Factor | The question it answers | Typical effect on SV, if other conditions are fixed |
+| Factor | The question it answers | If it rises (others unchanged) |
 |---|---|---|
-| **<span data-term="preload">Preload</span>** | How stretched is the ventricle before contraction? | More preload → usually higher SV within physiological limits |
-| **<span data-term="afterload">Afterload</span>** | How difficult is it to eject blood? | More afterload → usually lower SV acutely |
-| **Contractility (inotropy)** | How strongly can the myocardium contract at the same loading? | Greater contractility → higher SV |
+| **<span data-term="preload">Preload</span>** | How stretched is the ventricle before it contracts? | SV rises (within limits) |
+| **<span data-term="afterload">Afterload</span>** | How hard is it to push the blood out? | SV falls |
+| **Contractility** | How strongly can the muscle contract at the same stretch? | SV rises |
 
-### Preload — the starting stretch
+### Preload: the starting stretch
 
-**Preload** refers to ventricular myocardial fibre stretch (and associated passive wall stress) **at the end of diastole**, just before contraction.
+**Preload** is how stretched the ventricular muscle is **at the end of filling**, just before it contracts. The more blood that fills the ventricle, the more it stretches. So **end-diastolic volume (EDV)** is the usual way to estimate preload.
 
-More blood returning to a compliant ventricle usually increases **end-diastolic volume (EDV)** and stretches its fibres. EDV is therefore a useful teaching representation of preload. End-diastolic pressure is another clinical surrogate, but **volume and pressure are not interchangeable**, particularly in a stiff ventricle.
+**Volume and pressure are not the same.** A stiff ventricle can have a high filling pressure while holding little blood, so filling pressure can mislead.
 
-**Analogy:** Gently stretching an elastic band before releasing it can help it recoil more forcefully. It is only an analogy: cardiac muscle is active tissue, and excessive stretch does not produce unlimited pumping.
+### Afterload: the load against ejection
 
-### Afterload — the resistance or load against ejection
+**Afterload** is what the ventricle must push against to eject blood. For the left ventricle, it is mainly the **pressure in the aorta**: the aortic valve only opens once ventricular pressure exceeds it. A higher aortic pressure means more of each contraction is spent just reaching that pressure, so **less blood is ejected** and more is left behind (higher ESV).
 
-**Afterload** is the mechanical load the ventricle must overcome during ejection. On the left side it is related to **aortic pressure, arterial properties and ventricular wall stress**. Peripheral vascular resistance contributes to the load but is not identical to afterload.
+### Contractility: how strong the muscle is at a given stretch
 
-If aortic pressure rises suddenly while preload and contractility remain unchanged, the ventricle must generate more force before and during ejection; it will generally eject **less blood in that beat**, leaving a higher ESV.
+**Contractility** (inotropy) is how forcefully the muscle contracts **at the same stretch and the same load**. It depends mainly on how much calcium reaches the contractile proteins in each beat. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
 
-### Contractility — how capable the muscle is at a given load
-
-**Contractility** is the intrinsic ability of the myocardium to develop force **when preload and afterload are held comparable**. It depends strongly on intracellular Ca²⁺ cycling and the contractile machinery.
-
-**Important distinction:** A ventricle that contracts more forcefully *because it filled more* is using the Frank–Starling mechanism; that does **not automatically mean its intrinsic contractility increased**.
+**Key distinction:** a ventricle that contracts harder **because it was stretched more** is using the Frank–Starling mechanism. That is **not** a rise in contractility. A rise in contractility means a stronger contraction **without** extra stretch.
 
 ## 4. Frank–Starling law: why does more filling produce more ejection?
 
-Imagine more blood returning through the veins. The extra blood enters a ventricle during diastole and stretches its muscle fibres before the next beat.
+**The law:** within normal limits, **the more the ventricle is filled, the more it ejects**.
 
-Within the normal operating range, increased initial sarcomere length improves force development during the next contraction. This reflects **length-dependent activation**, including improved myofilament sensitivity to Ca²⁺ and more favourable interaction between contractile proteins.
+**Why does stretched muscle contract harder?** Two reasons:
+
+1. **Better overlap of the filaments.** At normal resting volumes, the heart's <span data-term="sarcomere">sarcomeres</span> are shorter than their best length. Stretching them brings actin and myosin closer to the length where the most cross-bridges can form.
+2. **The muscle becomes more sensitive to calcium.** Stretch makes the contractile proteins respond more strongly to the same amount of calcium.
 
 <div class="co-cause-flow" role="group" aria-label="Frank Starling mechanism"><span>Venous return ↑</span><b>→</b><span>EDV and fibre stretch ↑</span><b>→</b><span>Force generated ↑</span><b>→</b><span>SV ↑</span></div>
 
-Thus, the **Frank–Starling law** states that **within physiological limits, the heart tends to eject more blood when its fibres are stretched more during filling**.
+**What is it for? Matching output to input, beat by beat.** If more blood returns to a ventricle, it stretches more and ejects more, so blood doesn't pile up. This is also what keeps the two ventricles in step: if the right ventricle sends a little extra to the lungs, the left ventricle fills a little more and pumps it out. No nerve signal is needed. It is built into the muscle.
 
-**Why is this useful?** It helps match the amount of blood ejected to the amount returning to the heart. If venous return increases, the ventricle can automatically increase SV without needing a new sympathetic command for every extra millilitre received.
+**Does more filling always mean more output?** No. At high filling, the curve **flattens**: extra volume adds less and less SV. A badly failing ventricle may sit on a flat curve, where extra filling mainly raises pressure behind the heart and causes congestion.
 
-### Does greater preload always increase stroke volume?
-
-**No.** The relationship is not unlimited. At high filling levels the curve becomes flatter, so additional volume yields progressively less extra output. A severely failing ventricle may be particularly unresponsive to extra filling while pressure rises enough to cause congestion.
-
-Lecture slide 39 includes a **dashed descending limb** at extreme stretch. That portion is a conceptual teaching extension: ordinary intact human hearts do **not normally operate on a descending Frank–Starling limb**.
+<aside class="source-note"><strong>Source note:</strong> The lecture's curve shows a dashed falling limb at extreme stretch. That is a teaching extension: an intact human heart does not normally work on a falling limb.</aside>
 
 ## 5. How do we read Frank–Starling curves?
 
-The slides 39–41 show **ventricular performance** plotted against filling. The usual horizontal axis is EDV or a surrogate of preload; the vertical axis may be **stroke volume** or **cardiac output**, depending on the particular diagram.
+A Frank–Starling curve plots **stroke volume** (or cardiac output) against **filling** (EDV). There are two ways the point can move.
 
-<figure class="learning-figure cardiac-output-figure"><figcaption>Figure 01. Frank–Starling curves — preload versus pumping performance</figcaption><svg viewBox="0 0 640 295" role="img" aria-label="Schematic stroke-volume versus end-diastolic-volume graph showing increased, normal and reduced cardiac contractility curves."><line x1="85" y1="20" x2="85" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><line x1="85" y1="238" x2="600" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><path d="M99 229 C168 100 285 57 580 55" stroke="#2863dd" stroke-width="4.5" fill="none"/><path d="M99 232 C188 181 275 148 580 148" stroke="#16a085" stroke-width="4.5" fill="none"/><path d="M99 235 C205 222 320 208 580 207" stroke="#c39431" stroke-width="4.5" fill="none"/><g fill="currentColor" font-size="13"><text x="190" y="273">End-diastolic volume (preload) →</text><text x="22" y="130" transform="rotate(-90,22,130)">Stroke volume</text><text x="387" y="40">Greater contractility</text><text x="425" y="138">Reference</text><text x="432" y="196">Lower contractility</text></g></svg><p><strong>Read across one curve:</strong> changing EDV changes stroke volume by the Frank–Starling mechanism. <strong>Compare curves vertically:</strong> at the same EDV, greater intrinsic contractility gives greater SV (with afterload held constant). Original DOMiNANCE schematic; not patient-specific measurements.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="starling-explorer" data-desc="sr"><figcaption>Frank–Starling explorer</figcaption><p>Replaces the static curves. Three curves: low, normal and high contractility. A slider sets EDV, and the dot slides along the current curve. Buttons switch contractility, and the dot jumps up or down to another curve at the same EDV. A readout shows EDV, SV and CO (at 70 beats/min), and one sentence says which kind of change just happened.</p></figure>
 
-### A. Moving **along** the same curve
+### Moving along the same curve: a change in preload
 
-Suppose a person lies down after standing. Venous pooling in the legs decreases, so more blood returns to the heart, EDV increases and the ventricle moves **rightwards and upwards along a curve**.
+Someone who has been standing lies down. Blood stops pooling in the legs and returns to the heart, so EDV rises. The point moves **right and up along the same curve**: more filling, more SV. Contractility has not changed.
 
-This is primarily a change in **preload**, without requiring the intrinsic contractility of the myocardium to change.
+### Jumping to another curve: a change in contractility
 
-### B. Shifting **between** curves
+Two beats have **the same EDV**, but before the second one, sympathetic nerves raise calcium entry. The second beat ejects more **without any extra stretch**: the point jumps to a **higher curve**. A weakened heart muscle sits on a **lower curve**.
 
-Now imagine two beats with the **same EDV**, but sympathetic stimulation has increased intracellular Ca²⁺ availability during the second beat. The second beat can eject a greater SV **without additional stretch**. This is a change in **contractile state**, represented by an **upward function-curve shift**.
+**Careful:** a higher afterload also lowers the curve. So a lower curve doesn't prove that contractility has fallen, unless afterload is the same.
 
-A fall in contractility, as in significant myocardial dysfunction, tends to produce a **lower curve**. Higher afterload can also lower ventricular performance at a given EDV, so **a shifted curve is not proof of altered contractility unless afterload is accounted for**.
+### Two lecture terms: heterometric and homometric
 
-### The unusual terms: heterometric and homometric
-
-| Term | Meaning | Typical example |
+| Term | Meaning (break it down) | Example |
 |---|---|---|
-| **Heterometric regulation** | Adjusting output through changes in the initial fibre length (preload) | Frank–Starling response to increased venous return |
-| **Homometric regulation** | Adjusting force independently of the initial fibre length | β₁-mediated increase in contractility at the same EDV |
+| **<span data-term="heterometric">Heterometric</span>** regulation | *hetero* = different, *metric* = length: output changes because the **starting length changes** | More venous return → more stretch → more SV (Frank–Starling) |
+| **<span data-term="homometric">Homometric</span>** regulation | *homo* = same: output changes at the **same starting length** | Sympathetic stimulation → stronger beat at the same EDV |
 
-**Exam insight:** *Heterometric* changes the starting length; *homometric* changes pumping performance **without needing a length change**.
+**Understanding Check: Sections 3–5**
+
+<p><strong>1.</strong> Two beats have the same EDV, but the second ejects more blood after sympathetic stimulation. What changed?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Preload rose, moving the beat along the same curve</span><span class="mcq-option" data-option="B">B. Contractility rose, shifting the beat to a higher curve</span><span class="mcq-option" data-option="C">C. Afterload rose, making ejection easier for the ventricle</span><span class="mcq-option" data-option="D">D. Venous return rose, stretching the fibres more</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> With EDV unchanged, the stretch is the same. A bigger SV at the same stretch means stronger contraction: a higher curve (homometric regulation).</p></details>
+
+<p><strong>2.</strong> Why does a stretched ventricle contract more forcefully?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Stretch opens more gap junctions between the cells</span><span class="mcq-option" data-option="B">B. Stretch triggers a sympathetic reflex from the atria</span><span class="mcq-option" data-option="C">C. Stretch brings filaments to better overlap and raises calcium sensitivity</span><span class="mcq-option" data-option="D">D. Stretch lowers aortic pressure so ejection is easier</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Normal resting sarcomeres are shorter than optimal, so stretch improves actin–myosin overlap, and the proteins also respond more strongly to calcium.</p></details>
+
+<p><strong>3.</strong> Aortic pressure suddenly rises, with no change in filling or contractility. What happens to the next beat?<span class="mcq-options"><span class="mcq-option" data-option="A">A. SV rises, because the ventricle contracts against more force</span><span class="mcq-option" data-option="B">B. SV is unchanged, because preload and contractility are the same</span><span class="mcq-option" data-option="C">C. SV falls and more blood is left behind in the ventricle</span><span class="mcq-option" data-option="D">D. SV falls because the ventricle fills less during diastole</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Higher afterload means more of the contraction is spent reaching aortic pressure, so less is ejected and ESV rises.</p></details>
+
+<p><strong>4.</strong> Someone who has stood still for a long time lies down. Where does their heart move on the Frank–Starling graph?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Along the same curve, to the right and up</span><span class="mcq-option" data-option="B">B. To a higher curve, at the same EDV</span><span class="mcq-option" data-option="C">C. Along the same curve, to the left and down</span><span class="mcq-option" data-option="D">D. To a lower curve, at the same EDV</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> Lying down returns pooled blood to the heart, raising EDV. More filling moves the point along the same curve: preload changed, not contractility.</p></details>
 
 ## 6. What raises or lowers end-diastolic volume?
 
-**EDV depends on how much blood returns, the time available to fill, and whether the ventricle can accommodate that blood.** More venous return does not always translate into the same EDV change if ventricular compliance is impaired.
+EDV depends on **how much blood comes back**, **how long the ventricle has to fill** and **how easily it stretches**.
 
-| Often increases EDV | Why |
+| Raises EDV | Why |
 |---|---|
-| Increased blood volume | More blood available to return to the heart |
-| Increased venous tone | Shifts blood from compliant venous reservoirs towards the heart |
-| Skeletal-muscle pump | Contracting muscles compress veins and promote flow through one-way valves |
-| Respiratory pump | Breathing-related pressure changes can favour venous return |
-| Effective atrial contraction | Completes late ventricular filling |
-| Longer diastolic filling time | More time is available for blood to enter |
+| More blood volume | More blood available to return |
+| Veins tightening (venous tone ↑) | Squeezes blood out of the veins towards the heart |
+| Skeletal muscle pump | Contracting muscles squeeze veins; valves keep blood moving towards the heart |
+| Breathing (respiratory pump) | Breathing in lowers chest pressure and draws blood in |
+| Strong atrial contraction | Tops up the ventricle at the end of filling |
+| Longer filling time (slower heart rate) | More time for blood to enter |
 
-| Often reduces EDV or limits effective filling | Why |
+| Lowers EDV | Why |
 |---|---|
-| Haemorrhage / hypovolaemia | Less circulating blood and lower venous return |
-| Prolonged standing | Gravity promotes venous pooling in the legs |
-| Pericardial effusion / tamponade | External pericardial pressure limits ventricular expansion |
-| Reduced ventricular compliance | A stiff ventricle fills less readily for a given pressure |
-| Severe tachycardia | Shortened diastole limits filling time |
+| Blood loss | Less blood to return |
+| Standing still | Gravity pools blood in the leg veins |
+| Fluid around the heart (tamponade) | Pressure from outside stops the ventricle expanding |
+| A stiff ventricle | It resists stretching, so it fills less |
+| A very fast heart rate | Too little time to fill |
 
-**Myocardial infarction and infiltrative disease**, including endomyocardial fibrosis (EMF), also deserve consideration. These can impair relaxation, compliance and/or pumping; their effect on EDV is **not universally a simple decrease**. The precise direction depends on the disease and stage.
+The lecture also lists **heart attack (myocardial infarction)** and **endomyocardial fibrosis (EMF)**. Both damage or stiffen the ventricle wall, so filling and pumping are affected, and the effect on EDV depends on the disease and its stage.
 
 ## 7. What changes contractility?
 
-Sympathetic cardiac nerves release **noradrenaline (norepinephrine)**, while the adrenal medulla releases circulating **adrenaline (epinephrine)** and some noradrenaline. These catecholamines stimulate **β₁-adrenergic receptors** in the heart.
+**Sympathetic stimulation is the main way to raise contractility.** Sympathetic nerves release **noradrenaline** onto the heart, and the adrenal medulla releases **adrenaline** into the blood. Both act on **β₁ receptors** on heart muscle cells:
 
 <div class="co-cause-flow" role="group" aria-label="Beta adrenergic inotropic pathway"><span>β₁ receptor</span><b>→</b><span>Gs / adenylyl cyclase</span><b>→</b><span>cAMP / PKA ↑</span><b>→</b><span>Ca²⁺ cycling ↑</span><b>→</b><span>Stronger contraction</span></div>
 
-PKA signalling increases L-type Ca²⁺ entry and enhances Ca²⁺ release from the sarcoplasmic reticulum, allowing greater actin–myosin interaction. This produces **positive inotropy**. The same signalling can speed Ca²⁺ reuptake, producing **positive <span data-term="lusitropy">lusitropy</span>** (faster relaxation).
+In plain terms, the signal ends up letting **more calcium in** through L-type channels and **more calcium out of the sarcoplasmic reticulum**. More calcium means more cross-bridges and a stronger beat (positive **inotropy**). The same signal also speeds the pumping of calcium back into storage, so the muscle **relaxes faster** too (positive **<span data-term="lusitropy">lusitropy</span>**), which helps the ventricle refill at fast heart rates.
 
-The lecture cites **caffeine and theophylline** (xanthines). By inhibiting phosphodiesterase activity at sufficiently high concentrations, such agents can reduce cAMP breakdown, but their physiological and clinical effects are dose- and context-dependent. Do not assume everyday caffeine intake produces a predictable large positive inotropic response.
+**Caffeine and theophylline (<span data-term="xanthines">xanthines</span>)**, which the lecture lists, slow the breakdown of cAMP, so they can strengthen contraction. In everyday doses the effect is small.
 
-### What about the vagus nerve?
+**The vagus nerve has little direct effect on ventricular strength.** It mainly slows heart rate and AV conduction. Vagal nerve endings reach the atria and the nodes, but hardly reach the ventricular muscle.
 
-**Important distinction:** vagal effects are strong for **heart rate** and AV nodal conduction, but the **direct parasympathetic effect on ventricular contractility is relatively small**. Any fall in cardiac output may occur largely through changes in HR and filling rather than a large direct weakening of ventricular myocardium.
+**What weakens contraction?** The lecture lists **too much CO₂ (hypercapnia), too little oxygen (hypoxia), acidosis, some drugs and heart failure**. Low oxygen and acid both interfere with the cell's energy supply and its calcium handling, so each beat is weaker.
 
-### What can depress inotropy?
-
-Lecture slide 48 lists **hypercapnia, hypoxia, acidosis, selected drugs and cardiac failure**. Severe myocardial hypoxia and acidosis can interfere with Ca²⁺ handling and cellular energy availability, reducing force generation; myocardial injury or failure may also reduce contractility. Responses to individual drugs depend on their specific mechanism.
+<aside class="source-note"><strong>Source note:</strong> One lecture slide reverses the usual sources. Most of the noradrenaline reaching the heart comes from sympathetic nerves, while circulating adrenaline comes mainly from the adrenal medulla.</aside>
 
 ## 8. How do preload, afterload and inotropy differ in real situations?
 
 <div class="co-compare-grid" role="group" aria-label="Three ways stroke volume changes"><div><strong>More venous return</strong><span>Preload ↑</span><small>Often moves <em>along</em> the curve → SV ↑</small></div><div><strong>Higher aortic pressure</strong><span>Afterload ↑</span><small>Ejection becomes harder → SV may ↓</small></div><div><strong>β₁ stimulation</strong><span>Contractility ↑</span><small>More force at same EDV → SV ↑</small></div></div>
 
-**Why are these comparisons useful?** In a patient with blood loss, HR may rise through the sympathetic reflex, but low preload can still reduce SV and CO. In a patient with aortic stenosis, even a strong contraction faces a substantial outflow load. In a failing heart, giving more filling volume may only modestly increase SV if the ventricular function curve is flat.
+Three patients show why each factor must be thought about separately:
 
-These examples show why no single determinant should be interpreted in isolation.
+- **Blood loss:** heart rate rises, but there is so little blood returning (low preload) that SV and CO can still fall.
+- **Aortic stenosis:** even a strong contraction has to force blood through a narrow valve, a high load against ejection.
+- **Heart failure:** the curve is flat, so extra filling raises pressure and congestion more than SV.
 
 ## 9. What happens to cardiac output during exercise and other states?
 
-During **dynamic exercise**, several processes usually occur together: sympathetic stimulation increases HR and inotropy; the skeletal-muscle and respiratory pumps increase **venous return**; and arterioles supplying active muscle dilate. CO can therefore increase substantially by changes in **both** HR and SV.
+**In exercise, everything pushes cardiac output up at once:**
 
-**Lecture clarification:** Slide 49 contains an ambiguous downward-arrow description of venous return during exercise. For ordinary dynamic exercise, the expected effect of muscle and respiratory pumping is generally **increased**, not decreased, venous return. The diagrams on slides 50–51 also show increased venous return associated with the pumps.
+- Sympathetic nerves raise **heart rate** and **contractility**.
+- Contracting muscles and deeper breathing push more blood back to the heart (**more venous return**), so preload rises.
+- Blood vessels in active muscle widen, lowering resistance so blood flows out more easily.
 
-The lecture additionally mentions conditions associated with increased CO or cardiac demands: **eating, high environmental temperature, pregnancy, anxiety/excitement, catecholamines and thyrotoxicosis**. These conditions differ in mechanisms and magnitude; they are not interchangeable.
+So both HR and SV rise, and CO can increase several-fold.
 
-**Clinical connection — shock:** During major haemorrhage, venous return and preload decrease. Sympathetic tachycardia and vasoconstriction can help maintain arterial pressure temporarily, but this does not guarantee normal CO or adequate tissue perfusion.
+<aside class="source-note"><strong>Source note:</strong> One lecture slide shows a downward arrow for venous return during exercise. The lecture's own diagrams, and standard physiology, show that the muscle and breathing pumps <strong>increase</strong> venous return in exercise.</aside>
 
-## Understanding Check
+The lecture lists other states that raise cardiac output: **eating, a hot environment, pregnancy, anxiety and excitement, adrenaline-like drugs and an overactive thyroid (thyrotoxicosis)**. Each works through different mechanisms.
 
-**1. A person has a heart rate of 75 beats/min and stroke volume of 70 mL. Calculate CO and state the correct units.**
-<details><summary>Reveal explanation</summary><p><strong>CO = HR × SV = 75 × 70 = 5250 mL/min = 5.25 L/min.</strong> Heart rate counts beats per minute, while stroke volume gives the blood ejected per beat; multiplying cancels 'beats' and leaves volume per minute.</p></details>
+**Blood loss (link to shock):** after a large bleed, venous return and preload fall. Reflex sympathetic activity raises heart rate and tightens blood vessels to hold up blood pressure for a while, but if SV falls far enough, CO and tissue blood flow still fall. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
-**2. Why must right and left ventricular outputs be approximately equal over time, even though they pump against different pressures?**
-<details><summary>Reveal explanation</summary><p>The systemic and pulmonary circuits are arranged <strong>in series</strong>: what leaves the right heart eventually returns to the left heart. A persistent unequal flow would cause blood to accumulate in one circuit and deplete the other. The left ventricle produces higher pressure, but not a greater long-term flow rate.</p></details>
+**Understanding Check: Sections 6–9**
 
-**3. Heart rate rises from 75 to 130 beats/min, but SV falls from 70 to 35 mL. What happens to CO?**
-<details><summary>Reveal explanation</summary><p>Initially, CO = 75 × 70 = <strong>5.25 L/min</strong>. Afterwards CO = 130 × 35 = <strong>4.55 L/min</strong>. Thus CO <strong>decreases</strong> despite tachycardia. Severe shortening of filling time can reduce SV enough to outweigh the increase in HR.</p></details>
+<p><strong>1.</strong> Which change would lower end-diastolic volume?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Contracting leg muscles while walking briskly</span><span class="mcq-option" data-option="B">B. A slower heart rate that lengthens diastole</span><span class="mcq-option" data-option="C">C. Fluid around the heart pressing on the ventricles</span><span class="mcq-option" data-option="D">D. Veins tightening under sympathetic stimulation</span></span></p>
+<details class="mcq-answer" data-answer="C"><summary>Show answer and explanation</summary><p><em>Answer: C.</em> Fluid in the pericardium (tamponade) presses on the heart from outside, so the ventricles can't expand and fill. The other three all increase filling.</p></details>
 
-**4. Two ventricular beats have the same EDV, but the second ejects a larger SV following sympathetic stimulation. Has preload necessarily increased?**
-<details><summary>Reveal explanation</summary><p><strong>No.</strong> Same EDV implies comparable filling volume, while β₁ stimulation can increase Ca²⁺ entry and SR release, raising intrinsic contractility. At similar preload and afterload, this produces greater force and a larger SV, reflecting a <strong>higher ventricular function curve</strong> rather than merely movement along the original curve.</p></details>
+<p><strong>2.</strong> How does sympathetic stimulation make each contraction stronger?<span class="mcq-options"><span class="mcq-option" data-option="A">A. It stretches the ventricle so filaments overlap better</span><span class="mcq-option" data-option="B">B. It raises cAMP, so more calcium reaches the filaments</span><span class="mcq-option" data-option="C">C. It slows the heart, giving more time for filling</span><span class="mcq-option" data-option="D">D. It lowers aortic pressure, making ejection easier</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> β₁ stimulation raises cAMP, which increases calcium entry and release. More calcium means more cross-bridges and a stronger beat at the same stretch.</p></details>
 
-**5. A patient lies down after standing for a long time. Explain the expected Frank–Starling response.**
-<details><summary>Reveal explanation</summary><p>Standing promotes venous pooling. Lying down reduces the gravitational gradient, usually improving venous return and EDV. Extra ventricular filling stretches fibres, increasing force through <strong>length-dependent activation</strong> and generally increasing SV. This is primarily movement <strong>along</strong> a Frank–Starling curve.</p></details>
+<p><strong>3.</strong> A patient in severe heart failure is given a large volume of fluid. Why might their SV barely rise?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Their ventricle sits on a flat part of a low curve</span><span class="mcq-option" data-option="B">B. Fluid lowers their heart rate and so their output</span><span class="mcq-option" data-option="C">C. Extra fluid raises their contractility too much</span><span class="mcq-option" data-option="D">D. Fluid reduces afterload, so the ventricle empties early</span></span></p>
+<details class="mcq-answer" data-answer="A"><summary>Show answer and explanation</summary><p><em>Answer: A.</em> On a flat, low curve, extra filling adds little SV but raises the pressure behind the heart, worsening congestion.</p></details>
 
-**6. Why is EDV not an exact measure of preload in a very stiff ventricle?**
-<details><summary>Reveal explanation</summary><p>True preload concerns end-diastolic myocardial stretch and wall stress; EDV is only a surrogate. A stiff ventricle may develop high filling pressure with relatively little increase in volume or fibre stretch. Therefore identical EDVs or pressures need not imply identical myocardial preload across different ventricular properties.</p></details>
+<p><strong>4.</strong> Why does dynamic exercise increase venous return?<span class="mcq-options"><span class="mcq-option" data-option="A">A. Gravity drains blood from the legs more easily during exercise</span><span class="mcq-option" data-option="B">B. The vagus nerve opens the venous valves during exercise</span><span class="mcq-option" data-option="C">C. Lower heart rate gives the veins more time to empty</span><span class="mcq-option" data-option="D">D. Contracting muscles and deep breathing pump blood back to the heart</span></span></p>
+<details class="mcq-answer" data-answer="D"><summary>Show answer and explanation</summary><p><em>Answer: D.</em> Muscle contractions squeeze the veins (valves keep the flow heading to the heart), and deeper breathing draws blood into the chest.</p></details>
 
-**7. On a stroke-volume-versus-EDV graph, what distinguishes moving along one curve from shifting to a higher curve?**
-<details><summary>Reveal explanation</summary><p><strong>Along one curve:</strong> EDV changes, and the Frank–Starling length-dependent mechanism changes SV at the same functional state. <strong>Higher curve:</strong> at the same EDV, the ventricle ejects more blood, often because intrinsic contractility increased; reduced afterload can also improve performance, so loading conditions must be considered.</p></details>
+<p><strong>5.</strong> After a large bleed, a patient's heart rate is 130 beats/min, yet their tissues are poorly perfused. What is the best explanation?<span class="mcq-options"><span class="mcq-option" data-option="A">A. A high heart rate always reduces cardiac output</span><span class="mcq-option" data-option="B">B. Low preload cut SV so much that faster beating could not make up for it</span><span class="mcq-option" data-option="C">C. Sympathetic stimulation weakens contraction after blood loss</span><span class="mcq-option" data-option="D">D. The extra beats raise afterload, so no blood is ejected</span></span></p>
+<details class="mcq-answer" data-answer="B"><summary>Show answer and explanation</summary><p><em>Answer: B.</em> Blood loss reduces venous return and EDV, so SV falls. Since CO = HR × SV, a large enough fall in SV beats the rise in HR.</p></details>
 
-**8. An acute increase in aortic pressure occurs without an immediate change in preload or contractility. Predict the first-beat effect on SV.**
-<details><summary>Reveal explanation</summary><p><strong>SV usually decreases.</strong> Higher aortic pressure increases the load opposing ventricular ejection. With initially unchanged preload and inotropy, the ventricle ejects less blood, leaving more residual ESV. Later compensatory changes can alter the result, but they are not part of the immediate first-beat prediction.</p></details>
+## 10. Chapter Essentials
 
-**9. Why might a large intravenous fluid load fail to appreciably raise SV in a severely failing ventricle?**
-<details><summary>Reveal explanation</summary><p>In marked systolic dysfunction the Frank–Starling curve may be relatively <strong>flat</strong> at high filling levels. Additional filling can markedly increase pressures and congestion while producing only a small increase in force and SV. More preload therefore does not guarantee proportionately greater output.</p></details>
-
-**10. How can β₁ stimulation increase contraction strength and accelerate myocardial relaxation?**
-<details><summary>Reveal explanation</summary><p>β₁ receptors activate Gs → adenylyl cyclase → cAMP → PKA. Greater L-type Ca²⁺ influx and SR Ca²⁺ release strengthen contraction (<strong>positive inotropy</strong>), while enhanced SERCA-mediated Ca²⁺ reuptake accelerates relaxation (<strong>positive lusitropy</strong>). The two effects arise from different parts of the same signalling pathway.</p></details>
-
-**11. Why does dynamic exercise usually increase venous return rather than reduce it?**
-<details><summary>Reveal explanation</summary><p>Contracting skeletal muscles compress veins, and one-way venous valves favour flow towards the heart. Respiratory pressure changes also support return. Combined with sympathetic venoconstriction, these mechanisms tend to move more blood back to the heart, increasing preload and helping sustain the higher CO required during exercise.</p></details>
-
-**12. A patient loses a large volume of blood, becomes tachycardic, yet develops poor tissue perfusion. Explain using CO, preload and compensation.**
-<details><summary>Reveal explanation</summary><p>Haemorrhage reduces blood volume and venous return, causing <strong>lower preload and EDV</strong>. The reduction in SV can markedly reduce CO. Reflex sympathetic stimulation increases HR and vascular resistance, which may support arterial pressure temporarily; however, CO = HR × SV means a sufficiently large SV fall can overwhelm tachycardic compensation, leaving tissue perfusion inadequate.</p></details>
-
-## Chapter Essentials
-
-1. **Cardiac output:** CO = HR × SV, measured in L/min; right and left outputs are approximately equal over time.
-2. **Cardiac index:** CI = CO/BSA, measured in L/min/m².
-3. **Stroke volume:** SV = EDV − ESV; altered HR alone does not predict CO.
-4. **Preload:** End-diastolic myocardial fibre stretch; EDV and filling pressure are imperfect surrogates.
-5. **Afterload:** Mechanical load opposing ejection; acute increase generally lowers SV at unchanged preload/inotropy.
-6. **Contractility:** Ability to develop force at comparable loading; β₁ stimulation increases inotropy through cAMP/PKA/Ca²⁺.
-7. **Frank–Starling law:** Within physiological limits, increased filling and fibre length increase force and SV.
-8. **Curve interpretation:** Changing preload moves <em>along</em> a curve; changing contractile state shifts performance between curves.
-9. **Heterometric regulation:** Change in fibre starting length; **homometric regulation:** change in force without change in starting length.
-10. **Venous return and EDV:** Supported by blood volume, venous tone, muscle pump and respiratory pump; restricted by pooling, tamponade and stiff ventricles.
-11. **Vagal influence:** Dominant direct effects on HR and AV conduction; direct ventricular negative inotropy is small.
-12. **Severe dysfunction:** A flat Frank–Starling curve means more filling may raise congestion more than SV.
-13. **Exercise and haemorrhage:** CO must be reasoned from changes in both HR and SV, not heart rate alone.
+1. **CO = HR × SV**, about 5–5.5 L/min at rest. Right and left outputs must be equal over time (in series).
+2. **Cardiac index** = CO ÷ body surface area (L/min/m²).
+3. **Heart rate alone doesn't predict CO.** Very fast rates shorten filling and can lower SV enough to drop CO.
+4. **SV = EDV − ESV**, set by preload, afterload and contractility.
+5. **Preload** = the stretch before contraction (estimated by EDV). **Afterload** = what the ventricle pushes against (mainly aortic pressure). **Contractility** = strength at the same stretch.
+6. **Frank–Starling:** more filling → more stretch → better filament overlap and calcium sensitivity → more SV. It matches output to input and keeps the two ventricles in step.
+7. **Along the curve** = preload change (heterometric). **To a new curve** = contractility change (homometric). Afterload also shifts curves.
+8. **EDV rises** with more blood volume, venous tone, muscle and breathing pumps, atrial contraction and longer filling. **It falls** with blood loss, standing, tamponade, stiff ventricles and very fast rates.
+9. **Sympathetic β₁ → cAMP → more calcium** → stronger contraction and faster relaxation. The vagus mainly slows the heart and barely weakens the ventricles.
+10. **Hypoxia, hypercapnia, acidosis, some drugs and heart failure** weaken contraction.
+11. **Exercise** raises HR, contractility and venous return together. Blood loss lowers preload, and tachycardia may not save CO.
