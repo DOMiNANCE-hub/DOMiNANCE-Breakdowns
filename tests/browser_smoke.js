@@ -187,6 +187,39 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log(`  ${name}: ${topics.length} chapters checked`);
   }
 
+  // ---------- Understanding Check on desktop ----------
+  section('Desktop Understanding Checks: compact launcher, focused dialog, answer state and Escape');
+  {
+    const page = await newPage(browser, base, { viewport: { width: 1280, height: 800 } });
+    await openRoute(page, base, chapterUrl('cardiac-cycle'));
+    const launch = page.locator('.article-sheet .check-launch').first();
+    check(await launch.isVisible(), 'desktop Understanding Check launcher is not visible');
+    check(!(await page.locator('.article-sheet .check-body').first().isVisible()),
+      'desktop Understanding Check questions should not appear inline in the notes');
+    await launch.click();
+    const dialog = page.locator('.check-sheet[role="dialog"]');
+    check(await dialog.isVisible(), 'desktop Understanding Check window did not open');
+    check(await dialog.getAttribute('aria-modal') === 'true', 'desktop Understanding Check missing modal semantics');
+    const first = dialog.locator('button.mcq-option').first();
+    if (await first.count()) {
+      await first.click();
+      check(await dialog.locator('details:not(.figure-attribution)').first().evaluate(e => e.open),
+        'Understanding Check answer feedback did not open');
+    } else {
+      await dialog.locator('details:not(.figure-attribution) summary').first().click();
+    }
+    await page.keyboard.press('Escape');
+    await dialog.waitFor({ state: 'hidden' });
+    check(!(await dialog.isVisible()), 'Escape did not close the desktop Understanding Check');
+    await launch.click();
+    check(await dialog.locator('details:not(.figure-attribution)').first().evaluate(e => e.open),
+      'Understanding Check lost its answer when reopened');
+    await dialog.locator('.cs-done').click();
+    await page.waitForTimeout(300);
+    check(page.pageErrors.length === 0, 'desktop Understanding Check browser errors');
+    await page.context().close();
+  }
+
   // ---------- 3. Reading modes on every chapter ----------
   section('Reading modes (Continuous / Sections / Cards) on every chapter at 390 px');
   {
@@ -595,8 +628,9 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(!JSON.stringify(sent).match(/@|name/i), `feedback @${width}: events should carry nothing personal`);
       // Report a problem with a set of questions
       await openRoute(page, base, chapterUrl('reflexes'));
-      if (width < 760) { await page.locator('.check-launch').first().click(); await page.waitForTimeout(260); }
-      const scope = width < 760 ? '.check-sheet' : '.article-text';
+      await page.locator('.check-launch').first().click();
+      await page.waitForTimeout(260);
+      const scope = '.check-sheet';
       await page.locator(`${scope} .check-report`).first().click();
       check(await page.locator('#fb-where option').count() === 4, `feedback @${width}: question report should offer "in general" + 3 questions`);
       // Before the database is connected the form says so instead of pretending.

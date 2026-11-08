@@ -53,6 +53,18 @@ jobs:
       - name: JavaScript syntax check
         run: for f in *.js api/*.js tests/*.js; do node --check "$f" || exit 1; done
 
+      - name: Validate Cloudflare Pages release export
+        run: |
+          node --check tools/cloudflare_export.mjs
+          for f in functions/api/*.js; do node --check "$f" || exit 1; done
+          node tools/cloudflare_export.mjs
+          test -f dist/index.html
+          test -f dist/content/index.js
+          test -f dist/_routes.json
+          test ! -d dist/api
+          test ! -d dist/tests
+          test ! -d dist/functions
+
       - name: Install Playwright and Chromium
         run: |
           npm install --no-save --no-package-lock playwright@1.63.0
