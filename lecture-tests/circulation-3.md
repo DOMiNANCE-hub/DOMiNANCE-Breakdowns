@@ -3,7 +3,7 @@
 Lecture: CIRCULATION 3 Homeostasis in CVS.pdf; Lecture 5 Homeostais in CVS.pdf
 Lecture slug: circulation-3
 Chapters: gravity, shock, heart-failure
-Status: WORK IN PROGRESS — initial 12-question drafting batch; NOT a complete lecture test and NOT approved for student release.
+Status: Full 62-question draft completed by ChatGPT from the lecture and approved chapters; pending independent academic approval.
 
 ### Q1
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
@@ -804,4 +804,196 @@ Not A: Anaphylaxis typically causes dilation and increased leak.
 Not C: Occult bleeding is not the primary allergic vascular mechanism.
 Not D: Higher pump performance would not explain the sudden widespread leakage.
 Slides: Circulation 3, slides 30
+
+### Q51
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 1. What is heart failure?
+Type: comparison
+Stem: Which contrast best distinguishes forward failure from backward failure?
+A. Forward is venous congestion; backward is low organ blood flow.
+B. Forward means low tissue delivery; backward means upstream congestion.
+C. Forward is confined to the right heart; backward to the left.
+D. Forward indicates excess cardiac output; backward low afterload.
+Answer: B
+Why: Forward failure describes inadequate delivery to downstream tissues, whereas backward failure describes elevated pressure and congestion upstream of a failing chamber.
+Not A: The two effects are reversed in this statement.
+Not C: Either side can produce both forward and backward consequences.
+Not D: Reduced flow and congestion, not excessive output, are the defining patterns.
+Slides: Circulation 3, slides 33–34
+
+### Q52
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 3. Left versus right failure: where does the blood back up?
+Type: application
+Stem: A patient with left-sided forward heart failure reports fatigue and produces very little urine. Which mechanism links the two?
+A. Elevated venous pressure increases renal filtration.
+B. Pulmonary congestion causes systemic arteriolar dilation.
+C. Reduced systemic perfusion limits muscle and renal blood flow.
+D. Increased left ventricular output stimulates renal water loss.
+Answer: C
+Why: Reduced blood ejected from the left heart impairs delivery to skeletal muscle and kidneys, causing fatigue and oliguria.
+Not A: Higher venous pressure does not directly improve GFR.
+Not B: The primary forward mechanism is reduced output, not pulmonary congestion.
+Not D: The syndrome involves reduced rather than excessive systemic delivery.
+Slides: Circulation 3, slides 33
+
+### Q53
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 3. Left versus right failure: where does the blood back up?
+Type: mechanism
+Stem: What can follow when the right ventricle fails to deliver adequate forward flow to the lungs?
+A. Less blood reaches the left heart for systemic output.
+B. Left ventricular filling necessarily increases sharply.
+C. Pulmonary flow rises despite low right ventricular output.
+D. Systemic tissues receive more oxygen-rich blood immediately.
+Answer: A
+Why: Reduced right ventricular output limits pulmonary flow and subsequent return to the left atrium, compromising left-sided filling and delivery.
+Not B: Less pulmonary venous return tends to decrease left-sided filling.
+Not C: The right heart cannot deliver excess flow when severely failing.
+Not D: Reduced pulmonary transit cannot raise systemic oxygen delivery.
+Slides: Circulation 3, slides 33
+
+### Q54
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 2. Systolic and diastolic failure: can't squeeze, or can't fill?
+Type: comparison
+Stem: An echocardiogram shows poor ventricular contraction and a reduced ejection fraction. Which primary failure pattern does this support?
+A. Stiff ventricular filling with preserved fraction.
+B. Increased relaxation with low filling pressure.
+C. Isolated systemic vasodilatation without pump disease.
+D. Systolic dysfunction with impaired ejection.
+Answer: D
+Why: Systolic heart failure primarily reflects reduced contractility; a smaller proportion of end-diastolic volume is ejected during systole.
+Not A: Stiff filling is the typical description of diastolic failure.
+Not B: Improved relaxation is not impaired systolic pumping.
+Not C: Vascular dilation alone does not define ventricular systolic failure.
+Slides: Chapter 21 §2 (supplementary)
+
+### Q55
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 2. Systolic and diastolic failure: can't squeeze, or can't fill?
+Type: mechanism
+Stem: Why might tachycardia particularly worsen output in a patient with a stiff ventricle?
+A. It lengthens diastole and reduces filling pressure.
+B. It shortens the available time for impaired diastolic filling.
+C. It directly increases ventricular compliance throughout diastole.
+D. It eliminates the need for atrial contribution to filling.
+Answer: B
+Why: A stiff ventricle already fills poorly and needs time; tachycardia shortens diastole and further limits effective ventricular filling.
+Not A: Tachycardia shortens rather than lengthens the diastolic interval.
+Not C: Faster rate does not directly cure ventricular stiffness.
+Not D: Atrial contribution can remain important in stiff ventricles.
+Slides: Chapter 21 §2 (supplementary)
+
+### Q56
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 3. Left versus right failure: where does the blood back up?
+Type: application
+Stem: A patient with left-sided heart failure feels breathless when lying flat but improves after sitting up. Why?
+A. Lying flat reduces central blood volume.
+B. Sitting up increases venous return from the legs.
+C. Lying flat shifts peripheral blood toward congested lungs.
+D. Sitting up directly increases pulmonary capillary pressure.
+Answer: C
+Why: Supine positioning returns peripheral blood to the thorax; a failing left ventricle cannot handle the extra flow, increasing pulmonary venous congestion.
+Not A: Central thoracic volume commonly increases rather than decreases supine.
+Not B: Sitting upright tends to reduce thoracic venous return.
+Not D: A higher pulmonary capillary pressure would worsen breathlessness.
+Slides: Circulation 3, slides 34; Chapter 21 §3
+
+### Q57
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 3. Left versus right failure: where does the blood back up?
+Type: application
+Stem: An examination reveals raised JVP, a tender enlarged liver, ascites and ankle oedema. Which haemodynamic change unifies these?
+A. Increased systemic venous pressure behind the failing right ventricle.
+B. Increased pulmonary venous pressure without systemic congestion.
+C. Reduced central venous pressure from depleted blood volume.
+D. Reduced filtration from peripheral capillaries.
+Answer: A
+Why: Right ventricular backward failure elevates right atrial and systemic venous pressures, causing jugular distension, hepatic congestion and dependent oedema.
+Not B: Isolated pulmonary venous congestion principally reflects left-sided failure.
+Not C: Right-sided backward failure increases rather than decreases venous pressure.
+Not D: Higher systemic venous pressure promotes, rather than reduces, filtration.
+Slides: Circulation 3, slides 34
+
+### Q58
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 3. Left versus right failure: where does the blood back up?
+Type: mechanism
+Stem: How can chronic left ventricular failure eventually weaken the right ventricle?
+A. Left ventricular failure directly increases renal erythropoietin.
+B. Pulmonary circulation stops exposing the right heart to pressure.
+C. Right ventricular afterload falls as pulmonary pressure rises.
+D. Pulmonary pressure rises, increasing right ventricular workload.
+Answer: D
+Why: Left-sided failure can raise pulmonary vascular pressure, forcing the right ventricle to eject against a higher afterload over time.
+Not A: Erythropoietin is not the principal link between the ventricles.
+Not B: Pulmonary pressure transmission and increased load are central.
+Not C: Higher pulmonary pressure increases, not decreases, right ventricular afterload.
+Slides: Chapter 21 §3 (supplementary)
+
+### Q59
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 4. What does the body do about it, and why does that make it worse?
+Type: mechanism
+Stem: Why might prolonged sympathetic arteriolar constriction worsen systolic heart failure despite initially preserving blood pressure?
+A. It decreases afterload and reduces ventricular work.
+B. It increases afterload against which the weak ventricle ejects.
+C. It eliminates the need for renal sodium conservation.
+D. It increases ventricular compliance during each beat.
+Answer: B
+Why: Higher arteriolar resistance raises afterload and myocardial work, making ejection harder for the failing heart over time.
+Not A: Arteriolar constriction increases rather than decreases resistance.
+Not C: Sympathetic activation does not eliminate RAAS responses.
+Not D: Afterload elevation does not directly improve ventricular compliance.
+Slides: Chapter 21 §4 (supplementary)
+
+### Q60
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 4. What does the body do about it, and why does that make it worse?
+Type: mechanism
+Stem: A patient with heart failure has marked oedema, yet the kidneys continue retaining salt and water. What is the primary signal?
+A. The kidneys detect excessive effective arterial filling.
+B. Plasma proteins directly activate the muscle pump.
+C. Low forward arterial delivery mimics volume depletion to the kidneys.
+D. Raised interstitial pressure directly blocks aldosterone receptors.
+Answer: C
+Why: Although total body water is high, inadequate arterial perfusion triggers renal salt and water conservation, worsening venous congestion.
+Not A: The kidneys perceive low effective arterial filling, not excessive perfusion.
+Not B: The skeletal-muscle pump is not the renal endocrine sensor.
+Not D: Aldosterone responses are stimulated rather than receptor-blocked.
+Slides: Chapter 21 §4 (supplementary)
+
+### Q61
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 4. What does the body do about it, and why does that make it worse?
+Type: mechanism
+Stem: In a failing ventricle, extra filling causes a large pressure rise but little improvement in stroke volume. Why?
+A. The Frank–Starling output curve has become relatively flat.
+B. The ventricle has regained normal contractile reserve.
+C. The venous system no longer receives blood from the organs.
+D. The pulmonary valves begin opening during atrial systole.
+Answer: A
+Why: A weak ventricle has limited ability to convert increased end-diastolic filling into extra output, so congestion rises disproportionately.
+Not B: Normal contractile reserve would improve output as filling rises.
+Not C: Venous return continues even when a ventricle pumps poorly.
+Not D: Valve opening timing is not the cause of the flattened curve.
+Slides: Chapter 21 §4 (supplementary)
+
+### Q62
+Chapter: Chapter 21 — Heart Failure Physiology
+Section: 4. What does the body do about it, and why does that make it worse?
+Type: mechanism
+Stem: Why can chronic haemodynamic stress ultimately worsen myocardial pumping even if some early adaptations support output?
+A. Chronic stress prevents any structural change to ventricular muscle.
+B. The heart permanently converts itself to skeletal muscle.
+C. Ventricular wall tension disappears as filling pressure rises.
+D. Remodelling can produce hypertrophy or dilation that impairs efficiency.
+Answer: D
+Why: A chronically stressed ventricle may undergo hypertrophy or dilation; these structural adaptations can eventually impair efficiency and function.
+Not A: Long-term cardiac loading can change ventricular structure.
+Not B: Cardiac muscle does not become skeletal muscle during remodelling.
+Not C: Filling pressure and wall stress often increase rather than disappear.
+Slides: Chapter 21 §4 (supplementary)
 
