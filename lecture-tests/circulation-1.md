@@ -12,7 +12,7 @@ Type: mechanism
 Stem: Blood ejected from the right ventricle returns to the left atrium through which sequence?
 A. Aorta → systemic capillaries → venae cavae.
 B. Pulmonary artery → lung capillaries → pulmonary veins.
-C. Pulmonary veins → systemic capillaries → venae cavae.
+C. Pulmonary veins → systemic tissue capillaries → venae cavae.
 D. Aorta → coronary sinus → pulmonary veins.
 Answer: B
 Why: The right ventricle pumps blood through pulmonary arteries to lung capillaries; pulmonary veins return it to the left atrium.
@@ -26,7 +26,7 @@ Chapter: Chapter 1 — Introduction to the Heart and Circulation
 Section: 4. Why is the left ventricular wall thicker than the right?
 Type: mechanism
 Stem: Why is the left ventricular wall normally thicker than the right ventricular wall?
-A. It must eject the same volume at much higher pressure.
+A. It ejects equal volume against much higher pressure.
 B. It must eject twice the right ventricle's volume.
 C. It relaxes only when the right ventricle contracts.
 D. It works against lower pulmonary vascular resistance.
@@ -61,7 +61,7 @@ Stem: Why can coordinated cardiac pumping continue without a new external nerve 
 A. Cardiac cells cannot spontaneously depolarise.
 B. The sinoatrial node supplies the pressure needed for ejection.
 C. The atrial myocardium conducts only during expiration.
-D. Intrinsic pacemaker cells generate rhythmic electrical impulses.
+D. Intrinsic pacemaker cells generate rhythmic impulses.
 Answer: D
 Why: Specialised cardiac pacemaker cells depolarise spontaneously; autonomic nerves modulate rather than initiate each heartbeat.
 Not A: Some conducting cells possess spontaneous automaticity.
@@ -92,7 +92,7 @@ Type: mechanism
 Stem: A ventricular action potential has a prolonged plateau. Which membrane currents chiefly sustain it?
 A. Rapid sodium entry alone throughout the entire plateau.
 B. Increased potassium efflux without any inward current.
-C. L-type calcium entry balanced by outward potassium current.
+C. Calcium inflow balanced by outward potassium current.
 D. Absence of calcium entry with continued chloride influx.
 Answer: C
 Why: Slow inward calcium current and outward potassium current maintain the prolonged plateau before repolarisation.
@@ -125,7 +125,7 @@ Stem: A drug markedly inhibits SERCA in cardiac muscle. What change in relaxatio
 A. Faster removal of calcium from cytosol.
 B. Complete elimination of L-type calcium channels.
 C. Shorter calcium transient and stronger relaxation.
-D. Slower calcium clearance causes impaired relaxation.
+D. Slower calcium removal impairs relaxation.
 Answer: D
 Why: SERCA normally resequesters calcium into the SR; inhibiting it prolongs the cytosolic calcium transient and slows relaxation.
 Not A: Calcium removal becomes slower, not faster.
@@ -220,7 +220,7 @@ Type: mechanism
 Stem: What physiological purpose is served by slow conduction through the AV node?
 A. It ensures ventricles eject before the atria contract.
 B. It allows the aortic valve to remain open during atrial systole.
-C. It provides time for atrial contraction to complete ventricular filling.
+C. It allows atrial contraction to finish ventricular filling.
 D. It prevents the impulse from ever reaching the ventricular myocardium.
 Answer: C
 Why: The AV delay separates atrial and ventricular activation so atrial systole can augment ventricular filling before ventricular systole.
@@ -364,7 +364,7 @@ Type: mechanism
 Stem: What closes the aortic valve at the beginning of ventricular relaxation?
 A. Atrial pressure rises above left ventricular pressure.
 B. Left ventricular pressure rises above aortic pressure.
-C. Aortic pressure exceeds the falling ventricular pressure.
+C. Aortic pressure exceeds ventricular pressure.
 D. Venous pressure exceeds aortic pressure.
 Answer: C
 Why: When ventricular pressure falls below aortic pressure, brief reversal tendency closes the aortic valve and starts isovolumetric relaxation.
@@ -441,17 +441,17 @@ Slides: 27–30
 Chapter: Chapter 5 — Heart Sounds and Murmurs
 Section: 3. Why does S2 sometimes split with inspiration?
 Type: mechanism
-Stem: Why does the pulmonary component of S2 usually occur later during inspiration?
-A. More right-heart filling prolongs ejection.
-B. Inspiration immediately closes the pulmonary trunk.
-C. Reduced right ventricular filling shortens ejection.
-D. Inspiration causes the aortic valve to close after P2.
+Stem: Why may the aortic component of the second heart sound become more prominent in systemic hypertension?
+A. Brisk aortic valve closure under higher pressure.
+B. Late mitral valve closure during ventricular relaxation.
+C. Reduced pulmonary resistance delaying right ventricular ejection.
+D. Earlier tricuspid closure following atrial contraction.
 Answer: A
-Why: More systemic venous return to the right ventricle during inspiration lengthens ejection and delays pulmonary valve closure.
-Not B: The pulmonary trunk remains patent through ejection.
-Not C: Right-heart venous return tends to increase with inspiration.
-Not D: Physiological splitting usually has A2 before P2.
-Slides: 19, 30
+Why: Higher aortic pressure can produce a louder aortic component (A2) of S2 because aortic valve closure is more forceful.
+Not B: Mitral closure contributes to S1, not the aortic component of S2.
+Not C: Pulmonary resistance and right ventricular ejection primarily influence P2 timing.
+Not D: Tricuspid closure contributes to S1, not A2.
+Slides: 29; Chapter 5 §5
 
 ### Q29
 Chapter: Chapter 5 — Heart Sounds and Murmurs
@@ -476,7 +476,7 @@ Type: mechanism
 Stem: What produces an S4 in a patient with a stiff ventricle?
 A. Opening of the pulmonary valve against high pressure.
 B. Rapid early-diastolic filling before any atrial activity.
-C. Atrial contraction forcing blood into a poorly compliant chamber.
+C. Atrial contraction into a poorly compliant ventricle.
 D. Turbulence during systolic outflow across a normal aortic valve.
 Answer: C
 Why: S4 is associated with late-diastolic atrial contraction into a stiff ventricle, which causes low-frequency vibrations.
@@ -588,7 +588,7 @@ Type: graph-interpretation
 Stem: Two Frank–Starling curves are plotted against identical end-diastolic volumes. What does an upward shift of the entire curve usually indicate?
 A. Greater afterload alone with unchanged contractility.
 B. Aortic valve closure earlier in systole.
-C. Increased myocardial contractility at a given preload.
+C. Greater contractility at the same preload.
 D. Lower force development at every fibre length.
 Answer: C
 Why: Positive inotropy raises stroke volume or output at the same filling level, shifting the Frank–Starling function upward.
@@ -633,16 +633,16 @@ Slides: 44
 Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
 Section: 7. What changes contractility?
 Type: mechanism
-Stem: What response follows myocardial beta-adrenergic stimulation through increased cAMP?
-A. Greater calcium-dependent contractility.
-B. Less calcium entry into ventricular cells.
-C. Reduced phosphorylated calcium-handling proteins.
-D. Complete cessation of SA-node automaticity.
+Stem: Why can xanthines such as theophylline produce a positive inotropic effect at the signalling level described in the lecture?
+A. They reduce the breakdown of intracellular cAMP.
+B. They directly prevent L-type calcium-channel opening.
+C. They accelerate the breakdown of intracellular cAMP.
+D. They permanently suppress myocardial beta-1 receptors.
 Answer: A
-Why: Beta-adrenergic cAMP–PKA signalling increases calcium influx and handling, producing positive inotropy. More calcium becomes available to bind troponin during systole.
-Not B: Beta-adrenergic signalling tends to increase calcium entry.
-Not C: PKA phosphorylates key calcium-handling proteins.
-Not D: Beta stimulation generally accelerates, rather than abolishes, pacemaker activity.
+Why: The lecture describes phosphodiesterase inhibition by xanthines, which slows cAMP breakdown; increased cAMP-dependent signalling can enhance myocardial calcium handling and contractility.
+Not B: Reducing calcium entry would tend to depress rather than enhance contraction.
+Not C: Faster cAMP degradation would reduce this positive inotropic pathway.
+Not D: Blocking beta-1 signalling would generally reduce adrenergic inotropy.
 Slides: 45–47
 
 ### Q41
@@ -685,7 +685,7 @@ Stem: During graded exercise, which combination helps increase cardiac output?
 A. Greater vagal activity and smaller stroke volume.
 B. Reduced sympathetic drive and greater afterload.
 C. Slower pacemaking and lower venous return.
-D. Greater heart rate, contractility and venous return.
+D. Higher rate, contractility and venous return.
 Answer: D
 Why: Sympathetic drive raises heart rate and contractility while muscle pumping supports venous return, enabling higher cardiac output.
 Not A: Vagal dominance would tend to slow the heart.
@@ -749,7 +749,7 @@ Stem: What does the mechanical stroke work of a ventricle represent?
 A. Electrical energy in the SA node over one minute.
 B. The number of coronary capillaries recruited.
 C. Heart rate multiplied by body surface area.
-D. Pressure–volume work performed per ventricular beat.
+D. Ventricular pressure–volume work per beat.
 Answer: D
 Why: The ventricle performs pressure–volume work as it ejects stroke volume against an arterial pressure load.
 Not A: Pacemaker electrical energy is not mechanical stroke work.
@@ -829,7 +829,7 @@ Stem: Why is average linear blood velocity lowest in systemic capillaries?
 A. They have the largest diameter individually.
 B. Their blood pressure equals aortic pressure.
 C. Blood becomes denser within every capillary.
-D. Their combined cross-sectional area is greatest.
+D. The largest combined cross-sectional area.
 Answer: D
 Why: At a given total flow, velocity equals flow divided by total cross-sectional area; capillaries have the largest summed area.
 Not A: Individual capillary diameters are very small.
@@ -857,17 +857,17 @@ Slides: 63–64
 Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 5. Laminar flow, turbulence and Reynolds number
 Type: application
-Stem: Why may severe anaemia increase the likelihood of a flow murmur?
-A. Lower blood viscosity makes turbulence more likely.
-B. Higher blood viscosity reduces the Reynolds number.
-C. Reduced blood velocity eliminates vessel-wall vibration.
-D. Haematocrit rises sharply and increases vascular damping.
+Stem: At unchanged blood density, vessel diameter and viscosity, what happens to Reynolds number if average blood velocity doubles?
+A. It doubles.
+B. It falls to one-half.
+C. It rises fourfold.
+D. It remains constant.
 Answer: A
-Why: Reduced viscosity raises Reynolds number for a given diameter and speed, making turbulent flow more likely.
-Not B: Anaemia reduces viscosity, which tends to raise Reynolds number.
-Not C: Velocity need not be reduced enough to eliminate turbulence.
-Not D: Anaemia is characterised by reduced, not increased, red-cell concentration.
-Slides: 65–66, 71–72
+Why: Reynolds number is proportional to blood velocity when density, viscosity and vessel diameter remain fixed. Doubling velocity therefore doubles Reynolds number and makes turbulence more likely.
+Not B: A halving would require the velocity-dependent term to decrease.
+Not C: Velocity enters the Reynolds relation linearly, not as its square.
+Not D: Reynolds number changes when velocity changes at fixed other variables.
+Slides: 65–66
 
 ### Q55
 Chapter: Chapter 9 — Blood Flow and Haemodynamics
@@ -877,7 +877,7 @@ Stem: An arteriole's radius falls to half its previous value; other variables st
 A. By a factor of 2.
 B. By a factor of 4.
 C. By a factor of 8.
-D. By a factor of 16.
+D. A factor of 16.
 Answer: D
 Why: Poiseuille resistance varies with 1/r⁴; halving radius raises resistance by 2⁴ = 16. The radius effect is disproportionately large because it is raised to the fourth power.
 Not A: A doubling assumes linear radius dependence.
@@ -890,7 +890,7 @@ Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 7. Viscosity, haematocrit and blood cells
 Type: application
 Stem: A patient with marked polycythaemia has elevated haematocrit. What is the expected direct effect on systemic flow resistance?
-A. Lower viscosity and lower resistance.
+A. Lower viscosity and lower total vascular resistance.
 B. Lower viscosity and higher resistance.
 C. Higher viscosity and higher resistance.
 D. Higher viscosity and lower resistance.
@@ -906,7 +906,7 @@ Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 9. How can blood flow be measured?
 Type: methods
 Stem: What principle allows an electromagnetic flowmeter to determine vascular flow?
-A. Conductive blood moving in a magnetic field generates a measurable voltage.
+A. Moving conductive blood induces voltage in a magnetic field.
 B. An oxygen content difference equals flow independent of metabolism.
 C. A cuff detects the onset of venous Korotkoff sounds.
 D. A radioactive tracer measures only red-cell lifespan.
@@ -930,24 +930,24 @@ Answer: B
 Why: Veins have thin distensible walls and high compliance, so volume changes greatly for modest pressure changes.
 Not A: Large arteries have substantial elastic tissue; veins serve mainly as capacitance vessels.
 Not C: Veins are not cardiac muscle.
-Not D: Capillary pressure is not the cause of venous compliance.
+Not D: Systemic venous pressure is much lower than aortic systolic pressure; compliance concerns volume change per unit pressure change.
 Slides: 59, 73–75
 
 ### Q59
 Chapter: Chapter 10 — Arterial Blood Pressure
 Section: 2. Why doesn't blood stop moving during diastole?
 Type: mechanism
-Stem: Why does systemic arterial flow continue during ventricular diastole despite no active ejection?
-A. The ventricular muscle continues to eject through open semilunar valves.
-B. The heart's chambers all contract together in diastole.
-C. Stored elastic energy in major arteries maintains downstream flow.
-D. Peripheral venous pressure becomes greater than aortic pressure.
+Stem: During ventricular diastole, what would an increase in peripheral resistance do to the rate of aortic pressure decline if compliance were unchanged?
+A. Speed the decline by increasing downstream runoff.
+B. Leave the decline unaffected by downstream resistance.
+C. Slow the decline by reducing downstream runoff.
+D. Reverse arterial flow from capillaries toward the aorta.
 Answer: C
-Why: Aortic recoil returns energy stored during systole, maintaining pressure and driving blood through resistance vessels between beats.
-Not A: The aortic valve is closed during ventricular diastole.
-Not B: Chambers relax rather than collectively eject during diastole.
-Not D: Venous pressure does not exceed aortic pressure.
-Slides: 76–78
+Why: Greater downstream resistance reduces diastolic runoff from the elastic arterial reservoir; at unchanged compliance, aortic pressure falls more slowly.
+Not A: Greater resistance normally reduces runoff rather than increasing it.
+Not B: Diastolic decay depends in part on resistance and arterial compliance.
+Not D: Higher resistance slows forward runoff but does not reverse normal arterial flow.
+Slides: 76–78; Chapter 10 §2
 
 ### Q60
 Chapter: Chapter 10 — Arterial Blood Pressure
@@ -1021,7 +1021,7 @@ Stem: A cuff that is far too small is used on a large upper arm. Which measureme
 A. Falsely low BP from excessive arterial unloading.
 B. No systematic effect on cuff pressure.
 C. Only diastolic pressure becomes unmeasurable.
-D. Falsely high pressure due to inadequate cuff coverage.
+D. An undersized cuff gives a falsely high reading.
 Answer: D
 Why: An undersized cuff transmits pressure poorly around a large arm and commonly overestimates measured pressure.
 Not A: A small cuff usually overestimates rather than underestimates BP.
@@ -1051,7 +1051,7 @@ Section: 1. What is an arterial pulse?
 Type: conceptual
 Stem: What is detected by the fingers when palpating the radial pulse?
 A. Individual red cells striking the wrist.
-B. A pressure wave propagated by arterial wall distension.
+B. An arterial wall-distension pressure wave.
 C. A direct pulse of venous blood into the radial artery.
 D. An electrical signal passing along the endothelium.
 Answer: B
@@ -1084,7 +1084,7 @@ Type: interpretation
 Stem: The jugular venous 'c' wave is chiefly linked to which event?
 A. Passive systemic venous filling late in systole.
 B. Rapid emptying of the right atrium.
-C. Tricuspid valve bulging into the atrium during systole.
+C. Systolic bulging of the tricuspid valve.
 D. Right atrial contraction immediately before QRS.
 Answer: C
 Why: Early right ventricular contraction can bulge the shut tricuspid valve toward the right atrium, contributing to the c wave.
@@ -1101,7 +1101,7 @@ Stem: What does the normal jugular venous 'v' wave mainly represent?
 A. Closure of the pulmonary semilunar valve.
 B. Right atrial electrical depolarisation.
 C. Completion of left ventricular ejection.
-D. Atrial filling behind a closed tricuspid valve.
+D. Atrial filling while tricuspid is closed.
 Answer: D
 Why: Systemic venous return fills the right atrium during ventricular systole while the tricuspid valve remains closed, creating the v wave.
 Not A: Pulmonary valve closure is near S2.
@@ -1161,17 +1161,17 @@ Slides: 26; Chapter 11 §7
 Chapter: Chapter 12 — Veins and Venous Return
 Section: 2. Why are veins called capacitance vessels?
 Type: mechanism
-Stem: Why do veins serve as the main blood-volume reservoir of the systemic circulation?
-A. Their walls have the highest resistance to flow.
-B. Their muscular walls actively pump blood at high pressure.
-C. Large blood volumes at low pressure due to venous compliance.
-D. They hold blood only when aortic pressure is zero.
+Stem: A sudden increase in sympathetic venous tone can support cardiac output mainly through which immediate effect?
+A. It dilates veins, increasing blood stored in the limbs.
+B. It creates new circulating plasma within seconds.
+C. Venoconstriction shifts stored blood centrally.
+D. It closes arteriolar valves and stops peripheral outflow.
 Answer: C
-Why: Thin, compliant venous walls distend substantially with modest increases in pressure, allowing capacitance storage.
-Not A: Veins generally have low resistance compared with arterioles.
-Not B: Veins do not operate as high-pressure primary pumps.
-Not D: A substantial venous reservoir exists throughout the cardiac cycle.
-Slides: 59, 73–75, 97–98
+Why: Sympathetic venoconstriction reduces the capacity of the venous reservoir and shifts stored blood toward the heart, supporting venous return and end-diastolic filling.
+Not A: Venodilation generally increases peripheral capacitance and pooling.
+Not B: Venoconstriction redistributes existing blood rather than rapidly generating plasma.
+Not D: Systemic arterioles have no valves that close with sympathetic stimulation.
+Slides: 73–75, 97–98; Chapter 12 §2
 
 ### Q74
 Chapter: Chapter 12 — Veins and Venous Return
@@ -1181,7 +1181,7 @@ Stem: Which pressure difference primarily drives blood back to the right atrium 
 A. Left ventricular systolic minus aortic diastolic pressure.
 B. Pulmonary venous minus pulmonary capillary pressure.
 C. Aortic systolic minus right ventricular systolic pressure.
-D. Mean systemic filling pressure minus right atrial pressure.
+D. Systemic filling pressure minus right atrial pressure.
 Answer: D
 Why: Venous return depends on the upstream systemic filling pressure relative to right atrial pressure and the resistance to venous return.
 Not A: That difference is a pulse-pressure-related comparison.
@@ -1211,7 +1211,7 @@ Section: 5. How does breathing help venous return?
 Type: mechanism
 Stem: How does normal inspiration tend to assist systemic venous return?
 A. It increases right atrial pressure and reduces abdominal pressure.
-B. Lower intrathoracic pressure promotes venous inflow into the chest.
+B. Lower chest pressure draws venous blood toward the heart.
 C. It closes all systemic venous valves simultaneously.
 D. It increases peripheral venous capacitance until return stops.
 Answer: B
@@ -1228,7 +1228,7 @@ Type: application
 Stem: A patient's right ventricular pumping fails and right atrial pressure rises. Which consequence is most likely?
 A. A larger pressure gradient for systemic venous return.
 B. Reduced congestion in peripheral systemic veins.
-C. Smaller venous return gradient with upstream congestion.
+C. Reduced venous return gradient with congestion.
 D. Complete disappearance of the jugular venous pulse.
 Answer: C
 Why: Higher right atrial pressure opposes venous return and transmits backward into systemic veins, causing congestion.
@@ -1275,7 +1275,7 @@ Section: 3. How do substances actually cross the capillary wall?
 Type: mechanism
 Stem: Which mechanism supplies a respiratory gas from capillary blood to nearby tissues?
 A. Bulk movement of intact plasma proteins.
-B. Oxygen diffusion along its partial-pressure gradient.
+B. Oxygen diffusing down its pressure gradient.
 C. Active pumping of intact red cells through the wall.
 D. Lymphatic return of oxygenated interstitial fluid.
 Answer: B
@@ -1308,7 +1308,7 @@ Type: mechanism
 Stem: Increasing capillary hydrostatic pressure while other Starling forces stay unchanged tends to produce what?
 A. Decreased outward fluid filtration.
 B. Increased plasma oncotic attraction.
-C. Increased interstitial fluid filtration.
+C. More fluid filtration into tissues.
 D. Reversal of lymphatic flow.
 Answer: C
 Why: A higher capillary hydrostatic force favours filtration across the microvascular wall toward tissue. Raising venous pressure is one way to produce this hydrostatic change.
@@ -1321,17 +1321,17 @@ Slides: 85–88
 Chapter: Chapter 13 — Microcirculation and Capillary Exchange
 Section: 5. Why does fluid leave capillaries even when protein stays in blood?
 Type: comparison
-Stem: What effect does a reduction in plasma albumin have on capillary fluid exchange?
-A. Higher plasma oncotic pressure retaining more water.
-B. Lower capillary hydrostatic pressure in every organ.
-C. Increased filtration by stronger protein attraction.
-D. Reduced plasma oncotic force opposing filtration.
+Stem: At an otherwise unchanged capillary, how would increased interstitial protein concentration affect fluid movement?
+A. It strengthens plasma oncotic pressure, reducing filtration.
+B. It lowers capillary hydrostatic pressure, opposing filtration.
+C. It increases protein attraction into the blood compartment.
+D. It strengthens the outward oncotic force favouring filtration.
 Answer: D
-Why: Albumin generates much of plasma colloid osmotic pressure; losing it weakens retention of water in the vascular compartment.
-Not A: Less albumin lowers oncotic pressure.
-Not B: Hydrostatic pressure does not automatically decline in all tissues.
-Not C: Protein attraction becomes weaker, not stronger.
-Slides: 85–88, 93
+Why: More interstitial protein increases interstitial colloid osmotic pressure, tending to pull fluid outward from the capillary and increase filtration.
+Not A: Plasma protein concentration is held constant; the changed force is interstitial.
+Not B: A change in interstitial protein does not directly lower capillary pressure.
+Not C: Increased proteins outside the capillary attract rather than remove interstitial water.
+Slides: 85–88
 
 ### Q84
 Chapter: Chapter 13 — Microcirculation and Capillary Exchange
@@ -1339,7 +1339,7 @@ Section: 6. Classic Starling model versus revised understanding
 Type: conceptual
 Stem: Which statement best reflects the updated interpretation of capillary fluid balance?
 A. Most capillaries continuously reabsorb nearly all filtered fluid at their venous ends.
-B. The endothelial glycocalyx influences filtration, with lymphatics removing net filtrate.
+B. The glycocalyx regulates filtration; lymph returns excess fluid.
 C. Interstitial proteins do not affect exchange at any capillary.
 D. Lymphatic vessels play no role when hydrostatic pressure is normal.
 Answer: B
@@ -1387,7 +1387,7 @@ Section: 5. Why can low plasma proteins cause oedema?
 Type: application
 Stem: Why may advanced liver disease cause generalised oedema even without venous obstruction?
 A. Excess albumin synthesis draws water into tissues.
-B. Reduced albumin synthesis lowers plasma oncotic pressure.
+B. Less albumin synthesis reduces plasma oncotic pressure.
 C. A rise in plasma protein concentration stops absorption.
 D. Liver failure directly shuts every lymphatic valve.
 Answer: B
@@ -1405,7 +1405,7 @@ Stem: A patient loses substantial albumin into urine during kidney disease. What
 A. Increased plasma colloid osmotic pressure.
 B. Reduced capillary permeability everywhere.
 C. Increased red-cell viscosity causing filtration.
-D. Decreased plasma oncotic pressure causing oedema.
+D. Reduced plasma oncotic pressure promotes oedema.
 Answer: D
 Why: Proteinuria reduces circulating albumin and its inward oncotic force, favouring movement of fluid into interstitium.
 Not A: Albumin loss lowers oncotic pressure.
@@ -1417,17 +1417,17 @@ Slides: 93
 Chapter: Chapter 14 — Formation of Oedema
 Section: 6. How does inflammation increase oedema?
 Type: mechanism
-Stem: During local inflammation, what microvascular change produces oedema?
-A. Increased permeability permits protein-rich fluid to enter tissue.
-B. Reduced permeability traps interstitial fluid inside capillaries.
-C. Venous valves close and abolish arterial inflow.
-D. The lymphatic system starts producing plasma proteins.
+Stem: Which mediator released from mast cells can rapidly raise postcapillary venular permeability during inflammation?
+A. Histamine.
+B. Adenosine.
+C. Nitric oxide.
+D. Angiotensin II.
 Answer: A
-Why: Inflammatory mediators make small vessels leakier, allowing protein and fluid accumulation in interstitium. Escaped proteins also alter interstitial oncotic forces and favour water retention.
-Not B: Reduced permeability would oppose oedema.
-Not C: Venous valve events do not explain ordinary inflammatory swelling.
-Not D: Lymphatics normally remove proteins rather than producing them.
-Slides: 90–93; Chapter 14 §6
+Why: Histamine released from mast cells acts on postcapillary venules to increase permeability, allowing plasma proteins and water to move into inflamed tissues.
+Not B: Adenosine is primarily a local metabolic vasodilator, rather than the key mast-cell permeability mediator.
+Not C: Nitric oxide regulates vascular smooth-muscle tone but is not the specified mast-cell mediator.
+Not D: Angiotensin II principally promotes vasoconstriction and is not a mast-cell permeability signal.
+Slides: 89–93; Chapter 14 §6
 
 ### Q90
 Chapter: Chapter 14 — Formation of Oedema
@@ -1482,7 +1482,7 @@ Chapter: Chapter 15 — Lymphatic Circulation
 Section: 2. How does lymph enter a lymphatic capillary?
 Type: mechanism
 Stem: How can fluid enter a blind-ended lymphatic capillary when interstitial pressure rises?
-A. Overlapping endothelial flaps open inward like small valves.
+A. Overlapping endothelial flaps admit interstitial fluid.
 B. A central lymphatic heart pumps blood into tissues.
 C. Rigid endothelial junctions prevent all protein entry.
 D. A continuous layer of smooth muscle forces plasma outward.
@@ -1515,7 +1515,7 @@ Section: 4. Where does lymph finally return to blood?
 Type: anatomy
 Stem: Where does most body lymph ultimately rejoin circulating blood?
 A. Directly into the right ventricle.
-B. Through the thoracic duct near the left venous angle.
+B. Thoracic duct into the left venous angle.
 C. Through pulmonary capillaries into the left atrium.
 D. Through coronary sinus into the right atrium.
 Answer: B
@@ -1545,15 +1545,15 @@ Slides: Chapter 15 §5 (supplementary)
 Chapter: Chapter 15 — Lymphatic Circulation
 Section: 7. Why does lymphatic obstruction cause lymphoedema?
 Type: application
-Stem: In filarial-associated chronic limb swelling, what clearance mechanism has failed?
-A. Lymphatic removal of interstitial fluid and proteins.
-B. Secretion of albumin by the liver into venous blood.
-C. Electrical conduction through the AV node.
-D. The delivery of oxygen by aortic coronary arteries.
+Stem: Why can longstanding filarial lymphoedema become firm and poorly pitting?
+A. Chronic protein-rich interstitial fluid promotes tissue fibrosis.
+B. Ongoing rapid capillary reabsorption removes tissue proteins.
+C. Longstanding venous dilation prevents connective-tissue changes.
+D. A brief loss of arterial pressure causes permanent limb scarring.
 Answer: A
-Why: Lymphatic obstruction stops adequate return of interstitial fluid and proteins, producing persistent tissue swelling.
-Not B: Liver albumin synthesis is a separate process.
-Not C: AV conduction has no direct relation to lymph drainage.
-Not D: Coronary oxygen delivery does not explain filarial lymphoedema.
+Why: Persistent failure of lymphatic drainage leaves protein-rich fluid in the interstitium, promoting chronic inflammation and fibrosis. This explains why longstanding lymphoedema becomes firm and often non-pitting.
+Not B: Rapid reabsorption would tend to reduce swelling and protein accumulation.
+Not C: Chronic interstitial protein deposition can drive fibrosis despite any venous tone changes.
+Not D: The chronic fibrosis is linked to sustained lymphatic obstruction, not a brief arterial-pressure change.
 Slides: 95; Chapter 15 §7
 
