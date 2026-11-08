@@ -773,3 +773,387 @@ Not C: Coronary oxygen extraction remains substantial.
 Not D: The myocardium continues to contract against the higher load.
 Slides: 54; Chapter 8 §7
 
+### Q49
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 1. What propels blood around the circulation?
+Type: mechanism
+Stem: What helps maintain forward systemic arterial flow between heartbeats?
+A. The diaphragm pumps blood through the aorta during inspiration.
+B. The elastic recoil of large arteries sustains diastolic flow.
+C. Capillaries generate contractions that propel blood upstream.
+D. Venous valves directly generate aortic pressure.
+Answer: B
+Why: Elastic arteries stretch during systole and recoil during diastole, smoothing pulsatile ejection into continuous downstream flow.
+Not A: Respiratory movement mainly assists venous return.
+Not C: Capillaries lack the pumping muscle required to drive systemic flow.
+Not D: Venous valves prevent backflow but do not create aortic pressure.
+Slides: 55–57
+
+### Q50
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 2. What actually determines flow?
+Type: calculation
+Stem: A vascular bed has a pressure difference of 80 mmHg and resistance of 20 mmHg·min/L. What is its flow?
+A. 2 L/min.
+B. 3 L/min.
+C. 4 L/min.
+D. 8 L/min.
+Answer: C
+Why: Flow equals pressure difference divided by resistance: 80/20 = 4 L/min.
+Not A: Two L/min would correspond to resistance of 40.
+Not B: Three L/min does not fit the given ratio.
+Not D: Eight L/min would correspond to resistance of 10.
+Slides: 61, 67–70
+
+### Q51
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 3. Why do different vessels have different roles?
+Type: conceptual
+Stem: Which vessel class offers the greatest adjustable resistance to systemic tissue blood flow?
+A. Arterioles.
+B. Large veins.
+C. Capillaries.
+D. The venae cavae.
+Answer: A
+Why: Arteriolar smooth muscle changes diameter markedly, allowing tissues to regulate resistance and flow.
+Not B: Large veins chiefly serve as capacitance vessels.
+Not C: Capillaries mainly exchange materials and have no continuous smooth-muscle coat.
+Not D: The venae cavae are low-resistance return conduits.
+Slides: 57–59, 69–70
+
+### Q52
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 4. Why is blood velocity lowest in capillaries?
+Type: mechanism
+Stem: Why is average linear blood velocity lowest in systemic capillaries?
+A. They have the largest diameter individually.
+B. Their blood pressure equals aortic pressure.
+C. Blood becomes denser within every capillary.
+D. Their combined cross-sectional area is greatest.
+Answer: D
+Why: At a given total flow, velocity equals flow divided by total cross-sectional area; capillaries have the largest summed area.
+Not A: Individual capillary diameters are very small.
+Not B: Capillary pressure is much lower than aortic pressure.
+Not C: Blood density differences do not explain the major velocity drop.
+Slides: 64, 67; Chapter 9 §4
+
+### Q53
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 5. Laminar flow, turbulence and Reynolds number
+Type: mechanism
+Stem: In a straight vessel with steady laminar flow, where is blood velocity ordinarily greatest?
+A. At the endothelial wall.
+B. At the centre of the vessel.
+C. Uniformly at every radial position.
+D. Only within the outermost plasma layer.
+Answer: B
+Why: Viscous drag slows flow near the wall; a parabolic velocity profile has its greatest velocity near the centre.
+Not A: The no-slip boundary makes velocity near the wall approach zero.
+Not C: Laminar flow has a radial velocity gradient.
+Not D: The plasma layer adjacent to the wall is not the maximum-velocity region.
+Slides: 63–64
+
+### Q54
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 5. Laminar flow, turbulence and Reynolds number
+Type: application
+Stem: Why may severe anaemia increase the likelihood of a flow murmur?
+A. Lower blood viscosity makes turbulence more likely.
+B. Higher blood viscosity reduces the Reynolds number.
+C. Reduced blood velocity eliminates vessel-wall vibration.
+D. Haematocrit rises sharply and increases vascular damping.
+Answer: A
+Why: Reduced viscosity raises Reynolds number for a given diameter and speed, making turbulent flow more likely.
+Not B: Anaemia reduces viscosity, which tends to raise Reynolds number.
+Not C: Velocity need not be reduced enough to eliminate turbulence.
+Not D: Anaemia is characterised by reduced, not increased, red-cell concentration.
+Slides: 65–66, 71–72
+
+### Q55
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 6. Why is vessel radius such a powerful determinant of flow?
+Type: calculation
+Stem: An arteriole's radius falls to half its previous value; other variables stay constant. How does its resistance change?
+A. It doubles.
+B. It increases fourfold.
+C. It increases eightfold.
+D. It increases sixteenfold.
+Answer: D
+Why: Poiseuille resistance varies with 1/r⁴; halving radius raises resistance by 2⁴ = 16.
+Not A: A doubling assumes linear radius dependence.
+Not B: Fourfold assumes a square-law dependence.
+Not C: Eightfold assumes a cubic rather than fourth-power relation.
+Slides: 68–70
+
+### Q56
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 7. Viscosity, haematocrit and blood cells
+Type: application
+Stem: A patient with marked polycythaemia has elevated haematocrit. What is the expected direct effect on systemic flow resistance?
+A. Lower viscosity and lower resistance.
+B. Lower viscosity and higher resistance.
+C. Higher viscosity and higher resistance.
+D. Higher viscosity and lower resistance.
+Answer: C
+Why: More red cells increase blood viscosity and consequently vascular resistance, raising the heart's workload.
+Not A: Both properties generally increase, not decrease.
+Not B: Lower viscosity does not follow from higher haematocrit.
+Not D: Higher viscosity raises resistance rather than lowering it.
+Slides: 71–72
+
+### Q57
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 9. How can blood flow be measured?
+Type: methods
+Stem: An electromagnetic blood-flow meter estimates flow using which physical principle?
+A. A moving conductive fluid generates a detectable voltage in a magnetic field.
+B. An oxygen content difference equals flow independent of metabolism.
+C. A cuff detects the onset of venous Korotkoff sounds.
+D. A radioactive tracer measures only red-cell lifespan.
+Answer: A
+Why: Conducting blood moving through a magnetic field induces a voltage that can be used to estimate its velocity and flow.
+Not B: That describes neither the electromagnetic principle nor Fick correctly.
+Not C: Korotkoff sounds estimate arterial blood pressure, not direct flow.
+Not D: Tracer approaches are distinct from electromagnetic flow measurement.
+Slides: 62
+
+### Q58
+Chapter: Chapter 9 — Blood Flow and Haemodynamics
+Section: 10. Why can veins hold more blood than arteries?
+Type: comparison
+Stem: Compared with a large artery, why can a large vein store more blood for a small rise in pressure?
+A. Venous walls contain more elastic recoil tissue than aorta.
+B. Veins have high compliance and distensible walls.
+C. Venous vessels are made mostly of cardiac muscle.
+D. Venous capillary pressure is always higher than systemic arterial pressure.
+Answer: B
+Why: Veins have thin distensible walls and high compliance, so volume changes greatly for modest pressure changes.
+Not A: Large arteries have substantial elastic tissue; veins serve mainly as capacitance vessels.
+Not C: Veins are not cardiac muscle.
+Not D: Capillary pressure is not the cause of venous compliance.
+Slides: 59, 73–75
+
+### Q59
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 2. Why doesn't blood stop moving during diastole?
+Type: mechanism
+Stem: Why does systemic arterial flow continue during ventricular diastole despite no active ejection?
+A. The ventricular muscle continues to eject through open semilunar valves.
+B. The heart's chambers all contract together in diastole.
+C. Stored elastic energy in major arteries maintains downstream flow.
+D. Peripheral venous pressure becomes greater than aortic pressure.
+Answer: C
+Why: Aortic recoil returns energy stored during systole, maintaining pressure and driving blood through resistance vessels between beats.
+Not A: The aortic valve is closed during ventricular diastole.
+Not B: Chambers relax rather than collectively eject during diastole.
+Not D: Venous pressure does not exceed aortic pressure.
+Slides: 76–78
+
+### Q60
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 4. What is pulse pressure?
+Type: calculation
+Stem: A blood-pressure reading is 132/84 mmHg. What is the pulse pressure?
+A. 36 mmHg.
+B. 40 mmHg.
+C. 44 mmHg.
+D. 48 mmHg.
+Answer: D
+Why: Pulse pressure equals systolic minus diastolic: 132 − 84 = 48 mmHg.
+Not A: Thirty-six is below the arithmetic difference.
+Not B: Forty does not equal 132 minus 84.
+Not C: Forty-four is four mmHg below the difference.
+Slides: 82
+
+### Q61
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 5. What is mean arterial pressure, and why isn't it simply the midpoint?
+Type: calculation
+Stem: For a resting pressure of 120/75 mmHg, what is the approximate mean arterial pressure?
+A. 90 mmHg.
+B. 98 mmHg.
+C. 103 mmHg.
+D. 110 mmHg.
+Answer: A
+Why: MAP ≈ diastolic pressure + one-third pulse pressure = 75 + (45/3) = 90 mmHg.
+Not B: Ninety-eight is above the usual approximation.
+Not C: One hundred three ignores the longer duration of diastole.
+Not D: One hundred ten is closer to systolic pressure than the time-weighted mean.
+Slides: 82; Chapter 10 §5
+
+### Q62
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 6. Why does measured BP depend on whether the arm is above or below the heart?
+Type: application
+Stem: A sphygmomanometer cuff is held substantially below heart level. How is its pressure reading affected by gravity?
+A. It reads falsely low because of reduced hydrostatic pressure.
+B. It reads falsely high because of added hydrostatic pressure.
+C. It is unaffected because arterial vessels have valves.
+D. It measures venous instead of arterial pressure.
+Answer: B
+Why: A measurement site below the heart has extra hydrostatic pressure, making the reading higher than heart-level pressure.
+Not A: Above-heart placement would give a falsely lower reading.
+Not C: Arteries do not have the venous valves needed to cancel gravity.
+Not D: The cuff still estimates arterial pressure.
+Slides: 78–80
+
+### Q63
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 7. How does a cuff and stethoscope reveal systolic and diastolic pressure?
+Type: mechanism
+Stem: During manual auscultatory BP measurement, what does the first clear Korotkoff sound indicate?
+A. Diastolic pressure at complete flow cessation.
+B. The mean arterial pressure by definition.
+C. Approximate systolic pressure as flow begins through the compressed artery.
+D. The pulse pressure as the cuff first touches the arm.
+Answer: C
+Why: The first Korotkoff sounds emerge when cuff pressure falls just below systolic arterial pressure and blood begins passing intermittently.
+Not A: Diastolic pressure is commonly estimated when sounds disappear.
+Not B: The first sound corresponds to systolic, not mean, pressure.
+Not D: Pulse pressure requires both systolic and diastolic values.
+Slides: 79–81
+
+### Q64
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 8. How should BP actually be measured accurately?
+Type: application
+Stem: A cuff that is far too small is used on a large upper arm. Which measurement error is likely?
+A. Falsely low BP from excessive arterial unloading.
+B. No systematic effect on cuff pressure.
+C. Only diastolic pressure becomes unmeasurable.
+D. Falsely high BP because greater pressure is needed to compress the artery.
+Answer: D
+Why: An undersized cuff transmits pressure poorly around a large arm and commonly overestimates measured pressure.
+Not A: A small cuff usually overestimates rather than underestimates BP.
+Not B: Cuff size materially affects readings.
+Not C: Both systolic and diastolic measurements may be distorted.
+Slides: 79–80; Chapter 10 §8
+
+### Q65
+Chapter: Chapter 10 — Arterial Blood Pressure
+Section: 9. Why does pressure decrease as blood travels through the circulation?
+Type: mechanism
+Stem: Where is the largest controllable fall in systemic vascular pressure normally produced?
+A. Across resistance arterioles.
+B. Across the venae cavae.
+C. Across large elastic arteries.
+D. Within the right atrium alone.
+Answer: A
+Why: Small arteries and arterioles provide substantial resistance, producing a major pressure drop from arterial to capillary levels.
+Not B: Large veins carry blood at low pressure and resistance.
+Not C: Large elastic arteries conduct flow with relatively small resistance.
+Not D: Right atrial pressure is low but does not create the main distributed arterial drop.
+Slides: 57, 61, 76; Chapter 10 §9
+
+### Q66
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 1. What is an arterial pulse?
+Type: conceptual
+Stem: What is palpated when a clinician feels the radial arterial pulse?
+A. Individual red cells striking the wrist.
+B. A pressure wave propagated by arterial wall distension.
+C. A direct pulse of venous blood into the radial artery.
+D. An electrical signal passing along the endothelium.
+Answer: B
+Why: Each ventricular ejection creates an arterial pressure/distension wave that travels along the arteries.
+Not A: Red cells are not separately felt during palpation.
+Not C: Venous blood does not directly pulse into systemic arteries.
+Not D: The palpable pulse is mechanical rather than an electrical conduction wave.
+Slides: 22–23
+
+### Q67
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 4. Why are the a, c and v waves separated by x and y descents?
+Type: interpretation
+Stem: What produces the 'a' wave in a normal jugular venous pulse tracing?
+A. Right atrial contraction.
+B. Aortic valve opening.
+C. Rapid ventricular ejection.
+D. Pulmonary valve closure.
+Answer: A
+Why: The a wave reflects the rise in right atrial pressure during atrial systole.
+Not B: Aortic opening is a left ventricular outflow event.
+Not C: Ventricular ejection is not the primary a-wave mechanism.
+Not D: Pulmonary closure occurs near end systole.
+Slides: 24–25
+
+### Q68
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 4. Why are the a, c and v waves separated by x and y descents?
+Type: interpretation
+Stem: The jugular venous 'c' wave is chiefly linked to which event?
+A. Passive systemic venous filling late in systole.
+B. Rapid emptying of the right atrium.
+C. Bulging of the closed tricuspid valve into the atrium during ventricular contraction.
+D. Right atrial contraction immediately before QRS.
+Answer: C
+Why: Early right ventricular contraction can bulge the shut tricuspid valve toward the right atrium, contributing to the c wave.
+Not A: Venous filling behind a closed tricuspid valve makes the v wave.
+Not B: Rapid atrial emptying contributes to the y descent.
+Not D: Right atrial systole generates the a wave.
+Slides: 15, 24–25; Chapter 11 §4
+
+### Q69
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 4. Why are the a, c and v waves separated by x and y descents?
+Type: interpretation
+Stem: What does the normal jugular venous 'v' wave mainly represent?
+A. Closure of the pulmonary valve.
+B. Right atrial electrical depolarisation.
+C. End of aortic ejection.
+D. Right atrial filling while the tricuspid valve is closed.
+Answer: D
+Why: Systemic venous return fills the right atrium during ventricular systole while the tricuspid valve remains closed, creating the v wave.
+Not A: Pulmonary valve closure is near S2.
+Not B: Atrial depolarisation precedes the a wave.
+Not C: The v wave is defined by right atrial filling rather than aortic ejection.
+Slides: 24–26; Chapter 11 §4
+
+### Q70
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 4. Why are the a, c and v waves separated by x and y descents?
+Type: comparison
+Stem: What distinguishes the normal x descent from the y descent in a JVP trace?
+A. x: atrial relaxation; y: rapid atrial emptying after tricuspid opening.
+B. x: atrial contraction; y: ventricular isovolumetric contraction.
+C. x: ventricular ejection; y: pulmonary arterial recoil.
+D. x: aortic valve opening; y: mitral valve closure.
+Answer: A
+Why: The x descent reflects atrial relaxation and downward tricuspid movement; the y descent follows tricuspid opening as blood empties rapidly.
+Not B: Atrial contraction creates the a wave.
+Not C: Both descents reflect right atrial pressure changes rather than the proposed events.
+Not D: Left-heart valve events do not define these JVP descents.
+Slides: 24–25; Chapter 11 §4
+
+### Q71
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 7. Which abnormal JVP waves are most important?
+Type: application
+Stem: A patient with severe tricuspid regurgitation has a prominent systolic jugular venous wave. Which wave becomes especially large?
+A. a wave.
+B. v wave.
+C. x descent.
+D. y descent.
+Answer: B
+Why: Tricuspid regurgitation sends systolic flow back into the right atrium and systemic veins, producing a large v or fused c-v wave.
+Not A: The a wave reflects atrial contraction and is not the characteristic regurgitant finding.
+Not C: The x descent may be blunted rather than unusually enlarged.
+Not D: The y descent is an emptying phase and does not represent systolic backflow.
+Slides: 26; Chapter 11 §7 (corrected physiology)
+
+### Q72
+Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+Section: 7. Which abnormal JVP waves are most important?
+Type: application
+Stem: In complete AV dissociation, the right atrium occasionally contracts against a closed tricuspid valve. What JVP abnormality may follow?
+A. Loss of all visible venous pulsations.
+B. A steady nonpulsatile jugular column.
+C. Intermittent cannon a waves.
+D. An isolated giant v wave after every beat.
+Answer: C
+Why: Unsynchronised atrial contraction against a shut AV valve can produce large intermittent cannon a waves.
+Not A: Venous pulsations can persist despite AV block.
+Not B: Atrial contractions still cause pressure variations.
+Not D: Giant v waves primarily suggest tricuspid regurgitation.
+Slides: 26; Chapter 11 §7
+
