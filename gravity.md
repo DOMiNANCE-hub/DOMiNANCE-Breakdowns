@@ -4,7 +4,7 @@
 
 When you stand, the blood in your vessels forms a tall column. Like water in a tall tank, the pressure is **higher at the bottom** and **lower at the top**. This extra pressure comes from the **weight of the blood**, not from the heart.
 
-**How much?** About **0.77 mmHg for every centimetre** of height (ΔP = ρgh). *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
+**How much?** About **0.77 mmHg for every centimetre** of height (ΔP = ρgh). *(<a href="#/physiology/cvs/venous-return">→ Venous Return</a>)*
 
 Standing, with no compensation (the lecture's figures):
 
@@ -23,14 +23,14 @@ The same applies to the **veins**: venous pressure in the feet rises to about 90
 **Stand up quickly, and this is what happens in the first few seconds:**
 
 1. The high pressure in the legs **stretches the leg veins**, which are very compliant. About **500 mL** of blood **pools** in them and in the abdominal veins.
-2. Higher capillary pressure in the legs pushes **fluid out** into the tissues. *(<a href="#/physiology/cvs/edema">→ Oedema</a>)*
+2. Higher capillary pressure in the legs pushes **fluid out** into the tissues. *(<a href="#/physiology/cvs/edema">→ Oedema</a>)*
 3. Less blood returns to the heart, so **<span data-term="venous-return">venous return</span>** and **<span data-term="edv">end-diastolic volume</span>** fall.
-4. By the Frank–Starling mechanism, **<span data-term="stroke-volume">stroke volume</span>** falls, so **cardiac output** and **blood pressure** fall. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
+4. By the Frank–Starling mechanism, **<span data-term="stroke-volume">stroke volume</span>** falls, so **cardiac output** and **blood pressure** fall. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
 5. Blood pressure at **head level** is already lower because of gravity, so **cerebral blood flow** falls. You may feel light-headed or see the world grey out for a moment.
 
 ## 3. How the body rescues blood pressure
 
-**The baroreflex (seconds).** The carotid sinus and aortic arch sit **above** the heart, so they feel the fall in pressure first. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)*
+**The baroreflex (seconds).** The carotid sinus and aortic arch sit **above** the heart, so they feel the fall in pressure first. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)*
 
 1. <span data-term="baroreceptors">Baroreceptors</span> **fire less** → the <span data-term="vasomotor-centre">vasomotor centre</span> is released.
 2. **Sympathetic firing rises**, vagal firing falls:
@@ -41,17 +41,17 @@ The same applies to the **veins**: venous pressure in the feet rises to about 90
 
 That is why your **heart rate rises** by 10–20 beats/min when you stand.
 
-**The muscle pump.** Every time the leg muscles contract, they squeeze the deep veins, and the one-way valves send blood **upwards**. *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
+**The muscle pump.** Every time the leg muscles contract, they squeeze the deep veins, and the one-way valves send blood **upwards**. *(<a href="#/physiology/cvs/venous-return">→ Venous Return</a>)*
 
-**Hormones (minutes to hours).** **Renin**, angiotensin II and **<span data-term="aldosterone">aldosterone</span>** help hold pressure and volume if you stay upright. *(<a href="#/physiology/cvs/neural-humoral?section=5-hormones-that-act-on-the-circulation">→ Neural and Hormonal Control, §5</a>)*
+**Hormones (minutes to hours).** **Renin**, angiotensin II and **<span data-term="aldosterone">aldosterone</span>** help hold pressure and volume if you stay upright. *(<a href="#/physiology/cvs/neural-humoral?section=5-hormones-that-act-on-the-circulation">→ Neural and Hormonal Control, §5</a>)*
 
 ### Why the brain is partly protected
 
 Standing lowers arterial pressure at head level, but the brain has three extra defences:
 
-1. **Venous pressure in the head falls too.** <span data-term="cpp">Cerebral perfusion pressure</span> is the **difference** between arterial and venous pressure, so it falls less than arterial pressure does.
-2. **<span data-term="icp">Intracranial pressure</span> falls**, so there is less pressure squeezing the cerebral vessels. *(<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">→ Cerebral Circulation, §4</a>)*
-3. The small fall in flow lets **CO₂ rise and O₂ fall** locally, which **dilates** the cerebral arterioles. *(<a href="#/physiology/cvs/cerebral?section=3-how-does-the-brain-keep-its-blood-flow-steady">→ Cerebral Circulation, §3</a>)*
+1. **Venous pressure in the head falls too.** Cerebral perfusion pressure is the **difference** between arterial and venous pressure, so it falls less than arterial pressure does.
+2. **<span data-term="icp">Intracranial pressure</span> falls**, so there is less pressure squeezing the cerebral vessels. *(<a href="#/physiology/cvs/cerebral?section=4-a-rigid-box-intracranial-pressure-and-perfusion">→ Cerebral Circulation, §4</a>)*
+3. The small fall in flow lets **CO₂ rise and O₂ fall** locally, which **dilates** the cerebral arterioles. *(<a href="#/physiology/cvs/cerebral?section=3-how-does-the-brain-keep-its-blood-flow-steady">→ Cerebral Circulation, §3</a>)*
 
 So cerebral blood flow falls only a little.
 
@@ -77,7 +77,7 @@ So cerebral blood flow falls only a little.
 
 **Fainting is protective.** Falling flat brings the **head level with the heart**, so gravity no longer drains blood away from the brain, and consciousness returns quickly. Holding a fainted person upright is dangerous.
 
-**Vasovagal syncope (the common faint).** Strong emotion (fear, the sight of blood), pain, heat or prolonged standing can trigger a sudden **reflex**: <span data-term="sympathetic-tone">sympathetic tone</span> switches **off** (vessels dilate) and <span data-term="vagal-tone">vagal tone</span> switches **on** (the heart slows). Blood pressure and cerebral flow drop, and the person faints. *(<a href="#/physiology/cvs/reflexes?section=7-other-inputs-and-the-lecture-s-exceptions">→ Reflexes, §7</a>)*
+**Vasovagal syncope (the common faint).** Strong emotion (fear, the sight of blood), pain, heat or prolonged standing can trigger a sudden **reflex**: <span data-term="sympathetic-tone">sympathetic tone</span> switches **off** (vessels dilate) and <span data-term="vagal-tone">vagal tone</span> switches **on** (the heart slows). Blood pressure and cerebral flow drop, and the person faints. *(<a href="#/physiology/cvs/reflexes?section=7-other-inputs-and-the-lecture-s-exceptions">→ Reflexes, §7</a>)*
 
 Notice the difference from ordinary standing: ordinary standing gives a **faster** heart; vasovagal syncope gives a **slower** heart and dilated vessels.
 
@@ -127,7 +127,7 @@ In a fast aircraft or a roller coaster, acceleration acts like **stronger gravit
 
 - Arterial and venous pressures in the head **rise**.
 - The head and neck vessels **congest**: bleeding around the eyes, a **throbbing headache**, mental confusion and reddened vision ("**red-out**").
-- **Why don't the brain vessels burst?** Intracranial pressure rises **at the same time** (from the venous congestion), so the pressure outside the vessels rises with the pressure inside. The **<span data-term="transmural-pressure">transmural pressure</span>** stays small. *(<a href="#/physiology/cvs/local-regulation?section=3-two-mechanisms-myogenic-and-metabolic">→ Local Regulation, §3</a>)*
+- **Why don't the brain vessels burst?** Intracranial pressure rises **at the same time** (from the venous congestion), so the pressure outside the vessels rises with the pressure inside. The **<span data-term="transmural-pressure">transmural pressure</span>** stays small. *(<a href="#/physiology/cvs/local-regulation?section=3-two-mechanisms-myogenic-and-metabolic">→ Local Control, §3</a>)*
 
 **How pilots cope with +g:**
 

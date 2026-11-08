@@ -2,9 +2,9 @@
 
 ## 1. Why does the body need central control?
 
-Local control looks after **one tissue at a time**. *(<a href="#/physiology/cvs/local-regulation">→ Local Regulation</a>)* But someone has to look after the **whole circulation**: keeping arterial pressure high enough to perfuse every organ, and moving blood to where it's needed.
+Local control looks after **one tissue at a time**. *(<a href="#/physiology/cvs/local-regulation">→ Local Control</a>)* But someone has to look after the **whole circulation**: keeping arterial pressure high enough to perfuse every organ, and moving blood to where it's needed.
 
-That central control works on the variables you already know *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)*:
+That central control works on the variables you already know *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)*:
 
 **<span data-term="map">Mean arterial pressure</span> ≈ cardiac output × total peripheral resistance**, and **cardiac output = heart rate × <span data-term="stroke-volume">stroke volume</span>**.
 
@@ -24,7 +24,7 @@ The heart and blood vessels are controlled by groups of neurons in the **medulla
 | Does | **Excites** the sympathetic neurons in the spinal cord | **Inhibits** the pressor area |
 | Result | Blood pressure **rises** | Blood pressure **falls** |
 
-The pressor area sends fibres **straight down to the sympathetic neurons in the spinal cord**. Nearby are the **vagal neurons** that slow the heart. Sensory signals from the body's pressure and chemical sensors arrive at a relay station, the **nucleus tractus solitarius (NTS)**, which adjusts all of these. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
+The pressor area sends fibres **straight down to the sympathetic neurons in the spinal cord**. Nearby are the **vagal neurons** that slow the heart. Sensory signals from the body's pressure and chemical sensors arrive at a relay station, the **nucleus tractus solitarius (NTS)**, which adjusts all of these. *(<a href="#/physiology/cvs/reflexes">→ Reflexes</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> The lecture's "pressor" and "depressor" areas correspond to what modern texts call the rostral ventrolateral medulla (pressor) and the caudal ventrolateral medulla (depressor).</aside>
 
@@ -63,7 +63,7 @@ That is why cutting the sympathetic nerves (or a spinal injury) makes vessels di
 | <span data-term="av-node">AV node</span> | Faster conduction | Slower conduction |
 | Force of contraction | **Stronger** | Little effect on the ventricles |
 
-*(<a href="#/physiology/cvs/cardiac-conduction">→ Cardiac Conduction</a>)*
+*(<a href="#/physiology/cvs/cardiac-conduction">→ Cardiac Conduction</a>)*
 
 **At rest, the vagus is in charge.** The SA node on its own would fire at about 100 beats/min. Constant **<span data-term="vagal-tone">vagal tone</span>** holds the resting rate down to about 70. So:
 
@@ -121,7 +121,7 @@ Hormones act more slowly than nerves, but their effects can last much longer.
 3. **Within minutes:** adrenaline, angiotensin II and ADH reinforce the constriction.
 4. **Over hours to days:** aldosterone and ADH make the kidneys keep salt and water, and thirst rises, slowly **refilling** the circulation.
 
-The nerves can **hold up the pressure**, but they can't replace lost blood. Only the slower, kidney-driven steps restore the volume. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+The nerves can **hold up the pressure**, but they can't replace lost blood. Only the slower, kidney-driven steps restore the volume. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
 **Understanding Check: Sections 5–6**
 

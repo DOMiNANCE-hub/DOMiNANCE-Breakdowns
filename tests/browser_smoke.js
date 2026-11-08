@@ -460,7 +460,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     await page.goto(base + '/' + chapterUrl('cardiac-cycle'), { waitUntil: 'load' });
     await page.waitForTimeout(80);
     const widgets = await page.$$eval('.teaching-widget', els => els.map(e => e.dataset.ready === '1' && !e.classList.contains('tw-failed') && !!e.querySelector('svg, input, button')));
-    check(widgets.length === 8 && widgets.every(Boolean), `cardiac-cycle: ${widgets.filter(Boolean).length}/8 teaching widgets rendered`);
+    check(widgets.length === 7 && widgets.every(Boolean), `cardiac-cycle: ${widgets.filter(Boolean).length}/7 teaching widgets rendered (S2 splitting lives in Heart Sounds)`);
     await page.locator('[data-widget="wiggers"] .tw-dot').nth(4).click();
     check((await page.locator('[data-widget="wiggers"] .tw-step-title').innerText()).startsWith('Step 5'), 'Wiggers stepper did not reach step 5');
     const slider = page.locator('[data-widget="hr-slider"] input');

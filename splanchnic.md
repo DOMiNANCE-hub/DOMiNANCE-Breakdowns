@@ -23,8 +23,6 @@ Both enter at the **portal triad** (portal vein branch + hepatic artery branch +
 
 <figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_scheme1.jpg" alt="Illustration of hepatic lobule organization, central vein, portal triads and acinar zones with oxygen delivery gradients"><figcaption><strong>Hepatic lobule and acinar oxygen zonation.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">MarquardtM, <a href="https://commons.wikimedia.org/wiki/File:Liver_scheme1.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a> · unmodified.</span></details></figcaption></figure>
 
-<figure class="teaching-illustration regional-anatomy-figure"><img loading="lazy" decoding="async" src="https://commons.wikimedia.org/wiki/Special:FilePath/Liver_vascular_anatomy.svg" alt="Detailed labelled anatomical illustration of liver vessels, portal tract and hepatic lobule structures"><figcaption><strong>Liver vascular and lobular anatomy.</strong><details class="figure-attribution"><summary>Image credit</summary><span class="figure-credit">Gwilz, <a href="https://commons.wikimedia.org/wiki/File:Liver_vascular_anatomy.svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · unmodified.</span></details></figcaption></figure>
-
 **Zones: why the centre suffers first.** Along each sinusoid, liver cells take oxygen out as blood passes:
 
 - **Zone 1** (near the portal triad) gets the **freshest, most oxygen-rich** blood.
@@ -38,7 +36,7 @@ Between the sinusoid lining and the liver cells is a narrow gap, the **space of 
 
 - **After a meal**, the gut works harder and its arterioles dilate, so splanchnic blood flow rises: **postprandial hyperaemia**.
 - **The splanchnic veins are a blood reservoir**: stretchy, and holding a large volume.
-- **In haemorrhage**, sympathetic nerves **constrict** the splanchnic vessels. This sends stored blood back to the heart and diverts flow to the brain and heart. It helps hold up blood pressure, but if it lasts, the **gut lining becomes ischaemic** and can break down. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+- **In haemorrhage**, sympathetic nerves **constrict** the splanchnic vessels. This sends stored blood back to the heart and diverts flow to the brain and heart. It helps hold up blood pressure, but if it lasts, the **gut lining becomes ischaemic** and can break down. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
 **Understanding Check: Sections 1–3**
 
@@ -53,14 +51,14 @@ Between the sinusoid lining and the liver cells is a narrow gap, the **space of 
 
 ## 4. Why does fluid collect as ascites?
 
-**<span data-term="ascites">Ascites</span>** is fluid in the peritoneal cavity. It usually develops when the liver is scarred (**cirrhosis**), through several routes at once:
+**Ascites** is fluid in the peritoneal cavity. It usually develops when the liver is scarred (**cirrhosis**), through several routes at once:
 
-1. **High portal pressure:** scarring blocks flow through the liver, so pressure backs up in the portal vein and sinusoids, pushing fluid out. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
+1. **High portal pressure:** scarring blocks flow through the liver, so pressure backs up in the portal vein and sinusoids, pushing fluid out. *(<a href="#/physiology/cvs/edema?section=4-why-does-raised-venous-pressure-cause-oedema">→ Oedema, §4</a>)*
 2. **Much more hepatic lymph:** the leaky sinusoids filter so much fluid that the lymphatics can't keep up, and the excess weeps into the abdomen.
 3. **The kidneys keep salt and water**, sensing underfilled arteries.
-4. **Low albumin** (a failing liver makes less), so the pull holding fluid in the vessels weakens. *(<a href="#/physiology/cvs/edema?section=5-why-can-low-plasma-proteins-cause-oedema">→ Oedema, §5</a>)*
+4. **Low albumin** (a failing liver makes less), so the pull holding fluid in the vessels weakens. *(<a href="#/physiology/cvs/edema?section=5-why-can-low-plasma-proteins-cause-oedema">→ Oedema, §5</a>)*
 
-**Right heart failure** can cause ascites too: high pressure backs up through the hepatic veins into the liver.
+**Right heart failure** can cause <span data-term="ascites">ascites</span> too: high pressure backs up through the hepatic veins into the liver.
 
 The protein content of ascitic fluid **varies with the cause**: it is not always high, and not always low.
 

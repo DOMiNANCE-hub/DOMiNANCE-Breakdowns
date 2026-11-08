@@ -147,15 +147,15 @@ The ECG trace is made of three kinds of parts. The words are not interchangeable
 
 <div class="media-resource video-resource" data-youtube-id="OKJvR83fIrc" data-media-title="(ECG or EKG) Wave patterns. Part 2 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 2 OF 3</span><h3>(ECG or EKG) Wave patterns. Part 2</h3><p>BioVFX. Upward and downward deflections, and how to identify the P, Q, R, S and T waves. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=OKJvR83fIrc" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-**<span data-term="p-wave">P wave</span>: the atria are switched on.** The signal starts in the <span data-term="sa-node">SA node</span> and spreads across both atria. The P wave is that spread through the atrial muscle; the SA node itself is too small to show. The atria contract just after it. Normal duration: **0.08–0.10 s**.
+**P wave: the atria are switched on.** The signal starts in the <span data-term="sa-node">SA node</span> and spreads across both atria. The P wave is that spread through the atrial muscle; the SA node itself is too small to show. The atria contract just after it. Normal duration: **0.08–0.10 s**.
 
-**PR interval: from the atria switching on to the ventricles switching on.** It runs from the **start of the P wave** to the **start of the QRS**. Normal: **0.12–0.20 s**. It includes the spread across the atria, the hold-up in the <span data-term="av-node">AV node</span> and the run down the His–<span data-term="his-purkinje">Purkinje fibres</span>. So the PR interval is **not just the AV delay**. *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
+**PR interval: from the atria switching on to the ventricles switching on.** It runs from the **start of the <span data-term="p-wave">P wave</span>** to the **start of the QRS**. Normal: **0.12–0.20 s**. It includes the spread across the atria, the hold-up in the <span data-term="av-node">AV node</span> and the run down the His–<span data-term="his-purkinje">Purkinje fibres</span>. So the PR interval is **not just the AV delay**. *(<a href="#/physiology/cvs/cardiac-conduction?section=6-why-is-ventricular-conduction-so-rapid">→ Cardiac Conduction, §6</a>)*
 
 The **PR segment** is shorter. It runs from the **end** of the P wave to the start of the QRS, when the signal is passing through the AV node and His–Purkinje fibres.
 
 <div class="media-resource video-resource" data-youtube-id="MOD3NthLAB0" data-media-title="(ECG or EKG) PR interval part 3 — BioVFX"><span class="media-eyebrow">OPTIONAL VIDEO · BIOVFX ECG SERIES, PART 3 OF 3</span><h3>(ECG or EKG) PR interval part 3</h3><p>BioVFX. The PR interval, measured from the start of the P wave to the start of the QRS complex, normally about 120–200 ms. It loads only when tapped.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Play video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=MOD3NthLAB0" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">© BioVFX, shown via YouTube's privacy-enhanced embed. The written explanation on this page does not depend on this video.</p></div>
 
-**<span data-term="qrs">QRS complex</span>: the ventricles are switched on.** The ventricles have far more muscle than the atria, so the QRS is much bigger than the P wave. Normal duration: **0.06–0.10 s** in the lecture; clinically, anything under 0.12 s is accepted as normal.
+**QRS complex: the ventricles are switched on.** The ventricles have far more muscle than the atria, so the QRS is much bigger than the P wave. Normal duration: **0.06–0.10 s** in the lecture; clinically, anything under 0.12 s is accepted as normal.
 
 - **Q:** a downward deflection before the first upward one
 - **R:** the upward deflection
@@ -191,12 +191,12 @@ Each electrical event comes **just before** the mechanical event it triggers:
 | ECG | Electrical event | What follows mechanically |
 |---|---|---|
 | **P wave** | Atria switch on | Atria contract and top up the ventricles |
-| **<span data-term="pr-interval">PR interval</span>** | The signal is held in the <span data-term="av-node">AV node</span> | The atria finish emptying before the ventricles contract |
+| **PR interval** | The signal is held in the <span data-term="av-node">AV node</span> | The atria finish emptying before the ventricles contract |
 | **QRS** | Ventricles switch on | Ventricles contract; <span data-term="s1">S1</span> is heard soon after |
 | **ST segment** | Whole ventricle switched on | Ventricles eject blood |
 | **T wave** | Ventricles reset | Ventricles relax; <span data-term="s2">S2</span> comes near the end of the T wave |
 
-The <span data-term="wiggers">Wiggers diagram</span> puts these electrical events above the pressure and volume curves of the same beat. *(<a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">→ Cardiac Cycle, §9</a>)*
+The <span data-term="wiggers">Wiggers diagram</span> puts these electrical events above the pressure and volume curves of the same beat. *(<a href="#/physiology/cvs/cardiac-cycle?section=9-reading-the-wiggers-diagram-one-trace-at-a-time">→ Cardiac Cycle, §9</a>)*
 
 **Understanding Check: Sections 3–5**
 
@@ -307,7 +307,7 @@ The PR interval also shows whether the signal is getting through the <span data-
 | Some P waves are not followed by a QRS | **Second-degree** heart block: some signals are dropped |
 | P waves and QRS complexes at their own separate rates | **Third-degree (complete)** heart block: nothing gets through |
 
-The mechanisms are explained in Cardiac Conduction. *(<a href="#/physiology/cvs/cardiac-conduction?section=8-clinical-significance-of-conduction-disturbances">→ Cardiac Conduction, §8</a>)*
+The mechanisms are explained in Cardiac Conduction. *(<a href="#/physiology/cvs/cardiac-conduction?section=8-clinical-significance-of-conduction-disturbances">→ Cardiac Conduction, §8</a>)*
 
 **Understanding Check: Sections 6–8**
 

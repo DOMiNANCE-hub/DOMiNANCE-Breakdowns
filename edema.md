@@ -12,7 +12,7 @@ So there are only two ways to get oedema: **too much filtration**, or **too litt
 
 ## 2. What physical forces govern filtration?
 
-The four Starling forces decide how much fluid leaves the capillaries *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*:
+The four Starling forces decide how much fluid leaves the capillaries *(<a href="#/physiology/cvs/microcirculation?section=5-why-does-fluid-leave-capillaries-even-when-protein-stays-in-blood">→ Microcirculation, §5</a>)*:
 
 - **Pc**, capillary blood pressure: pushes out.
 - **πc**, plasma protein (albumin) pull: holds water in.
@@ -35,7 +35,7 @@ Two extra terms:
 | **Drain blocked** | Lymph flow ↓ | Filariasis, lymph nodes removed in breast cancer surgery |
 | **Too much fluid overall** | Salt and water retained | Kidney failure |
 
-<figure class="learning-figure teaching-widget" data-widget="starling-balance" data-start="hf" data-desc="sr"><figcaption>Starling balance: what tips it towards oedema?</figcaption><p>The Starling balance interactive from Chapter 13, opening on Heart failure. Each scenario button shows which arrow changes and the net result.</p></figure>
+<figure class="learning-figure teaching-widget" data-widget="starling-balance" data-start="hf" data-desc="sr"><figcaption>Starling balance: what tips it towards oedema?</figcaption><p>The Starling balance interactive from Microcirculation, opening on Heart failure. Each scenario button shows which arrow changes and the net result.</p></figure>
 
 **The key question for any swelling: which part failed?** Different diseases can look alike on the outside but work in completely different ways.
 
@@ -45,10 +45,10 @@ If blood can't drain out of the veins, it **backs up into the capillaries**, rai
 
 - **Blocked veins** (a clot in a leg vein): one leg swells.
 - **Leaky vein valves** (varicose veins): blood falls back and pools.
-- **Standing still for long periods**: gravity raises leg venous pressure, and the muscle pump isn't working, so the ankles swell. *(<a href="#/physiology/cvs/venous-return?section=4-how-do-the-skeletal-muscle-pump-and-venous-valves-work">→ Venous Return, §4</a>)*
+- **Standing still for long periods**: gravity raises leg venous pressure, and the muscle pump isn't working, so the ankles swell. *(<a href="#/physiology/cvs/venous-return?section=4-how-do-the-skeletal-muscle-pump-and-venous-valves-work">→ Venous Return, §4</a>)*
 - **Heart failure**:
   - A failing **right** heart raises systemic venous pressure, causing swollen ankles.
-  - A failing **left** heart raises pressure in the lung veins, causing **<span data-term="pulmonary-oedema">pulmonary oedema</span>**: fluid in the lungs, which stops oxygen getting into the blood and makes the patient breathless.
+  - A failing **left** heart raises pressure in the lung veins, causing **pulmonary oedema**: fluid in the lungs, which stops oxygen getting into the blood and makes the patient breathless.
 
 **Arteriole and venule tone matter too.** Widening the arterioles lets more of the arterial pressure through to the capillaries. Tightening the venules holds blood back in them. Both raise Pc, and the lecture lists both as causes.
 
@@ -93,7 +93,7 @@ The lecture's examples:
 - **Filariasis (<span data-term="elephantiasis">elephantiasis</span>):** parasitic worms block the lymph vessels, so the legs or scrotum swell enormously.
 - **Radical mastectomy:** removing the armpit lymph nodes in breast cancer surgery leaves that arm swollen.
 
-*(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
+*(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
 
 ## 8. Why are pitting and non-pitting oedema different?
 
@@ -109,7 +109,7 @@ Press a thumb firmly into swollen skin for a few seconds.
 
 
 
-**<span data-term="lymphoedema">Lymphoedema</span>** is usually non-pitting, but **only once it is long-standing**. Early lymphoedema can still pit, and it becomes firm as scarring develops.
+**Lymphoedema** is usually non-pitting, but **only once it is long-standing**. Early <span data-term="lymphoedema">lymphoedema</span> can still pit, and it becomes firm as scarring develops.
 
 <aside class="source-note"><strong>Source note:</strong> The lecture states that lymphoedema does not pit. That describes its usual late stage; early lymphoedema can pit.</aside>
 
