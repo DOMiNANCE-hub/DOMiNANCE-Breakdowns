@@ -874,7 +874,7 @@ Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
 Section: 2. Trace the fetal circuit
 Type: mechanism
 Stem: What does the ductus venosus chiefly allow fetal blood to bypass?
-A. Most hepatic sinusoids.
+A. Much of the hepatic sinusoidal bed.
 B. The aortic arch and systemic arteries.
 C. The right atrium and vena cava.
 D. The placental exchange surface.
@@ -970,7 +970,7 @@ Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
 Section: 4. What closes after delivery?
 Type: anatomy
 Stem: What is the fibrous adult remnant of the ductus arteriosus?
-A. Fossa ovalis.
+A. The fossa ovalis.
 B. Ligamentum arteriosum.
 C. Ligamentum venosum.
 D. Ligamentum teres hepatis.
@@ -986,7 +986,7 @@ Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
 Section: 4. What closes after delivery?
 Type: anatomy
 Stem: Which adult remnant arises from closure of the umbilical vein?
-A. The fossa ovalis.
+A. The fossa ovalis in the atrial septum.
 B. The ligamentum arteriosum.
 C. The ligamentum teres hepatis.
 D. The median umbilical ligament.
