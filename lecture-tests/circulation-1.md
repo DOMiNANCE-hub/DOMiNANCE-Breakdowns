@@ -439,7 +439,7 @@ Slides: 27–30
 
 ### Q28
 Chapter: Chapter 5 — Heart Sounds and Murmurs
-Section: 3. Why does S2 sometimes split with inspiration?
+Section: 5. Why do heart sounds change in loudness?
 Type: mechanism
 Stem: Why may the aortic component of the second heart sound become more prominent in systemic hypertension?
 A. Brisk aortic valve closure under higher pressure.
