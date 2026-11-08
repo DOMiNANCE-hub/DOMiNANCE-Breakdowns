@@ -248,30 +248,58 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log(`  ${topics.length} chapters checked in all three modes`);
   }
 
+  // Keep the responsive fraction checks after merging new media/reading styles from main.
   // ---------- 4. Equations ----------
-  section('Equations are readable text and fit small screens');
-  for (const width of [320, 360, 390]) {
+  section('Equations retain stacked fractions and scripts on small screens');
+  for (const width of [320, 360, 390, 768]) {
     const page = await newPage(browser, base, { viewport: { width, height: 800 } });
-    for (const slug of ['cardiac-cycle', 'blood-pressure', 'cardiac-output', 'hemodynamics', 'co-measurement']) {
+    for (const slug of ['cardiac-cycle', 'blood-pressure', 'cardiac-output', 'hemodynamics', 'co-measurement', 'ecg']) {
       await openRoute(page, base, chapterUrl(slug));
       const rows = await page.evaluate(() => [...document.querySelectorAll('.equation-block')].map(el => {
         const f = el.querySelector('.equation-formula');
-        return { text: f?.textContent || '', right: el.getBoundingClientRect().right,
-          height: f?.getBoundingClientRect().height || 0, hasMath: !!el.querySelector('math') };
+        const fractions = [...el.querySelectorAll('.eq-fraction')];
+        return {
+          text: f?.getAttribute('aria-label') || '',
+          right: el.getBoundingClientRect().right,
+          height: f?.getBoundingClientRect().height || 0,
+          hasMath: !!el.querySelector('math'),
+          hasLayout: !!f?.querySelector('.eq-layout'),
+          fractionCount: fractions.length,
+          fractionsHaveBars: fractions.every(fr => {
+            const top = fr.querySelector('.eq-numerator');
+            const bottom = fr.querySelector('.eq-denominator');
+            return !!(top && bottom && top.getBoundingClientRect().width > 0 &&
+              parseFloat(getComputedStyle(top).borderBottomWidth) > 0);
+          }),
+          hasSup: !!el.querySelector('.eq-script > sup'),
+          hasSub: !!el.querySelector('.eq-script > sub')
+        };
       }));
       check(rows.length > 0, `${slug} @${width}: no equation blocks`);
-      check(!rows.some(x => !x.text || x.hasMath || x.right > width + 2 || x.height > 100),
+      check(!rows.some(x => !x.text || x.hasMath || !x.hasLayout || !x.fractionsHaveBars || x.right > width + 2 || x.height > 170),
         `${slug} @${width}: badly rendered equation ${JSON.stringify(rows)}`);
       const texts = rows.map(r => r.text);
       if (slug === 'cardiac-cycle') {
         check(texts.some(x => x.includes('SV = EDV − ESV')), `stroke volume equation missing @${width}`);
-        check(texts.some(x => x.includes('EF = (SV) / (EDV) × 100')), `ejection fraction equation missing @${width}`);
+        check(rows.some(x => x.text.startsWith('EF = ') && x.fractionCount > 0), `ejection fraction needs a stacked bar @${width}`);
       }
       if (slug === 'co-measurement') {
         check(texts.some(x => x.includes('V̇O₂ = CO × (CₐO₂ − CᵥO₂)')), `Fick oxygen balance missing @${width}`);
-        check(texts.some(x => x.includes('CO = V̇O₂ / (CₐO₂ − CᵥO₂)')), `Fick output formula missing @${width}`);
+        check(texts.some(x => x.startsWith('CO = ') && x.includes('divided by')), `Fick output formula missing @${width}`);
+      }
+      if (slug === 'hemodynamics') {
+        check(rows.some(x => x.fractionCount > 0 && x.hasSup), `Poiseuille needs fraction and superscript @${width}`);
+      }
+      if (slug === 'ecg') {
+        check(rows.some(x => x.hasSub), `ECG lead subscripts missing @${width}`);
+        check(rows.some(x => x.fractionCount > 0), `ECG rate fraction missing @${width}`);
+      }
+      if (slug === 'cardiac-output') {
+        check(rows.some(x => x.text.startsWith('CI = ') && x.fractionCount > 0), `cardiac index fraction missing @${width}`);
       }
     }
+    check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2,
+      `equations @${width}: page overflow`);
     await page.context().close();
   }
 

@@ -23,38 +23,81 @@ def make_sections(html):
 
 
 def readable_math(html):
-    """Replace MathML with reliable, accessible plain-text equations on all devices."""
-    def render(el):
+    """Typeset authored MathML as responsive, accessible HTML without external dependencies.
+
+    Unlike plain-text flattening, fractions retain a visible bar and scripted
+    characters retain their proper vertical position. The aria-label is a
+    linear reading of the same equation for assistive technologies.
+    """
+    def walk(el):
+        name=el.tag.rsplit('}',1)[-1]
+        kids=list(el)
+        if name in ('math','mrow','mstyle','semantics'):
+            return ''.join(walk(k) for k in kids)
+        if name=='mfrac' and len(kids)>=2:
+            return ('<span class="eq-fraction"><span class="eq-numerator">'
+                    +walk(kids[0])+'</span><span class="eq-denominator">'
+                    +walk(kids[1])+'</span></span>')
+        if name=='msup' and len(kids)>=2:
+            return '<span class="eq-script">'+walk(kids[0])+'<sup>'+walk(kids[1])+'</sup></span>'
+        if name=='msub' and len(kids)>=2:
+            return '<span class="eq-script">'+walk(kids[0])+'<sub>'+walk(kids[1])+'</sub></span>'
+        if name=='msubsup' and len(kids)>=3:
+            return ('<span class="eq-script">'+walk(kids[0])
+                    +'<span class="eq-both"><sup>'+walk(kids[2])
+                    +'</sup><sub>'+walk(kids[1])+'</sub></span></span>')
+        if name=='msqrt':
+            return '<span class="eq-root"><span class="eq-root-symbol">√</span><span class="eq-radicand">'+''.join(walk(k) for k in kids)+'</span></span>'
+        if name=='mover' and len(kids)>=2:
+            return ('<span class="eq-over"><span class="eq-accent">'+walk(kids[1])
+                    +'</span><span class="eq-over-base">'+walk(kids[0])+'</span></span>')
+        if name=='mspace':
+            width=el.attrib.get('width','0.8em')
+            if not re.fullmatch(r'\d+(?:\.\d+)?(?:em|ex|px)',width):
+                width='0.8em'
+            return '<span class="eq-gap" style="width:'+width+'"></span>'
+        if name=='mphantom':
+            return '<span class="eq-phantom">'+''.join(walk(k) for k in kids)+'</span>'
+        if not kids:
+            kind={'mi':'eq-identifier','mn':'eq-number','mo':'eq-operator','mtext':'eq-words'}.get(name,'eq-words')
+            return '<span class="eq-token '+kind+'">'+html_module.escape(''.join(el.itertext()))+'</span>'
+        return ''.join(walk(k) for k in kids)
+
+    def spoken(el):
         name=el.tag.rsplit('}',1)[-1]
         kids=list(el)
         if name=='mfrac' and len(kids)>=2:
-            a,b=render(kids[0]),render(kids[1])
-            return f'({a}) / ({b})'
+            return '('+spoken(kids[0])+') divided by ('+spoken(kids[1])+')'
         if name=='msup' and len(kids)>=2:
-            return render(kids[0])+'^'+render(kids[1])
+            return spoken(kids[0])+' to the power of '+spoken(kids[1])
         if name=='msub' and len(kids)>=2:
-            return render(kids[0])+'_'+render(kids[1])
-        if name=='mover' and len(kids)>=2:
-            return render(kids[0])+render(kids[1])
+            return spoken(kids[0])+' subscript '+spoken(kids[1])
+        if name=='msubsup' and len(kids)>=3:
+            return spoken(kids[0])+' subscript '+spoken(kids[1])+' to the power of '+spoken(kids[2])
         if name=='msqrt':
-            return '√('+''.join(render(k) for k in kids)+')'
+            return 'square root of ('+''.join(spoken(k) for k in kids)+')'
+        if name=='mover' and len(kids)>=2:
+            return spoken(kids[0])+' with '+spoken(kids[1])+' above'
         if name in ('mspace','mphantom'):
             return ' '
         if not kids:
             return ''.join(el.itertext()).strip()
-        return ''.join(render(k) for k in kids)
-    def replace(m):
+        return ''.join(spoken(k) for k in kids)
+
+    def replace(match):
         try:
-            root=ET.fromstring(m.group(0))
-            equation=render(root)
-            # Add word spacing only around operators, then preserve inline mathematical grouping.
-            equation=re.sub(r'\s+',' ',equation).strip()
-            equation=re.sub(r'\s*([=≈×+−<>])\s*',r' \1 ',equation)
-            equation=re.sub(r'\s+',' ',equation).strip()
-            return '<span class="equation-formula" role="math" aria-label="'+html_module.escape(equation,quote=True)+'">'+html_module.escape(equation)+'</span>'
+            root=ET.fromstring(match.group(0))
         except ET.ParseError:
-            raise ValueError('Invalid MathML in chapter content: '+m.group(0)[:150])
+            raise ValueError('Invalid MathML in chapter content: '+match.group(0)[:150])
+        label=re.sub(r'\s+',' ',spoken(root)).strip()
+        label=re.sub(r'\s*([=≈×+−<>])\s*',r' \1 ',label)
+        label=re.sub(r'\s+',' ',label).strip()
+        return ('<span class="equation-formula" role="math" aria-label="'
+                +html_module.escape(label,quote=True)
+                +'"><span class="eq-layout" aria-hidden="true">'
+                +walk(root)+'</span></span>')
     return re.sub(r'<math\b[^>]*>[\s\S]*?</math>',replace,html)
+
 
 def search_text(html):
     """Full plain text of a chapter for in-page search (never truncated)."""
@@ -234,8 +277,8 @@ def lamla_sheet(path):
         must=[]
         for line in re.findall(r'^- (.+)$',parts.get('must-know',''),re.M):
             star=line.startswith('★'); text=line.lstrip('★ ').strip()
-            must.append({'star':star,'html':md(text).strip().removeprefix('<p>').removesuffix('</p>')})
-        sec=lambda k: md(parts[k].strip()) if k in parts else ''
+            must.append({'star':star,'html':readable_math(md(text)).strip().removeprefix('<p>').removesuffix('</p>')})
+        sec=lambda k: readable_math(md(parts[k].strip())) if k in parts else ''
         chapters.append({'slug':slug,'must':must,'numbers':sec('numbers to know'),'chains':sec('core chains'),
                          'confuse':sec("don't confuse"),'traps':sec('exam traps')})
     assert [c['slug'] for c in chapters]==slugs, f'{path.name}: chapters out of order'
