@@ -209,6 +209,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await dialog.locator('details:not(.figure-attribution) summary').first().click();
     }
     await page.keyboard.press('Escape');
+    await dialog.waitFor({ state: 'hidden' });
     check(!(await dialog.isVisible()), 'Escape did not close the desktop Understanding Check');
     await launch.click();
     check(await dialog.locator('details:not(.figure-attribution)').first().evaluate(e => e.open),
@@ -627,8 +628,9 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(!JSON.stringify(sent).match(/@|name/i), `feedback @${width}: events should carry nothing personal`);
       // Report a problem with a set of questions
       await openRoute(page, base, chapterUrl('reflexes'));
-      if (width < 760) { await page.locator('.check-launch').first().click(); await page.waitForTimeout(260); }
-      const scope = width < 760 ? '.check-sheet' : '.article-text';
+      await page.locator('.check-launch').first().click();
+      await page.waitForTimeout(260);
+      const scope = '.check-sheet';
       await page.locator(`${scope} .check-report`).first().click();
       check(await page.locator('#fb-where option').count() === 4, `feedback @${width}: question report should offer "in general" + 3 questions`);
       // Before the database is connected the form says so instead of pretending.
