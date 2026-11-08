@@ -309,3 +309,291 @@ Not C: Venous blood cannot replace arterial oxygen delivery.
 Not D: The lecture describes cortical vulnerability, with brainstem structures relatively more resistant.
 Slides: 23–24
 
+### Q20
+Chapter: Chapter 23 — Coronary Circulation
+Section: 2. Trace coronary inflow and venous drainage
+Type: anatomy
+Stem: Which location gives rise to the right and left coronary arteries?
+A. The pulmonary arterial bifurcation.
+B. The superior vena cava junction.
+C. The aortic sinuses near the valve cusps.
+D. The coronary sinus opening in the atrium.
+Answer: C
+Why: The coronary ostia arise from the aortic sinuses immediately above the aortic valve.
+Not A: The pulmonary trunk conducts deoxygenated blood to the lungs.
+Not B: The superior vena cava returns systemic venous blood.
+Not D: The coronary sinus drains venous blood into the right atrium.
+Slides: 27
+
+### Q21
+Chapter: Chapter 23 — Coronary Circulation
+Section: 2. Trace coronary inflow and venous drainage
+Type: anatomy
+Stem: Most coronary venous blood returns to the right atrium through which structure?
+A. The coronary sinus.
+B. The pulmonary veins.
+C. The superior vena cava alone.
+D. The aortic sinuses.
+Answer: A
+Why: The coronary sinus collects most cardiac venous drainage and empties into the right atrium.
+Not B: Pulmonary veins return oxygenated blood from lungs to left atrium.
+Not C: The superior vena cava is not the primary collection route for cardiac veins.
+Not D: Aortic sinuses supply arterial coronary inflow.
+Slides: 27
+
+### Q22
+Chapter: Chapter 23 — Coronary Circulation
+Section: 3. Why is left ventricular coronary perfusion greatest during diastole?
+Type: mechanism
+Stem: Why is perfusion of the left ventricular myocardium predominantly diastolic?
+A. The coronary ostia close during ventricular systole.
+B. Aortic flow stops entirely during ventricular diastole.
+C. The left ventricle receives no blood during relaxation.
+D. Systolic myocardial contraction compresses intramural vessels.
+Answer: D
+Why: High left ventricular wall tension during systole squeezes intramyocardial coronary vessels; relaxation permits better flow.
+Not A: Coronary ostia remain open through the cardiac cycle.
+Not B: Aortic pressure persists during diastole and drives coronary flow.
+Not C: Coronary flow increases during relaxation rather than disappearing.
+Slides: 27; Chapter 23 §3
+
+### Q23
+Chapter: Chapter 23 — Coronary Circulation
+Section: 4. How does coronary flow match changing myocardial work?
+Type: mechanism
+Stem: A heart begins working harder during exercise. Which local change most directly helps increase its coronary blood flow?
+A. A sustained rise in arteriolar alpha-adrenergic constriction.
+B. Accumulation of adenosine and other vasodilating metabolites.
+C. Decreased myocardial metabolism with higher local oxygen.
+D. Closure of capillary networks in the ventricular wall.
+Answer: B
+Why: Higher cardiac work increases oxygen use and metabolites including adenosine, promoting coronary vasodilation and active hyperaemia.
+Not A: Alpha-mediated constriction is not the main response matching flow to greater work.
+Not C: Lower metabolism would not explain exercise hyperaemia.
+Not D: Capillary closure would oppose increased oxygen delivery.
+Slides: 28
+
+### Q24
+Chapter: Chapter 23 — Coronary Circulation
+Section: 4. How does coronary flow match changing myocardial work?
+Type: comparison
+Stem: What is the direct action of alpha-receptor activation on coronary vascular smooth muscle?
+A. Vasoconstriction.
+B. Metabolic vasodilation.
+C. Capillary oxygen extraction.
+D. Increased myocardial contractility.
+Answer: A
+Why: The lecture identifies coronary alpha-receptor stimulation as directly vasoconstricting, distinct from metabolic vasodilation.
+Not B: Metabolic dilation is driven largely by myocardial activity and metabolites.
+Not C: Oxygen extraction is a tissue process, not a direct receptor effect.
+Not D: Increased contractility is associated with cardiac beta-adrenergic stimulation.
+Slides: 28
+
+### Q25
+Chapter: Chapter 23 — Coronary Circulation
+Section: 4. How does coronary flow match changing myocardial work?
+Type: mechanism
+Stem: Cardiac beta-adrenergic stimulation raises coronary flow overall mainly through which chain?
+A. Less contraction → less oxygen use → greater vascular tone.
+B. More contraction → less ATP use → less adenosine.
+C. More work → greater metabolic demand → metabolite-mediated dilation.
+D. Direct beta stimulation → closure of coronary arterioles.
+Answer: C
+Why: Sympathetic stimulation raises cardiac work and oxygen demand; local metabolites then increase coronary perfusion despite competing vasomotor effects.
+Not A: Reduced contraction is not the expected beta-mediated cardiac response.
+Not B: Greater work increases, not reduces, ATP consumption.
+Not D: Coronary flow is not increased by closing the arterioles.
+Slides: 28; Chapter 23 §4
+
+### Q26
+Chapter: Chapter 23 — Coronary Circulation
+Section: 5. Why can tachycardia cause ischaemia?
+Type: application
+Stem: Why is a patient with significant coronary narrowing more vulnerable to angina when heart rate rises sharply?
+A. The P wave disappears and blocks blood flow.
+B. Myocardial oxygen consumption falls below baseline.
+C. The coronary sinus develops arterial hypertension.
+D. Diastolic perfusion time shortens while myocardial demand rises.
+Answer: D
+Why: Tachycardia increases cardiac oxygen demand and shortens diastole, reducing the time available for left ventricular coronary perfusion.
+Not A: An absent P wave is not the explanation of demand-related angina.
+Not B: Myocardial work and oxygen consumption generally rise with tachycardia.
+Not C: The primary limitation is coronary supply through stenosed arteries during shortened diastole.
+Slides: 27–29; Chapter 23 §5
+
+### Q27
+Chapter: Chapter 23 — Coronary Circulation
+Section: 6. Coronary flow reserve, angina and myocardial infarction
+Type: application
+Stem: A patient with coronary atheroma is comfortable at rest but develops exertional chest pain. Which explanation fits best?
+A. The coronary artery becomes completely normal during exercise.
+B. Restricted coronary flow reserve cannot meet increased demand.
+C. Exercise lowers heart oxygen requirements below resting levels.
+D. Coronary flow stops at rest but rest pain is absent.
+Answer: B
+Why: A narrowed vessel may deliver adequate resting flow but cannot dilate enough to meet exercise demand, causing reversible ischaemia.
+Not A: Plaque does not disappear with exertion.
+Not C: Exercise raises myocardial work and oxygen requirements.
+Not D: Resting coronary flow may be sufficient despite reduced reserve.
+Slides: 29; Chapter 23 §6
+
+### Q28
+Chapter: Chapter 23 — Coronary Circulation
+Section: 6. Coronary flow reserve, angina and myocardial infarction
+Type: comparison
+Stem: What most clearly differentiates myocardial infarction from brief stable angina?
+A. Infarction causes sustained ischaemic myocardial injury or necrosis.
+B. Infarction occurs only when heart rate is very slow.
+C. Angina requires complete coronary artery rupture.
+D. Angina permanently destroys the affected myocardium.
+Answer: A
+Why: Prolonged severe ischaemia can cause irreversible myocardial cell death; transient angina does not necessarily cause necrosis.
+Not B: Infarction can occur across a range of heart rates.
+Not C: Stable angina may result from fixed stenosis without rupture.
+Not D: Transient angina ordinarily reflects reversible myocardial ischaemia.
+Slides: 29
+
+### Q29
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 1. Two circulations in one lung
+Type: anatomy
+Stem: Which pair correctly identifies the lung's respiratory and supporting arterial circulations?
+A. Bronchial arteries for gas exchange and coronary arteries for support.
+B. Pulmonary arteries for support and hepatic arteries for gas exchange.
+C. Pulmonary arteries for gas exchange and bronchial arteries for support.
+D. Pulmonary veins for gas exchange and aortic veins for support.
+Answer: C
+Why: Pulmonary arteries carry blood for gas exchange, while bronchial arteries from the aorta nourish lung supporting structures.
+Not A: Bronchial arteries primarily nourish lung tissue; coronary arteries nourish heart.
+Not B: The functional roles of pulmonary and bronchial supplies are reversed.
+Not D: Pulmonary veins return oxygenated blood; aortic veins are not a normal supply.
+Slides: 31
+
+### Q30
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 1. Two circulations in one lung
+Type: mechanism
+Stem: Why can some oxygenated bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?
+A. Bronchial venous blood drains only into the superior vena cava.
+B. Some bronchial venous blood joins pulmonary veins.
+C. Bronchial arteries arise directly from right ventricle.
+D. Pulmonary arterial blood bypasses alveolar capillaries entirely.
+Answer: B
+Why: Some bronchial venous return enters pulmonary veins, mixing a small amount of deoxygenated blood with oxygenated pulmonary venous blood.
+Not A: Not all bronchial venous blood returns only through systemic veins.
+Not C: Bronchial arteries arise from the systemic arterial circulation.
+Not D: Normal pulmonary blood passes through alveolar capillary networks.
+Slides: 31; Chapter 24 §1
+
+### Q31
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 2. Same flow, much lower pressure
+Type: mechanism
+Stem: During exercise, pulmonary blood flow increases markedly with relatively little rise in pulmonary artery pressure. Why?
+A. Pulmonary arterioles uniformly constrict during exercise.
+B. All pulmonary capillaries close to maintain pressure.
+C. Pulmonary veins increase resistance to prevent overfilling.
+D. Capillary recruitment and distension lower pulmonary resistance.
+Answer: D
+Why: Recruiting previously underperfused capillaries and distending open vessels accommodates higher flow while limiting the pressure increase.
+Not A: Constricting arterioles would tend to increase pressure for a given flow.
+Not B: Closing capillaries would reduce the available vascular bed.
+Not C: Increased venous resistance would impede drainage and raise upstream pressure.
+Slides: Chapter 24 §2 (supplementary)
+
+### Q32
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 3. Why the alveoli stay dry
+Type: mechanism
+Stem: Which pressure relationship helps prevent fluid accumulation in normal pulmonary alveoli?
+A. Relatively low pulmonary capillary hydrostatic pressure.
+B. Pulmonary capillary pressure consistently exceeds systemic arterial pressure.
+C. Absence of plasma proteins in pulmonary capillaries.
+D. Higher alveolar protein pressure than in capillary plasma.
+Answer: A
+Why: Low pulmonary capillary hydrostatic pressure relative to plasma oncotic forces helps minimise filtration into air spaces.
+Not B: Pulmonary capillary pressure is much lower than systemic arterial pressure.
+Not C: Plasma proteins contribute the inward oncotic force.
+Not D: Alveolar spaces normally contain little free fluid and protein.
+Slides: 31
+
+### Q33
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 4. Gravity, posture and the lung's blood reservoir
+Type: data-interpretation
+Stem: A person lies down after standing upright. What happens to pulmonary blood volume in the lecture's illustration?
+A. It falls by approximately 400 mL.
+B. It remains fixed regardless of posture.
+C. It rises by approximately 400 mL.
+D. It falls until alveolar flow stops.
+Answer: C
+Why: Supine positioning redistributes blood centrally, increasing the pulmonary blood reservoir by about 400 mL in the lecture.
+Not A: The lecture describes an increase, not decrease, on lying down.
+Not B: Pulmonary blood volume varies with posture.
+Not D: Blood flow does not normally stop merely because someone lies down.
+Slides: 32
+
+### Q34
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 4. Gravity, posture and the lung's blood reservoir
+Type: application
+Stem: Why can lying flat aggravate breathlessness in left ventricular failure?
+A. It sharply lowers the volume returning from the legs.
+B. Increased central blood volume raises pulmonary venous pressure.
+C. It directly destroys red cells within the pulmonary capillaries.
+D. Pulmonary circulation becomes independent of the left atrium.
+Answer: B
+Why: A supine fluid shift increases thoracic blood volume; a failing left ventricle cannot clear the extra return, promoting pulmonary congestion.
+Not A: Venous return from dependent veins generally increases when supine.
+Not C: Red-cell destruction does not explain orthopnoea.
+Not D: Left atrial and pulmonary venous pressures remain tightly related.
+Slides: 31–32; Chapter 24 §4
+
+### Q35
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 5. Low oxygen constricts lung vessels
+Type: mechanism
+Stem: An alveolar region becomes poorly ventilated and its oxygen tension falls. What local pulmonary vascular response occurs?
+A. Arteriolar dilation, drawing more blood to the region.
+B. Systemic venous constriction, increasing cardiac preload.
+C. Complete loss of autonomic input to the region.
+D. Arteriolar constriction, diverting blood to better-ventilated areas.
+Answer: D
+Why: Low alveolar oxygen causes hypoxic pulmonary vasoconstriction, redirecting flow toward regions with better ventilation.
+Not A: Pulmonary hypoxic regulation is opposite to the usual local systemic response.
+Not B: Systemic venoconstriction is not the direct regional lung response.
+Not C: The response is local vascular contraction rather than loss of innervation.
+Slides: 32
+
+### Q36
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 5. Low oxygen constricts lung vessels
+Type: mechanism
+Stem: Why can chronic widespread alveolar hypoxia lead to pulmonary hypertension?
+A. Sustained hypoxic vasoconstriction raises pulmonary vascular resistance.
+B. Persistent hypoxia opens every pulmonary capillary without resistance.
+C. Widespread hypoxia lowers pulmonary vascular smooth-muscle tone.
+D. Chronic hypoxia eliminates blood passing through the lungs.
+Answer: A
+Why: When hypoxic constriction affects much of the lung, cumulative resistance rises and pulmonary arterial pressure can increase.
+Not B: Recruitment is a different response that lowers resistance.
+Not C: The lecture explicitly associates hypoxia with pulmonary vasoconstriction.
+Not D: Lung flow generally continues but faces increased resistance.
+Slides: 32
+
+### Q37
+Chapter: Chapter 24 — Pulmonary Circulation
+Section: 5. Low oxygen constricts lung vessels
+Type: comparison
+Stem: How does local hypoxia affect most systemic arterioles versus pulmonary arterioles?
+A. Both primarily constrict to lower oxygen delivery.
+B. Systemic vessels constrict while pulmonary vessels dilate.
+C. Systemic vessels usually dilate while pulmonary vessels constrict.
+D. Both always remain unaffected by oxygen levels.
+Answer: C
+Why: Systemic hypoxic tissues commonly dilate to improve supply, whereas low alveolar oxygen constricts adjacent pulmonary arterioles to improve ventilation–perfusion matching.
+Not A: Systemic tissues usually need increased flow in hypoxia.
+Not B: The response directions have been reversed.
+Not D: Oxygen tension influences both beds, but their dominant local responses differ.
+Slides: 32; Chapter 24 §5
+
