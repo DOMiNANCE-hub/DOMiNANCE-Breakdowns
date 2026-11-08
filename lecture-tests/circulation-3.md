@@ -613,3 +613,195 @@ Not C: Erythropoietin, not ADH, supports later red-cell replacement.
 Not D: Volume depletion normally stimulates the vasopressin response.
 Slides: Circulation 3, slides 24
 
+### Q39
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: data-interpretation
+Stem: Immediately after rapid loss of a large volume of whole blood, haemoglobin concentration is unexpectedly unchanged. Why?
+A. Red-cell mass increases enough to compensate.
+B. Plasma enters faster than red cells are lost.
+C. Red cells and plasma were lost in similar proportions.
+D. Erythropoietin instantly makes new red cells.
+Answer: C
+Why: Acute whole-blood loss removes red cells and plasma proportionately, so concentration may remain unchanged before fluid replacement.
+Not A: Red-cell mass falls with whole-blood loss.
+Not B: Early dilution has not yet occurred in this scenario.
+Not D: Erythropoiesis takes days to weeks, not minutes.
+Slides: Circulation 3, slides 25
+
+### Q40
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: time-course
+Stem: After bleeding stops, both haemoglobin and plasma-protein concentrations fall as circulating volume recovers. What explains this?
+A. Interstitial or infused fluid dilutes remaining blood components.
+B. New red-cell production lowers haemoglobin concentration.
+C. Raised renal filtration removes most circulating proteins.
+D. Venoconstriction selectively removes haemoglobin from blood.
+Answer: A
+Why: Fluid recruited from tissues or given intravenously restores volume before red-cell and protein mass recover, producing dilution.
+Not B: New red-cell production raises rather than lowers haemoglobin mass.
+Not C: Renal filtration is generally depressed during acute severe shock.
+Not D: Venoconstriction redistributes blood rather than removing haemoglobin.
+Slides: Circulation 3, slides 25
+
+### Q41
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: time-course
+Stem: Which time course of spontaneous recovery best fits the lecture after bleeding has been stopped?
+A. Blood volume in weeks; haemoglobin in hours.
+B. Both volume and haemoglobin fully recover in minutes.
+C. Haemoglobin in 12–72 hours; volume in 4–5 weeks.
+D. Blood volume in 12–72 hours; haemoglobin in 4–5 weeks.
+Answer: D
+Why: Tissue-fluid recruitment and renal retention restore blood volume within roughly 12–72 hours; erythropoietin-driven red-cell recovery requires several weeks.
+Not A: The timing of the two processes is reversed.
+Not B: Neither process replaces major losses within minutes.
+Not C: Haemoglobin replacement occurs much more slowly than fluid recovery.
+Slides: Circulation 3, slides 25
+
+### Q42
+Chapter: Chapter 20 — Circulatory Shock
+Section: 5. When shock feeds on itself: progressive and irreversible shock
+Type: mechanism
+Stem: A patient in severe progressive shock loses the normal increase in sympathetic activity despite a further fall in pressure. What may have failed?
+A. The skeletal-muscle pump has permanently strengthened.
+B. Ischaemia has depressed the brainstem vasomotor centre.
+C. The kidney has increased glomerular filtration markedly.
+D. The ventricles have become insensitive to vagal input only.
+Answer: B
+Why: Severe prolonged cerebral ischaemia can depress the vasomotor centre, causing sympathetic withdrawal, vasodilatation and further hypotension.
+Not A: A stronger muscle pump would support rather than abolish perfusion.
+Not C: Severe shock reduces GFR rather than causing hyperfiltration.
+Not D: The key failure is central sympathetic control, not isolated vagal resistance.
+Slides: Circulation 3, slides 27–28
+
+### Q43
+Chapter: Chapter 20 — Circulatory Shock
+Section: 5. When shock feeds on itself: progressive and irreversible shock
+Type: mechanism
+Stem: How can impaired coronary perfusion create a vicious cycle during severe shock?
+A. Coronary ischaemia weakens contraction, further reducing output.
+B. Low coronary blood flow increases myocardial ATP stores.
+C. Myocardial hypoxia lowers arterial resistance enough to compensate.
+D. Reduced stroke volume directly increases coronary perfusion pressure.
+Answer: A
+Why: Coronary ischaemia depresses myocardial contractility, lowering output and pressure, which further compromises myocardial blood supply.
+Not B: Ischaemia reduces rather than increases available myocardial ATP.
+Not C: Lower resistance cannot fully resolve a collapsing pump.
+Not D: Lower cardiac output tends to worsen coronary perfusion, not restore it.
+Slides: Circulation 3, slides 26–28
+
+### Q44
+Chapter: Chapter 20 — Circulatory Shock
+Section: 5. When shock feeds on itself: progressive and irreversible shock
+Type: application
+Stem: A patient develops persistent acute kidney injury after prolonged shock. Which tissue injury best accounts for this complication?
+A. Rapidly reversible isolated renal vasodilatation.
+B. Increased tubular oxygen delivery without injury.
+C. Acute tubular damage from prolonged renal ischaemia.
+D. Direct erythrocyte production within the kidney.
+Answer: C
+Why: Sustained renal underperfusion can injure the tubular epithelium, leading to acute kidney injury beyond the initial pressure fall.
+Not A: A transient isolated vessel response would not explain persistent injury.
+Not B: Ischaemia means reduced rather than increased oxygen supply.
+Not D: Erythropoietin production does not directly replace renal tubules.
+Slides: Circulation 3, slides 22, 28
+
+### Q45
+Chapter: Chapter 20 — Circulatory Shock
+Section: 5. When shock feeds on itself: progressive and irreversible shock
+Type: conceptual
+Stem: A patient with massive haemorrhage remains severely hypotensive after blood volume is completely restored. Which stage fits?
+A. Simple postural hypotension.
+B. Early compensated hypovolaemia.
+C. Transient vasovagal syncope.
+D. Irreversible shock.
+Answer: D
+Why: Severe myocardial, neural and microvascular damage may prevent recovery even after the original blood-volume loss has been corrected.
+Not A: Postural hypotension should depend on standing and impaired compensation.
+Not B: Compensated shock should retain useful mechanisms for pressure support.
+Not C: An uncomplicated faint generally improves rapidly when lying flat.
+Slides: Circulation 3, slides 26–28
+
+### Q46
+Chapter: Chapter 20 — Circulatory Shock
+Section: 6. The other types of shock
+Type: application
+Stem: A shocked patient has a femoral fracture with no visible bleeding. Why must hypovolaemia still be considered?
+A. External bleeding is required to reduce circulating volume.
+B. Major haemorrhage can be concealed within the thigh.
+C. A fractured femur immediately increases plasma volume.
+D. Hidden bleeding causes only distributive shock.
+Answer: B
+Why: A fractured femur can conceal a large blood loss in surrounding tissues, causing hypovolaemic shock despite intact skin.
+Not A: Internal haemorrhage may occur without external blood.
+Not C: Bleeding decreases rather than increases circulating volume.
+Not D: Occult bleeding is a form of volume-loss shock.
+Slides: Circulation 3, slides 29
+
+### Q47
+Chapter: Chapter 20 — Circulatory Shock
+Section: 6. The other types of shock
+Type: comparison
+Stem: A burn patient presents with shock and an initially high haematocrit. What explains the contrast with recent whole-blood haemorrhage?
+A. Burns selectively destroy red cells circulating in blood.
+B. Burns cause immediate erythropoietin-driven erythrocytosis.
+C. Burns cause plasma leakage with relative red-cell retention.
+D. Burns produce increased circulating volume despite shock.
+Answer: C
+Why: Severe burns can cause plasma to leak through damaged skin while red cells remain, producing haemoconcentration and raised haematocrit.
+Not A: Selective red-cell destruction would tend to lower red-cell concentration.
+Not B: Erythropoiesis is much too slow to explain this early result.
+Not D: Plasma loss reduces rather than increases effective circulating volume.
+Slides: Circulation 3, slides 29
+
+### Q48
+Chapter: Chapter 20 — Circulatory Shock
+Section: 6. The other types of shock
+Type: mechanism
+Stem: Crushed skeletal muscle releases a pigment associated with renal tubular injury. Which substance is implicated?
+A. Myoglobin.
+B. Albumin.
+C. Bilirubin.
+D. Fibrinogen.
+Answer: A
+Why: Myoglobin released by damaged skeletal muscle can damage renal tubules, worsening renal failure in traumatic shock.
+Not B: Albumin is a circulating plasma protein, not the muscle pigment.
+Not C: Bilirubin is associated with haem breakdown rather than muscle pigment.
+Not D: Fibrinogen participates in coagulation, not the tubular pigment injury described.
+Slides: Circulation 3, slides 29
+
+### Q49
+Chapter: Chapter 20 — Circulatory Shock
+Section: 6. The other types of shock
+Type: mechanism
+Stem: A patient with severe bacterial infection has systemic vasodilatation and capillary leak. What type of shock is illustrated?
+A. Obstructive shock from impaired forward flow.
+B. Cardiogenic shock from isolated muscle failure.
+C. Hypovolaemic shock from proportional blood loss.
+D. Distributive shock from inflammatory vascular effects.
+Answer: D
+Why: Bacterial toxins and inflammatory mediators can markedly dilate blood vessels and increase permeability, causing distributive septic shock.
+Not A: A mechanical obstruction is not described.
+Not B: Primary isolated myocardial damage is not the stated mechanism.
+Not C: Systemic inflammation and vasodilatation are the dominant findings.
+Slides: Circulation 3, slides 30
+
+### Q50
+Chapter: Chapter 20 — Circulatory Shock
+Section: 6. The other types of shock
+Type: mechanism
+Stem: Minutes after a severe allergic exposure, a patient's pressure drops with generalised swelling. Which vascular action is most relevant?
+A. Generalised constriction with reduced capillary permeability.
+B. Histamine-related dilatation with increased capillary permeability.
+C. Selective haemorrhage into the gastrointestinal tract.
+D. Increased myocardial pump function with reduced venous capacitance.
+Answer: B
+Why: Anaphylaxis releases mediators including histamine that widen vessels and increase capillary leakage, reducing effective perfusion.
+Not A: Anaphylaxis typically causes dilation and increased leak.
+Not C: Occult bleeding is not the primary allergic vascular mechanism.
+Not D: Higher pump performance would not explain the sudden widespread leakage.
+Slides: Circulation 3, slides 30
+
