@@ -858,10 +858,10 @@ Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 5. Laminar flow, turbulence and Reynolds number
 Type: application
 Stem: At unchanged blood density, vessel diameter and viscosity, what happens to Reynolds number if average blood velocity doubles?
-A. It doubles.
-B. It falls to one-half.
-C. It rises fourfold.
-D. It remains constant.
+A. A twofold increase.
+B. A twofold decrease.
+C. A fourfold increase.
+D. No change in value.
 Answer: A
 Why: Reynolds number is proportional to blood velocity when density, viscosity and vessel diameter remain fixed. Doubling velocity therefore doubles Reynolds number and makes turbulence more likely.
 Not B: A halving would require the velocity-dependent term to decrease.
