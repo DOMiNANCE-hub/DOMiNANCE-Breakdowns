@@ -692,6 +692,27 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log('  Circulation 2 test checked in both modes');
   }
 
+  // ---------- Lecture 7 ECG test ----------
+  section('Lecture 7 ECG test: 47 questions on phone and desktop');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-7');
+      check(await page.locator('.test-card').count() === 1, `ECG @${width}: lecture test card missing`);
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-7/test');
+      await page.waitForSelector('.lt-start');
+      check(/47 questions/.test(await page.locator('.lt-lede').innerText()), `ECG @${width}: incorrect question count`);
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, `ECG @${width}: expected four options`);
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, `ECG @${width}: missing distractor explanations`);
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, `ECG @${width}: horizontal overflow`);
+      check(page.pageErrors.length === 0, `ECG @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.context().close();
+    }
+    console.log('  Lecture 7 ECG test checked at 390 and 1280 px');
+  }
+
   // ---------- LAMLA (last-minute mode) ----------
   section('LAMLA: pick a lecture and time, questions first, must-know, mistakes, test');
   {
