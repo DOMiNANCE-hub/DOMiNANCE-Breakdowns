@@ -473,7 +473,7 @@ Slides: 31
 Chapter: Chapter 24 — Pulmonary Circulation
 Section: 1. Two circulations in one lung
 Type: mechanism
-Stem: Why can some oxygenated bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?
+Stem: Why can some bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?
 A. Bronchial venous blood drains only into the superior vena cava.
 B. Some bronchial venous blood joins pulmonary veins.
 C. Bronchial arteries arise directly from right ventricle.
