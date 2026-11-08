@@ -1,0 +1,30 @@
+name: Rebuild Circulation 3 lecture-test site bundles (temporary)
+on:
+  push:
+    branches: [lecture-test-circulation-3]
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Compile lecture-test site bundles
+        run: python build.py
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- content.js content index.html stats.html sw.js
+          if ! git diff --cached --quiet; then
+            git commit -m "Regenerate site bundles for Circulation 3 lecture test"
+            git push origin HEAD:lecture-test-circulation-3
+          fi
