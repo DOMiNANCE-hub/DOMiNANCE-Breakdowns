@@ -283,7 +283,7 @@ Section: 1. What is shock?
 Type: conceptual
 Stem: A bleeding patient has a nearly normal arterial pressure but cold skin and reduced urine output. What is the best conclusion?
 A. Normal pressure excludes significant shock.
-B. Poor tissue perfusion can coexist with normal pressure.
+B. Low perfusion can coexist with normal pressure.
 C. Cardiac output must be above its pre-bleeding level.
 D. Blood flow to all organs must remain normal.
 Answer: B
@@ -717,7 +717,7 @@ Stem: A patient with severe bacterial infection has systemic vasodilatation and 
 A. Obstructive shock from impaired forward flow.
 B. Cardiogenic shock from isolated muscle failure.
 C. Hypovolaemic shock from proportional blood loss.
-D. Distributive shock from widespread vasodilatation.
+D. Distributive shock from vascular dilatation.
 Answer: D
 Why: Bacterial toxins and inflammatory mediators can markedly dilate blood vessels and increase permeability, causing distributive septic shock.
 Not A: A mechanical obstruction is not described.
@@ -749,7 +749,7 @@ Stem: A patient has near-normal resting cardiac output but very high ventricular
 A. Normal resting output excludes heart failure.
 B. Heart failure requires reduced ejection fraction.
 C. High filling pressure proves adequate pumping.
-D. Heart failure can occur despite normal resting output.
+D. Heart failure can occur with normal output.
 Answer: D
 Why: Heart failure includes states where output is maintained only at abnormally high filling pressures, causing congestion.
 Not A: A near-normal output can be maintained at harmful filling pressures.
