@@ -1,7 +1,7 @@
 {
   "project": "DOMiNANCE CVS Exam Preparation",
   "date": "2026-11-08",
-  "status": "EXAM PDF READY - REVIEW DRAFT, academic independent review pending",
+  "status": "POST-EDITORIAL REVIEW - three student practice drafts; no lecturer endorsement implied",
   "exam_duration_minutes": 90,
   "paper_format": "Three 60-question single-best-answer papers, four options A-D, with answer key beginning on the next page.",
   "sources": "Source-authored mock 01 and lecture tests stored in GitHub",
@@ -17,7 +17,8 @@
       "ST plateau and repolarisation (AHA scientific statement)",
       "AV block classification (JCS/JHRS guidelines)"
     ],
-    "approval": "Independent lecturer or qualified physiology reviewer should approve all answers before student-facing release."
+    "approval": "Independent lecturer or qualified physiology reviewer should approve all answers before student-facing release.",
+    "scientific_review_2026_11_08": "All 180 keyed items screened for consistency of stem, correct answer, explanatory rationale and lecture scope; targeted external physiology checks on cardiac valve gradients, JVP, pulmonary circulation, ECG, BBB and revised capillary exchange. Corrected one factually false stem and one obsolete option reference in an explanation. Not lecturer-verified."
   },
   "mocks": {
     "01": {
@@ -374,7 +375,7 @@
             "Point D"
           ],
           "answer": "A",
-          "explanation": "The aortic valve opens as rising left ventricular pressure first exceeds aortic pressure. On the plotted curves this happens at B. Point A precedes the pressure crossover; C and D occur later in ejection, and E follows valve closure.",
+          "explanation": "The aortic valve opens when rising left ventricular pressure first exceeds aortic pressure. On the labelled schematic this is point B; point A precedes the pressure crossover, while C and D occur later in ejection.",
           "distractor_note": "All other labels are placed before or after the initial ventricular-aortic pressure crossover.",
           "slides": "CIRCULATION 1, pp. 14-16, 21",
           "origin": "mock-01-original",
@@ -5539,7 +5540,7 @@
           "chapter": "Chapter 24 — Pulmonary Circulation",
           "section": "1. Two circulations in one lung",
           "type": "mechanism",
-          "stem": "Why can some oxygenated bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?",
+          "stem": "Why can some bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?",
           "options": [
             "Bronchial venous drainage enters only systemic veins, avoiding pulmonary mixing.",
             "Bronchial arteries arise from the pulmonary trunk and deliver deoxygenated blood.",
@@ -5563,7 +5564,8 @@
             "distractors_rewritten_for_plausibility"
           ],
           "exam_number": 44,
-          "group": "lecture-6"
+          "group": "lecture-6",
+          "review_correction": "Corrected false description of bronchial venous blood as oxygenated; small bronchial venous return provides deoxygenated admixture to pulmonary venous return."
         },
         {
           "sourceId": "circulation-3:Q54",
