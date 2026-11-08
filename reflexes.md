@@ -45,6 +45,8 @@ Both sit in **high-pressure** arteries, right at the "inlets" to the brain and b
 4. Result: **faster** heart (**tachycardia**), **stronger** beats, arterioles **constrict**, veins **squeeze** stored blood towards the heart.
 5. Blood pressure **rises back towards normal**.
 
+<div class="media-resource video-resource" data-youtube-id="X3BCFOlk1oQ" data-media-title="Baroreflex Regulation of Blood Pressure"><span class="media-eyebrow">OPTIONAL VIDEO</span><h3>Baroreflex Regulation of Blood Pressure</h3><p>Watch the pressure-sensing reflex in motion, then follow how autonomic activity changes heart rate and blood-vessel tone.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=X3BCFOlk1oQ" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">Video hosted by its creator on YouTube; embedded without rehosting.</p></div>
+
 **What the baroreflex is good at, and what it isn't:**
 
 - It is excellent at buffering **sudden** changes: standing up, a sudden bleed. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
