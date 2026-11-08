@@ -15,7 +15,7 @@ B. About 39 mmHg.
 C. About 77 mmHg.
 D. About 100 mmHg.
 Answer: B
-Why: The approved chapter gives 0.77 mmHg per centimetre; 50 × 0.77 ≈ 39 mmHg.
+Why: Hydrostatic pressure changes by about 0.77 mmHg per centimetre of height; a 50-cm drop adds approximately 39 mmHg.
 Not A: Nineteen mmHg corresponds to roughly 25 cm.
 Not C: Seventy-seven mmHg corresponds to roughly 100 cm.
 Not D: One hundred mmHg is much larger than the calculated gradient.
@@ -130,7 +130,7 @@ Answer: D
 Why: A rise in local carbon dioxide and a fall in oxygen encourage cerebral arteriolar dilation, partly protecting perfusion.
 Not A: Reduced CO₂ tends to constrict cerebral vessels.
 Not B: Increased CO₂ stimulates dilation, not constriction.
-Not C: The lecture describes the opposite oxygen change during threatened cerebral perfusion.
+Not C: When cerebral oxygen delivery is threatened, local oxygen levels fall rather than rise.
 Slides: Circulation 3, slide 5; Chapter 19 §3
 
 ### Q9
