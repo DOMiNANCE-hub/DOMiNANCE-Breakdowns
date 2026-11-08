@@ -405,3 +405,371 @@ Not C: A2 ordinarily precedes P2 during physiological splitting.
 Not D: Right ventricular filling generally rises rather than disappearing.
 Slides: 18–19; Chapter 4 §10
 
+### Q26
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 2. Why does S1 occur before S2?
+Type: mechanism
+Stem: Which valve event is responsible for the first heart sound?
+A. Closure of the aortic and pulmonary valves.
+B. Opening of the aortic and pulmonary valves.
+C. Closure of the mitral and tricuspid valves.
+D. Opening of the mitral and tricuspid valves.
+Answer: C
+Why: S1 occurs near onset of ventricular systole when rising ventricular pressure closes the AV valves and creates vibrations.
+Not A: Aortic and pulmonary closure generates S2.
+Not B: Semilunar opening does not generate the normal first sound.
+Not D: AV valve opening during filling is usually silent.
+Slides: 27
+
+### Q27
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 2. Why does S1 occur before S2?
+Type: mechanism
+Stem: The second heart sound corresponds most closely to which transition?
+A. Atrial depolarisation to atrial systole.
+B. Atrial systole to passive ventricular filling.
+C. Ventricular filling to isovolumetric contraction.
+D. Ventricular ejection to isovolumetric relaxation.
+Answer: D
+Why: S2 is produced by semilunar valve closure at the end of ejection, marking the onset of ventricular relaxation.
+Not A: Atrial events are not directly responsible for S2.
+Not B: AV valves are open during ordinary passive filling.
+Not C: S1 rather than S2 marks the beginning of isovolumetric contraction.
+Slides: 27–30
+
+### Q28
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 3. Why does S2 sometimes split with inspiration?
+Type: mechanism
+Stem: Why does the pulmonary component of S2 usually occur later during inspiration?
+A. Greater right-heart filling prolongs right ventricular ejection.
+B. Inspiration immediately closes the pulmonary trunk.
+C. Reduced right ventricular filling shortens ejection.
+D. Inspiration causes the aortic valve to close after P2.
+Answer: A
+Why: More systemic venous return to the right ventricle during inspiration lengthens ejection and delays pulmonary valve closure.
+Not B: The pulmonary trunk remains patent through ejection.
+Not C: Right-heart venous return tends to increase with inspiration.
+Not D: Physiological splitting usually has A2 before P2.
+Slides: 19, 30
+
+### Q29
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 4. What causes S3 and S4?
+Type: mechanism
+Stem: A low-frequency third heart sound occurs in early diastole. What ventricular event coincides with it?
+A. Isovolumetric ventricular contraction.
+B. Rapid passive ventricular filling.
+C. Atrial depolarisation before systole.
+D. Opening of the aortic valve.
+Answer: B
+Why: S3 occurs during rapid early-diastolic ventricular filling, as blood entering the chamber causes vibrations.
+Not A: Isovolumetric contraction occurs near S1.
+Not C: Atrial depolarisation precedes the atrial contribution later in diastole.
+Not D: Aortic valve opening occurs during ventricular systole.
+Slides: 28
+
+### Q30
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 4. What causes S3 and S4?
+Type: mechanism
+Stem: What produces an S4 in a patient with a stiff ventricle?
+A. Opening of the pulmonary valve against high pressure.
+B. Rapid early-diastolic filling before any atrial activity.
+C. Atrial contraction forcing blood into a poorly compliant chamber.
+D. Turbulence during systolic outflow across a normal aortic valve.
+Answer: C
+Why: S4 is associated with late-diastolic atrial contraction into a stiff ventricle, which causes low-frequency vibrations.
+Not A: Pulmonary valve opening occurs in systole.
+Not B: Rapid passive filling is associated with S3 rather than S4.
+Not D: Systolic ejection turbulence describes a murmur, not S4.
+Slides: 28; Chapter 5 §4
+
+### Q31
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 6. What makes a murmur?
+Type: mechanism
+Stem: Why might severe anaemia produce a cardiac flow murmur despite structurally normal valves?
+A. Anaemia markedly increases blood viscosity and suppresses flow.
+B. Reduced blood volume necessarily closes the aortic valve.
+C. Anaemia blocks the ventricular conduction system.
+D. Lower viscosity and increased flow favour turbulence.
+Answer: D
+Why: Anaemia lowers viscosity and may increase cardiac output, raising the tendency to turbulent flow and a functional murmur.
+Not A: Anaemia decreases viscosity rather than increasing it.
+Not B: The murmur is not due to forced aortic valve closure.
+Not C: Conduction block is not the principal mechanism of flow murmurs.
+Slides: 31–34
+
+### Q32
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 7. Predict a murmur's timing without memorising a list
+Type: application
+Stem: A harsh systolic murmur develops during blood ejection through a narrowed aortic valve. What mechanism explains it?
+A. Turbulent forward flow through a stenotic outflow orifice.
+B. Regurgitation through the mitral valve during diastole.
+C. Opening of the aortic valve during ventricular relaxation.
+D. Laminar blood flow through a normal-sized valve.
+Answer: A
+Why: Aortic stenosis accelerates blood through a narrow outlet during systole, causing a turbulent ejection murmur.
+Not B: Mitral regurgitation usually occurs during systole, not diastole.
+Not C: The aortic valve opens when ventricular pressure exceeds aortic pressure in systole.
+Not D: Laminar flow through normal valves ordinarily produces no such murmur.
+Slides: 31–33; Chapter 5 §7
+
+### Q33
+Chapter: Chapter 5 — Heart Sounds and Murmurs
+Section: 8. Where do we listen to each heart valve?
+Type: anatomy
+Stem: Where is the aortic valve normally auscultated most clearly?
+A. At the cardiac apex in the fifth left intercostal space.
+B. At the left lower sternal border.
+C. At the right second intercostal space near the sternum.
+D. At the right lower abdominal quadrant.
+Answer: C
+Why: The standard aortic area is the right second intercostal space at the sternal border, along the direction of transmitted sound.
+Not A: The apex is the usual mitral area.
+Not B: The left lower sternal border is associated with tricuspid sounds.
+Not D: The abdominal quadrant is not a cardiac valve auscultation area.
+Slides: 33; Chapter 5 §8
+
+### Q34
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 1. What is cardiac output, and why does it matter?
+Type: calculation
+Stem: A patient's heart rate is 80 beats/min and stroke volume is 75 mL. What is cardiac output?
+A. 4.8 L/min.
+B. 6.0 L/min.
+C. 7.5 L/min.
+D. 8.0 L/min.
+Answer: B
+Why: Cardiac output equals heart rate × stroke volume = 80 × 75 = 6000 mL/min or 6.0 L/min.
+Not A: 4.8 L/min would correspond to 60 mL at 80 beats/min.
+Not C: 7.5 L/min exceeds the calculated output.
+Not D: 8.0 L/min assumes 100 mL per beat.
+Slides: 35–36
+
+### Q35
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 2. Why can changing heart rate alter cardiac output?
+Type: mechanism
+Stem: Why might increasing heart rate far above normal eventually reduce cardiac output?
+A. Contractility necessarily falls to zero.
+B. Diastolic time becomes longer and increases filling.
+C. The mitral valve is forced to remain permanently open.
+D. Reduced filling time can lower stroke volume more than rate increases.
+Answer: D
+Why: Extreme tachycardia shortens diastole, reduces filling and may decrease stroke volume enough to lower output.
+Not A: Contractility does not necessarily become zero.
+Not B: Diastole shortens markedly at high rates.
+Not C: Normal valves do not remain permanently open during extreme tachycardia.
+Slides: 20, 35–36; Chapter 7 §2
+
+### Q36
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 3. What determines stroke volume?
+Type: conceptual
+Stem: In the Frank–Starling mechanism, what directly explains stronger contraction after greater ventricular filling?
+A. Greater myocardial fibre stretch improves force generation.
+B. Higher afterload always reduces end-diastolic volume.
+C. Lower venous return increases sarcomere overlap.
+D. Reduced preload stimulates immediate calcium extrusion.
+Answer: A
+Why: Within the physiological range, more end-diastolic filling stretches fibres and increases developed contraction force and stroke volume.
+Not B: Afterload is a separate determinant of ejection.
+Not C: Lower venous return reduces ventricular fibre stretch.
+Not D: Calcium extrusion is related to relaxation, not the primary stretch mechanism.
+Slides: 38–43
+
+### Q37
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 5. How do we read Frank–Starling curves?
+Type: graph-interpretation
+Stem: Two Frank–Starling curves are plotted against identical end-diastolic volumes. What does an upward shift of the entire curve usually indicate?
+A. Greater afterload alone with unchanged contractility.
+B. Aortic valve closure earlier in systole.
+C. Increased myocardial contractility at a given preload.
+D. Lower force development at every fibre length.
+Answer: C
+Why: Positive inotropy raises stroke volume or output at the same filling level, shifting the Frank–Starling function upward.
+Not A: Higher afterload tends to impair ejection.
+Not B: Valve closure timing is not the definition of an upward Starling curve.
+Not D: Lower force would shift the curve downward, not upward.
+Slides: 39–42
+
+### Q38
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 6. What raises or lowers end-diastolic volume?
+Type: application
+Stem: A patient develops cardiac tamponade. Why can stroke volume fall despite a normal blood volume?
+A. Tamponade increases functional ventricular compliance.
+B. High pericardial pressure restricts ventricular filling.
+C. Tamponade directly raises venous return above normal.
+D. The aortic valve cannot open due solely to a high heart rate.
+Answer: B
+Why: Elevated intrapericardial pressure limits end-diastolic filling and preload, reducing stroke volume.
+Not A: Tamponade reduces the ability of ventricles to expand.
+Not C: Venous return and effective filling become impaired.
+Not D: Valvular opening depends on pressure, but reduced preload is the central problem.
+Slides: 43–44; Chapter 7 §6
+
+### Q39
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 6. What raises or lowers end-diastolic volume?
+Type: application
+Stem: After standing suddenly, a healthy person has a transient fall in end-diastolic volume. Which cause is most direct?
+A. Increased atrial contraction generating excess preload.
+B. Increased circulating red-cell mass.
+C. Greater coronary artery blood flow.
+D. Venous pooling reducing return to the heart.
+Answer: D
+Why: Gravity shifts blood into compliant leg veins, decreasing venous return and end-diastolic filling.
+Not A: Atrial contraction tends to increase rather than reduce filling.
+Not B: Red-cell mass does not change in seconds with posture.
+Not C: Coronary flow does not explain the immediate preload decline.
+Slides: 44
+
+### Q40
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 7. What changes contractility?
+Type: mechanism
+Stem: What response follows myocardial beta-adrenergic stimulation through increased cAMP?
+A. Greater calcium-dependent contractility.
+B. Less calcium entry into ventricular cells.
+C. Reduced phosphorylated calcium-handling proteins.
+D. Complete cessation of SA-node automaticity.
+Answer: A
+Why: Beta-adrenergic cAMP–PKA signalling increases calcium influx and handling, producing positive inotropy.
+Not B: Beta-adrenergic signalling tends to increase calcium entry.
+Not C: PKA phosphorylates key calcium-handling proteins.
+Not D: Beta stimulation generally accelerates, rather than abolishes, pacemaker activity.
+Slides: 45–47
+
+### Q41
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 7. What changes contractility?
+Type: comparison
+Stem: Which condition is most likely to depress myocardial contractility rather than enhance it?
+A. Acute beta-1 adrenergic activation.
+B. Raised circulating catecholamines.
+C. Severe hypoxia with acidosis.
+D. Increased calcium availability during sympathetic drive.
+Answer: C
+Why: Severe hypoxia and acidosis impair myocardial function and are listed as causes of depressed inotropy.
+Not A: Beta-1 activation generally enhances contractility.
+Not B: Catecholamines usually raise inotropy initially.
+Not D: Increased cytosolic calcium generally enhances contraction.
+Slides: 48
+
+### Q42
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 8. How do preload, afterload and inotropy differ in real situations?
+Type: mechanism
+Stem: A patient's blood pressure rises markedly with no initial change in contractility or preload. What happens to ventricular afterload?
+A. It falls as the aortic pressure increases.
+B. It increases because the ventricle must eject against greater pressure.
+C. It becomes identical to ventricular end-diastolic volume.
+D. It disappears once the semilunar valves open.
+Answer: B
+Why: Higher systemic arterial pressure increases the pressure the left ventricle must develop to eject, raising afterload.
+Not A: The pressure burden rises rather than falls.
+Not C: Afterload is resistance/pressure load, not a volume.
+Not D: Afterload persists throughout ejection.
+Slides: 45–46
+
+### Q43
+Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
+Section: 9. What happens to cardiac output during exercise and other states?
+Type: mechanism
+Stem: During graded exercise, which combination helps increase cardiac output?
+A. Greater vagal activity and smaller stroke volume.
+B. Reduced sympathetic drive and greater afterload.
+C. Slower pacemaking and lower venous return.
+D. Increased sympathetic rate, contractility and venous return.
+Answer: D
+Why: Sympathetic drive raises heart rate and contractility while muscle pumping supports venous return, enabling higher cardiac output.
+Not A: Vagal dominance would tend to slow the heart.
+Not B: Reduced sympathetic drive does not explain exercise output.
+Not C: Exercise generally increases rather than suppresses cardiac pumping.
+Slides: 49–51
+
+### Q44
+Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
+Section: 2. Fick's principle: working out flow from oxygen use
+Type: calculation
+Stem: Whole-body oxygen use is 250 mL/min. Arterial and mixed venous oxygen contents are 200 and 150 mL/L. What is Fick cardiac output?
+A. 5.0 L/min.
+B. 3.0 L/min.
+C. 10.0 L/min.
+D. 12.5 L/min.
+Answer: A
+Why: Fick cardiac output = oxygen consumption ÷ arteriovenous O₂ content difference = 250 ÷ (200 − 150) = 5 L/min.
+Not B: 3 L/min would require a larger oxygen content difference.
+Not C: 10 L/min would require only 25 mL/L extraction.
+Not D: 12.5 L/min corresponds to only 20 mL/L extraction.
+Slides: 52–53
+
+### Q45
+Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
+Section: 2. Fick's principle: working out flow from oxygen use
+Type: mechanism
+Stem: What conservation principle underlies Fick measurement of cardiac output?
+A. Venous oxygen content always equals arterial oxygen content.
+B. The heart produces all consumed oxygen internally.
+C. Whole-body oxygen use equals flow times arterial–venous content difference.
+D. Oxygen consumption is independent of blood flow and extraction.
+Answer: C
+Why: By mass balance, oxygen uptake across lungs and consumption by tissues equal cardiac output multiplied by arterial–venous oxygen content difference.
+Not A: Tissues extract oxygen, so venous content is generally lower.
+Not B: The body consumes oxygen but does not produce it.
+Not D: Extraction and flow together determine total oxygen consumption.
+Slides: 52–53
+
+### Q46
+Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
+Section: 3. Where do the oxygen measurements come from?
+Type: methods
+Stem: For a valid whole-body Fick calculation, the venous sample should best represent which blood?
+A. Oxygenated blood in a systemic artery.
+B. Mixed venous blood entering the lungs.
+C. Blood in a single peripheral venule.
+D. Capillary blood from active skeletal muscle only.
+Answer: B
+Why: A mixed venous sample from pulmonary artery reflects oxygen after extraction across the whole body.
+Not A: Arterial blood provides the other concentration in the equation.
+Not C: One local vein does not represent average whole-body extraction.
+Not D: Active muscle has unusually high local extraction and can misrepresent the body.
+Slides: 52–53; Chapter 8 §3
+
+### Q47
+Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
+Section: 5. What does it mean for the heart to perform work?
+Type: conceptual
+Stem: What does the mechanical stroke work of a ventricle represent?
+A. Electrical energy in the SA node over one minute.
+B. The number of coronary capillaries recruited.
+C. Heart rate multiplied by body surface area.
+D. Mechanical energy spent ejecting blood against pressure per beat.
+Answer: D
+Why: The ventricle performs pressure–volume work as it ejects stroke volume against an arterial pressure load.
+Not A: Pacemaker electrical energy is not mechanical stroke work.
+Not B: Capillary recruitment affects supply, not the definition of work.
+Not C: Heart rate and surface area do not directly define mechanical work.
+Slides: 54; Chapter 8 §5
+
+### Q48
+Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
+Section: 7. Why does pressure loading increase the heart's oxygen demand?
+Type: mechanism
+Stem: Why does sustained systemic hypertension tend to raise myocardial oxygen demand?
+A. The ventricle must generate higher pressure for ejection.
+B. Aortic pressure removes myocardial wall tension.
+C. Coronary venous oxygen content necessarily becomes arterial.
+D. The left ventricle stops contracting during systole.
+Answer: A
+Why: Higher arterial pressure increases ventricular pressure work and wall stress, requiring more oxygen for force generation.
+Not B: Higher afterload generally increases wall stress.
+Not C: Coronary oxygen extraction remains substantial.
+Not D: The myocardium continues to contract against the higher load.
+Slides: 54; Chapter 8 §7
+
