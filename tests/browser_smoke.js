@@ -692,6 +692,88 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log('  Circulation 2 test checked in both modes');
   }
 
+  // ---------- Lecture 7 ECG test ----------
+  section('Lecture 7 ECG test: 47 questions on phone and desktop');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-7');
+      check(await page.locator('.test-card').count() === 1, `ECG @${width}: lecture test card missing`);
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-7/test');
+      await page.waitForSelector('.lt-start');
+      check(/47 questions/.test(await page.locator('.lt-lede').innerText()), `ECG @${width}: incorrect question count`);
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, `ECG @${width}: expected four options`);
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, `ECG @${width}: missing distractor explanations`);
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, `ECG @${width}: horizontal overflow`);
+      check(page.pageErrors.length === 0, `ECG @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.context().close();
+    }
+    console.log('  Lecture 7 ECG test checked at 390 and 1280 px');
+  }
+
+  // ---------- Homeostasis lecture test ----------
+  section('Homeostasis lecture test: 62 questions on phone and desktop');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-3');
+      check(await page.locator('.test-card').count() === 1, `Homeostasis @${width}: test card missing`);
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-3/test');
+      await page.waitForSelector('.lt-start');
+      check(/62 questions/.test(await page.locator('.lt-lede').innerText()), `Homeostasis @${width}: incorrect question count`);
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, `Homeostasis @${width}: expected four answer options`);
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, `Homeostasis @${width}: missing distractor explanations`);
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, `Homeostasis @${width}: horizontal overflow`);
+      check(page.pageErrors.length === 0, `Homeostasis @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.context().close();
+    }
+    console.log('  Homeostasis test checked at 390 and 1280 px');
+  }
+
+  // ---------- Lecture test check: lecture-6 ----------
+  section('Regional lecture test: 62 questions, answers and mobile layout');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-6');
+      check(await page.locator('.test-card').count() === 1, 'lecture-6: lecture test card missing');
+      await openRoute(page, base, '#/physiology/cvs/lecture/lecture-6/test');
+      await page.waitForSelector('.lt-start');
+      check(/62 questions/.test(await page.locator('.lt-lede').innerText()), 'lecture-6: incorrect test length');
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, 'lecture-6: MCQ options missing');
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, 'lecture-6: distractor explanations missing');
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'lecture-6: horizontal overflow');
+      check(page.pageErrors.length === 0, 'lecture-6: browser errors');
+      await page.context().close();
+    }
+  }
+
+  // ---------- Lecture test check: circulation-1 ----------
+  section('Circulation 1 lecture test: 97 questions, answers and mobile layout');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-1');
+      check(await page.locator('.test-card').count() === 1, 'circulation-1: lecture test card missing');
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-1/test');
+      await page.waitForSelector('.lt-start');
+      check(/97 questions/.test(await page.locator('.lt-lede').innerText()), 'circulation-1: incorrect test length');
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, 'circulation-1: MCQ options missing');
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, 'circulation-1: distractor explanations missing');
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'circulation-1: horizontal overflow');
+      check(page.pageErrors.length === 0, 'circulation-1: browser errors');
+      await page.context().close();
+    }
+  }
+
   // ---------- LAMLA (last-minute mode) ----------
   section('LAMLA: pick a lecture and time, questions first, must-know, mistakes, test');
   {
