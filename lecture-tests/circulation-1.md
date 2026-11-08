@@ -523,9 +523,9 @@ Section: 8. Where do we listen to each heart valve?
 Type: anatomy
 Stem: Where is the aortic valve normally auscultated most clearly?
 A. At the cardiac apex in the fifth left intercostal space.
-B. At the left lower sternal border.
+B. At the left lower sternal border near the fourth interspace.
 C. At the right second intercostal space near the sternum.
-D. At the right lower abdominal quadrant.
+D. At the left second intercostal space near the sternum.
 Answer: C
 Why: The standard aortic area is the right second intercostal space at the sternal border, along the direction of transmitted sound.
 Not A: The apex is the usual mitral area.
@@ -653,7 +653,7 @@ Stem: Which condition is most likely to depress myocardial contractility rather 
 A. Acute beta-1 adrenergic activation.
 B. Raised circulating catecholamines.
 C. Severe hypoxia with acidosis.
-D. Increased calcium availability during sympathetic drive.
+D. Greater calcium availability in the myocardium.
 Answer: C
 Why: Severe hypoxia and acidosis impair myocardial function and are listed as causes of depressed inotropy.
 Not A: Beta-1 activation generally enhances contractility.
@@ -843,9 +843,9 @@ Section: 5. Laminar flow, turbulence and Reynolds number
 Type: mechanism
 Stem: In a straight vessel with steady laminar flow, where is blood velocity ordinarily greatest?
 A. At the endothelial wall.
-B. At the centre of the vessel.
-C. Uniformly at every radial position.
-D. Only within the outermost plasma layer.
+B. At the vessel centre.
+C. Uniformly across the lumen.
+D. At the outer plasma layer.
 Answer: B
 Why: Viscous drag slows flow near the wall; a parabolic velocity profile has its greatest velocity near the centre.
 Not A: The no-slip boundary makes velocity near the wall approach zero.
@@ -1227,7 +1227,7 @@ Section: 6. What does central venous pressure tell us?
 Type: application
 Stem: A patient's right ventricular pumping fails and right atrial pressure rises. Which consequence is most likely?
 A. A larger pressure gradient for systemic venous return.
-B. Less peripheral venous congestion.
+B. Reduced congestion in peripheral systemic veins.
 C. Smaller venous return gradient with upstream congestion.
 D. Complete disappearance of the jugular venous pulse.
 Answer: C
@@ -1306,10 +1306,10 @@ Chapter: Chapter 13 — Microcirculation and Capillary Exchange
 Section: 5. Why does fluid leave capillaries even when protein stays in blood?
 Type: mechanism
 Stem: Increasing capillary hydrostatic pressure while other Starling forces stay unchanged tends to produce what?
-A. Reduced outward filtration.
-B. Increased oncotic attraction into plasma.
-C. More fluid filters into interstitial tissue.
-D. Immediate reversal of all lymph flow.
+A. Decreased outward fluid filtration.
+B. Increased plasma oncotic attraction.
+C. Increased interstitial fluid filtration.
+D. Reversal of lymphatic flow.
 Answer: C
 Why: A higher capillary hydrostatic force favours filtration across the microvascular wall toward tissue. Raising venous pressure is one way to produce this hydrostatic change.
 Not A: The pressure favours outward, not reduced, filtration.
