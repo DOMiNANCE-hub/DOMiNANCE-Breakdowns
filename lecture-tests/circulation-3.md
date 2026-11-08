@@ -888,17 +888,17 @@ Slides: 14, 28; Chapter 20 §6
 ### Q56
 Chapter: Chapter 20 — Circulatory Shock
 Section: 6. The other types of shock
-Type: mechanism
-Stem: A distressed person faints after intense fear and has hypotension with a slow pulse. Which reflex pattern best fits this episode?
-A. Sustained sympathetic vasoconstriction combined with vagal withdrawal.
-B. Acute hypervolaemia combined with strong adrenal medullary discharge.
-C. Progressive myocardial infarction combined with preserved autonomic tone.
-D. Vasovagal loss of vascular tone combined with increased vagal activity.
+Type: clinical-application
+Stem: A man becomes light-headed and faints while urinating at night, several minutes after rising from bed. What most specifically identifies the type of event?
+A. A carotid-sinus episode triggered by pressure at the neck.
+B. An obstructive circulatory collapse from pulmonary embolism.
+C. A primary pump-failure episode caused by severe arrhythmia.
+D. A situational syncopal episode associated with voiding.
 Answer: D
-Why: Emotional syncope can involve abrupt vasodilation and bradycardia, consistent with sympathetic withdrawal and a vagally mediated fall in heart rate.
-Not A: That pattern usually helps preserve arterial pressure and accelerates heart rate.
-Not B: Hypervolaemia does not match the reflex vasovagal episode described.
-Not C: Myocardial infarction is not necessary for a classic emotional faint.
+Why: Fainting specifically during urination fits micturition syncope, a situational cause of transient inadequate cerebral perfusion. Timing during voiding distinguishes it from a faint explained solely by posture.
+Not A: Carotid sinus syncope follows compression of a sensitive neck region, not an episode linked to voiding.
+Not B: Obstructive shock from an embolus would not be identified by a specific link to urination.
+Not C: Arrhythmia can cause syncope, but the stem gives no supporting evidence for a cardiac rhythm disturbance.
 Slides: 30; Chapter 20 §6
 
 ### Q57
