@@ -530,7 +530,7 @@ Answer: C
 Why: The standard aortic area is the right second intercostal space at the sternal border, along the direction of transmitted sound.
 Not A: The apex is the usual mitral area.
 Not B: The left lower sternal border is associated with tricuspid sounds.
-Not D: The abdominal quadrant is not a cardiac valve auscultation area.
+Not D: The left second intercostal space is the usual pulmonary valve area, not the aortic area.
 Slides: 33; Chapter 5 §8
 
 ### Q34
