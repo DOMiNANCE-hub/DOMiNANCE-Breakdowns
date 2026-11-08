@@ -58,10 +58,10 @@ Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 5. The coverings, the ventricles and CSF
 Type: anatomy
 Stem: Which meningeal layer closely follows the sulci and contours of the cerebral surface?
-A. Dura mater.
+A. The dura mater.
 B. Arachnoid mater.
 C. Subdural membrane.
-D. Pia mater.
+D. The pia mater.
 Answer: D
 Why: Pia mater adheres directly to the brain and follows its surface contours, unlike the bridging arachnoid.
 Not A: Dura mater is the tough outer covering.
@@ -79,7 +79,7 @@ B. The foramen of Monro.
 C. The cerebral aqueduct.
 D. The median aperture of Magendie.
 Answer: B
-Why: The interventricular foramina (Monro) connect the lateral ventricles to the third ventricle.
+Why: The interventricular foramina (Monro) connect the lateral ventricles to the third ventricle. The passage is upstream of the third ventricle, so obstruction can enlarge the lateral ventricles.
 Not A: Luschka exits the fourth ventricle laterally.
 Not C: The aqueduct connects third and fourth ventricles.
 Not D: Magendie is the median fourth-ventricle outlet.
@@ -111,7 +111,7 @@ B. Through pia mater directly into cerebral arteries.
 C. Through the foramen of Monro into the veins.
 D. Through the cerebral aqueduct into the aorta.
 Answer: A
-Why: Arachnoid villi and granulations return CSF to the dural venous sinuses.
+Why: Arachnoid villi and granulations return CSF to the dural venous sinuses. Its drainage capacity is a key determinant of CSF balance.
 Not B: Pia does not discharge CSF into cerebral arteries.
 Not C: Monro connects ventricles and is not the absorption site.
 Not D: The aqueduct joins ventricles, not the systemic arterial circuit.
@@ -139,7 +139,7 @@ Section: 5. The coverings, the ventricles and CSF
 Type: conceptual
 Stem: How does CSF substantially reduce the effective weight of the brain?
 A. It increases the brain's intrinsic density.
-B. It provides buoyancy that offsets gravitational loading.
+B. It provides buoyant support against gravity.
 C. It directly reduces the brain's oxygen consumption.
 D. It reduces blood volume to near zero.
 Answer: B
@@ -159,7 +159,7 @@ B. Obstructive aqueductal hydrocephalus.
 C. Communicating hydrocephalus.
 D. Isolated ventricular haemorrhage.
 Answer: C
-Why: Communicating hydrocephalus occurs when CSF reaches subarachnoid space but reabsorption is impaired.
+Why: Communicating hydrocephalus occurs when CSF reaches subarachnoid space but reabsorption is impaired. The ventricular pathway remains open, so the defect is in absorption rather than transit.
 Not A: Noncommunicating hydrocephalus results from blocked ventricular drainage.
 Not B: Aqueductal stenosis is a specific obstruction.
 Not D: Haemorrhage may contribute to hydrocephalus but is not the classification described.
@@ -189,7 +189,7 @@ Stem: Which structure forms the key physical restriction to paracellular movemen
 A. Astrocytic end-feet alone.
 B. The choroid plexus epithelium.
 C. Loose junctions of cerebral venules.
-D. Tight junctions between brain capillary endothelial cells.
+D. Endothelial tight junctions.
 Answer: D
 Why: Tight junctions in cerebral capillary endothelium restrict movement between cells; astrocytes support barrier function.
 Not A: Astrocytes help maintain the barrier but are not the main sealed endothelial layer.
@@ -234,10 +234,10 @@ Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 3. How does the brain keep its blood flow steady?
 Type: mechanism
 Stem: A highly active cortical region accumulates carbon dioxide and hydrogen ions. What is the expected local vascular response?
-A. Cerebral arteriolar dilation.
-B. Cerebral arteriolar constriction.
-C. Complete closure of cerebral capillaries.
-D. Cessation of the local autoregulatory mechanism.
+A. Plasma albumin molecules.
+B. A protein-bound medicine.
+C. Dissolved carbon dioxide.
+D. A circulating immunoglobulin.
 Answer: A
 Why: Increased CO₂ and H⁺ promote cerebral vasodilation, helping match local blood flow to metabolic demand.
 Not B: Cerebral vessels typically dilate to elevated CO₂.
@@ -253,7 +253,7 @@ Stem: Intracranial pressure rises while mean arterial pressure remains constant.
 A. It rises by the same amount.
 B. It remains fixed by cardiac output.
 C. It becomes equal to venous return.
-D. It falls because ICP opposes arterial driving pressure.
+D. It falls with increased ICP.
 Answer: D
 Why: Cerebral perfusion pressure is approximately mean arterial pressure minus intracranial pressure; raising ICP reduces it.
 Not A: Increased ICP subtracts from the arterial driving pressure.
@@ -269,9 +269,9 @@ Stem: A severe rise in intracranial pressure produces systemic hypertension with
 A. Bainbridge reflex.
 B. Cushing reflex.
 C. Atrial stretch reflex.
-D. Pulmonary hypoxic vasoconstriction.
+D. Lung hypoxia reflex.
 Answer: B
-Why: The Cushing response reflects brainstem ischaemia driving systemic hypertension, with baroreflex-mediated bradycardia.
+Why: The Cushing response reflects brainstem ischaemia driving systemic hypertension, with baroreflex-mediated bradycardia. Brain perfusion is threatened as raised intracranial pressure compresses cerebral vessels.
 Not A: Bainbridge responds to increased atrial filling.
 Not C: Atrial stretch does not explain raised ICP-driven hypertension.
 Not D: Pulmonary hypoxic vasoconstriction is a local lung response.
@@ -285,7 +285,7 @@ Stem: A cerebral vessel ruptures and blood enters brain tissue. What stroke mech
 A. Thrombotic ischaemia.
 B. Embolic ischaemia.
 C. Haemorrhagic stroke.
-D. Transient cerebral hypoglycaemia.
+D. Cerebral hypoglycaemia.
 Answer: C
 Why: Haemorrhagic stroke results from rupture of a vessel, whereas ischaemic stroke results from interrupted arterial supply.
 Not A: Thrombosis obstructs an artery instead of rupturing it.
@@ -319,7 +319,7 @@ B. The superior vena cava junction.
 C. The aortic sinuses near the valve cusps.
 D. The coronary sinus opening in the atrium.
 Answer: C
-Why: The coronary ostia arise from the aortic sinuses immediately above the aortic valve.
+Why: The coronary ostia arise from the aortic sinuses immediately above the aortic valve. These are distinct from the coronary sinus, which drains myocardial venous blood.
 Not A: The pulmonary trunk conducts deoxygenated blood to the lungs.
 Not B: The superior vena cava returns systemic venous blood.
 Not D: The coronary sinus drains venous blood into the right atrium.
@@ -349,7 +349,7 @@ Stem: Why is perfusion of the left ventricular myocardium predominantly diastoli
 A. The coronary ostia close during ventricular systole.
 B. Aortic flow stops entirely during ventricular diastole.
 C. The left ventricle receives no blood during relaxation.
-D. Systolic myocardial contraction compresses intramural vessels.
+D. Ventricular contraction compresses intramural vessels.
 Answer: D
 Why: High left ventricular wall tension during systole squeezes intramyocardial coronary vessels; relaxation permits better flow.
 Not A: Coronary ostia remain open through the cardiac cycle.
@@ -378,12 +378,12 @@ Chapter: Chapter 23 — Coronary Circulation
 Section: 4. How does coronary flow match changing myocardial work?
 Type: comparison
 Stem: What is the direct action of alpha-receptor activation on coronary vascular smooth muscle?
-A. Vasoconstriction.
+A. Direct coronary vasoconstriction.
 B. Metabolic vasodilation.
 C. Capillary oxygen extraction.
-D. Increased myocardial contractility.
+D. Greater cardiac muscle inotropy.
 Answer: A
-Why: The lecture identifies coronary alpha-receptor stimulation as directly vasoconstricting, distinct from metabolic vasodilation.
+Why: The lecture identifies coronary alpha-receptor stimulation as directly vasoconstricting, distinct from metabolic vasodilation. Local metabolic signals can still override this direct constrictor tendency during increased myocardial work.
 Not B: Metabolic dilation is driven largely by myocardial activity and metabolites.
 Not C: Oxygen extraction is a tissue process, not a direct receptor effect.
 Not D: Increased contractility is associated with cardiac beta-adrenergic stimulation.
@@ -396,7 +396,7 @@ Type: mechanism
 Stem: Cardiac beta-adrenergic stimulation raises coronary flow overall mainly through which chain?
 A. Less contraction → less oxygen use → greater vascular tone.
 B. More contraction → less ATP use → less adenosine.
-C. More work → greater metabolic demand → metabolite-mediated dilation.
+C. More work → metabolites → arteriolar dilation.
 D. Direct beta stimulation → closure of coronary arterioles.
 Answer: C
 Why: Sympathetic stimulation raises cardiac work and oxygen demand; local metabolites then increase coronary perfusion despite competing vasomotor effects.
@@ -413,7 +413,7 @@ Stem: Why is a patient with significant coronary narrowing more vulnerable to an
 A. The P wave disappears and blocks blood flow.
 B. Myocardial oxygen consumption falls below baseline.
 C. The coronary sinus develops arterial hypertension.
-D. Diastolic perfusion time shortens while myocardial demand rises.
+D. Shorter diastole and higher myocardial demand.
 Answer: D
 Why: Tachycardia increases cardiac oxygen demand and shortens diastole, reducing the time available for left ventricular coronary perfusion.
 Not A: An absent P wave is not the explanation of demand-related angina.
@@ -442,7 +442,7 @@ Chapter: Chapter 23 — Coronary Circulation
 Section: 6. Coronary flow reserve, angina and myocardial infarction
 Type: comparison
 Stem: What most clearly differentiates myocardial infarction from brief stable angina?
-A. Infarction causes sustained ischaemic myocardial injury or necrosis.
+A. Prolonged ischaemia can produce myocyte necrosis.
 B. Infarction occurs only when heart rate is very slow.
 C. Angina requires complete coronary artery rupture.
 D. Angina permanently destroys the affected myocardium.
@@ -460,7 +460,7 @@ Type: anatomy
 Stem: Which pair correctly identifies the lung's respiratory and supporting arterial circulations?
 A. Bronchial arteries for gas exchange and coronary arteries for support.
 B. Pulmonary arteries for support and hepatic arteries for gas exchange.
-C. Pulmonary arteries for gas exchange and bronchial arteries for support.
+C. Pulmonary arteries: gas exchange; bronchial arteries: support.
 D. Pulmonary veins for gas exchange and aortic veins for support.
 Answer: C
 Why: Pulmonary arteries carry blood for gas exchange, while bronchial arteries from the aorta nourish lung supporting structures.
@@ -493,7 +493,7 @@ Stem: During exercise, pulmonary blood flow increases markedly with relatively l
 A. Pulmonary arterioles uniformly constrict during exercise.
 B. All pulmonary capillaries close to maintain pressure.
 C. Pulmonary veins increase resistance to prevent overfilling.
-D. Capillary recruitment and distension lower pulmonary resistance.
+D. Recruitment and distension lower vascular resistance.
 Answer: D
 Why: Recruiting previously underperfused capillaries and distending open vessels accommodates higher flow while limiting the pressure increase.
 Not A: Constricting arterioles would tend to increase pressure for a given flow.
@@ -557,7 +557,7 @@ Stem: An alveolar region becomes poorly ventilated and its oxygen tension falls.
 A. Arteriolar dilation, drawing more blood to the region.
 B. Systemic venous constriction, increasing cardiac preload.
 C. Complete loss of autonomic input to the region.
-D. Arteriolar constriction, diverting blood to better-ventilated areas.
+D. Arterioles constrict, diverting blood to ventilated regions.
 Answer: D
 Why: Low alveolar oxygen causes hypoxic pulmonary vasoconstriction, redirecting flow toward regions with better ventilation.
 Not A: Pulmonary hypoxic regulation is opposite to the usual local systemic response.
@@ -570,7 +570,7 @@ Chapter: Chapter 24 — Pulmonary Circulation
 Section: 5. Low oxygen constricts lung vessels
 Type: mechanism
 Stem: Why can chronic widespread alveolar hypoxia lead to pulmonary hypertension?
-A. Sustained hypoxic vasoconstriction raises pulmonary vascular resistance.
+A. Persistent hypoxic constriction increases lung resistance.
 B. Persistent hypoxia opens every pulmonary capillary without resistance.
 C. Widespread hypoxia lowers pulmonary vascular smooth-muscle tone.
 D. Chronic hypoxia eliminates blood passing through the lungs.
@@ -588,8 +588,8 @@ Type: comparison
 Stem: How does local hypoxia affect most systemic arterioles versus pulmonary arterioles?
 A. Both primarily constrict to lower oxygen delivery.
 B. Systemic vessels constrict while pulmonary vessels dilate.
-C. Systemic vessels usually dilate while pulmonary vessels constrict.
-D. Both always remain unaffected by oxygen levels.
+C. Systemic vessels dilate; pulmonary vessels constrict.
+D. Both remain relatively insensitive to tissue oxygen.
 Answer: C
 Why: Systemic hypoxic tissues commonly dilate to improve supply, whereas low alveolar oxygen constricts adjacent pulmonary arterioles to improve ventilation–perfusion matching.
 Not A: Systemic tissues usually need increased flow in hypoxia.
@@ -603,7 +603,7 @@ Section: 1. An unusual route through two capillary beds
 Type: anatomy
 Stem: Which arterial set forms the principal splanchnic supply to abdominal digestive organs?
 A. Coronary, internal carotid and renal arteries.
-B. Coeliac trunk, superior and inferior mesenteric arteries.
+B. Coeliac and both mesenteric arteries.
 C. Subclavian, vertebral and intercostal arteries.
 D. Pulmonary trunk, bronchial and phrenic arteries.
 Answer: B
@@ -634,7 +634,7 @@ Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
 Section: 2. The liver's double blood supply and its zones
 Type: mechanism
 Stem: Which liver inflow delivers nutrient-rich blood collected from the gut?
-A. The hepatic portal vein.
+A. The portal vein.
 B. The hepatic vein.
 C. The pulmonary vein.
 D. The inferior vena cava.
@@ -731,7 +731,7 @@ Section: 1. Skin blood flow is mainly about heat, not nutrition
 Type: mechanism
 Stem: What is the main purpose of wide changes in skin blood flow during heating or cooling?
 A. To alter the heart's intrinsic pacemaker rate.
-B. To regulate heat transfer between body and environment.
+B. To adjust body heat gain and loss.
 C. To maintain constant oxygen uptake by skin cells.
 D. To equalise pulmonary and systemic arterial pressures.
 Answer: B
@@ -780,7 +780,7 @@ Type: comparison
 Stem: A very light stroke briefly leaves a pale line on the skin. How is this reaction best classified?
 A. The wheal component of the triple response.
 B. The spread of an axon-reflex flare.
-C. A white reaction from local vasoconstriction.
+C. A brief local vasoconstrictor response.
 D. The red line of local capillary dilation.
 Answer: C
 Why: The lecture describes a transient white reaction due to constriction; it is distinct from the classical red–flare–wheal response.
@@ -826,7 +826,7 @@ Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
 Section: 3. The triple response of Lewis
 Type: conceptual
 Stem: Which sequence best describes the classical triple response of Lewis?
-A. Red line, surrounding flare, raised wheal.
+A. Red line, flare and wheal.
 B. White line, pallor, skin cooling.
 C. Raised wheal, venous thrombosis, scar.
 D. Flare, complete blanching, no fluid leak.
@@ -843,7 +843,7 @@ Section: 1. Why does the fetus need shortcuts?
 Type: mechanism
 Stem: Why does normal fetal circulation divert much blood away from the lungs?
 A. Pulmonary vascular resistance is exceptionally low before birth.
-B. The placenta supplies oxygen while fluid-filled lungs have high resistance.
+B. The placenta oxygenates blood; fetal lungs resist flow.
 C. The fetal left ventricle cannot generate arterial pressure.
 D. Umbilical arteries carry already oxygenated blood to the heart.
 Answer: B
@@ -874,7 +874,7 @@ Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
 Section: 2. Trace the fetal circuit
 Type: mechanism
 Stem: What does the ductus venosus chiefly allow fetal blood to bypass?
-A. Much of the hepatic sinusoidal circulation.
+A. Most hepatic sinusoids.
 B. The aortic arch and systemic arteries.
 C. The right atrium and vena cava.
 D. The placental exchange surface.
@@ -943,7 +943,7 @@ B. It rises because alveolar oxygen stimulates constriction.
 C. It remains unchanged until umbilical vessels close.
 D. It equals systemic resistance because both circuits merge.
 Answer: A
-Why: Lung aeration and increased oxygen rapidly lower pulmonary vascular resistance, increasing pulmonary flow.
+Why: Lung aeration and increased oxygen rapidly lower pulmonary vascular resistance, increasing pulmonary flow. The higher affinity helps fetal blood load oxygen from the maternal circulation.
 Not B: Alveolar oxygen generally relieves pulmonary hypoxic vasoconstriction.
 Not C: Pulmonary adaptation begins with the first breaths.
 Not D: Pulmonary and systemic circuits retain very different resistance values.
@@ -957,7 +957,7 @@ Stem: After cord clamping and lung aeration, what pressure change favours functi
 A. Right atrial pressure rises above left atrial pressure.
 B. Pulmonary resistance remains very high.
 C. Umbilical venous inflow increases right atrial pressure.
-D. Left atrial pressure becomes greater than right atrial pressure.
+D. Left atrial pressure exceeds right atrial pressure.
 Answer: D
 Why: Increased pulmonary venous return elevates left atrial pressure while loss of placental venous return reduces right-sided filling, pressing the flap closed.
 Not A: Right atrial dominance normally supports fetal shunting, not closure.
@@ -975,7 +975,7 @@ B. Ligamentum arteriosum.
 C. Ligamentum venosum.
 D. Ligamentum teres hepatis.
 Answer: B
-Why: The ductus arteriosus normally closes after birth and becomes the ligamentum arteriosum.
+Why: The ductus arteriosus normally closes after birth and becomes the ligamentum arteriosum. This remnant is distinct from the foramen ovale and ductus venosus remnants.
 Not A: The foramen ovale becomes the fossa ovalis.
 Not C: The ductus venosus becomes ligamentum venosum.
 Not D: The left umbilical vein becomes ligamentum teres hepatis.
@@ -991,7 +991,7 @@ B. The ligamentum arteriosum.
 C. The ligamentum teres hepatis.
 D. The median umbilical ligament.
 Answer: C
-Why: The umbilical vein closes to form the ligamentum teres hepatis of the liver.
+Why: The umbilical vein closes to form the ligamentum teres hepatis of the liver. This structure is also associated with the falciform ligament of the adult liver.
 Not A: Fossa ovalis derives from the atrial septal foramen ovale.
 Not B: Ligamentum arteriosum derives from ductus arteriosus.
 Not D: The median umbilical ligament is an urachal remnant.
