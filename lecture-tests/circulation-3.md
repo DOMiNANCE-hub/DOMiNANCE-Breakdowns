@@ -179,7 +179,7 @@ Why: Vasovagal syncope combines loss of sympathetic vasoconstrictor tone with in
 Not B: Normal compensation to falling BP increases sympathetic activity.
 Not C: The Cushing response usually produces hypertension with bradycardia.
 Not D: The Bainbridge reflex is associated with increased heart rate during atrial stretch.
-Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+Slides: Chapter 19 §4 (supplementary)
 
 ### Q12
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
@@ -195,7 +195,7 @@ Why: Mechanical carotid sinus stimulation can mimic high arterial stretch, causi
 Not A: Aldosterone is not the immediate cause of this pressure fall.
 Not B: Increased ventricular contractility would tend to defend output.
 Not C: Circulating blood volume does not suddenly expand with collar pressure.
-Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+Slides: Chapter 19 §4 (supplementary)
 
 ### Q13
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
@@ -211,7 +211,7 @@ Why: Micturition syncope is fainting associated with urination, often after risi
 Not A: Carotid sinus syncope requires stimulation of a sensitive carotid region.
 Not C: There is no evidence of infection-related shock in the stem.
 Not D: Normal standing to urinate is not high positive acceleration.
-Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+Slides: Chapter 19 §4 (supplementary)
 
 ### Q14
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
@@ -227,7 +227,7 @@ Why: A sustained systolic fall of at least 20 mmHg or diastolic fall of at least
 Not A: The systolic threshold is met even when the diastolic threshold is not.
 Not B: The diagnostic threshold concerns the change, not a fixed final pressure.
 Not D: The definition does not require both components to fall by 20 mmHg.
-Slides: Circulation 3, slide Chapter 19 §5 (supplementary)
+Slides: Chapter 19 §5 (supplementary)
 
 ### Q15
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
@@ -297,7 +297,7 @@ Slides: Circulation 3, slides 12–13; Chapter 20 §1
 Chapter: Chapter 20 — Circulatory Shock
 Section: 1. What is shock?
 Type: classification
-Stem: A patient develops severe low-output shock immediately after a large myocardial infarction despite no major fluid loss.
+Stem: A patient develops low-output shock immediately after a large myocardial infarction without major fluid loss. Which type of shock is most likely?
 A. Hypovolaemic shock.
 B. Distributive shock.
 C. Cardiogenic shock.
@@ -394,12 +394,12 @@ Chapter: Chapter 20 — Circulatory Shock
 Section: 3. What you see, and why
 Type: mechanism
 Stem: A severely underperfused patient begins breathing rapidly, although the lungs were initially healthy. What drives this change?
-A. Low oxygen delivery and acidosis stimulate chemoreceptors.
+A. Lactic acidosis stimulates peripheral chemoreceptors.
 B. Increased aerobic ATP production stimulates breathing.
 C. High tissue oxygen content increases respiratory drive.
 D. Suppression of the peripheral chemoreceptors stimulates breathing.
 Answer: A
-Why: Tissue hypoxia promotes anaerobic glycolysis and lactic acidosis, which stimulates chemoreceptor-mediated increases in ventilation.
+Why: Inadequate tissue oxygen delivery promotes anaerobic metabolism and lactic acidosis. The resulting acidemia can stimulate peripheral chemoreceptors and increase ventilation; reduced oxygen delivery alone is not equivalent to low arterial oxygen tension.
 Not B: Aerobic metabolism is limited by inadequate oxygen delivery.
 Not C: Excess oxygen is not the initiating problem in shock.
 Not D: Chemoreceptor stimulation, rather than suppression, promotes respiration.
@@ -511,7 +511,7 @@ B. Movement of interstitial fluid back into plasma.
 C. Immediate generation of red blood cells within capillaries.
 D. Rapid transfer of plasma proteins into all cells.
 Answer: B
-Why: Reduced capillary hydrostatic pressure favours net absorption of interstitial fluid into plasma, helping restore circulating volume.
+Why: Reduced capillary hydrostatic pressure decreases outward filtration and can favour transient movement of interstitial fluid into plasma during hypovolaemia, helping restore circulating volume.
 Not A: Lower capillary pressure tends to oppose outward filtration.
 Not C: Fluid shifts do not directly create new erythrocytes.
 Not D: Protein entry into cells is not the compensatory mechanism.
@@ -996,3 +996,4 @@ Not A: Long-term cardiac loading can change ventricular structure.
 Not B: Cardiac muscle does not become skeletal muscle during remodelling.
 Not C: Filling pressure and wall stress often increase rather than disappear.
 Slides: Chapter 21 §4 (supplementary)
+
