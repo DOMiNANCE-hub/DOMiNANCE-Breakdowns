@@ -1157,3 +1157,403 @@ Not B: Atrial contractions still cause pressure variations.
 Not D: Giant v waves primarily suggest tricuspid regurgitation.
 Slides: 26; Chapter 11 §7
 
+### Q73
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 2. Why are veins called capacitance vessels?
+Type: mechanism
+Stem: Why do veins serve as the main blood-volume reservoir of the systemic circulation?
+A. Their walls have the highest resistance to flow.
+B. Their muscular walls actively pump blood at high pressure.
+C. Their high compliance permits large volume changes at low pressure.
+D. They hold blood only when aortic pressure is zero.
+Answer: C
+Why: Thin, compliant venous walls distend substantially with modest increases in pressure, allowing capacitance storage.
+Not A: Veins generally have low resistance compared with arterioles.
+Not B: Veins do not operate as high-pressure primary pumps.
+Not D: A substantial venous reservoir exists throughout the cardiac cycle.
+Slides: 59, 73–75, 97–98
+
+### Q74
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 3. What pressure actually drives venous return?
+Type: mechanism
+Stem: Which pressure difference is most relevant to systemic venous return toward the right atrium?
+A. Left ventricular systolic minus aortic diastolic pressure.
+B. Pulmonary venous minus pulmonary capillary pressure.
+C. Aortic systolic minus right ventricular systolic pressure.
+D. Mean systemic filling pressure minus right atrial pressure.
+Answer: D
+Why: Venous return depends on the upstream systemic filling pressure relative to right atrial pressure and the resistance to venous return.
+Not A: That difference is a pulse-pressure-related comparison.
+Not B: Pulmonary venous pressure does not define systemic venous return.
+Not C: Aortic-right ventricular systolic pressure is not the venous return driving gradient.
+Slides: 97; Chapter 12 §3
+
+### Q75
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 4. How do the skeletal-muscle pump and venous valves work?
+Type: mechanism
+Stem: Why do one-way valves make the leg-muscle pump effective during walking?
+A. They prevent backward blood movement during muscular compression.
+B. They directly increase the oxygen-carrying capacity of venous blood.
+C. They eliminate hydrostatic pressure from the entire limb.
+D. They produce sympathetic impulses to constrict arteries.
+Answer: A
+Why: Muscle contraction compresses deep veins, and valves constrain flow toward the heart rather than allowing reflux.
+Not B: Valves do not alter haemoglobin or oxygen capacity.
+Not C: Gravity remains present even when valves assist drainage.
+Not D: The valve mechanism is mechanical, not an autonomic trigger.
+Slides: 97–98
+
+### Q76
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 5. How does breathing help venous return?
+Type: mechanism
+Stem: How does normal inspiration tend to assist systemic venous return?
+A. It increases right atrial pressure and reduces abdominal pressure.
+B. Lower intrathoracic pressure promotes venous inflow into the chest.
+C. It closes all systemic venous valves simultaneously.
+D. It increases peripheral venous capacitance until return stops.
+Answer: B
+Why: Inspiration decreases intrathoracic pressure and promotes a pressure gradient drawing blood from peripheral veins to the thorax.
+Not A: Lower rather than higher thoracic pressure assists inflow.
+Not C: Venous valves do not all close in inspiration.
+Not D: Return is generally supported rather than abolished.
+Slides: 56, 97–98
+
+### Q77
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 6. What does central venous pressure tell us?
+Type: application
+Stem: A patient's right ventricular pumping fails and right atrial pressure rises. Which consequence is most likely?
+A. A larger pressure gradient for systemic venous return.
+B. Less peripheral venous congestion.
+C. Reduced venous return driving pressure and systemic venous congestion.
+D. Complete disappearance of the jugular venous pulse.
+Answer: C
+Why: Higher right atrial pressure opposes venous return and transmits backward into systemic veins, causing congestion.
+Not A: Higher right atrial pressure reduces the upstream-to-atrial gradient.
+Not B: Elevated atrial pressure tends to increase congestion.
+Not D: JVP often becomes elevated rather than disappearing.
+Slides: 24, 97; Chapter 12 §6
+
+### Q78
+Chapter: Chapter 12 — Veins and Venous Return
+Section: 7. What happens to veins in the head when standing?
+Type: application
+Stem: Why are superficial neck veins often less distended in a healthy person who stands upright?
+A. Head-level venous hydrostatic pressure falls above heart level.
+B. The venae cavae reverse their direction of blood flow.
+C. Systemic venous pressure exceeds aortic systolic pressure.
+D. The skull's arteries pull venous valves fully open.
+Answer: A
+Why: Gravity lowers venous pressure above the heart; collapsible superficial veins can flatten at low transmural pressure.
+Not B: Venous return does not normally reverse direction.
+Not C: Systemic venous pressure remains far below aortic systolic pressure.
+Not D: Arterial flow does not open venous valves in the neck.
+Slides: 78, 97–98; Chapter 12 §7
+
+### Q79
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 1. Why is the microcirculation necessary?
+Type: conceptual
+Stem: What is the primary functional importance of the extensive capillary network?
+A. It maintains the highest blood velocity in the circulation.
+B. It generates most of the arterial pressure.
+C. It stores nearly all circulating blood volume.
+D. It provides a large surface for tissue exchange.
+Answer: D
+Why: Numerous small capillaries provide enormous exchange area and low velocity, favouring nutrient and waste movement.
+Not A: Average velocity is low because total capillary cross-section is large.
+Not B: Arterioles supply much of controllable resistance.
+Not C: Veins, not capillaries, hold the major blood reservoir.
+Slides: 57–58, 83–84
+
+### Q80
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 3. How do substances actually cross the capillary wall?
+Type: mechanism
+Stem: Which transport mechanism delivers most oxygen across a normal capillary wall to surrounding tissue?
+A. Bulk movement of intact plasma proteins.
+B. Diffusion down the dissolved-oxygen concentration gradient.
+C. Active pumping of intact red cells through the wall.
+D. Lymphatic return of oxygenated interstitial fluid.
+Answer: B
+Why: Oxygen is small and diffusible, so it crosses membranes down its partial-pressure gradient toward metabolising tissue.
+Not A: Oxygen transfer does not require bulk plasma protein movement.
+Not C: Red cells remain inside ordinary capillaries.
+Not D: Lymphatics return fluid and proteins, not the primary oxygen supply.
+Slides: 84; Chapter 13 §3
+
+### Q81
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 4. What decides which capillaries receive more blood?
+Type: mechanism
+Stem: A working tissue releases vasodilator metabolites around its microvessels. What adjustment most directly raises local perfusion?
+A. Relaxation of upstream arterioles and precapillary resistance.
+B. Tightening of upstream arterioles to prevent blood entry.
+C. Increased viscosity in the tissue's capillary blood.
+D. Complete collapse of capillary exchange surfaces.
+Answer: A
+Why: Metabolic vasodilators relax resistance vessels and recruit perfused capillaries, improving delivery to active tissue.
+Not B: Constriction would reduce perfusion.
+Not C: Greater viscosity would increase resistance.
+Not D: Capillary collapse would worsen nutrient exchange.
+Slides: 58, 89
+
+### Q82
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 5. Why does fluid leave capillaries even when protein stays in blood?
+Type: mechanism
+Stem: Increasing capillary hydrostatic pressure while other Starling forces stay unchanged tends to produce what?
+A. Reduced outward filtration.
+B. Increased oncotic attraction into plasma.
+C. Greater outward movement of fluid into interstitium.
+D. Immediate reversal of all lymph flow.
+Answer: C
+Why: A higher capillary hydrostatic force favours filtration across the microvascular wall toward tissue.
+Not A: The pressure favours outward, not reduced, filtration.
+Not B: Plasma oncotic pressure does not automatically increase.
+Not D: Lymphatic flow generally responds to excess tissue fluid rather than reversing.
+Slides: 85–88
+
+### Q83
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 5. Why does fluid leave capillaries even when protein stays in blood?
+Type: comparison
+Stem: What effect does a reduction in plasma albumin have on capillary fluid exchange?
+A. Higher plasma oncotic pressure retaining more water.
+B. Lower capillary hydrostatic pressure in every organ.
+C. Increased filtration by stronger protein attraction.
+D. Reduced plasma oncotic force opposing filtration.
+Answer: D
+Why: Albumin generates much of plasma colloid osmotic pressure; losing it weakens retention of water in the vascular compartment.
+Not A: Less albumin lowers oncotic pressure.
+Not B: Hydrostatic pressure does not automatically decline in all tissues.
+Not C: Protein attraction becomes weaker, not stronger.
+Slides: 85–88, 93
+
+### Q84
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 6. Classic Starling model versus revised understanding
+Type: conceptual
+Stem: Which statement best reflects the updated interpretation of capillary fluid balance?
+A. Most capillaries continuously reabsorb nearly all filtered fluid at their venous ends.
+B. The endothelial glycocalyx influences filtration, with lymphatics removing net filtrate.
+C. Interstitial proteins do not affect exchange at any capillary.
+D. Lymphatic vessels play no role when hydrostatic pressure is normal.
+Answer: B
+Why: The revised Starling model includes the glycocalyx and emphasises that sustained net filtration is normally cleared by lymphatics.
+Not A: The classical arterial filtration–venous reabsorption picture overstates sustained reabsorption.
+Not C: Protein distributions can influence effective oncotic gradients.
+Not D: Lymphatic return remains vital even at normal pressures.
+Slides: 85–88; Chapter 13 §6 (modern clarification)
+
+### Q85
+Chapter: Chapter 13 — Microcirculation and Capillary Exchange
+Section: 7. What changes microvascular filtration or permeability?
+Type: mechanism
+Stem: A local inflammatory mediator increases postcapillary venular permeability. What occurs?
+A. More protein and water can escape, promoting tissue swelling.
+B. The vascular wall becomes impermeable to water.
+C. The plasma protein concentration increases within the vessel.
+D. Capillary filtration stops until arterial pressure rises.
+Answer: A
+Why: Higher permeability permits protein extravasation and fluid movement, weakening oncotic retention and promoting oedema.
+Not B: Inflammation generally increases rather than abolishes permeability.
+Not C: Protein leakage tends to lower intravascular protein in the affected region.
+Not D: Fluid escape is promoted, not stopped.
+Slides: 89–93; Chapter 13 §7
+
+### Q86
+Chapter: Chapter 14 — Formation of Oedema
+Section: 4. Why does raised venous pressure cause oedema?
+Type: mechanism
+Stem: A patient develops bilateral ankle oedema after prolonged elevation of systemic venous pressure. What directly drives fluid out of capillaries?
+A. A reduction in capillary hydrostatic pressure.
+B. A sharp increase in plasma albumin concentration.
+C. An increase in dependent capillary hydrostatic pressure.
+D. A reduction in tissue pressure below atmospheric in every organ.
+Answer: C
+Why: Elevated venous pressure transmits into dependent capillaries, increasing outward hydrostatic filtration.
+Not A: Lower capillary pressure would reduce filtration.
+Not B: Higher plasma albumin tends to oppose oedema.
+Not D: The mechanism is raised vascular filtration pressure rather than an obligatory drop in all tissue pressures.
+Slides: 90–92
+
+### Q87
+Chapter: Chapter 14 — Formation of Oedema
+Section: 5. Why can low plasma proteins cause oedema?
+Type: application
+Stem: Why may advanced liver disease cause generalised oedema even without venous obstruction?
+A. Excess albumin synthesis draws water into tissues.
+B. Reduced albumin synthesis lowers plasma oncotic pressure.
+C. A rise in plasma protein concentration stops absorption.
+D. Liver failure directly shuts every lymphatic valve.
+Answer: B
+Why: Reduced albumin production lowers intravascular colloid oncotic pressure, allowing more net filtration and oedema.
+Not A: Advanced liver disease commonly reduces albumin synthesis.
+Not C: Plasma protein concentration is decreased, not increased.
+Not D: Lymphatic valve closure is not the universal mechanism.
+Slides: 93
+
+### Q88
+Chapter: Chapter 14 — Formation of Oedema
+Section: 5. Why can low plasma proteins cause oedema?
+Type: application
+Stem: A patient loses substantial albumin into urine during kidney disease. What Starling-force change is expected?
+A. Increased plasma colloid osmotic pressure.
+B. Reduced capillary permeability everywhere.
+C. Increased red-cell viscosity causing filtration.
+D. Decreased plasma oncotic pressure causing oedema.
+Answer: D
+Why: Proteinuria reduces circulating albumin and its inward oncotic force, favouring movement of fluid into interstitium.
+Not A: Albumin loss lowers oncotic pressure.
+Not B: Capillary permeability elsewhere need not decrease.
+Not C: Viscosity is not the principal mechanism of protein-loss oedema.
+Slides: 93
+
+### Q89
+Chapter: Chapter 14 — Formation of Oedema
+Section: 6. How does inflammation increase oedema?
+Type: mechanism
+Stem: Inflamed tissue becomes swollen and warm. Which change contributes directly to the oedema?
+A. Increased permeability permits protein-rich fluid to enter tissue.
+B. Reduced permeability traps interstitial fluid inside capillaries.
+C. Venous valves close and abolish arterial inflow.
+D. The lymphatic system starts producing plasma proteins.
+Answer: A
+Why: Inflammatory mediators make small vessels leakier, allowing protein and fluid accumulation in interstitium.
+Not B: Reduced permeability would oppose oedema.
+Not C: Venous valve events do not explain ordinary inflammatory swelling.
+Not D: Lymphatics normally remove proteins rather than producing them.
+Slides: 90–93; Chapter 14 §6
+
+### Q90
+Chapter: Chapter 14 — Formation of Oedema
+Section: 8. Why are pitting and non-pitting oedema different?
+Type: clinical-application
+Stem: A patient has chronic firm limb swelling after removal of regional lymph nodes. What most likely explains its persistent character?
+A. Raised arterial oxygen causes tightness.
+B. Excess venous flow clears local proteins.
+C. Interstitium retains proteins because lymph drainage is impaired.
+D. Systolic ejection fraction necessarily becomes reduced.
+Answer: C
+Why: Lymphatic obstruction impairs removal of interstitial proteins and fluid, leading over time to persistent, often non-pitting swelling.
+Not A: Oxygen delivery is not the main mechanism.
+Not B: Impaired lymph drainage prevents, rather than accelerates, interstitial protein removal.
+Not D: Cardiac ejection fraction need not be abnormal.
+Slides: 94–95
+
+### Q91
+Chapter: Chapter 14 — Formation of Oedema
+Section: 9. Which location of oedema suggests which mechanism?
+Type: comparison
+Stem: Which finding would most strongly suggest pulmonary rather than isolated dependent leg oedema?
+A. Swelling that worsens around the ankles during standing.
+B. Breathlessness with basal lung crackles in left heart failure.
+C. A unilateral swollen arm after mastectomy.
+D. Skin indentation remaining after pressing the ankle.
+Answer: B
+Why: Left ventricular failure raises pulmonary venous pressure, causing lung interstitial and alveolar fluid with breathlessness and crackles.
+Not A: Dependent leg oedema is more commonly systemic venous or local hydrostatic.
+Not C: Postmastectomy swelling suggests lymphatic obstruction.
+Not D: Pitting alone does not localise oedema to the lungs.
+Slides: 90–95; Chapter 14 §9
+
+### Q92
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 1. Why do we need lymphatic vessels if we already have veins?
+Type: conceptual
+Stem: What essential material do lymphatics return that would otherwise accumulate in interstitial tissues?
+A. Only oxygen carried on haemoglobin.
+B. Only glucose absorbed through gut capillaries.
+C. Arterial blood directly from the aorta.
+D. Filtered fluid and escaped plasma proteins.
+Answer: D
+Why: Lymphatics return excess interstitial fluid and proteins to the bloodstream, maintaining tissue fluid balance.
+Not A: Lymph does not mainly carry oxygen on red-cell haemoglobin.
+Not B: Glucose generally enters blood capillaries directly.
+Not C: Lymphatic vessels do not connect to the aorta as arterial conduits.
+Slides: 60, 94
+
+### Q93
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 2. How does lymph enter a lymphatic capillary?
+Type: mechanism
+Stem: How can fluid enter a blind-ended lymphatic capillary when interstitial pressure rises?
+A. Overlapping endothelial flaps open inward like small valves.
+B. A central lymphatic heart pumps blood into tissues.
+C. Rigid endothelial junctions prevent all protein entry.
+D. A continuous layer of smooth muscle forces plasma outward.
+Answer: A
+Why: Initial lymphatic endothelial flaps allow interstitial fluid and proteins to enter when surrounding pressure exceeds lymphatic pressure.
+Not B: There is no single central lymphatic heart.
+Not C: Initial lymphatics are relatively permeable to interstitial proteins.
+Not D: Initial lymphatic capillaries lack a thick continuous smooth-muscle coat.
+Slides: 60; Chapter 15 §2
+
+### Q94
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 3. How can lymph move when there is no central lymphatic heart?
+Type: mechanism
+Stem: What keeps lymph moving toward major veins despite low lymphatic pressures?
+A. Only the left ventricular ejection pressure.
+B. Constant backflow from the vena cava.
+C. One-way valves aided by muscle movement and lymphatic contractions.
+D. Direct diffusion of whole lymph vessels through tissues.
+Answer: C
+Why: One-way valves, skeletal-muscle compression, respiratory movement and lymphatic smooth-muscle contraction promote forward flow.
+Not A: Lymph flow is not driven directly by systemic arterial pressure.
+Not B: Backflow is limited by valves rather than required for transport.
+Not D: Whole vessels do not diffuse through tissues.
+Slides: 60; Chapter 15 §3
+
+### Q95
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 4. Where does lymph finally return to blood?
+Type: anatomy
+Stem: Where does most body lymph return to systemic venous blood?
+A. Directly into the right ventricle.
+B. Through the thoracic duct near the left venous angle.
+C. Through pulmonary capillaries into the left atrium.
+D. Through coronary sinus into the right atrium.
+Answer: B
+Why: The thoracic duct drains most lymph into the left subclavian–internal jugular venous junction.
+Not A: Lymphatic ducts empty into systemic veins, not directly ventricles.
+Not C: Pulmonary capillaries are not the outlet of the thoracic duct.
+Not D: The coronary sinus carries venous blood from myocardium.
+Slides: 60; Chapter 15 §4
+
+### Q96
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 5. Why is the intestinal lymphatic system important in fat absorption?
+Type: mechanism
+Stem: A meal rich in long-chain fats increases which intestinal lymphatic transport?
+A. Direct red-cell delivery to lacteals.
+B. Renal filtration of absorbed fats.
+C. Oxygenated blood flow through the portal vein alone.
+D. Chylomicron transport from intestinal lacteals.
+Answer: D
+Why: Absorbed long-chain fats are packaged into chylomicrons and enter lacteals, reaching the blood via lymphatic drainage.
+Not A: Red cells normally remain in blood vessels.
+Not B: Kidneys do not mediate initial intestinal fat absorption.
+Not C: Most long-chain dietary fat reaches systemic blood through lymph rather than directly through portal blood.
+Slides: Chapter 15 §5 (supplementary)
+
+### Q97
+Chapter: Chapter 15 — Lymphatic Circulation
+Section: 7. Why does lymphatic obstruction cause lymphoedema?
+Type: application
+Stem: A patient develops marked limb lymphoedema after lymphatic damage from filarial infection. What has failed?
+A. Clearance of interstitial fluid and proteins through lymphatics.
+B. Secretion of albumin by the liver into venous blood.
+C. Electrical conduction through the AV node.
+D. The delivery of oxygen by aortic coronary arteries.
+Answer: A
+Why: Lymphatic obstruction stops adequate return of interstitial fluid and proteins, producing persistent tissue swelling.
+Not B: Liver albumin synthesis is a separate process.
+Not C: AV conduction has no direct relation to lymph drainage.
+Not D: Coronary oxygen delivery does not explain filarial lymphoedema.
+Slides: 95; Chapter 15 §7
+
