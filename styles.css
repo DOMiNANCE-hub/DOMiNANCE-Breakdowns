@@ -1218,3 +1218,5 @@ details.mcq-answer.is-after-answer[open]>p:first-of-type{margin-top:4px}
 .lv-hint{font:600 19px 'DM Sans',sans-serif;fill:var(--muted)}
 .lv-stage text.tw-small{font-size:21px}
 .lv-stage text.tw-tiny{font-size:18px}
+/* One reading column: every block (tables, figures, photos, interactives, notes, equations) shares the text's width */
+@media(min-width:761px){.article-sheet .article-text>*:not(h1){max-width:var(--measure);margin-left:0;margin-right:0;box-sizing:border-box}}
