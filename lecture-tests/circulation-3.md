@@ -405,3 +405,211 @@ Not B: Enhanced ankle pooling would reduce central venous return.
 Not C: Greater dependent filtration would not protect brain perfusion.
 Slides: Circulation 3, slide 11; Chapter 19 §6
 
+### Q26
+Chapter: Chapter 20 — Circulatory Shock
+Section: 1. What is shock?
+Type: classification
+Stem: A patient develops severe low-output shock immediately after a large myocardial infarction despite no major fluid loss.
+A. Hypovolaemic shock.
+B. Distributive shock.
+C. Cardiogenic shock.
+D. Obstructive shock.
+Answer: C
+Why: The damaged heart cannot pump enough blood to meet tissue needs, producing cardiogenic shock despite remaining blood volume.
+Not A: Hypovolaemia requires a major loss of circulating volume.
+Not B: Distributive shock primarily reflects systemic vasodilatation.
+Not D: Obstructive shock results from a physical block to filling or flow.
+Slides: Circulation 3, slides 14–16
+
+### Q27
+Chapter: Chapter 20 — Circulatory Shock
+Section: 1. What is shock?
+Type: classification
+Stem: After a massive pulmonary embolus, blood cannot pass normally through the pulmonary arteries. Which category best explains the collapse?
+A. Obstructive shock.
+B. Cardiogenic shock.
+C. Distributive shock.
+D. Hypovolaemic shock.
+Answer: A
+Why: A large embolus physically obstructs pulmonary blood flow, reducing effective forward circulation and producing obstructive shock.
+Not B: Cardiogenic shock chiefly reflects primary pump dysfunction.
+Not C: Distributive shock involves loss of systemic vascular tone.
+Not D: Hypovolaemic shock requires loss of blood or other fluid.
+Slides: Circulation 3, slides 17
+
+### Q28
+Chapter: Chapter 20 — Circulatory Shock
+Section: 1. What is shock?
+Type: mechanism
+Stem: A patient has severe hypotension despite normal blood volume, after widespread relaxation of resistance and capacitance vessels. What is the main defect?
+A. Red-cell loss with a normal vascular capacity.
+B. Excessive arteriolar constriction and raised resistance.
+C. Isolated myocardial failure without vascular changes.
+D. Low vascular resistance and pooling of circulating blood.
+Answer: D
+Why: In distributive shock, widespread vasodilatation expands vascular capacity and lowers effective filling and peripheral resistance.
+Not A: The stem excludes a major blood volume deficit.
+Not B: The primary change is dilation rather than constriction.
+Not C: A primary pump defect would define cardiogenic shock.
+Slides: Circulation 3, slides 13–15
+
+### Q29
+Chapter: Chapter 20 — Circulatory Shock
+Section: 3. What you see, and why
+Type: mechanism
+Stem: A patient in hypovolaemic shock has very little urine output. Which change directly contributes to this sign?
+A. Increased GFR following higher renal flow.
+B. Reduced GFR following renal vasoconstriction.
+C. Increased urine flow through higher arterial pressure.
+D. Reduced tubular sodium uptake from low aldosterone.
+Answer: B
+Why: Low perfusion and sympathetic renal vasoconstriction decrease glomerular filtration, while hormonal compensation promotes sodium and water retention.
+Not A: Renal flow and filtration fall rather than rise.
+Not C: Shock lowers rather than raises effective renal perfusion.
+Not D: Aldosterone is activated and promotes sodium retention.
+Slides: Circulation 3, slides 20
+
+### Q30
+Chapter: Chapter 20 — Circulatory Shock
+Section: 3. What you see, and why
+Type: mechanism
+Stem: A severely underperfused patient begins breathing rapidly, although the lungs were initially healthy. What drives this change?
+A. Low oxygen delivery and acidosis stimulate chemoreceptors.
+B. Increased aerobic ATP production stimulates breathing.
+C. High tissue oxygen content increases respiratory drive.
+D. Suppression of the peripheral chemoreceptors stimulates breathing.
+Answer: A
+Why: Tissue hypoxia promotes anaerobic glycolysis and lactic acidosis, which stimulates chemoreceptor-mediated increases in ventilation.
+Not B: Aerobic metabolism is limited by inadequate oxygen delivery.
+Not C: Excess oxygen is not the initiating problem in shock.
+Not D: Chemoreceptor stimulation, rather than suppression, promotes respiration.
+Slides: Circulation 3, slides 23
+
+### Q31
+Chapter: Chapter 20 — Circulatory Shock
+Section: 3. What you see, and why
+Type: mechanism
+Stem: A patient with acute blood loss develops intense thirst. Which hormonal changes best explain the response?
+A. Lower renin and lower angiotensin II.
+B. Higher aldosterone and reduced vasopressin.
+C. Higher angiotensin II and higher vasopressin.
+D. Lower vasopressin and greater water excretion.
+Answer: C
+Why: Reduced effective circulating volume activates renin–angiotensin signalling and ADH, increasing thirst and promoting water conservation.
+Not A: Renin and angiotensin II increase during volume depletion.
+Not B: Vasopressin rises rather than falls in hypovolaemia.
+Not D: The kidneys tend to retain rather than excrete water.
+Slides: Circulation 3, slides 24
+
+### Q32
+Chapter: Chapter 20 — Circulatory Shock
+Section: 3. What you see, and why
+Type: application
+Stem: A previously anxious patient with severe prolonged shock becomes apathetic and poorly responsive. Which explanation is most concerning?
+A. Red-cell production has rapidly restored oxygen delivery.
+B. Skin vasoconstriction has resolved the shock.
+C. The skeletal-muscle pump has become overactive.
+D. Cerebral perfusion has fallen enough to impair brain function.
+Answer: D
+Why: Restlessness can accompany early sympathetic arousal; later apathy may indicate worsening cerebral ischaemia and failing perfusion.
+Not A: Erythropoiesis cannot rapidly reverse acute circulatory collapse.
+Not B: An improvement in perfusion would not account for deterioration.
+Not C: The muscle pump does not explain progressive depressed consciousness.
+Slides: Circulation 3, slides 22
+
+### Q33
+Chapter: Chapter 20 — Circulatory Shock
+Section: 3. What you see, and why
+Type: mechanism
+Stem: Why does persistent lactic acidosis make circulatory shock harder to reverse?
+A. It increases ventricular force and vascular responsiveness.
+B. It depresses myocardial contraction and catecholamine responsiveness.
+C. It directly restores aerobic ATP production.
+D. It prevents further fluid filtration from capillaries.
+Answer: B
+Why: Acidosis from anaerobic metabolism weakens cardiac pumping and reduces vascular response to catecholamines, undermining compensation.
+Not A: Acidosis impairs rather than strengthens these functions.
+Not C: Aerobic ATP generation still requires oxygen.
+Not D: Acidosis does not reliably prevent fluid movement into tissues.
+Slides: Circulation 3, slides 21
+
+### Q34
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: mechanism
+Stem: During haemorrhage, why are the brain and heart relatively protected while skin and renal flow decrease?
+A. Skin and renal arterioles constrict more strongly.
+B. Coronary veins release enough blood to replace all loss.
+C. Cerebral arterioles constrict more than skin arterioles.
+D. Kidney vessels lose their sympathetic innervation.
+Answer: A
+Why: Sympathetic constriction is pronounced in skin, kidneys and splanchnic beds, redistributing limited flow toward critical organs.
+Not B: Venous reserves do not replace an entire major haemorrhage.
+Not C: Severe cerebral constriction would not protect brain flow.
+Not D: Renal sympathetic activity increases rather than disappears.
+Slides: Circulation 3, slides 20–22
+
+### Q35
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: mechanism
+Stem: What is the immediate benefit of sympathetic constriction in splanchnic and pulmonary venous reservoirs during blood loss?
+A. Increased peripheral pooling of the remaining blood.
+B. Rapid production of new erythrocytes in venous blood.
+C. Mobilisation of stored blood toward the heart.
+D. Reduction in ventricular filling during compensation.
+Answer: C
+Why: Venoconstriction expels part of the blood stored in compliant veins, improving central return and supporting ventricular filling.
+Not A: Pooling would worsen central volume depletion.
+Not B: Red-cell production takes weeks rather than seconds.
+Not D: The mechanism supports rather than reduces central filling.
+Slides: Circulation 3, slides 22
+
+### Q36
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: mechanism
+Stem: Which endocrine combination helps sustain arterial pressure during acute haemorrhage?
+A. Reduced adrenal catecholamines with reduced renin.
+B. Increased aldosterone with suppressed angiotensin II.
+C. Reduced ADH with increased sodium excretion.
+D. Increased adrenal catecholamines with renin–angiotensin activation.
+Answer: D
+Why: The adrenal medulla releases catecholamines while RAAS promotes vasoconstriction and volume conservation after blood loss.
+Not A: The adrenal medulla and renin system are activated.
+Not B: Aldosterone release follows increased angiotensin signalling.
+Not C: ADH rises and renal water loss is reduced.
+Slides: Circulation 3, slides 22–24
+
+### Q37
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: mechanism
+Stem: A patient in shock has reduced systemic capillary hydrostatic pressure. What useful change in fluid movement can follow?
+A. More filtration from capillaries into interstitial tissue.
+B. Movement of interstitial fluid back into plasma.
+C. Immediate generation of red blood cells within capillaries.
+D. Rapid transfer of plasma proteins into all cells.
+Answer: B
+Why: Reduced capillary hydrostatic pressure favours net absorption of interstitial fluid into plasma, helping restore circulating volume.
+Not A: Lower capillary pressure tends to oppose outward filtration.
+Not C: Fluid shifts do not directly create new erythrocytes.
+Not D: Protein entry into cells is not the compensatory mechanism.
+Slides: Circulation 3, slides 24
+
+### Q38
+Chapter: Chapter 20 — Circulatory Shock
+Section: 4. How the body fights back
+Type: mechanism
+Stem: Why does vasopressin release help limit further circulatory deterioration after a large bleed?
+A. It increases renal water conservation and may constrict vessels.
+B. It increases renal free-water loss and arterial dilation.
+C. It directly restores depleted red-cell mass.
+D. It suppresses the renal response to low blood volume.
+Answer: A
+Why: Vasopressin promotes water reabsorption and can raise vascular tone, supporting circulating volume and arterial pressure during hypovolaemia.
+Not B: These effects are opposite to vasopressin's actions.
+Not C: Erythropoietin, not ADH, supports later red-cell replacement.
+Not D: Volume depletion normally stimulates the vasopressin response.
+Slides: Circulation 3, slides 24
+
