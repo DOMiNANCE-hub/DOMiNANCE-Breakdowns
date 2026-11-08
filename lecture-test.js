@@ -32,20 +32,20 @@
         <section class="lt-intro">
           <p class="lt-kicker">Lecture test</p>
           <h1>${esc(lecture.name)}</h1>
-          <p class="lt-lede">${test.questions.length} questions covering the whole lecture. Answer from understanding, then use the explanations to fix anything you got wrong.</p>
-          <ul class="lt-chapters" aria-label="Chapters covered">${chapters}</ul>
+          <p class="lt-lede">${test.questions.length} questions available. Choose how to practise and start.</p>
+          <details class="lt-topics"><summary>See topics covered</summary><ul class="lt-chapters" aria-label="Chapters covered">${chapters}</ul></details>
           ${s.best != null ? `<p class="lt-best">Your best score: <strong>${s.best}%</strong>${s.last != null ? ` · last attempt ${s.last}%` : ''}</p>` : ''}
           ${resume}${!resume && s.run && s.run.done ? '<button type="button" class="btn lt-last">Review your last attempt</button>' : ''}
           <form class="lt-setup">
-            <fieldset><legend>How do you want to be marked?</legend>
-              <label class="lt-choice"><input type="radio" name="mode" value="instant" checked><span><strong>Mark as you go</strong><small>See the answer and why after each question.</small></span></label>
-              <label class="lt-choice"><input type="radio" name="mode" value="exam"><span><strong>Submit at the end</strong><small>Exam style: answer everything, then see your score and review.</small></span></label>
+            <fieldset><legend>How should questions be marked?</legend>
+              <label class="lt-choice"><input type="radio" name="mode" value="instant" checked><span><strong>Mark as you go</strong><small>Get explanations after each answer.</small></span></label>
+              <label class="lt-choice"><input type="radio" name="mode" value="exam"><span><strong>Submit at the end</strong><small>See your results after submitting.</small></span></label>
             </fieldset>
             ${test.questions.length > QUICK + 5 ? `<fieldset><legend>Length</legend>
-              <label class="lt-choice"><input type="radio" name="size" value="all" checked><span><strong>Full test</strong><small>All ${test.questions.length} questions.</small></span></label>
-              <label class="lt-choice"><input type="radio" name="size" value="quick"><span><strong>Quick ${QUICK}</strong><small>A random ${QUICK} from the whole lecture.</small></span></label>
+              <label class="lt-choice"><input type="radio" name="size" value="all" checked><span><strong>All ${test.questions.length}</strong><small>Complete lecture test.</small></span></label>
+              <label class="lt-choice"><input type="radio" name="size" value="quick"><span><strong>Quick ${QUICK}</strong><small>Random lecture questions.</small></span></label>
             </fieldset>` : ''}
-            <button type="submit" class="btn btn-primary lt-start">${resume ? 'Start a new attempt' : 'Start the test'}</button>
+            <button type="submit" class="btn btn-primary lt-start">${resume ? 'Start a new attempt' : 'Start questions'}</button>
           </form>
         </section></div>`;
       root.querySelector('.lt-resume')?.addEventListener('click', () => { run = store().run; question(); window.scrollTo({top: 0, behavior: 'instant'}); });
