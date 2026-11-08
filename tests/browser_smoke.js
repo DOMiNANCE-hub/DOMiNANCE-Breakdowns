@@ -692,6 +692,26 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log('  Circulation 2 test checked in both modes');
   }
 
+  // ---------- Lecture test check: circulation-1 ----------
+  section('Circulation 1 lecture test: 97 questions, answers and mobile layout');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-1');
+      check(await page.locator('.test-card').count() === 1, 'circulation-1: lecture test card missing');
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-1/test');
+      await page.waitForSelector('.lt-start');
+      check(/97 questions/.test(await page.locator('.lt-lede').innerText()), 'circulation-1: incorrect test length');
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, 'circulation-1: MCQ options missing');
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, 'circulation-1: distractor explanations missing');
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, 'circulation-1: horizontal overflow');
+      check(page.pageErrors.length === 0, 'circulation-1: browser errors');
+      await page.context().close();
+    }
+  }
+
   // ---------- LAMLA (last-minute mode) ----------
   section('LAMLA: pick a lecture and time, questions first, must-know, mistakes, test');
   {
