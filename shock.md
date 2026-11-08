@@ -138,9 +138,9 @@ Other causes of volume loss (the lecture's list):
 1. **Shock** = tissue perfusion too low for normal function, which damages tissues. Blood pressure can look normal early.
 2. **Four types:** hypovolaemic (volume), cardiogenic (pump), distributive (vessels dilate), obstructive (flow blocked).
 3. **Haemorrhage chain:** volume ↓ → venous return ↓ → stroke volume ↓ → cardiac output ↓ → perfusion ↓.
-4. **Signs:** low BP; fast, weak pulse; pale, cool skin; low urine; rapid breathing; thirst; restless, then dull; lactic acidosis. Each has a mechanism.
+4. **Signs and their causes:** low BP and a weak pulse (small stroke volume); fast pulse (baroreflex); pale, cool skin and low urine (sympathetic constriction of skin and kidney vessels); rapid breathing and lactic acidosis (too little oxygen, so cells switch to anaerobic glycolysis); thirst (angiotensin II and ADH); restless (sympathetic arousal), then dull (cerebral ischaemia).
 5. **Compensation:** baroreflex and chemoreceptors (seconds), adrenal medulla, renin–angiotensin–aldosterone, ADH, cortisol (minutes to hours), interstitial fluid moving into the blood (hours).
 6. **Repair:** volume in 12–72 h; Hb by erythropoietin in 4–5 weeks. **Hb is normal straight after a bleed**, then falls with dilution.
-7. **Progressive shock:** heart fails, vasomotor centre fails, acidosis, capillary stasis and leak, kidney damage. **Irreversible shock:** no recovery even when volume is replaced.
+7. **Progressive shock** is a set of vicious circles: low coronary flow weakens the heart; brain ischaemia shuts down the vasomotor centre, so vessels dilate and the heart slows; acidosis stops vessels responding to adrenaline; capillaries stagnate and leak; the kidneys are damaged. **Irreversible shock:** no recovery even when volume is replaced.
 8. **Burns** concentrate the blood (plasma loss); **trauma** releases myoglobin; bleeding can be **concealed** (femur, spleen, ectopic).
 9. **Distributive:** neurogenic, septic (warm skin early), anaphylactic (histamine). **Cardiogenic:** high venous pressure. **Obstructive:** tamponade, tension pneumothorax, pulmonary embolism.

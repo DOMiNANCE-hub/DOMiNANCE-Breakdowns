@@ -287,7 +287,8 @@ lamla={}
 for path in sorted((ROOT/'lamla').glob('*.md')):
     lecture,data=lamla_sheet(path)
     lamla[lecture]={'chapters':[c['slug'] for c in data['chapters']],'file':emit('lamla-'+lecture,'(window.DOM_LAMLA=window.DOM_LAMLA||{})['+json.dumps(lecture)+']='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')}
-catalogue=[{k:v for k,v in t.items() if k not in ('html','plain')} for t in topics]
+# The browser never reads a topic's source, pages, coverage or priority, so the home catalogue leaves them out.
+catalogue=[{k:v for k,v in t.items() if k not in ('html','plain','source','pages','coverage','priority')} for t in topics]
 assets=sorted('assets/'+str(f.relative_to(ROOT/'assets')).replace('\\','/') for f in (ROOT/'assets').rglob('*') if f.is_file() and f.suffix in ('.jpg','.png','.webp','.svg'))
 bundle={'chapters':chapters,'search':search,'core':core,'widgets':widgets,'assets':assets,'tests':tests,'testApp':ver('lecture-test.js'),'lamla':lamla,'lamlaApp':ver('lamla.js')}
 index='window.DOMINANCE_TOPICS='+json.dumps(catalogue,ensure_ascii=False,separators=(',',':'))+';\nwindow.DOM_BUNDLE='+json.dumps(bundle,separators=(',',':'))+';\n'

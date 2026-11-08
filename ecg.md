@@ -331,12 +331,12 @@ The mechanisms are explained in Cardiac Conduction. *(<a href="#/physiology/cvs/
 1. **The ECG records electricity, not pumping.** A normal trace does not prove the heart is ejecting blood.
 2. **Electrode = skin contact; lead = a view.** Ten electrodes give twelve leads; the right-leg electrode is an earth.
 3. **Direction rule:** depolarisation towards a lead draws an upward deflection; away draws a downward one; across draws a small up-and-down one.
-4. **The T wave is usually upright**, because ventricles reset in the reverse order to how they switched on.
-5. **Leads:** I, II and III (bipolar, Einthoven's triangle, II = I + III); aVR, aVL and aVF; V1–V6 across the chest.
+4. **The T wave is usually upright** like the QRS: a resetting wave draws the opposite way to a switching-on wave, but the ventricles reset in the reverse order, so the two reversals cancel out.
+5. **Leads:** I, II and III each compare two limb electrodes (Einthoven's triangle, II = I + III); aVR, aVL and aVF each look from one limb; V1–V6 look across the chest in a horizontal slice.
 6. **P** = atria switch on (0.08–0.10 s); **QRS** = ventricles switch on (0.06–0.10 s); **T** = ventricles reset.
 7. **PR interval** = start of P to start of QRS (0.12–0.20 s), including the AV delay. The **PR segment** starts at the end of P.
-8. **ST segment** = whole ventricle switched on (plateau): flat but active. It shifts in ischaemia.
+8. **ST segment** = whole ventricle switched on (plateau): every cell sits at the same voltage, so the line is flat even though the muscle is active. Ischaemia can raise or lower it.
 9. **QT interval** = start of QRS to end of T (0.2–0.4 s), shorter at higher heart rates.
-10. **Paper:** 25 mm/s and 10 mm/mV. Small square = 0.04 s and 0.1 mV; large square = 0.20 s.
+10. **Paper:** 25 mm/s and 10 mm/mV. Small square = 0.04 s and 0.1 mV; large square = 0.20 s and 0.5 mV.
 11. **Rate (regular rhythm):** 60 ÷ RR (s), 1500 ÷ small squares or 300 ÷ large squares. Irregular: QRS complexes in 6 s × 10.
-12. **Heart block:** first degree = long PR, all conducted; second degree = some P waves dropped; third degree = P and QRS independent.
+12. **Heart block:** first degree = PR over 0.20 s, every P conducted; second degree = some P waves dropped; third degree = P and QRS independent.

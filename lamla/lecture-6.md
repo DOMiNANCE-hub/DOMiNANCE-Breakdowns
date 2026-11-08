@@ -1,10 +1,11 @@
 # LAMLA (last-minute mode) — Regional Circulation
 
 Lecture slug: lecture-6
-Chapters: cerebral, coronary, pulmonary, splanchnic, skin, fetal, lymphatics
-Status: Drafted by ChatGPT; awaiting Claude's check.
+Chapters: cerebral, coronary, pulmonary, splanchnic, skin, fetal
+Status: Drafted by ChatGPT; checked against the approved chapters and edited by Claude, 8 Nov 2026. Awaiting owner approval.
+Editor notes (not shown to students): Slides 47–48 are lymphatic reference images; the full Lymphatics sheet sits in Circulation 1, so it is not repeated here. | Slide 5 places CSF in the subdural space; the chapter correctly uses the subarachnoid space. | Slide 24 lists amino acids, lipids and proteins as starvation fuels; the chapter uses ketone bodies. | Slide 37 implies ascitic fluid is always protein-rich; the chapter says it varies with the cause. | 3 hours of post-meal hyperaemia, a 15-second white line and HbF fading by about 4 months are lecture values the chapters do not state.
 
-## Cerebral Circulation, CSF and the Blood–Brain Barrier
+## Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 
 ### Must-know
 - ★ **Continuous cerebral blood flow** is essential because the brain stores almost no oxygen or glucose; a short interruption rapidly causes unconsciousness.
@@ -115,7 +116,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Glucose** crosses the BBB by unrestricted diffusion → Truth: It uses a carrier, chiefly GLUT1.
 - Trap: **Every stroke** is a thrombotic blockage → Truth: Haemorrhagic stroke follows vessel rupture and may increase ICP.
 
-## Coronary Circulation
+## Chapter 23 — Coronary Circulation
 
 ### Must-know
 - ★ **Separate coronary arteries** nourish thick myocardium because oxygen cannot diffuse sufficiently from blood inside the heart chambers.
@@ -174,7 +175,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Exercise net effect | Usually outweighed by metabolic signals. | Net coronary flow normally increases. |
 
 ### Exam traps
-- Trap: **Coronary arteries** are filled only during aortic valve opening → Truth: Their ostia remain patent, and LV perfusion is strongest during diastole.
+- Trap: **Left coronary flow** is greatest in systole, when aortic pressure peaks → Truth: Contraction squeezes the vessels inside the left ventricular wall, so most left coronary flow comes in diastole.
 - Trap: **Coronary dominance** means the dominant artery supplies the entire heart → Truth: It identifies which coronary artery gives the posterior descending branch.
 - Trap: **More myocardial work** is met mainly by greater oxygen extraction → Truth: The heart already extracts much oxygen; coronary flow must increase.
 - Trap: **Faster heart rate** always improves myocardial oxygen supply → Truth: Tachycardia shortens diastolic perfusion and increases oxygen demand.
@@ -182,7 +183,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Angina** necessarily means permanent muscle death → Truth: Angina is transient ischaemia; sustained severe ischaemia causes infarction.
 - Trap: **Subendocardium** is safest because it lies near chamber blood → Truth: Wall compression makes it especially vulnerable to reduced coronary supply.
 
-## Pulmonary Circulation
+## Chapter 24 — Pulmonary Circulation
 
 ### Must-know
 - ★ **Pulmonary circulation** carries right ventricular blood through lung capillaries for gas exchange → pulmonary veins return it to the left atrium.
@@ -256,7 +257,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Low alveolar oxygen** dilates pulmonary arteries as in other organs → Truth: Pulmonary vasoconstriction diverts blood towards better ventilated alveoli.
 - Trap: **Generalised hypoxia** improves pulmonary distribution without cost → Truth: Widespread constriction raises pressure and strains the right ventricle.
 
-## Splanchnic and Hepatic Circulation
+## Chapter 25 — Splanchnic and Hepatic Circulation
 
 ### Must-know
 - **Coeliac trunk** supplies upper abdominal digestive territories as one of three unpaired aortic branches serving the gut.
@@ -326,7 +327,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Ascites** is always caused by low albumin alone → Truth: High sinusoidal pressure, lymph overflow and renal retention also contribute.
 - Trap: **Ascitic protein** is invariably high due to fenestrated hepatic sinusoids → Truth: Protein level depends on the underlying cause.
 
-## Cutaneous Circulation and the Triple Response
+## Chapter 26 — Cutaneous Circulation and the Triple Response
 
 ### Must-know
 - ★ **Cutaneous blood flow** is strongly regulated for heat exchange, so flow can exceed the skin's nutritional requirements.
@@ -390,7 +391,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Axon reflex** needs an impulse to reach the spinal cord → Truth: Collateral branches within the peripheral nerve fibre carry the response.
 - Trap: **Wheal** means an area of arteriolar constriction → Truth: Increased vascular permeability allows oedema to form.
 
-## Fetal Circulation and the Transition at Birth
+## Chapter 27 — Fetal Circulation and the Transition at Birth
 
 ### Must-know
 - ★ **Placenta** performs fetal gas exchange because the unborn lungs are fluid-filled and do not yet ventilate air.
@@ -462,62 +463,4 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Cord clamping** lowers systemic resistance → Truth: Removing the low-resistance placenta raises systemic resistance.
 - Trap: **First breaths** increase pulmonary vascular resistance → Truth: Oxygenation and lung expansion lower resistance markedly.
 - Trap: **All fetal shunts** seal anatomically the instant breathing begins → Truth: Functional changes precede fibrous anatomical closure.
-
-## Lymphatic Circulation
-
-### Must-know
-- ★ **Lymphatic vessels** return filtered interstitial fluid and escaped plasma proteins to the bloodstream, maintaining normal tissue fluid balance.
-- **Blind-ended lymphatic capillaries** open within tissue spaces → excess interstitial fluid can enter without requiring a separate arterial supply.
-- **Overlapping endothelial flaps** act as one-way entry valves → raised tissue pressure opens them, while higher lymph pressure closes them.
-- **Lymphatic valves** prevent backward flow as lymph moves through low-pressure collecting vessels.
-- ★ **Intrinsic lymph-vessel contraction** generates forward flow without a central lymphatic pump equivalent to the heart.
-- **Skeletal-muscle movements** squeeze lymph vessels → valves direct lymph proximally, increasing drainage during activity.
-- **Breathing movements** vary thoracic and abdominal pressures → promote movement of lymph towards the venous circulation.
-- **Adjacent arterial pulsation** can mechanically compress lymph vessels and help propel their contents.
-- **Lymph nodes** filter lymph and expose carried material to immune cells → they support immune surveillance rather than pumping lymph.
-- ★ **Thoracic duct** drains most of the body into the left venous angle where internal jugular and subclavian veins meet.
-- **Right lymphatic duct** drains the right upper body into the right venous angle.
-- **Thoracic duct territory** includes both lower limbs, abdomen and left upper body, not merely the chest.
-- **Right lymphatic drainage** includes right head/neck, right upper limb and right thoracic region.
-- **Intestinal lacteals** absorb chylomicrons carrying long-chain dietary fats → fat reaches blood through lymphatic circulation.
-- **Chyle** is milky intestinal lymph because absorbed chylomicrons are rich in triglyceride.
-- **Short- and medium-chain fatty acids** enter portal blood more directly rather than depending on intestinal chylomicron lymph transport.
-- ★ **Lymphatic reserve** increases drainage when capillary filtration rises → swelling is delayed until filtration exceeds maximum return capacity.
-- **Escaped plasma protein** normally returns through lymphatics → lymph blockage increases interstitial oncotic pull and fluid retention.
-- **Filariasis** obstructs or injures lymph vessels → persistent protein-rich lymphoedema develops.
-- **Lymph-node excision** in cancer surgery may damage drainage pathways → swelling can occur in the limb they served.
-- **Tumour-related lymphatic blockage** prevents normal drainage → distal tissue swelling develops.
-- **Chronic lymphoedema** becomes firm and non-pitting as protein accumulation drives inflammation and fibrosis.
-- **Immune consequences of lymphatic loss** arise because antigen transport and lymph-node filtering become less effective.
-- **Fat-malabsorption consequences** arise when intestinal lymph drainage fails because long-chain fat transport is impaired.
-
-### Numbers to know
-| Value | Number | Why it matters |
-|---|---|---|
-| Thoracic-duct drainage territory | Roughly three-quarters of body | Returns lymph to left venous angle. |
-| Right lymphatic-duct territory | Right upper quarter of body | Returns lymph to right venous angle. |
-
-### Core chains
-1. **Lymph entry and return**: Plasma filters into tissues → interstitial pressure opens overlapping lymphatic endothelial flaps → fluid/proteins enter lymph capillaries → valved collecting vessels move lymph → venous angles return it to blood.
-2. **Lymph propulsion**: Intrinsic collecting-vessel contractions plus muscle movement/respiration/arterial pulsation compress lymph → one-way valves prevent reflux → fluid advances without a central lymphatic heart.
-3. **Fat absorption**: Long-chain dietary fat is packaged into chylomicrons → enters intestinal lacteals → travels as chyle through lymphatic channels/thoracic duct → enters venous blood.
-4. **Lymphatic obstruction**: Parasites, cancer or surgery damage lymph drainage → fluid and proteins accumulate → chronic inflammation/fibrosis develop → firm non-pitting lymphoedema appears.
-
-### Don't confuse
-| | **Thoracic duct** | **Right lymphatic duct** |
-|---|---|---|
-| Drains | Both lower limbs, abdomen and left upper body. | Right upper limb, right chest, right head/neck. |
-| Venous outlet | Left jugulo-subclavian junction. | Right jugulo-subclavian junction. |
-
-| | **Long-chain dietary fats** | **Short-/medium-chain fats** |
-|---|---|---|
-| Absorption route | Chylomicrons through intestinal lacteals and lymph. | Primarily portal venous blood. |
-| Lymphatic dependence | High. | Much lower. |
-
-### Exam traps
-- Trap: **Lymph nodes** provide the main pumping force for lymph → Truth: Vessel contractions and external mechanical pumps move lymph; nodes filter.
-- Trap: **Thoracic duct** drains only the left chest → Truth: It drains most of the body including both lower limbs and the abdomen.
-- Trap: **Lymphatics** only carry extra water → Truth: They return escaped plasma protein and transport dietary long-chain fat.
-- Trap: **Lymphatic capillary flaps** require an active muscular valve → Truth: Tissue-to-lymph pressure differences move overlapping endothelial flaps.
-- Trap: **Lymphoedema** is always soft and pitting indefinitely → Truth: Protein accumulation causes chronic inflammation and fibrosis, producing firm non-pitting swelling.
 

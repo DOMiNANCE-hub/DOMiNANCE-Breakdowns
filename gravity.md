@@ -156,4 +156,4 @@ In a fast aircraft or a roller coaster, acceleration acts like **stronger gravit
 6. **Vasovagal syncope:** sympathetic withdrawal + vagal activation → dilation and **bradycardia**. Also micturition and carotid sinus syncope.
 7. **Orthostatic hypotension:** fall of ≥20 systolic or ≥10 diastolic within 3 min. Causes: autonomic neuropathy (diabetes), drugs, surgery, low volume. Heart rate and noradrenaline fail to rise.
 8. **+g:** blood to the feet → grey-out, blackout, unconsciousness above about 5 g. **−g:** blood to the head → congestion, red-out; vessels protected by the rise in ICP.
-9. **Anti-g suits** compress the abdomen and legs; **horizontal** positioning raises tolerance.
+9. **Anti-g suits** compress the abdomen and legs, so less blood pools there; lying **horizontal** shortens the column of blood between heart and head, so much higher g is tolerated.

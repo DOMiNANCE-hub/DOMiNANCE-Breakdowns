@@ -1,10 +1,11 @@
 # LAMLA (last-minute mode) — The Heart and Circulation
 
 Lecture slug: circulation-1
-Chapters: cv-introduction, cardiac-muscle, cardiac-conduction, cardiac-cycle, pulses, heart-sounds, cardiac-output, co-measurement, hemodynamics, venous-return, blood-pressure, microcirculation, edema, lymphatics
-Status: Drafted by ChatGPT; awaiting Claude's check.
+Chapters: cv-introduction, cardiac-muscle, cardiac-conduction, cardiac-cycle, heart-sounds, cardiac-output, co-measurement, hemodynamics, blood-pressure, pulses, venous-return, microcirculation, edema, lymphatics
+Status: Drafted by ChatGPT; checked against the approved chapters and edited by Claude, 8 Nov 2026. Awaiting owner approval.
+Editor notes (not shown to students): Chapters follow the site's chapter order (1–5, 7–15); Chapter 6 (ECG) has its own Lecture 7 sheet. | Cardiac Muscle (Chapter 2) supplements this lecture. | Indicator dilution and thermodilution are supplementary; the lecture teaches Fick only. | Haemodynamics gives about two-thirds of the blood in the veins; Veins and Venous Return says about half or more. Both are kept as each chapter states them.
 
-## Introduction to the Heart and Circulation
+## Chapter 1 — Introduction to the Heart and Circulation
 
 ### Must-know
 - ★ **Circulatory transport** is necessary because diffusion alone cannot deliver oxygen and nutrients fast enough over large tissue distances.
@@ -58,7 +59,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Heart valves** need their own muscle contraction to open → Truth: Pressure differences move their leaflets passively.
 - Trap: **Atrial systole** takes place while ventricles are already ejecting → Truth: Atrial contraction tops up ventricles near the end of their diastole.
 
-## Cardiac Muscle Physiology
+## Chapter 2 — Cardiac Muscle Physiology
 
 ### Must-know
 - ★ **Cardiac muscle cells** are striated, branched and electrically connected → they generate rhythmic coordinated contractions rather than isolated twitches.
@@ -123,7 +124,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Cardiac muscle** can sustain tetanus like skeletal muscle → Truth: Its long refractory period prevents fusion of ventricular contractions.
 - Trap: **Positive inotropy** necessarily means increased end-diastolic volume → Truth: It describes increased force at the same preload.
 
-## Cardiac Conduction and Automaticity
+## Chapter 3 — Cardiac Conduction and Automaticity
 
 ### Must-know
 - ★ **SA node** normally starts each heartbeat because its spontaneous diastolic depolarisation reaches threshold faster than other pacemaker tissues.
@@ -150,7 +151,6 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - **Second-degree AV block** intermittently fails conduction → some P waves are not followed by ventricular QRS complexes.
 - **Third-degree AV block** stops atrial-to-ventricle conduction → atrial and ventricular rhythms become independent.
 - **Escape pacemakers** protect against complete asystole after proximal failure but often generate slow, inadequate ventricular rates.
-- **Stokes–Adams episode** can follow transient severe heart block → low cerebral flow causes sudden syncope.
 
 ### Numbers to know
 | Value | Number | Why it matters |
@@ -168,7 +168,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 1. **Normal beat sequence**: SA node fires → atria depolarise and contract → AV node delays signal → His/bundle branches/Purkinje distribute impulse → ventricles depolarise together and contract.
 2. **Pacemaker automaticity**: SA nodal phase 3 ends → If contributes to phase 4 rise → threshold opens Ca²⁺ channels → nodal phase 0 → K⁺ exit restores negative potential.
 3. **Autonomic chronotropy**: Sympathetic β₁ increases cAMP → phase 4 rises faster → earlier impulse; vagal M₂ increases K⁺ and lowers cAMP → slower phase 4 → later impulse.
-4. **Complete heart block**: AV conduction stops → SA node still drives atria → distal escape focus drives ventricles independently → slow ventricular output can cause syncope.
+4. **Complete heart block**: AV conduction stops → SA node still drives atria → distal escape focus drives ventricles independently → the ventricles beat slowly and independently of the atria.
 
 ### Don't confuse
 | | **SA node** | **AV node** |
@@ -189,7 +189,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **First-degree heart block** drops some atrial impulses → Truth: Every impulse conducts but the PR interval is prolonged.
 - Trap: **Complete AV block** means the atria stop firing → Truth: Atria may keep following SA rhythm while ventricular escape rhythm is independent.
 
-## The Cardiac Cycle
+## Chapter 4 — The Cardiac Cycle
 
 ### Must-know
 - ★ **Cardiac cycle** is the ordered sequence of electrical activation, muscle contraction/relaxation, pressure changes, valve movement and volume changes.
@@ -241,8 +241,8 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Approximate pulmonary pressure needed for RV ejection | 10 mmHg | Right semilunar valve opens at lower pressure. |
 | Typical EDV in lecture | About 130 mL | Ventricular blood volume at end of filling. |
 | Normal interval between P and QRS onset | 0.12–0.20 seconds | Electrical delay allows atrial emptying before ventricular systole. |
-| Stroke-volume relation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>SV</mi><mo>=</mo><mi>EDV</mi><mo>−</mo><mi>ESV</mi></math> | Defines the volume ejected in one beat. |
-| Ejection fraction relation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EF</mi><mo>=</mo><mfrac><mi>SV</mi><mi>EDV</mi></mfrac><mo>×</mo><mn>100</mn><mo>%</mo></math> | Expresses the ejected fraction of end-diastolic volume. |
+| Stroke-volume relation | SV = EDV − ESV | Defines the volume ejected in one beat. |
+| Ejection fraction relation | EF = SV ÷ EDV × 100% | Expresses the ejected fraction of end-diastolic volume. |
 
 ### Core chains
 1. **Filling and atrial systole**: Ventricles relax → AV valves open → rapid filling then diastasis → SA node fires and P wave appears → atria contract → EDV is reached.
@@ -272,69 +272,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Atrial v wave** equals atrial systole → Truth: It reflects atrial venous filling behind the shut AV valve.
 - Trap: **S2 widening on inspiration** is due to A2 delay → Truth: Increased right ventricular filling chiefly delays P2.
 
-## Arterial Pulse and Jugular Venous Pulse
-
-### Must-know
-- ★ **Arterial pulse** is a pressure wave produced by ventricular ejection and travels faster than blood particles themselves.
-- **Pulse-wave speed** increases when arteries become stiffer, often with age or more distal arterial branching.
-- **Pulse rate** estimates the number of palpable arterial pressure waves each minute, which may differ from ventricular electrical activity.
-- **Pulse rhythm** describes the spacing between pressure waves and helps identify irregular heartbeats.
-- **Pulse volume and strength** reflect the amplitude and force of the peripheral pressure wave.
-- **Pulse character** describes the rise and fall of the pressure wave, which may alter in valve and vascular disease.
-- **Pulse deficit** occurs when some ventricular beats eject too little blood to generate a detectable peripheral pulse.
-- ★ **Jugular venous pulse (JVP)** reflects right atrial pressure changes because internal jugular veins communicate without an intervening valve.
-- **Visible JVP movement** is normally non-palpable because venous pressures are too low to generate a firm arterial thrust.
-- **Jugular a wave** arises from right atrial contraction → venous pressure rises briefly near end-diastole.
-- **Jugular c wave** arises as the closed tricuspid valve bulges towards right atrium during early ventricular systole.
-- **Jugular x descent** follows atrial relaxation and downward movement of tricuspid annulus during ventricular contraction.
-- **Jugular v wave** grows as right atrium fills from veins while the tricuspid valve remains closed.
-- **Jugular y descent** follows tricuspid opening → right atrium empties rapidly into right ventricle.
-- **Jugular waveform timing** distinguishes atrial contraction, valve bulging, atrial filling and atrial emptying.
-- **Carotid pulse** is palpable and generally has one dominant thrust per beat, unlike the soft, multiwave jugular venous movement.
-- **Jugular respiratory change** normally makes venous pressure fall during inspiration because thoracic pressure decreases and return improves.
-- **Jugular postural change** occurs because venous column height depends on body position and right atrial pressure.
-- ★ **JVP bedside assessment** measures the vertical venous pulsation above the sternal angle with the patient partially reclined.
-- **Elevated jugular venous pressure** indicates increased right atrial filling pressure, as may occur in right-sided heart failure.
-- ★ **Giant systolic v (cv) wave** suggests tricuspid regurgitation because ventricular contraction drives blood back into right atrium and veins.
-- **Cannon a wave** occurs when right atrium contracts against a closed tricuspid valve, especially in AV dissociation or complete heart block.
-- **Giant a and giant v waves** differ in timing: atrial contraction versus systolic ventricular regurgitation.
-
-### Numbers to know
-| Value | Number | Why it matters |
-|---|---|---|
-| Approximate aortic pulse-wave velocity | About 3–5 m/s | Pulse wave travels much faster than blood flow. |
-| Pulse-wave velocity in larger peripheral branches | About 7–10 m/s | More rigid peripheral arteries transmit waves faster. |
-| Typical JVP patient incline | About 45° (adjust as needed) | Makes the visible venous column measurable. |
-| Approximate normal JVP above sternal angle | No more than about 3–4 cm | Higher levels suggest raised right atrial pressure. |
-| Sternal-angle distance above right atrium | About 5 cm | Fixed reference for pressure-height estimates. |
-
-### Core chains
-1. **Arterial pulse production**: Left ventricular ejection distends the aorta → wall pressure disturbance travels along arteries → peripheral pulse appears before the ejected blood physically reaches the site.
-2. **Normal JVP waveform**: Atrial systole raises a wave → ventricular contraction bulges tricuspid valve (c) and draws annulus down (x) → atrium fills behind closed valve (v) → tricuspid opens (y).
-3. **Tricuspid regurgitation**: Right ventricle contracts → blood leaks backward through tricuspid valve → right atrial pressure rises in systole → a large JVP v/cv wave appears.
-4. **Complete heart block**: Atria and ventricles contract independently → an atrium sometimes contracts against shut tricuspid valve → extreme atrial pressure → cannon a wave.
-
-### Don't confuse
-| | **Jugular venous pulse** | **Carotid arterial pulse** |
-|---|---|---|
-| Palpability | Usually visible but not palpable. | Firm palpable single pulse. |
-| Wave shape | Multiple undulations each cycle. | One dominant systolic thrust. |
-| Response to posture/inspiration | Changes markedly. | Changes little. |
-
-| | **Cannon a wave** | **Giant v (cv) wave** |
-|---|---|---|
-| Cause | Atrium contracts against closed tricuspid valve. | Ventricle regurgitates into right atrium. |
-| Typical disease | Complete AV block/AV dissociation. | Tricuspid regurgitation. |
-
-### Exam traps
-- Trap: **Pulse speed** measures blood-cell velocity through an artery → Truth: A pressure wave travels ahead of bulk blood movement.
-- Trap: **JVP** represents left atrial pressure → Truth: Internal jugular veins transmit right atrial pressure changes.
-- Trap: **Atrial v wave** is produced by atrial contraction → Truth: It forms during atrial venous filling with tricuspid closed.
-- Trap: **Large tricuspid regurgitation wave** is always a cannon a wave → Truth: Systolic regurgitation causes giant v/cv waves.
-- Trap: **Jugular pulsation** can be felt as a strong single pulse → Truth: Palpable single thrust is characteristic of carotid arterial pulse.
-- Trap: **Patient inclination** has no influence on measured JVP → Truth: Position alters visible venous height; assess vertical distance above sternal angle.
-
-## Heart Sounds and Murmurs
+## Chapter 5 — Heart Sounds and Murmurs
 
 ### Must-know
 - ★ **S1** is produced by mitral/tricuspid valve closure and resulting vibration when ventricular systole begins.
@@ -402,7 +340,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Auscultation areas** exactly overlie the anatomical valve leaflets → Truth: These are surface positions where each transmitted sound is best heard.
 - Trap: **Patent ductus murmur** lasts only in systole → Truth: Aortic-to-pulmonary driving pressure persists during both phases.
 
-## Cardiac Output and the Frank–Starling Law
+## Chapter 7 — Cardiac Output and the Frank–Starling Law
 
 ### Must-know
 - ★ **Cardiac output (CO)** is blood pumped by one ventricle each minute → it equals heart rate multiplied by stroke volume.
@@ -444,8 +382,8 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Example cardiac output | 75 beats/min × 70 mL = 5.25 L/min | Shows CO = HR × SV with units. |
 | Faster-heart counterexample | 130 beats/min × 35 mL = 4.55 L/min | Demonstrates reduced output despite tachycardia when SV falls. |
 | Example cardiac index | 5.25 L/min ÷ 1.75 m² = 3.0 L/min/m² | Adjusts output for body size. |
-| Cardiac-output equation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mi>HR</mi><mo>×</mo><mi>SV</mi></math> | Heart rate and stroke volume jointly determine output. |
-| Cardiac-index equation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CI</mi><mo>=</mo><mfrac><mi>CO</mi><mi>BSA</mi></mfrac></math> | Adjusts cardiac output for body surface area. |
+| Cardiac-output equation | CO = HR × SV | Heart rate and stroke volume jointly determine output. |
+| Cardiac-index equation | CI = CO ÷ BSA | Adjusts cardiac output for body surface area. |
 
 ### Core chains
 1. **Frank–Starling response**: Venous return rises → EDV and sarcomere stretch increase → calcium sensitivity/filament overlap improve → greater contractile force → higher stroke volume.
@@ -471,7 +409,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Frank–Starling law** operates mainly because faster nerves are activated → Truth: The fundamental mechanism is myocardial stretch-dependent force generation.
 - Trap: **Blood loss tachycardia** fully restores cardiac output → Truth: Low venous return may keep preload and output low.
 
-## Measuring Cardiac Output and the Work of the Heart
+## Chapter 8 — Measuring Cardiac Output and the Work of the Heart
 
 ### Must-know
 - ★ **Fick principle** calculates blood flow from oxygen consumption divided by the arterial-to-mixed-venous oxygen content difference.
@@ -482,7 +420,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - **Fick steady state** is required because measured oxygen uptake and blood content differences must represent the same stable circulation.
 - **Anaemia and oxygen saturation** must be distinguished because normal saturation can coexist with low content when haemoglobin is reduced.
 - **Higher arteriovenous oxygen difference** at fixed oxygen consumption implies lower cardiac output because tissues extract more from each unit of blood.
-- ★ **Indicator dilution** estimates flow by injecting a known marker and measuring its downstream concentration over time.
+- **Indicator dilution** (supplementary) estimates flow by injecting a known marker and measuring its downstream concentration over time.
 - **Rapid indicator flow** produces a smaller/shorter concentration–time curve for the same known indicator dose.
 - **Thermodilution** uses cold saline as an indicator; temperature changes downstream are related to cardiac blood flow.
 - ★ **Stroke work** is approximate stroke volume multiplied by ejection pressure → greater output or greater pressure requires more mechanical energy.
@@ -504,7 +442,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Example stroke work | 70 mL × 100 mmHg = 7000 mmHg·mL | Approximate external work of one ventricular beat. |
 | Example stroke work in joules | About 0.93 J | Equivalent conversion of the illustrated pressure–volume work. |
 | Typical myocardial resting oxygen extraction | About 70% | Little additional extraction capacity is available during exercise. |
-| Fick cardiac-output equation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mfrac><mi>V̇O₂</mi><mrow><mo>(</mo><mi>CₐO₂</mi><mo>−</mo><mi>CᵥO₂</mi><mo>)</mo></mrow></mfrac></math> | Divide oxygen consumption by the content difference. |
+| Fick cardiac-output equation | CO = V̇O₂ ÷ (CaO₂ − CvO₂) | Divide oxygen consumption by the content difference. |
 
 ### Core chains
 1. **Fick measurement**: Measure whole-body oxygen uptake → sample arterial O₂ content and pulmonary arterial mixed venous content → calculate content difference → divide oxygen uptake by difference → obtain cardiac output.
@@ -530,7 +468,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Left and right stroke work** must match because their output matches → Truth: Left ventricle performs more pressure work for the same volume.
 - Trap: **Increased myocardial demand** is met mainly through extracting much more oxygen → Truth: Extraction is already high and coronary blood flow must rise.
 
-## Blood Flow and Haemodynamics
+## Chapter 9 — Blood Flow and Haemodynamics
 
 ### Must-know
 - ★ **Blood flow** is driven by pressure difference across a vascular segment and opposed by its resistance.
@@ -568,13 +506,13 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 |---|---|---|
 | Radius halved (other factors constant) | Resistance ×16 | Fourth-power radius sensitivity. |
 | Radius narrowed by 20% | Flow falls by more than half | Poiseuille dependence: 0.8⁴ ≈ 0.41. |
-| Most systemic blood in veins | Roughly half to two-thirds at rest | High venous compliance supplies a reservoir. |
+| Blood held in the veins at rest | About two-thirds | High venous compliance supplies a reservoir. |
 | Arm-to-tongue circulation time | About 15 seconds | Lecturer's example of whole-body transit assessment. |
 | Example pressure–flow relation | 80 mmHg ÷ 20 mmHg·min/L = 4 L/min | Flow requires a pressure difference and resistance. |
-| Flow relation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>P</mi></mrow><mi>R</mi></mfrac></math> | Pressure difference and resistance determine flow. |
-| Hagen–Poiseuille ideal flow | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mo>=</mo><mfrac><mrow><mi>π</mi><mi>Δ</mi><mi>P</mi><msup><mi>r</mi><mn>4</mn></msup></mrow><mrow><mn>8</mn><mi>η</mi><mi>L</mi></mrow></mfrac></math> | Radius enters to the fourth power in ideal-tube flow. |
-| Reynolds number | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Re</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>v</mi><mi>D</mi></mrow><mi>η</mi></mfrac></math> | Estimates the likelihood of turbulence. |
-| Compliance relation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math> | Quantifies volume stored for a pressure change. |
+| Flow relation | Q = ΔP ÷ R | Pressure difference and resistance determine flow. |
+| Hagen–Poiseuille ideal flow | Q = πΔPr⁴ ÷ 8ηL | Radius enters to the fourth power in ideal-tube flow. |
+| Reynolds number | Re = ρvD ÷ η | Estimates the likelihood of turbulence. |
+| Compliance relation | C = ΔV ÷ ΔP | Quantifies volume stored for a pressure change. |
 
 ### Core chains
 1. **Pressure-driven flow**: Upstream pressure exceeds downstream pressure → pressure gradient acts across vascular resistance → blood moves according to Q = ΔP/R.
@@ -606,64 +544,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Resistance and Reynolds number** measure the same property → Truth: One opposes flow; the other predicts tendency to turbulence.
 - Trap: **Veins** carry little blood because they have low pressure → Truth: High compliance lets them store most circulating blood at low pressure.
 
-## Veins and Venous Return
-
-### Must-know
-- ★ **Venous return** is blood reaching right atrium per minute and equals cardiac output in a steady circulation.
-- **Adequate ventricular filling** requires sufficient venous return because even a strong heart cannot pump blood it has not received.
-- ★ **Venous capacitance** reflects high vessel compliance → systemic veins store much of circulating blood at low pressure.
-- **Vascular compliance** equals change in volume divided by change in pressure; greater compliance permits larger filling without marked pressure rise.
-- **Venoconstriction** reduces venous storage capacity → stored blood moves towards heart and ventricular preload increases.
-- **Venodilatation** increases peripheral blood storage → central filling and cardiac output may fall if compensation fails.
-- ★ **Venous-return driving gradient** is mean systemic filling pressure minus right atrial pressure, divided by resistance to venous return.
-- **Mean systemic filling pressure (Pmsf)** reflects circulatory fullness and stressed vascular volume; higher fullness usually raises venous return.
-- **Higher right atrial pressure** opposes the return gradient → flow back to the right heart decreases when other factors are fixed.
-- **Resistance to venous return** limits blood movement from peripheral circulation towards the right atrium.
-- **Skeletal-muscle pump** compresses deep veins during leg movement → blood is pushed heartward through one-way valves.
-- **Venous valves** prevent backward movement when limb muscles relax → blood accumulates less in distal legs during walking.
-- **Motionless standing** disables rhythmic calf compression → blood pools in compliant leg veins and venous return falls.
-- **Inspiration** lowers intrathoracic pressure and increases abdominal pressure → systemic venous blood is drawn towards the thorax.
-- **Arterial pulsation** compresses some neighbouring veins → assists intermittent venous return.
-- ★ **Central venous pressure (CVP)** approximately reflects right atrial pressure → raised values may indicate excess volume or impaired right-heart emptying.
-- **Jugular venous pressure** provides a clinical estimate of right atrial pressure because neck veins communicate with the atrium.
-- **Head and neck veins** can collapse when upright because venous pressure above heart level becomes subatmospheric.
-- **Dural venous sinuses** remain patent despite low pressure because rigid meningeal attachments prevent collapse.
-- **Open venous sinus above heart** creates an air-embolism risk because subatmospheric venous pressure can draw air in.
-
-### Numbers to know
-| Value | Number | Why it matters |
-|---|---|---|
-| Usual central venous pressure | A few mmHg | Represents low right atrial filling pressure in normal circumstances. |
-| Lecture illustrative CVP | About 4.6 mmHg | Demonstrates low central venous pressure. |
-| Venous blood reservoir | About half or more of systemic blood at rest | High venous compliance influences preload and shock compensation. |
-| Venous-return relation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>VR</mi><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>msf</mi></msub><mo>−</mo><msub><mi>P</mi><mi>RA</mi></msub></mrow><msub><mi>R</mi><mi>VR</mi></msub></mfrac></math> | Upstream mean filling pressure must exceed right atrial pressure. |
-| Venous compliance | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math> | Large compliance supports venous storage. |
-
-### Core chains
-1. **Venous-return pressure relationship**: Blood volume/venous tone raises Pmsf → gradient to right atrium increases → venous return rises; rising right atrial pressure reduces that gradient and return.
-2. **Skeletal-muscle pump**: Calf muscles contract → deep veins are compressed → upstream one-way valves open and downstream valves close → blood moves towards heart.
-3. **Respiratory pump**: Inspiration lowers thoracic pressure and raises abdominal pressure → pressure gradient towards chest increases → systemic venous return to right atrium rises.
-4. **Postural pooling**: Person stands motionless → gravity distends leg veins → central venous return and EDV decrease → stroke volume falls → dizziness may occur.
-
-### Don't confuse
-| | **Venous compliance** | **Venous-return resistance** |
-|---|---|---|
-| Meaning | Volume stored per change in pressure. | Opposition to blood returning to heart. |
-| Consequence of increase | More blood held at low pressure. | Less return for a given driving gradient. |
-
-| | **Mean systemic filling pressure** | **Right atrial pressure** |
-|---|---|---|
-| Position in venous-return equation | Upstream driving pressure. | Downstream backpressure. |
-| Effect of increase at fixed other value | Tends to raise VR. | Tends to reduce VR. |
-
-### Exam traps
-- Trap: **Venous return** must be lower than cardiac output in a healthy steady state → Truth: Equal long-term inflow and outflow are required.
-- Trap: **Veins** hold little blood because their pressure is low → Truth: High compliance allows large volumes at low pressure.
-- Trap: **Increased right atrial pressure** increases return because the heart is fuller → Truth: It opposes the venous-return driving gradient.
-- Trap: **Muscle pumping** works without valves → Truth: One-way valves prevent each contraction from pushing blood backwards.
-- Trap: **All cranial venous channels** collapse when standing → Truth: Dural sinuses stay open, creating air-embolism risk if breached.
-
-## Arterial Blood Pressure
+## Chapter 10 — Arterial Blood Pressure
 
 ### Must-know
 - ★ **Systolic arterial pressure** is maximum arterial pressure reached during one cardiac cycle when ventricular ejection distends arteries.
@@ -702,8 +583,8 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Rest before cuff measurement | About 5 minutes | Reduces transient sympathetic and activity-related elevation. |
 | Inflate after palpating systolic | About 20–30 mmHg above palpated value | Helps avoid missing a silent auscultatory interval. |
 | Cuff deflation speed | About 2 mmHg/second | Enables accurate first/last sound identification. |
-| Pulse-pressure equation | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PP</mi><mo>=</mo><mi>SBP</mi><mo>−</mo><mi>DBP</mi></math> | Systolic minus diastolic pressure. |
-| Approximate MAP at rest | <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MAP</mi><mo>≈</mo><mi>DBP</mi><mo>+</mo><mfrac><mi>PP</mi><mn>3</mn></mfrac></math> | Mean pressure is weighted towards diastole. |
+| Pulse-pressure equation | PP = SBP − DBP | Systolic minus diastolic pressure. |
+| Approximate MAP at rest | MAP ≈ DBP + PP ÷ 3 | Mean pressure is weighted towards diastole. |
 
 ### Core chains
 1. **Windkessel pressure support**: Left ventricle ejects → elastic aorta stretches and stores energy → ventricle relaxes → aortic recoil sustains pressure and blood flow during diastole.
@@ -730,7 +611,126 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Smaller-than-required cuff** reads artificially low → Truth: Excess pressure may be needed to occlude artery, overestimating BP.
 - Trap: **Near-normal BP** ensures adequate organ perfusion after blood loss → Truth: High resistance may preserve pressure despite low output.
 
-## Microcirculation and Capillary Exchange
+## Chapter 11 — Arterial Pulse and Jugular Venous Pulse
+
+### Must-know
+- ★ **Arterial pulse** is a pressure wave produced by ventricular ejection and travels faster than blood particles themselves.
+- **Pulse-wave speed** increases when arteries become stiffer, often with age or more distal arterial branching.
+- **Pulse rate** estimates the number of palpable arterial pressure waves each minute, which may differ from ventricular electrical activity.
+- **Pulse rhythm** describes the spacing between pressure waves and helps identify irregular heartbeats.
+- **Pulse volume and strength** reflect the amplitude and force of the peripheral pressure wave.
+- **Pulse character** describes the rise and fall of the pressure wave, which may alter in valve and vascular disease.
+- **Pulse deficit** occurs when some ventricular beats eject too little blood to generate a detectable peripheral pulse.
+- ★ **Jugular venous pulse (JVP)** reflects right atrial pressure changes because internal jugular veins communicate without an intervening valve.
+- **Visible JVP movement** is normally non-palpable because venous pressures are too low to generate a firm arterial thrust.
+- **Jugular a wave** arises from right atrial contraction → venous pressure rises briefly near end-diastole.
+- **Jugular c wave** arises as the closed tricuspid valve bulges towards right atrium during early ventricular systole.
+- **Jugular x descent** follows atrial relaxation and downward movement of tricuspid annulus during ventricular contraction.
+- **Jugular v wave** grows as right atrium fills from veins while the tricuspid valve remains closed.
+- **Jugular y descent** follows tricuspid opening → right atrium empties rapidly into right ventricle.
+- **Jugular waveform timing** distinguishes atrial contraction, valve bulging, atrial filling and atrial emptying.
+- **Carotid pulse** is palpable and generally has one dominant thrust per beat, unlike the soft, multiwave jugular venous movement.
+- **Jugular respiratory change** normally makes venous pressure fall during inspiration because thoracic pressure decreases and return improves.
+- **Jugular postural change** occurs because venous column height depends on body position and right atrial pressure.
+- ★ **JVP bedside assessment** measures the vertical venous pulsation above the sternal angle with the patient partially reclined.
+- **Elevated jugular venous pressure** indicates increased right atrial filling pressure, as may occur in right-sided heart failure.
+- ★ **Giant systolic v (cv) wave** suggests tricuspid regurgitation because ventricular contraction drives blood back into right atrium and veins.
+- **Cannon a wave** occurs when right atrium contracts against a closed tricuspid valve, especially in AV dissociation or complete heart block.
+- **Giant a and giant v waves** differ in timing: atrial contraction versus systolic ventricular regurgitation.
+
+### Numbers to know
+| Value | Number | Why it matters |
+|---|---|---|
+| Approximate aortic pulse-wave velocity | About 3–5 m/s | Pulse wave travels much faster than blood flow. |
+| Pulse-wave velocity in larger peripheral branches | About 7–10 m/s | More rigid peripheral arteries transmit waves faster. |
+| Typical JVP patient incline | About 45° (adjust as needed) | Makes the visible venous column measurable. |
+| Approximate normal JVP above sternal angle | No more than about 3–4 cm | Higher levels suggest raised right atrial pressure. |
+| Sternal-angle distance above right atrium | About 5 cm | Fixed reference for pressure-height estimates. |
+
+### Core chains
+1. **Arterial pulse production**: Left ventricular ejection distends the aorta → wall pressure disturbance travels along arteries → peripheral pulse appears before the ejected blood physically reaches the site.
+2. **Normal JVP waveform**: Atrial systole raises a wave → ventricular contraction bulges tricuspid valve (c) and draws annulus down (x) → atrium fills behind closed valve (v) → tricuspid opens (y).
+3. **Tricuspid regurgitation**: Right ventricle contracts → blood leaks backward through tricuspid valve → right atrial pressure rises in systole → a large JVP v/cv wave appears.
+4. **Complete heart block**: Atria and ventricles contract independently → an atrium sometimes contracts against shut tricuspid valve → extreme atrial pressure → cannon a wave.
+
+### Don't confuse
+| | **Jugular venous pulse** | **Carotid arterial pulse** |
+|---|---|---|
+| Palpability | Usually visible but not palpable. | Firm palpable single pulse. |
+| Wave shape | Multiple undulations each cycle. | One dominant systolic thrust. |
+| Response to posture/inspiration | Changes markedly. | Changes little. |
+
+| | **Cannon a wave** | **Giant v (cv) wave** |
+|---|---|---|
+| Cause | Atrium contracts against closed tricuspid valve. | Ventricle regurgitates into right atrium. |
+| Typical disease | Complete AV block/AV dissociation. | Tricuspid regurgitation. |
+
+### Exam traps
+- Trap: **Pulse speed** measures blood-cell velocity through an artery → Truth: A pressure wave travels ahead of bulk blood movement.
+- Trap: **JVP** represents left atrial pressure → Truth: Internal jugular veins transmit right atrial pressure changes.
+- Trap: **Atrial v wave** is produced by atrial contraction → Truth: It forms during atrial venous filling with tricuspid closed.
+- Trap: **Large tricuspid regurgitation wave** is always a cannon a wave → Truth: Systolic regurgitation causes giant v/cv waves.
+- Trap: **Jugular pulsation** can be felt as a strong single pulse → Truth: Palpable single thrust is characteristic of carotid arterial pulse.
+- Trap: **Patient inclination** has no influence on measured JVP → Truth: Position alters visible venous height; assess vertical distance above sternal angle.
+
+## Chapter 12 — Veins and Venous Return
+
+### Must-know
+- ★ **Venous return** is blood reaching right atrium per minute and equals cardiac output in a steady circulation.
+- **Adequate ventricular filling** requires sufficient venous return because even a strong heart cannot pump blood it has not received.
+- ★ **Venous capacitance** reflects high vessel compliance → systemic veins store much of circulating blood at low pressure.
+- **Vascular compliance** equals change in volume divided by change in pressure; greater compliance permits larger filling without marked pressure rise.
+- **Venoconstriction** reduces venous storage capacity → stored blood moves towards heart and ventricular preload increases.
+- **Venodilatation** increases peripheral blood storage → central filling and cardiac output may fall if compensation fails.
+- ★ **Venous-return driving gradient** is mean systemic filling pressure minus right atrial pressure, divided by resistance to venous return.
+- **Mean systemic filling pressure (Pmsf)** reflects circulatory fullness and stressed vascular volume; higher fullness usually raises venous return.
+- **Higher right atrial pressure** opposes the return gradient → flow back to the right heart decreases when other factors are fixed.
+- **Resistance to venous return** limits blood movement from peripheral circulation towards the right atrium.
+- **Skeletal-muscle pump** compresses deep veins during leg movement → blood is pushed heartward through one-way valves.
+- **Venous valves** prevent backward movement when limb muscles relax → blood accumulates less in distal legs during walking.
+- **Motionless standing** disables rhythmic calf compression → blood pools in compliant leg veins and venous return falls.
+- **Inspiration** lowers intrathoracic pressure and increases abdominal pressure → systemic venous blood is drawn towards the thorax.
+- **Arterial pulsation** compresses some neighbouring veins → assists intermittent venous return.
+- ★ **Central venous pressure (CVP)** approximately reflects right atrial pressure → raised values may indicate excess volume or impaired right-heart emptying.
+- **Jugular venous pressure** provides a clinical estimate of right atrial pressure because neck veins communicate with the atrium.
+- **Head and neck veins** can collapse when upright because venous pressure above heart level becomes subatmospheric.
+- **Dural venous sinuses** remain patent despite low pressure because rigid meningeal attachments prevent collapse.
+- **Open venous sinus above heart** creates an air-embolism risk because subatmospheric venous pressure can draw air in.
+
+### Numbers to know
+| Value | Number | Why it matters |
+|---|---|---|
+| Usual central venous pressure | A few mmHg | Represents low right atrial filling pressure in normal circumstances. |
+| Lecture illustrative CVP | About 4.6 mmHg | Demonstrates low central venous pressure. |
+| Venous blood reservoir | About half or more of systemic blood at rest | High venous compliance influences preload and shock compensation. |
+| Venous-return relation | VR = (Pmsf − PRA) ÷ RVR | Upstream mean filling pressure must exceed right atrial pressure. |
+| Venous compliance | C = ΔV ÷ ΔP | Large compliance supports venous storage. |
+
+### Core chains
+1. **Venous-return pressure relationship**: Blood volume/venous tone raises Pmsf → gradient to right atrium increases → venous return rises; rising right atrial pressure reduces that gradient and return.
+2. **Skeletal-muscle pump**: Calf muscles contract → deep veins are compressed → upstream one-way valves open and downstream valves close → blood moves towards heart.
+3. **Respiratory pump**: Inspiration lowers thoracic pressure and raises abdominal pressure → pressure gradient towards chest increases → systemic venous return to right atrium rises.
+4. **Postural pooling**: Person stands motionless → gravity distends leg veins → central venous return and EDV decrease → stroke volume falls → dizziness may occur.
+
+### Don't confuse
+| | **Venous compliance** | **Venous-return resistance** |
+|---|---|---|
+| Meaning | Volume stored per change in pressure. | Opposition to blood returning to heart. |
+| Consequence of increase | More blood held at low pressure. | Less return for a given driving gradient. |
+
+| | **Mean systemic filling pressure** | **Right atrial pressure** |
+|---|---|---|
+| Position in venous-return equation | Upstream driving pressure. | Downstream backpressure. |
+| Effect of increase at fixed other value | Tends to raise VR. | Tends to reduce VR. |
+
+### Exam traps
+- Trap: **Venous return** must be lower than cardiac output in a healthy steady state → Truth: Equal long-term inflow and outflow are required.
+- Trap: **Veins** hold little blood because their pressure is low → Truth: High compliance allows large volumes at low pressure.
+- Trap: **Increased right atrial pressure** increases return because the heart is fuller → Truth: It opposes the venous-return driving gradient.
+- Trap: **Muscle pumping** works without valves → Truth: One-way valves prevent each contraction from pushing blood backwards.
+- Trap: **All cranial venous channels** collapse when standing → Truth: Dural sinuses stay open, creating air-embolism risk if breached.
+
+## Chapter 13 — Microcirculation and Capillary Exchange
 
 ### Must-know
 - ★ **Microcirculation** brings oxygen/nutrients near tissues and removes wastes through thin capillary walls and large total surface area.
@@ -768,7 +768,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Classic lecture filtration volume | About 24 L/day | Value belongs to the traditional Starling model. |
 | Traditional model reabsorbed portion | About 85% | Classroom model, not the revised glycocalyx interpretation. |
 | Traditional model lymphatic return portion | About 15% | Revised model instead emphasises lymph return of most filtered fluid. |
-| Traditional Starling filtration model | <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>J</mi><mi>v</mi></msub><mo>=</mo><msub><mi>K</mi><mi>f</mi></msub><mo>[</mo><mo>(</mo><msub><mi>P</mi><mi>c</mi></msub><mo>−</mo><msub><mi>P</mi><mi>i</mi></msub><mo>)</mo><mo>−</mo><mi>σ</mi><mo>(</mo><msub><mi>π</mi><mi>c</mi></msub><mo>−</mo><msub><mi>π</mi><mi>i</mi></msub><mo>)</mo><mo>]</mo></math> | Lecture model; revised glycocalyx model changes reabsorption interpretation. |
+| Traditional Starling filtration model | Jv = Kf[(Pc − Pi) − σ(πc − πi)] | Lecture model; revised glycocalyx model changes reabsorption interpretation. |
 
 ### Core chains
 1. **Diffusive exchange**: Blood delivers oxygen/glucose close to cells → concentration gradient across thin capillary wall drives diffusion → tissues receive nutrients and blood picks up wastes.
@@ -794,7 +794,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Traditional venous reabsorption percentages** describe current revised physiology → Truth: Glycocalyx-based model gives lymphatics the main steady-state return role.
 - Trap: **Inflammatory oedema** requires high capillary pressure alone → Truth: Increased permeability and escaped protein can cause oedema even without major pressure rise.
 
-## Formation of Oedema
+## Chapter 14 — Formation of Oedema
 
 ### Must-know
 - ★ **Oedema** is excess interstitial fluid when filtration and leak exceed the capacity of lymphatics to remove fluid.
@@ -827,7 +827,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | Value | Number | Why it matters |
 |---|---|---|
 | Named primary mechanisms of oedema in approved chapter | 5 routes | Increased pressure, low albumin, high permeability, lymph block or overall fluid excess. |
-| Traditional Starling filtration equation | <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>J</mi><mi>v</mi></msub><mo>=</mo><msub><mi>K</mi><mi>f</mi></msub><mo>[</mo><mo>(</mo><msub><mi>P</mi><mi>c</mi></msub><mo>−</mo><msub><mi>P</mi><mi>i</mi></msub><mo>)</mo><mo>−</mo><mi>σ</mi><mo>(</mo><msub><mi>π</mi><mi>c</mi></msub><mo>−</mo><msub><mi>π</mi><mi>i</mi></msub><mo>)</mo><mo>]</mo></math> | Force balance; glycocalyx and lymph must also be considered. |
+| Traditional Starling filtration equation | Jv = Kf[(Pc − Pi) − σ(πc − πi)] | Force balance; glycocalyx and lymph must also be considered. |
 
 ### Core chains
 1. **Venous oedema**: Venous outflow obstruction or right failure → venous/capillary pressure rises → net fluid filtration increases → lymphatic capacity is exceeded → interstitial swelling develops.
@@ -853,7 +853,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Lymph blockage** only affects fluid, not proteins → Truth: Escaped proteins accumulate and promote fibrosis.
 - Trap: **Non-pitting oedema** is necessarily an acute fluid leak → Truth: Chronic protein-rich lymphoedema can become fibrotic and firm.
 
-## Lymphatic Circulation
+## Chapter 15 — Lymphatic Circulation
 
 ### Must-know
 - ★ **Lymphatic vessels** return filtered interstitial fluid and escaped plasma proteins to the bloodstream, maintaining normal tissue fluid balance.
@@ -910,4 +910,3 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Lymphatics** only carry extra water → Truth: They return escaped plasma protein and transport dietary long-chain fat.
 - Trap: **Lymphatic capillary flaps** require an active muscular valve → Truth: Tissue-to-lymph pressure differences move overlapping endothelial flaps.
 - Trap: **Lymphoedema** is always soft and pitting indefinitely → Truth: Protein accumulation causes chronic inflammation and fibrosis, producing firm non-pitting swelling.
-

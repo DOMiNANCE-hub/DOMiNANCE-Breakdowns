@@ -186,7 +186,7 @@ A **stroke** is a sudden loss of blood supply to part of the brain, causing isch
 2. **Fuel:** glucose (about 90%), taken up without insulin. Prolonged starvation: ketone bodies.
 3. **Supply:** internal carotids + vertebrals → basilar, joined in the **Circle of Willis**. Beyond the ring, **little anastomosis**.
 4. **Autoregulation** keeps flow steady across a wide pressure range. **CO₂** is the strongest controller: high CO₂ dilates, low CO₂ constricts.
-5. **Monro–Kellie:** brain + blood + CSF in a rigid skull. **CPP = MAP − ICP.**
+5. **Monro–Kellie:** brain + blood + CSF share a rigid skull, so once CSF and venous blood can no longer be pushed out, any extra volume raises ICP steeply. **CPP = MAP − ICP**, so a rising ICP cuts brain perfusion.
 6. **Cushing reflex:** very high ICP → brainstem ischaemia → hypertension, bradycardia, irregular breathing. A late sign.
 7. **CSF:** made by the choroid plexus; lateral → Monro → third → Sylvius → fourth → Magendie/Luschka → subarachnoid space → arachnoid villi. About 150 mL, about 550 mL/day.
 8. **Hydrocephalus:** non-communicating (pathway blocked) or communicating (absorption fails).

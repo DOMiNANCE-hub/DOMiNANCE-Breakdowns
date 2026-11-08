@@ -310,16 +310,15 @@
   const lamlaCard = () => `<a class="lamla-card" href="#/lamla"><span class="lamla-mark" aria-hidden="true">LAMLA</span><span class="lamla-text"><strong>Last-minute mode</strong><span>Exam soon? Test yourself chapter by chapter, learn only the must-know points, fix your mistakes.</span></span><span class="test-card-go" aria-hidden="true">→</span></a>`;
   function lamlaPicker() {
     document.title = 'LAMLA: last-minute mode | DOMiNANCE Breakdowns';
-    const ready = lectures.filter(l => !l.duplicateOf);
+    const ready = lectures.filter(l => !l.duplicateOf && (bundle.lamla || {})[l.slug]);
     const saved = (() => { try { return Number(localStorage.getItem('dom-lamla-minutes')) || 60; } catch { return 60; } })();
     main.innerHTML = `<div class="lt-wrap"><nav class="breadcrumb"><a href="#/">Home</a> / <a href="${baseUrl}">Cardiovascular System</a></nav>
       <section class="lt-intro lamla-intro"><p class="lt-kicker">LAMLA</p><h1>Last-minute mode</h1>
       <p class="lt-lede">For when the exam is close. For each chapter you answer a few questions first, then read only the must-know points, focusing on what you got wrong. It ends with your mistakes, a night-before list and the lecture test.</p>
       <fieldset class="lamla-time"><legend>How much time do you have?</legend>${[[30, '30 minutes', 'The ★ points and 2 questions per chapter'], [60, '1 hour', 'Every must-know point and 4 questions per chapter'], [120, '2 hours', 'The whole sheet, every question, the full test']].map(([m, l, d]) => `<label class="lt-choice"><input type="radio" name="minutes" value="${m}"${m === saved ? ' checked' : ''}><span><strong>${l}</strong><small>${d}</small></span></label>`).join('')}</fieldset>
       <h2 class="lamla-pick">Which lecture?</h2>
-      <div class="lamla-lectures">${ready.map(l => { const on = (bundle.lamla || {})[l.slug]; const also = twins(l).map(d => docName(d.file)).join(', ');
-        return on ? `<button type="button" class="lamla-lecture" data-lecture="${l.slug}"><span class="lamla-num">${l.index}</span><span><strong>${esc(l.name)}</strong><small>${esc(docName(l.file))}${also ? ' · also ' + esc(also) : ''}</small></span><span aria-hidden="true">→</span></button>`
-          : `<div class="lamla-lecture is-soon"><span class="lamla-num">${l.index}</span><span><strong>${esc(l.name)}</strong><small>Coming soon</small></span></div>`; }).join('')}</div>
+      <div class="lamla-lectures">${ready.map(l => { const also = twins(l).map(d => docName(d.file)).join(', ');
+        return `<button type="button" class="lamla-lecture" data-lecture="${l.slug}"><span class="lamla-num">${l.index}</span><span><strong>${esc(l.name)}</strong><small>${esc(docName(l.file))}${also ? ' · also ' + esc(also) : ''}</small></span><span aria-hidden="true">→</span></button>`; }).join('')}</div>
       </section></div>`;
     main.querySelectorAll('[data-lecture]').forEach(b => b.addEventListener('click', () => {
       const m = main.querySelector('input[name="minutes"]:checked')?.value || '60';

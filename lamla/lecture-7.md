@@ -2,9 +2,10 @@
 
 Lecture slug: lecture-7
 Chapters: ecg
-Status: Drafted by ChatGPT; awaiting Claude's check.
+Status: Drafted by ChatGPT; checked against the approved chapter and edited by Claude, 8 Nov 2026. Awaiting owner approval.
+Editor notes (not shown to students): Slide 12 shows Bazett's QTc = QT/√RR with QTc ≤ 0.44 s; the approved chapter treats QT correction as supplementary, so it is left out of the sheet. | Slide 8 gives QRS 0.06–0.10 s; the chapter adds the clinical cut-off of under 0.12 s.
 
-## Electrocardiography and Basic Rhythms
+## Chapter 6 — Electrocardiography and Basic Rhythms
 
 ### Must-know
 - ★ **ECG** records voltage differences from cardiac depolarisation and repolarisation at the skin; it does not directly measure contraction or blood flow.
@@ -41,7 +42,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - **Heart rate** for a regular rhythm at 25 mm/s equals 1500 divided by small squares, or 300 divided by large squares, between R waves.
 - **RR interval** is the time between R waves → heart rate in beats/min equals 60 divided by RR measured in seconds.
 - **Irregular rhythms** have unequal RR gaps → counting QRS complexes over six seconds and multiplying by ten gives an average rate.
-- **Normal sinus rhythm** has a regular rate, matching P waves before each QRS, and appropriate PR and QRS durations.
+- **Normal sinus rhythm** passes four checks: rate about 60–100 beats/min at rest, equal RR gaps, a P wave before every QRS, and normal PR and QRS durations.
 - **First-degree AV block** prolongs the PR interval beyond 0.20 s while every P wave still conducts to a QRS.
 - **Second-degree AV block** causes some P waves to lack a following QRS because some atrial impulses fail to conduct.
 - **Third-degree AV block** shows independent P waves and QRS complexes because atrial impulses no longer conduct to the ventricles.
@@ -64,7 +65,6 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 | QT-interval duration | 0.20–0.40 s | Changes with heart rate because depolarisation and repolarisation take time. |
 | Rate shortcut using small squares | 1500 ÷ small squares | Beats/min from consecutive R waves in a regular rhythm at 25 mm/s. |
 | Rate shortcut using large squares | 300 ÷ large squares | Equivalent calculation when counting large ECG squares. |
-| Lecture rate example | 22 small squares → about 68 beats/min | Matches 1500 ÷ 22 or 300 ÷ 4.4. |
 | Resting sinus-rate range | About 60–100 beats/min | Used for the approved chapter's basic rhythm assessment. |
 | First-degree AV block | PR greater than 0.20 s | Signals are delayed but every P wave still conducts. |
 | Irregular-rate estimate | QRS count in 6 s × 10 | Averages the rate instead of using one unequal RR interval. |
@@ -111,7 +111,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **An upward ECG wave** means the heart moves upwards → Truth: It shows the direction of electrical activity relative to the positive lead.
 - Trap: **Ten electrodes** give only ten leads → Truth: One electrode arrangement can generate twelve voltage views.
 - Trap: **PR interval** begins after the P wave → Truth: It starts at the beginning of P; the PR segment begins after P ends.
-- Trap: **QRS** is atrial contraction → Truth: It represents ventricular depolarisation, before ventricular contraction.
+- Trap: **The QRS** is the ventricles contracting → Truth: It is the electrical switch-on of the ventricles; contraction follows it a moment later.
 - Trap: **Atrial repolarisation** must form a separate visible ECG wave → Truth: Its small electrical signal is usually buried within QRS.
 - Trap: **A flat ST segment** means the ventricles are relaxed → Truth: Ventricular cells are depolarised and mechanically active during the plateau.
 - Trap: **QT interval** ends when T begins → Truth: It ends when T finishes because it includes ventricular repolarisation.

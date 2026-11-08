@@ -2,14 +2,15 @@
 
 Lecture slug: circulation-3
 Chapters: gravity, shock, heart-failure
-Status: Drafted by ChatGPT; awaiting Claude's check.
+Status: Drafted by ChatGPT; checked against the approved chapters and edited by Claude, 8 Nov 2026. Awaiting owner approval.
+Editor notes (not shown to students): Covers Circulation 3 slides 2–33, which Lecture 5 repeats. Slides 35–43 (ECG, CSF and coronary reference images) belong to their own chapters. | The slides call the fourth shock type vasogenic or low-resistance; the chapter uses the modern name, distributive. | The 0.77 mmHg/cm gradient, the 500 mL pooling figure and the 20/10 mmHg orthostatic criterion come from the approved Gravity chapter, not the slides.
 
-## Gravity, Posture and Acceleration
+## Chapter 19 — Gravity, Posture and Acceleration
 
 ### Must-know
 - ★ **Hydrostatic pressure** increases below heart level and decreases above it because the vertical column of blood has weight.
-- **Standing head pressure** is lower than heart-level pressure because gravity opposes blood flow towards the head.
-- **Standing foot pressure** is higher than heart-level pressure because the column of blood adds pressure below the heart.
+- **Standing head pressure** is about 60 mmHg (mean) because the head sits about 45 cm above the heart, so gravity removes about 35 mmHg.
+- **Standing foot pressure** is about 180 mmHg (mean) because the feet sit about 115 cm below the heart, so the blood column adds about 90 mmHg.
 - **Leg vein pooling** occurs on standing because compliant veins expand under increased hydrostatic pressure, trapping blood away from the heart.
 - ★ **Initial standing response** reduces venous return → end-diastolic volume falls → stroke volume and cardiac output fall through Frank–Starling physiology.
 - **Dependent oedema** develops during prolonged standing because raised leg capillary hydrostatic pressure promotes fluid filtration into tissues.
@@ -88,7 +89,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Negative g** causes the same blackout mechanism as positive g → Truth: Negative g shifts blood towards the head and produces congestion and red-out.
 - Trap: **Anti-g suits** work by increasing heart muscle force directly → Truth: Abdominal and leg compression limits venous pooling and supports return.
 
-## Circulatory Shock
+## Chapter 20 — Circulatory Shock
 
 ### Must-know
 - ★ **Shock** means tissue perfusion cannot sustain normal metabolism, so prolonged inadequacy causes cellular injury and organ dysfunction.
@@ -186,7 +187,7 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - Trap: **Irreversible shock** means blood volume cannot be replaced → Truth: Circulation fails to recover even after volume is restored because tissues are damaged.
 - Trap: **Obstructive shock** is simply vasodilatation → Truth: Tamponade, tension pneumothorax or embolism physically impedes blood flow.
 
-## Heart Failure Physiology
+## Chapter 21 — Heart Failure Physiology
 
 ### Must-know
 - ★ **Heart failure** occurs when the heart cannot meet tissue needs, or does so only at abnormally high filling pressures.
@@ -201,9 +202,6 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - ★ **Left-sided backward failure** raises left atrial and pulmonary venous pressure → pulmonary capillary filtration increases and pulmonary oedema develops.
 - **Pulmonary oedema** impairs gas exchange → breathlessness and rapid breathing may accompany left ventricular failure.
 - **Orthopnoea** occurs because lying flat returns leg blood to the chest → a weak left ventricle cannot handle the extra filling.
-- **Paroxysmal nocturnal dyspnoea** reflects pulmonary congestion that becomes symptomatic after lying down during sleep.
-- **Left-sided forward failure** reduces systemic blood supply → muscle fatigue, poor digestion and reduced renal urine output may occur.
-- **Right-sided forward failure** reduces blood flow towards the lungs → left-heart filling and pulmonary gas exchange may be impaired.
 - ★ **Right-sided backward failure** raises systemic venous pressure → jugular distension, liver congestion, ascites and dependent oedema develop.
 - **Jugular venous pressure** rises in right-sided failure because impaired right ventricular emptying increases right atrial pressure.
 - **Hepatomegaly and ascites** follow systemic venous congestion because hepatic pressure rises and abdominal fluid accumulates.
@@ -215,11 +213,6 @@ Status: Drafted by ChatGPT; awaiting Claude's check.
 - **Effective arterial underfilling** stimulates renal fluid retention because a weak pump delivers too little pressure even when total body water is high.
 - **Frank–Starling limitation** means extra filling of a failing ventricle raises pressure more than output because its function curve is flattened.
 - **Cardiac remodelling** can thicken or dilate a chronically stressed ventricle → pumping efficiency deteriorates over time.
-
-### Numbers to know
-| Value | Number | Why it matters |
-|---|---|---|
-| Diagnostic ejection-fraction cut-off | Not specified in this lecture | Distinguish reduced EF in systolic failure from often-preserved EF in diastolic failure without inventing thresholds. |
 
 ### Core chains
 1. **Left-sided backward failure**: Left ventricle empties poorly → left atrial and lung venous pressures rise → pulmonary capillary filtration increases → pulmonary oedema develops → breathlessness worsens.

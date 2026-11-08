@@ -117,6 +117,6 @@ In most tissues, low oxygen **dilates** the arterioles, bringing in more blood. 
 2. **Same output as the left side** at about one-tenth of the resistance: mean pulmonary arterial pressure about 15 mmHg.
 3. **Exercise:** recruitment and distension let flow rise with little rise in pressure.
 4. **Alveoli stay dry:** capillary hydrostatic pressure is about 10 mmHg against an oncotic pressure of about 25; lymphatics clear the small leak. Above about 25 mmHg capillary pressure (left heart failure), pulmonary oedema develops.
-5. **Upright:** most flow at the base. **West zones** compare alveolar, arterial and venous pressures.
+5. **Upright:** gravity raises vascular pressure at the base, so most flow goes there. **West zones:** zone 1 (alveolar > arterial) no flow, not in healthy lungs; zone 2 (arterial > alveolar > venous) on-off flow; zone 3 (both vascular pressures > alveolar) continuous flow.
 6. **Lying down** moves about 400 mL of blood into the lungs, which explains **orthopnoea** in heart failure.
 7. **Hypoxic pulmonary vasoconstriction** diverts blood to well-ventilated alveoli. When hypoxia is everywhere, it causes **pulmonary hypertension**.

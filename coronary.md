@@ -100,7 +100,7 @@ In a healthy heart, the arterioles dilate enough to cope. But with a **narrowed 
 2. **LAD** = front of the LV and the septum; **circumflex** = side of the LV; **RCA** = right ventricle and inferior wall. **Dominance** = which artery gives the posterior descending artery.
 3. **Venous blood** drains via the **coronary sinus** to the right atrium.
 4. **The left ventricle is fed mainly in diastole**, because contraction squeezes its arteries. Driving pressure ≈ aortic diastolic − LV diastolic pressure.
-5. **The <span data-term="subendocardium">subendocardium</span>** is the most vulnerable layer.
-6. **Active hyperaemia:** adenosine and other metabolites dilate the arterioles. Sympathetic β₁ effects make the net result dilation.
+5. **The <span data-term="subendocardium">subendocardium</span>** is the most vulnerable layer: it is squeezed hardest in systole, so it depends most on diastole and becomes ischaemic first.
+6. **Active hyperaemia:** adenosine and other metabolites dilate the arterioles. Sympathetic β₁ stimulation makes the heart work harder, so the extra metabolites outweigh the direct α constriction and the net result is dilation.
 7. **Tachycardia** raises demand and **shortens diastole**, so it can cause ischaemia in diseased arteries.
 8. **Narrowed artery** → reserve used up at rest → **angina on exertion**. **Infarction** = muscle death from prolonged ischaemia.

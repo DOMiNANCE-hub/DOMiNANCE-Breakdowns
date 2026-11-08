@@ -145,4 +145,4 @@ These are clues, not diagnoses. Heart and kidney disease often cause oedema by *
 6. **Inflammation:** histamine, bradykinin and substance P make the wall leaky; escaped proteins pull more water out.
 7. **Lymphatic blockage:** filariasis, removal of lymph nodes → protein-rich, firm lymphoedema.
 8. **Pitting** = mobile fluid. **Non-pitting** = firm, scarred tissue (late lymphoedema).
-9. **Ask where the swelling is**: it points to the mechanism that failed.
+9. **Where the swelling is points to the cause:** both ankles → raised venous pressure (standing, right heart failure); the lungs → left heart failure; all over, including around the eyes → low albumin; one firm limb → a blocked lymphatic or vein.
