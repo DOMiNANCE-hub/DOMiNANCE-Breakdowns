@@ -1,7 +1,7 @@
 {
   "project": "DOMiNANCE CVS Exam Preparation",
   "date": "2026-11-08",
-  "status": "CURATED REVIEW DRAFT. Independent medical academic verification remains pending.",
+  "status": "CURATED & STRUCTURALLY REVIEWED DRAFT - manual final scientific verification pending",
   "total_questions": 180,
   "unique_source_ids": 180,
   "format": "4 plausible options A-D",
@@ -131,7 +131,7 @@
           "stem": "Why does inspiration normally widen the split between the aortic and pulmonary components of the second heart sound?",
           "options": [
             "Increased right ventricular filling delays mitral valve opening.",
-            "Increased right ventricular filling delays pulmonary valve closure.",
+            "More right-heart filling delays pulmonary valve closure.",
             "Reduced right ventricular filling delays aortic valve closure.",
             "Increased left ventricular filling delays tricuspid valve closure."
           ],
@@ -144,7 +144,10 @@
           "distractors": [],
           "dropped_distractor": "Reduced left ventricular filling delays the first heart sound.",
           "role": "retained_core",
-          "original_answer": "B"
+          "original_answer": "B",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "circulation-1:Q8",
@@ -206,7 +209,7 @@
             "Stroke volume increases because aortic recoil becomes stronger.",
             "Stroke volume increases because ventricular filling has increased.",
             "Stroke volume stays constant because heart rate has not changed.",
-            "Stroke volume decreases because the ventricle ejects against greater pressure."
+            "Stroke volume falls as the ventricle ejects against higher pressure."
           ],
           "answer": "D",
           "explanation": "Greater afterload makes ventricular ejection more difficult. Before compensatory adjustments, end-systolic volume tends to increase and stroke volume decreases.",
@@ -217,7 +220,10 @@
           "distractors": [],
           "dropped_distractor": "Stroke volume increases because the AV node conducts more quickly.",
           "role": "retained_core",
-          "original_answer": "D"
+          "original_answer": "D",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0014",
@@ -295,7 +301,7 @@
           "type": "calculation",
           "stem": "According to Poiseuille's law, if a vessel radius is reduced to half while other factors remain constant, how does resistance change?",
           "options": [
-            "It becomes 2 times greater.",
+            "It becomes roughly two times greater.",
             "It becomes 4 times greater.",
             "It becomes 16 times greater.",
             "It becomes 8 times greater."
@@ -309,7 +315,10 @@
           "distractors": [],
           "dropped_distractor": "It becomes 16 times smaller.",
           "role": "retained_core",
-          "original_answer": "C"
+          "original_answer": "C",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0020",
@@ -341,7 +350,7 @@
           "type": "mechanism",
           "stem": "Which isolated change increases the tendency for turbulent flow in a blood vessel?",
           "options": [
-            "An increase in blood viscosity",
+            "A substantial rise in whole-blood viscosity",
             "A decrease in blood density",
             "An increase in blood-flow velocity",
             "A decrease in vessel diameter"
@@ -355,7 +364,10 @@
           "distractors": [],
           "dropped_distractor": "A decrease in the Reynolds number",
           "role": "retained_core",
-          "original_answer": "C"
+          "original_answer": "C",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0024",
@@ -387,7 +399,7 @@
           "type": "method",
           "stem": "In a healthy adult, cuff pressure is slowly released during blood-pressure measurement. Disappearance of Korotkoff sounds usually marks which pressure?",
           "options": [
-            "Systolic arterial pressure",
+            "Systolic pressure in the brachial artery",
             "Mean arterial pressure",
             "Diastolic arterial pressure",
             "Pulse pressure"
@@ -401,7 +413,10 @@
           "distractors": [],
           "dropped_distractor": "Central venous pressure",
           "role": "retained_core",
-          "original_answer": "C"
+          "original_answer": "C",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0027",
@@ -413,7 +428,7 @@
             "An increase in plasma albumin concentration",
             "A decrease in capillary hydrostatic pressure",
             "An increase in lymphatic drainage capacity",
-            "An increase in capillary hydrostatic pressure"
+            "Raised capillary hydrostatic pressure"
           ],
           "answer": "D",
           "explanation": "Impaired venous drainage raises capillary pressure and promotes movement of fluid from capillaries into interstitial tissue.",
@@ -424,7 +439,10 @@
           "distractors": [],
           "dropped_distractor": "A decrease in capillary wall permeability",
           "role": "retained_core",
-          "original_answer": "D"
+          "original_answer": "D",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0029",
@@ -435,7 +453,7 @@
           "options": [
             "Arterial blood supply to the arm has completely stopped.",
             "Red blood cells begin moving freely out of intact capillaries.",
-            "Interstitial fluid and proteins cannot drain normally through lymph vessels.",
+            "Protein-rich tissue fluid cannot drain through the lymphatics.",
             "Plasma albumin production increases sharply in the affected tissue."
           ],
           "answer": "C",
@@ -447,7 +465,10 @@
           "distractors": [],
           "dropped_distractor": "The heart pumps excess blood only into the affected arm.",
           "role": "retained_core",
-          "original_answer": "C"
+          "original_answer": "C",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "circulation-1:Q9",
@@ -510,7 +531,7 @@
           "type": "application",
           "stem": "Blood flow through a forearm artery is briefly blocked and then restored. Why may flow temporarily rise above its resting level?",
           "options": [
-            "Vasodilator metabolites built up while the tissue was underperfused.",
+            "Accumulated metabolites continue to dilate local vessels.",
             "The heart has permanently increased the forearm's blood supply.",
             "The arterial pulse wave has stopped travelling through the arm.",
             "The blockage permanently removed vascular resistance."
@@ -524,7 +545,10 @@
           "distractors": [],
           "dropped_distractor": "Venous valves now actively force arterial blood toward the hand.",
           "role": "retained_core",
-          "original_answer": "A"
+          "original_answer": "A",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0034",
@@ -674,7 +698,7 @@
             "Hypovolaemic shock caused mainly by external blood loss",
             "Cardiogenic shock caused mainly by poor ventricular pumping",
             "Obstructive shock caused mainly by mechanical blockage of blood flow",
-            "Distributive shock caused mainly by reduced systemic vascular resistance"
+            "Distributive shock from widespread loss of vascular tone"
           ],
           "answer": "D",
           "explanation": "Sepsis can produce profound vasodilation and loss of vascular tone, lowering total peripheral resistance and effective perfusion pressure. This is distributive shock.",
@@ -685,7 +709,10 @@
           "distractors": [],
           "dropped_distractor": "A normal circulation with a temporary rise in vascular resistance",
           "role": "retained_core",
-          "original_answer": "D"
+          "original_answer": "D",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0044",
@@ -1496,31 +1523,34 @@
     "02": {
       "questions": [
         {
-          "sourceId": "lecture-6:Q17",
+          "sourceId": "lecture-6:Q48",
           "source": "lecture-6",
-          "chapter": "Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier",
-          "type": "mechanism",
-          "stem": "A severe rise in intracranial pressure produces systemic hypertension with reflex bradycardia. What is this response?",
+          "chapter": "Chapter 26 — Cutaneous Circulation and the Triple Response",
+          "section": "2. Skin blood flow in shock",
+          "type": "application",
+          "stem": "A patient in compensated haemorrhagic shock has cold, pale skin. Which mechanism accounts for this?",
           "options": [
-            "Lung hypoxia reflex.",
-            "Atrial stretch reflex.",
-            "Bainbridge reflex.",
-            "Cushing reflex."
+            "Increased sympathetic cutaneous vasoconstriction.",
+            "Loss of vasomotor drive causing widespread dilation.",
+            "Increased skin capillary blood volume from vasodilation.",
+            "Direct activation of warm-sensitive skin receptors."
           ],
-          "answer": "D",
-          "explanation": "The Cushing response reflects brainstem ischaemia driving systemic hypertension, with baroreflex-mediated bradycardia. Brain perfusion is threatened as raised intracranial pressure compresses cerebral vessels.",
+          "answer": "A",
+          "explanation": "Sympathetic constriction reduces skin flow to preserve perfusion for vital organs, producing pallor and coolness.",
           "distractors": [
-            "Pulmonary hypoxic vasoconstriction is a local lung response.",
-            "Atrial stretch does not explain raised ICP-driven hypertension.",
-            "Bainbridge responds to increased atrial filling.",
-            ""
+            "",
+            "Loss of sympathetic tone would usually warm and flush skin.",
+            "Higher cutaneous blood volume tends to increase redness.",
+            "The primary response is systemic compensation, not skin warming."
           ],
-          "slides": "22–23",
-          "id": "M02-Q1",
-          "origin": "existing-40-question-mock",
+          "slides": "39, 41",
+          "provenance": "lecture-test",
+          "original_answer": "A",
+          "review_status": "curated_draft_pending_independent_accuracy_review",
           "role": "retained_core",
-          "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_adjustments": [
+            "replaced_for_coverage_and_quality"
+          ]
         },
         {
           "sourceId": "lecture-6:Q32",
@@ -2090,31 +2120,34 @@
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
-          "sourceId": "circulation-3:Q28",
+          "sourceId": "circulation-3:Q14",
           "source": "circulation-3",
-          "chapter": "Chapter 20 — Circulatory Shock",
-          "type": "mechanism",
-          "stem": "Why does persistent lactic acidosis make circulatory shock harder to reverse?",
+          "chapter": "Chapter 19 — Gravity, Posture and Acceleration",
+          "section": "5. Orthostatic (postural) hypotension",
+          "type": "data-interpretation",
+          "stem": "After three minutes upright, pressure changes from 126/82 to 104/77 mmHg. How is this classified using the chapter criterion?",
           "options": [
-            "It prevents further fluid filtration from capillaries.",
-            "It depresses contraction and catecholamine responses.",
-            "It directly restores aerobic ATP production.",
-            "It increases ventricular force and vascular responsiveness."
+            "No orthostatic hypotension because diastolic pressure fell only 5 mmHg.",
+            "No orthostatic hypotension because final systolic pressure exceeds 100 mmHg.",
+            "Orthostatic hypotension because systolic pressure fell 22 mmHg.",
+            "Orthostatic hypotension only if both pressures fall by 20 mmHg."
           ],
-          "answer": "B",
-          "explanation": "Acidosis from anaerobic metabolism weakens cardiac pumping and reduces vascular response to catecholamines, undermining compensation.",
+          "answer": "C",
+          "explanation": "A sustained systolic fall of at least 20 mmHg or diastolic fall of at least 10 mmHg within three minutes satisfies the criterion.",
           "distractors": [
-            "Acidosis does not reliably prevent fluid movement into tissues.",
+            "The systolic threshold is met even when the diastolic threshold is not.",
+            "The diagnostic threshold concerns the change, not a fixed final pressure.",
             "",
-            "Aerobic ATP generation still requires oxygen.",
-            "Acidosis impairs rather than strengthens these functions."
+            "The definition does not require both components to fall by 20 mmHg."
           ],
-          "slides": "Circulation 3, slides 21",
-          "id": "M02-Q23",
-          "origin": "existing-40-question-mock",
+          "slides": "Chapter 19 §5 (supplementary)",
+          "provenance": "lecture-test",
+          "original_answer": "C",
+          "review_status": "curated_draft_pending_independent_accuracy_review",
           "role": "retained_core",
-          "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_adjustments": [
+            "replaced_for_coverage_and_quality"
+          ]
         },
         {
           "sourceId": "circulation-2:Q7",
@@ -2576,31 +2609,34 @@
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
-          "sourceId": "circulation-1:Q54",
+          "sourceId": "circulation-1:Q87",
           "source": "circulation-1",
-          "chapter": "Chapter 9 — Blood Flow and Haemodynamics",
-          "section": "5. Laminar flow, turbulence and Reynolds number",
+          "chapter": "Chapter 14 — Formation of Oedema",
+          "section": "5. Why can low plasma proteins cause oedema?",
           "type": "application",
-          "stem": "At unchanged blood density, vessel diameter and viscosity, what happens to Reynolds number if average blood velocity doubles?",
+          "stem": "Why may advanced liver disease cause generalised oedema even without venous obstruction?",
           "options": [
-            "A twofold increase.",
-            "A twofold decrease.",
-            "A fourfold increase.",
-            "No change in value."
+            "Excess albumin synthesis draws water into tissues.",
+            "Less albumin synthesis reduces plasma oncotic pressure.",
+            "A rise in plasma protein concentration stops absorption.",
+            "Liver failure directly shuts every lymphatic valve."
           ],
-          "answer": "A",
-          "explanation": "Reynolds number is proportional to blood velocity when density, viscosity and vessel diameter remain fixed. Doubling velocity therefore doubles Reynolds number and makes turbulence more likely.",
+          "answer": "B",
+          "explanation": "Reduced albumin production lowers intravascular colloid oncotic pressure, allowing more net filtration and oedema.",
           "distractors": [
+            "Advanced liver disease commonly reduces albumin synthesis.",
             "",
-            "A halving would require the velocity-dependent term to decrease.",
-            "Velocity enters the Reynolds relation linearly, not as its square.",
-            "Reynolds number changes when velocity changes at fixed other variables."
+            "Plasma protein concentration is decreased, not increased.",
+            "Lymphatic valve closure is not the universal mechanism."
           ],
-          "slides": "65–66",
-          "origin": "lecture-test",
+          "slides": "93",
+          "provenance": "lecture-test",
+          "original_answer": "B",
+          "review_status": "curated_draft_pending_independent_accuracy_review",
           "role": "redistributed_mock04",
-          "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_adjustments": [
+            "replaced_for_coverage_and_quality"
+          ]
         },
         {
           "sourceId": "circulation-1:Q32",
@@ -2765,30 +2801,30 @@
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
-          "sourceId": "circulation-1:Q85",
+          "sourceId": "circulation-1:Q96",
           "source": "circulation-1",
-          "chapter": "Chapter 13 — Microcirculation and Capillary Exchange",
-          "section": "7. What changes microvascular filtration or permeability?",
+          "chapter": "Chapter 15 — Lymphatic Circulation",
+          "section": "5. Why is the intestinal lymphatic system important in fat absorption?",
           "type": "mechanism",
-          "stem": "A local inflammatory mediator increases postcapillary venular permeability. What occurs?",
+          "stem": "After a meal containing long-chain fats, which pathway carries these lipids from the gut?",
           "options": [
-            "More protein and water can escape, promoting tissue swelling.",
-            "The vascular wall becomes impermeable to water.",
-            "The plasma protein concentration increases within the vessel.",
-            "Capillary filtration stops until arterial pressure rises."
+            "Direct red-cell delivery to lacteals.",
+            "Renal filtration of absorbed fats.",
+            "Oxygenated blood flow through the portal vein alone.",
+            "Chylomicron transport from intestinal lacteals."
           ],
-          "answer": "A",
-          "explanation": "Higher permeability permits protein extravasation and fluid movement, weakening oncotic retention and promoting oedema.",
-          "slides": "89–93; Chapter 13 §7",
+          "answer": "D",
+          "explanation": "Absorbed long-chain fats are packaged into chylomicrons and enter lacteals, reaching the blood via lymphatic drainage.",
+          "slides": "Chapter 15 §5 (supplementary)",
           "distractors": [
-            "",
-            "Inflammation generally increases rather than abolishes permeability.",
-            "Protein leakage tends to lower intravascular protein in the affected region.",
-            "Fluid escape is promoted, not stopped."
+            "Red cells normally remain in blood vessels.",
+            "Kidneys do not mediate initial intestinal fat absorption.",
+            "Most long-chain dietary fat reaches systemic blood through lymph rather than directly through portal blood.",
+            ""
           ],
           "provenance": "lecture-test",
-          "role": "replacement_for_mock04",
-          "original_answer": "A",
+          "role": "redistributed_for_lymphatic_coverage",
+          "original_answer": "D",
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
@@ -2819,31 +2855,34 @@
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
-          "sourceId": "circulation-2:Q14",
+          "sourceId": "circulation-2:Q42",
           "source": "circulation-2",
-          "chapter": "Chapter 16 — Local Control of Blood Flow",
-          "section": "4. Active and reactive hyperaemia",
-          "type": "data-interpretation",
-          "stem": "Two identical limbs have arterial flow interrupted for one minute and five minutes respectively. Which reperfusion pattern is expected?",
+          "chapter": "Chapter 18 — Cardiovascular Reflexes",
+          "section": "3. The baroreflex, step by step",
+          "type": "application",
+          "stem": "A haemorrhage suddenly lowers blood pressure. Which changes help restore it through the arterial baroreflex?",
           "options": [
-            "Neither block produces an overshoot after release.",
-            "The five-minute block produces a larger, longer surge.",
-            "Both blocks produce identical flow responses in time.",
-            "The one-minute block produces a larger and more lasting surge."
+            "Increased sympathetic drive and reduced vagal drive.",
+            "Reduced sympathetic drive and greater venous storage.",
+            "Reduced sympathetic drive and increased vagal drive.",
+            "Increased vagal drive and reduced venous return."
           ],
-          "answer": "B",
-          "explanation": "Longer interruption creates a greater oxygen debt and metabolite buildup, producing a larger and more prolonged reactive response.",
+          "answer": "A",
+          "explanation": "Lower afferent firing releases the pressor area and reduces vagal inhibition, raising heart rate, contractility and vascular tone.",
           "distractors": [
-            "Reactive hyperaemia is expected when flow is restored.",
             "",
-            "The amount of accumulated metabolites depends on occlusion duration.",
-            "A shorter block generally produces a smaller oxygen debt."
+            "Sympathetic withdrawal and venous storage would further lower pressure.",
+            "That combination is appropriate to a rise in pressure.",
+            "Greater vagal drive would slow the heart, while low return worsens output."
           ],
-          "slides": "11",
-          "origin": "lecture-test",
+          "slides": "25–27",
+          "provenance": "lecture-test",
+          "original_answer": "A",
+          "review_status": "curated_draft_pending_independent_accuracy_review",
           "role": "redistributed_mock04",
-          "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_adjustments": [
+            "replaced_for_coverage_and_quality"
+          ]
         },
         {
           "sourceId": "circulation-2:Q30",
@@ -4021,7 +4060,7 @@
           "type": "application",
           "stem": "A brief sharp pain raises a patient’s pressure, but prolonged severe pain later causes faintness. What best accounts for the difference?",
           "options": [
-            "Early pressor activation gives way to dilation and hypotension.",
+            "A brief pressor phase gives way to vasodilation.",
             "Early venous pooling gives way to strong vasoconstriction.",
             "Long pain increases total peripheral resistance without limit.",
             "Brief pain reduces sympathetic output from central pathways."
@@ -4038,7 +4077,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "removed_option_length_giveaway"
+          ]
         },
         {
           "sourceId": "circulation-1:Q15",
@@ -4365,30 +4407,30 @@
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
-          "sourceId": "circulation-1:Q96",
+          "sourceId": "circulation-1:Q85",
           "source": "circulation-1",
-          "chapter": "Chapter 15 — Lymphatic Circulation",
-          "section": "5. Why is the intestinal lymphatic system important in fat absorption?",
+          "chapter": "Chapter 13 — Microcirculation and Capillary Exchange",
+          "section": "7. What changes microvascular filtration or permeability?",
           "type": "mechanism",
-          "stem": "After a meal containing long-chain fats, which pathway carries these lipids from the gut?",
+          "stem": "A local inflammatory mediator increases postcapillary venular permeability. What occurs?",
           "options": [
-            "Direct red-cell delivery to lacteals.",
-            "Renal filtration of absorbed fats.",
-            "Oxygenated blood flow through the portal vein alone.",
-            "Chylomicron transport from intestinal lacteals."
+            "More protein and water can escape, promoting tissue swelling.",
+            "The vascular wall becomes impermeable to water.",
+            "The plasma protein concentration increases within the vessel.",
+            "Capillary filtration stops until arterial pressure rises."
           ],
-          "answer": "D",
-          "explanation": "Absorbed long-chain fats are packaged into chylomicrons and enter lacteals, reaching the blood via lymphatic drainage.",
-          "slides": "Chapter 15 §5 (supplementary)",
+          "answer": "A",
+          "explanation": "Higher permeability permits protein extravasation and fluid movement, weakening oncotic retention and promoting oedema.",
+          "slides": "89–93; Chapter 13 §7",
           "distractors": [
-            "Red cells normally remain in blood vessels.",
-            "Kidneys do not mediate initial intestinal fat absorption.",
-            "Most long-chain dietary fat reaches systemic blood through lymph rather than directly through portal blood.",
-            ""
+            "",
+            "Inflammation generally increases rather than abolishes permeability.",
+            "Protein leakage tends to lower intravascular protein in the affected region.",
+            "Fluid escape is promoted, not stopped."
           ],
           "provenance": "lecture-test",
-          "role": "replacement_for_mock04",
-          "original_answer": "D",
+          "role": "redistributed_for_microcirculation_coverage",
+          "original_answer": "A",
           "review_status": "curated_draft_pending_independent_accuracy_review"
         },
         {
@@ -4934,6 +4976,30 @@
       "original": "circulation-1:Q1",
       "replacement": "circulation-1:Q15",
       "action": "swap_weak_or_repetitive"
+    },
+    {
+      "mock": "02",
+      "original": "lecture-6:Q17",
+      "replacement": "lecture-6:Q48",
+      "action": "coverage_quality_upgrade"
+    },
+    {
+      "mock": "02",
+      "original": "circulation-3:Q28",
+      "replacement": "circulation-3:Q14",
+      "action": "coverage_quality_upgrade"
+    },
+    {
+      "mock": "02",
+      "original": "circulation-2:Q14",
+      "replacement": "circulation-2:Q42",
+      "action": "coverage_quality_upgrade"
+    },
+    {
+      "mock": "02",
+      "original": "circulation-1:Q54",
+      "replacement": "circulation-1:Q87",
+      "action": "coverage_quality_upgrade"
     }
   ],
   "discarded_mock4_items": [
@@ -4959,68 +5025,7 @@
     "lecture-7:Q41",
     "lecture-7:Q42"
   ],
-  "automated_flags": [
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0009",
-      "issue": "correct_uniquely_longest",
-      "stem": "Why does inspiration normally widen the split between the aortic and pulmonary components of the second heart sound?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0013",
-      "issue": "correct_uniquely_longest",
-      "stem": "Aortic pressure suddenly rises. For the first affected beat, ventricular filling and contractility are unchanged. What is the likely effect on stroke volume?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0019",
-      "issue": "correct_uniquely_longest",
-      "stem": "According to Poiseuille's law, if a vessel radius is reduced to half while other factors remain constant, how does resistance change?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0022",
-      "issue": "correct_uniquely_longest",
-      "stem": "Which isolated change increases the tendency for turbulent flow in a blood vessel?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0025",
-      "issue": "correct_uniquely_longest",
-      "stem": "In a healthy adult, cuff pressure is slowly released during blood-pressure measurement. Disappearance of Korotkoff sounds usually marks which pressure?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0027",
-      "issue": "correct_uniquely_longest",
-      "stem": "A deep vein in one leg becomes obstructed, increasing pressure in vessels upstream. What local change most directly favours swelling?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0029",
-      "issue": "correct_uniquely_longest",
-      "stem": "A patient develops chronic swelling of an arm after axillary lymph nodes are removed. What is the main reason?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0033",
-      "issue": "correct_uniquely_longest",
-      "stem": "Blood flow through a forearm artery is briefly blocked and then restored. Why may flow temporarily rise above its resting level?"
-    },
-    {
-      "mock": "01",
-      "id": "DOM-CVS-0042",
-      "issue": "correct_uniquely_longest",
-      "stem": "A patient with severe infection has widespread arteriolar dilation and low arterial pressure. Which shock mechanism is most likely?"
-    },
-    {
-      "mock": "03",
-      "id": "circulation-2:Q58",
-      "issue": "correct_uniquely_longest",
-      "stem": "A brief sharp pain raises a patient’s pressure, but prolonged severe pain later causes faintness. What best accounts for the difference?"
-    }
-  ],
+  "automated_flags": [],
   "distribution": {
     "01": {
       "total": 60,
@@ -5062,5 +5067,75 @@
       "flagCount": 1
     }
   },
-  "notes": "Three distinct 60-question papers. Each contains 40 reviewed core questions and 20 redistributed/replacement questions. Weak items swapped using unselected 328-item lecture bank. Original five-option items standardized by removing a distractor. Further precision checks and balanced answer repositioning are planned."
+  "notes": "Three distinct 60-question papers. Each contains 40 reviewed core questions and 20 redistributed/replacement questions. Weak items swapped using unselected 328-item lecture bank. Original five-option items standardized by removing a distractor. Further precision checks and balanced answer repositioning are planned.",
+  "qa_review_2026_11_08": {
+    "01": {
+      "items": 60,
+      "missingChapters": [
+        "Chapter 26 — Cutaneous Circulation and the Triple Response",
+        "Chapter 24 — Pulmonary Circulation",
+        "Chapter 10 — Arterial Blood Pressure",
+        "Chapter 13 — Microcirculation and Capillary Exchange",
+        "Chapter 7 — Cardiac Output and the Frank–Starling Law",
+        "Chapter 9 — Blood Flow and Haemodynamics",
+        "Chapter 3 — Cardiac Conduction and Automaticity",
+        "Chapter 12 — Veins and Venous Return",
+        "Chapter 4 — The Cardiac Cycle",
+        "Chapter 14 — Formation of Oedema",
+        "Chapter 8 — Measuring Cardiac Output and the Work of the Heart",
+        "Chapter 15 — Lymphatic Circulation",
+        "Chapter 23 — Coronary Circulation"
+      ],
+      "correctUniquelyLongest": [
+        "DOM-CVS-0013"
+      ],
+      "types": {
+        "concept": 2,
+        "application": 11,
+        "graph": 3,
+        "calculation": 7,
+        "clinical": 6,
+        "mechanism": 23,
+        "method": 1,
+        "comparison": 1,
+        "time-course": 1,
+        "conceptual": 1,
+        "anatomy": 1,
+        "clinical-application": 1,
+        "conceptual-comparison": 2
+      }
+    },
+    "02": {
+      "items": 60,
+      "missingChapters": [],
+      "correctUniquelyLongest": [],
+      "types": {
+        "application": 18,
+        "mechanism": 22,
+        "calculation": 2,
+        "comparison": 5,
+        "conceptual-comparison": 1,
+        "data-interpretation": 6,
+        "conceptual": 4,
+        "clinical-application": 1,
+        "interpretation": 1
+      }
+    },
+    "03": {
+      "items": 60,
+      "missingChapters": [],
+      "correctUniquelyLongest": [],
+      "types": {
+        "mechanism": 29,
+        "time-course": 1,
+        "application": 16,
+        "comparison": 6,
+        "data-interpretation": 4,
+        "methods": 1,
+        "recall": 1,
+        "interpretation": 1,
+        "calculation": 1
+      }
+    }
+  }
 }
