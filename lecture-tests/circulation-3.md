@@ -125,7 +125,7 @@ Stem: If cerebral oxygen delivery falls during upright posture, which local resp
 A. Reduced CO₂ causes arteriolar vasodilatation.
 B. Increased CO₂ causes arteriolar vasoconstriction.
 C. Increased O₂ causes cerebral arteriolar spasm.
-D. Increased CO₂ and low O₂ favour arteriolar dilatation.
+D. High CO₂ and low O₂ promote arteriolar dilation.
 Answer: D
 Why: A rise in local carbon dioxide and a fall in oxygen encourage cerebral arteriolar dilation, partly protecting perfusion.
 Not A: Reduced CO₂ tends to constrict cerebral vessels.
@@ -156,7 +156,7 @@ Type: application
 Stem: A student faints after standing motionless on parade. Why is a horizontal position helpful?
 A. It raises circulating red-cell concentration immediately.
 B. It stimulates the skeletal-muscle pump without movement.
-C. It brings the brain closer to heart level, improving perfusion.
+C. It brings the brain nearer heart level, improving flow.
 D. It permanently removes peripheral venous compliance.
 Answer: C
 Why: Lying flat shortens the vertical blood column between heart and brain, promptly improving the cerebral pressure available for flow.
@@ -189,7 +189,7 @@ Stem: A tight collar causes transient loss of consciousness in a patient with ca
 A. A rise in renal aldosterone release.
 B. A direct increase in ventricular contractility.
 C. A sudden increase in circulating blood volume.
-D. Excessive reflex slowing of the heart and vasodilatation.
+D. Reflex bradycardia with systemic vasodilatation.
 Answer: D
 Why: Mechanical carotid sinus stimulation can mimic high arterial stretch, causing excessive vagal slowing and reduced sympathetic vascular tone.
 Not A: Aldosterone is not the immediate cause of this pressure fall.
@@ -252,7 +252,7 @@ Type: application
 Stem: Why can vision fail before consciousness during strong positive acceleration?
 A. The retina receives blood at higher pressure than the heart.
 B. Positive acceleration shifts blood toward the head.
-C. Intracranial pressure always exceeds arterial pressure.
+C. Intracranial pressure exceeds local arterial pressure.
 D. Retinal perfusion falls as blood shifts toward the feet.
 Answer: D
 Why: Positive g causes leg pooling and reduced pressure at eye level, so retinal perfusion can fail before cerebral consciousness.
@@ -283,7 +283,7 @@ Section: 1. What is shock?
 Type: conceptual
 Stem: A bleeding patient has a nearly normal arterial pressure but cold skin and reduced urine output. What is the best conclusion?
 A. Normal pressure excludes significant shock.
-B. Low tissue perfusion can coexist with maintained pressure.
+B. Low tissue perfusion can coexist with normal pressure.
 C. Cardiac output must be above its pre-bleeding level.
 D. Blood flow to all organs must remain normal.
 Answer: B
@@ -333,7 +333,7 @@ Stem: A patient has severe hypotension despite normal blood volume, after widesp
 A. Red-cell loss with a normal vascular capacity.
 B. Excessive arteriolar constriction and raised resistance.
 C. Isolated myocardial failure without vascular changes.
-D. Low vascular resistance and pooling of circulating blood.
+D. Low vascular resistance with circulating blood pooling.
 Answer: D
 Why: In distributive shock, widespread vasodilatation expands vascular capacity and lowers effective filling and peripheral resistance.
 Not A: The stem excludes a major blood volume deficit.
@@ -429,7 +429,7 @@ Stem: A previously anxious patient with severe prolonged shock becomes apathetic
 A. Red-cell production has rapidly restored oxygen delivery.
 B. Skin vasoconstriction has resolved the shock.
 C. The skeletal-muscle pump has become overactive.
-D. Cerebral perfusion has fallen enough to impair brain function.
+D. Worsening cerebral ischaemia impairs brain function.
 Answer: D
 Why: Restlessness can accompany early sympathetic arousal; later apathy may indicate worsening cerebral ischaemia and failing perfusion.
 Not A: Erythropoiesis cannot rapidly reverse acute circulatory collapse.
@@ -443,7 +443,7 @@ Section: 3. What you see, and why
 Type: mechanism
 Stem: Why does persistent lactic acidosis make circulatory shock harder to reverse?
 A. It increases ventricular force and vascular responsiveness.
-B. It depresses myocardial contraction and catecholamine responsiveness.
+B. It depresses contraction and catecholamine responses.
 C. It directly restores aerobic ATP production.
 D. It prevents further fluid filtration from capillaries.
 Answer: B
@@ -493,7 +493,7 @@ Stem: Which endocrine combination helps sustain arterial pressure during acute h
 A. Reduced adrenal catecholamines with reduced renin.
 B. Increased aldosterone with suppressed angiotensin II.
 C. Reduced ADH with increased sodium excretion.
-D. Increased adrenal catecholamines with renin–angiotensin activation.
+D. More catecholamines and renin–angiotensin activity.
 Answer: D
 Why: The adrenal medulla releases catecholamines while RAAS promotes vasoconstriction and volume conservation after blood loss.
 Not A: The adrenal medulla and renin system are activated.
@@ -522,7 +522,7 @@ Chapter: Chapter 20 — Circulatory Shock
 Section: 4. How the body fights back
 Type: mechanism
 Stem: Why does vasopressin release help limit further circulatory deterioration after a large bleed?
-A. It increases renal water conservation and may constrict vessels.
+A. It conserves renal water and constricts some vessels.
 B. It increases renal free-water loss and arterial dilation.
 C. It directly restores depleted red-cell mass.
 D. It suppresses the renal response to low blood volume.
@@ -540,7 +540,7 @@ Type: data-interpretation
 Stem: Immediately after rapid loss of a large volume of whole blood, haemoglobin concentration is unexpectedly unchanged. Why?
 A. Red-cell mass increases enough to compensate.
 B. Plasma enters faster than red cells are lost.
-C. Red cells and plasma were lost in similar proportions.
+C. Red cells and plasma were lost together.
 D. Erythropoietin instantly makes new red cells.
 Answer: C
 Why: Acute whole-blood loss removes red cells and plasma proportionately, so concentration may remain unchanged before fluid replacement.
@@ -554,7 +554,7 @@ Chapter: Chapter 20 — Circulatory Shock
 Section: 4. How the body fights back
 Type: time-course
 Stem: After bleeding stops, both haemoglobin and plasma-protein concentrations fall as circulating volume recovers. What explains this?
-A. Interstitial or infused fluid dilutes remaining blood components.
+A. Added fluid dilutes the remaining blood components.
 B. New red-cell production lowers haemoglobin concentration.
 C. Raised renal filtration removes most circulating proteins.
 D. Venoconstriction selectively removes haemoglobin from blood.
@@ -573,7 +573,7 @@ Stem: Which time course of spontaneous recovery best fits the lecture after blee
 A. Blood volume in weeks; haemoglobin in hours.
 B. Both volume and haemoglobin fully recover in minutes.
 C. Haemoglobin in 12–72 hours; volume in 4–5 weeks.
-D. Blood volume in 12–72 hours; haemoglobin in 4–5 weeks.
+D. Volume in 12–72 hours; haemoglobin in 4–5 weeks.
 Answer: D
 Why: Tissue-fluid recruitment and renal retention restore blood volume within roughly 12–72 hours; erythropoietin-driven red-cell recovery requires several weeks.
 Not A: The timing of the two processes is reversed.
@@ -589,7 +589,7 @@ Stem: During progressive shock, capillary hydrostatic pressure paradoxically ris
 A. Precapillary constriction with freely draining venules.
 B. Precapillary constriction with widened venous outlets.
 C. Increased venular drainage with reduced capillary entry.
-D. Precapillary relaxation with persistently narrowed venules.
+D. Open precapillary entry with persistently narrowed venules.
 Answer: D
 Why: With capillary entry relatively open but venular outflow restricted, blood stagnates and local capillary pressure rises, driving fluid into the interstitium.
 Not A: Lower entry with free outflow would not cause the described stasis.
@@ -636,7 +636,7 @@ Type: application
 Stem: A patient develops persistent acute kidney injury after prolonged shock. Which tissue injury best accounts for this complication?
 A. Rapidly reversible isolated renal vasodilatation.
 B. Increased tubular oxygen delivery without injury.
-C. Acute tubular damage from prolonged renal ischaemia.
+C. Acute tubular injury following prolonged ischaemia.
 D. Direct erythrocyte production within the kidney.
 Answer: C
 Why: Sustained renal underperfusion can injure the tubular epithelium, leading to acute kidney injury beyond the initial pressure fall.
@@ -650,10 +650,10 @@ Chapter: Chapter 20 — Circulatory Shock
 Section: 5. When shock feeds on itself: progressive and irreversible shock
 Type: conceptual
 Stem: A patient with massive haemorrhage remains severely hypotensive after blood volume is completely restored. Which stage fits?
-A. Simple postural hypotension.
+A. Postural hypotension from remaining upright.
 B. Early compensated hypovolaemia.
-C. Transient vasovagal syncope.
-D. Irreversible shock.
+C. Transient vasovagal faint without major tissue damage.
+D. Irreversible shock after extensive tissue injury.
 Answer: D
 Why: Severe myocardial, neural and microvascular damage may prevent recovery even after the original blood-volume loss has been corrected.
 Not A: Postural hypotension should depend on standing and impaired compensation.
@@ -684,7 +684,7 @@ Type: comparison
 Stem: A burn patient presents with shock and an initially high haematocrit. What explains the contrast with recent whole-blood haemorrhage?
 A. Burns selectively destroy red cells circulating in blood.
 B. Burns cause immediate erythropoietin-driven erythrocytosis.
-C. Burns cause plasma leakage with relative red-cell retention.
+C. Plasma leakage leaves intravascular red cells concentrated.
 D. Burns produce increased circulating volume despite shock.
 Answer: C
 Why: Severe burns can cause plasma to leak through damaged skin while red cells remain, producing haemoconcentration and raised haematocrit.
@@ -717,7 +717,7 @@ Stem: A patient with severe bacterial infection has systemic vasodilatation and 
 A. Obstructive shock from impaired forward flow.
 B. Cardiogenic shock from isolated muscle failure.
 C. Hypovolaemic shock from proportional blood loss.
-D. Distributive shock from inflammatory vascular effects.
+D. Distributive shock from low systemic vascular resistance.
 Answer: D
 Why: Bacterial toxins and inflammatory mediators can markedly dilate blood vessels and increase permeability, causing distributive septic shock.
 Not A: A mechanical obstruction is not described.
@@ -749,7 +749,7 @@ Stem: A patient has near-normal resting cardiac output but very high ventricular
 A. Normal resting output excludes heart failure.
 B. Heart failure requires reduced ejection fraction.
 C. High filling pressure proves adequate pumping.
-D. Heart failure can exist despite near-normal resting output.
+D. Heart failure can occur with normal resting output.
 Answer: D
 Why: Heart failure includes states where output is maintained only at abnormally high filling pressures, causing congestion.
 Not A: A near-normal output can be maintained at harmful filling pressures.
@@ -763,7 +763,7 @@ Section: 1. What is heart failure?
 Type: comparison
 Stem: Which contrast best distinguishes forward failure from backward failure?
 A. Forward is venous congestion; backward is low organ blood flow.
-B. Forward means low tissue delivery; backward means upstream congestion.
+B. Forward reduces delivery; backward causes venous congestion.
 C. Forward is confined to the right heart; backward to the left.
 D. Forward indicates excess cardiac output; backward low afterload.
 Answer: B
@@ -826,7 +826,7 @@ Chapter: Chapter 21 — Heart Failure Physiology
 Section: 3. Left versus right failure: where does the blood back up?
 Type: mechanism
 Stem: What directly promotes pulmonary oedema in left-sided backward heart failure?
-A. Reduced systemic venous pressure.
+A. Reduced systemic venous pressure throughout the body.
 B. Raised pulmonary venous and capillary pressure.
 C. Reduced pulmonary capillary hydrostatic pressure.
 D. Raised right atrial pressure without lung congestion.
@@ -890,7 +890,7 @@ Chapter: Chapter 21 — Heart Failure Physiology
 Section: 3. Left versus right failure: where does the blood back up?
 Type: application
 Stem: An examination reveals raised JVP, a tender enlarged liver, ascites and ankle oedema. Which haemodynamic change unifies these?
-A. Increased systemic venous pressure behind the failing right ventricle.
+A. High systemic venous pressure behind the right ventricle.
 B. Increased pulmonary venous pressure without systemic congestion.
 C. Reduced central venous pressure from depleted blood volume.
 D. Reduced filtration from peripheral capillaries.
@@ -924,7 +924,7 @@ Type: mechanism
 Stem: Why can prolonged renin–angiotensin–aldosterone activation worsen heart-failure oedema?
 A. It causes sustained urinary sodium loss.
 B. It decreases circulating volume and filling pressure.
-C. It retains sodium and water, increasing venous congestion.
+C. It increases salt-water retention and venous pressure.
 D. It prevents compensatory arterial vasoconstriction.
 Answer: C
 Why: RAAS initially supports blood pressure, but prolonged salt and water retention increases filling pressures and oedema.
@@ -939,7 +939,7 @@ Section: 4. What does the body do about it, and why does that make it worse?
 Type: mechanism
 Stem: Why might prolonged sympathetic arteriolar constriction worsen systolic heart failure despite initially preserving blood pressure?
 A. It decreases afterload and reduces ventricular work.
-B. It increases afterload against which the weak ventricle ejects.
+B. It increases afterload and ventricular workload.
 C. It eliminates the need for renal sodium conservation.
 D. It increases ventricular compliance during each beat.
 Answer: B
@@ -956,7 +956,7 @@ Type: mechanism
 Stem: A patient with decompensated heart failure gains more water weight despite established oedema. Which additional hormonal response can worsen this?
 A. Increased natriuretic peptide-mediated water loss.
 B. Reduced collecting-duct response to vasopressin.
-C. Increased vasopressin-mediated renal water reabsorption.
+C. More vasopressin-driven renal water reabsorption.
 D. Suppressed renin activity with higher urinary output.
 Answer: C
 Why: Reduced effective arterial filling in heart failure can stimulate vasopressin, increasing renal free-water reabsorption and worsening congestion despite excess total body fluid.
@@ -989,7 +989,7 @@ Stem: Why can chronic haemodynamic stress ultimately worsen myocardial pumping e
 A. Chronic stress prevents any structural change to ventricular muscle.
 B. The heart permanently converts itself to skeletal muscle.
 C. Ventricular wall tension disappears as filling pressure rises.
-D. Remodelling can produce hypertrophy or dilation that impairs efficiency.
+D. Remodelling causes hypertrophy or dilation with dysfunction.
 Answer: D
 Why: A chronically stressed ventricle may undergo hypertrophy or dilation; these structural adaptations can eventually impair efficiency and function.
 Not A: Long-term cardiac loading can change ventricular structure.
