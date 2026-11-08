@@ -197,3 +197,211 @@ Not B: RAAS tends to expand, not deplete, extracellular volume.
 Not D: Angiotensin II supports rather than blocks vasoconstriction.
 Slides: Chapter 21 §4 (supplementary)
 
+### Q13
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 1. Gravity adds pressure below the heart and takes it away above
+Type: data-interpretation
+Stem: Mean pressure is 93 mmHg at heart level. Without compensation, which value is most plausible at a foot 115 cm below the heart?
+A. About 5 mmHg.
+B. About 60 mmHg.
+C. About 93 mmHg.
+D. About 180 mmHg.
+Answer: D
+Why: Gravity adds roughly 0.77 × 115 ≈ 89 mmHg below the heart, giving a foot-level pressure near 182 mmHg.
+Not A: That would require a major pressure decrease, not a hydrostatic increase.
+Not B: This resembles the head-level figure, not the foot-level value.
+Not C: That ignores the blood column below the heart.
+Slides: Circulation 3, slide 2; Chapter 19 §1
+
+### Q14
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 2. What standing up does to the circulation
+Type: mechanism
+Stem: A nurse notices ankle swelling after a long standing shift. Which immediate local change promotes this swelling?
+A. Reduced capillary pressure decreases net filtration.
+B. Raised capillary pressure increases outward filtration.
+C. Increased plasma oncotic pressure draws fluid outward.
+D. Lower interstitial pressure stops all capillary exchange.
+Answer: B
+Why: The increased hydrostatic pressure in dependent leg capillaries pushes more fluid into the interstitium and promotes oedema.
+Not A: A lower capillary pressure would oppose outward filtration.
+Not C: Plasma oncotic pressure ordinarily favours fluid retention within blood.
+Not D: Standing promotes dependent filtration; it does not stop capillary exchange.
+Slides: Circulation 3, slide 3; Chapter 19 §2
+
+### Q15
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 3. How the body rescues blood pressure
+Type: mechanism
+Stem: A person lying still stands up, then begins walking. What feature makes the calf-muscle pump effective?
+A. Deep vein compression with one-way valves.
+B. Arterial compression with bidirectional valves.
+C. Capillary contraction during each footstep.
+D. Venule dilation without pressure gradients.
+Answer: A
+Why: Calf contractions compress deep veins, while competent venous valves favour upward flow toward the heart instead of backflow.
+Not B: Arteries do not rely on venous-style one-way valves.
+Not C: Capillaries do not function as contractile muscle pumps.
+Not D: Venous return requires directed pressure gradients, not dilation alone.
+Slides: Circulation 3, slide 6; Chapter 19 §3
+
+### Q16
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 3. How the body rescues blood pressure
+Type: mechanism
+Stem: Despite a fall in head-level arterial pressure on standing, cerebral blood flow is relatively preserved. Which pairing helps?
+A. Higher venous pressure and higher intracranial pressure.
+B. Higher venous pressure and reduced arterial CO₂.
+C. Lower venous pressure and lower intracranial pressure.
+D. Lower arterial CO₂ and constricted cerebral arterioles.
+Answer: C
+Why: A concurrent fall in cerebral venous and intracranial pressures helps preserve the effective perfusion gradient despite lower arterial pressure.
+Not A: Rising venous and intracranial pressures would oppose brain perfusion.
+Not B: Increased venous pressure would impair drainage, not preserve the gradient.
+Not D: Lower CO₂ generally narrows cerebral vessels, opposing compensation.
+Slides: Circulation 3, slide 5; Chapter 19 §3
+
+### Q17
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 3. How the body rescues blood pressure
+Type: mechanism
+Stem: If cerebral oxygen delivery falls during upright posture, which local response can limit the reduction in flow?
+A. Reduced CO₂ causes arteriolar vasodilatation.
+B. Increased CO₂ causes arteriolar vasoconstriction.
+C. Increased O₂ causes cerebral arteriolar spasm.
+D. Increased CO₂ and low O₂ favour arteriolar dilatation.
+Answer: D
+Why: A rise in local carbon dioxide and a fall in oxygen encourage cerebral arteriolar dilation, partly protecting perfusion.
+Not A: Reduced CO₂ tends to constrict cerebral vessels.
+Not B: Increased CO₂ stimulates dilation, not constriction.
+Not C: The lecture describes the opposite oxygen change during threatened cerebral perfusion.
+Slides: Circulation 3, slide 5; Chapter 19 §3
+
+### Q18
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 3. How the body rescues blood pressure
+Type: time-course
+Stem: Which response becomes particularly important for supporting pressure during sustained rather than momentary upright posture?
+A. Suppression of aldosterone-driven sodium retention.
+B. Renin–angiotensin effects and renal salt retention.
+C. Loss of sympathetic arteriolar responsiveness.
+D. Persistent inhibition of all vascular reflexes.
+Answer: B
+Why: The rapid baroreflex stabilizes pressure within seconds, while the renin–angiotensin–aldosterone system supports longer-term pressure and volume.
+Not A: Aldosterone supports sodium retention rather than its suppression.
+Not C: Loss of arteriolar responsiveness would worsen orthostatic control.
+Not D: Baroreflexes remain available during sustained standing.
+Slides: Circulation 3, slide 4; Chapter 19 §3
+
+### Q19
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 4. When compensation fails: prolonged standing and fainting
+Type: application
+Stem: A student faints after standing motionless on parade. Why is a horizontal position helpful?
+A. It raises circulating red-cell concentration immediately.
+B. It stimulates the skeletal-muscle pump without movement.
+C. It brings the brain closer to heart level, improving perfusion.
+D. It permanently removes peripheral venous compliance.
+Answer: C
+Why: Lying flat shortens the vertical blood column between heart and brain, promptly improving the cerebral pressure available for flow.
+Not A: Red-cell concentration does not immediately rise from lying down.
+Not B: A motionless horizontal position is not itself a muscular contraction.
+Not D: Veins remain compliant even after the person is laid flat.
+Slides: Circulation 3, slide 6; Chapter 19 §4
+
+### Q20
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 4. When compensation fails: prolonged standing and fainting
+Type: comparison
+Stem: A patient feels faint after intense fear, with bradycardia and marked vasodilatation. Which reflex pattern best explains it?
+A. Vasovagal sympathetic withdrawal with increased vagal activity.
+B. Baroreflex sympathetic activation with decreased vagal activity.
+C. Cushing response with severe systemic arteriolar constriction.
+D. Bainbridge reflex with accelerated sinus-node firing.
+Answer: A
+Why: Vasovagal syncope combines loss of sympathetic vasoconstrictor tone with increased cardiac vagal activity, producing hypotension and bradycardia.
+Not B: Normal compensation to falling BP increases sympathetic activity.
+Not C: The Cushing response usually produces hypertension with bradycardia.
+Not D: The Bainbridge reflex is associated with increased heart rate during atrial stretch.
+Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+
+### Q21
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 4. When compensation fails: prolonged standing and fainting
+Type: application
+Stem: A tight collar causes transient loss of consciousness in a patient with carotid sinus hypersensitivity. What initiated the fall in pressure?
+A. A rise in renal aldosterone release.
+B. A direct increase in ventricular contractility.
+C. A sudden increase in circulating blood volume.
+D. Excessive reflex slowing of the heart and vasodilatation.
+Answer: D
+Why: Mechanical carotid sinus stimulation can mimic high arterial stretch, causing excessive vagal slowing and reduced sympathetic vascular tone.
+Not A: Aldosterone is not the immediate cause of this pressure fall.
+Not B: Increased ventricular contractility would tend to defend output.
+Not C: Circulating blood volume does not suddenly expand with collar pressure.
+Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+
+### Q22
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 4. When compensation fails: prolonged standing and fainting
+Type: application
+Stem: An older patient faints shortly after standing to urinate at night. Which phenomenon does this episode most closely illustrate?
+A. Carotid sinus syncope caused by neck pressure.
+B. Micturition syncope linked to reflex hypotension.
+C. Septic shock due to widespread inflammatory vasodilatation.
+D. Positive-g blackout from head-level underperfusion.
+Answer: B
+Why: Micturition syncope is fainting associated with urination, often after rising at night, due to a reflex pressure fall.
+Not A: Carotid sinus syncope requires stimulation of a sensitive carotid region.
+Not C: There is no evidence of infection-related shock in the stem.
+Not D: Normal standing to urinate is not high positive acceleration.
+Slides: Circulation 3, slide Chapter 19 §4 (supplementary)
+
+### Q23
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 5. Orthostatic (postural) hypotension
+Type: data-interpretation
+Stem: After three minutes upright, pressure changes from 126/82 to 104/77 mmHg. How is this classified using the chapter criterion?
+A. No orthostatic hypotension because diastolic pressure fell only 5 mmHg.
+B. No orthostatic hypotension because final systolic pressure exceeds 100 mmHg.
+C. Orthostatic hypotension because systolic pressure fell 22 mmHg.
+D. Orthostatic hypotension only if both pressures fall by 20 mmHg.
+Answer: C
+Why: A sustained systolic fall of at least 20 mmHg or diastolic fall of at least 10 mmHg within three minutes satisfies the criterion.
+Not A: The systolic threshold is met even when the diastolic threshold is not.
+Not B: The diagnostic threshold concerns the change, not a fixed final pressure.
+Not D: The definition does not require both components to fall by 20 mmHg.
+Slides: Circulation 3, slide Chapter 19 §5 (supplementary)
+
+### Q24
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 5. Orthostatic (postural) hypotension
+Type: application
+Stem: A diabetic patient feels dizzy on standing, with almost no increase in heart rate or noradrenaline. What is most likely impaired?
+A. Sympathetic autonomic compensation to baroreceptor unloading.
+B. Local metabolic autoregulation of skeletal muscle.
+C. Plasma oncotic pressure generation by albumin.
+D. Calf-muscle strength despite intact autonomic nerves.
+Answer: A
+Why: Autonomic neuropathy can blunt the normally increased sympathetic firing, catecholamine release and heart-rate response to standing.
+Not B: Skeletal-muscle autoregulation is not the main missing reflex in the stem.
+Not C: Albumin concentration does not explain absent noradrenaline and tachycardia.
+Not D: The stated autonomic abnormalities are more specific than isolated weakness.
+Slides: Circulation 3, slide 8; Chapter 19 §5
+
+### Q25
+Chapter: Chapter 19 — Gravity, Posture and Acceleration
+Section: 6. Acceleration: when “gravity” gets stronger
+Type: application
+Stem: Why does positioning an accelerating pilot more horizontally improve tolerance to positive g?
+A. It increases the distance between the heart and brain.
+B. It directs pooled blood toward the ankles.
+C. It raises the capillary filtration rate in the legs.
+D. It shortens the heart-to-brain hydrostatic column.
+Answer: D
+Why: A more horizontal posture decreases the vertical distance over which acceleration reduces pressure toward the head and brain.
+Not A: Increasing the vertical distance would worsen the gradient.
+Not B: Enhanced ankle pooling would reduce central venous return.
+Not C: Greater dependent filtration would not protect brain perfusion.
+Slides: Circulation 3, slide 11; Chapter 19 §6
+
