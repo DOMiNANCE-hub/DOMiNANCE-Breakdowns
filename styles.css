@@ -900,10 +900,11 @@ html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
   .article-summary .reader-adjust label[for="reader-width"],.article-summary .reader-adjust #reader-width{display:none}
 }
 @media(max-width:760px){.article-sheet .article-end .next-card{justify-self:stretch}.article-sheet .article-end .end-actions .btn{flex:1}}
-/* ---------- Understanding Checks in their own sheet (phones) ---------- */
+/* ---------- Understanding Checks: launch card and focused dialog at all widths ---------- */
+html.sheet-open{overflow:hidden}
 .check-launch{display:none}
 .check-sheet{display:none}
-@media(max-width:760px){
+/* Shared launcher and dialog styles. Small screens retain the original bottom-up sheet. */
   .article-sheet .check-block{margin:1.6em 0;padding:0;border:0;background:none;border-radius:0}
   .check-block .check-body{display:none}
   .check-launch{display:flex;align-items:center;gap:13px;width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--sheet2);color:var(--text);font:inherit;text-align:left;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background-color .15s,border-color .15s}
@@ -944,8 +945,21 @@ html.has-chapter-bar .dom-toast{bottom:calc(76px + env(safe-area-inset-bottom))}
   .cs-body .mcq-option{font-size:15.5px;padding:12px 15px;border-radius:13px;background:var(--sheet)}
   .cs-foot{padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
   .cs-foot .btn{width:100%;min-height:46px}
+/* On wider screens the same Understanding Check opens in a centered reading window. */
+@media(min-width:761px){
+  .article-sheet .check-block{margin:1.8em 0}
+  .check-sheet{display:grid;place-items:center;padding:24px;backdrop-filter:blur(3px)}
+  .check-sheet.is-open{background:rgba(8,18,36,.56)}
+  .cs-panel{position:relative;inset:auto;width:min(760px,100%);height:min(720px,86dvh);max-height:calc(100dvh - 48px);border:1px solid var(--line);border-radius:22px;box-shadow:0 24px 75px rgba(8,18,36,.3);transform:translateY(14px) scale(.985);opacity:0;transition:opacity .2s,transform .2s}
+  .check-sheet.is-open .cs-panel{opacity:1;transform:none}
+  .cs-head{padding:18px 24px 15px}
+  .cs-title h2{font-size:19px}
+  .cs-body{padding:16px 28px 26px;font-size:17px;line-height:1.65}
+  .cs-foot{display:flex;justify-content:flex-end;padding:12px 24px}
+  .cs-foot .btn{width:auto;min-width:165px}
 }
-@media(max-width:760px) and (prefers-reduced-motion:reduce){.cs-panel,.check-sheet{transition:none}}
+@media(prefers-reduced-motion:reduce){.cs-panel,.check-sheet{transition:none}}
+
 /* ---------- Videos in their own full-screen window (phones) ---------- */
 html.video-open{overflow:hidden}
 .video-viewer{position:fixed;inset:0;z-index:70;display:flex;flex-direction:column;justify-content:center;background:#05080f;color:#fff;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);animation:vv-in .2s ease-out}
