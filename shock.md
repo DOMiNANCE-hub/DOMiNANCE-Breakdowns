@@ -4,7 +4,7 @@
 
 **Shock** is a failure of the circulation to deliver enough blood to the tissues to keep them working normally. If it goes on long enough, the tissues are **damaged**.
 
-**Shock is not defined by a blood pressure number.** Recall **<span data-term="map">mean arterial pressure</span> ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
+**Shock is not defined by a blood pressure number.** Recall **<span data-term="map">mean arterial pressure</span> ≈ cardiac output × total peripheral resistance**. *(<a href="#/physiology/cvs/blood-pressure">→ Blood Pressure</a>)* Early in shock, the body constricts its arterioles hard, so blood pressure can look **nearly normal** while cardiac output, and the flow to many organs, has already fallen.
 
 Every type of shock comes down to one of four failures:
 
@@ -20,8 +20,8 @@ Every type of shock comes down to one of four failures:
 The lecture uses **haemorrhage** to illustrate the events in every kind of shock. Follow it link by link:
 
 1. **Blood is lost**, so **blood volume falls**.
-2. Less blood fills the veins, so **<span data-term="venous-return">venous return</span> falls**. *(<a href="#/physiology/cvs/venous-return">→ Veins and Venous Return</a>)*
-3. Less filling, so **<span data-term="stroke-volume">stroke volume</span>** falls (Frank–Starling), and **cardiac output falls**. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
+2. Less blood fills the veins, so **<span data-term="venous-return">venous return</span> falls**. *(<a href="#/physiology/cvs/venous-return">→ Venous Return</a>)*
+3. Less filling, so **<span data-term="stroke-volume">stroke volume</span>** falls (Frank–Starling), and **cardiac output falls**. *(<a href="#/physiology/cvs/cardiac-output">→ Cardiac Output</a>)*
 4. Blood pressure falls, and the **tissues are underperfused**.
 
 Everything else, the signs, the compensation and the deterioration, follows from this chain.
@@ -31,10 +31,10 @@ Everything else, the signs, the compensation and the deterioration, follows from
 | Sign | Why it happens |
 |---|---|
 | **Low blood pressure** | Low cardiac output. (Early on, constriction may hide it.) |
-| **Fast, weak pulse** | <span data-term="baroreceptors">Baroreceptors</span> fire less, so the <span data-term="vasomotor-centre">vasomotor centre</span> is released: sympathetic drive gives **reflex tachycardia**. The pulse is **weak** because <span data-term="stroke-volume">stroke volume</span> is small. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)* |
-| **Pale, cool, clammy skin** | Sympathetic **vasoconstriction** is generalised but most **marked in the skin**; sweating adds the clamminess. The **heart and brain are spared**. *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
+| **Fast, weak pulse** | <span data-term="baroreceptors">Baroreceptors</span> fire less, so the <span data-term="vasomotor-centre">vasomotor centre</span> is released: sympathetic drive gives **reflex tachycardia**. The pulse is **weak** because <span data-term="stroke-volume">stroke volume</span> is small. *(<a href="#/physiology/cvs/reflexes?section=3-the-baroreflex-step-by-step">→ Reflexes, §3</a>)* |
+| **Pale, cool, clammy skin** | Sympathetic **vasoconstriction** is generalised but most **marked in the skin**; sweating adds the clamminess. The **heart and brain are spared**. *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
 | **Low urine output** | Constriction of renal arterioles lowers **GFR**; the kidneys also keep **Na⁺** and water. Urea builds up in the blood. |
-| **Rapid breathing** | Low flow starves the **chemoreceptors** of oxygen, and **lactic acid** builds up; both drive breathing. *(<a href="#/physiology/cvs/reflexes?section=5-chemoreceptors">→ Reflexes, §5</a>)* |
+| **Rapid breathing** | Low flow starves the **chemoreceptors** of oxygen, and **lactic acid** builds up; both drive breathing. *(<a href="#/physiology/cvs/reflexes?section=5-chemoreceptors">→ Reflexes, §5</a>)* |
 | **Intense thirst** | **<span data-term="angiotensin-ii">Angiotensin II</span>** and **<span data-term="adh">ADH</span>** rise. |
 | **Restless and anxious**, later **dull and apathetic** | Early: sympathetic arousal (restlessness also works the **muscle pump**). Later: **cerebral ischaemia**. |
 | **Lactic acidosis** | Without enough oxygen, cells switch to **anaerobic glycolysis**, making **lactic acid**. |
@@ -45,7 +45,7 @@ Everything else, the signs, the compensation and the deterioration, follows from
 
 - **Heart:** faster and stronger.
 - **Arterioles:** constrict everywhere **except the heart and brain**, raising resistance and redirecting flow to them.
-- **Veins:** constrict, squeezing out stored blood. The **splanchnic** veins, the **skin** and even the **pulmonary** veins give up blood to the systemic circulation. *(<a href="#/physiology/cvs/splanchnic?section=3-blood-flow-after-meals-and-in-shock">→ Splanchnic Circulation, §3</a>)*
+- **Veins:** constrict, squeezing out stored blood. The **splanchnic** veins, the **skin** and even the **pulmonary** veins give up blood to the systemic circulation. *(<a href="#/physiology/cvs/splanchnic?section=3-blood-flow-after-meals-and-in-shock">→ Splanchnic Circulation, §3</a>)*
 - **Adrenal medulla:** releases **adrenaline and noradrenaline**, reinforcing all of this.
 
 **Within minutes to hours: hormones.**
@@ -54,9 +54,9 @@ Everything else, the signs, the compensation and the deterioration, follows from
 - **<span data-term="adh">ADH (vasopressin)</span>:** water retention and constriction.
 - **ACTH → cortisol.**
 
-*(<a href="#/physiology/cvs/neural-humoral?section=6-fast-slow-and-slower-putting-it-together">→ Neural and Hormonal Control, §6</a>)*
+*(<a href="#/physiology/cvs/neural-humoral?section=6-fast-slow-and-slower-putting-it-together">→ Neural and Hormonal Control, §6</a>)*
 
-**Within hours: fluid moves into the blood.** Arteriolar constriction and low pressure **lower capillary <span data-term="hydrostatic-pressure">hydrostatic pressure</span>**, so the balance at the capillaries tips towards **reabsorption**. Fluid moves from the **interstitial spaces into the blood**, partly refilling it. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*
+**Within hours: fluid moves into the blood.** Arteriolar constriction and low pressure **lower capillary <span data-term="hydrostatic-pressure">hydrostatic pressure</span>**, so the balance at the capillaries tips towards **reabsorption**. Fluid moves from the **interstitial spaces into the blood**, partly refilling it. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)*
 
 **Over days to weeks: full repair.**
 
@@ -83,9 +83,9 @@ Everything else, the signs, the compensation and the deterioration, follows from
 
 If the blood loss is large or prolonged, the compensation fails, and several **vicious cycles** (positive feedback) take over. Each one makes perfusion worse, which makes the cycle turn faster:
 
-<figure class="learning-figure shock-cycle-figure" id="cvs20-cycle"><figcaption>Progressive shock: the vicious cycles</figcaption><svg viewBox="0 0 400 400" role="img" aria-label="A central box, low cardiac output and blood pressure, with four loops that each lead back to it. One: low coronary flow and acidosis weaken the heart. Two: the vasomotor centre fails, so the heart slows and vessels dilate. Three: lactic acidosis depresses the heart and the vessels stop responding to adrenaline. Four: capillary stasis makes fluid leak out, so volume falls. Each loop lowers cardiac output and blood pressure further."><defs><marker id="sh-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="sh-arrowhead"/></marker></defs><g class="sh-arrow"><path d="M122 168L68 104" marker-end="url(#sh-head)"/><path d="M140 104L176 166" marker-end="url(#sh-head)"/><path d="M278 168L332 104" marker-end="url(#sh-head)"/><path d="M260 104L224 166" marker-end="url(#sh-head)"/><path d="M122 234L68 304" marker-end="url(#sh-head)"/><path d="M140 304L176 238" marker-end="url(#sh-head)"/><path d="M278 234L332 304" marker-end="url(#sh-head)"/><path d="M260 304L224 238" marker-end="url(#sh-head)"/></g><rect x="100" y="170" width="200" height="64" rx="12" class="sh-centre"/><g class="sh-box"><rect x="8" y="16" width="176" height="86" rx="10"/><rect x="216" y="16" width="176" height="86" rx="10"/><rect x="8" y="306" width="176" height="86" rx="10"/><rect x="216" y="306" width="176" height="86" rx="10"/></g><g text-anchor="middle"><text x="200" y="196" class="sh-lab">Low cardiac output</text><text x="200" y="216" class="sh-lab">and blood pressure</text><text x="96" y="40" class="sh-lab">1 · Heart weakens</text><text x="96" y="60" class="sh-sub">low coronary flow</text><text x="96" y="78" class="sh-sub">and acidosis</text><text x="304" y="40" class="sh-lab">2 · Brainstem fails</text><text x="304" y="60" class="sh-sub">vasomotor centre: heart</text><text x="304" y="78" class="sh-sub">slows, vessels dilate</text><text x="96" y="330" class="sh-lab">3 · Lactic acidosis</text><text x="96" y="350" class="sh-sub">heart depressed; vessels</text><text x="96" y="368" class="sh-sub">ignore adrenaline</text><text x="304" y="330" class="sh-lab">4 · Capillary stasis</text><text x="304" y="350" class="sh-sub">blood stagnates, fluid</text><text x="304" y="368" class="sh-sub">leaks: volume falls</text></g></svg><p>Each loop starts from poor perfusion and ends by lowering cardiac output and blood pressure further, so the cycle turns faster. </p></figure>
+<figure class="learning-figure shock-cycle-figure" id="cvs20-cycle"><figcaption>Progressive shock: the vicious cycles</figcaption><svg viewBox="0 0 400 400" role="img" aria-label="A central box, low cardiac output and blood pressure, with four loops that each lead back to it. One: low coronary flow and acidosis weaken the heart. Two: the vasomotor centre fails, so the heart slows and vessels dilate. Three: lactic acidosis depresses the heart and the vessels stop responding to adrenaline. Four: capillary stasis makes fluid leak out, so volume falls. Each loop lowers cardiac output and blood pressure further."><defs><marker id="sh-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="sh-arrowhead"/></marker></defs><g class="sh-arrow"><path d="M122 168L68 104" marker-end="url(#sh-head)"/><path d="M140 104L176 166" marker-end="url(#sh-head)"/><path d="M278 168L332 104" marker-end="url(#sh-head)"/><path d="M260 104L224 166" marker-end="url(#sh-head)"/><path d="M122 234L68 304" marker-end="url(#sh-head)"/><path d="M140 304L176 238" marker-end="url(#sh-head)"/><path d="M278 234L332 304" marker-end="url(#sh-head)"/><path d="M260 304L224 238" marker-end="url(#sh-head)"/></g><rect x="100" y="170" width="200" height="64" rx="12" class="sh-centre"/><g class="sh-box"><rect x="8" y="16" width="176" height="86" rx="10"/><rect x="216" y="16" width="176" height="86" rx="10"/><rect x="8" y="306" width="176" height="86" rx="10"/><rect x="216" y="306" width="176" height="86" rx="10"/></g><g text-anchor="middle"><text x="200" y="196" class="sh-lab">Low cardiac output</text><text x="200" y="216" class="sh-lab">and blood pressure</text><text x="96" y="40" class="sh-lab">1 · Heart weakens</text><text x="96" y="60" class="sh-sub">low coronary flow</text><text x="96" y="78" class="sh-sub">and acidosis</text><text x="304" y="40" class="sh-lab">2 · Brainstem fails</text><text x="304" y="60" class="sh-sub">heart slows and</text><text x="304" y="78" class="sh-sub">vessels dilate</text><text x="96" y="330" class="sh-lab">3 · Lactic acidosis</text><text x="96" y="350" class="sh-sub">weak heart; vessels</text><text x="96" y="368" class="sh-sub">ignore adrenaline</text><text x="304" y="330" class="sh-lab">4 · Capillary stasis</text><text x="304" y="350" class="sh-sub">blood stagnates and</text><text x="304" y="368" class="sh-sub">leaks: volume falls</text></g></svg><p>Each loop starts from poor perfusion and ends by lowering cardiac output and blood pressure further, so the cycle turns faster. </p></figure>
 
-1. **The heart fails.** Low blood pressure means low **coronary** flow. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a>)* Ischaemia and **acidosis** weaken the heart muscle, so cardiac output falls further.
+1. **The heart fails.** Low blood pressure means low **coronary** flow. *(<a href="#/physiology/cvs/coronary?section=3-why-is-left-ventricular-coronary-perfusion-greatest-during-diastole">→ Coronary Circulation, §3</a>)* Ischaemia and **acidosis** weaken the heart muscle, so cardiac output falls further.
 2. **The vasomotor centre fails.** Prolonged **cerebral ischaemia** depresses it. Sympathetic drive collapses: the heart **slows** and the vessels **dilate**. Blood pressure and brain flow fall further.
 3. **Acidosis.** **Lactic acid** depresses the heart and makes the vessels **stop responding to adrenaline and noradrenaline**.
 4. **Capillary stasis and leak.** Late in shock, the **<span data-term="precapillary-sphincter">precapillary sphincters</span> relax but the venules stay constricted**. Blood enters the capillaries but can't leave, so it **stagnates**, capillary **<span data-term="hydrostatic-pressure">hydrostatic pressure</span> rises**, and fluid is **lost into the tissues**. Volume falls further.
@@ -107,14 +107,14 @@ Other causes of volume loss (the lecture's list):
 - **Surgical shock:** bleeding and dehydration.
 - **Diarrhoea, uncontrolled diabetes and adrenal insufficiency:** salt and water loss.
 
-**Cardiogenic shock.** The volume is normal, but the heart can't pump it, so cardiac output falls (myocardial infarction, heart failure, arrhythmias). Blood **backs up** behind the failing ventricle, so venous pressure and the <span data-term="jvp">JVP</span> are often **high**, unlike haemorrhage. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
+**Cardiogenic shock.** The volume is normal, but the heart can't pump it, so cardiac output falls (myocardial infarction, heart failure, arrhythmias). Blood **backs up** behind the failing ventricle, so venous pressure and the <span data-term="jvp">JVP</span> are often **high**, unlike haemorrhage. *(<a href="#/physiology/cvs/heart-failure">→ Heart Failure</a>)*
 
 **Distributive (low-resistance) shock.** The blood volume is normal, but **massive vasodilation** lets blood **pool** and flow is maldistributed:
 
 | Type | Cause | Key feature |
 |---|---|---|
 | **Neurogenic** | Sudden loss of <span data-term="sympathetic-tone">sympathetic tone</span> (spinal cord injury, spinal anaesthesia; the lecture also includes fainting from strong emotion) | Vessels dilate; the heart may be **slow** |
-| **Septic** | **Bacterial toxins** | Vasodilation **and** leaky capillaries; skin may be **warm** early *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
+| **Septic** | **Bacterial toxins** | Vasodilation **and** leaky capillaries; skin may be **warm** early *(<a href="#/physiology/cvs/skin?section=2-skin-blood-flow-in-shock">→ Cutaneous Circulation, §2</a>)* |
 | **Anaphylactic** | An **antigen–antibody** reaction releases **histamine** | Widespread dilation **and** leaky capillaries |
 
 **Obstructive shock.** Something blocks filling or outflow: fluid compressing the heart (**<span data-term="tamponade">tamponade</span>**), a **tension pneumothorax** squeezing the great veins, or a **pulmonary embolism** blocking the pulmonary artery.

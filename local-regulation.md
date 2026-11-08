@@ -4,11 +4,11 @@
 
 The heart sets the total output, but each tissue needs a supply matched to **its own** needs, moment to moment. A sprinting leg muscle needs far more blood than it did at rest. The brain and kidneys need a **steady** supply, even when blood pressure wobbles.
 
-Recall: **flow = pressure difference ÷ resistance** *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*. A tissue can't change the arterial pressure, but it **can** change its own resistance, by widening or narrowing its **arterioles**. And because resistance depends on the **fourth power of the radius**, a small change in arteriolar width has a big effect on flow: halving the radius raises the resistance about **16 times**.
+Recall: **flow = pressure difference ÷ resistance** *(<a href="#/physiology/cvs/hemodynamics?section=2-what-actually-determines-flow">→ Haemodynamics, §2</a>)*. A tissue can't change the arterial pressure, but it **can** change its own resistance, by widening or narrowing its **arterioles**. And because resistance depends on the **fourth power of the radius**, a small change in arteriolar width has a big effect on flow: halving the radius raises the resistance about **16 times**.
 
 Local control comes in two forms:
 
-- **<span data-term="autoregulation">Autoregulation</span>:** keeping flow **steady** when the pressure changes (§2–3).
+- **Autoregulation:** keeping flow **steady** when the pressure changes (§2–3).
 - **Hyperaemia:** **raising** flow when the tissue needs more (<a href="#/physiology/cvs/local-regulation?section=4-active-and-reactive-hyperaemia">§4</a>).
 
 ## 2. Autoregulation: steady flow despite changing pressure
@@ -20,9 +20,9 @@ Local control comes in two forms:
 | **Rises** | Rises | **Constrict** (resistance up) | Returns towards normal |
 | **Falls** | Falls | **Dilate** (resistance down) | Returns towards normal |
 
-It is strongest in the **brain**, **kidneys** and **heart**. *(<a href="#/physiology/cvs/cerebral?section=3-how-does-the-brain-keep-its-blood-flow-steady">→ Cerebral Circulation, §3</a>)*
+It is strongest in the **brain**, **kidneys** and **heart**. *(<a href="#/physiology/cvs/cerebral?section=3-how-does-the-brain-keep-its-blood-flow-steady">→ Cerebral Circulation, §3</a>)*
 
-**It only works within a range.** If pressure falls so far that the arterioles are already fully dilated, they have nothing left to give, and flow falls with pressure. This is why severe shock damages the brain and kidneys despite autoregulation. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+**It only works within a range.** If pressure falls so far that the arterioles are already fully dilated, they have nothing left to give, and flow falls with pressure. This is why severe shock damages the brain and kidneys despite autoregulation. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
 **How does a tissue do it?** The lecture gives two theories. They are not rivals: both work at the same time.
 
@@ -36,16 +36,16 @@ It is strongest in the **brain**, **kidneys** and **heart**. *(<a href="#/physio
 
 When pressure falls, the opposite happens: less stretch, the muscle relaxes, and the arteriole widens.
 
-<figure class="learning-figure"><figcaption>Figure 1. Myogenic opposition to a rise in pressure</figcaption><svg viewBox="0 0 620 140" role="img" aria-label="Higher transmural pressure stretches an arteriole, triggering smooth-muscle contraction, raising resistance and opposing a large rise in flow"><rect x="5" y="32" width="172" height="62" rx="12" fill="#e9f3fd" stroke="#4d84aa"/><rect x="224" y="32" width="172" height="62" rx="12" fill="#e4f4ea" stroke="#4e9b74"/><rect x="443" y="32" width="172" height="62" rx="12" fill="#fff2d6" stroke="#b88933"/><g fill="#20324b" font-size="15" text-anchor="middle"><text x="91" y="57">Pressure ↑</text><text x="91" y="77">Wall stretch ↑</text><text x="310" y="57">Smooth muscle</text><text x="310" y="77">contracts</text><text x="529" y="57">Radius ↓; R ↑</text><text x="529" y="77">Flow rise opposed</text></g><path d="M181 63h36m-9 -7 9 7 -9 7M400 63h36m-9 -7 9 7 -9 7" stroke="#527895" stroke-width="3" fill="none"/></svg><p>Original conceptual schematic. The first pressure-driven increase in flow occurs before the slower corrective vascular response.</p></figure>
+<figure class="learning-figure dg-figure"><figcaption>Figure 1. Myogenic opposition to a rise in pressure</figcaption><svg viewBox="0 0 360 350" role="img" aria-label="Two traces against time. Pressure steps up and stays high. Flow rises briefly at the step, then falls back close to its starting level as the arteriole constricts."><text x="10" y="20" class="dg-b">Pressure</text><path d="M60 30V100H346" class="dg-axis"/><path d="M62 84H140V48H344" class="dg-curve-gold"/><text x="10" y="138" class="dg-b">Flow</text><path d="M60 148V230H346" class="dg-axis"/><path d="M62 212H140V160C170 168 200 190 240 200C280 206 310 207 344 207" class="dg-curve-blue"/><path d="M140 30V230" class="dg-guide"/><text x="140" y="248" class="dg-s" text-anchor="middle">pressure rises</text><text x="344" y="248" class="dg-s" text-anchor="end">time →</text><text x="228" y="174" class="dg-s">brief rise</text><text x="10" y="280" class="dg-t">Pressure rises → the wall is stretched</text><text x="10" y="300" class="dg-t">→ smooth muscle contracts → radius falls</text><text x="10" y="320" class="dg-t">→ resistance rises, so flow returns</text><text x="10" y="340" class="dg-t">    close to where it started.</text></svg><p>Original conceptual schematic. The first pressure-driven increase in flow occurs before the slower corrective vascular response.</p></figure>
 
 **Why is this protective?** It stops a surge of pressure from being passed straight into the fragile capillaries downstream.
 
-**The law of Laplace: why small vessels don't burst.** For a cylindrical vessel, the **<span data-term="wall-tension">wall tension</span>** needed to resist the pressure inside is:
+**The law of Laplace: why small vessels don't burst.** For a cylindrical vessel, the **wall tension** needed to resist the pressure inside is:
 
 **T = P × r** (wall tension = transmural pressure × radius)
 
 - **Transmural pressure** = pressure inside − pressure in the surrounding tissue.
-- At the same pressure, a vessel with **half the radius** needs only **half the wall tension**.
+- At the same pressure, a vessel with **half the radius** needs only **half the <span data-term="wall-tension">wall tension</span>**.
 
 So a capillary, with its tiny radius, can withstand blood pressure with a wall only one cell thick. And a vessel that **widens** (as in an aneurysm) needs **more** tension at the same pressure, so it is more likely to stretch further and rupture.
 
@@ -74,7 +74,7 @@ When a tissue's blood supply falls short of its needs, its **metabolites build u
 
 **Hyperaemia** simply means **increased blood flow**.
 
-| | **<span data-term="active-hyperaemia">Active hyperaemia</span>** | **Reactive hyperaemia** |
+| | **Active hyperaemia** | **Reactive hyperaemia** |
 |---|---|---|
 | When | **During** increased activity | **After** blood flow was cut off for a while |
 | Example | Working muscle in exercise | The red flush of a hand after a tight cuff is released |
@@ -106,13 +106,13 @@ The **endothelium**, the single-cell lining of the vessels, is not just a passiv
 | **Prostacyclin** | **Dilates** | Also stops platelets clumping |
 | **Endothelin-1** | **Constricts** | A powerful vasoconstrictor |
 
-Several other substances dilate vessels **through the endothelium**, by making it release NO: **bradykinin**, **<span data-term="substance-p">substance P</span>** and **acetylcholine**. **Histamine** (via H₂ receptors) and **<span data-term="anp">ANP</span>** also dilate vessels. *(<a href="#/physiology/cvs/skin?section=3-the-triple-response-of-lewis">→ Cutaneous Circulation, §3</a>)*
+Several other substances dilate vessels **through the endothelium**, by making it release NO: **bradykinin**, **<span data-term="substance-p">substance P</span>** and **acetylcholine**. **Histamine** (via H₂ receptors) and **<span data-term="anp">ANP</span>** also dilate vessels. *(<a href="#/physiology/cvs/skin?section=3-the-triple-response-of-lewis">→ Cutaneous Circulation, §3</a>)*
 
 **Why does this matter?** When the endothelium is damaged (in atherosclerosis, smoking or diabetes), it makes less NO. The vessels dilate less well, and the balance tips towards constriction and clotting.
 
 ## 6. Local control and the whole body
 
-Local control works **alongside** the nerves and hormones of the next two chapters. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* Sometimes they cooperate; sometimes they compete:
+Local control works **alongside** the nerves and hormones of the next two chapters. *(<a href="#/physiology/cvs/neural-humoral">→ Neural and Hormonal Control</a>)* Sometimes they cooperate; sometimes they compete:
 
 - **In exercise**, sympathetic nerves constrict arterioles throughout the body. But in the working muscles, metabolites dilate them so strongly that they **override** the sympathetic signal. So blood is **redirected** to where it is needed.
 - **In haemorrhage**, sympathetic constriction diverts blood from the skin and gut. If a tissue becomes badly starved of blood, its metabolites start to fight back, dilating its arterioles.

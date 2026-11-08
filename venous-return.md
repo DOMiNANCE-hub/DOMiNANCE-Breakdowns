@@ -2,9 +2,9 @@
 
 ## 1. What is venous return, and why is it essential?
 
-**Venous return** is the volume of blood flowing **back into the right atrium each minute**. Over time it must equal cardiac output: the heart can only pump out what comes back to it. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
+**Venous return** is the volume of blood flowing **back into the right atrium each minute**. Over time it must equal cardiac output: the heart can only pump out what comes back to it. *(<a href="#/physiology/cvs/cardiac-output?section=1-what-is-cardiac-output-and-why-does-it-matter">→ Cardiac Output, §1</a>)*
 
-**The heart can't pump blood it doesn't receive.** Even a strong heart ejects little if it is poorly filled. More venous return fills the ventricles more, and through Frank–Starling they eject more. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
+**The heart can't pump blood it doesn't receive.** Even a strong heart ejects little if it is poorly filled. More venous return fills the ventricles more, and through Frank–Starling they eject more. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
 <div class="vr-flow" role="group" aria-label="Venous return to stroke volume"><span>Venous return ↑</span><b>→</b><span>Right-heart filling ↑</span><b>→</b><span>EDV ↑</span><b>→</b><span>Stroke volume ↑</span></div>
 
@@ -16,7 +16,7 @@ Veins have **thin, stretchy walls**. They can hold a lot of blood without much r
 
 <div class="equation-block"><span class="equation-label">Vascular compliance</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>=</mo><mfrac><mrow><mi>Δ</mi><mi>V</mi></mrow><mrow><mi>Δ</mi><mi>P</mi></mrow></mfrac></math><span class="equation-example">The higher C of veins permits greater volume storage for a given pressure rise.</span></div>
 
-So the veins are the body's **blood reservoir**: about half or more of the blood volume sits in the systemic veins at rest. *(<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">→ Haemodynamics, §10</a>)*
+So the veins are the body's **blood reservoir**: about half or more of the blood volume sits in the systemic veins at rest. *(<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">→ Haemodynamics, §10</a>)*
 
 **Venous tone: squeezing the reservoir.** Sympathetic nerves can tighten the smooth muscle in vein walls (**venoconstriction**). The veins then hold less, so stored blood is pushed towards the heart, **without adding any new blood**. This is how the body quickly tops up <span data-term="venous-return">venous return</span> after a bleed or on standing.
 
@@ -54,7 +54,7 @@ So:
 
 ## 4. How do the skeletal-muscle pump and venous valves work?
 
-The deep veins of the legs run **between muscles** and contain **<span data-term="venous-valves">one-way valves</span>** that open only towards the heart.
+The deep veins of the legs run **between muscles** and contain **one-way valves** that open only towards the heart.
 
 - **Muscle contracts:** it squeezes the vein. The blood can only go **up**, because the valve below snaps shut and the valve above is pushed open.
 - **Muscle relaxes:** the squeezed section expands and refills **from below**. The valve above shuts, so blood that has moved up doesn't fall back.
@@ -62,11 +62,11 @@ The deep veins of the legs run **between muscles** and contain **<span data-term
 Each contraction pumps blood a step closer to the heart. **Walking is a pump.**
 
 <div class="view-switch">
-<figure class="learning-figure vr-pump-figure static-view"><figcaption>The muscle pump at a glance</figcaption><svg viewBox="0 0 540 160" role="img" aria-label="Original diagram of a vertical leg vein, one-way valves and surrounding muscle compression moving venous blood upwards towards the heart."><rect x="230" y="16" width="82" height="128" rx="12" fill="#d7eafe" stroke="#4381c1" stroke-width="2"/><path d="M230 55 Q271 65 273 79 Q273 65 312 55" fill="none" stroke="#174f92" stroke-width="3"/><path d="M230 107 Q271 117 273 132 Q273 117 312 107" fill="none" stroke="#174f92" stroke-width="3"/><path d="M273 114V23 M264 35 L273 23 L282 35" stroke="#1463bd" fill="none" stroke-width="5" stroke-linecap="round"/><g stroke="#e38c38" stroke-width="4" stroke-linecap="round"><path d="M172 80H222 M213 71 L222 80 L213 89"/><path d="M371 80H318 M327 71 L318 80 L327 89"/></g><g fill="currentColor" font-size="12"><text x="163" y="64">Muscle</text><text x="163" y="104">squeezes</text><text x="378" y="64">Muscle</text><text x="378" y="104">squeezes</text><text x="276" y="13" text-anchor="middle">To heart ↑</text><text x="12" y="149">Valves favour one-way upward movement during compression</text></g></svg><p>Illustration of the principle, not a scale drawing. Valves limit backward flow when muscle pressure is released.</p></figure>
+<figure class="learning-figure vr-pump-figure static-view dg-figure"><figcaption>The muscle pump at a glance</figcaption><svg viewBox="0 0 360 350" role="img" aria-label="A leg vein between two calf muscles. The muscles squeeze the vein; blood moves up through the open upper valve while the lower valve is shut, stopping backflow."><defs><marker id="mp-m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head"/></marker><marker id="mp-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-blue"/></marker><marker id="mp-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-red"/></marker><marker id="mp-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-gold"/></marker></defs><text x="180" y="18" class="dg-b" text-anchor="middle">To the heart ↑</text><ellipse cx="88" cy="150" rx="52" ry="86" class="dg-muscle"/><ellipse cx="272" cy="150" rx="52" ry="86" class="dg-muscle"/><text x="88" y="146" class="dg-b" text-anchor="middle">Calf</text><text x="88" y="164" class="dg-b" text-anchor="middle">muscle</text><text x="272" y="146" class="dg-b" text-anchor="middle">Calf</text><text x="272" y="164" class="dg-b" text-anchor="middle">muscle</text><rect x="158" y="28" width="44" height="246" rx="6" class="dg-vein"/><path d="M160 92L172 70M200 92L188 70" class="dg-valve-open"/><path d="M160 214L180 226L200 214" class="dg-valve-shut"/><path d="M180 204V48" class="dg-flow" marker-end="url(#mp-b)"/><path d="M132 150H154" class="dg-push-gold" marker-end="url(#mp-g)"/><path d="M228 150H206" class="dg-push-gold" marker-end="url(#mp-g)"/><text x="10" y="300" class="dg-t">Muscle squeezes the vein: blood is forced</text><text x="10" y="320" class="dg-t">up through the open upper valve. The lower</text><text x="10" y="340" class="dg-t">valve shuts, so blood cannot go back down.</text></svg><p>Illustration of the principle, not a scale drawing. Valves limit backward flow when muscle pressure is released.</p></figure>
 <figure class="learning-figure teaching-widget" data-widget="muscle-pump" data-desc="sr"><figcaption>Muscle pump</figcaption><p>Shown with the original static diagram behind the Diagram | Interactive switch. A leg vein between two calf muscles, with a valve above and below. Squeeze shows the muscles pressing in, the lower valve shut, the upper valve open and blood moving up. Relax shows the muscles easing, the lower valve open (refilling from below) and the upper valve shut (no backflow). Play alternates them. A Stand still toggle stops the pump and shows blood pooling in a swollen lower vein, with the line "Less blood returns → less filling → lower stroke volume".</p></figure>
 </div>
 
-**Why do soldiers faint on parade?** Standing still, gravity pools blood in the leg veins and **the muscle pump isn't working**. Less blood returns, so filling and <span data-term="stroke-volume">stroke volume</span> fall, blood pressure drops and the brain gets less blood. Gently tensing the calves or rising on the toes keeps the pump going. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
+**Why do soldiers faint on parade?** Standing still, gravity pools blood in the leg veins and **the muscle pump isn't working**. Less blood returns, so filling and <span data-term="stroke-volume">stroke volume</span> fall, blood pressure drops and the brain gets less blood. Gently tensing the calves or rising on the toes keeps the pump going. *(<a href="#/physiology/cvs/gravity">→ Gravity</a>)*
 
 ## 5. How does breathing help venous return?
 
@@ -75,7 +75,7 @@ Each contraction pumps blood a step closer to the heart. **Walking is a pump.**
 - The chest expands, so **pressure inside the chest falls**. The veins in the chest and the right atrium are pulled open, and blood is drawn in from the veins outside the chest.
 - The diaphragm moves down and **raises pressure in the abdomen**, squeezing blood up from the abdominal veins.
 
-Both push blood towards the right heart, so **venous return rises during inspiration**. This is the respiratory pump. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
+Both push blood towards the right heart, so **venous return rises during inspiration**. This is the respiratory pump. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
 
 **On a ventilator it reverses.** A ventilator pushes air in, so chest pressure **rises** on inspiration and venous return falls.
 
@@ -94,7 +94,7 @@ The lecture also notes that **pulsing arteries** next to veins squeeze them slig
 
 ## 6. What does central venous pressure tell us?
 
-**Central venous pressure (CVP)** is the pressure in the large veins next to the right atrium. It is about the same as right atrial pressure, and it is what the <span data-term="jvp">JVP</span> shows at the bedside. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
+**Central venous pressure (CVP)** is the pressure in the large veins next to the right atrium. It is about the same as right atrial pressure, and it is what the <span data-term="jvp">JVP</span> shows at the bedside. *(<a href="#/physiology/cvs/pulses?section=3-why-is-the-jugular-venous-pulse-visible-in-the-neck">→ Pulses and JVP, §3</a>)*
 
 It is **low**, only a few mmHg. The lecture's example is about 4.6 mmHg, but the exact value depends on posture, breathing and how it is measured.
 

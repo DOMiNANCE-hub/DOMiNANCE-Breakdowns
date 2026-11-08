@@ -7,17 +7,17 @@
 It depends on two things:
 
 - **Heart rate (HR):** beats per minute.
-- **<span data-term="stroke-volume">Stroke volume</span> (SV):** the blood ejected by one ventricle in **one beat**.
+- **Stroke volume (SV):** the blood ejected by one ventricle in **one beat**.
 
 <div class="equation-block"><span class="equation-label">Cardiac output</span><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>CO</mi><mo>=</mo><mi>HR</mi><mo>×</mo><mi>SV</mi></math><span class="equation-example">Example: 75 beats/min × 70 mL/beat = <strong>5,250 mL/min = 5.25 L/min</strong></span></div>
 
-**Why multiply?** Each beat sends out one stroke volume. 75 beats of 70 mL each is 75 × 70 mL in a minute.
+**Why multiply?** Each beat sends out one <span data-term="stroke-volume">stroke volume</span>. 75 beats of 70 mL each is 75 × 70 mL in a minute.
 
 At rest, cardiac output is about **5–5.5 L/min** in an adult. That is roughly the whole blood volume pumped round once a minute. It varies with body size and activity.
 
 ### Why must the right and left ventricles pump the same amount?
 
-The two circulations are joined **in series**. Everything the right ventricle pumps into the lungs comes back to the left ventricle. If the right ventricle pumped even slightly more each minute than the left, blood would pile up in the lungs. So **over time the two outputs must be equal**, even though the left ventricle works at a much higher pressure. *(<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">→ Introduction, §2</a>)*
+The two circulations are joined **in series**. Everything the right ventricle pumps into the lungs comes back to the left ventricle. If the right ventricle pumped even slightly more each minute than the left, blood would pile up in the lungs. So **over time the two outputs must be equal**, even though the left ventricle works at a much higher pressure. *(<a href="#/physiology/cvs/cv-introduction?section=2-the-two-major-circulatory-pathways">→ Introduction, §2</a>)*
 
 ### Cardiac index: allowing for body size
 
@@ -52,7 +52,7 @@ From CO = HR × SV, a faster heart rate raises cardiac output **only if stroke v
 
 ## 3. What determines stroke volume?
 
-Stroke volume is what the ventricle starts with minus what it leaves behind: **SV = <span data-term="edv">EDV</span> − <span data-term="esv">ESV</span>** (end-diastolic volume minus end-systolic volume). *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
+Stroke volume is what the ventricle starts with minus what it leaves behind: **SV = <span data-term="edv">EDV</span> − <span data-term="esv">ESV</span>** (end-diastolic volume minus end-systolic volume). *(<a href="#/physiology/cvs/cardiac-cycle?section=7-how-much-blood-does-the-ventricle-pump">→ Cardiac Cycle, §7</a>)*
 
 Three things decide it:
 
@@ -74,7 +74,7 @@ Three things decide it:
 
 ### Contractility: how strong the muscle is at a given stretch
 
-**Contractility** (<span data-term="inotropy">inotropy</span>) is how forcefully the muscle contracts **at the same stretch and the same load**. It depends mainly on how much calcium reaches the contractile proteins in each beat. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
+**Contractility** (<span data-term="inotropy">inotropy</span>) is how forcefully the muscle contracts **at the same stretch and the same load**. It depends mainly on how much calcium reaches the contractile proteins in each beat. *(<a href="#/physiology/cvs/cardiac-muscle?section=4-excitation-contraction-coupling-from-electrical-signal-to-force">→ Cardiac Muscle, §4</a>)*
 
 **Key distinction:** a ventricle that contracts harder **because it was stretched more** is using the Frank–Starling mechanism. That is **not** a rise in contractility. A rise in contractility means a stronger contraction **without** extra stretch.
 
@@ -100,7 +100,7 @@ Three things decide it:
 A Frank–Starling curve plots **stroke volume** (or cardiac output) against **filling** (EDV). There are two ways the point can move.
 
 <div class="view-switch">
-<figure class="learning-figure cardiac-output-figure static-view"><figcaption>Frank–Starling curves at a glance</figcaption><svg viewBox="0 0 640 295" role="img" aria-label="Schematic stroke-volume versus end-diastolic-volume graph showing increased, normal and reduced cardiac contractility curves."><line x1="85" y1="20" x2="85" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><line x1="85" y1="238" x2="600" y2="238" stroke="currentColor" opacity=".45" stroke-width="2"/><path d="M99 229 C168 100 285 57 580 55" stroke="#2863dd" stroke-width="4.5" fill="none"/><path d="M99 232 C188 181 275 148 580 148" stroke="#16a085" stroke-width="4.5" fill="none"/><path d="M99 235 C205 222 320 208 580 207" stroke="#c39431" stroke-width="4.5" fill="none"/><g fill="currentColor" font-size="13"><text x="190" y="273">End-diastolic volume (preload) →</text><text x="22" y="130" transform="rotate(-90,22,130)">Stroke volume</text><text x="387" y="40">Greater contractility</text><text x="425" y="138">Reference</text><text x="432" y="196">Lower contractility</text></g></svg><p><strong>Read across one curve:</strong> changing EDV changes stroke volume by the Frank–Starling mechanism. <strong>Compare curves vertically:</strong> at the same EDV, greater intrinsic contractility gives greater SV (with afterload held constant). Schematic; not patient-specific measurements.</p></figure>
+<figure class="learning-figure cardiac-output-figure static-view dg-figure"><figcaption>Frank–Starling curves at a glance</figcaption><svg viewBox="0 0 360 362" role="img" aria-label="Stroke volume plotted against filling. Three curves: more contractility (highest), normal, and less contractility (lowest). Moving along one curve with more filling raises stroke volume; at the same filling, a higher curve gives a larger stroke volume."><defs><marker id="fs-m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head"/></marker><marker id="fs-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-blue"/></marker><marker id="fs-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-red"/></marker><marker id="fs-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-gold"/></marker></defs><path d="M52 24V236H344" class="dg-axis"/><path d="M52 236C100 110 160 70 334 60" class="dg-curve-blue"/><path d="M52 236C110 160 170 132 334 124" class="dg-curve-green"/><path d="M52 236C120 205 190 190 334 184" class="dg-curve-gold"/><text x="334" y="48" class="dg-tb" text-anchor="end">More contractility</text><text x="334" y="112" class="dg-tg" text-anchor="end">Normal</text><text x="334" y="172" class="dg-tgold" text-anchor="end">Less contractility</text><circle cx="112" cy="176.6" r="5" class="dg-dot"/><circle cx="200" cy="139.9" r="5" class="dg-dot"/><circle cx="200" cy="80.2" r="5" class="dg-dot"/><path d="M122 164.6Q146.0 113.9 190 129.9" class="dg-line" marker-end="url(#fs-m)"/><text x="150.0" y="178.61781950932442" class="dg-num" text-anchor="middle">1</text><path d="M210 131.9V90.2" class="dg-line" marker-end="url(#fs-m)"/><text x="218" y="115.06887413431772" class="dg-num">2</text><text x="198" y="258" class="dg-s" text-anchor="middle">Filling (end-diastolic volume) →</text><text x="22" y="132" class="dg-s" text-anchor="middle" transform="rotate(-90 22 132)">Stroke volume →</text><text x="10" y="290" class="dg-t">1  Same curve: more filling gives a bigger</text><text x="10" y="308" class="dg-t">    stroke volume (the Frank–Starling law).</text><text x="10" y="332" class="dg-t">2  Same filling, higher curve: stronger</text><text x="10" y="350" class="dg-t">    contraction (contractility) gives more.</text></svg><p>Schematic, not patient measurements; afterload held constant.</p></figure>
 <figure class="learning-figure teaching-widget" data-widget="starling-explorer" data-desc="sr"><figcaption>Frank–Starling explorer</figcaption><p>Replaces the static curves. Three curves: low, normal and high contractility. A slider sets EDV, and the dot slides along the current curve. Buttons switch contractility, and the dot jumps up or down to another curve at the same EDV. A readout shows EDV, SV and CO (at 70 beats/min), and one sentence says which kind of change just happened.</p></figure>
 </div>
 
@@ -164,7 +164,7 @@ The lecture also lists **heart attack (myocardial infarction)** and **endomyocar
 
 <div class="co-cause-flow" role="group" aria-label="Beta adrenergic inotropic pathway"><span>β₁ receptor</span><b>→</b><span>Gs / adenylyl cyclase</span><b>→</b><span>cAMP / PKA ↑</span><b>→</b><span>Ca²⁺ cycling ↑</span><b>→</b><span>Stronger contraction</span></div>
 
-In plain terms, the signal ends up letting **more calcium in** through L-type channels and **more calcium out of the <span data-term="sarcoplasmic-reticulum">sarcoplasmic reticulum</span>**. More calcium means more cross-bridges and a stronger beat (positive **<span data-term="inotropy">inotropy</span>**). The same signal also speeds the pumping of calcium back into storage, so the muscle **relaxes faster** too (positive **<span data-term="lusitropy">lusitropy</span>**), which helps the ventricle refill at fast heart rates.
+In plain terms, the signal ends up letting **more calcium in** through L-type channels and **more calcium out of the <span data-term="sarcoplasmic-reticulum">sarcoplasmic reticulum</span>**. More calcium means more cross-bridges and a stronger beat (positive **<span data-term="inotropy">inotropy</span>**). The same signal also speeds the pumping of calcium back into storage, so the muscle **relaxes faster** too (positive **lusitropy**), which helps the ventricle refill at fast heart rates.
 
 **Caffeine and theophylline (<span data-term="xanthines">xanthines</span>)**, which the lecture lists, slow the breakdown of cAMP, so they can strengthen contraction. In everyday doses the effect is small.
 
@@ -198,7 +198,7 @@ So both HR and SV rise, and CO can increase several-fold.
 
 The lecture lists other states that raise cardiac output: **eating, a hot environment, pregnancy, anxiety and excitement, adrenaline-like drugs and an overactive thyroid (thyrotoxicosis)**. Each works through different mechanisms.
 
-**Blood loss (link to shock):** after a large bleed, venous return and preload fall. Reflex sympathetic activity raises heart rate and tightens blood vessels to hold up blood pressure for a while, but if SV falls far enough, CO and tissue blood flow still fall. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
+**Blood loss (link to shock):** after a large bleed, venous return and preload fall. Reflex sympathetic activity raises heart rate and tightens blood vessels to hold up blood pressure for a while, but if SV falls far enough, CO and tissue blood flow still fall. *(<a href="#/physiology/cvs/shock">→ Shock</a>)*
 
 **Understanding Check: Sections 6–9**
 

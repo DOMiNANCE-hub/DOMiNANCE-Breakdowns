@@ -39,7 +39,7 @@ So **high pressure alone doesn't mean high flow.** A blocked artery can have hig
 
 **Veins are "capacitance vessels"** (*capacity* = how much they hold) because they stretch easily. They can take in a lot of extra blood with little rise in pressure. When sympathetic nerves tighten them, that stored blood is pushed back to the heart (<a href="#/physiology/cvs/hemodynamics?section=10-why-can-veins-hold-more-blood-than-arteries">§10</a>).
 
-Capillary structure and lymph are covered in their own chapters. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)* *(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
+Capillary structure and lymph are covered in their own chapters. *(<a href="#/physiology/cvs/microcirculation">→ Microcirculation</a>)* *(<a href="#/physiology/cvs/lymphatics">→ Lymphatics</a>)*
 
 <aside class="source-note"><strong>Source note:</strong> One slide gives capillary gaps and fenestrations in millimetres. They are in fact nanometres to micrometres wide.</aside>
 
@@ -76,9 +76,9 @@ Each capillary is tiny, but there are billions of them side by side. Their **tot
 
 **Laminar flow** means blood moves in smooth layers (*lamina* = thin layer). The layer touching the wall is held back by friction and moves slowest. Each layer inward slides faster, and the centre is fastest.
 
-<figure class="learning-figure hemo-flow-figure"><figcaption>Figure 1. Idealised laminar blood-flow profile</figcaption><svg viewBox="0 0 540 165" role="img" aria-label="An idealised vessel with multiple flow arrows, the longest arrows at the centre and shortest nearest the vessel wall."><rect x="40" y="34" width="465" height="99" rx="10" fill="#e9f1ff" stroke="#8caccb" stroke-width="2"/><g stroke="#2162be" stroke-width="4" stroke-linecap="round"><path d="M89 49H179m-10 -7 10 7 -10 7" fill="none"/><path d="M89 72H365m-10 -7 10 7 -10 7" fill="none"/><path d="M89 96H446m-10 -7 10 7 -10 7" fill="none"/><path d="M89 118H365m-10 -7 10 7 -10 7" fill="none"/></g><g fill="currentColor" font-size="12"><text x="41" y="22">Near the wall: slow</text><text x="299" y="22">Near centre: fast</text><text x="41" y="153">Original schematic — not a measured flow profile</text></g></svg><p>The ideal no-slip profile explains the lecturer's arrows. Actual blood contains cells and flowing vessels branch, pulse and deform, so the profile is not always exactly parabolic.</p></figure>
+<figure class="learning-figure hemo-flow-figure dg-figure"><figcaption>Figure 1. Idealised laminar blood-flow profile</figcaption><svg viewBox="0 0 360 200" role="img" aria-label="A vessel with flow arrows of different lengths: short near the walls, longest in the centre, forming a curved, parabolic profile."><defs><marker id="lm-m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head"/></marker><marker id="lm-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-blue"/></marker><marker id="lm-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-red"/></marker><marker id="lm-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="dg-head-gold"/></marker></defs><text x="20" y="24" class="dg-s">Vessel wall</text><rect x="16" y="34" width="330" height="116" rx="12" class="dg-blue-soft"/><path d="M34 52H104" class="dg-flow" marker-end="url(#lm-b)"/><path d="M34 72H234" class="dg-flow" marker-end="url(#lm-b)"/><path d="M34 92H296" class="dg-flow" marker-end="url(#lm-b)"/><path d="M34 112H234" class="dg-flow" marker-end="url(#lm-b)"/><path d="M34 132H104" class="dg-flow" marker-end="url(#lm-b)"/><text x="20" y="174" class="dg-s">Arrow length = speed: slowest at the wall,</text><text x="20" y="192" class="dg-s">fastest in the centre.</text></svg><p>The ideal no-slip profile explains the lecturer's arrows. Actual blood contains cells and flowing vessels branch, pulse and deform, so the profile is not always exactly parabolic.</p></figure>
 
-**Laminar flow is silent.** When flow becomes **turbulent**, swirling in eddies, it makes **noise**: murmurs in the heart, bruits in arteries. *(<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">→ Heart Sounds, §6</a>)*
+**Laminar flow is silent.** When flow becomes **turbulent**, swirling in eddies, it makes **noise**: murmurs in the heart, bruits in arteries. *(<a href="#/physiology/cvs/heart-sounds?section=6-what-makes-a-murmur">→ Heart Sounds, §6</a>)*
 
 **What makes turbulence more likely?** The **Reynolds number (Re)** sums it up:
 
@@ -96,8 +96,8 @@ A high Re makes turbulence **more likely**, not certain. Branching and sudden na
 
 **Two examples:**
 
-- **Anaemia:** thinner blood (lower viscosity) and a faster circulation can cause a **<span data-term="flow-murmur">flow murmur</span>** with normal valves.
-- **A narrowed artery:** blood speeds up through the narrow part and becomes turbulent beyond it, causing a **<span data-term="bruit">bruit</span>**.
+- **Anaemia:** thinner blood (lower viscosity) and a faster circulation can cause a **flow murmur** with normal valves.
+- **A narrowed artery:** blood speeds up through the narrow part and becomes turbulent beyond it, causing a **bruit**.
 
 ## 6. Why is vessel radius such a powerful determinant of flow?
 
@@ -151,10 +151,10 @@ Blood viscosity depends mainly on the **haematocrit**, the percentage of blood m
 
 Vessels are arranged in two ways:
 
-- **<span data-term="in-series">In series</span>** (one after another, like the arteries then arterioles then capillaries): the resistances **add up**.
-- **<span data-term="in-parallel">In parallel</span>** (side by side, like the many capillaries in a bed, or the organs off the aorta): each extra path **lowers** the total resistance, because blood has more routes.
+- **In series** (one after another, like the arteries then arterioles then capillaries): the resistances **add up**.
+- **In parallel** (side by side, like the many capillaries in a bed, or the organs off the aorta): each extra path **lowers** the total resistance, because blood has more routes.
 
-**This solves a puzzle.** Each capillary is narrower than an arteriole, so why aren't capillaries the main resistance? Because there are so many of them **in parallel** that their combined resistance is lower. The **arterioles**, with their muscular walls, are where the biggest pressure drop happens and where resistance can be **adjusted**.
+**This solves a puzzle.** Each capillary is narrower than an arteriole, so why aren't capillaries the main resistance? Because there are so many of them **<span data-term="in-parallel">in parallel</span>** that their combined resistance is lower. The **arterioles**, with their muscular walls, are where the biggest pressure drop happens and where resistance can be **adjusted**.
 
 **In practice:** when an organ's arterioles constrict, its blood flow falls; when they dilate, its flow rises. The heart's output is the same, but it is shared out differently.
 
@@ -178,7 +178,7 @@ The lecture also gives an **arm-to-tongue circulation time of about 15 seconds**
 
 Veins are far more compliant than arteries: they balloon out with little pressure. So **most of the blood volume sits in the veins** (about two-thirds at rest), ready to be called on.
 
-**Why does tightening the veins help cardiac output?** Sympathetic nerves make the veins less stretchy. The stored blood is squeezed towards the heart, so <span data-term="venous-return">venous return</span>, <span data-term="edv">EDV</span> and, through Frank–Starling, <span data-term="stroke-volume">stroke volume</span> all rise. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
+**Why does tightening the veins help cardiac output?** Sympathetic nerves make the veins less stretchy. The stored blood is squeezed towards the heart, so <span data-term="venous-return">venous return</span>, <span data-term="edv">EDV</span> and, through Frank–Starling, <span data-term="stroke-volume">stroke volume</span> all rise. *(<a href="#/physiology/cvs/cardiac-output?section=4-frank-starling-law-why-does-more-filling-produce-more-ejection">→ Cardiac Output, §4</a>)*
 
 **Understanding Check: Sections 7–10**
 

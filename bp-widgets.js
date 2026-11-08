@@ -109,7 +109,7 @@
         `<ellipse cx="${X - mx - 40}" cy="153" rx="42" ry="62" class="mp-muscle${sq ? ' is-on' : ''}"/><ellipse cx="${X + mx + 40}" cy="153" rx="42" ry="62" class="mp-muscle${sq ? ' is-on' : ''}"/>` +
         `<text x="${X - mx - 40}" y="157" text-anchor="middle" class="tw-tiny tw-strong">calf muscle</text><text x="${X + mx + 40}" y="157" text-anchor="middle" class="tw-tiny tw-strong">calf muscle</text>` +
         valve(98, sq || st) + valve(208, !sq) +
-        `<text x="${X + 34}" y="92" class="tw-tiny tw-muted">upper valve: ${sq || st ? 'open' : 'shut'}</text><text x="${X + 34}" y="202" class="tw-tiny tw-muted">lower valve: ${!sq ? 'open' : 'shut'}</text>` +
+        `<text x="${X + 34}" y="82" class="tw-tiny tw-muted mp-label">upper valve: ${sq || st ? 'open' : 'shut'}</text><text x="${X + 46}" y="234" class="tw-tiny tw-muted mp-label">lower valve: ${!sq ? 'open' : 'shut'}</text>` +
         (sq ? `<path d="M${X} 190 V40" class="mp-arrow" marker-end="url(#mp-h)"/>` : '') +
         (state === 'relax' ? `<path d="M${X} 275 V130" class="mp-arrow" marker-end="url(#mp-h)"/>` : '') +
         `<defs><marker id="mp-h" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" class="mp-head"/></marker></defs></svg>`;
