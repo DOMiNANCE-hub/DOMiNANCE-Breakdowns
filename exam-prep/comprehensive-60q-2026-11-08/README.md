@@ -1,3 +1,5 @@
+[Download all 16 PDFs as one ZIP](./DOMiNANCE_CVS_Complete_Mock_PDF_Pack.zip)
+
 # DOMiNANCE CVS mock examinations (8 November 2026)
 
 **Review draft - independent academic sign-off pending.**
@@ -31,3 +33,6 @@ Four complete 60-question, 90-minute examination papers, with four 40-question, 
 [Production audit](./PRODUCTION_AUDIT.md) | [Master machine-readable question set](./master-question-manifest.json)
 
 All 240 comprehensive question IDs are distinct. The four 40-question versions are subsets, not an additional 160 distinct items. Mock 01 preserves its five-option questions; Mocks 02-04 preserve the lecture-bank four-option format. Online resources informed concept checks; no online questions were copied. Do not publish to students as independently verified until reviewed.
+
+
+[Production QA checklist](./QUALITY_CHECK.md)
