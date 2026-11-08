@@ -73,7 +73,7 @@ Slides: 7–10
 Chapter: Chapter 2 — Cardiac Muscle Physiology
 Section: 2. Intercalated discs: how separate cells function together
 Type: mechanism
-Stem: Why can an electrical impulse spread rapidly between adjacent cardiac muscle cells?
+Stem: How can an impulse spread rapidly between adjacent cardiac muscle cells?
 A. Gap junctions provide low-resistance electrical connections.
 B. Each cell must first receive a motor-neuron endplate signal.
 C. The connective tissue between cells conducts sodium current.
@@ -137,7 +137,7 @@ Slides: Chapter 2 §5 (supplementary)
 Chapter: Chapter 2 — Cardiac Muscle Physiology
 Section: 6. Why can't cardiac muscle undergo normal tetanus?
 Type: mechanism
-Stem: Why does cardiac ventricular muscle not undergo sustained tetanic contraction in normal physiology?
+Stem: What prevents ventricular myocytes from sustaining a normal tetanus?
 A. Refractoriness lasts through most of contraction.
 B. It contains no contractile actin or myosin filaments.
 C. It lacks voltage-gated calcium channels.
@@ -253,7 +253,7 @@ Stem: A ventricular impulse occurs independently of atrial excitation after comp
 A. The SA node has increased its firing rate.
 B. The aortic valves transmit an alternate impulse.
 C. Atrial excitation now travels directly through the lungs.
-D. A subsidiary ventricular pacemaker has taken over.
+D. A subsidiary escape pacemaker has taken over.
 Answer: D
 Why: Complete AV block prevents atrial impulses from reaching ventricles; a slower escape pacemaker may maintain ventricular rhythm.
 Not A: Faster atrial activity alone cannot restore complete AV conduction.
@@ -329,7 +329,7 @@ Slides: 14–17
 Chapter: Chapter 4 — The Cardiac Cycle
 Section: 5. Ejection: why blood finally leaves
 Type: comparison
-Stem: How does ventricular ejection normally change between its early and late portions?
+Stem: How does ventricular blood outflow change from early to late systole?
 A. It starts rapidly and then becomes reduced ejection.
 B. It starts slowly and accelerates until valve closure.
 C. It remains identical in flow throughout systole.
@@ -569,7 +569,7 @@ Slides: 20, 35–36; Chapter 7 §2
 Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
 Section: 3. What determines stroke volume?
 Type: conceptual
-Stem: In the Frank–Starling mechanism, what directly explains stronger contraction after greater ventricular filling?
+Stem: Under the Frank–Starling law, why does greater ventricular filling strengthen systolic force?
 A. Stretch of myocardial fibres strengthens contraction.
 B. Higher afterload increases systemic venous return.
 C. Lower venous return increases sarcomere overlap.
@@ -653,7 +653,7 @@ Stem: Which condition is most likely to depress myocardial contractility rather 
 A. Acute beta-1 adrenergic activation.
 B. Raised circulating catecholamines.
 C. Severe hypoxia with acidosis.
-D. Greater calcium availability in the myocardium.
+D. Increased calcium availability in cells.
 Answer: C
 Why: Severe hypoxia and acidosis impair myocardial function and are listed as causes of depressed inotropy.
 Not A: Beta-1 activation generally enhances contractility.
@@ -729,7 +729,7 @@ Slides: 52–53
 Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
 Section: 3. Where do the oxygen measurements come from?
 Type: methods
-Stem: For a valid whole-body Fick calculation, the venous sample should best represent which blood?
+Stem: In a whole-body Fick measurement, which blood should the return-side oxygen sample represent?
 A. Oxygenated blood in a systemic artery.
 B. Mixed venous blood entering the lungs.
 C. Blood in a single peripheral venule.
@@ -841,7 +841,7 @@ Slides: 64, 67; Chapter 9 §4
 Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 5. Laminar flow, turbulence and Reynolds number
 Type: mechanism
-Stem: In a straight vessel with steady laminar flow, where is blood velocity ordinarily greatest?
+Stem: For steady laminar flow through a straight tube, where is linear velocity highest?
 A. At the endothelial wall.
 B. At the vessel centre.
 C. Uniformly across the lumen.
@@ -905,7 +905,7 @@ Slides: 71–72
 Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 9. How can blood flow be measured?
 Type: methods
-Stem: An electromagnetic blood-flow meter estimates flow using which physical principle?
+Stem: What principle allows an electromagnetic flowmeter to determine vascular flow?
 A. Conductive blood moving in a magnetic field generates a measurable voltage.
 B. An oxygen content difference equals flow independent of metabolism.
 C. A cuff detects the onset of venous Korotkoff sounds.
@@ -1049,7 +1049,7 @@ Slides: 57, 61, 76; Chapter 10 §9
 Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
 Section: 1. What is an arterial pulse?
 Type: conceptual
-Stem: What is palpated when a clinician feels the radial arterial pulse?
+Stem: What is detected by the fingers when palpating the radial pulse?
 A. Individual red cells striking the wrist.
 B. A pressure wave propagated by arterial wall distension.
 C. A direct pulse of venous blood into the radial artery.
@@ -1177,7 +1177,7 @@ Slides: 59, 73–75, 97–98
 Chapter: Chapter 12 — Veins and Venous Return
 Section: 3. What pressure actually drives venous return?
 Type: mechanism
-Stem: Which pressure difference is most relevant to systemic venous return toward the right atrium?
+Stem: Which pressure difference primarily drives blood back to the right atrium from the body?
 A. Left ventricular systolic minus aortic diastolic pressure.
 B. Pulmonary venous minus pulmonary capillary pressure.
 C. Aortic systolic minus right ventricular systolic pressure.
@@ -1193,7 +1193,7 @@ Slides: 97; Chapter 12 §3
 Chapter: Chapter 12 — Veins and Venous Return
 Section: 4. How do the skeletal-muscle pump and venous valves work?
 Type: mechanism
-Stem: Why do one-way valves make the leg-muscle pump effective during walking?
+Stem: What mechanical advantage do venous valves provide to a contracting calf-muscle pump?
 A. They prevent backward blood movement during muscular compression.
 B. They directly increase the oxygen-carrying capacity of venous blood.
 C. They eliminate hydrostatic pressure from the entire limb.
@@ -1273,7 +1273,7 @@ Slides: 57–58, 83–84
 Chapter: Chapter 13 — Microcirculation and Capillary Exchange
 Section: 3. How do substances actually cross the capillary wall?
 Type: mechanism
-Stem: Which transport mechanism delivers most oxygen across a normal capillary wall to surrounding tissue?
+Stem: Which mechanism supplies a respiratory gas from capillary blood to nearby tissues?
 A. Bulk movement of intact plasma proteins.
 B. Oxygen diffusion along its partial-pressure gradient.
 C. Active pumping of intact red cells through the wall.
@@ -1417,7 +1417,7 @@ Slides: 93
 Chapter: Chapter 14 — Formation of Oedema
 Section: 6. How does inflammation increase oedema?
 Type: mechanism
-Stem: Inflamed tissue becomes swollen and warm. Which change contributes directly to the oedema?
+Stem: During local inflammation, what microvascular change produces oedema?
 A. Increased permeability permits protein-rich fluid to enter tissue.
 B. Reduced permeability traps interstitial fluid inside capillaries.
 C. Venous valves close and abolish arterial inflow.
@@ -1433,7 +1433,7 @@ Slides: 90–93; Chapter 14 §6
 Chapter: Chapter 14 — Formation of Oedema
 Section: 8. Why are pitting and non-pitting oedema different?
 Type: clinical-application
-Stem: A patient has chronic firm limb swelling after removal of regional lymph nodes. What most likely explains its persistent character?
+Stem: Following regional node removal, a patient develops persistent firm limb swelling. What explains it?
 A. Raised arterial oxygen causes tightness.
 B. Excess venous flow clears local proteins.
 C. Protein accumulation after failed lymph drainage.
@@ -1497,7 +1497,7 @@ Slides: 60; Chapter 15 §2
 Chapter: Chapter 15 — Lymphatic Circulation
 Section: 3. How can lymph move when there is no central lymphatic heart?
 Type: mechanism
-Stem: What keeps lymph moving toward major veins despite low lymphatic pressures?
+Stem: What keeps tissue fluid moving through collecting lymph vessels toward the great veins?
 A. Only the left ventricular ejection pressure.
 B. Constant backflow from the vena cava.
 C. Valves, muscle movement and lymphatic contractions.
@@ -1513,7 +1513,7 @@ Slides: 60; Chapter 15 §3
 Chapter: Chapter 15 — Lymphatic Circulation
 Section: 4. Where does lymph finally return to blood?
 Type: anatomy
-Stem: Where does most body lymph return to systemic venous blood?
+Stem: Where does most body lymph ultimately rejoin circulating blood?
 A. Directly into the right ventricle.
 B. Through the thoracic duct near the left venous angle.
 C. Through pulmonary capillaries into the left atrium.
@@ -1529,7 +1529,7 @@ Slides: 60; Chapter 15 §4
 Chapter: Chapter 15 — Lymphatic Circulation
 Section: 5. Why is the intestinal lymphatic system important in fat absorption?
 Type: mechanism
-Stem: A meal rich in long-chain fats increases which intestinal lymphatic transport?
+Stem: After a meal containing long-chain fats, which pathway carries these lipids from the gut?
 A. Direct red-cell delivery to lacteals.
 B. Renal filtration of absorbed fats.
 C. Oxygenated blood flow through the portal vein alone.
@@ -1545,7 +1545,7 @@ Slides: Chapter 15 §5 (supplementary)
 Chapter: Chapter 15 — Lymphatic Circulation
 Section: 7. Why does lymphatic obstruction cause lymphoedema?
 Type: application
-Stem: A patient develops marked limb lymphoedema after lymphatic damage from filarial infection. What has failed?
+Stem: In filarial-associated chronic limb swelling, what clearance mechanism has failed?
 A. Lymphatic removal of interstitial fluid and proteins.
 B. Secretion of albumin by the liver into venous blood.
 C. Electrical conduction through the AV node.
