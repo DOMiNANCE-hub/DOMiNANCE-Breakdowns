@@ -102,7 +102,7 @@
           ${parts}
           <p class="lm-full"><a href="${chapterUrl(c.slug)}" target="_blank" rel="noopener">Open the full breakdown of ${esc(title(c.slug))}</a></p>
         </section>
-        <div class="lt-nav"><span></span><button type="button" class="btn btn-primary lm-next">${last ? 'Finish: my mistakes and the test' : 'Next chapter: ' + esc(title(chapters[st.ci + 1].slug))}</button></div>`, 'Must-know');
+        <div class="lt-nav"><span></span><button type="button" class="btn btn-primary lm-next">${last ? (testUrl ? 'Finish: my mistakes and the test' : 'Finish: my mistakes') : 'Next chapter: ' + esc(title(chapters[st.ci + 1].slug))}</button></div>`, 'Must-know');
       root.querySelector('.lm-next').addEventListener('click', () => {
         if (last) st.step = 'finish'; else { st.ci += 1; st.step = 'check'; st.qi = 0; }
         save(); (last ? finish : check)(); window.scrollTo({top: 0, behavior: 'instant'});
@@ -118,7 +118,7 @@
       const size = plan.test === 'quick' && testCount > 25 ? 'quick' : 'all';
       frame(`<section class="lm-finish" aria-labelledby="lm-done">
           <h1 id="lm-done" tabindex="-1">You’ve been through ${esc(lecture.name)}</h1>
-          <p class="lm-result ${st.wrong.length ? '' : 'is-good'}">Checks: ${right} of ${totalChecks} right.${st.wrong.length ? ' Your mistakes are below. Fix them, then take the test.' : ' No mistakes. Now prove it on the lecture test.'}</p>
+          <p class="lm-result ${st.wrong.length ? '' : 'is-good'}">Checks: ${right} of ${totalChecks} right.${st.wrong.length ? ' Your mistakes are below.' + (testUrl ? ' Fix them, then take the test.' : '') : (testUrl ? ' No mistakes. Now prove it on the lecture test.' : ' No mistakes.')}</p>
           ${testUrl ? `<a class="test-card" href="${testUrl}?mode=instant&size=${size}&start=1"><span class="test-card-text"><span class="test-card-kicker">Last step</span><strong>Take the lecture test</strong><span>${size === 'quick' ? '20 random questions' : testCount + ' questions'} from the whole lecture, marked as you go</span></span><span class="test-card-go" aria-hidden="true">→</span></a>` : ''}
           ${st.wrong.length ? `<h2>Your mistakes</h2>${st.wrong.map(w => `<article class="lt-item is-wrong"><p class="lt-item-head">${esc(title(w.chapter))}</p><p class="lt-item-stem">${esc(w.stem)}</p><div class="lm-why">${w.why}</div><a class="lt-revise" href="${chapterUrl(w.chapter, w.section)}" target="_blank" rel="noopener">Revise §${esc(sectionNo(w.chapter, w.section))}</a></article>`).join('')}` : ''}
           ${night ? `<section class="lm-night"><h2>Your night-before list</h2><p>The highest-yield points from the chapters you slipped on. Read them again just before the exam.</p>${night}</section>` : ''}

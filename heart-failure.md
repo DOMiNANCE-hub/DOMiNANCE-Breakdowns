@@ -93,5 +93,5 @@ When the heart pumps too little, the **kidneys and <span data-term="baroreceptor
 4. **Left failure → lungs:** pulmonary oedema, breathlessness, worse lying flat (orthopnoea).
 5. **Right failure → body:** raised JVP, congested liver, ascites, ankle oedema. Left failure is its commonest cause.
 6. **Rescue systems** (sympathetic, RAAS, ADH) hold up pressure at first, but raise afterload and fluid, so they worsen failure.
-7. **Paradox:** waterlogged, yet the kidneys sense "too little blood".
+7. **Paradox:** the patient is waterlogged, yet the weak pump leaves the arteries underfilled, so the kidneys sense "too little blood" and keep retaining salt and water.
 8. **Frank–Starling** gives diminishing returns on a failing, flat curve.

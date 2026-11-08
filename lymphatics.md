@@ -137,4 +137,4 @@ Three jobs fail:
 6. **Lacteals** carry long-chain fats as **chylomicrons**. Milky gut lymph is **chyle**. Short- and medium-chain fats go straight to the blood.
 7. **Lymph flow can rise several-fold** to prevent oedema. Swelling appears when filtration outstrips it or drainage fails.
 8. **Lymphoedema** (filariasis, node removal, cancer): protein-rich, becoming firm and non-pitting.
-9. **Lost lymphatics** → swelling, weaker immune defence, poor fat absorption.
+9. **Lost lymphatics** → swelling (fluid and protein are left in the tissues), weaker immune defence (lymph no longer reaches the nodes' immune cells) and poor fat absorption (lacteals can't carry chylomicrons).

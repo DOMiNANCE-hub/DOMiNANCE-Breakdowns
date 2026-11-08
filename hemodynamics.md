@@ -203,7 +203,7 @@ Veins are far more compliant than arteries: they balloon out with little pressur
 5. **Laminar flow** is silent and fastest at the centre. **Turbulent flow** is noisy (murmurs, bruits).
 6. **Reynolds number** Re = ρvD ÷ η. High velocity, wide vessels and thin blood favour turbulence. Re is not resistance.
 7. **R ∝ 1/r⁴:** halve the radius, and resistance rises 16-fold. A 20% narrowing more than halves flow.
-8. **Viscosity** rises with haematocrit. Polycythaemia and anaemia both raise cardiac work, by different routes.
+8. **Viscosity** rises with haematocrit. Polycythaemia raises cardiac work because thicker blood raises resistance; anaemia raises it because each mL carries less oxygen, so the heart must pump more blood.
 9. **Arterioles** are the adjustable resistance. Parallel paths lower total resistance; series resistances add.
 10. **Doppler** measures velocity; flow = velocity × area.
 11. **Compliance** C = ΔV ÷ ΔP. Veins hold most of the blood, and tightening them raises venous return and stroke volume.

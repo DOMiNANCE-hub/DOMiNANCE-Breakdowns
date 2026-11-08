@@ -703,7 +703,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(await page.locator('.lamla-card').count() === 1, `LAMLA @${width}: no card on the CVS page`);
       await page.locator('.lamla-card').click();
       await page.waitForSelector('.lamla-lecture');
-      check(await page.locator('.lamla-lecture[data-lecture]').count() >= 1 && await page.locator('.lamla-lecture.is-soon').count() >= 1, `LAMLA @${width}: picker should list ready and coming-soon lectures`);
+      check(await page.locator('.lamla-lecture[data-lecture]').count() === 5 && await page.locator('.lamla-lecture.is-soon').count() === 0, `LAMLA @${width}: picker should list all five lectures (Lecture 5 shares Circulation 3)`);
       await page.locator('input[name="minutes"][value="30"]').check();
       await page.locator('[data-lecture="circulation-2"]').click();
       await page.waitForSelector('.lt-stem');

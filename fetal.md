@@ -83,4 +83,4 @@ Now **the left side has the higher pressure**, and each shunt closes:
 4. **Before birth the right side has the higher pressure**, so flow through the shunts is right-to-left.
 5. **HbF** binds oxygen more tightly (less 2,3-BPG binding), so it loads oxygen from the mother.
 6. **At birth:** the first breaths lower pulmonary resistance; cord clamping raises systemic resistance; **left pressure > right**.
-7. **Remnants:** fossa ovalis, ligamentum arteriosum, ligamentum venosum, ligamentum teres, medial umbilical ligaments.
+7. **Remnants:** foramen ovale → fossa ovalis; ductus arteriosus → ligamentum arteriosum; ductus venosus → ligamentum venosum; umbilical vein → ligamentum teres; umbilical arteries → medial umbilical ligaments.
