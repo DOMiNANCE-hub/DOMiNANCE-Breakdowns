@@ -22,6 +22,7 @@ for (const dir of ['content', 'assets']) {
 }
 
 writeFileSync(join(out, '_headers'), `/
+  Cache-Control: public, max-age=0, must-revalidate
 /index.html
   Cache-Control: public, max-age=0, must-revalidate
 /sw.js
