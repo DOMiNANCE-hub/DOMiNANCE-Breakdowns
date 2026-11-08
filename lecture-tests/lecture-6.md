@@ -105,7 +105,7 @@ Slides: 6–7, 16
 Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 5. The coverings, the ventricles and CSF
 Type: mechanism
-Stem: Once CSF reaches the subarachnoid space, how is it returned mainly to the venous circulation?
+Stem: Once CSF reaches the subarachnoid space, through which route is it mainly absorbed?
 A. Through arachnoid villi into dural venous sinuses.
 B. Through pia mater directly into cerebral arteries.
 C. Through the foramen of Monro into the veins.
@@ -281,7 +281,7 @@ Slides: 22–23
 Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 7. Stroke
 Type: comparison
-Stem: A cerebral vessel ruptures and blood enters brain tissue. What stroke mechanism is present?
+Stem: A cerebral vessel ruptures and blood enters brain tissue. Which type of cerebrovascular event is present?
 A. Thrombotic ischaemia.
 B. Embolic ischaemia.
 C. Haemorrhagic stroke.
@@ -329,7 +329,7 @@ Slides: 27
 Chapter: Chapter 23 — Coronary Circulation
 Section: 2. Trace coronary inflow and venous drainage
 Type: anatomy
-Stem: Most coronary venous blood returns to the right atrium through which structure?
+Stem: Most blood draining the myocardium returns to the right atrium through which structure?
 A. The coronary sinus.
 B. The pulmonary veins.
 C. The superior vena cava alone.
@@ -377,7 +377,7 @@ Slides: 28
 Chapter: Chapter 23 — Coronary Circulation
 Section: 4. How does coronary flow match changing myocardial work?
 Type: comparison
-Stem: What is the direct action of alpha-receptor activation on coronary vascular smooth muscle?
+Stem: What effect does activating alpha-adrenoceptors have on vessels supplying the myocardium?
 A. Direct coronary vasoconstriction.
 B. Metabolic vasodilation.
 C. Capillary oxygen extraction.
@@ -557,7 +557,7 @@ Stem: An alveolar region becomes poorly ventilated and its oxygen tension falls.
 A. Arteriolar dilation, drawing more blood to the region.
 B. Systemic venous constriction, increasing cardiac preload.
 C. Complete loss of autonomic input to the region.
-D. Arterioles constrict, diverting blood to ventilated regions.
+D. Arterioles constrict, diverting blood to areas receiving fresh air.
 Answer: D
 Why: Low alveolar oxygen causes hypoxic pulmonary vasoconstriction, redirecting flow toward regions with better ventilation.
 Not A: Pulmonary hypoxic regulation is opposite to the usual local systemic response.
@@ -713,7 +713,7 @@ Slides: 37
 Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
 Section: 4. Why does fluid collect as ascites?
 Type: conceptual
-Stem: Why can the protein content of ascitic fluid vary between patients?
+Stem: Why can the protein concentration of ascites vary between patients?
 A. All ascites is produced by red-cell destruction.
 B. Ascites contains exactly the same proteins as blood.
 C. Its mechanism and site of fluid formation differ.
@@ -841,7 +841,7 @@ Slides: 40
 Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
 Section: 1. Why does the fetus need shortcuts?
 Type: mechanism
-Stem: Why does normal fetal circulation divert much blood away from the lungs?
+Stem: Why does the fetal cardiovascular system divert much blood away from the pulmonary circuit before birth?
 A. Pulmonary vascular resistance is exceptionally low before birth.
 B. The placenta oxygenates blood; fetal lungs resist flow.
 C. The fetal left ventricle cannot generate arterial pressure.
