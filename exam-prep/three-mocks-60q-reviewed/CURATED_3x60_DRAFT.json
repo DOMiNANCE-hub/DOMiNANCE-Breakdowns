@@ -215,7 +215,7 @@
             "Stroke volume increases because aortic recoil becomes stronger.",
             "Stroke volume increases because ventricular filling has increased.",
             "Stroke volume stays constant because heart rate has not changed.",
-            "Stroke volume falls as the ventricle ejects against higher afterload."
+            "Stroke volume decreases with greater aortic afterload."
           ],
           "answer": "D",
           "explanation": "Greater afterload makes ventricular ejection more difficult. Before compensatory adjustments, end-systolic volume tends to increase and stroke volume decreases.",
@@ -5204,24 +5204,7 @@
   "review_log": {
     "quality_actions": "All questions screened for structural validity, missing images, repeated stems, option-length clues and topic distribution. Replaced obvious or repetitive items and strengthened 25 flagged option sets.",
     "rewritten_option_sets": 23,
-    "correct_longest_exceptions": [
-      {
-        "m": "01",
-        "id": "DOM-CVS-0013",
-        "lengths": [
-          63,
-          66,
-          64,
-          69
-        ],
-        "options": [
-          "Stroke volume increases because aortic recoil becomes stronger.",
-          "Stroke volume increases because ventricular filling has increased.",
-          "Stroke volume stays constant because heart rate has not changed.",
-          "Stroke volume falls as the ventricle ejects against higher afterload."
-        ]
-      }
-    ],
+    "correct_longest_exceptions": [],
     "verified_external_examples": [
       {
         "topic": "BBB endothelial tight junctions",
