@@ -111,7 +111,7 @@ B. It triggers calcium release from the sarcoplasmic reticulum.
 C. It causes SERCA to release its stored calcium outward.
 D. It closes ryanodine receptors in the sarcoplasmic reticulum.
 Answer: B
-Why: Trigger calcium opens ryanodine receptors, releasing stored calcium in calcium-induced calcium release.
+Why: Trigger calcium opens ryanodine receptors, releasing stored calcium in calcium-induced calcium release. This amplifies the small trigger signal into a large intracellular calcium release.
 Not A: Calcium binds troponin C; ATP hydrolysis occurs in cross-bridge cycling.
 Not C: SERCA pumps calcium back into the SR during relaxation.
 Not D: Ryanodine receptors open rather than close in this mechanism.
@@ -125,7 +125,7 @@ Stem: A drug markedly inhibits SERCA in cardiac muscle. What change in relaxatio
 A. Faster removal of calcium from cytosol.
 B. Complete elimination of L-type calcium channels.
 C. Shorter calcium transient and stronger relaxation.
-D. Slower cytosolic calcium clearance and impaired relaxation.
+D. Slower calcium clearance causes impaired relaxation.
 Answer: D
 Why: SERCA normally resequesters calcium into the SR; inhibiting it prolongs the cytosolic calcium transient and slows relaxation.
 Not A: Calcium removal becomes slower, not faster.
@@ -138,7 +138,7 @@ Chapter: Chapter 2 — Cardiac Muscle Physiology
 Section: 6. Why can't cardiac muscle undergo normal tetanus?
 Type: mechanism
 Stem: Why does cardiac ventricular muscle not undergo sustained tetanic contraction in normal physiology?
-A. Its long refractory period overlaps most of the mechanical contraction.
+A. Refractoriness lasts through most of contraction.
 B. It contains no contractile actin or myosin filaments.
 C. It lacks voltage-gated calcium channels.
 D. Its action potentials can occur only once in a lifetime.
@@ -189,9 +189,9 @@ Stem: Why does the sinoatrial node ordinarily set the heart's rhythm rather than
 A. Its cells have the largest ventricular muscle mass.
 B. It receives oxygen from the pulmonary veins first.
 C. Its action potentials last longer than all other cells.
-D. Its intrinsic spontaneous depolarisation frequency is highest.
+D. It has the fastest intrinsic depolarisation rate.
 Answer: D
-Why: The SA node normally reaches threshold fastest and overdrive-suppresses slower latent pacemakers.
+Why: The SA node normally reaches threshold fastest and overdrive-suppresses slower latent pacemakers. Faster SA-node impulses normally suppress slower escape pacemakers.
 Not A: Pacemaker dominance does not depend on muscle mass.
 Not B: Coronary perfusion is not determined by pulmonary venous timing.
 Not C: Action potential duration is not the primary reason for the fastest spontaneous rate.
@@ -235,7 +235,7 @@ Section: 6. Why is ventricular conduction so rapid?
 Type: mechanism
 Stem: Why do Purkinje fibres help the two ventricles contract as coordinated pumps?
 A. They slow excitation until the pulmonary valve closes.
-B. They spread the impulse rapidly across ventricular myocardium.
+B. They rapidly activate ventricular myocardium.
 C. They delay the impulse longer than the AV node does.
 D. They selectively depolarise only the atrial septum.
 Answer: B
@@ -319,7 +319,7 @@ B. Atrial contraction briefly increases end-diastolic volume.
 C. Ventricular pressure falls below aortic pressure.
 D. Ventricular pressure exceeds the outflow artery pressure.
 Answer: D
-Why: Semilunar valves open when ventricular pressure exceeds aortic or pulmonary arterial pressure.
+Why: Semilunar valves open when ventricular pressure exceeds aortic or pulmonary arterial pressure. The pressure reversal is the immediate mechanical trigger for valve opening.
 Not A: This pressure relation opens the AV valves during filling.
 Not B: Atrial systole precedes isovolumetric contraction.
 Not C: Lower ventricular than aortic pressure holds the aortic valve closed.
@@ -378,12 +378,12 @@ Chapter: Chapter 4 — The Cardiac Cycle
 Section: 9. Reading the Wiggers diagram one trace at a time
 Type: interpretation
 Stem: A Wiggers diagram shows the QRS complex before a steep ventricular pressure rise. What does the QRS represent?
-A. Onset of atrial filling.
-B. Closure of the pulmonary veins.
-C. End of ventricular repolarisation.
-D. Electrical depolarisation preceding ventricular contraction.
+A. Beginning of passive atrial filling.
+B. Closure of the pulmonary venous openings.
+C. Completion of ventricular repolarisation.
+D. Electrical activation of the ventricles.
 Answer: D
-Why: QRS reflects ventricular electrical activation; mechanical pressure rises after excitation, during isovolumetric contraction.
+Why: QRS reflects ventricular electrical activation; mechanical pressure rises after excitation, during isovolumetric contraction. Thus QRS precedes the pressure rise; it does not measure ejection.
 Not A: Atrial filling is not the electrical event marked by QRS.
 Not B: Pulmonary veins do not close as cardiac valves.
 Not C: Ventricular repolarisation is represented mainly by the T wave.
@@ -394,7 +394,7 @@ Chapter: Chapter 4 — The Cardiac Cycle
 Section: 10. Right versus left heart, S2 splitting and heart rate
 Type: mechanism
 Stem: Why can inspiration delay pulmonary valve closure relative to aortic valve closure?
-A. Inspiration increases right ventricular venous return and prolongs its ejection.
+A. Inspiration raises right filling and prolongs ejection.
 B. Inspiration stops pulmonary blood flow during systole.
 C. Inspiration causes the aortic valve to close last by default.
 D. Inspiration lowers right ventricular preload to zero.
@@ -442,7 +442,7 @@ Chapter: Chapter 5 — Heart Sounds and Murmurs
 Section: 3. Why does S2 sometimes split with inspiration?
 Type: mechanism
 Stem: Why does the pulmonary component of S2 usually occur later during inspiration?
-A. Greater right-heart filling prolongs right ventricular ejection.
+A. More right-heart filling prolongs ejection.
 B. Inspiration immediately closes the pulmonary trunk.
 C. Reduced right ventricular filling shortens ejection.
 D. Inspiration causes the aortic valve to close after P2.
@@ -557,7 +557,7 @@ Stem: Why might increasing heart rate far above normal eventually reduce cardiac
 A. Contractility necessarily falls to zero.
 B. Diastolic time becomes longer and increases filling.
 C. The mitral valve is forced to remain permanently open.
-D. Reduced filling time can lower stroke volume more than rate increases.
+D. Shorter diastole reduces filling and stroke volume.
 Answer: D
 Why: Extreme tachycardia shortens diastole, reduces filling and may decrease stroke volume enough to lower output.
 Not A: Contractility does not necessarily become zero.
@@ -570,8 +570,8 @@ Chapter: Chapter 7 — Cardiac Output and the Frank–Starling Law
 Section: 3. What determines stroke volume?
 Type: conceptual
 Stem: In the Frank–Starling mechanism, what directly explains stronger contraction after greater ventricular filling?
-A. Greater myocardial fibre stretch improves force generation.
-B. Higher afterload always reduces end-diastolic volume.
+A. Stretch of myocardial fibres strengthens contraction.
+B. Higher afterload increases systemic venous return.
 C. Lower venous return increases sarcomere overlap.
 D. Reduced preload stimulates immediate calcium extrusion.
 Answer: A
@@ -607,7 +607,7 @@ B. High pericardial pressure restricts ventricular filling.
 C. Tamponade directly raises venous return above normal.
 D. The aortic valve cannot open due solely to a high heart rate.
 Answer: B
-Why: Elevated intrapericardial pressure limits end-diastolic filling and preload, reducing stroke volume.
+Why: Elevated intrapericardial pressure limits end-diastolic filling and preload, reducing stroke volume. The restricted ventricular volume prevents an adequate Frank–Starling response.
 Not A: Tamponade reduces the ability of ventricles to expand.
 Not C: Venous return and effective filling become impaired.
 Not D: Valvular opening depends on pressure, but reduced preload is the central problem.
@@ -623,7 +623,7 @@ B. Increased circulating red-cell mass.
 C. Greater coronary artery blood flow.
 D. Venous pooling reducing return to the heart.
 Answer: D
-Why: Gravity shifts blood into compliant leg veins, decreasing venous return and end-diastolic filling.
+Why: Gravity shifts blood into compliant leg veins, decreasing venous return and end-diastolic filling. Stroke volume then falls transiently by Frank–Starling physiology.
 Not A: Atrial contraction tends to increase rather than reduce filling.
 Not B: Red-cell mass does not change in seconds with posture.
 Not C: Coronary flow does not explain the immediate preload decline.
@@ -639,7 +639,7 @@ B. Less calcium entry into ventricular cells.
 C. Reduced phosphorylated calcium-handling proteins.
 D. Complete cessation of SA-node automaticity.
 Answer: A
-Why: Beta-adrenergic cAMP–PKA signalling increases calcium influx and handling, producing positive inotropy.
+Why: Beta-adrenergic cAMP–PKA signalling increases calcium influx and handling, producing positive inotropy. More calcium becomes available to bind troponin during systole.
 Not B: Beta-adrenergic signalling tends to increase calcium entry.
 Not C: PKA phosphorylates key calcium-handling proteins.
 Not D: Beta stimulation generally accelerates, rather than abolishes, pacemaker activity.
@@ -667,7 +667,7 @@ Section: 8. How do preload, afterload and inotropy differ in real situations?
 Type: mechanism
 Stem: A patient's blood pressure rises markedly with no initial change in contractility or preload. What happens to ventricular afterload?
 A. It falls as the aortic pressure increases.
-B. It increases because the ventricle must eject against greater pressure.
+B. Higher arterial pressure opposes ventricular ejection.
 C. It becomes identical to ventricular end-diastolic volume.
 D. It disappears once the semilunar valves open.
 Answer: B
@@ -685,7 +685,7 @@ Stem: During graded exercise, which combination helps increase cardiac output?
 A. Greater vagal activity and smaller stroke volume.
 B. Reduced sympathetic drive and greater afterload.
 C. Slower pacemaking and lower venous return.
-D. Increased sympathetic rate, contractility and venous return.
+D. Greater heart rate, contractility and venous return.
 Answer: D
 Why: Sympathetic drive raises heart rate and contractility while muscle pumping supports venous return, enabling higher cardiac output.
 Not A: Vagal dominance would tend to slow the heart.
@@ -714,9 +714,9 @@ Chapter: Chapter 8 — Measuring Cardiac Output and the Work of the Heart
 Section: 2. Fick's principle: working out flow from oxygen use
 Type: mechanism
 Stem: What conservation principle underlies Fick measurement of cardiac output?
-A. Venous oxygen content always equals arterial oxygen content.
+A. Venous oxygen usually matches arterial oxygen content.
 B. The heart produces all consumed oxygen internally.
-C. Whole-body oxygen use equals flow times arterial–venous content difference.
+C. Oxygen use equals flow × arterial–venous oxygen difference.
 D. Oxygen consumption is independent of blood flow and extraction.
 Answer: C
 Why: By mass balance, oxygen uptake across lungs and consumption by tissues equal cardiac output multiplied by arterial–venous oxygen content difference.
@@ -749,7 +749,7 @@ Stem: What does the mechanical stroke work of a ventricle represent?
 A. Electrical energy in the SA node over one minute.
 B. The number of coronary capillaries recruited.
 C. Heart rate multiplied by body surface area.
-D. Mechanical energy spent ejecting blood against pressure per beat.
+D. Pressure–volume work performed per ventricular beat.
 Answer: D
 Why: The ventricle performs pressure–volume work as it ejects stroke volume against an arterial pressure load.
 Not A: Pacemaker electrical energy is not mechanical stroke work.
@@ -799,7 +799,7 @@ B. 3 L/min.
 C. 4 L/min.
 D. 8 L/min.
 Answer: C
-Why: Flow equals pressure difference divided by resistance: 80/20 = 4 L/min.
+Why: Flow equals pressure difference divided by resistance: 80/20 = 4 L/min. Increasing resistance with the same pressure difference would lower flow.
 Not A: Two L/min would correspond to resistance of 40.
 Not B: Three L/min does not fit the given ratio.
 Not D: Eight L/min would correspond to resistance of 10.
@@ -815,7 +815,7 @@ B. Large veins.
 C. Capillaries.
 D. The venae cavae.
 Answer: A
-Why: Arteriolar smooth muscle changes diameter markedly, allowing tissues to regulate resistance and flow.
+Why: Arteriolar smooth muscle changes diameter markedly, allowing tissues to regulate resistance and flow. A small diameter change produces a large resistance change through the fourth-power relationship.
 Not B: Large veins chiefly serve as capacitance vessels.
 Not C: Capillaries mainly exchange materials and have no continuous smooth-muscle coat.
 Not D: The venae cavae are low-resistance return conduits.
@@ -874,12 +874,12 @@ Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 6. Why is vessel radius such a powerful determinant of flow?
 Type: calculation
 Stem: An arteriole's radius falls to half its previous value; other variables stay constant. How does its resistance change?
-A. It doubles.
-B. It increases fourfold.
-C. It increases eightfold.
-D. It increases sixteenfold.
+A. By a factor of 2.
+B. By a factor of 4.
+C. By a factor of 8.
+D. By a factor of 16.
 Answer: D
-Why: Poiseuille resistance varies with 1/r⁴; halving radius raises resistance by 2⁴ = 16.
+Why: Poiseuille resistance varies with 1/r⁴; halving radius raises resistance by 2⁴ = 16. The radius effect is disproportionately large because it is raised to the fourth power.
 Not A: A doubling assumes linear radius dependence.
 Not B: Fourfold assumes a square-law dependence.
 Not C: Eightfold assumes a cubic rather than fourth-power relation.
@@ -906,7 +906,7 @@ Chapter: Chapter 9 — Blood Flow and Haemodynamics
 Section: 9. How can blood flow be measured?
 Type: methods
 Stem: An electromagnetic blood-flow meter estimates flow using which physical principle?
-A. A moving conductive fluid generates a detectable voltage in a magnetic field.
+A. Conductive blood moving in a magnetic field generates a measurable voltage.
 B. An oxygen content difference equals flow independent of metabolism.
 C. A cuff detects the onset of venous Korotkoff sounds.
 D. A radioactive tracer measures only red-cell lifespan.
@@ -925,7 +925,7 @@ Stem: Compared with a large artery, why can a large vein store more blood for a 
 A. Venous walls contain more elastic recoil tissue than aorta.
 B. Veins have high compliance and distensible walls.
 C. Venous vessels are made mostly of cardiac muscle.
-D. Venous capillary pressure is always higher than systemic arterial pressure.
+D. Venous pressure generally exceeds aortic systolic pressure.
 Answer: B
 Why: Veins have thin distensible walls and high compliance, so volume changes greatly for modest pressure changes.
 Not A: Large arteries have substantial elastic tissue; veins serve mainly as capacitance vessels.
@@ -959,7 +959,7 @@ B. 40 mmHg.
 C. 44 mmHg.
 D. 48 mmHg.
 Answer: D
-Why: Pulse pressure equals systolic minus diastolic: 132 − 84 = 48 mmHg.
+Why: Pulse pressure equals systolic minus diastolic: 132 − 84 = 48 mmHg. It measures the pressure swing between systole and diastole.
 Not A: Thirty-six is below the arithmetic difference.
 Not B: Forty does not equal 132 minus 84.
 Not C: Forty-four is four mmHg below the difference.
@@ -1004,7 +1004,7 @@ Type: mechanism
 Stem: During manual auscultatory BP measurement, what does the first clear Korotkoff sound indicate?
 A. Diastolic pressure at complete flow cessation.
 B. The mean arterial pressure by definition.
-C. Approximate systolic pressure as flow begins through the compressed artery.
+C. Systolic pressure as turbulent flow first appears.
 D. The pulse pressure as the cuff first touches the arm.
 Answer: C
 Why: The first Korotkoff sounds emerge when cuff pressure falls just below systolic arterial pressure and blood begins passing intermittently.
@@ -1021,7 +1021,7 @@ Stem: A cuff that is far too small is used on a large upper arm. Which measureme
 A. Falsely low BP from excessive arterial unloading.
 B. No systematic effect on cuff pressure.
 C. Only diastolic pressure becomes unmeasurable.
-D. Falsely high BP because greater pressure is needed to compress the artery.
+D. Falsely high pressure due to inadequate cuff coverage.
 Answer: D
 Why: An undersized cuff transmits pressure poorly around a large arm and commonly overestimates measured pressure.
 Not A: A small cuff usually overestimates rather than underestimates BP.
@@ -1055,7 +1055,7 @@ B. A pressure wave propagated by arterial wall distension.
 C. A direct pulse of venous blood into the radial artery.
 D. An electrical signal passing along the endothelium.
 Answer: B
-Why: Each ventricular ejection creates an arterial pressure/distension wave that travels along the arteries.
+Why: Each ventricular ejection creates an arterial pressure/distension wave that travels along the arteries. This pressure wave moves faster than the bulk blood itself.
 Not A: Red cells are not separately felt during palpation.
 Not C: Venous blood does not directly pulse into systemic arteries.
 Not D: The palpable pulse is mechanical rather than an electrical conduction wave.
@@ -1071,7 +1071,7 @@ B. Aortic valve opening.
 C. Rapid ventricular ejection.
 D. Pulmonary valve closure.
 Answer: A
-Why: The a wave reflects the rise in right atrial pressure during atrial systole.
+Why: The a wave reflects the rise in right atrial pressure during atrial systole. It occurs immediately before right ventricular contraction.
 Not B: Aortic opening is a left ventricular outflow event.
 Not C: Ventricular ejection is not the primary a-wave mechanism.
 Not D: Pulmonary closure occurs near end systole.
@@ -1084,7 +1084,7 @@ Type: interpretation
 Stem: The jugular venous 'c' wave is chiefly linked to which event?
 A. Passive systemic venous filling late in systole.
 B. Rapid emptying of the right atrium.
-C. Bulging of the closed tricuspid valve into the atrium during ventricular contraction.
+C. Tricuspid valve bulging into the atrium during systole.
 D. Right atrial contraction immediately before QRS.
 Answer: C
 Why: Early right ventricular contraction can bulge the shut tricuspid valve toward the right atrium, contributing to the c wave.
@@ -1098,10 +1098,10 @@ Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
 Section: 4. Why are the a, c and v waves separated by x and y descents?
 Type: interpretation
 Stem: What does the normal jugular venous 'v' wave mainly represent?
-A. Closure of the pulmonary valve.
+A. Closure of the pulmonary semilunar valve.
 B. Right atrial electrical depolarisation.
-C. End of aortic ejection.
-D. Right atrial filling while the tricuspid valve is closed.
+C. Completion of left ventricular ejection.
+D. Atrial filling behind a closed tricuspid valve.
 Answer: D
 Why: Systemic venous return fills the right atrium during ventricular systole while the tricuspid valve remains closed, creating the v wave.
 Not A: Pulmonary valve closure is near S2.
@@ -1114,7 +1114,7 @@ Chapter: Chapter 11 — Arterial Pulse and Jugular Venous Pulse
 Section: 4. Why are the a, c and v waves separated by x and y descents?
 Type: comparison
 Stem: What distinguishes the normal x descent from the y descent in a JVP trace?
-A. x: atrial relaxation; y: rapid atrial emptying after tricuspid opening.
+A. x: atrial relaxation; y: emptying through the open tricuspid.
 B. x: atrial contraction; y: ventricular isovolumetric contraction.
 C. x: ventricular ejection; y: pulmonary arterial recoil.
 D. x: aortic valve opening; y: mitral valve closure.
@@ -1164,7 +1164,7 @@ Type: mechanism
 Stem: Why do veins serve as the main blood-volume reservoir of the systemic circulation?
 A. Their walls have the highest resistance to flow.
 B. Their muscular walls actively pump blood at high pressure.
-C. Their high compliance permits large volume changes at low pressure.
+C. Large blood volumes at low pressure due to venous compliance.
 D. They hold blood only when aortic pressure is zero.
 Answer: C
 Why: Thin, compliant venous walls distend substantially with modest increases in pressure, allowing capacitance storage.
@@ -1228,7 +1228,7 @@ Type: application
 Stem: A patient's right ventricular pumping fails and right atrial pressure rises. Which consequence is most likely?
 A. A larger pressure gradient for systemic venous return.
 B. Less peripheral venous congestion.
-C. Reduced venous return driving pressure and systemic venous congestion.
+C. Smaller venous return gradient with upstream congestion.
 D. Complete disappearance of the jugular venous pulse.
 Answer: C
 Why: Higher right atrial pressure opposes venous return and transmits backward into systemic veins, causing congestion.
@@ -1242,7 +1242,7 @@ Chapter: Chapter 12 — Veins and Venous Return
 Section: 7. What happens to veins in the head when standing?
 Type: application
 Stem: Why are superficial neck veins often less distended in a healthy person who stands upright?
-A. Head-level venous hydrostatic pressure falls above heart level.
+A. Venous pressure decreases above the heart.
 B. The venae cavae reverse their direction of blood flow.
 C. Systemic venous pressure exceeds aortic systolic pressure.
 D. The skull's arteries pull venous valves fully open.
@@ -1275,7 +1275,7 @@ Section: 3. How do substances actually cross the capillary wall?
 Type: mechanism
 Stem: Which transport mechanism delivers most oxygen across a normal capillary wall to surrounding tissue?
 A. Bulk movement of intact plasma proteins.
-B. Diffusion down the dissolved-oxygen concentration gradient.
+B. Oxygen diffusion along its partial-pressure gradient.
 C. Active pumping of intact red cells through the wall.
 D. Lymphatic return of oxygenated interstitial fluid.
 Answer: B
@@ -1290,7 +1290,7 @@ Chapter: Chapter 13 — Microcirculation and Capillary Exchange
 Section: 4. What decides which capillaries receive more blood?
 Type: mechanism
 Stem: A working tissue releases vasodilator metabolites around its microvessels. What adjustment most directly raises local perfusion?
-A. Relaxation of upstream arterioles and precapillary resistance.
+A. Upstream arteriolar and precapillary relaxation.
 B. Tightening of upstream arterioles to prevent blood entry.
 C. Increased viscosity in the tissue's capillary blood.
 D. Complete collapse of capillary exchange surfaces.
@@ -1308,10 +1308,10 @@ Type: mechanism
 Stem: Increasing capillary hydrostatic pressure while other Starling forces stay unchanged tends to produce what?
 A. Reduced outward filtration.
 B. Increased oncotic attraction into plasma.
-C. Greater outward movement of fluid into interstitium.
+C. More fluid filters into interstitial tissue.
 D. Immediate reversal of all lymph flow.
 Answer: C
-Why: A higher capillary hydrostatic force favours filtration across the microvascular wall toward tissue.
+Why: A higher capillary hydrostatic force favours filtration across the microvascular wall toward tissue. Raising venous pressure is one way to produce this hydrostatic change.
 Not A: The pressure favours outward, not reduced, filtration.
 Not B: Plasma oncotic pressure does not automatically increase.
 Not D: Lymphatic flow generally responds to excess tissue fluid rather than reversing.
@@ -1375,7 +1375,7 @@ B. A sharp increase in plasma albumin concentration.
 C. An increase in dependent capillary hydrostatic pressure.
 D. A reduction in tissue pressure below atmospheric in every organ.
 Answer: C
-Why: Elevated venous pressure transmits into dependent capillaries, increasing outward hydrostatic filtration.
+Why: Elevated venous pressure transmits into dependent capillaries, increasing outward hydrostatic filtration. Greater outward filtration can exceed the capacity of lymphatic drainage.
 Not A: Lower capillary pressure would reduce filtration.
 Not B: Higher plasma albumin tends to oppose oedema.
 Not D: The mechanism is raised vascular filtration pressure rather than an obligatory drop in all tissue pressures.
@@ -1423,7 +1423,7 @@ B. Reduced permeability traps interstitial fluid inside capillaries.
 C. Venous valves close and abolish arterial inflow.
 D. The lymphatic system starts producing plasma proteins.
 Answer: A
-Why: Inflammatory mediators make small vessels leakier, allowing protein and fluid accumulation in interstitium.
+Why: Inflammatory mediators make small vessels leakier, allowing protein and fluid accumulation in interstitium. Escaped proteins also alter interstitial oncotic forces and favour water retention.
 Not B: Reduced permeability would oppose oedema.
 Not C: Venous valve events do not explain ordinary inflammatory swelling.
 Not D: Lymphatics normally remove proteins rather than producing them.
@@ -1436,7 +1436,7 @@ Type: clinical-application
 Stem: A patient has chronic firm limb swelling after removal of regional lymph nodes. What most likely explains its persistent character?
 A. Raised arterial oxygen causes tightness.
 B. Excess venous flow clears local proteins.
-C. Interstitium retains proteins because lymph drainage is impaired.
+C. Protein accumulation after failed lymph drainage.
 D. Systolic ejection fraction necessarily becomes reduced.
 Answer: C
 Why: Lymphatic obstruction impairs removal of interstitial proteins and fluid, leading over time to persistent, often non-pitting swelling.
@@ -1451,7 +1451,7 @@ Section: 9. Which location of oedema suggests which mechanism?
 Type: comparison
 Stem: Which finding would most strongly suggest pulmonary rather than isolated dependent leg oedema?
 A. Swelling that worsens around the ankles during standing.
-B. Breathlessness with basal lung crackles in left heart failure.
+B. Lung crackles and dyspnoea with left-heart failure.
 C. A unilateral swollen arm after mastectomy.
 D. Skin indentation remaining after pressing the ankle.
 Answer: B
@@ -1500,10 +1500,10 @@ Type: mechanism
 Stem: What keeps lymph moving toward major veins despite low lymphatic pressures?
 A. Only the left ventricular ejection pressure.
 B. Constant backflow from the vena cava.
-C. One-way valves aided by muscle movement and lymphatic contractions.
+C. Valves, muscle movement and lymphatic contractions.
 D. Direct diffusion of whole lymph vessels through tissues.
 Answer: C
-Why: One-way valves, skeletal-muscle compression, respiratory movement and lymphatic smooth-muscle contraction promote forward flow.
+Why: One-way valves, skeletal-muscle compression, respiratory movement and lymphatic smooth-muscle contraction promote forward flow. The valves prevent reflux between compressions, making the low-pressure pumping effective.
 Not A: Lymph flow is not driven directly by systemic arterial pressure.
 Not B: Backflow is limited by valves rather than required for transport.
 Not D: Whole vessels do not diffuse through tissues.
@@ -1519,7 +1519,7 @@ B. Through the thoracic duct near the left venous angle.
 C. Through pulmonary capillaries into the left atrium.
 D. Through coronary sinus into the right atrium.
 Answer: B
-Why: The thoracic duct drains most lymph into the left subclavian–internal jugular venous junction.
+Why: The thoracic duct drains most lymph into the left subclavian–internal jugular venous junction. The right lymphatic duct drains a smaller portion of the body into the right venous angle.
 Not A: Lymphatic ducts empty into systemic veins, not directly ventricles.
 Not C: Pulmonary capillaries are not the outlet of the thoracic duct.
 Not D: The coronary sinus carries venous blood from myocardium.
@@ -1546,7 +1546,7 @@ Chapter: Chapter 15 — Lymphatic Circulation
 Section: 7. Why does lymphatic obstruction cause lymphoedema?
 Type: application
 Stem: A patient develops marked limb lymphoedema after lymphatic damage from filarial infection. What has failed?
-A. Clearance of interstitial fluid and proteins through lymphatics.
+A. Lymphatic removal of interstitial fluid and proteins.
 B. Secretion of albumin by the liver into venous blood.
 C. Electrical conduction through the AV node.
 D. The delivery of oxygen by aortic coronary arteries.
