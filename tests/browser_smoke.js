@@ -808,58 +808,53 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     }
   }
 
-  // ---------- LAMLA (last-minute mode) ----------
-  section('LAMLA: pick a lecture and time, questions first, must-know, mistakes, test');
+  // ---------- LAMLA 2 ----------
+  section('LAMLA 2, direct Practice, accelerated learning and revision');
   {
-    for (const width of [390, 1280]) {
-      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
-      await openRoute(page, base, '#/');
-      check(await page.locator('.lamla-card').count() === 1, `LAMLA @${width}: no card on the homepage`);
-      await openRoute(page, base, '#/physiology/cvs');
-      check(await page.locator('.lamla-card').count() === 1, `LAMLA @${width}: no card on the CVS page`);
-      await page.locator('.lamla-card').click();
-      await page.waitForSelector('.lamla-lecture');
-      check(await page.locator('.lamla-lecture[data-lecture]').count() === 5 && await page.locator('.lamla-lecture.is-soon').count() === 0, `LAMLA @${width}: picker should list all five lectures (Lecture 5 shares Circulation 3)`);
-      await page.locator('input[name="minutes"][value="30"]').check();
+    for (const width of [390,1280]) {
+      const page=await newPage(browser,base,{viewport:{width,height:860}});
+      await page.route('**'+'/api/lamla-plan',route=>route.fulfill({status:503,body:'{"error":"not configured"}'}));
+      await openRoute(page,base,'#/');
+      check(await page.locator('.practice-card').count()===1,'Homepage Practice card missing');
+      check(await page.locator('.lamla-card:not(.practice-card)').count()===1,'Homepage LAMLA card missing');
+      await openRoute(page,base,'#/practice');
+      check(await page.locator('.lamla-lecture[href*="/test"]').count()===5,'Practice hub missing lecture tests');
+      await openRoute(page,base,'#/lamla');
+      check(await page.locator('[data-lecture]').count()===6,'LAMLA needs five lectures and whole CVS');
+      await page.locator('#lm-time').selectOption('30');
+      await page.locator('input[name="goal"][value="revise"]').check();
       await page.locator('[data-lecture="circulation-2"]').click();
-      await page.waitForSelector('.lt-stem');
-      check(/Check yourself 1 of 2/.test(await page.locator('.lt-qmeta').innerText()), `LAMLA @${width}: 30 minutes should ask 2 questions per chapter`);
-      // answer wrong on purpose, then right: the must-know page should reflect it
-      const key = await page.evaluate(() => [...document.querySelectorAll('.lt-option')].map(b => b.dataset.key));
-      await page.locator('.lt-option').nth(0).click();
-      check(await page.locator('.lt-verdict').count() === 1 && await page.locator('.lt-option.is-correct').count() === 1, `LAMLA @${width}: answer not marked`);
-      await page.locator('.lm-next').click();
-      await page.locator('.lt-option').nth(0).click();
-      await page.locator('.lm-next').click();
-      await page.waitForSelector('.lm-learn');
-      check(await page.locator('.lm-learn > .lm-must li').count() > 0 && await page.locator('.lm-learn > .lm-must li:not(.is-star)').count() === 0, `LAMLA @${width}: 30 minutes should show only the ★ points`);
-      check(await page.locator('.lm-part h2', { hasText: 'Exam traps' }).count() === 1, `LAMLA @${width}: exam traps missing`);
-      // resume after leaving
-      await openRoute(page, base, '#/lamla');
-      await page.locator('input[name="minutes"][value="30"]').check();
+      await page.waitForSelector('.lm-start');
+      await page.locator('.lm-start').click();
+      await page.waitForSelector('.lt-option');
+      check(await page.locator('.lt-option').count()===4,'Revision should begin with lecture MCQs');
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-verdict').count()===1,'Revision needs a feedback explanation');
+      await openRoute(page,base,'#/lamla');
+      await page.locator('#lm-time').selectOption('30');
+      await page.locator('input[name="goal"][value="revise"]').check();
       await page.locator('[data-lecture="circulation-2"]').click();
-      await page.waitForSelector('.lm-learn');
-      check(true, 'resumed');
-      // run to the end
-      for (let guard = 0; guard < 40 && !(await page.locator('.lm-finish').count()); guard++) {
-        if (await page.locator('.lt-option:not(:disabled)').count()) await page.locator('.lt-option').first().click();
-        await page.locator('.lm-next').click();
-      }
-      check(await page.locator('.lm-finish').count() === 1, `LAMLA @${width}: did not reach the finish`);
-      const wrong = await page.locator('.lm-finish .lt-item').count();
-      check(/Checks: \d+ of 6 right/.test(await page.locator('.lm-finish .lm-result').innerText()), `LAMLA @${width}: score line wrong`);
-      check(wrong === 0 || await page.locator('.lm-night li.is-star').count() > 0, `LAMLA @${width}: night-before list missing`);
-      await page.locator('.lm-finish .test-card').click();
-      await page.waitForSelector('.lt-running .lt-count');
-      check(/1 \/ 20/.test(await page.locator('.lt-running .lt-count').innerText()), `LAMLA @${width}: the test should start straight away with 20 questions`);
-      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, `LAMLA @${width}: overflows`);
-      check(page.pageErrors.length === 0, `LAMLA @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.waitForSelector('.lm-resume');
+      await openRoute(page,base,'#/lamla');
+      await page.locator('#lm-time').selectOption('60');
+      await page.locator('[data-lecture="lecture-6"]').click();
+      await page.waitForSelector('.lm-start');
+      await page.locator('.lm-start').click();
+      check(await page.locator('.lm-must li').count()>0,'Accelerated learning should begin with approved notes');
+      await page.locator('.lm-next').click();
+      check(await page.locator('.lt-option').count()===4,'Learning should lead to lecture MCQs');
+      await openRoute(page,base,'#/lamla');
+      await page.locator('#lm-time').selectOption('day3');
+      await page.locator('[data-lecture="all"]').click();
+      await page.waitForSelector('.lm-start',{timeout:15000});
+      check((await page.locator('.lm-plan-stats').innerText()).includes('328'),'Whole CVS must include 328 questions');
+      check(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)<=2,'LAMLA layout overflow');
+      check(page.pageErrors.length===0,'LAMLA page errors');
       await page.context().close();
     }
-    console.log('  LAMLA checked at 390 and 1280 px');
   }
 
-  section('Offline reading: opened chapters, Save all chapters, error with retry');
+    section('Offline reading: opened chapters, Save all chapters, error with retry');
   {
     const page = await newPage(browser, base, { ...devices['Pixel 7'] });
     const ctx = page.context();
