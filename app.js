@@ -308,6 +308,7 @@
 
   // ---------- LAMLA (last-minute mode) ----------
   const lamlaCard = () => `<a class="lamla-card" href="#/lamla"><span class="lamla-mark" aria-hidden="true">LAMLA</span><span class="lamla-text"><strong>Last-minute mode</strong><span>Learn quickly or revise effectively with a personalised route through high-yield concepts and lecture questions.</span></span><span class="test-card-go" aria-hidden="true">→</span></a>`;
+  const practiceCard = () => `<a class="lamla-card practice-card" href="#/practice"><span class="lamla-mark">MCQs</span><span class="lamla-text"><strong>Practice questions</strong><span>Go straight to lecture tests and exam-style questions.</span></span><span class="test-card-go">→</span></a>`;
 function lamlaPicker() {
     document.title = 'LAMLA | DOMiNANCE Breakdowns';
     const ready=lectures.filter(l=>!l.duplicateOf && (bundle.lamla||{})[l.slug]);
