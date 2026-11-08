@@ -82,6 +82,8 @@ The tissue side has its own, smaller, versions of each:
 
 **Why does albumin matter so much?** It provides most of the pull. If albumin falls (liver disease, kidney protein loss, malnutrition), the pull weakens, more fluid stays out, and tissues swell. *(<a href="#/physiology/cvs/edema?section=5-why-can-low-plasma-proteins-cause-oedema">→ Oedema, §5</a>)*
 
+<div class="media-resource video-resource" data-youtube-id="dcAxPYUGgDs" data-media-title="Starling forces: hydrostatic and oncotic pressure"><span class="media-eyebrow">OPTIONAL VIDEO</span><h3>Starling forces: hydrostatic and oncotic pressure</h3><p>A visual explanation of how capillary pressure and plasma proteins affect fluid movement across the capillary wall.</p><button type="button" class="media-play" data-media-action="play-video" aria-expanded="false">Watch video</button> <a class="media-outlink" href="https://www.youtube.com/watch?v=dcAxPYUGgDs" target="_blank" rel="noopener noreferrer">Open on YouTube</a><div class="media-stage"></div><p class="media-credit">Video hosted by its original creator on YouTube; embedded without rehosting.</p></div>
+
 ## 6. Classic Starling model versus revised understanding
 
 **The classic model (the lecture's):** the push wins at the arterial end, so fluid filters out. At the venous end, Pc has fallen below the protein pull, so fluid is drawn back in. Of about **24 L filtered a day, about 85% is reabsorbed** into the capillaries, and **15% is returned by the lymph**.
