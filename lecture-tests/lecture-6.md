@@ -9,7 +9,7 @@ Status: Draft for owner and independent academic review; source-grounded from Le
 Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 2. Where does the blood come from?
 Type: mechanism
-Stem: Occlusion of a vertebral artery threatens which upstream source of the posterior cerebral circulation?
+Stem: The two vertebral arteries join to supply the posterior brain through which main arterial pathway?
 A. The external carotid pathway.
 B. The basilar artery pathway.
 C. The anterior communicating artery.
@@ -122,10 +122,10 @@ Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 5. The coverings, the ventricles and CSF
 Type: calculation
 Stem: The CSF volume is about 150 mL and production is 550 mL/day. Approximately how many complete turnovers occur per day?
-A. About one.
-B. About two.
-C. About six.
-D. About four.
+A. About 1.
+B. About 2.
+C. About 6.
+D. About 4.
 Answer: D
 Why: Dividing daily production by total CSF volume gives 550/150 ≈ 3.7 turnovers each day.
 Not A: One turnover would represent only about 150 mL/day.
@@ -234,15 +234,15 @@ Chapter: Chapter 22 — Cerebral Circulation, CSF and the Blood–Brain Barrier
 Section: 3. How does the brain keep its blood flow steady?
 Type: mechanism
 Stem: A highly active cortical region accumulates carbon dioxide and hydrogen ions. What is the expected local vascular response?
-A. Plasma albumin molecules.
-B. A protein-bound medicine.
-C. Dissolved carbon dioxide.
-D. A circulating immunoglobulin.
-Answer: A
-Why: Increased CO₂ and H⁺ promote cerebral vasodilation, helping match local blood flow to metabolic demand.
-Not B: Cerebral vessels typically dilate to elevated CO₂.
-Not C: Capillary closure would worsen local supply.
-Not D: Local metabolic regulation remains important under ordinary conditions.
+A. Local arterioles constrict, reducing perfusion.
+B. Local arterioles dilate, increasing perfusion.
+C. Capillaries close while arteriolar tone stays fixed.
+D. Venules constrict without an arteriolar response.
+Answer: B
+Why: Increased local CO₂ and H⁺ cause cerebral arteriolar vasodilation, improving blood delivery to metabolically active tissue.
+Not A: Constriction would reduce flow to the region that needs more oxygen.
+Not C: Capillary closure would worsen rather than correct the local supply-demand mismatch.
+Not D: Isolated venular constriction does not explain metabolic regulation of cerebral arteriolar inflow.
 Slides: 21–23; Chapter 22 §3
 
 ### Q16
@@ -378,7 +378,7 @@ Chapter: Chapter 23 — Coronary Circulation
 Section: 4. How does coronary flow match changing myocardial work?
 Type: comparison
 Stem: What effect does activating alpha-adrenoceptors have on vessels supplying the myocardium?
-A. Direct coronary vasoconstriction.
+A. Coronary vasoconstriction.
 B. Metabolic vasodilation.
 C. Capillary oxygen extraction.
 D. Greater cardiac muscle inotropy.
@@ -557,7 +557,7 @@ Stem: An alveolar region becomes poorly ventilated and its oxygen tension falls.
 A. Arteriolar dilation, drawing more blood to the region.
 B. Systemic venous constriction, increasing cardiac preload.
 C. Complete loss of autonomic input to the region.
-D. Arterioles constrict, diverting blood to areas receiving fresh air.
+D. Pulmonary arterioles constrict, redirecting blood.
 Answer: D
 Why: Low alveolar oxygen causes hypoxic pulmonary vasoconstriction, redirecting flow toward regions with better ventilation.
 Not A: Pulmonary hypoxic regulation is opposite to the usual local systemic response.
@@ -943,7 +943,7 @@ B. It rises because alveolar oxygen stimulates constriction.
 C. It remains unchanged until umbilical vessels close.
 D. It equals systemic resistance because both circuits merge.
 Answer: A
-Why: Lung aeration and increased oxygen rapidly lower pulmonary vascular resistance, increasing pulmonary flow. The higher affinity helps fetal blood load oxygen from the maternal circulation.
+Why: Lung aeration and increased alveolar oxygen rapidly lower pulmonary vascular resistance, increasing pulmonary blood flow.
 Not B: Alveolar oxygen generally relieves pulmonary hypoxic vasoconstriction.
 Not C: Pulmonary adaptation begins with the first breaths.
 Not D: Pulmonary and systemic circuits retain very different resistance values.
