@@ -597,3 +597,403 @@ Not B: The response directions have been reversed.
 Not D: Oxygen tension influences both beds, but their dominant local responses differ.
 Slides: 32; Chapter 24 §5
 
+### Q38
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 1. An unusual route through two capillary beds
+Type: anatomy
+Stem: Which arterial set forms the principal splanchnic supply to abdominal digestive organs?
+A. Coronary, internal carotid and renal arteries.
+B. Coeliac trunk, superior and inferior mesenteric arteries.
+C. Subclavian, vertebral and intercostal arteries.
+D. Pulmonary trunk, bronchial and phrenic arteries.
+Answer: B
+Why: The abdominal viscera receive main arterial inflow from the coeliac trunk and superior and inferior mesenteric arteries.
+Not A: These arteries supply heart, brain and kidney, not the digestive organs as a group.
+Not C: Those vessels chiefly serve upper body and thoracic regions.
+Not D: Pulmonary and bronchial arteries do not provide the main abdominal visceral supply.
+Slides: 34
+
+### Q39
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 1. An unusual route through two capillary beds
+Type: mechanism
+Stem: Blood from intestinal capillaries normally reaches which additional capillary bed before returning to the heart?
+A. Brain capillaries via the internal carotid artery.
+B. Pulmonary capillaries through the inferior vena cava.
+C. Coronary capillaries through the aortic sinus.
+D. Hepatic sinusoids through the portal vein.
+Answer: D
+Why: Intestinal venous blood enters the hepatic portal system and passes through liver sinusoids before reaching systemic veins.
+Not A: Gut blood does not normally route through the carotid artery.
+Not B: Inferior vena cava blood reaches the right heart before lung capillaries.
+Not C: Coronary capillaries arise from systemic arteries, not portal drainage.
+Slides: 34–35
+
+### Q40
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 2. The liver's double blood supply and its zones
+Type: mechanism
+Stem: Which liver inflow delivers nutrient-rich blood collected from the gut?
+A. The hepatic portal vein.
+B. The hepatic vein.
+C. The pulmonary vein.
+D. The inferior vena cava.
+Answer: A
+Why: The portal vein carries absorbed nutrients and venous blood from digestive organs into hepatic sinusoids.
+Not B: Hepatic veins drain liver blood toward the inferior vena cava.
+Not C: Pulmonary veins carry oxygenated blood to the left atrium.
+Not D: The inferior vena cava receives hepatic venous drainage rather than delivering gut blood directly to sinusoids.
+Slides: 34–35
+
+### Q41
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 2. The liver's double blood supply and its zones
+Type: application
+Stem: During severe hepatic hypoperfusion, cells near the central vein are especially vulnerable to hypoxia. Why?
+A. They are closest to arterial inflow.
+B. They receive blood with the highest oxygen content.
+C. They are farthest downstream from the portal triads.
+D. They are located outside the hepatic sinusoidal network.
+Answer: C
+Why: Centrilobular cells receive blood after it has travelled from portal triads, making them less oxygenated and vulnerable.
+Not A: Oxygenated hepatic arterial inflow enters near the portal triads.
+Not B: Blood oxygen content generally falls as it traverses sinusoids.
+Not D: Centrilobular hepatocytes remain within the sinusoidal perfusion system.
+Slides: 35
+
+### Q42
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 3. Blood flow after meals, and in shock
+Type: mechanism
+Stem: Following a substantial meal, intestinal blood flow rises for several hours. What primarily drives this response?
+A. Reduced intestinal metabolism during nutrient absorption.
+B. Local metabolic activity and absorptive demand.
+C. Global sympathetic constriction of intestinal arteries.
+D. Complete diversion of portal blood away from liver.
+Answer: B
+Why: Postprandial metabolic and absorptive activity promotes local gastrointestinal hyperaemia; the lecture notes it can last about three hours.
+Not A: Absorption increases rather than abolishes local work.
+Not C: Sympathetic constriction usually opposes the flow increase.
+Not D: Portal flow continues to deliver absorbed substances to liver.
+Slides: 36
+
+### Q43
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 3. Blood flow after meals, and in shock
+Type: application
+Stem: In severe haemorrhagic shock, why does sympathetic constriction of splanchnic vessels help initially?
+A. It increases flow to the intestinal mucosa above baseline.
+B. It increases hepatic oxygen extraction to 100%.
+C. It prevents all intestinal ischaemia during shock.
+D. It redistributes flow and mobilises stored venous blood.
+Answer: D
+Why: The splanchnic bed is a large blood reservoir; vasoconstriction redirects perfusion and recruits stored blood toward central circulation.
+Not A: Mucosal flow may decrease, risking ischaemia.
+Not B: Extraction is not necessarily complete.
+Not C: Severe or prolonged constriction can contribute to intestinal injury.
+Slides: 36
+
+### Q44
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 4. Why does fluid collect as ascites?
+Type: mechanism
+Stem: Portal hypertension promotes ascites partly by increasing which force?
+A. Hydrostatic pressure in hepatic sinusoids.
+B. Plasma oncotic pressure within hepatic capillaries.
+C. Arterial oxygen tension in the hepatic vein.
+D. Interstitial lymphatic pumping efficiency.
+Answer: A
+Why: Higher sinusoidal hydrostatic pressure increases fluid filtration and hepatic lymph formation; excess can enter the peritoneal cavity.
+Not B: Higher plasma oncotic pressure would oppose outward fluid filtration.
+Not C: Oxygen tension is not the main Starling-force mechanism.
+Not D: Improved lymphatic clearance would tend to oppose accumulation.
+Slides: 37
+
+### Q45
+Chapter: Chapter 25 — Splanchnic and Hepatic Circulation
+Section: 4. Why does fluid collect as ascites?
+Type: conceptual
+Stem: Why can the protein content of ascitic fluid vary between patients?
+A. All ascites is produced by red-cell destruction.
+B. Ascites contains exactly the same proteins as blood.
+C. Its mechanism and site of fluid formation differ.
+D. The abdominal cavity produces a fixed protein solution.
+Answer: C
+Why: Although hepatic sinusoids are protein-permeable, ascites composition depends on its underlying cause and filtration pathway.
+Not A: Red-cell breakdown is not the universal cause.
+Not B: Protein concentration is not necessarily identical to plasma.
+Not D: Ascites is pathologic fluid accumulation from varying mechanisms.
+Slides: 37; Chapter 25 §4
+
+### Q46
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 1. Skin blood flow is mainly about heat, not nutrition
+Type: mechanism
+Stem: What is the main purpose of wide changes in skin blood flow during heating or cooling?
+A. To alter the heart's intrinsic pacemaker rate.
+B. To regulate heat transfer between body and environment.
+C. To maintain constant oxygen uptake by skin cells.
+D. To equalise pulmonary and systemic arterial pressures.
+Answer: B
+Why: Cutaneous vessels dilate to increase heat loss and constrict to conserve heat; flow can far exceed nutritional needs.
+Not A: Heart pacemaking is not the main thermoregulatory role of skin circulation.
+Not C: Skin metabolic demand is relatively modest compared with variation in perfusion.
+Not D: Pulmonary-systemic pressure equality is unrelated to thermoregulation.
+Slides: 39–41
+
+### Q47
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 1. Skin blood flow is mainly about heat, not nutrition
+Type: mechanism
+Stem: What role do arteriovenous anastomoses serve in fingers and other exposed skin?
+A. They transfer blood directly into lymphatic capillaries.
+B. They prevent sympathetic regulation of skin perfusion.
+C. They permanently close when environmental temperature rises.
+D. They provide adjustable shunts for heat exchange.
+Answer: D
+Why: AV anastomoses can vary cutaneous blood delivery and heat transfer according to thermoregulatory needs.
+Not A: They connect arteries and veins rather than blood to lymph.
+Not B: Skin shunts are under autonomic control.
+Not C: Their opening and closing vary with temperature regulation.
+Slides: 39; Chapter 26 §1
+
+### Q48
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 2. Skin blood flow in shock
+Type: application
+Stem: A patient in compensated haemorrhagic shock has cold, pale skin. Which mechanism accounts for this?
+A. Increased sympathetic cutaneous vasoconstriction.
+B. Loss of vasomotor drive causing widespread dilation.
+C. Increased skin capillary blood volume from vasodilation.
+D. Direct activation of warm-sensitive skin receptors.
+Answer: A
+Why: Sympathetic constriction reduces skin flow to preserve perfusion for vital organs, producing pallor and coolness.
+Not B: Loss of sympathetic tone would usually warm and flush skin.
+Not C: Higher cutaneous blood volume tends to increase redness.
+Not D: The primary response is systemic compensation, not skin warming.
+Slides: 39, 41
+
+### Q49
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 3. The triple response of Lewis
+Type: comparison
+Stem: A very light stroke briefly leaves a pale line on the skin. How is this reaction best classified?
+A. The wheal component of the triple response.
+B. The spread of an axon-reflex flare.
+C. A white reaction from local vasoconstriction.
+D. The red line of local capillary dilation.
+Answer: C
+Why: The lecture describes a transient white reaction due to constriction; it is distinct from the classical red–flare–wheal response.
+Not A: Wheal is raised local oedema from permeability.
+Not B: Flare is surrounding redness from arteriolar dilation.
+Not D: The red line is a separate vasodilator response.
+Slides: 39–40
+
+### Q50
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 3. The triple response of Lewis
+Type: mechanism
+Stem: A firm stroke of the skin produces a raised wheal. Which local microvascular change directly forms it?
+A. Reduced endothelial permeability.
+B. Increased vascular permeability and fluid escape.
+C. Increased haemoglobin production by the skin.
+D. Reduced interstitial fluid volume from reabsorption.
+Answer: B
+Why: The wheal is local oedema produced by increased permeability of small vessels and postcapillary venules.
+Not A: Reduced permeability would limit fluid leakage.
+Not C: Haemoglobin production is unrelated to immediate wheal formation.
+Not D: Wheal formation involves increased, not reduced, interstitial fluid.
+Slides: 40
+
+### Q51
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 3. The triple response of Lewis
+Type: mechanism
+Stem: Redness spreads beyond a stroked patch of skin as the flare develops. What generates this spread?
+A. Central spinal reflex contraction of the skin muscles.
+B. Direct filtration through enlarged lymphatic vessels.
+C. Venous thrombosis in the surrounding tissue.
+D. Antidromic impulses in branches of a sensory axon.
+Answer: D
+Why: The flare is an axon reflex: sensory-nerve branches release vasodilator neuropeptides in surrounding skin without a spinal reflex.
+Not A: A central synaptic reflex is not needed for the axon reflex.
+Not B: Lymphatic filtration does not produce this arteriolar flare.
+Not C: The surrounding redness is functional vasodilation, not thrombosis.
+Slides: 40
+
+### Q52
+Chapter: Chapter 26 — Cutaneous Circulation and the Triple Response
+Section: 3. The triple response of Lewis
+Type: conceptual
+Stem: Which sequence best describes the classical triple response of Lewis?
+A. Red line, surrounding flare, raised wheal.
+B. White line, pallor, skin cooling.
+C. Raised wheal, venous thrombosis, scar.
+D. Flare, complete blanching, no fluid leak.
+Answer: A
+Why: The classical triple response consists of local redness, a spreading flare and an oedematous wheal.
+Not B: A white line is a separate lighter-stroke reaction.
+Not C: Thrombosis and scar are not normal features.
+Not D: Wheal formation requires local fluid leak rather than none.
+Slides: 40
+
+### Q53
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 1. Why does the fetus need shortcuts?
+Type: mechanism
+Stem: Why does normal fetal circulation divert much blood away from the lungs?
+A. Pulmonary vascular resistance is exceptionally low before birth.
+B. The placenta supplies oxygen while fluid-filled lungs have high resistance.
+C. The fetal left ventricle cannot generate arterial pressure.
+D. Umbilical arteries carry already oxygenated blood to the heart.
+Answer: B
+Why: The placenta performs gas exchange before birth; fluid-filled fetal lungs have high resistance, favouring right-to-left shunts.
+Not A: Pulmonary resistance is high before aeration.
+Not C: The fetal left ventricle contributes significantly to systemic output.
+Not D: Umbilical arteries carry relatively deoxygenated blood toward placenta.
+Slides: 42–44; Chapter 27 §1
+
+### Q54
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 2. Trace the fetal circuit
+Type: anatomy
+Stem: Which fetal vessel carries the most oxygenated blood from the placenta toward the fetus?
+A. An umbilical artery.
+B. The ductus arteriosus.
+C. The umbilical vein.
+D. The superior vena cava.
+Answer: C
+Why: The umbilical vein returns oxygenated placental blood to the fetus; umbilical arteries return blood to placenta.
+Not A: Umbilical arteries carry fetal blood toward the placenta.
+Not B: The ductus arteriosus joins pulmonary trunk to aorta.
+Not D: The superior vena cava carries relatively less-oxygenated blood from the upper body.
+Slides: 43–44; Chapter 27 §2
+
+### Q55
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 2. Trace the fetal circuit
+Type: mechanism
+Stem: What does the ductus venosus chiefly allow fetal blood to bypass?
+A. Much of the hepatic sinusoidal circulation.
+B. The aortic arch and systemic arteries.
+C. The right atrium and vena cava.
+D. The placental exchange surface.
+Answer: A
+Why: The ductus venosus routes much umbilical venous blood toward the inferior vena cava without traversing the full hepatic sinusoidal bed.
+Not B: Aortic systemic flow remains part of the fetal pathway.
+Not C: The shunt feeds blood into the vena cava and heart.
+Not D: Placental exchange occurs before umbilical venous return.
+Slides: 43–44; Chapter 27 §2
+
+### Q56
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 2. Trace the fetal circuit
+Type: mechanism
+Stem: Which fetal opening directs oxygen-rich right atrial blood toward the left atrium?
+A. The ductus venosus.
+B. The ductus arteriosus.
+C. The foramen of Monro.
+D. The foramen ovale.
+Answer: D
+Why: The foramen ovale provides a right-to-left atrial shunt that helps deliver relatively well-oxygenated blood to upper-body organs.
+Not A: The ductus venosus shunts across liver circulation.
+Not B: The ductus arteriosus links pulmonary artery and aorta.
+Not C: The foramen of Monro is a CSF ventricular passage.
+Slides: 43–44; Chapter 27 §2
+
+### Q57
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 2. Trace the fetal circuit
+Type: mechanism
+Stem: Where does the ductus arteriosus carry much fetal right ventricular output?
+A. Directly from right atrium to left atrium.
+B. From pulmonary trunk into descending aorta.
+C. From left ventricle into hepatic portal vein.
+D. From umbilical vein into inferior vena cava.
+Answer: B
+Why: High prenatal pulmonary resistance diverts much right ventricular output through ductus arteriosus into the aorta.
+Not A: Right-to-left atrial passage occurs at the foramen ovale.
+Not C: Left ventricular output does not enter the portal vein.
+Not D: Umbilical venous diversion occurs at the ductus venosus.
+Slides: 43–44; Chapter 27 §2
+
+### Q58
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 3. Fetal haemoglobin: grabbing oxygen from the mother
+Type: mechanism
+Stem: Why does fetal haemoglobin load oxygen effectively at the placental interface?
+A. It binds 2,3-BPG more tightly than adult haemoglobin.
+B. Its iron permanently binds each oxygen molecule.
+C. Its weaker 2,3-BPG binding increases oxygen affinity.
+D. It is produced without haem groups before birth.
+Answer: C
+Why: HbF interacts less with 2,3-BPG, shifting its oxygen dissociation curve left and favouring oxygen uptake from maternal blood.
+Not A: Stronger 2,3-BPG binding would lower oxygen affinity.
+Not B: Oxygen binding is reversible, not permanent.
+Not D: Fetal haemoglobin still contains iron-bearing haem groups.
+Slides: 45
+
+### Q59
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 4. What closes after delivery?
+Type: mechanism
+Stem: Immediately after the first effective breaths, what happens to pulmonary vascular resistance?
+A. It falls as the lungs expand and oxygen tension rises.
+B. It rises because alveolar oxygen stimulates constriction.
+C. It remains unchanged until umbilical vessels close.
+D. It equals systemic resistance because both circuits merge.
+Answer: A
+Why: Lung aeration and increased oxygen rapidly lower pulmonary vascular resistance, increasing pulmonary flow.
+Not B: Alveolar oxygen generally relieves pulmonary hypoxic vasoconstriction.
+Not C: Pulmonary adaptation begins with the first breaths.
+Not D: Pulmonary and systemic circuits retain very different resistance values.
+Slides: 45; Chapter 27 §4
+
+### Q60
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 4. What closes after delivery?
+Type: mechanism
+Stem: After cord clamping and lung aeration, what pressure change favours functional closure of the foramen ovale?
+A. Right atrial pressure rises above left atrial pressure.
+B. Pulmonary resistance remains very high.
+C. Umbilical venous inflow increases right atrial pressure.
+D. Left atrial pressure becomes greater than right atrial pressure.
+Answer: D
+Why: Increased pulmonary venous return elevates left atrial pressure while loss of placental venous return reduces right-sided filling, pressing the flap closed.
+Not A: Right atrial dominance normally supports fetal shunting, not closure.
+Not B: Pulmonary resistance falls with first breaths.
+Not C: Clamping removes rather than increases umbilical venous return.
+Slides: 45; Chapter 27 §4
+
+### Q61
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 4. What closes after delivery?
+Type: anatomy
+Stem: What is the fibrous adult remnant of the ductus arteriosus?
+A. Fossa ovalis.
+B. Ligamentum arteriosum.
+C. Ligamentum venosum.
+D. Ligamentum teres hepatis.
+Answer: B
+Why: The ductus arteriosus normally closes after birth and becomes the ligamentum arteriosum.
+Not A: The foramen ovale becomes the fossa ovalis.
+Not C: The ductus venosus becomes ligamentum venosum.
+Not D: The left umbilical vein becomes ligamentum teres hepatis.
+Slides: Chapter 27 §4 (supplementary)
+
+### Q62
+Chapter: Chapter 27 — Fetal Circulation and the Transition at Birth
+Section: 4. What closes after delivery?
+Type: anatomy
+Stem: Which adult remnant arises from closure of the umbilical vein?
+A. The fossa ovalis.
+B. The ligamentum arteriosum.
+C. The ligamentum teres hepatis.
+D. The median umbilical ligament.
+Answer: C
+Why: The umbilical vein closes to form the ligamentum teres hepatis of the liver.
+Not A: Fossa ovalis derives from the atrial septal foramen ovale.
+Not B: Ligamentum arteriosum derives from ductus arteriosus.
+Not D: The median umbilical ligament is an urachal remnant.
+Slides: Chapter 27 §4 (supplementary)
+
