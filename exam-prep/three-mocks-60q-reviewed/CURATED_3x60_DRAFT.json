@@ -15,9 +15,9 @@
           "type": "concept",
           "stem": "Why does the sinoatrial (SA) node normally determine the heart rate?",
           "options": [
-            "It is the only cardiac site that can generate impulses without nerve stimulation.",
+            "It produces the largest action potential of all pacemaker cells.",
             "It reaches the threshold for spontaneous discharge sooner than other pacemakers.",
-            "It conducts electrical impulses through ventricular muscle faster than Purkinje fibres.",
+            "Its impulses reach ventricular myocardium faster than those in Purkinje fibres.",
             "Its cells have a more negative resting membrane potential than ventricular cells."
           ],
           "answer": "B",
@@ -29,7 +29,10 @@
           "distractors": [],
           "dropped_distractor": "It receives stronger sympathetic input than any other pacemaker tissue.",
           "role": "retained_core",
-          "original_answer": "B"
+          "original_answer": "B",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0003",
@@ -158,7 +161,7 @@
           "stem": "A drug markedly inhibits SERCA in cardiac muscle. What change in relaxation is expected?",
           "options": [
             "Faster removal of calcium from cytosol.",
-            "Complete elimination of L-type calcium channels.",
+            "Its calcium influx through L-type channels immediately increases.",
             "Shorter calcium transient and stronger relaxation.",
             "Slower calcium removal impairs relaxation."
           ],
@@ -174,7 +177,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0012",
@@ -209,7 +215,7 @@
             "Stroke volume increases because aortic recoil becomes stronger.",
             "Stroke volume increases because ventricular filling has increased.",
             "Stroke volume stays constant because heart rate has not changed.",
-            "Stroke volume falls as the ventricle ejects against higher pressure."
+            "Stroke volume falls as the ventricle ejects against higher afterload."
           ],
           "answer": "D",
           "explanation": "Greater afterload makes ventricular ejection more difficult. Before compensatory adjustments, end-systolic volume tends to increase and stroke volume decreases.",
@@ -222,7 +228,8 @@
           "role": "retained_core",
           "original_answer": "D",
           "review_adjustments": [
-            "removed_option_length_giveaway"
+            "removed_option_length_giveaway",
+            "distractors_rewritten_for_plausibility"
           ]
         },
         {
@@ -329,7 +336,7 @@
           "options": [
             "The total capillary cross-sectional area is smaller than that of the aorta.",
             "Capillaries receive a smaller total blood flow than the aorta in steady state.",
-            "Capillary pressure is lower, so red cells are stationary between heartbeats.",
+            "Lower capillary pressure alone explains the slower movement of red cells.",
             "The combined cross-sectional area of all capillaries is much larger."
           ],
           "answer": "D",
@@ -341,7 +348,10 @@
           "distractors": [],
           "dropped_distractor": "Blood viscosity is so much higher in capillaries that flow velocity must be zero.",
           "role": "retained_core",
-          "original_answer": "D"
+          "original_answer": "D",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0022",
@@ -451,8 +461,8 @@
           "type": "clinical",
           "stem": "A patient develops chronic swelling of an arm after axillary lymph nodes are removed. What is the main reason?",
           "options": [
-            "Arterial blood supply to the arm has completely stopped.",
-            "Red blood cells begin moving freely out of intact capillaries.",
+            "The local arterial inflow rises more than the venous outflow can accommodate.",
+            "Venous pressure is elevated, increasing filtration through intact capillaries.",
             "Protein-rich tissue fluid cannot drain through the lymphatics.",
             "Plasma albumin production increases sharply in the affected tissue."
           ],
@@ -467,7 +477,8 @@
           "role": "retained_core",
           "original_answer": "C",
           "review_adjustments": [
-            "removed_option_length_giveaway"
+            "removed_option_length_giveaway",
+            "distractors_rewritten_for_plausibility"
           ]
         },
         {
@@ -479,9 +490,9 @@
           "stem": "What prevents ventricular myocytes from sustaining a normal tetanus?",
           "options": [
             "Refractoriness lasts through most of contraction.",
-            "It contains no contractile actin or myosin filaments.",
-            "It lacks voltage-gated calcium channels.",
-            "Its action potentials can occur only once in a lifetime."
+            "Ventricular muscle has a refractory period shorter than its twitch.",
+            "Spontaneous pacemaker activity prevents ventricular re-excitation.",
+            "Systolic calcium release becomes too small to sustain successive twitches."
           ],
           "answer": "A",
           "explanation": "The long action potential and absolute refractory period prevent rapid re-excitation and mechanical summation into tetanus.",
@@ -495,7 +506,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-2:Q5",
@@ -532,9 +546,9 @@
           "stem": "Blood flow through a forearm artery is briefly blocked and then restored. Why may flow temporarily rise above its resting level?",
           "options": [
             "Accumulated metabolites continue to dilate local vessels.",
-            "The heart has permanently increased the forearm's blood supply.",
-            "The arterial pulse wave has stopped travelling through the arm.",
-            "The blockage permanently removed vascular resistance."
+            "The release of occlusion briefly raises systemic arterial pressure.",
+            "Venous outflow rises suddenly and forces extra blood through the artery.",
+            "Restoration of pressure directly relaxes arteriolar smooth muscle."
           ],
           "answer": "A",
           "explanation": "During the occlusion, tissue oxygen delivery falls and local vasodilatory signals build up. When flow resumes, dilated resistance vessels produce transient reactive hyperaemia.",
@@ -547,7 +561,8 @@
           "role": "retained_core",
           "original_answer": "A",
           "review_adjustments": [
-            "removed_option_length_giveaway"
+            "removed_option_length_giveaway",
+            "distractors_rewritten_for_plausibility"
           ]
         },
         {
@@ -629,7 +644,7 @@
             "Heart rate may decrease because atrial stretch directly increases vagal outflow.",
             "Heart rate may increase as atrial stretch activates a reflex.",
             "Heart rate may remain unchanged because atrial stretch has no reflex effects.",
-            "Heart rate may increase only if the arterial baroreceptors first detect hypotension."
+            "Heart rate rises because the fluid infusion has reduced carotid sinus pressure."
           ],
           "answer": "B",
           "explanation": "The atrial stretch (Bainbridge) reflex can increase heart rate when venous return and atrial filling rise. It is distinct from the arterial baroreceptor response to elevated blood pressure.",
@@ -640,7 +655,10 @@
           "distractors": [],
           "dropped_distractor": "Heart rate may decrease because venous return is reduced by the fluid infusion.",
           "role": "retained_core",
-          "original_answer": "B"
+          "original_answer": "B",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0039",
@@ -841,8 +859,8 @@
           "stem": "One group of alveoli is poorly ventilated while nearby alveoli are well ventilated. What happens to the small pulmonary arteries supplying the poorly ventilated region?",
           "options": [
             "They dilate, directing more blood toward the poorly ventilated alveoli.",
-            "They remain unchanged because oxygen never affects pulmonary resistance.",
-            "They constrict only if systemic arterial pressure is also high.",
+            "They dilate through the same low-oxygen response as systemic arterioles.",
+            "They constrict in response to reduced systemic pressure rather than local oxygen.",
             "They constrict, directing more blood toward better-ventilated alveoli."
           ],
           "answer": "D",
@@ -854,7 +872,10 @@
           "distractors": [],
           "dropped_distractor": "They close because all pulmonary arteries normally lack smooth muscle.",
           "role": "retained_core",
-          "original_answer": "D"
+          "original_answer": "D",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "DOM-CVS-0053",
@@ -1281,8 +1302,8 @@
           "options": [
             "It binds 2,3-BPG more tightly than adult haemoglobin.",
             "Its weaker 2,3-BPG binding increases oxygen affinity.",
-            "It is produced without haem groups before birth.",
-            "Its iron permanently binds each oxygen molecule."
+            "Its alpha-globin chains bind more oxygen than maternal alpha chains.",
+            "Each fetal haemoglobin molecule carries more oxygen binding sites than adult haemoglobin."
           ],
           "answer": "B",
           "explanation": "HbF interacts less with 2,3-BPG, shifting its oxygen dissociation curve left and favouring oxygen uptake from maternal blood.",
@@ -1297,7 +1318,10 @@
           "origin": "existing-40-question-mock",
           "role": "redistributed_mock04",
           "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-6:Q11",
@@ -1588,7 +1612,7 @@
           "options": [
             "No systematic effect on cuff pressure.",
             "An undersized cuff gives a falsely high reading.",
-            "Only diastolic pressure becomes unmeasurable.",
+            "The cuff underestimates systolic pressure but overestimates diastolic pressure.",
             "Falsely low BP from excessive arterial unloading."
           ],
           "answer": "B",
@@ -1604,7 +1628,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-6:Q8",
@@ -1669,7 +1696,7 @@
           "options": [
             "Tamponade increases functional ventricular compliance.",
             "Tamponade directly raises venous return above normal.",
-            "The aortic valve cannot open due solely to a high heart rate.",
+            "The higher pericardial pressure directly increases end-diastolic ventricular volume.",
             "High pericardial pressure restricts ventricular filling."
           ],
           "answer": "D",
@@ -1685,7 +1712,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-2:Q6",
@@ -2019,9 +2049,9 @@
           "stem": "Which statement best reflects the updated interpretation of capillary fluid balance?",
           "options": [
             "The glycocalyx regulates filtration; lymph returns excess fluid.",
-            "Lymphatic vessels play no role when hydrostatic pressure is normal.",
+            "The endothelial surface layer has little effect on filtration at rest.",
             "Most capillaries continuously reabsorb nearly all filtered fluid at their venous ends.",
-            "Interstitial proteins do not affect exchange at any capillary."
+            "Interstitial oncotic forces remain independent of the endothelial glycocalyx."
           ],
           "answer": "A",
           "explanation": "The revised Starling model includes the glycocalyx and emphasises that sustained net filtration is normally cleared by lymphatics.",
@@ -2036,7 +2066,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-3:Q46",
@@ -2511,7 +2544,7 @@
             "It starts rapidly and then becomes reduced ejection.",
             "It starts slowly and accelerates until valve closure.",
             "It remains identical in flow throughout systole.",
-            "It begins only after ventricular relaxation."
+            "Ejection peaks only after ventricular pressure has begun to fall."
           ],
           "answer": "A",
           "explanation": "The ejection phase has an initial rapid phase followed by reduced ejection as the pressure and flow relationship changes.",
@@ -2525,7 +2558,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-1:Q30",
@@ -2562,9 +2598,9 @@
           "type": "mechanism",
           "stem": "Why might increasing heart rate far above normal eventually reduce cardiac output?",
           "options": [
-            "Contractility necessarily falls to zero.",
+            "More beats per minute proportionally lengthen each ejection phase.",
             "Diastolic time becomes longer and increases filling.",
-            "The mitral valve is forced to remain permanently open.",
+            "Systemic afterload falls enough to prevent forward ventricular ejection.",
             "Shorter diastole reduces filling and stroke volume."
           ],
           "answer": "D",
@@ -2579,7 +2615,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-1:Q6",
@@ -3053,7 +3092,7 @@
           "type": "mechanism",
           "stem": "Why does the fetal cardiovascular system divert much blood away from the pulmonary circuit before birth?",
           "options": [
-            "The fetal left ventricle cannot generate arterial pressure.",
+            "Pulmonary arterial pressure stays below placental venous pressure throughout fetal life.",
             "Pulmonary vascular resistance is exceptionally low before birth.",
             "Umbilical arteries carry already oxygenated blood to the heart.",
             "The placenta oxygenates blood; fetal lungs resist flow."
@@ -3071,7 +3110,10 @@
           "origin": "existing-40-question-mock",
           "role": "redistributed_mock04",
           "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-6:Q26",
@@ -3711,7 +3753,7 @@
           "options": [
             "They transfer blood directly into lymphatic capillaries.",
             "They prevent sympathetic regulation of skin perfusion.",
-            "They permanently close when environmental temperature rises.",
+            "They divert blood away from skin when core body temperature rises.",
             "They provide adjustable shunts for heat exchange."
           ],
           "answer": "D",
@@ -3726,7 +3768,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "D",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-1:Q40",
@@ -3739,7 +3784,7 @@
             "They reduce the breakdown of intracellular cAMP.",
             "They directly prevent L-type calcium-channel opening.",
             "They accelerate the breakdown of intracellular cAMP.",
-            "They permanently suppress myocardial beta-1 receptors."
+            "They block cardiac beta-1 receptor activation upstream of cAMP formation."
           ],
           "answer": "A",
           "explanation": "The lecture describes phosphodiesterase inhibition by xanthines, which slows cAMP breakdown; increased cAMP-dependent signalling can enhance myocardial calcium handling and contractility.",
@@ -3753,7 +3798,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-7:Q25",
@@ -3763,7 +3811,7 @@
           "stem": "Why is a distinct atrial repolarisation wave usually absent from a normal ECG?",
           "options": [
             "Atrial repolarisation generates no electrical voltage differences.",
-            "The atria cannot repolarise until ventricular diastole begins.",
+            "Atrial repolarisation coincides mainly with the ST segment, where it is too small to detect.",
             "Its small electrical signal is obscured by the ventricular QRS complex.",
             "Atrial repolarisation occurs just before the SA node starts the next beat."
           ],
@@ -3780,7 +3828,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "C",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-7:Q39",
@@ -4090,10 +4141,10 @@
           "type": "mechanism",
           "stem": "Why do Purkinje fibres help the two ventricles contract as coordinated pumps?",
           "options": [
-            "They slow excitation until the pulmonary valve closes.",
+            "They generate most of the delay between atrial and ventricular activation.",
             "They rapidly activate ventricular myocardium.",
-            "They delay the impulse longer than the AV node does.",
-            "They selectively depolarise only the atrial septum."
+            "They create the calcium plateau in ventricular working myocytes.",
+            "They slow ventricular excitation until the semilunar valves can open."
           ],
           "answer": "B",
           "explanation": "Rapid His–Purkinje conduction activates much of ventricular myocardium in a short time for synchronised pumping.",
@@ -4107,7 +4158,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_core",
           "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-2:Q40",
@@ -4171,9 +4225,9 @@
           "stem": "What most clearly differentiates myocardial infarction from brief stable angina?",
           "options": [
             "Prolonged ischaemia can produce myocyte necrosis.",
-            "Infarction occurs only when heart rate is very slow.",
-            "Angina permanently destroys the affected myocardium.",
-            "Angina requires complete coronary artery rupture."
+            "Infarction involves brief ischaemia without permanent myocardial cell damage.",
+            "Stable angina involves transient irreversible injury to the perfused myocardium.",
+            "Infarction pain is usually relieved promptly by stopping exertion."
           ],
           "answer": "A",
           "explanation": "Prolonged severe ischaemia can cause irreversible myocardial cell death; transient angina does not necessarily cause necrosis.",
@@ -4188,7 +4242,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "A",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-1:Q49",
@@ -4224,10 +4281,10 @@
           "type": "application",
           "stem": "A patient with coronary atheroma is comfortable at rest but develops exertional chest pain. Which explanation fits best?",
           "options": [
-            "The coronary artery becomes completely normal during exercise.",
+            "The narrowed artery fully dilates to match any increase in cardiac demand.",
             "Restricted coronary flow reserve cannot meet increased demand.",
-            "Exercise lowers heart oxygen requirements below resting levels.",
-            "Coronary flow stops at rest but rest pain is absent."
+            "A faster heart rate prolongs the diastolic time available for coronary flow.",
+            "Sympathetic stimulation lowers myocardial oxygen need during exercise."
           ],
           "answer": "B",
           "explanation": "A narrowed vessel may deliver adequate resting flow but cannot dilate enough to meet exercise demand, causing reversible ischaemia.",
@@ -4242,7 +4299,10 @@
           "origin": "existing-40-question-mock",
           "role": "retained_core",
           "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "circulation-1:Q69",
@@ -4738,10 +4798,10 @@
           "type": "mechanism",
           "stem": "Why can some oxygenated bronchial venous drainage slightly lower oxygen content of blood reaching the left atrium?",
           "options": [
-            "Bronchial venous blood drains only into the superior vena cava.",
+            "Bronchial venous drainage enters only systemic veins, avoiding pulmonary mixing.",
             "Some bronchial venous blood joins pulmonary veins.",
-            "Bronchial arteries arise directly from right ventricle.",
-            "Pulmonary arterial blood bypasses alveolar capillaries entirely."
+            "Bronchial arteries arise from the pulmonary trunk and deliver deoxygenated blood.",
+            "All bronchial venous drainage rejoins systemic arteries before entering the lungs."
           ],
           "answer": "B",
           "explanation": "Some bronchial venous return enters pulmonary veins, mixing a small amount of deoxygenated blood with oxygenated pulmonary venous blood.",
@@ -4755,7 +4815,10 @@
           "provenance": "lecture-test",
           "role": "replacement_for_mock04",
           "original_answer": "B",
-          "review_status": "curated_draft_pending_independent_accuracy_review"
+          "review_status": "curated_draft_pending_independent_accuracy_review",
+          "review_adjustments": [
+            "distractors_rewritten_for_plausibility"
+          ]
         },
         {
           "sourceId": "lecture-7:Q43",
@@ -5137,5 +5200,41 @@
         "calculation": 1
       }
     }
+  },
+  "review_log": {
+    "quality_actions": "All questions screened for structural validity, missing images, repeated stems, option-length clues and topic distribution. Replaced obvious or repetitive items and strengthened 25 flagged option sets.",
+    "rewritten_option_sets": 23,
+    "correct_longest_exceptions": [
+      {
+        "m": "01",
+        "id": "DOM-CVS-0013",
+        "lengths": [
+          63,
+          66,
+          64,
+          69
+        ],
+        "options": [
+          "Stroke volume increases because aortic recoil becomes stronger.",
+          "Stroke volume increases because ventricular filling has increased.",
+          "Stroke volume stays constant because heart rate has not changed.",
+          "Stroke volume falls as the ventricle ejects against higher afterload."
+        ]
+      }
+    ],
+    "verified_external_examples": [
+      {
+        "topic": "BBB endothelial tight junctions",
+        "source": "https://www.ncbi.nlm.nih.gov/books/NBK557721/"
+      },
+      {
+        "topic": "ST plateau and T repolarisation",
+        "source": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014"
+      },
+      {
+        "topic": "First- vs second- vs third-degree AV block",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11317726/"
+      }
+    ]
   }
 }
