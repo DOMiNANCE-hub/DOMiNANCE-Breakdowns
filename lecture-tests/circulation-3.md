@@ -24,17 +24,17 @@ Slides: Circulation 3, slide 2; Chapter 19 §1
 ### Q2
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
 Section: 1. Gravity adds pressure below the heart and takes it away above
-Type: data-interpretation
-Stem: Mean pressure is 93 mmHg at heart level. Without compensation, which value is most plausible at a foot 115 cm below the heart?
-A. About 5 mmHg.
-B. About 60 mmHg.
-C. About 93 mmHg.
-D. About 180 mmHg.
-Answer: D
-Why: Gravity adds roughly 0.77 × 115 ≈ 89 mmHg below the heart, giving a foot-level pressure near 182 mmHg.
-Not A: That would require a major pressure decrease, not a hydrostatic increase.
-Not B: This resembles the head-level figure, not the foot-level value.
-Not C: That ignores the blood column below the heart.
+Type: mechanism
+Stem: An ankle and heart-level arterial pressure are measured simultaneously while a patient stands. Which difference should gravity produce?
+A. Ankle pressure is lower because blood loses energy downward.
+B. Ankle pressure is higher because of the vertical blood column.
+C. Both pressures are equal because cardiac output is shared.
+D. Heart-level pressure is higher because it lies nearer the pump.
+Answer: B
+Why: Gravity adds hydrostatic pressure to blood columns below heart level, so ankle arterial pressure exceeds heart-level pressure even before reflex compensation.
+Not A: The hydrostatic effect below the heart adds pressure rather than removing it.
+Not C: Equal cardiac output does not eliminate pressure differences from vertical height.
+Not D: Pump proximity does not reverse the effect of blood-column weight.
 Slides: Circulation 3, slide 2; Chapter 19 §1
 
 ### Q3
@@ -104,17 +104,17 @@ Slides: Circulation 3, slide 6; Chapter 19 §3
 ### Q7
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
 Section: 3. How the body rescues blood pressure
-Type: mechanism
-Stem: Despite a fall in head-level arterial pressure on standing, cerebral blood flow is relatively preserved. Which pairing helps?
-A. Higher venous pressure and higher intracranial pressure.
-B. Higher venous pressure and reduced arterial CO₂.
-C. Lower venous pressure and lower intracranial pressure.
-D. Lower arterial CO₂ and constricted cerebral arterioles.
-Answer: C
-Why: A concurrent fall in cerebral venous and intracranial pressures helps preserve the effective perfusion gradient despite lower arterial pressure.
-Not A: Rising venous and intracranial pressures would oppose brain perfusion.
-Not B: Increased venous pressure would impair drainage, not preserve the gradient.
-Not D: Lower CO₂ generally narrows cerebral vessels, opposing compensation.
+Type: data-interpretation
+Stem: During standing, head-level arterial pressure falls by 30 mmHg and cerebral venous pressure falls by 25 mmHg. How does arterial minus venous driving pressure change?
+A. It falls by about 5 mmHg.
+B. It rises by about 5 mmHg.
+C. It falls by about 25 mmHg.
+D. It rises by about 55 mmHg.
+Answer: A
+Why: The arterial–venous difference changes by −30 minus −25, or −5 mmHg. Falling venous and intracranial pressures therefore help protect cerebral perfusion.
+Not B: The difference becomes slightly smaller, not larger.
+Not C: That ignores the fall in cerebral venous pressure.
+Not D: The changes cannot be added as two rises.
 Slides: Circulation 3, slide 5; Chapter 19 §3
 
 ### Q8
@@ -233,16 +233,16 @@ Slides: Circulation 3, slide Chapter 19 §5 (supplementary)
 Chapter: Chapter 19 — Gravity, Posture and Acceleration
 Section: 5. Orthostatic (postural) hypotension
 Type: application
-Stem: A diabetic patient feels dizzy on standing, with almost no increase in heart rate or noradrenaline. What is most likely impaired?
-A. Sympathetic autonomic compensation to baroreceptor unloading.
-B. Local metabolic autoregulation of skeletal muscle.
-C. Plasma oncotic pressure generation by albumin.
-D. Calf-muscle strength despite intact autonomic nerves.
+Stem: A patient becomes dizzy on standing after starting a sympatholytic drug. Which compensatory response is most directly weakened?
+A. Constriction of systemic arterioles and veins.
+B. Dilatation of cerebral vessels by carbon dioxide.
+C. Contraction of calf muscles during walking.
+D. Flow of blood through competent venous valves.
 Answer: A
-Why: Autonomic neuropathy can blunt the normally increased sympathetic firing, catecholamine release and heart-rate response to standing.
-Not B: Skeletal-muscle autoregulation is not the main missing reflex in the stem.
-Not C: Albumin concentration does not explain absent noradrenaline and tachycardia.
-Not D: The stated autonomic abnormalities are more specific than isolated weakness.
+Why: Sympatholytic drugs blunt reflex arteriolar and venous constriction, so the circulation cannot adequately oppose blood pooling and falling arterial pressure on standing.
+Not B: Cerebral metabolic vasodilatation is not directly a sympathetic vasoconstrictor response.
+Not C: Walking uses a mechanical muscle pump, not this autonomic drug pathway.
+Not D: Venous valve directionality is mechanical and not directly abolished by sympatholytic drugs.
 Slides: Circulation 3, slide 8; Chapter 19 §5
 
 ### Q16
@@ -585,16 +585,16 @@ Slides: Circulation 3, slides 24
 Chapter: Chapter 20 — Circulatory Shock
 Section: 5. When shock feeds on itself: progressive and irreversible shock
 Type: mechanism
-Stem: In late shock, precapillary sphincters relax while venules remain constricted. What is the consequence?
-A. Reduced capillary pressure and greater fluid absorption.
-B. Increased venous drainage and restored circulating volume.
-C. Reduced filtration and improved tissue oxygen delivery.
-D. Capillary stasis, raised pressure and interstitial fluid loss.
+Stem: During progressive shock, capillary hydrostatic pressure paradoxically rises while systemic arterial pressure is falling. Which microvascular pattern best explains it?
+A. Precapillary constriction with freely draining venules.
+B. Precapillary constriction with widened venous outlets.
+C. Increased venular drainage with reduced capillary entry.
+D. Precapillary relaxation with persistently narrowed venules.
 Answer: D
-Why: Blood enters capillaries but drains poorly; rising capillary hydrostatic pressure drives more fluid into tissues.
-Not A: Impaired outflow raises, rather than reduces, capillary pressure.
-Not B: Venular constriction obstructs drainage rather than improving it.
-Not C: The lecture describes greater fluid loss, not reduced filtration.
+Why: With capillary entry relatively open but venular outflow restricted, blood stagnates and local capillary pressure rises, driving fluid into the interstitium.
+Not A: Lower entry with free outflow would not cause the described stasis.
+Not B: Both reduced entry and improved drainage favour lower capillary pressure.
+Not C: Greater drainage would reduce rather than increase local stagnation.
 Slides: Circulation 3, slide 26; Chapter 20 §5
 
 ### Q38
@@ -953,16 +953,16 @@ Slides: Chapter 21 §4 (supplementary)
 Chapter: Chapter 21 — Heart Failure Physiology
 Section: 4. What does the body do about it, and why does that make it worse?
 Type: mechanism
-Stem: A patient with heart failure has marked oedema, yet the kidneys continue retaining salt and water. What is the primary signal?
-A. The kidneys detect excessive effective arterial filling.
-B. Plasma proteins directly activate the muscle pump.
-C. Low forward arterial delivery mimics volume depletion to the kidneys.
-D. Raised interstitial pressure directly blocks aldosterone receptors.
+Stem: A patient with decompensated heart failure gains more water weight despite established oedema. Which additional hormonal response can worsen this?
+A. Increased natriuretic peptide-mediated water loss.
+B. Reduced collecting-duct response to vasopressin.
+C. Increased vasopressin-mediated renal water reabsorption.
+D. Suppressed renin activity with higher urinary output.
 Answer: C
-Why: Although total body water is high, inadequate arterial perfusion triggers renal salt and water conservation, worsening venous congestion.
-Not A: The kidneys perceive low effective arterial filling, not excessive perfusion.
-Not B: The skeletal-muscle pump is not the renal endocrine sensor.
-Not D: Aldosterone responses are stimulated rather than receptor-blocked.
+Why: Reduced effective arterial filling in heart failure can stimulate vasopressin, increasing renal free-water reabsorption and worsening congestion despite excess total body fluid.
+Not A: Increased natriuretic water loss would tend to oppose fluid overload.
+Not B: A lower collecting-duct response to vasopressin would reduce water retention.
+Not D: Suppression of renin and increased diuresis would oppose retention.
 Slides: Chapter 21 §4 (supplementary)
 
 ### Q61
