@@ -692,6 +692,27 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     console.log('  Circulation 2 test checked in both modes');
   }
 
+  // ---------- Homeostasis lecture test ----------
+  section('Homeostasis lecture test: 62 questions on phone and desktop');
+  {
+    for (const width of [390, 1280]) {
+      const page = await newPage(browser, base, { viewport: { width, height: 860 } });
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-3');
+      check(await page.locator('.test-card').count() === 1, `Homeostasis @${width}: test card missing`);
+      await openRoute(page, base, '#/physiology/cvs/lecture/circulation-3/test');
+      await page.waitForSelector('.lt-start');
+      check(/62 questions/.test(await page.locator('.lt-lede').innerText()), `Homeostasis @${width}: incorrect question count`);
+      await page.locator('.lt-start').click();
+      check(await page.locator('.lt-option').count() === 4, `Homeostasis @${width}: expected four answer options`);
+      await page.locator('.lt-option').first().click();
+      check(await page.locator('.lt-why-not').count() === 3, `Homeostasis @${width}: missing distractor explanations`);
+      check(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth) <= 2, `Homeostasis @${width}: horizontal overflow`);
+      check(page.pageErrors.length === 0, `Homeostasis @${width}: page errors ${page.pageErrors.join('; ')}`);
+      await page.context().close();
+    }
+    console.log('  Homeostasis test checked at 390 and 1280 px');
+  }
+
   // ---------- LAMLA (last-minute mode) ----------
   section('LAMLA: pick a lecture and time, questions first, must-know, mistakes, test');
   {
