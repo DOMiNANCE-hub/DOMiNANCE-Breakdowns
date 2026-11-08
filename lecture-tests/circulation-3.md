@@ -189,7 +189,7 @@ Stem: A tight collar causes transient loss of consciousness in a patient with ca
 A. A rise in renal aldosterone release.
 B. A direct increase in ventricular contractility.
 C. A sudden increase in circulating blood volume.
-D. Reflex bradycardia with systemic vasodilatation.
+D. Reflex bradycardia with vasodilatation.
 Answer: D
 Why: Mechanical carotid sinus stimulation can mimic high arterial stretch, causing excessive vagal slowing and reduced sympathetic vascular tone.
 Not A: Aldosterone is not the immediate cause of this pressure fall.
@@ -283,7 +283,7 @@ Section: 1. What is shock?
 Type: conceptual
 Stem: A bleeding patient has a nearly normal arterial pressure but cold skin and reduced urine output. What is the best conclusion?
 A. Normal pressure excludes significant shock.
-B. Low tissue perfusion can coexist with normal pressure.
+B. Poor tissue perfusion can coexist with normal pressure.
 C. Cardiac output must be above its pre-bleeding level.
 D. Blood flow to all organs must remain normal.
 Answer: B
@@ -589,7 +589,7 @@ Stem: During progressive shock, capillary hydrostatic pressure paradoxically ris
 A. Precapillary constriction with freely draining venules.
 B. Precapillary constriction with widened venous outlets.
 C. Increased venular drainage with reduced capillary entry.
-D. Open precapillary entry with persistently narrowed venules.
+D. Open capillary entry with constricted venules.
 Answer: D
 Why: With capillary entry relatively open but venular outflow restricted, blood stagnates and local capillary pressure rises, driving fluid into the interstitium.
 Not A: Lower entry with free outflow would not cause the described stasis.
@@ -636,7 +636,7 @@ Type: application
 Stem: A patient develops persistent acute kidney injury after prolonged shock. Which tissue injury best accounts for this complication?
 A. Rapidly reversible isolated renal vasodilatation.
 B. Increased tubular oxygen delivery without injury.
-C. Acute tubular injury following prolonged ischaemia.
+C. Renal tubular injury after sustained ischaemia.
 D. Direct erythrocyte production within the kidney.
 Answer: C
 Why: Sustained renal underperfusion can injure the tubular epithelium, leading to acute kidney injury beyond the initial pressure fall.
@@ -651,7 +651,7 @@ Section: 5. When shock feeds on itself: progressive and irreversible shock
 Type: conceptual
 Stem: A patient with massive haemorrhage remains severely hypotensive after blood volume is completely restored. Which stage fits?
 A. Postural hypotension from remaining upright.
-B. Early compensated hypovolaemia.
+B. Early compensated hypovolaemic shock with intact reflexes.
 C. Transient vasovagal faint without major tissue damage.
 D. Irreversible shock after extensive tissue injury.
 Answer: D
@@ -717,7 +717,7 @@ Stem: A patient with severe bacterial infection has systemic vasodilatation and 
 A. Obstructive shock from impaired forward flow.
 B. Cardiogenic shock from isolated muscle failure.
 C. Hypovolaemic shock from proportional blood loss.
-D. Distributive shock from low systemic vascular resistance.
+D. Distributive shock from widespread vasodilatation.
 Answer: D
 Why: Bacterial toxins and inflammatory mediators can markedly dilate blood vessels and increase permeability, causing distributive septic shock.
 Not A: A mechanical obstruction is not described.
@@ -749,7 +749,7 @@ Stem: A patient has near-normal resting cardiac output but very high ventricular
 A. Normal resting output excludes heart failure.
 B. Heart failure requires reduced ejection fraction.
 C. High filling pressure proves adequate pumping.
-D. Heart failure can occur with normal resting output.
+D. Heart failure can occur despite normal resting output.
 Answer: D
 Why: Heart failure includes states where output is maintained only at abnormally high filling pressures, causing congestion.
 Not A: A near-normal output can be maintained at harmful filling pressures.
@@ -924,7 +924,7 @@ Type: mechanism
 Stem: Why can prolonged renin–angiotensin–aldosterone activation worsen heart-failure oedema?
 A. It causes sustained urinary sodium loss.
 B. It decreases circulating volume and filling pressure.
-C. It increases salt-water retention and venous pressure.
+C. Salt and water retention raises venous pressure.
 D. It prevents compensatory arterial vasoconstriction.
 Answer: C
 Why: RAAS initially supports blood pressure, but prolonged salt and water retention increases filling pressures and oedema.
