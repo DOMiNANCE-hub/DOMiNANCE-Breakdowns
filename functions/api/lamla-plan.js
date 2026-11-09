@@ -21,15 +21,49 @@ export async function onRequestPost({request,env}) {
   const prompt=`You plan a medical-student revision route from a FIXED, already reviewed curriculum. Do not write questions, explanations, medical facts, or new chapters. Choose exactly ${Math.min(limit,safe.length)} unique chapter slugs from the supplied list, in an educationally coherent learning order. Balance conceptual prerequisites, high-yield tags, and available question practice. Student goal: ${goal}. Available study minutes: ${minutes}. Return ONLY a JSON object of the form {"order":["slug1","slug2"]}. No markdown. Here is the chapter metadata: ${JSON.stringify(safe)}`;
   let stage='inference';
   try {
-    const answer=await env.AI.run('@cf/meta/llama-3.1-8b-instruct-fast',{messages:[{role:'system',content:'You are a curriculum route planner. Return strict JSON only. You may select only the supplied chapter slugs.'},{role:'user',content:prompt}],max_tokens:700,temperature:0.1});
+    const target=Math.min(limit,safe.length);
+    // This model supports Cloudflare's JSON Mode, which can return an object directly.
+    const answer=await env.AI.run('@cf/meta/llama-3.1-8b-instruct-fast',{
+      messages:[
+        {role:'system',content:'You are a curriculum route planner. Return only chapter slugs supplied in the request. Do not invent medical facts or questions.'},
+        {role:'user',content:prompt}
+      ],
+      response_format:{
+        type:'json_schema',
+        json_schema:{
+          type:'object',
+          properties:{order:{type:'array',items:{type:'string',enum:safe.map(c=>c.slug)}}},
+          required:['order']
+        }
+      },
+      max_tokens:700,
+      temperature:0.1
+    });
     stage='response';
-    const raw=String(answer?.response||'');
-    const match=raw.match(/\{[\s\S]*\}/);
-    if(!match)throw Error('AI response had no JSON');
-    const parsed=JSON.parse(match[0]);
-    const valid=new Set(safe.map(c=>c.slug)),order=(Array.isArray(parsed.order)?parsed.order:[]).filter((s,i,a)=>valid.has(s)&&a.indexOf(s)===i);
-    if(order.length!==Math.min(limit,safe.length))throw Error('Incomplete route');
-    return reply({order,source:'workers-ai'});
+    // In ordinary text mode, response is a string; with JSON Mode, it may already
+    // be a parsed object. Both forms are valid Cloudflare responses.
+    const response=answer?.response??answer?.result?.response;
+    let parsed;
+    if(response&&typeof response==='object') parsed=response;
+    else {
+      const raw=String(response||'').trim();
+      try { parsed=JSON.parse(raw); }
+      catch {
+        const match=raw.match(/\{[\s\S]*\}/);
+        if(!match)throw Error('AI response had no JSON object');
+        parsed=JSON.parse(match[0]);
+      }
+    }
+    const valid=new Set(safe.map(c=>c.slug));
+    const selected=(Array.isArray(parsed?.order)?parsed.order:[])
+      .filter((slug,i,array)=>valid.has(slug)&&array.indexOf(slug)===i)
+      .slice(0,target);
+    if(!selected.length)throw Error('AI supplied no usable chapter slugs');
+    // The AI may return fewer chapters than requested. Keep the valid AI ordering,
+    // then fill the remainder with reviewed syllabus order rather than rejecting it.
+    const rest=safe.map(c=>c.slug).filter(slug=>!selected.includes(slug));
+    const order=selected.concat(rest).slice(0,target);
+    return reply({order,source:'workers-ai',aiSelected:selected.length});
   } catch (error) {
     // Distinguish Cloudflare inference failures from AI response/validation failures.
     // Details belong in private Pages Function logs, never in public API responses.
