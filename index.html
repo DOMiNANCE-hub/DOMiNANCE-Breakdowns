@@ -36,21 +36,19 @@ if(hash.startsWith('#/lamla/')){
 window.addEventListener('hashchange',load);load()})();
 </script>
 <script>
-/* Cache the small LAMLA setup and tutor helpers after the service worker takes control.
-   This complements Save All so first-time LAMLA entry works after disconnecting. */
+/* Include LAMLA prerequisites in Save All's explicit offline download list.
+   Do not rely on a delayed background fetch: a user can disconnect immediately after Save All. */
 (()=>{
-  if(!('serviceWorker' in navigator))return;
-  let started=false;
   const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109d',
     'lamla-coach.js?v=20261109e','lamla-lesson.js?v=20261109c'];
-  const prepare=()=>{
-    if(started||!navigator.serviceWorker.controller||navigator.onLine===false)return;
-    started=true;
-    // Small prerequisite scripts are fetched promptly, so Save All can finish before disconnecting.
-    setTimeout(()=>files.forEach(f=>fetch(f).catch(()=>{})),600);
+  const register=()=>{
+    const bundle=window.DOM_BUNDLE;
+    if(!bundle)return;
+    const assets=bundle.assets||(bundle.assets=[]);
+    for(const file of files)if(!assets.includes(file))assets.push(file);
   };
-  window.addEventListener('load',prepare);
-  navigator.serviceWorker.addEventListener('controllerchange',prepare);
+  window.addEventListener('DOMContentLoaded',register);
+  window.addEventListener('load',register);
 })();
 </script>
 </body></html>
