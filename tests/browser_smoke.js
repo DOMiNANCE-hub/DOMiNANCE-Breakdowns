@@ -892,7 +892,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
         'Learn mode should provide model-guided teaching when connected');
       await page.locator('.lm-ai-lesson-result textarea').fill('Lower baroreceptor firing increases sympathetic activity and resistance.');
       await page.locator('.lm-ai-lesson-result button').click();
-      await page.waitForSelector('.lm-ai-lesson-result h3', {timeout:10000});
+      await page.waitForSelector('.lm-ai-lesson-result h3:has-text("Reasoning feedback")', {timeout:10000});
       check((await page.locator('.lm-ai-lesson-result').innerText()).includes('Reasoning feedback'),
         'Guided teaching must assess student teach-back');
       await page.locator('.lm-next').click();
