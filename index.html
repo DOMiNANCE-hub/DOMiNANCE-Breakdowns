@@ -35,4 +35,22 @@ if(hash.startsWith('#/lamla/')){
 };
 window.addEventListener('hashchange',load);load()})();
 </script>
+<script>
+/* Cache the small LAMLA setup and tutor helpers after the service worker takes control.
+   This complements Save All so first-time LAMLA entry works after disconnecting. */
+(()=>{
+  if(!('serviceWorker' in navigator))return;
+  let started=false;
+  const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109c',
+    'lamla-coach.js?v=20261109d','lamla-lesson.js?v=20261109b'];
+  const prepare=()=>{
+    if(started||!navigator.serviceWorker.controller||navigator.onLine===false)return;
+    started=true;
+    const later=window.requestIdleCallback||((cb)=>setTimeout(cb,2400));
+    later(()=>files.forEach(f=>fetch(f).catch(()=>{})));
+  };
+  window.addEventListener('load',prepare);
+  navigator.serviceWorker.addEventListener('controllerchange',prepare);
+})();
+</script>
 </body></html>
