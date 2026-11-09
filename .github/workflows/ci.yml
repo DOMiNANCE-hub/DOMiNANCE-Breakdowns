@@ -80,6 +80,10 @@ jobs:
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js
 
+      - name: One-time production LAMLA AI check (nonblocking)
+        if: github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, '[lamla-probe]')
+        run: node tests/live_lamla_probe.mjs
+
       - name: Keep the structure report
         if: always()
         uses: actions/upload-artifact@v4
