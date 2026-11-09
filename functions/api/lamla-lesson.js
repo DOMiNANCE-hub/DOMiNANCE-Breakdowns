@@ -1,8 +1,8 @@
 // Grounded, opt-in lesson teaching. Shares rollout flag and daily quota with AI coaching.
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 const cut=(x,n)=>typeof x==='string'?x.trim().slice(0,n):'';
-const enabled=env=>env?.LAMLA_COACH_ENABLED==='true'&&typeof env?.AI?.run==='function'&&
- typeof env?.LAMLA_COACH_LIMITS?.get==='function'&&typeof env?.LAMLA_COACH_LIMITS?.put==='function';
+const enabled=env=>env?.LAMLA_COACH_ENABLED!=='false'&&typeof env?.AI?.run==='function';
+const localCounts=new Map();
 const parse=raw=>{
  if(raw&&typeof raw==='object')return raw;
  const s=String(raw||'').trim();
@@ -33,21 +33,34 @@ export async function onRequestPost({request,env}){
     (mode==='assess'&&(answer.length<15||!previousQuestion))||
     (mode==='teach'&&(answer||previousQuestion)))
     return json({error:'Invalid lesson request',code:'invalid_input'},400);
- // Shared with /api/lamla-coach. KV is best-effort; configure edge rate limiting too.
+ // Shared logical quota with /api/lamla-coach when optional KV is configured.
  try{
    const ip=request.headers.get('CF-Connecting-IP')||'unknown';
-   const b=new TextEncoder().encode(ip+'|'+new Date().toISOString().slice(0,10));
-   const h=await crypto.subtle.digest('SHA-256',b);
-   const key='lamla-coach:v1:'+Array.from(new Uint8Array(h)).slice(0,12).map(x=>x.toString(16).padStart(2,'0')).join('');
-   const count=Number(await env.LAMLA_COACH_LIMITS.get(key)||0);
-   if(count>=25)return json({error:'Daily AI lesson limit reached',code:'limit_reached'},429);
-   await env.LAMLA_COACH_LIMITS.put(key,String(count+1),{expirationTtl:86400});
+   const visitor=(request.headers.get('X-LAMLA-Visitor')||'').trim();
+   const valid=/^[a-f0-9-]{20,50}$/i.test(visitor)?visitor:'unknown';
+   const day=new Date().toISOString().slice(0,10);
+   const h=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(ip+'|'+valid+'|'+day));
+   const key='lamla-coach:v2:'+Array.from(new Uint8Array(h)).slice(0,12).map(x=>x.toString(16).padStart(2,'0')).join('');
+   const kv=env?.LAMLA_COACH_LIMITS;
+   if(typeof kv?.get==='function'&&typeof kv?.put==='function'){
+     const n=Number(await kv.get(key)||0);
+     if(n>=25)return json({error:'Daily AI limit reached',code:'limit_reached'},429);
+     await kv.put(key,String(n+1),{expirationTtl:86400});
+   }else{
+     // Memory-only fallback is best effort, not a global rate limit.
+     const n=localCounts.get(key)||0;
+     if(n>=4)return json({error:'Daily AI limit reached',code:'limit_reached'},429);
+     localCounts.set(key,n+1);
+     if(localCounts.size>2000){
+       for(const [k] of localCounts){localCounts.delete(k);if(localCounts.size<1600)break}
+     }
+   }
  }catch{return json({error:'AI usage protection unavailable',code:'limiter_unavailable'},503)}
  try{
    const payload={mode,topic,focus,reviewedFacts:facts,previousQuestion,studentAnswer:answer};
-   const out=await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast',{
+   const out=await env.AI.run('@cf/meta/llama-3.1-8b-instruct-fast',{
      messages:[{role:'system',content:instructions},{role:'user',content:JSON.stringify(payload)}],
-     response_format:{type:'json_object'},max_tokens:550,temperature:0.15
+     response_format:{type:'json_schema',json_schema:{type:'object',properties:{explanation:{type:'string'},feedback:{type:'string'},checkQuestion:{type:'string'}},required:['explanation','feedback','checkQuestion']}},max_tokens:420,temperature:0.1
    });
    const obj=parse(out?.response??out?.result?.response);
    const explanation=cut(obj?.explanation,1200),feedback=cut(obj?.feedback,900),checkQuestion=cut(obj?.checkQuestion,260);
