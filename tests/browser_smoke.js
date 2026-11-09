@@ -848,6 +848,15 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check((await page.locator('.lm-coach-output').innerText()).includes('Diagnosis'),
         'Connected tutor should assess the student reasoning');
       await openRoute(page,base,'#/lamla');
+      await page.waitForSelector('.lm-mastery');
+      check((await page.locator('.lm-mastery').innerText()).includes('1 concepts attempted'),
+        'LAMLA should remember answered concepts on the same device');
+      await page.locator('.lm-mastery-start').click();
+      await page.waitForSelector('.lm-drill-option',{timeout:10000});
+      await page.locator('.lm-drill-option').first().click();
+      check(await page.locator('.lm-drill-answer').count()===1,
+        'Focused retrieval must reveal the approved explanation');
+      await openRoute(page,base,'#/lamla');
       await page.locator('#lm-time').selectOption('30');
       await page.locator('input[name="goal"][value="revise"]').check();
       await page.locator('[data-lecture="circulation-2"]').click();
