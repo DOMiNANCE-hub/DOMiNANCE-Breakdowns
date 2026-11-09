@@ -45,8 +45,8 @@ const load=()=>{const hash=location.hash;
 if(hash.startsWith('#/lamla')||hash.startsWith('#/practice')||hash.includes('/test'))
   inject('lamla-mastery.js?v=20261109d');
 if(hash.startsWith('#/lamla/')){
-  inject('lamla-coach.js?v=20261109e');
-  inject('lamla-lesson.js?v=20261109c');
+  inject('lamla-coach.js?v=20261109f');
+  inject('lamla-lesson.js?v=20261109d');
 }
 };
 window.addEventListener('hashchange',load);load()})();
@@ -56,7 +56,7 @@ window.addEventListener('hashchange',load);load()})();
    Do not rely on a delayed background fetch: a user can disconnect immediately after Save All. */
 (()=>{
   const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109d',
-    'lamla-coach.js?v=20261109e','lamla-lesson.js?v=20261109c'];
+    'lamla-coach.js?v=20261109f','lamla-lesson.js?v=20261109d'];
   const register=()=>{
     const bundle=window.DOM_BUNDLE;
     if(!bundle)return;
