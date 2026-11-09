@@ -847,6 +847,11 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await page.waitForSelector('.lm-coach-output:not([hidden])');
       check((await page.locator('.lm-coach-output').innerText()).includes('Diagnosis'),
         'Connected tutor should assess the student reasoning');
+      await page.locator('.lm-coach-output textarea').fill('The reflex acts through increased sympathetic output to arterioles.');
+      await page.locator('.lm-coach-output button').click();
+      await page.waitForSelector('.lm-coach-followup strong');
+      check((await page.locator('.lm-coach-followup').innerText()).includes('follow-up assessment'),
+        'The AI coach must assess a second student explanation');
       await openRoute(page,base,'#/lamla');
       await page.waitForSelector('.lm-mastery');
       check((await page.locator('.lm-mastery').innerText()).includes('1 concepts attempted'),
