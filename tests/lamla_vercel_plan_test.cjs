@@ -29,6 +29,8 @@ const invoke=async(method,body=payload)=>{
      assert.equal(url,'https://api.openai.com/v1/chat/completions');
      const optsJSON=JSON.parse(opts.body);
      assert.equal(optsJSON.response_format.type,'json_object');
+     assert.equal(optsJSON.model,'gpt-6-luna');
+     assert.equal(optsJSON.reasoning_effort,'none');
      return {ok:true,json:async()=>({choices:[{message:{content:'{"order":["cardiac-cycle","cardiac-muscle"]}'}}]})};
    };
    assert.equal((await invoke('GET')).body.ai_binding,'connected');
