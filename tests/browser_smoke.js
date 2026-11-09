@@ -814,6 +814,14 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     for (const width of [390,1280]) {
       const page=await newPage(browser,base,{viewport:{width,height:860}});
       await page.route('**'+'/api/lamla-plan',route=>route.fulfill({status:503,body:'{"error":"not configured"}'}));
+      await page.route('**/api/lamla-coach',route=>route.fulfill({
+        status:200,contentType:'application/json',
+        body:JSON.stringify(route.request().method()==='GET'
+          ? {available:true,mode:'ai-ready'}
+          : {source:'test',diagnosis:'The reasoning matches the reviewed explanation.',
+             coaching:'Identify the mechanism that explains the change.',
+             checkQuestion:'How would this response affect resistance?'})
+      }));
       await openRoute(page,base,'#/');
       check(await page.locator('.practice-card').count()===1,'Homepage Practice card missing');
       check(await page.locator('.lamla-card:not(.practice-card)').count()===1,'Homepage LAMLA card missing');
@@ -832,6 +840,13 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(await page.locator('.lt-option').count()===4,'Revision should begin with lecture MCQs');
       await page.locator('.lt-option').first().click();
       check(await page.locator('.lt-verdict').count()===1,'Revision needs a feedback explanation');
+      await page.waitForSelector('.lm-coach-panel');
+      check(await page.locator('.lm-coach-panel').count()===1,'LAMLA should offer optional reasoning coaching');
+      await page.locator('.lm-coach-panel textarea').fill('The mechanism depends on the change in pressure sensed by the receptors.');
+      await page.locator('.lm-coach-send').click();
+      await page.waitForSelector('.lm-coach-output:not([hidden])');
+      check((await page.locator('.lm-coach-output').innerText()).includes('Diagnosis'),
+        'Connected tutor should assess the student reasoning');
       await openRoute(page,base,'#/lamla');
       await page.locator('#lm-time').selectOption('30');
       await page.locator('input[name="goal"][value="revise"]').check();
