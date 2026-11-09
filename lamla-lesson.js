@@ -2,7 +2,7 @@
 (()=>{
 'use strict';
 const style=document.createElement('style');
-style.textContent='.lm-ai-lesson{margin:1rem 0;padding:.9rem 1rem;border:1px solid var(--border,#cdd8e5);border-radius:14px}'
+style.textContent='.lm-ai-lesson{margin:1rem 0;padding:.9rem 1rem;border:1px solid var(--line,#cdd8e5);border-radius:14px}'
   +'.lm-ai-lesson summary{font-weight:700;cursor:pointer}.lm-ai-lesson .lm-lesson-label{display:block;font-size:.9rem;margin:.75rem 0 .35rem}'
   +'.lm-ai-lesson select,.lm-ai-lesson textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #899bb5;border-radius:9px;background:transparent;color:inherit;font:inherit;padding:.7rem}'
   +'.lm-ai-lesson textarea{min-height:84px;margin:.7rem 0;resize:vertical}.lm-ai-lesson button{margin:.75rem 0 .4rem}'
