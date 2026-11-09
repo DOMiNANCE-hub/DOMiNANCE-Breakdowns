@@ -207,6 +207,18 @@ function renderDrill(area) {
   drill.index++;drill.selected=null;renderDrill(area);
  });
 }
+function mountPlan(){
+ const plan=document.querySelector('.lm-v2 .lm-plan');
+ if(!plan||plan.querySelector('.lm-plan-mastery'))return;
+ const el=document.createElement('aside');
+ el.className='lm-mastery lm-plan-mastery';
+ el.innerHTML='<h2>LAMLA tutor readiness</h2><p class="lm-ai-mode" role="status">Checking AI connection…</p>'
+   + (counts().tracked?summary()+targets():'<p>Your first assessments will establish which objectives need more practice.</p>')
+   +'<p class="lm-note">AI coaching checks your written reasoning when configured. The structured learning route and reviewed tests work without AI.</p>';
+ const status=plan.querySelector('.lm-ai-status');
+ if(status)status.after(el);else plan.appendChild(el);
+ aiState(el.querySelector('.lm-ai-mode'));
+}
 function mountFinish(){
  const finish=[...document.querySelectorAll('.lm-v2 .lm-finish')].find(x=>x.textContent.includes('Session completed'));
  if(!finish||finish.querySelector('.lm-mastery'))return;
@@ -222,7 +234,7 @@ function update(){
  if(busy)return;busy=true;
  queueMicrotask(()=>{busy=false;
   if(!location.hash.startsWith('#/lamla'))return;
-  mountIntro();mountFinish();
+  mountIntro();mountPlan();mountFinish();
  });
 }
 new MutationObserver(update).observe(document.body,{childList:true,subtree:true});
