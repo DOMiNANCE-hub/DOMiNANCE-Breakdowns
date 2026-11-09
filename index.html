@@ -27,10 +27,10 @@ const inject=(name)=>{if(loaded.has(name))return;loaded.add(name);const s=docume
 s.src=name;s.defer=true;document.head.appendChild(s)};
 const load=()=>{const hash=location.hash;
 if(hash.startsWith('#/lamla')||hash.startsWith('#/practice')||hash.includes('/test'))
-  inject('lamla-mastery.js?v=20261109c');
+  inject('lamla-mastery.js?v=20261109d');
 if(hash.startsWith('#/lamla/')){
-  inject('lamla-coach.js?v=20261109d');
-  inject('lamla-lesson.js?v=20261109b');
+  inject('lamla-coach.js?v=20261109e');
+  inject('lamla-lesson.js?v=20261109c');
 }
 };
 window.addEventListener('hashchange',load);load()})();
@@ -41,8 +41,8 @@ window.addEventListener('hashchange',load);load()})();
 (()=>{
   if(!('serviceWorker' in navigator))return;
   let started=false;
-  const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109c',
-    'lamla-coach.js?v=20261109d','lamla-lesson.js?v=20261109b'];
+  const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109d',
+    'lamla-coach.js?v=20261109e','lamla-lesson.js?v=20261109c'];
   const prepare=()=>{
     if(started||!navigator.serviceWorker.controller||navigator.onLine===false)return;
     started=true;
