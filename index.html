@@ -25,9 +25,10 @@
 (()=>{const loaded=new Set();
 const inject=(name)=>{if(loaded.has(name))return;loaded.add(name);const s=document.createElement('script');
 s.src=name;s.defer=true;document.head.appendChild(s)};
-const load=()=>{if(!location.hash.startsWith('#/lamla'))return;
-inject('lamla-mastery.js?v=20261109a');
-if(location.hash.startsWith('#/lamla/'))inject('lamla-coach.js?v=20261109a');
+const load=()=>{const hash=location.hash;
+if(hash.startsWith('#/lamla')||hash.startsWith('#/practice')||hash.includes('/test'))
+  inject('lamla-mastery.js?v=20261109a');
+if(hash.startsWith('#/lamla/'))inject('lamla-coach.js?v=20261109b');
 };
 window.addEventListener('hashchange',load);load()})();
 </script>
