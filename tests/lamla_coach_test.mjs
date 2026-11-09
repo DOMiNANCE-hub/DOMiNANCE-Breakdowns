@@ -29,7 +29,7 @@ const makeEnv=run=>({
   },
   AI:{run}
 });
-const modelReply={response:{diagnosis:'The mechanism is correct.',coaching:'Lower stretch reduces baroreceptor firing, disinhibiting sympathetic outflow.',checkQuestion:'What happens to arteriolar resistance?'}};
+const modelReply={response:{diagnosis:'The mechanism is correct.',coaching:'Lower stretch reduces baroreceptor firing, disinhibiting sympathetic outflow.',checkQuestion:'What happens to arteriolar resistance?',reasoningQuality:'sound'}};
 const env=makeEnv(async(model,options)=>{
   assert.ok(model.includes('llama'));
   assert.equal(options.messages.length,2);
@@ -43,6 +43,7 @@ assert.equal(good.status,200);
 const data=await good.json();
 assert.equal(data.source,'workers-ai');
 assert.equal(data.diagnosis,'The mechanism is correct.');
+assert.equal(data.reasoningQuality,'sound');
 assert.equal(count,1);
 const second={...payload,followUpQuestion:'What happens to arteriolar resistance?',
   followUpAnswer:'Sympathetic activation constricts arterioles, increasing total peripheral resistance.'};
