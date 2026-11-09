@@ -74,6 +74,8 @@ jobs:
         run: node tests/browser_smoke.js
       - name: Feedback endpoints
         run: node tests/api_test.js
+      - name: LAMLA AI planner diagnostics
+        run: node tests/lamla_ai_test.mjs
 
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js
