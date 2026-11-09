@@ -44,9 +44,16 @@ const data=await good.json();
 assert.equal(data.source,'workers-ai');
 assert.equal(data.diagnosis,'The mechanism is correct.');
 assert.equal(count,1);
+const second={...payload,followUpQuestion:'What happens to arteriolar resistance?',
+  followUpAnswer:'Sympathetic activation constricts arterioles, increasing total peripheral resistance.'};
+const next=await onRequestPost({request:request(second),env});
+assert.equal(next.status,200);
+assert.equal(count,2);
+const incomplete=await onRequestPost({request:request({...payload,followUpQuestion:'Where is the reflex center?'}),env});
+assert.equal(incomplete.status,400);
 const invalid=await onRequestPost({request:request({...payload,studentReason:'short'}),env});
 assert.equal(invalid.status,400);
-assert.equal(count,1);
+assert.equal(count,2);
 count=25;
 const limited=await onRequestPost({request:request(),env});
 assert.equal(limited.status,429);
