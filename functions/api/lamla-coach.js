@@ -4,7 +4,7 @@ const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control
 const ready=env=>env?.LAMLA_COACH_ENABLED==='true' && typeof env?.AI?.run==='function' &&
   typeof env?.LAMLA_COACH_LIMITS?.get==='function' && typeof env?.LAMLA_COACH_LIMITS?.put==='function';
 const str=(v,n)=>typeof v==='string'?v.trim().slice(0,n):'';
-const model='@cf/meta/llama-3.1-8b-instruct-fast';
+const model='@cf/meta/llama-3.3-70b-instruct-fp8-fast';
 
 export function onRequestGet({env}) {
   return json({service:'lamla-coach',mode:ready(env)?'ai-ready':'built-in',
