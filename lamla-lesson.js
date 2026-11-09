@@ -47,7 +47,7 @@ function mount(){
  const status=tag('p','Checking AI availability…');status.setAttribute('role','status');
  const button=tag('button','Teach this concept');button.type='button';button.className='btn btn-primary';button.disabled=true;
  const result=document.createElement('div');result.className='lm-ai-lesson-result';result.hidden=true;
- const note=tag('small','AI teaching is optional. A request sends selected reviewed points and, if supplied, your written answer to the AI provider. It does not send your name or student number.');
+ const note=tag('small','AI teaching is optional. A request sends selected reviewed points and, if supplied, your written answer to the AI provider. No account identity is automatically attached. Avoid sharing personal details.');
  panel.append(summ,label,status,button,result,note);
  const list=section.querySelector('.lm-must');
  if(list)list.before(panel);else section.append(panel);
