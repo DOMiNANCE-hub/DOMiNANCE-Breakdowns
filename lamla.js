@@ -47,17 +47,37 @@ function mount(root,{lecture,sheet,minutes,goal,days=0,topics,chapterUrl,testUrl
    while(out.length<n&&lists.some(g=>g.length))for(const g of lists){if(out.length>=n)break;if(g.length)out.push(g.shift())}
    st.picks[slug]=out.map(q=>q.id);save();return out;
  };
+ const aiStatus = () => {
+   if(st.ai==='ready') return 'AI-assisted route based on our approved chapter outline.';
+   if(st.ai!=='unavailable') return 'Preparing your study route…';
+   const reasons={
+     binding_missing:'Workers AI binding is missing from this Pages deployment.',
+     inference_failed:'Cloudflare Workers AI could not complete the request. Check Pages Function logs and AI usage.',
+     invalid_ai_response:'AI did not return a complete valid route.',
+     endpoint_missing:'The Pages AI planning endpoint was not found.',
+     service_unavailable:'The AI planning endpoint is unavailable.',
+     invalid_request:'The AI planner rejected the route details.',
+     network_failure:'The network could not reach the AI planning endpoint.'
+   };
+   return 'Using the built-in planner. '+(reasons[st.aiError]||'The AI request could not be completed.');
+ };
  let aiSent=false;
  async function requestAI(){
    try {
      const body={goal:mode,minutes:budget,limit,chapters:all.map(c=>({slug:c.slug,title:c.title,highYield:c.must.filter(m=>m.star).length,questions:c.qs.length}))};
      const res=await fetch('/api/lamla-plan',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
-     if(!res.ok)throw Error('Unavailable');
+     if(!res.ok){
+       const error=await res.json().catch(()=>({}));
+       const e=new Error('AI request failed');
+       e.code=error.code||(res.status===404?'endpoint_missing':res.status===400?'invalid_request':'service_unavailable');
+       throw e;
+     }
      const data=await res.json(),out=(Array.isArray(data.order)?data.order:[]).filter((s,i,a)=>names.has(s)&&a.indexOf(s)===i).slice(0,limit);
-     if(out.length!==limit||st.started||st.step!=='plan')throw Error('Unsafe plan');
-     st.order=out;st.alloc=allocate(out);st.ai='ready';save();plan();
-   }catch {
-     if(!st.started&&st.step==='plan'){st.ai='unavailable';save();const e=root.querySelector('.lm-ai-status');if(e)e.textContent='Using our built-in planner (AI not connected or quota reached).'}
+     if(out.length!==limit){const e=new Error('Incomplete AI route');e.code='invalid_ai_response';throw e}
+     if(st.started||st.step!=='plan')return;
+     st.order=out;st.alloc=allocate(out);st.ai='ready';st.aiError=null;save();plan();
+   }catch(error) {
+     if(!st.started&&st.step==='plan'){st.ai='unavailable';st.aiError=error?.code||'network_failure';save();const e=root.querySelector('.lm-ai-status');if(e)e.textContent=aiStatus();}
    }
  }
  function plan(){
@@ -71,7 +91,7 @@ function mount(root,{lecture,sheet,minutes,goal,days=0,topics,chapterUrl,testUrl
    <p>${mode==='learn'?'Essential concepts first, followed by real lecture-test questions.':'Questions first; corrective explanations only when you need them.'} Both paths finish with mixed practice.</p>
    <div class="lm-plan-stats"><span><strong>${st.order.length}/${all.length}</strong> chapters</span><span><strong>${questions.length}</strong> available questions</span><span><strong>${fmt(budget)}</strong> budget</span></div>
    <p class="lm-notice">${omitted?`Your time allows a priority route through ${st.order.length} chapters; ${omitted} are not included yet. You can study them separately or extend your plan.`:'All chapters are included; not every question can fit inside this session.'}</p>
-   <p class="lm-ai-status" role="status">${st.ai==='ready'?'AI-assisted route based on our approved chapter outline.':st.ai==='unavailable'?'Using our built-in planner (AI not connected or quota reached).':'Preparing your study route…'}</p>
+   <p class="lm-ai-status" role="status">${esc(aiStatus())}</p>
    <ol class="lm-route">${rows}</ol>
    <div class="lt-actions"><button type="button" class="btn btn-primary lm-start">Start my route</button><a href="${homeUrl}" class="btn">Change selection</a></div>
    <p class="lm-fine">Time allocations are approximate. Coverage and scores do not guarantee an exam result.</p></section>`);
