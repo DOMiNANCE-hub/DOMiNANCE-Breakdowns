@@ -78,6 +78,8 @@ jobs:
         run: node tests/lamla_ai_test.mjs
       - name: LAMLA reasoning coach diagnostics
         run: node tests/lamla_coach_test.mjs
+      - name: LAMLA AI lesson diagnostics
+        run: node tests/lamla_lesson_test.mjs
 
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js
