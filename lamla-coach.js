@@ -90,7 +90,7 @@
         const heading=document.createElement('strong');
         heading.textContent='LAMLA AI feedback';
         output.append(heading);
-        for(const [name,value] of [['Diagnosis',result.diagnosis],['Let's strengthen it',result.coaching],['Try this',result.checkQuestion]]){
+        for(const [name,value] of [['Diagnosis',result.diagnosis],["Let\'s strengthen it",result.coaching],['Try this',result.checkQuestion]]){
           const p=document.createElement('p'),label=document.createElement('strong');
           label.textContent=name+': ';p.append(label,document.createTextNode(String(value)));output.append(p);
         }
