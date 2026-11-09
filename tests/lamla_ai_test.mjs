@@ -26,6 +26,17 @@ assert.equal((await missing.json()).code,'binding_missing');
 const ok=await post({AI:{run:async()=>({response:'{"order":["cardiac-muscle","cardiac-cycle"]}'})}});
 assert.equal(ok.status,200);
 assert.deepEqual((await ok.json()).order,['cardiac-muscle','cardiac-cycle']);
+const structured=await post({AI:{run:async(_model,options)=>{
+  assert.equal(options.response_format.type,'json_schema');
+  return {response:{order:['cardiac-cycle','cardiac-muscle']}};
+}}});
+assert.equal(structured.status,200);
+assert.deepEqual((await structured.json()).order,['cardiac-cycle','cardiac-muscle']);
+const partial=await post({AI:{run:async()=>({response:{order:['cardiac-cycle']}})}});
+assert.equal(partial.status,200);
+const completed=await partial.json();
+assert.deepEqual(completed.order,['cardiac-cycle','cardiac-muscle']);
+assert.equal(completed.aiSelected,1);
 const saved=console.error;console.error=()=>{};
 try {
   const inference=await post({AI:{run:async()=>{throw Error('test model outage')}}});
