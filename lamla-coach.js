@@ -96,6 +96,54 @@
         }
         output.hidden=false;
         status(state,'AI feedback ready. The reviewed question answer remains authoritative.');
+        // A tutor should listen to the answer, not stop at asking a question.
+        const followLabel=document.createElement('label');
+        followLabel.textContent='Your answer to LAMLA’s follow-up question';
+        const followInput=document.createElement('textarea');
+        followInput.maxLength=500;
+        followInput.placeholder='Explain the mechanism in your own words…';
+        const followButton=document.createElement('button');
+        followButton.type='button';followButton.className='btn btn-primary';
+        followButton.textContent='Let LAMLA assess my follow-up';
+        followButton.disabled=true;
+        const followFeedback=document.createElement('div');
+        followFeedback.className='lm-coach-followup';
+        followInput.addEventListener('input',()=>{
+          followButton.disabled=working||followInput.value.trim().length<15;
+        });
+        followButton.addEventListener('click',async()=>{
+          const followUpAnswer=followInput.value.trim();
+          if(working||followUpAnswer.length<15)return;
+          working=true;followButton.disabled=true;update();
+          status(state,'LAMLA is assessing your explanation…');
+          const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),20000);
+          try {
+            const res=await fetch('/api/lamla-coach',{
+              method:'POST',headers:{'Content-Type':'application/json'},
+              body:JSON.stringify({
+                topic:q.chapter,stem:q.stem,chosen,correct:q.answer,
+                options:['A','B','C','D'].map(k=>q.options[k]),explanation:q.why,
+                studentReason,followUpQuestion:result.checkQuestion,followUpAnswer
+              }),signal:ctrl.signal
+            });
+            const feedback=await res.json();
+            if(!res.ok||!feedback?.diagnosis||!feedback?.coaching)throw Error('Follow-up feedback is unavailable.');
+            if(!panel.isConnected)return;
+            followFeedback.replaceChildren();
+            const t=document.createElement('strong');t.textContent='Your follow-up assessment';
+            const a=document.createElement('p');a.textContent=String(feedback.diagnosis);
+            const b=document.createElement('p');b.textContent=String(feedback.coaching);
+            followFeedback.append(t,a,b);followInput.disabled=true;
+            followButton.remove();
+            status(state,'Follow-up complete. Continue to the next reviewed question when ready.');
+          }catch(error){
+            status(state,error?.name==='AbortError'
+              ?'The follow-up request timed out. Your reviewed explanation is still available.'
+              :'Follow-up assessment could not be completed. You can retry.');
+          }finally{clearTimeout(timeout);working=false;update();
+            if(followButton.isConnected)followButton.disabled=followInput.value.trim().length<15}
+        });
+        output.append(followLabel,followInput,followButton,followFeedback);
       }catch(error){
         if(panel.isConnected)status(state,error?.name==='AbortError'
           ?'AI request timed out. Continue with the reviewed explanation above.'
