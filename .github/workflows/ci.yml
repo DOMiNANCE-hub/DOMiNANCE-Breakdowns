@@ -74,9 +74,15 @@ jobs:
         run: node tests/browser_smoke.js
       - name: Feedback endpoints
         run: node tests/api_test.js
+      - name: LAMLA AI planner diagnostics
+        run: node tests/lamla_ai_test.mjs
 
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js
+
+      - name: One-time production LAMLA AI check (nonblocking)
+        if: github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, '[lamla-probe]')
+        run: node tests/live_lamla_probe.mjs
 
       - name: Keep the structure report
         if: always()
