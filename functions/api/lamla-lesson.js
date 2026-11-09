@@ -45,7 +45,7 @@ export async function onRequestPost({request,env}){
  }catch{return json({error:'AI usage protection unavailable',code:'limiter_unavailable'},503)}
  try{
    const payload={mode,topic,focus,reviewedFacts:facts,previousQuestion,studentAnswer:answer};
-   const out=await env.AI.run('@cf/meta/llama-3.1-8b-instruct-fast',{
+   const out=await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast',{
      messages:[{role:'system',content:instructions},{role:'user',content:JSON.stringify(payload)}],
      response_format:{type:'json_object'},max_tokens:550,temperature:0.15
    });
