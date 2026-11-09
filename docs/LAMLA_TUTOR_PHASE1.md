@@ -32,5 +32,19 @@ AI coaching is opt-in per answer. It sends the question stem, four options, revi
 - After preview deploy, test `GET /api/lamla-coach`. An active provider returns `{"available":true,"mode":"ai-ready"}`; otherwise it explicitly returns built-in mode.
 - Do not merge into production until CI is green and the hosting binding, cost limits, error handling, and academic feedback have been reviewed.
 
+## Phase 2 — implemented in this draft
+- `lamla-mastery.js` is lazy-loaded on LAMLA and lecture-test routes. A `dom:answer` result records the reviewed question, section, chapter, score history, and next review date in browser localStorage.
+- LAMLA setup now shows a visible learning map, due/weak objectives, and a focused-practice launch button. The practice dynamically loads the approved lecture question files and selects questions from weak or overdue areas, with broad coverage for initial diagnosis.
+- The tutor offers a second written turn: students can answer the AI's follow-up question and receive another assessment based on the reviewed explanation. This is formative; it is not a validated mastery score.
+- Finishing a LAMLA session displays next recommended revision priorities.
+- Browser coverage now includes retention across navigation, targeted retrieval, grounded explanations and the second AI exchange.
+
+## Still not implemented
+- Cross-device or account-linked learning profiles; localStorage is device-local and may be cleared.
+- A full autonomous lesson navigator with multistep AI teaching and formal pedagogical policy.
+- Cost-safe authentication and classroom-scale AI quotas; current rate guards are conservative pre-launch controls, not guaranteed billing caps.
+- Real-model end-to-end testing on both Vercel and Cloudflare. Services are intentionally disabled until credentials, usage caps and deployment bindings are verified.
+- Curriculum-wide independent academic audit of every AI-generated feedback example.
+
 ## Next phase
-Move from per-question AI commentary to a structured teaching dialogue, track mastery per learning objective, and use prior misses to choose remediation and spaced practice. Build from approved content; do not ask the model to manufacture the canonical exam bank.
+Introduce a persistent authenticated learner profile, prerequisite-aware lesson routing and robust provider-level budget controls after preview evaluation. Do not assume that a successful mocked test establishes real AI availability.
