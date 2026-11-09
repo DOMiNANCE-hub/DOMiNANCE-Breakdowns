@@ -46,8 +46,8 @@ window.addEventListener('hashchange',load);load()})();
   const prepare=()=>{
     if(started||!navigator.serviceWorker.controller||navigator.onLine===false)return;
     started=true;
-    const later=window.requestIdleCallback||((cb)=>setTimeout(cb,2400));
-    later(()=>files.forEach(f=>fetch(f).catch(()=>{})));
+    // Small prerequisite scripts are fetched promptly, so Save All can finish before disconnecting.
+    setTimeout(()=>files.forEach(f=>fetch(f).catch(()=>{})),600);
   };
   window.addEventListener('load',prepare);
   navigator.serviceWorker.addEventListener('controllerchange',prepare);
