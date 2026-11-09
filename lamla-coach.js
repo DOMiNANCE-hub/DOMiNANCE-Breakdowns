@@ -50,7 +50,7 @@
       +'<button class="btn btn-primary lm-coach-send" type="button" disabled>Check my reasoning with LAMLA AI</button>'
       +'<p class="lm-coach-state" role="status" aria-live="polite">Checking AI availability…</p>'
       +'<div class="lm-coach-output" aria-live="polite" hidden></div>'
-      +'<p class="lm-coach-privacy">Optional: submitting sends this question, the reviewed answer, and your written reasoning to the configured AI service. No name or student number is included.</p>';
+      +'<p class="lm-coach-privacy">Optional: submitting sends this question, the reviewed answer, and your written reasoning to the configured AI service. No account identity is automatically attached. Do not enter personal information.</p>';
     explanation.appendChild(panel);
     const input=panel.querySelector('textarea'),button=panel.querySelector('button'),
       state=panel.querySelector('.lm-coach-state'),output=panel.querySelector('.lm-coach-output');
