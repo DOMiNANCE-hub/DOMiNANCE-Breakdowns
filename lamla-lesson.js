@@ -18,10 +18,11 @@ const ready=()=>{
 };
 const tag=(name,text)=>{const el=document.createElement(name);el.textContent=text;return el};
 async function post(payload){
+ if(window.LAMLAQuota&&!window.LAMLAQuota.consume())throw Error('Your four free AI interactions for today are used. Continue with the reviewed notes.');
  const abort=new AbortController(),timeout=setTimeout(()=>abort.abort(),22000);
  try{
    const response=await fetch('/api/lamla-lesson',{
-     method:'POST',headers:{'Content-Type':'application/json'},
+     method:'POST',headers:{'Content-Type':'application/json','X-LAMLA-Visitor':window.LAMLAQuota?.id?.()||''},
      body:JSON.stringify(payload),signal:abort.signal
    });
    const body=await response.json();
