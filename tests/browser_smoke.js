@@ -854,7 +854,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
         'The AI coach must assess a second student explanation');
       await openRoute(page,base,'#/lamla');
       await page.waitForSelector('.lm-mastery');
-      check((await page.locator('.lm-mastery').innerText()).includes('1 concepts attempted'),
+      check((await page.locator('.lm-mastery').innerText()).includes('1 concept attempted'),
         'LAMLA should remember answered concepts on the same device');
       await page.locator('.lm-mastery-start').click();
       await page.waitForSelector('.lm-drill-option',{timeout:10000});
