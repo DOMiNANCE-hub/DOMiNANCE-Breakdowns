@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   const css=document.createElement('style');
-  css.textContent='.lm-coach-panel{margin:1rem 0;padding:1rem;border:1px solid var(--border,#d5dce6);border-radius:14px;background:var(--surface,#fff)}'
+  css.textContent='.lm-coach-panel{margin:1rem 0;padding:1rem;border:1px solid var(--line,#d5dce6);border-radius:14px;background:var(--sheet,#fff)}'
     +'.lm-coach-panel h2{font-size:1.08rem;margin:0 0 .45rem}.lm-coach-panel p{margin:.4rem 0 .8rem}'
     +'.lm-coach-panel textarea{display:block;width:100%;box-sizing:border-box;min-height:90px;margin:.6rem 0;padding:.8rem;border:1px solid #8292ab;border-radius:10px;font:inherit;color:inherit;background:transparent;resize:vertical}'
     +'.lm-coach-panel .lm-coach-state{font-size:.9rem}.lm-coach-panel .lm-coach-output{margin-top:.85rem;padding:.85rem;border-radius:10px;background:rgba(90,128,183,.09)}'
