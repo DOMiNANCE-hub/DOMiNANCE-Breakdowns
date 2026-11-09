@@ -174,7 +174,7 @@
   function cvsHome() {
     document.title = 'Cardiovascular Physiology | DOMiNANCE Breakdowns';
     main.innerHTML = `<section class="hero"><div class="hero-content"><div class="eyebrow">DOMiNANCE BREAKDOWNS · PHYSIOLOGY</div><h1>Cardiovascular Physiology,<br>Made Understandable.</h1><p>Understand your lectures through clear explanations of what happens, why it happens, and how the underlying mechanisms work.</p><span class="hero-chip">6 lecture documents · ${topics.length} breakdowns</span></div><div class="hero-visual"><div class="hero-orbit">${heroSvg}</div></div></section>
-      ${lamlaCard()}<div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
+      ${lamlaCard()}${practiceCard()}<div class="library-heading"><div><h2>Find your breakdown</h2><p>Browse by lecture document or choose a specific topic to begin studying.</p></div><div class="library-tabs" role="group" aria-label="Choose browsing method"><button class="library-tab" type="button" data-mode="lectures" aria-pressed="true">By lecture document</button><button class="library-tab" type="button" data-mode="topics" aria-pressed="false">By topic</button></div></div>
       ${resumeCard()}<label class="search-field" aria-label="Search lecture documents and topics"><span>⌕</span><input id="search" autocomplete="off" placeholder="Search lectures or topics…"/></label><div id="library-list"></div><section class="offline-card" id="offline-card" aria-label="Offline reading"></section>`;
     const requestedView = new URLSearchParams((location.hash || '').split('?')[1] || '').get('view');
     let mode = requestedView === 'topics' ? 'topics' : (readStore('dom-library-view') === 'topics' ? 'topics' : 'lectures');
@@ -307,49 +307,32 @@
   }
 
   // ---------- LAMLA (last-minute mode) ----------
-  const lamlaCard = () => `<a class="lamla-card" href="#/lamla"><span class="lamla-mark" aria-hidden="true">LAMLA</span><span class="lamla-text"><strong>Last-minute mode</strong><span>Exam soon? Test yourself chapter by chapter, learn only the must-know points, fix your mistakes.</span></span><span class="test-card-go" aria-hidden="true">→</span></a>`;
+  const lamlaCard = () => `<a class="lamla-card" href="#/lamla"><span class="lamla-mark" aria-hidden="true">LAMLA</span><span class="lamla-text"><strong>Last-minute mode</strong><span>Learn quickly or revise effectively with a personalised route through high-yield concepts and lecture questions.</span></span><span class="test-card-go" aria-hidden="true">→</span></a>`;
+  const practiceCard = () => `<a class="lamla-card practice-card" href="#/practice"><span class="lamla-mark">MCQs</span><span class="lamla-text"><strong>Practice questions</strong><span>Go straight to lecture tests and exam-style questions.</span></span><span class="test-card-go">→</span></a>`;
+
+  // Keep the homepage small: load LAMLA and Practice setup only when requested.
+  const studyScreens = () => window.DOMStudyUI({main,lectures,bundle,baseUrl,topics,esc,docName,testFor,testBest,testUrl,bySlug,ensureChapter,loadScript,navigate});
   function lamlaPicker() {
-    document.title = 'LAMLA: last-minute mode | DOMiNANCE Breakdowns';
-    const ready = lectures.filter(l => !l.duplicateOf && (bundle.lamla || {})[l.slug]);
-    const saved = (() => { try { return Number(localStorage.getItem('dom-lamla-minutes')) || 60; } catch { return 60; } })();
-    main.innerHTML = `<div class="lt-wrap"><nav class="breadcrumb"><a href="#/">Home</a> / <a href="${baseUrl}">Cardiovascular System</a></nav>
-      <section class="lt-intro lamla-intro"><p class="lt-kicker">LAMLA</p><h1>Last-minute mode</h1>
-      <p class="lt-lede">For when the exam is close. For each chapter you answer a few questions first, then read only the must-know points, focusing on what you got wrong. It ends with your mistakes, a night-before list and the lecture test.</p>
-      <fieldset class="lamla-time"><legend>How much time do you have?</legend>${[[30, '30 minutes', 'The ★ points and 2 questions per chapter'], [60, '1 hour', 'Every must-know point and 4 questions per chapter'], [120, '2 hours', 'The whole sheet, every question, the full test']].map(([m, l, d]) => `<label class="lt-choice"><input type="radio" name="minutes" value="${m}"${m === saved ? ' checked' : ''}><span><strong>${l}</strong><small>${d}</small></span></label>`).join('')}</fieldset>
-      <h2 class="lamla-pick">Which lecture?</h2>
-      <div class="lamla-lectures">${ready.map(l => { const also = twins(l).map(d => docName(d.file)).join(', ');
-        return `<button type="button" class="lamla-lecture" data-lecture="${l.slug}"><span class="lamla-num">${l.index}</span><span><strong>${esc(l.name)}</strong><small>${esc(docName(l.file))}${also ? ' · also ' + esc(also) : ''}</small></span><span aria-hidden="true">→</span></button>`; }).join('')}</div>
-      </section></div>`;
-    main.querySelectorAll('[data-lecture]').forEach(b => b.addEventListener('click', () => {
-      const m = main.querySelector('input[name="minutes"]:checked')?.value || '60';
-      try { localStorage.setItem('dom-lamla-minutes', m); } catch {}
-      location.hash = '#/lamla/' + b.dataset.lecture + '?t=' + m;
-    }));
+    const token=routeToken;
+    main.innerHTML='<div class="lt-wrap"><p class="skeleton-note" role="status">Opening LAMLA…</p></div>';
+    loadScript('study-ui.js?v=1').then(()=>{if(token===routeToken)studyScreens().lamlaPicker()},()=>{if(token===routeToken)main.innerHTML='<p class="load-error">LAMLA is unavailable offline. Reconnect and try again.</p>'});
   }
-  function lamlaSession(l, minutes, done) {
-    const token = ++routeToken;
-    document.title = 'LAMLA: ' + l.name + ' | DOMiNANCE Breakdowns';
-    const sheet = (bundle.lamla || {})[l.slug];
-    if (!sheet) { lamlaPicker(); done(); return; }
-    main.innerHTML = '<div class="lt-wrap"><p class="skeleton-note" role="status">Getting your last-minute session ready…</p></div>';
-    const chs = sheet.chapters.map(slug => bySlug.get(slug)).filter(Boolean);
-    Promise.all([loadScript(bundle.lamlaApp), loadScript(sheet.file), ...chs.map(ensureChapter)]).then(() => {
-      if (token !== routeToken) return;
-      const t = testFor(l);
-      window.DOMLamla.mount(main, {lecture: l, sheet: window.DOM_LAMLA[l.slug], minutes, topics, chapterHtml,
-        chapterUrl: (c, sec) => '#/physiology/cvs/' + c + (sec ? '?section=' + encodeURIComponent(sec) : ''),
-        testUrl: t ? testUrl(t.slug) : '', testCount: t ? t.count : 0, homeUrl: '#/lamla'});
-      done();
-    }, () => {
-      if (token !== routeToken) return;
-      main.innerHTML = `<div class="load-error" role="alert"><h1>LAMLA</h1><p>This session couldn’t be downloaded. Check your connection, then try again.</p><button class="btn btn-primary" type="button" id="retry-load">Try again</button></div>`;
-      document.getElementById('retry-load').addEventListener('click', navigate);
-      done();
-    });
+  function lamlaSession(l,minutes,goal,days,done) {
+    const token=++routeToken;
+    main.innerHTML='<div class="lt-wrap"><p class="skeleton-note" role="status">Preparing your route…</p></div>';
+    loadScript('study-ui.js?v=1').then(()=>{
+      if(token!==routeToken)return;
+      studyScreens().lamlaSession(l,minutes,goal,days,done,()=>token===routeToken);
+    },()=>{if(token===routeToken){main.innerHTML='<p class="load-error">LAMLA is unavailable offline. Reconnect and try again.</p>';done()}});
+  }
+  function practiceHome() {
+    const token=routeToken;
+    main.innerHTML='<div class="lt-wrap"><p class="skeleton-note" role="status">Opening question practice…</p></div>';
+    loadScript('study-ui.js?v=1').then(()=>{if(token===routeToken)studyScreens().practiceHome()},()=>{if(token===routeToken)main.innerHTML='<p class="load-error">Practice is unavailable offline. Reconnect and try again.</p>'});
   }
   function platformHome() {
     document.title = 'DOMiNANCE Breakdowns | Understand More';
-    main.innerHTML = `<section class="platform-hero"><span class="platform-kicker">DOMiNANCE BREAKDOWNS</span><h1>Complex concepts.<br><em>Clear explanations.</em></h1><p>Understand what happens, why it happens and how it works, one concept at a time.</p><a href="${baseUrl}" class="btn btn-primary">Explore Cardiovascular Physiology →</a></section>${lamlaCard()}<section class="platform-library" aria-labelledby="platform-heading"><div class="section-heading"><div><h2 id="platform-heading">Explore by subject</h2></div></div><h3 class="platform-subheading">Physiology</h3><div class="platform-grid"><a class="platform-system platform-available" href="${baseUrl}"><span class="platform-symbol" aria-hidden="true">♥</span><span class="platform-state">Available now</span><h4>Cardiovascular Physiology</h4><p>${topics.length} explanatory breakdowns organised around six lecture documents.</p><span class="platform-open">Open breakdowns →</span></a><div class="platform-system platform-upcoming"><span class="platform-symbol" aria-hidden="true">◌</span><span class="platform-state">Coming later</span><h4>More systems</h4><p>Respiratory, renal and neurophysiology will be added when their breakdowns are ready.</p></div></div></div></section>`;
+    main.innerHTML = `<section class="platform-hero"><span class="platform-kicker">DOMiNANCE BREAKDOWNS</span><h1>Complex concepts.<br><em>Clear explanations.</em></h1><p>Understand what happens, why it happens and how it works, one concept at a time.</p><a href="${baseUrl}" class="btn btn-primary">Explore Cardiovascular Physiology →</a></section>${lamlaCard()}${practiceCard()}<section class="platform-library" aria-labelledby="platform-heading"><div class="section-heading"><div><h2 id="platform-heading">Explore by subject</h2></div></div><h3 class="platform-subheading">Physiology</h3><div class="platform-grid"><a class="platform-system platform-available" href="${baseUrl}"><span class="platform-symbol" aria-hidden="true">♥</span><span class="platform-state">Available now</span><h4>Cardiovascular Physiology</h4><p>${topics.length} explanatory breakdowns organised around six lecture documents.</p><span class="platform-open">Open breakdowns →</span></a><div class="platform-system platform-upcoming"><span class="platform-symbol" aria-hidden="true">◌</span><span class="platform-state">Coming later</span><h4>More systems</h4><p>Respiratory, renal and neurophysiology will be added when their breakdowns are ready.</p></div></div></div></section>`;
   }
 
   function navigate() {
@@ -364,8 +347,9 @@
     window.scrollTo({top:0, behavior:'instant'});
     if (bySlug.has(path[2]) && path[2] !== 'lecture') { article(bySlug.get(path[2]), done); return; }
     ++routeToken;
-    if (path[0] === 'lamla' && path[1] && byLecture.has(path[1])) { lamlaSession(byLecture.get(path[1]), Number(new URLSearchParams((location.hash || '').split('?')[1] || '').get('t')) || 60, done); return; }
+    if (path[0] === 'lamla' && path[1] && (path[1] === 'all' || byLecture.has(path[1]))) { const q = new URLSearchParams((location.hash || '').split('?')[1] || ''); const l = path[1] === 'all' ? {slug:'all',name:'Whole CVS'} : byLecture.get(path[1]); lamlaSession(l, Math.min(10080,Math.max(15,Number(q.get('t'))||120)), q.get('g') === 'revise' ? 'revise' : 'learn', Number(q.get('d')) || 0, done); return; }
     if (path[0] === 'lamla') { ++routeToken; lamlaPicker(); done(); return; }
+    if (path[0] === 'practice') { practiceHome(); done(); return; }
     if (path[2] === 'lecture' && path[4] === 'test' && byLecture.has(path[3])) { testPage(byLecture.get(path[3]), done); return; }
     if (path[2] === 'lecture' && byLecture.has(path[3])) lecturePage(byLecture.get(path[3]));
     else if (path[0] === 'physiology' && path[1] === 'cvs') cvsHome();
