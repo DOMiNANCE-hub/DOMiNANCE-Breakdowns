@@ -15,7 +15,7 @@ Configure privately in the Vercel dashboard for a preview environment:
 - `OPENAI_API_KEY` — a provider key; never put it in the browser or repository
 - `LAMLA_COACH_ENABLED=true` — explicit opt-in; **off by default**
 - `KV_REST_API_URL` and `KV_REST_API_TOKEN` — Redis REST integration for per-IP daily throttling
-- Optional `LAMLA_AI_MODEL` — defaults to `gpt-4o-mini`
+- Optional `LAMLA_AI_MODEL` — defaults to `gpt-6-luna`
 
 Set a restrictive provider-side billing cap and review logs before enabling production. The Redis guard allows up to 25 coaching requests per inferred IP/day (subject to shared networks); it is not a cost guarantee.
 
@@ -39,9 +39,17 @@ AI coaching is opt-in per answer. It sends the question stem, four options, revi
 - Finishing a LAMLA session displays next recommended revision priorities.
 - Browser coverage now includes retention across navigation, targeted retrieval, grounded explanations and the second AI exchange.
 
+## Phase 3 — guided concept tutor (implemented in this draft)
+- In accelerated learning, students can choose one statement from the approved lecture essentials and request a clear AI explanation.
+- The model returns an understanding-check question, accepts a written answer, and provides corrective feedback grounded in those same approved statements.
+- `functions/api/lamla-lesson.js` and `api/lamla-lesson.js` provide Cloudflare/Vercel counterparts. A Vercel AI chapter planner has also been added so connected and built-in routing behave consistently across hosts.
+- The AI endpoints share the same conservative 25-request daily IP quota per host and remain disabled by default. An account-level spending cap is still required.
+- The Vercel default model is `gpt-6-luna` because legacy GPT-4o Mini is deprecated; override with `LAMLA_AI_MODEL` only after checking compatibility. All model-generated explanations remain formative, not canonical sources.
+- Tests include the Cloudflare lesson mock, the Vercel planner mock, and a phone/desktop guided teaching browser workflow.
+
 ## Still not implemented
 - Cross-device or account-linked learning profiles; localStorage is device-local and may be cleared.
-- A full autonomous lesson navigator with multistep AI teaching and formal pedagogical policy.
+- Fully autonomous multi-chapter navigation and a formal pedagogical policy; the guided lesson interaction itself is implemented.
 - Cost-safe authentication and classroom-scale AI quotas; current rate guards are conservative pre-launch controls, not guaranteed billing caps.
 - Real-model end-to-end testing on both Vercel and Cloudflare. Services are intentionally disabled until credentials, usage caps and deployment bindings are verified.
 - Curriculum-wide independent academic audit of every AI-generated feedback example.
