@@ -933,6 +933,13 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
         check(await page.locator('.article-sheet:not(.is-skeleton) > h1').count() === 1, `offline: saved chapter ${slug} did not open`);
       }
       check(await page.locator('[data-widget="reflex-tracer"][data-ready]').count() === 1, 'offline: interactive did not work offline');
+      await openRoute(page,base,'#/lamla');
+      await page.waitForSelector('.lamla-lecture',{timeout:10000});
+      check(await page.locator('.lamla-lecture').count()>=5,'offline: built-in LAMLA picker failed to open');
+      await page.locator('#lm-time').selectOption('30');
+      await page.locator('[data-lecture="circulation-2"]').click();
+      await page.waitForSelector('.lm-start',{timeout:12000});
+      check(await page.locator('.lm-ai-status').count()===1,'offline: LAMLA route was not available');
       await ctx.setOffline(false);
     }
     check(page.pageErrors.length === 0, `offline: page errors ${page.pageErrors.join('; ')}`);
