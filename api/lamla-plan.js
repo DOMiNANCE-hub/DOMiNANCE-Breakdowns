@@ -20,7 +20,7 @@ async function guard(req){
 module.exports=async function handler(req,res){
  res.setHeader('Cache-Control','no-store');
  res.setHeader('X-Content-Type-Options','nosniff');
- if(req.method==='GET')return send(res,200,{service:'lamla-plan',endpoint:'ready',ai_binding:ready()?'connected':'missing',model:'gpt-4o-mini'});
+ if(req.method==='GET')return send(res,200,{service:'lamla-plan',endpoint:'ready',ai_binding:ready()?'connected':'missing',model:'gpt-6-luna'});
  if(req.method!=='POST')return send(res,405,{error:'Method not allowed'});
  if(!ready())return send(res,503,{error:'AI route unavailable; use built-in planner',code:'ai_unavailable'});
  if(!String(req.headers['content-type']||'').includes('application/json'))return send(res,415,{error:'JSON required'});
@@ -47,7 +47,7 @@ module.exports=async function handler(req,res){
     +'Goal: '+goal+'. Minutes: '+minutes+'. Return JSON {"order":["slug1","slug2"]}. Chapters: '+JSON.stringify(safe);
    const response=await fetch('https://api.openai.com/v1/chat/completions',{
      method:'POST',headers:{Authorization:'Bearer '+process.env.OPENAI_API_KEY,'Content-Type':'application/json'},
-     body:JSON.stringify({model:process.env.LAMLA_AI_MODEL||'gpt-4o-mini',temperature:0.1,max_tokens:500,
+     body:JSON.stringify({model:process.env.LAMLA_AI_MODEL||'gpt-6-luna',reasoning_effort:'none',max_completion_tokens:500,
        response_format:{type:'json_object'},messages:[
          {role:'system',content:'Return only reviewed chapter slugs from the user-supplied list. Never invent curriculum material.'},
          {role:'user',content:prompt}
