@@ -3,7 +3,7 @@ const hasAI=env=>typeof env?.AI?.run==='function';
 // Public readiness check reveals only whether this Pages deployment has its expected binding.
 // It never returns credentials, account information, prompts, or model responses.
 export function onRequestGet({env}) {
-  return reply({service:'lamla-plan',endpoint:'ready',ai_binding:hasAI(env)?'connected':'missing',model:'@cf/meta/llama-3.1-8b-instruct-fast'});
+  return reply({service:'lamla-plan',endpoint:'ready',ai_binding:hasAI(env)?'connected':'missing',model:'@cf/meta/llama-3.3-70b-instruct-fp8-fast'});
 }
 
 export async function onRequestPost({request,env}) {
@@ -23,7 +23,7 @@ export async function onRequestPost({request,env}) {
   try {
     const target=Math.min(limit,safe.length);
     // This model supports Cloudflare's JSON Mode, which can return an object directly.
-    const answer=await env.AI.run('@cf/meta/llama-3.1-8b-instruct-fast',{
+    const answer=await env.AI.run('@cf/meta/llama-3.3-70b-instruct-fp8-fast',{
       messages:[
         {role:'system',content:'You are a curriculum route planner. Return only chapter slugs supplied in the request. Do not invent medical facts or questions.'},
         {role:'user',content:prompt}
