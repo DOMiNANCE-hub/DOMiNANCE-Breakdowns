@@ -73,7 +73,7 @@ const weak=()=>all().filter(o=>mastery(o)!=='strengthening'||o.due<=now()).sort(
  return score(b)-score(a)||a.due-b.due;
 });
 const css=document.createElement('style');
-css.textContent='.lm-mastery{margin:1.1rem 0;padding:1rem;border:1px solid var(--border,#d4dce8);border-radius:15px;background:var(--surface,#fff)}'
+css.textContent='.lm-mastery{margin:1.1rem 0;padding:1rem;border:1px solid var(--line,#d4dce8);border-radius:15px;background:var(--sheet,#fff)}'
  +'.lm-mastery h2{font-size:1.15rem;margin:0 0 .5rem}.lm-mastery h3{font-size:1rem;margin:.7rem 0}.lm-mastery p{margin:.5rem 0}'
  +'.lm-mastery-stats{display:flex;gap:.7rem;flex-wrap:wrap;margin:.8rem 0}.lm-mastery-stats span{padding:.5rem .7rem;background:rgba(75,112,160,.1);border-radius:9px}'
  +'.lm-mastery-list{padding-left:1.25rem}.lm-mastery-list li{margin:.5rem 0}.lm-mastery-list small{display:block;opacity:.78}'
