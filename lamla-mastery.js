@@ -135,7 +135,7 @@ async function aiState(node) {
    :'Built-in tutor active. AI coaching is unavailable here; reviewed lessons and adaptive practice remain available.';
 }
 const summary=()=>{
- const c=counts();return '<div class="lm-mastery-stats"><span><strong>'+c.tracked+'</strong> concepts attempted</span>'
+ const c=counts();return '<div class="lm-mastery-stats"><span><strong>'+c.tracked+'</strong> concept'+(c.tracked===1?'':'s')+' attempted</span>'
   +'<span><strong>'+c.due+'</strong> to strengthen</span><span><strong>'+c.strong+'</strong> improving consistently</span></div>';
 };
 function mountIntro(){
