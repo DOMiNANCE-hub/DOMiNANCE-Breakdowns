@@ -20,10 +20,10 @@ Configure privately in the Vercel dashboard for a preview environment:
 Set a restrictive provider-side billing cap and review logs before enabling production. The Redis guard allows up to 25 coaching requests per inferred IP/day (subject to shared networks); it is not a cost guarantee.
 
 ## Configuration: Cloudflare Pages
-Bind Workers AI as `AI`. Bind a KV namespace as `LAMLA_COACH_LIMITS`. Set `LAMLA_COACH_ENABLED=true` explicitly. The KV guard is **best-effort**, not atomic under concurrent requests. Pair it with Cloudflare-level rate limiting and an account usage cap before public rollout.
+Bind Workers AI as `AI`. Bind a KV namespace as `LAMLA_COACH_LIMITS`. Set `LAMLA_COACH_ENABLED=true` explicitly. The default Workers AI model is `@cf/meta/llama-3.3-70b-instruct-fp8-fast`, which supports structured JSON responses. The KV guard is **best-effort**, not atomic under concurrent requests. Pair it with Cloudflare-level rate limiting and an account usage cap before public rollout.
 
 ## User privacy and scope
-AI coaching is opt-in per answer. It sends the question stem, four options, reviewed answer and explanation, chapter identifier, and the student's typed reasoning. It does **not** send a name, student ID, or entire study history. The page tells students this before submission. Avoid putting sensitive personal information into the reasoning field.
+AI coaching is opt-in per answer. It sends the question stem, four options, reviewed answer and explanation, chapter identifier, and the student's typed reasoning. It does **not** automatically attach a name, student ID, or entire study history; avoid typing personal details into free-text answers. The page tells students this before submission. Avoid putting sensitive personal information into the reasoning field.
 
 ## Tests and release
 - `node tests/lamla_coach_test.mjs` — Cloudflare handler diagnostics, input bounds, limits and AI failures
