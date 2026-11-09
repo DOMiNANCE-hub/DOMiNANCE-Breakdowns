@@ -13,6 +13,7 @@ const now=()=>Date.now();
 const mastery=o=>{
  if(!o||!o.attempts)return 'unseen';
  const recent=o.recent||[],accuracy=recent.reduce((a,b)=>a+b,0)/Math.max(1,recent.length);
+ if(o.coachGap)return 'needs review';
  if(o.streak>=3&&accuracy>=.8)return 'strengthening';
  if(o.streak>=2&&accuracy>=.65)return 'developing';
  return 'needs review';
@@ -24,6 +25,7 @@ function addAnswer(q,choice,source='session') {
  const isCorrect=choice===q.answer;
  o.attempts++;o.correct+=Number(isCorrect);o.recent=[...(o.recent||[]),Number(isCorrect)].slice(-6);
  o.streak=isCorrect?(o.streak||0)+1:0;
+ if(o.coachGap&&o.streak>=2)o.coachGap=false;
  o.last=now();o.lastQuestion=q.id;
  const status=mastery(o);
  o.due=now()+(status==='strengthening'?7*DAY:status==='developing'?2*DAY:isCorrect?1*DAY:0);
@@ -34,6 +36,17 @@ function addAnswer(q,choice,source='session') {
  persist();
  window.dispatchEvent(new CustomEvent('lamla:mastery-changed',{detail:{chapter:q.chapter,section:q.section,status,source}}));
 }
+window.addEventListener('lamla:coach-quality',e=>{
+ const detail=e?.detail||{},key=detail.chapter+':'+detail.section;
+ const o=data.objectives[key];
+ if(!o||!['sound','partial','incorrect'].includes(detail.quality))return;
+ o.coachQuality=detail.quality;o.coachLast=now();
+ if(detail.quality==='partial'||detail.quality==='incorrect'){
+   o.coachGap=true;o.due=now();
+ }else if(o.correct===o.attempts&&o.streak>=2)o.coachGap=false;
+ persist();
+ window.dispatchEvent(new CustomEvent('lamla:mastery-changed',{detail:{chapter:o.chapter,section:o.section,source:'coach'}}));
+});
 window.addEventListener('dom:answer',e=>{
  const id=e?.detail?.q,choice=e?.detail?.o;
  if(!id||!choice)return;
@@ -56,7 +69,7 @@ const counts=()=>{
 };
 const weak=()=>all().filter(o=>mastery(o)!=='strengthening'||o.due<=now()).sort((a,b)=>{
  const score=o=> (mastery(o)==='needs review'?6:mastery(o)==='developing'?3:0)
-   +(o.due<=now()?3:0)+Math.min(5,(o.attempts-o.correct)*2);
+   +(o.due<=now()?3:0)+(o.coachGap?5:0)+Math.min(5,(o.attempts-o.correct)*2);
  return score(b)-score(a)||a.due-b.due;
 });
 const css=document.createElement('style');
@@ -99,7 +112,7 @@ function pick(qs,n=6){
    const h=history[q.id];
    if(!o)return 1;
    const m=mastery(o);
-   return (m==='needs review'?10:m==='developing'?6:2)+(o.due<=now()?5:0)
+   return (m==='needs review'?10:m==='developing'?6:2)+(o.due<=now()?5:0)+(o.coachGap?5:0)
     +Math.min(5,(o.attempts-o.correct)*2) + (!h?4:h.last===o.last?-2:0);
   };
   return priority(b)-priority(a)||Number(!!history[a.id])-Number(!!history[b.id]);
@@ -120,7 +133,7 @@ function targets(){
  if(!xs.length)return '<p>Complete a short assessment to discover which concepts need more work.</p>';
  return '<p>Based on your previous answers, these concepts deserve another look:</p><ol class="lm-mastery-list">'+
  xs.map(o=>{const t=sectionTitle(o);return '<li><strong>'+esc(t.chapter)+'</strong><small>'+esc(t.section)
- +' · '+(mastery(o)==='needs review'?'Needs more practice':o.due<=now()?'Review due':'Developing')
+ +' · '+(o.coachGap?'AI noted a reasoning gap':mastery(o)==='needs review'?'Needs more practice':o.due<=now()?'Review due':'Developing')
  +'</small></li>'}).join('')+'</ol>';
 }
 let detection=null;
