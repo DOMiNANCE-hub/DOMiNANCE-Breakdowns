@@ -28,7 +28,10 @@ s.src=name;s.defer=true;document.head.appendChild(s)};
 const load=()=>{const hash=location.hash;
 if(hash.startsWith('#/lamla')||hash.startsWith('#/practice')||hash.includes('/test'))
   inject('lamla-mastery.js?v=20261109c');
-if(hash.startsWith('#/lamla/'))inject('lamla-coach.js?v=20261109c');
+if(hash.startsWith('#/lamla/')){
+  inject('lamla-coach.js?v=20261109c');
+  inject('lamla-lesson.js?v=20261109a');
+}
 };
 window.addEventListener('hashchange',load);load()})();
 </script>
