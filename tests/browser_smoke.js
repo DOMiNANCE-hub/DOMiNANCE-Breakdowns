@@ -820,7 +820,7 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
           ? {available:true,mode:'ai-ready'}
           : {source:'test',diagnosis:'The reasoning matches the reviewed explanation.',
              coaching:'Identify the mechanism that explains the change.',
-             checkQuestion:'How would this response affect resistance?'})
+             checkQuestion:'How would this response affect resistance?',reasoningQuality:'partial'})
       }));
       await openRoute(page,base,'#/');
       check(await page.locator('.practice-card').count()===1,'Homepage Practice card missing');
@@ -856,6 +856,8 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await page.waitForSelector('.lm-mastery');
       check((await page.locator('.lm-mastery').innerText()).includes('1 concept attempted'),
         'LAMLA should remember answered concepts on the same device');
+      check((await page.locator('.lm-mastery').innerText()).includes('AI noted a reasoning gap'),
+        'AI-detected reasoning gaps should affect the next practice priorities');
       await page.locator('.lm-mastery-start').click();
       await page.waitForSelector('.lm-drill-option',{timeout:10000});
       await page.locator('.lm-drill-option').first().click();
