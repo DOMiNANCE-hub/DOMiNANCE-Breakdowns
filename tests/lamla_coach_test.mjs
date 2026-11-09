@@ -16,8 +16,10 @@ const request=(data=payload)=>new Request('https://example.test/api/lamla-coach'
 });
 const noAI=await onRequestGet({env:{}});
 assert.equal((await noAI.json()).available,false);
-const noLimit=await onRequestGet({env:{LAMLA_COACH_ENABLED:'true',AI:{run:async()=>({})}}});
-assert.equal((await noLimit.json()).available,false);
+const existing=await onRequestGet({env:{AI:{run:async()=>({})}}});
+assert.equal((await existing.json()).available,true);
+const disabled=await onRequestGet({env:{LAMLA_COACH_ENABLED:'false',AI:{run:async()=>({})}}});
+assert.equal((await disabled.json()).available,false);
 const unavailable=await onRequestPost({request:request(),env:{}});
 assert.equal(unavailable.status,503);
 let count=0;
@@ -66,4 +68,9 @@ try{
  assert.equal(broken.status,503);
  assert.equal((await broken.json()).code,'inference_failed');
 }finally{console.error=original}
+let freeCalls=0;
+const freeEnv={AI:{run:async()=>{freeCalls++;return modelReply}}};
+for(let i=0;i<4;i++)assert.equal((await onRequestPost({request:request(),env:freeEnv})).status,200);
+assert.equal((await onRequestPost({request:request(),env:freeEnv})).status,429);
+assert.equal(freeCalls,4);
 console.log('PASS LAMLA reasoning coach availability, feedback, validation and usage guards');
