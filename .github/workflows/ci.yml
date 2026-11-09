@@ -76,6 +76,12 @@ jobs:
         run: node tests/api_test.js
       - name: LAMLA AI planner diagnostics
         run: node tests/lamla_ai_test.mjs
+      - name: LAMLA reasoning coach diagnostics
+        run: node tests/lamla_coach_test.mjs
+      - name: LAMLA AI lesson diagnostics
+        run: node tests/lamla_lesson_test.mjs
+      - name: Vercel LAMLA AI route diagnostics
+        run: node tests/lamla_vercel_plan_test.cjs
 
       - name: Performance budget (download size, render-blocking scripts, layout shift)
         run: node tests/perf_budget.js

@@ -814,6 +814,24 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     for (const width of [390,1280]) {
       const page=await newPage(browser,base,{viewport:{width,height:860}});
       await page.route('**'+'/api/lamla-plan',route=>route.fulfill({status:503,body:'{"error":"not configured"}'}));
+      await page.route('**/api/lamla-lesson',route=>{
+        let data={};if(route.request().method()==='POST')try{data=JSON.parse(route.request().postData()||'{}')}catch{}
+        route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(
+          route.request().method()==='GET'?{available:true,mode:'ai-ready'}
+            :data.mode==='assess'
+              ?{source:'test',mode:'assess',explanation:'',feedback:'That reasoning matches the reviewed points.',checkQuestion:'How would the response change flow?'}
+              :{source:'test',mode:'teach',explanation:'A falling pressure reduces baroreceptor stretch and afferent firing.',
+                feedback:'',checkQuestion:'What follows from reduced afferent firing?'}
+        )});
+      });
+      await page.route('**/api/lamla-coach',route=>route.fulfill({
+        status:200,contentType:'application/json',
+        body:JSON.stringify(route.request().method()==='GET'
+          ? {available:true,mode:'ai-ready'}
+          : {source:'test',diagnosis:'The reasoning matches the reviewed explanation.',
+             coaching:'Identify the mechanism that explains the change.',
+             checkQuestion:'How would this response affect resistance?',reasoningQuality:'partial'})
+      }));
       await openRoute(page,base,'#/');
       check(await page.locator('.practice-card').count()===1,'Homepage Practice card missing');
       check(await page.locator('.lamla-card:not(.practice-card)').count()===1,'Homepage LAMLA card missing');
@@ -832,6 +850,29 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       check(await page.locator('.lt-option').count()===4,'Revision should begin with lecture MCQs');
       await page.locator('.lt-option').first().click();
       check(await page.locator('.lt-verdict').count()===1,'Revision needs a feedback explanation');
+      await page.waitForSelector('.lm-coach-panel');
+      check(await page.locator('.lm-coach-panel').count()===1,'LAMLA should offer optional reasoning coaching');
+      await page.locator('.lm-coach-panel textarea').fill('The mechanism depends on the change in pressure sensed by the receptors.');
+      await page.locator('.lm-coach-send').click();
+      await page.waitForSelector('.lm-coach-output:not([hidden])');
+      check((await page.locator('.lm-coach-output').innerText()).includes('Diagnosis'),
+        'Connected tutor should assess the student reasoning');
+      await page.locator('.lm-coach-output textarea').fill('The reflex acts through increased sympathetic output to arterioles.');
+      await page.locator('.lm-coach-output button').click();
+      await page.waitForSelector('.lm-coach-followup strong');
+      check((await page.locator('.lm-coach-followup').innerText()).includes('follow-up assessment'),
+        'The AI coach must assess a second student explanation');
+      await openRoute(page,base,'#/lamla');
+      await page.waitForSelector('.lm-mastery');
+      check((await page.locator('.lm-mastery').innerText()).includes('1 concept attempted'),
+        'LAMLA should remember answered concepts on the same device');
+      check((await page.locator('.lm-mastery').innerText()).includes('AI noted a reasoning gap'),
+        'AI-detected reasoning gaps should affect the next practice priorities');
+      await page.locator('.lm-mastery-start').click();
+      await page.waitForSelector('.lm-drill-option',{timeout:10000});
+      await page.locator('.lm-drill-option').first().click();
+      check(await page.locator('.lm-drill-answer').count()===1,
+        'Focused retrieval must reveal the approved explanation');
       await openRoute(page,base,'#/lamla');
       await page.locator('#lm-time').selectOption('30');
       await page.locator('input[name="goal"][value="revise"]').check();
@@ -843,6 +884,17 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await page.waitForSelector('.lm-start');
       await page.locator('.lm-start').click();
       check(await page.locator('.lm-must li').count()>0,'Accelerated learning should begin with approved notes');
+      await page.waitForSelector('.lm-ai-lesson');
+      await page.locator('.lm-ai-lesson summary').click();
+      await page.locator('.lm-ai-lesson > button').click();
+      await page.waitForSelector('.lm-ai-lesson-result:not([hidden])');
+      check((await page.locator('.lm-ai-lesson-result').innerText()).includes('Guided explanation'),
+        'Learn mode should provide model-guided teaching when connected');
+      await page.locator('.lm-ai-lesson-result textarea').fill('Lower baroreceptor firing increases sympathetic activity and resistance.');
+      await page.locator('.lm-ai-lesson-result button').click();
+      await page.waitForSelector('.lm-ai-lesson-result h3:has-text("Reasoning feedback")', {timeout:10000});
+      check((await page.locator('.lm-ai-lesson-result').innerText()).includes('Reasoning feedback'),
+        'Guided teaching must assess student teach-back');
       await page.locator('.lm-next').click();
       check(await page.locator('.lt-option').count()===4,'Learning should lead to lecture MCQs');
       await openRoute(page,base,'#/lamla');
@@ -881,6 +933,13 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
         check(await page.locator('.article-sheet:not(.is-skeleton) > h1').count() === 1, `offline: saved chapter ${slug} did not open`);
       }
       check(await page.locator('[data-widget="reflex-tracer"][data-ready]').count() === 1, 'offline: interactive did not work offline');
+      await openRoute(page,base,'#/lamla');
+      await page.waitForSelector('.lamla-lecture',{timeout:10000});
+      check(await page.locator('.lamla-lecture').count()>=5,'offline: built-in LAMLA picker failed to open');
+      await page.locator('#lm-time').selectOption('30');
+      await page.locator('[data-lecture="circulation-2"]').click();
+      await page.waitForSelector('.lm-start',{timeout:12000});
+      check(await page.locator('.lm-ai-status').count()===1,'offline: LAMLA route was not available');
       await ctx.setOffline(false);
     }
     check(page.pageErrors.length === 0, `offline: page errors ${page.pageErrors.join('; ')}`);

@@ -20,4 +20,51 @@
 <main id="main" class="wrap" tabindex="-1"></main>
 <footer class="site-footer"><div class="wrap footer-inner"><span class="footer-brand">DOM<span class="gold-i">i</span>NANCE <span>BREAKDOWNS</span></span><span>Concept-first medical learning · Read thoughtfully, verify clinically</span></div></footer>
 <script src="content/index.js?v=1890c96d6c" defer></script><script src="app.js?v=2a888b2f60" defer></script><script src="mobile-ui.js?v=1fd429a8ca" defer></script><script src="offline.js?v=f9704cc261" defer></script><script src="reader.js?v=fdcf6fb050" defer></script><script src="feedback.js?v=e74d8f5cf3" defer></script>
+<script>
+/* A lightweight anonymous, device-local AI allowance; server-side limits remain best effort.
+   On Workers Free, Cloudflare's daily Neuron cap is the hard inference budget. */
+window.LAMLAQuota=(()=>{
+ const today=()=>new Date().toISOString().slice(0,10);
+ const get=(k)=>{try{return localStorage.getItem(k)}catch{return null}};
+ const put=(k,v)=>{try{localStorage.setItem(k,v)}catch{}};
+ const id=()=>{
+   let v=get('dom-lamla-ai-visitor');
+   if(!v){v=(crypto?.randomUUID?.()||'00000000-0000-4000-8000-'+Math.random().toString(16).slice(2).padEnd(12,'0'));put('dom-lamla-ai-visitor',v)}
+   return v;
+ };
+ const key=()=> 'dom-lamla-ai-uses-'+today();
+ const remaining=()=>Math.max(0,4-(Number(get(key())||0)||0));
+ const consume=()=>{const n=Number(get(key())||0)||0;if(n>=4)return false;put(key(),String(n+1));return true};
+ return {id,remaining,consume};
+})();
+/* Load learning memory on LAMLA screens and AI feedback on sessions; never on the homepage. */
+(()=>{const loaded=new Set();
+const inject=(name)=>{if(loaded.has(name))return;loaded.add(name);const s=document.createElement('script');
+s.src=name;s.defer=true;document.head.appendChild(s)};
+const load=()=>{const hash=location.hash;
+if(hash.startsWith('#/lamla')||hash.startsWith('#/practice')||hash.includes('/test'))
+  inject('lamla-mastery.js?v=20261109d');
+if(hash.startsWith('#/lamla/')){
+  inject('lamla-coach.js?v=20261109f');
+  inject('lamla-lesson.js?v=20261109d');
+}
+};
+window.addEventListener('hashchange',load);load()})();
+</script>
+<script>
+/* Include LAMLA prerequisites in Save All's explicit offline download list.
+   Do not rely on a delayed background fetch: a user can disconnect immediately after Save All. */
+(()=>{
+  const files=['study-ui.js?v=1','lamla-mastery.js?v=20261109d',
+    'lamla-coach.js?v=20261109f','lamla-lesson.js?v=20261109d'];
+  const register=()=>{
+    const bundle=window.DOM_BUNDLE;
+    if(!bundle)return;
+    const assets=bundle.assets||(bundle.assets=[]);
+    for(const file of files)if(!assets.includes(file))assets.push(file);
+  };
+  window.addEventListener('DOMContentLoaded',register);
+  window.addEventListener('load',register);
+})();
+</script>
 </body></html>
