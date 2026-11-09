@@ -71,13 +71,17 @@
     button.addEventListener('click',async()=>{
       const studentReason=input.value.trim();
       if(!isReady||working||studentReason.length<15)return;
+      if(window.LAMLAQuota&&!window.LAMLAQuota.consume()){
+        status(state,'Your four free AI interactions for today are used. Continue with reviewed notes and targeted practice.');
+        return;
+      }
       working=true;update();
       status(state,'LAMLA is checking your reasoning against the approved explanation…');
       output.hidden=true;output.replaceChildren();
       const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
       try{
         const response=await fetch('/api/lamla-coach',{
-          method:'POST',headers:{'Content-Type':'application/json'},
+          method:'POST',headers:{'Content-Type':'application/json','X-LAMLA-Visitor':window.LAMLAQuota?.id?.()||''},
           body:JSON.stringify({
             topic:q.chapter,stem:q.stem,chosen,correct:q.answer,
             options:['A','B','C','D'].map(k=>q.options[k]),explanation:q.why,studentReason
@@ -119,12 +123,16 @@
         followButton.addEventListener('click',async()=>{
           const followUpAnswer=followInput.value.trim();
           if(working||followUpAnswer.length<15)return;
+          if(window.LAMLAQuota&&!window.LAMLAQuota.consume()){
+            status(state,'Your free AI allowance for today is used. The reviewed explanation is still available.');
+            return;
+          }
           working=true;followButton.disabled=true;update();
           status(state,'LAMLA is assessing your explanation…');
           const ctrl=new AbortController(),timeout=setTimeout(()=>ctrl.abort(),20000);
           try {
             const res=await fetch('/api/lamla-coach',{
-              method:'POST',headers:{'Content-Type':'application/json'},
+              method:'POST',headers:{'Content-Type':'application/json','X-LAMLA-Visitor':window.LAMLAQuota?.id?.()||''},
               body:JSON.stringify({
                 topic:q.chapter,stem:q.stem,chosen,correct:q.answer,
                 options:['A','B','C','D'].map(k=>q.options[k]),explanation:q.why,
