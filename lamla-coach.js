@@ -94,6 +94,11 @@
           const p=document.createElement('p'),label=document.createElement('strong');
           label.textContent=name+': ';p.append(label,document.createTextNode(String(value)));output.append(p);
         }
+        if(['sound','partial','incorrect'].includes(result.reasoningQuality)){
+          window.dispatchEvent(new CustomEvent('lamla:coach-quality',{
+            detail:{q:q.id,chapter:q.chapter,section:q.section,quality:result.reasoningQuality}
+          }));
+        }
         output.hidden=false;
         status(state,'AI feedback ready. The reviewed question answer remains authoritative.');
         // A tutor should listen to the answer, not stop at asking a question.
