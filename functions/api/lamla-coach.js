@@ -1,27 +1,39 @@
 // LAMLA reasoning coach for Cloudflare Pages / Workers AI.
-// Deliberately disabled until an operator enables it and configures a rate-limit KV namespace.
+// Reuse the existing free Workers AI binding. A configured KV namespace strengthens limits; without it, use best-effort per-visitor limits and the Cloudflare Free plan's hard quota.
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-const ready=env=>env?.LAMLA_COACH_ENABLED==='true' && typeof env?.AI?.run==='function' &&
-  typeof env?.LAMLA_COACH_LIMITS?.get==='function' && typeof env?.LAMLA_COACH_LIMITS?.put==='function';
+const ready=env=>env?.LAMLA_COACH_ENABLED!=='false' && typeof env?.AI?.run==='function';
+const localCounts=new Map();
 const str=(v,n)=>typeof v==='string'?v.trim().slice(0,n):'';
-const model='@cf/meta/llama-3.3-70b-instruct-fp8-fast';
+const model='@cf/meta/llama-3.1-8b-instruct-fast';
 
 export function onRequestGet({env}) {
   return json({service:'lamla-coach',mode:ready(env)?'ai-ready':'built-in',
-    available:ready(env),requires:'Workers AI binding, LAMLA_COACH_ENABLED=true, and LAMLA_COACH_LIMITS KV'});
+    available:ready(env),requires:'existing Workers AI binding; optional LAMLA_COACH_LIMITS KV for durable usage limits'});
 }
 
 async function withinLimit(request,env){
-  // Fail closed if rate-limit storage is unavailable. Do not store IP addresses as values.
   const ip=request.headers.get('CF-Connecting-IP')||'unknown';
-  const bytes=new TextEncoder().encode(ip+'|'+new Date().toISOString().slice(0,10));
-  const digest=await crypto.subtle.digest('SHA-256',bytes);
+  const visitor=(request.headers.get('X-LAMLA-Visitor')||'').trim();
+  const valid=/^[a-f0-9-]{20,50}$/i.test(visitor)?visitor:'unknown';
+  const day=new Date().toISOString().slice(0,10);
+  const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(ip+'|'+valid+'|'+day));
   const hash=Array.from(new Uint8Array(digest)).slice(0,12).map(x=>x.toString(16).padStart(2,'0')).join('');
-  const key='lamla-coach:v1:'+hash;
-  const n=Number(await env.LAMLA_COACH_LIMITS.get(key)||0);
-  if(n>=25)return false;
-  // KV isn't atomic; this is a conservative usage guard, not a concurrency-proof quota.
-  await env.LAMLA_COACH_LIMITS.put(key,String(n+1),{expirationTtl:86400});
+  const key='lamla-coach:v2:'+hash;
+  const kv=env?.LAMLA_COACH_LIMITS;
+  if(typeof kv?.get==='function'&&typeof kv?.put==='function'){
+    const n=Number(await kv.get(key)||0);
+    if(n>=25)return false;
+    await kv.put(key,String(n+1),{expirationTtl:86400});
+    return true;
+  }
+  // KV binding is optional. This isolate-local fallback is NOT a global rate limit.
+  // The account must stay on Workers Free to avoid pay-as-you-go AI charges.
+  const n=localCounts.get(key)||0;
+  if(n>=4)return false;
+  localCounts.set(key,n+1);
+  if(localCounts.size>2000){
+    for(const [k] of localCounts){localCounts.delete(k);if(localCounts.size<1600)break}
+  }
   return true;
 }
 
@@ -65,7 +77,7 @@ export async function onRequestPost({request,env}) {
   try{
     const out=await env.AI.run(model,{
       messages:[{role:'system',content:instruction},{role:'user',content:'Assess this learning attempt:\n'+context}],
-      response_format:{type:'json_object'},temperature:0.15,max_tokens:420
+      response_format:{type:'json_schema',json_schema:{type:'object',properties:{diagnosis:{type:'string'},coaching:{type:'string'},checkQuestion:{type:'string'},reasoningQuality:{type:'string'}},required:['diagnosis','coaching','checkQuestion','reasoningQuality']}},temperature:0.1,max_tokens:420
     });
     const raw=out?.response??out?.result?.response;
     let parsed=typeof raw==='object'&&raw?raw:null;
