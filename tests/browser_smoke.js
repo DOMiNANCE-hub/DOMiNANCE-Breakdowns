@@ -814,6 +814,16 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
     for (const width of [390,1280]) {
       const page=await newPage(browser,base,{viewport:{width,height:860}});
       await page.route('**'+'/api/lamla-plan',route=>route.fulfill({status:503,body:'{"error":"not configured"}'}));
+      await page.route('**/api/lamla-lesson',route=>{
+        let data={};if(route.request().method()==='POST')try{data=JSON.parse(route.request().postData()||'{}')}catch{}
+        route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(
+          route.request().method()==='GET'?{available:true,mode:'ai-ready'}
+            :data.mode==='assess'
+              ?{source:'test',mode:'assess',explanation:'',feedback:'That reasoning matches the reviewed points.',checkQuestion:'How would the response change flow?'}
+              :{source:'test',mode:'teach',explanation:'A falling pressure reduces baroreceptor stretch and afferent firing.',
+                feedback:'',checkQuestion:'What follows from reduced afferent firing?'}
+        )});
+      });
       await page.route('**/api/lamla-coach',route=>route.fulfill({
         status:200,contentType:'application/json',
         body:JSON.stringify(route.request().method()==='GET'
@@ -874,6 +884,17 @@ const chapterUrl = slug => '#/physiology/cvs/' + slug;
       await page.waitForSelector('.lm-start');
       await page.locator('.lm-start').click();
       check(await page.locator('.lm-must li').count()>0,'Accelerated learning should begin with approved notes');
+      await page.waitForSelector('.lm-ai-lesson');
+      await page.locator('.lm-ai-lesson summary').click();
+      await page.locator('.lm-ai-lesson > button').click();
+      await page.waitForSelector('.lm-ai-lesson-result:not([hidden])');
+      check((await page.locator('.lm-ai-lesson-result').innerText()).includes('Guided explanation'),
+        'Learn mode should provide model-guided teaching when connected');
+      await page.locator('.lm-ai-lesson-result textarea').fill('Lower baroreceptor firing increases sympathetic activity and resistance.');
+      await page.locator('.lm-ai-lesson-result button').click();
+      await page.waitForSelector('.lm-ai-lesson-result h3', {timeout:10000});
+      check((await page.locator('.lm-ai-lesson-result').innerText()).includes('Reasoning feedback'),
+        'Guided teaching must assess student teach-back');
       await page.locator('.lm-next').click();
       check(await page.locator('.lt-option').count()===4,'Learning should lead to lecture MCQs');
       await openRoute(page,base,'#/lamla');
